@@ -20,7 +20,12 @@ export class ModelRenderer {
     return { successes: this.successes, failures: this.failures };
   }
 
-  async render(modelEntry: ModelFileEntry, textureBytes: Buffer, slug: string): Promise<string | null> {
+  async render(
+    modelEntry: ModelFileEntry,
+    textureBytes: Buffer,
+    slug: string,
+    poseOffsets?: Map<string, [number, number, number]> | null
+  ): Promise<string | null> {
     const fileName = `${slug}.png`;
     if (this.written.has(fileName)) return `/renders/${fileName}`;
 
@@ -29,7 +34,7 @@ export class ModelRenderer {
       if (!handle) return null;
       const geoText = readText(handle, modelEntry.path);
       if (!geoText) return null;
-      const model = parseGeoModel(JSON.parse(geoText));
+      const model = parseGeoModel(JSON.parse(geoText), poseOffsets);
       if (!model) return null;
 
       const image = await loadImage(textureBytes);

@@ -87,6 +87,21 @@ Prioridad al resolver la imagen de cada Pokémon/forma:
 En la extracción más reciente (2268 entradas) el resultado fue 1027 sprites,
 1239 renders y 2 texturas planas - **cero placeholders**.
 
+### Pose de los renders 2.5D
+
+Los renders no usan la pose "bind" cruda del modelo (que en muchos modelos
+Bedrock es una especie de pose en T con las patas/vides estiradas hacia los
+lados) - el pipeline busca el archivo *poser* del propio Cobblemon
+(`bedrock/pokemon/posers/<especie>/*.json`), encuentra la pose de reposo que
+usa la UI del juego (`PROFILE`/`PORTRAIT`, la misma que se ve en la PC y en
+la pantalla de resumen del equipo), resuelve la animación bedrock que esa
+pose referencia, y evalúa esa animación en el instante `anim_time = 0`
+(soporta expresiones Molang simples: `math.sin`, `math.clamp`, aritmética -
+ver `pipeline/src/molang.ts`). Esos ángulos de hueso se suman encima de la
+pose bind antes de renderizar. Si un mod no trae poser/animación (o usa algo
+que el mini-evaluador no reconoce), simplemente no hay ángulos extra y el
+render cae de vuelta a la pose bind de siempre - nunca falla ni empeora nada.
+
 ## Limitaciones conocidas (fase actual)
 
 - La numeración de "Pokédex completa" ordena por `nationalPokedexNumber`; si

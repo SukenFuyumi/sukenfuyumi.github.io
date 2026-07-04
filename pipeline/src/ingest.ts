@@ -24,6 +24,8 @@ export interface IngestResult {
   showdownBase: ShowdownBaseData;
   textures: TextureEntry[];
   models: ModelFileEntry[];
+  posers: ModelFileEntry[];
+  animations: ModelFileEntry[];
   warnings: string[];
 }
 
@@ -46,6 +48,8 @@ export function ingestAll(manifest: SourcesManifest, sourceRoot: string): Ingest
   const lang = new Map<string, { value: string; sourceId: string; priority: number }>();
   const textures: TextureEntry[] = [];
   const models: ModelFileEntry[] = [];
+  const posers: ModelFileEntry[] = [];
+  const animations: ModelFileEntry[] = [];
   const warnings: string[] = [];
 
   const sorted = [...manifest.sources].sort((a, b) => a.priority - b.priority);
@@ -102,6 +106,16 @@ export function ingestAll(manifest: SourcesManifest, sourceRoot: string): Ingest
     for (const modelPath of listEntries(handle, (n) => /^assets\/[^/]+\/bedrock\/(pokemon\/)?models\/.*\.geo\.json$/.test(n))) {
       models.push({ sourceId: source.id, path: modelPath });
     }
+    // Posers (which idle/standing pose to use, e.g. PROFILE/PORTRAIT for the
+    // Pokedex/summary-screen look) and their animation files (the actual bone
+    // rotations for that pose) - used to render a natural stance instead of
+    // the model's raw bind pose.
+    for (const poserPath of listEntries(handle, (n) => /^assets\/[^/]+\/bedrock\/(pokemon\/)?posers\/.*\.json$/.test(n))) {
+      posers.push({ sourceId: source.id, path: poserPath });
+    }
+    for (const animPath of listEntries(handle, (n) => /^assets\/[^/]+\/bedrock\/(pokemon\/)?animations\/.*\.animation\.json$/.test(n))) {
+      animations.push({ sourceId: source.id, path: animPath });
+    }
 
     // lang files: data used for pokedex description text (species.pokedex keys)
     for (const langPath of listEntries(handle, (n) => /^assets\/[^/]+\/lang\/en_us\.json$/.test(n))) {
@@ -133,5 +147,5 @@ export function ingestAll(manifest: SourcesManifest, sourceRoot: string): Ingest
     }
   }
 
-  return { species, speciesAdditions, moveOverrides, abilityOverrides, spawnPools, lang, showdownBase, textures, models, warnings };
+  return { species, speciesAdditions, moveOverrides, abilityOverrides, spawnPools, lang, showdownBase, textures, models, posers, animations, warnings };
 }

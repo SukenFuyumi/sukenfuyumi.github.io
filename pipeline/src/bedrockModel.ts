@@ -25,7 +25,7 @@ export interface ParsedModel {
   cubes: FlatCube[];
 }
 
-export function parseGeoModel(json: any): ParsedModel | null {
+export function parseGeoModel(json: any, poseOffsets?: Map<string, [number, number, number]> | null): ParsedModel | null {
   const geo = json?.["minecraft:geometry"]?.[0];
   if (!geo) return null;
   const textureWidth = geo.description?.texture_width ?? 64;
@@ -37,13 +37,26 @@ export function parseGeoModel(json: any): ParsedModel | null {
     if (bone?.name) bonesByName.set(bone.name, bone);
   }
 
+  // A bone's effective rest rotation is its bind-pose rotation (from the
+  // model file, if any) plus whatever the resolved idle/standing pose
+  // contributes for that bone name (if any) - this is what turns a stiff
+  // bind-pose "T-pose" render into the natural stance Cobblemon's own UI
+  // shows, without needing a full runtime animation system.
+  function effectiveRotation(bone: any): [number, number, number] | null {
+    const base: [number, number, number] = Array.isArray(bone.rotation) ? bone.rotation : [0, 0, 0];
+    const offset = bone.name ? poseOffsets?.get(bone.name) : null;
+    if (!offset) return Array.isArray(bone.rotation) ? base : null;
+    return [base[0] + offset[0], base[1] + offset[1], base[2] + offset[2]];
+  }
+
   function boneChain(bone: any): TransformStep[] {
     const chain: TransformStep[] = [];
     let current = bone;
     let guard = 0;
     while (current && guard++ < 32) {
-      if (Array.isArray(current.pivot) && Array.isArray(current.rotation)) {
-        chain.push({ pivot: current.pivot, rotation: current.rotation });
+      if (Array.isArray(current.pivot)) {
+        const rotation = effectiveRotation(current);
+        if (rotation) chain.push({ pivot: current.pivot, rotation });
       }
       current = current.parent ? bonesByName.get(current.parent) : null;
     }
@@ -60,8 +73,9 @@ export function parseGeoModel(json: any): ParsedModel | null {
       if (Array.isArray(cube.rotation) && Array.isArray(cubePivot)) {
         transformChain.push({ pivot: cubePivot, rotation: cube.rotation });
       }
-      if (Array.isArray(bone.pivot) && Array.isArray(bone.rotation)) {
-        transformChain.push({ pivot: bone.pivot, rotation: bone.rotation });
+      if (Array.isArray(bone.pivot)) {
+        const rotation = effectiveRotation(bone);
+        if (rotation) transformChain.push({ pivot: bone.pivot, rotation });
       }
       transformChain.push(...ancestorChain);
       cubes.push({

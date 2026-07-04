@@ -8,6 +8,7 @@ import { officialArtworkUrl, placeholderImage, type SpeciesImage } from "./image
 import { buildTextureIndex, pickTexture, TextureExtractor } from "./textures.js";
 import { buildModelIndex, pickModel } from "./modelIndex.js";
 import { ModelRenderer } from "./modelRenderer.js";
+import { buildPoserIndex, buildAnimationIndex, PoseResolver } from "./poseData.js";
 import { ZipHandleCache } from "./zipUtil.js";
 import { buildSpawnIndex } from "./spawn.js";
 import { assignUniqueSlugs, takeUniqueSlug } from "./slug.js";
@@ -127,9 +128,12 @@ async function main() {
   const spawnIndex = buildSpawnIndex(ingested.spawnPools);
   const textureIndex = buildTextureIndex(ingested.textures);
   const modelIndex = buildModelIndex(ingested.models);
+  const poserIndex = buildPoserIndex(ingested.posers);
+  const animationIndex = buildAnimationIndex(ingested.animations);
   const zipHandles = new ZipHandleCache(sourceRoot, manifest.sources);
   const textureExtractor = new TextureExtractor(zipHandles, PUBLIC_TEXTURES_DIR);
   const modelRenderer = new ModelRenderer(zipHandles, PUBLIC_RENDERS_DIR);
+  const poseResolver = new PoseResolver(zipHandles, poserIndex, animationIndex);
   console.log(`Indexed ${textureIndex.size} texture folders and ${modelIndex.size} model folders.`);
 
   // Prefer a real static 2.5D render (parsed from the actual Bedrock model +
@@ -141,7 +145,11 @@ async function main() {
     if (model && texture) {
       const texBytes = textureExtractor.readBytes(texture);
       if (texBytes) {
-        const url = await modelRenderer.render(model, texBytes, slug);
+        // Rest-frame offsets from the species' own idle/standing pose (same
+        // one Cobblemon's PC box/summary screen uses) instead of the model's
+        // raw bind pose, which is often a stiff, T-pose-like rest state.
+        const poseOffsets = poseResolver.resolve(identifier);
+        const url = await modelRenderer.render(model, texBytes, slug, poseOffsets);
         if (url) return { kind: "render", url, placeholderColor: typeColor(primaryType) };
       }
     }
