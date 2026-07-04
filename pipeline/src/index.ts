@@ -134,6 +134,8 @@ async function main() {
   const textureExtractor = new TextureExtractor(zipHandles, PUBLIC_TEXTURES_DIR);
   const modelRenderer = new ModelRenderer(zipHandles, PUBLIC_RENDERS_DIR);
   const poseResolver = new PoseResolver(zipHandles, poserIndex, animationIndex);
+  let poseResolvedCount = 0;
+  let poseUnresolvedCount = 0;
   console.log(`Indexed ${textureIndex.size} texture folders and ${modelIndex.size} model folders.`);
 
   // Prefer a real static 2.5D render (parsed from the actual Bedrock model +
@@ -149,6 +151,8 @@ async function main() {
         // one Cobblemon's PC box/summary screen uses) instead of the model's
         // raw bind pose, which is often a stiff, T-pose-like rest state.
         const poseOffsets = poseResolver.resolve(identifier);
+        if (poseOffsets) poseResolvedCount++;
+        else poseUnresolvedCount++;
         const url = await modelRenderer.render(model, texBytes, slug, poseOffsets);
         if (url) return { kind: "render", url, placeholderColor: typeColor(primaryType) };
       }
@@ -541,6 +545,7 @@ async function main() {
 
   console.log(`\nDone. ${records.size} species + ${formRecords.length} form pages written. ${allConflicts.length} field-level conflicts resolved (see conflicts.json).`);
   console.log(`Renders: ${modelRenderer.stats.successes} succeeded, ${modelRenderer.stats.failures} fell back to texture/placeholder.`);
+  console.log(`Pose offsets: ${poseResolvedCount} resolved from a poser+animation, ${poseUnresolvedCount} had none available (rendered with the model's raw bind pose instead).`);
   console.log(`Output: site/src/data/generated/`);
 }
 

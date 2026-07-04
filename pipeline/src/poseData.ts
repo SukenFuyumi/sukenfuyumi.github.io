@@ -53,7 +53,10 @@ function extractBedrockAnimNames(pose: any): string[] {
   const names: string[] = [];
   for (const anim of pose?.animations ?? []) {
     if (typeof anim !== "string") continue;
-    const match = anim.match(/q\.bedrock(?:_stateful|_primary)?\(\s*'[^']*'\s*,\s*'([^']+)'/);
+    // Two syntaxes show up across mods: modern Molang - q.bedrock('name', 'anim') -
+    // and an older unquoted, unprefixed form some packs (e.g. Digimod) still use -
+    // bedrock(name, anim). Match both.
+    const match = anim.match(/(?:q\.)?bedrock(?:_stateful|_primary)?\(\s*'?[^,']*'?\s*,\s*'?([a-zA-Z0-9_]+)'?\s*[,)]/);
     if (match) names.push(match[1]);
   }
   return names;
@@ -63,6 +66,39 @@ type Vec3 = [number, number, number];
 
 function addVec3(a: Vec3, b: Vec3): Vec3 {
   return [a[0] + b[0], a[1] + b[1], a[2] + b[2]];
+}
+
+function vec3From(raw: unknown): Vec3 | null {
+  if (!Array.isArray(raw) || raw.length !== 3) return null;
+  return [resolveMolangValue(raw[0]), resolveMolangValue(raw[1]), resolveMolangValue(raw[2])];
+}
+
+// A bone's rotation is either a flat [x,y,z] (Cobblemon's own official
+// packs), or a keyframe map like { "0.0": [x,y,z], "0.5": [...], ... } keyed
+// by time in seconds (older-style packs, e.g. Digimod). For a static render
+// we want whichever keyframe sits at/nearest t=0 - the rest frame of the loop.
+function extractRestRotation(rotation: unknown): Vec3 | null {
+  const direct = vec3From(rotation);
+  if (direct) return direct;
+  if (!rotation || typeof rotation !== "object" || Array.isArray(rotation)) return null;
+
+  let bestTime = Infinity;
+  let bestValue: unknown = null;
+  for (const [time, value] of Object.entries(rotation as Record<string, unknown>)) {
+    const t = Math.abs(parseFloat(time));
+    if (Number.isFinite(t) && t < bestTime) {
+      bestTime = t;
+      bestValue = value;
+    }
+  }
+  if (bestValue == null) return null;
+  // Some keyframes carry {"pre": [...], "post": [...]} for interpolation
+  // instead of a bare [x,y,z].
+  if (!Array.isArray(bestValue) && typeof bestValue === "object") {
+    const obj = bestValue as Record<string, unknown>;
+    return vec3From(obj.post) ?? vec3From(obj.pre);
+  }
+  return vec3From(bestValue);
 }
 
 /**
@@ -127,13 +163,8 @@ export class PoseResolver {
           if (!anim?.bones) continue;
           offsets ??= new Map();
           for (const [boneName, boneData] of Object.entries<any>(anim.bones)) {
-            const rotation = boneData?.rotation;
-            if (!Array.isArray(rotation) || rotation.length !== 3) continue;
-            const resolved: Vec3 = [
-              resolveMolangValue(rotation[0]),
-              resolveMolangValue(rotation[1]),
-              resolveMolangValue(rotation[2]),
-            ];
+            const resolved = extractRestRotation(boneData?.rotation);
+            if (!resolved) continue;
             const existing = offsets.get(boneName);
             offsets.set(boneName, existing ? addVec3(existing, resolved) : resolved);
           }
