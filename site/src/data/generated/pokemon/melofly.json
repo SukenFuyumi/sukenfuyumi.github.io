@@ -1,0 +1,962 @@
+{
+  "id": "cobblemon:melofly",
+  "namespace": "cobblemon",
+  "slug": "melofly",
+  "name": "Melofly",
+  "nationalPokedexNumber": 1051,
+  "primaryType": "flying",
+  "secondaryType": "poison",
+  "types": [
+    "flying",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 35,
+    "defence": 57,
+    "special_attack": 97,
+    "special_defence": 57,
+    "speed": 114
+  },
+  "baseStatTotal": 425,
+  "abilities": [
+    "perishbody",
+    "effectspore"
+  ],
+  "hiddenAbilities": [
+    "adaptability"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 45,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 1,
+  "weight": 9,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 149,
+  "labels": [
+    "laserdex",
+    "minecraftian"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "poison",
+      "types": [
+        "flying",
+        "poison"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 65,
+        "attack": 35,
+        "defence": 97,
+        "special_attack": 127,
+        "special_defence": 117,
+        "speed": 84
+      },
+      "baseStatTotal": 525,
+      "abilities": [
+        "deathsong"
+      ],
+      "hiddenAbilities": [
+        "deathsong"
+      ],
+      "pokedexDescription": "Mega Evolution has caused Melofly's wings to grow significantly larger, allowing it to spread its deadly powder further than ever before. The slow flap of its bioluminescent wings emits a sound that resembles music, entrancing its prey as they slowly succumb to its poison.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "butterflylanding",
+            "level": 1
+          },
+          {
+            "moveId": "gust",
+            "level": 1
+          },
+          {
+            "moveId": "poisonsting",
+            "level": 1
+          },
+          {
+            "moveId": "poisonpowder",
+            "level": 1
+          },
+          {
+            "moveId": "stunspore",
+            "level": 1
+          },
+          {
+            "moveId": "bugbite",
+            "level": 1
+          },
+          {
+            "moveId": "captivate",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "sing",
+            "level": 1
+          },
+          {
+            "moveId": "supersonic",
+            "level": 4
+          },
+          {
+            "moveId": "confusion",
+            "level": 8
+          },
+          {
+            "moveId": "clearsmog",
+            "level": 12
+          },
+          {
+            "moveId": "acidspray",
+            "level": 14
+          },
+          {
+            "moveId": "psybeam",
+            "level": 16
+          },
+          {
+            "moveId": "aircutter",
+            "level": 20
+          },
+          {
+            "moveId": "airslash",
+            "level": 24
+          },
+          {
+            "moveId": "alluringvoice",
+            "level": 26
+          },
+          {
+            "moveId": "infestation",
+            "level": 28
+          },
+          {
+            "moveId": "toxic",
+            "level": 28
+          },
+          {
+            "moveId": "venoshock",
+            "level": 30
+          },
+          {
+            "moveId": "bugbuzz",
+            "level": 32
+          },
+          {
+            "moveId": "sludgebomb",
+            "level": 34
+          },
+          {
+            "moveId": "tailwind",
+            "level": 36
+          },
+          {
+            "moveId": "defog",
+            "level": 38
+          },
+          {
+            "moveId": "ragepowder",
+            "level": 40
+          },
+          {
+            "moveId": "quiverdance",
+            "level": 44
+          },
+          {
+            "moveId": "perishsong",
+            "level": 48
+          },
+          {
+            "moveId": "hurricane",
+            "level": 52
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "acrobatics"
+          },
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "airslash"
+          },
+          {
+            "moveId": "alluringvoice"
+          },
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "bugbite"
+          },
+          {
+            "moveId": "bugbuzz"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "hurricane"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "infestation"
+          },
+          {
+            "moveId": "nightlight"
+          },
+          {
+            "moveId": "ominouswind"
+          },
+          {
+            "moveId": "pollenpuff"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicnoise"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "silverwind"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "sludgewave"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "spiritdrain"
+          },
+          {
+            "moveId": "stringshot"
+          },
+          {
+            "moveId": "strugglebug"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "twister"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "venoshock"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "bugbite"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "ominouswind"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "stringshot"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "twister"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "electric",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.25
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.25
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.25
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "ground"
+        ]
+      },
+      "evolutions": [],
+      "slug": "melofly-mega"
+    }
+  ],
+  "pokedexDescription": "Its florescent glow makes a buzzing noise that sounds like a melody, which is where it gets its name from... Be warned, however, because the Melofly emits poisonous dust that can be fatal within seconds of touching your skin. If you come into contact with it, its melodic buzzing may be the last thing you hear.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "butterflylanding",
+        "level": 1
+      },
+      {
+        "moveId": "gust",
+        "level": 1
+      },
+      {
+        "moveId": "poisonsting",
+        "level": 1
+      },
+      {
+        "moveId": "poisonpowder",
+        "level": 1
+      },
+      {
+        "moveId": "stunspore",
+        "level": 1
+      },
+      {
+        "moveId": "bugbite",
+        "level": 1
+      },
+      {
+        "moveId": "captivate",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "sing",
+        "level": 1
+      },
+      {
+        "moveId": "supersonic",
+        "level": 4
+      },
+      {
+        "moveId": "confusion",
+        "level": 8
+      },
+      {
+        "moveId": "clearsmog",
+        "level": 12
+      },
+      {
+        "moveId": "acidspray",
+        "level": 14
+      },
+      {
+        "moveId": "psybeam",
+        "level": 16
+      },
+      {
+        "moveId": "aircutter",
+        "level": 20
+      },
+      {
+        "moveId": "airslash",
+        "level": 24
+      },
+      {
+        "moveId": "alluringvoice",
+        "level": 26
+      },
+      {
+        "moveId": "infestation",
+        "level": 28
+      },
+      {
+        "moveId": "toxic",
+        "level": 28
+      },
+      {
+        "moveId": "venoshock",
+        "level": 30
+      },
+      {
+        "moveId": "bugbuzz",
+        "level": 32
+      },
+      {
+        "moveId": "sludgebomb",
+        "level": 34
+      },
+      {
+        "moveId": "tailwind",
+        "level": 36
+      },
+      {
+        "moveId": "defog",
+        "level": 38
+      },
+      {
+        "moveId": "ragepowder",
+        "level": 40
+      },
+      {
+        "moveId": "quiverdance",
+        "level": 44
+      },
+      {
+        "moveId": "perishsong",
+        "level": 48
+      },
+      {
+        "moveId": "hurricane",
+        "level": 52
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "pollenpuff"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "silverwind"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "spiritdrain"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "venoshock"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "twister"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/melofly.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_end"
+      ],
+      "bucket": "common",
+      "level": "20-34",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_warped"
+      ],
+      "bucket": "common",
+      "level": "10-34",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "nullscape:shadowlands",
+        "nullscape:void_barrens",
+        "nullscape:crystal_peaks"
+      ],
+      "bucket": "common",
+      "level": "20-34",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    }
+  ],
+  "sourceMods": [
+    "lasers-fakemon-pack"
+  ],
+  "primarySource": "lasers-fakemon-pack",
+  "provenance": {
+    "implemented": "lasers-fakemon-pack",
+    "nationalPokedexNumber": "lasers-fakemon-pack",
+    "name": "lasers-fakemon-pack",
+    "primaryType": "lasers-fakemon-pack",
+    "secondaryType": "lasers-fakemon-pack",
+    "maleRatio": "lasers-fakemon-pack",
+    "height": "lasers-fakemon-pack",
+    "weight": "lasers-fakemon-pack",
+    "pokedex": "lasers-fakemon-pack",
+    "labels": "lasers-fakemon-pack",
+    "aspects": "lasers-fakemon-pack",
+    "features": "lasers-fakemon-pack",
+    "abilities": "lasers-fakemon-pack",
+    "eggGroups": "lasers-fakemon-pack",
+    "baseStats": "lasers-fakemon-pack",
+    "evYield": "lasers-fakemon-pack",
+    "shoulderMountable": "lasers-fakemon-pack",
+    "baseExperienceYield": "lasers-fakemon-pack",
+    "experienceGroup": "lasers-fakemon-pack",
+    "catchRate": "lasers-fakemon-pack",
+    "eggCycles": "lasers-fakemon-pack",
+    "baseFriendship": "lasers-fakemon-pack",
+    "baseScale": "lasers-fakemon-pack",
+    "hitbox": "lasers-fakemon-pack",
+    "behaviour": "lasers-fakemon-pack",
+    "drops": "lasers-fakemon-pack",
+    "moves": "lasers-fakemon-pack",
+    "evolutions": "lasers-fakemon-pack",
+    "forms": "lasers-fakemon-pack"
+  }
+}

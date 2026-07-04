@@ -1,0 +1,308 @@
+{
+  "id": "cobblemon:champeon",
+  "namespace": "cobblemon",
+  "slug": "champeon",
+  "name": "Champeon",
+  "nationalPokedexNumber": 2006,
+  "primaryType": "fighting",
+  "secondaryType": null,
+  "types": [
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 130,
+    "defence": 80,
+    "special_attack": 65,
+    "special_defence": 75,
+    "speed": 85
+  },
+  "baseStatTotal": 520,
+  "abilities": [
+    "furcoat",
+    "defiant"
+  ],
+  "hiddenAbilities": [
+    "scrappy"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 35,
+  "height": 11,
+  "weight": 300,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 184,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "When an Eevee becomes inspired by a fighters spirit, it starts training for many years, Eventually becoming a Champeon,",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "assurance",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 1
+      },
+      {
+        "moveId": "firepunch",
+        "level": 1
+      },
+      {
+        "moveId": "icepunch",
+        "level": 1
+      },
+      {
+        "moveId": "thunderpunch",
+        "level": 1
+      },
+      {
+        "moveId": "vacuumwave",
+        "level": 5
+      },
+      {
+        "moveId": "machpunch",
+        "level": 8
+      },
+      {
+        "moveId": "quickguard",
+        "level": 12
+      },
+      {
+        "moveId": "agility",
+        "level": 14
+      },
+      {
+        "moveId": "drainpunch",
+        "level": 17
+      },
+      {
+        "moveId": "bulletpunch",
+        "level": 18
+      },
+      {
+        "moveId": "protect",
+        "level": 22
+      },
+      {
+        "moveId": "counter",
+        "level": 26
+      },
+      {
+        "moveId": "feint",
+        "level": 30
+      },
+      {
+        "moveId": "pursuit",
+        "level": 34
+      },
+      {
+        "moveId": "megapunch",
+        "level": 37
+      },
+      {
+        "moveId": "skyuppercut",
+        "level": 40
+      },
+      {
+        "moveId": "frustration",
+        "level": 43
+      },
+      {
+        "moveId": "round",
+        "level": 50
+      },
+      {
+        "moveId": "fling",
+        "level": 54
+      },
+      {
+        "moveId": "stoneedge",
+        "level": 57
+      },
+      {
+        "moveId": "brickbreak",
+        "level": 60
+      },
+      {
+        "moveId": "closecombat",
+        "level": 67
+      },
+      {
+        "moveId": "bulkup",
+        "level": 73
+      },
+      {
+        "moveId": "torment",
+        "level": 76
+      },
+      {
+        "moveId": "detect",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "armthrust"
+      },
+      {
+        "moveId": "beatup"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "crosschop"
+      },
+      {
+        "moveId": "darkestlariat"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "forcepalm"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "highjumpkick"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "karatechop"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "lowsweep"
+      },
+      {
+        "moveId": "matblock"
+      },
+      {
+        "moveId": "partingshot"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "rollingkick"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "triplekick"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "eevee",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/champeon.png",
+    "placeholderColor": "#C22E28"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "minecraft:windswept_savanna"
+      ],
+      "bucket": "ultra-rare",
+      "level": "18-40",
+      "timeRange": null,
+      "sourceId": "extra-eeveelutions"
+    }
+  ],
+  "sourceMods": [
+    "extra-eeveelutions"
+  ],
+  "primarySource": "extra-eeveelutions",
+  "provenance": {
+    "implemented": "extra-eeveelutions",
+    "name": "extra-eeveelutions",
+    "nationalPokedexNumber": "extra-eeveelutions",
+    "primaryType": "extra-eeveelutions",
+    "abilities": "extra-eeveelutions",
+    "baseStats": "extra-eeveelutions",
+    "behaviour": "extra-eeveelutions",
+    "catchRate": "extra-eeveelutions",
+    "maleRatio": "extra-eeveelutions",
+    "shoulderMountable": "extra-eeveelutions",
+    "forms": "extra-eeveelutions",
+    "baseExperienceYield": "extra-eeveelutions",
+    "experienceGroup": "extra-eeveelutions",
+    "eggCycles": "extra-eeveelutions",
+    "eggGroups": "extra-eeveelutions",
+    "moves": "extra-eeveelutions",
+    "labels": "extra-eeveelutions",
+    "pokedex": "extra-eeveelutions",
+    "preEvolution": "extra-eeveelutions",
+    "baseScale": "extra-eeveelutions",
+    "hitbox": "extra-eeveelutions",
+    "baseFriendship": "extra-eeveelutions",
+    "evYield": "extra-eeveelutions",
+    "height": "extra-eeveelutions",
+    "weight": "extra-eeveelutions"
+  }
+}

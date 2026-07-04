@@ -1,0 +1,1101 @@
+{
+  "id": "cobblemon:hoopa",
+  "namespace": "cobblemon",
+  "slug": "hoopa",
+  "name": "Hoopa",
+  "nationalPokedexNumber": 720,
+  "primaryType": "psychic",
+  "secondaryType": "ghost",
+  "types": [
+    "psychic",
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 110,
+    "defence": 60,
+    "special_attack": 150,
+    "special_defence": 130,
+    "speed": 70
+  },
+  "baseStatTotal": 600,
+  "abilities": [
+    "magician"
+  ],
+  "hiddenAbilities": [
+    "magician"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 3,
+  "eggCycles": 120,
+  "baseFriendship": 100,
+  "height": 5,
+  "weight": 90,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 300,
+  "labels": [
+    "gen6",
+    "mythical"
+  ],
+  "aspects": [
+    "confined"
+  ],
+  "forms": [
+    {
+      "name": "Unbound",
+      "aspects": [
+        "unbound"
+      ],
+      "primaryType": "psychic",
+      "secondaryType": "dark",
+      "types": [
+        "psychic",
+        "dark"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 80,
+        "attack": 160,
+        "defence": 60,
+        "special_attack": 170,
+        "special_defence": 130,
+        "speed": 80
+      },
+      "baseStatTotal": 680,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "It is said to be able to seize anything it desires with its six rings and six huge arms. With its power sealed, it is transformed into a much smaller form.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "magictrick",
+            "level": 1
+          },
+          {
+            "moveId": "destinybond",
+            "level": 1
+          },
+          {
+            "moveId": "allyswitch",
+            "level": 1
+          },
+          {
+            "moveId": "confusion",
+            "level": 1
+          },
+          {
+            "moveId": "astonish",
+            "level": 6
+          },
+          {
+            "moveId": "trick",
+            "level": 10
+          },
+          {
+            "moveId": "lightscreen",
+            "level": 15
+          },
+          {
+            "moveId": "psybeam",
+            "level": 19
+          },
+          {
+            "moveId": "skillswap",
+            "level": 25
+          },
+          {
+            "moveId": "powersplit",
+            "level": 29
+          },
+          {
+            "moveId": "guardsplit",
+            "level": 29
+          },
+          {
+            "moveId": "knockoff",
+            "level": 46
+          },
+          {
+            "moveId": "wonderroom",
+            "level": 50
+          },
+          {
+            "moveId": "trickroom",
+            "level": 50
+          },
+          {
+            "moveId": "darkpulse",
+            "level": 55
+          },
+          {
+            "moveId": "psychic",
+            "level": 75
+          },
+          {
+            "moveId": "hyperspacefury",
+            "level": 85
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "block"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "drainpunch"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "dualchop"
+          },
+          {
+            "moveId": "embargo"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "firepunch"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "futuresight"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icepunch"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "magicroom"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "phantomforce"
+          },
+          {
+            "moveId": "poweruppunch"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicnoise"
+          },
+          {
+            "moveId": "psychicsnap"
+          },
+          {
+            "moveId": "psychicterrain"
+          },
+          {
+            "moveId": "psyshock"
+          },
+          {
+            "moveId": "quash"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "sandstorm"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "snatch"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "thunderpunch"
+          },
+          {
+            "moveId": "thunderwave"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "torment"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "wonderroom"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "block"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "drainpunch"
+          },
+          {
+            "moveId": "dualchop"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "firepunch"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icepunch"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "magicroom"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "snatch"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "thunderpunch"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "wonderroom"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 4
+          },
+          {
+            "type": "fairy",
+            "multiplier": 2
+          }
+        ],
+        "resists": [],
+        "immuneTo": [
+          "psychic"
+        ]
+      },
+      "evolutions": [],
+      "slug": "hoopa-unbound"
+    }
+  ],
+  "pokedexDescription": "It is said to be able to seize anything it desires with its six rings and six huge arms. With its power sealed, it is transformed into a much smaller form.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "magictrick",
+        "level": 1
+      },
+      {
+        "moveId": "destinybond",
+        "level": 1
+      },
+      {
+        "moveId": "allyswitch",
+        "level": 1
+      },
+      {
+        "moveId": "confusion",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 6
+      },
+      {
+        "moveId": "trick",
+        "level": 10
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 15
+      },
+      {
+        "moveId": "psybeam",
+        "level": 19
+      },
+      {
+        "moveId": "skillswap",
+        "level": 25
+      },
+      {
+        "moveId": "powersplit",
+        "level": 29
+      },
+      {
+        "moveId": "guardsplit",
+        "level": 29
+      },
+      {
+        "moveId": "phantomforce",
+        "level": 35
+      },
+      {
+        "moveId": "zenheadbutt",
+        "level": 46
+      },
+      {
+        "moveId": "wonderroom",
+        "level": 50
+      },
+      {
+        "moveId": "trickroom",
+        "level": 50
+      },
+      {
+        "moveId": "shadowball",
+        "level": 55
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 68
+      },
+      {
+        "moveId": "psychic",
+        "level": 75
+      },
+      {
+        "moveId": "hyperspacehole",
+        "level": 85
+      },
+      {
+        "moveId": "hypnoblast",
+        "level": 90
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "dualchop"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypnoblast"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "phantomforce"
+      },
+      {
+        "moveId": "potshot"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "psychicsnap"
+      },
+      {
+        "moveId": "psychicterrain"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "quash"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "dualchop"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "hyperspacefury"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 4
+      },
+      {
+        "type": "ghost",
+        "multiplier": 4
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/720.png"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "mega-showdown",
+    "lasers-additions",
+    "cobblemon-core"
+  ],
+  "primarySource": "mega-showdown",
+  "provenance": {
+    "implemented": "mega-showdown",
+    "nationalPokedexNumber": "mega-showdown",
+    "name": "mega-showdown",
+    "primaryType": "mega-showdown",
+    "secondaryType": "mega-showdown",
+    "maleRatio": "mega-showdown",
+    "height": "mega-showdown",
+    "weight": "mega-showdown",
+    "pokedex": "mega-showdown",
+    "labels": "mega-showdown",
+    "aspects": "mega-showdown",
+    "abilities": "mega-showdown",
+    "eggGroups": "mega-showdown",
+    "baseStats": "mega-showdown",
+    "evYield": "mega-showdown",
+    "baseExperienceYield": "mega-showdown",
+    "experienceGroup": "mega-showdown",
+    "catchRate": "mega-showdown",
+    "eggCycles": "mega-showdown",
+    "baseFriendship": "mega-showdown",
+    "behaviour": "mega-showdown",
+    "baseScale": "mega-showdown",
+    "hitbox": "mega-showdown",
+    "moves": "lasers-additions",
+    "evolutions": "mega-showdown",
+    "forms": "lasers-additions"
+  }
+}

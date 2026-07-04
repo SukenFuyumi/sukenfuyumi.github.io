@@ -1,0 +1,205 @@
+{
+  "id": "cobblemon:seadramon",
+  "namespace": "cobblemon",
+  "slug": "seadramon",
+  "name": "Seadramon",
+  "nationalPokedexNumber": 2166,
+  "primaryType": "water",
+  "secondaryType": "ice",
+  "types": [
+    "water",
+    "ice"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 60,
+    "defence": 76,
+    "special_attack": 84,
+    "special_defence": 30,
+    "speed": 80
+  },
+  "baseStatTotal": 420,
+  "abilities": [
+    "moxie",
+    "hydration"
+  ],
+  "hiddenAbilities": [
+    "intimidate"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 3.51,
+  "weight": 89.36,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A serpentine ruler of cold seas.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "soak",
+        "level": 25
+      },
+      {
+        "moveId": "haze",
+        "level": 27
+      },
+      {
+        "moveId": "chillingwater",
+        "level": 29
+      },
+      {
+        "moveId": "iceshard",
+        "level": 31
+      },
+      {
+        "moveId": "icefang",
+        "level": 33
+      },
+      {
+        "moveId": "waterpulse",
+        "level": 35
+      },
+      {
+        "moveId": "auroraveil",
+        "level": 37
+      },
+      {
+        "moveId": "dragontail",
+        "level": 39
+      },
+      {
+        "moveId": "coil",
+        "level": 41
+      },
+      {
+        "moveId": "iciclespear",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:mamemon",
+      "targetSlug": "mamemon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: fighting_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "gomamon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "ice",
+        "multiplier": 0.25
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/seadramon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_deep_ocean"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cold_ocean",
+        "#cobblemon:is_frozen_oceans"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cold_ocean",
+        "#cobblemon:is_frozen_oceans",
+        "#cobblemon:is_deep_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

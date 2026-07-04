@@ -1,0 +1,52 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import MonImage from "../../components/MonImage.astro";
+import listing from "../../data/generated/index.json";
+import matrix from "../../data/generated/typeMatrix.json";
+
+export async function getStaticPaths() {
+  return Object.keys(matrix).map((t) => ({ params: { type: t } }));
+}
+const { type } = Astro.params as { type: string };
+const monsOfType = listing.filter((p: any) => p.types.includes(type));
+
+const allTypes = Object.keys(matrix).sort();
+const offensive = allTypes.map((def) => ({ type: def, mult: (matrix as any)[type][def] })).filter((e) => e.mult !== 1);
+const defensive = allTypes.map((atk) => ({ type: atk, mult: (matrix as any)[atk][type] })).filter((e) => e.mult !== 1);
+---
+<Layout title={`Tipo ${type}`}>
+  <div class="breadcrumb"><a href="/type">Tipos</a> &rsaquo; {type}</div>
+  <h1><span class="type-badge" style={`background:var(--type-${type}); font-size:1rem;`}>{type}</span></h1>
+
+  <div class="grid" style="grid-template-columns:1fr 1fr; margin-bottom:1.25rem;">
+    <div class="panel">
+      <h2 style="margin-top:0;">Movimientos de tipo {type} contra...</h2>
+      {offensive.length ? offensive.map((e) => (
+        <div class="matchup-grid" style="margin-bottom:0.2rem;">
+          <a href={`/type/${e.type}`} class="type-badge" style={`background:var(--type-${e.type})`}>{e.type}</a>
+          <span class="mult">×{e.mult}</span>
+        </div>
+      )) : <p style="color:var(--text-muted);">Daño neutral contra todos los tipos.</p>}
+    </div>
+    <div class="panel">
+      <h2 style="margin-top:0;">Un Pokémon de tipo {type} recibe de...</h2>
+      {defensive.length ? defensive.map((e) => (
+        <div class="matchup-grid" style="margin-bottom:0.2rem;">
+          <a href={`/type/${e.type}`} class="type-badge" style={`background:var(--type-${e.type})`}>{e.type}</a>
+          <span class="mult">×{e.mult}</span>
+        </div>
+      )) : <p style="color:var(--text-muted);">Daño neutral de todos los tipos.</p>}
+    </div>
+  </div>
+
+  <h2>Pokémon de tipo {type} en el servidor ({monsOfType.length})</h2>
+  <div class="grid">
+    {monsOfType.map((p: any) => (
+      <a class="mon-card" href={`/pokedex/${p.slug}`}>
+        <MonImage image={p.image} name={p.name} />
+        <div class="dex-num">{p.nationalPokedexNumber ? `#${p.nationalPokedexNumber}` : ""}</div>
+        <div class="mon-name">{p.name}</div>
+      </a>
+    ))}
+  </div>
+</Layout>

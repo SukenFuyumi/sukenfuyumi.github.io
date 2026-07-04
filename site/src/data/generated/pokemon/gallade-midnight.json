@@ -1,0 +1,918 @@
+{
+  "id": "cobblemon:gallade#Midnight",
+  "namespace": "cobblemon",
+  "slug": "gallade-midnight",
+  "name": "Gallade Midnight",
+  "nationalPokedexNumber": 475,
+  "primaryType": "dark",
+  "secondaryType": "fighting",
+  "types": [
+    "dark",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 125,
+    "defence": 65,
+    "special_attack": 65,
+    "special_defence": 115,
+    "speed": 80
+  },
+  "baseStatTotal": 518,
+  "abilities": [
+    "sharpness",
+    "clearbody"
+  ],
+  "hiddenAbilities": [
+    "prankster"
+  ],
+  "eggGroups": [
+    "human_like",
+    "amorphous"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 35,
+  "height": 16,
+  "weight": 520,
+  "maleRatio": 1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 259,
+  "labels": [
+    "gen4"
+  ],
+  "aspects": [
+    "goth"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "This Pokémon has the ability to disappear into shadows. It uses this skill to ambush people and Pokémon, incapacitating them with its blades before draining them of their vitality. People who live near its territory caution to stay away from shady locations.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "parry",
+        "level": 1
+      },
+      {
+        "moveId": "leafblade",
+        "level": 1
+      },
+      {
+        "moveId": "nightslash",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "powertrip",
+        "level": 1
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 1
+      },
+      {
+        "moveId": "furycutter",
+        "level": 1
+      },
+      {
+        "moveId": "slash",
+        "level": 1
+      },
+      {
+        "moveId": "darkpulse",
+        "level": 1
+      },
+      {
+        "moveId": "dreameater",
+        "level": 1
+      },
+      {
+        "moveId": "calmmind",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "disarmingvoice",
+        "level": 1
+      },
+      {
+        "moveId": "hypnosis",
+        "level": 1
+      },
+      {
+        "moveId": "drainingkiss",
+        "level": 1
+      },
+      {
+        "moveId": "imprison",
+        "level": 1
+      },
+      {
+        "moveId": "bite",
+        "level": 1
+      },
+      {
+        "moveId": "lifedew",
+        "level": 1
+      },
+      {
+        "moveId": "charm",
+        "level": 1
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 1
+      },
+      {
+        "moveId": "sacredsword",
+        "level": 1
+      },
+      {
+        "moveId": "aquacutter",
+        "level": 1
+      },
+      {
+        "moveId": "steelcutter",
+        "level": 1
+      },
+      {
+        "moveId": "luckychant",
+        "level": 1
+      },
+      {
+        "moveId": "nightlight",
+        "level": 1
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 9
+      },
+      {
+        "moveId": "feint",
+        "level": 12
+      },
+      {
+        "moveId": "torment",
+        "level": 15
+      },
+      {
+        "moveId": "aerialace",
+        "level": 18
+      },
+      {
+        "moveId": "falseswipe",
+        "level": 23
+      },
+      {
+        "moveId": "protect",
+        "level": 28
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 35
+      },
+      {
+        "moveId": "leechlife",
+        "level": 37
+      },
+      {
+        "moveId": "psychocut",
+        "level": 42
+      },
+      {
+        "moveId": "healpulse",
+        "level": 49
+      },
+      {
+        "moveId": "quickguard",
+        "level": 52
+      },
+      {
+        "moveId": "wideguard",
+        "level": 52
+      },
+      {
+        "moveId": "vitalslash",
+        "level": 56
+      },
+      {
+        "moveId": "closecombat",
+        "level": 63
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "corruption"
+      },
+      {
+        "moveId": "destinybond"
+      },
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "forcepalm"
+      },
+      {
+        "moveId": "grudge"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "meanlook"
+      },
+      {
+        "moveId": "memento"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "shadowsneak"
+      },
+      {
+        "moveId": "spiritdrain"
+      },
+      {
+        "moveId": "suckerpunch"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "aquacutter"
+      },
+      {
+        "moveId": "aurasphere"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "coaching"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "dualchop"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "leafblade"
+      },
+      {
+        "moveId": "lightpulse"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "limitbreak"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "lowsweep"
+      },
+      {
+        "moveId": "magicbeam"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "metronome"
+      },
+      {
+        "moveId": "mistyterrain"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "obliquekick"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "potshot"
+      },
+      {
+        "moveId": "powerblast"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychocut"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "shadowstars"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "sonicedge"
+      },
+      {
+        "moveId": "spiraldrain"
+      },
+      {
+        "moveId": "spiritdrain"
+      },
+      {
+        "moveId": "starshot"
+      },
+      {
+        "moveId": "starshower"
+      },
+      {
+        "moveId": "steelcutter"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "terrainblade"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "thunderclaw"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "tripleaxel"
+      },
+      {
+        "moveId": "upperhand"
+      },
+      {
+        "moveId": "vacuumwave"
+      },
+      {
+        "moveId": "voidfog"
+      },
+      {
+        "moveId": "voidstep"
+      },
+      {
+        "moveId": "willowisp"
+      },
+      {
+        "moveId": "wonderblast"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "xscissor"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "aquacutter"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "coaching"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "dualchop"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychocut"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "tripleaxel"
+      },
+      {
+        "moveId": "vacuumwave"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "xscissor"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "kirlia-midnight",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 4
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.25
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/gallade-midnight.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-fakemon-pack",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "lasers-additions"
+  },
+  "formOf": {
+    "slug": "gallade",
+    "name": "Gallade"
+  },
+  "formName": "Midnight"
+}

@@ -1,0 +1,751 @@
+{
+  "id": "cobblemon:psyduck",
+  "namespace": "cobblemon",
+  "slug": "psyduck",
+  "name": "Psyduck",
+  "nationalPokedexNumber": 54,
+  "primaryType": "water",
+  "secondaryType": null,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 52,
+    "defence": 48,
+    "special_attack": 65,
+    "special_defence": 50,
+    "speed": 55
+  },
+  "baseStatTotal": 320,
+  "abilities": [
+    "damp",
+    "cloudnine"
+  ],
+  "hiddenAbilities": [
+    "swiftswim"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 8,
+  "weight": 196,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 64,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "If it uses its mysterious power, Psyduck can't remember having done so. It apparently can't form a memory of such an event because it goes into an altered state that is much like deep sleep.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "watersport",
+        "level": 1
+      },
+      {
+        "moveId": "scratch",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "bubble",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 3
+      },
+      {
+        "moveId": "confusion",
+        "level": 6
+      },
+      {
+        "moveId": "furyswipes",
+        "level": 9
+      },
+      {
+        "moveId": "waterpulse",
+        "level": 12
+      },
+      {
+        "moveId": "disable",
+        "level": 15
+      },
+      {
+        "moveId": "zenheadbutt",
+        "level": 18
+      },
+      {
+        "moveId": "screech",
+        "level": 21
+      },
+      {
+        "moveId": "aquatail",
+        "level": 24
+      },
+      {
+        "moveId": "soak",
+        "level": 27
+      },
+      {
+        "moveId": "psychup",
+        "level": 30
+      },
+      {
+        "moveId": "amnesia",
+        "level": 34
+      },
+      {
+        "moveId": "wonderroom",
+        "level": 39
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "clearsmog"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "crosschop"
+      },
+      {
+        "moveId": "foresight"
+      },
+      {
+        "moveId": "hypnosis"
+      },
+      {
+        "moveId": "mudbomb"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "refresh"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "simplebeam"
+      },
+      {
+        "moveId": "synchronoise"
+      },
+      {
+        "moveId": "yawn"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "brine"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "hypnoblast"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "lowsweep"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "metronome"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "payday"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "vacuumwave"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "whirlpool"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "worryseed"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "vacuumwave"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "worryseed"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "bubblebeam"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "dynamicpunch"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "seismictoss"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "submission"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "mudsport"
+      }
+    ]
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:golduck",
+      "targetSlug": "golduck",
+      "summary": "Nivel · Nv. 33",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_grassland",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_grassland",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_grassland",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_grassland",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_grassland",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_grassland",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core"
+  }
+}

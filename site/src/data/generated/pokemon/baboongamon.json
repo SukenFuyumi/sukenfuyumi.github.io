@@ -1,0 +1,221 @@
+{
+  "id": "cobblemon:baboongamon",
+  "namespace": "cobblemon",
+  "slug": "baboongamon",
+  "name": "Baboongamon",
+  "nationalPokedexNumber": 2080,
+  "primaryType": "rock",
+  "secondaryType": "fighting",
+  "types": [
+    "rock",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 87,
+    "defence": 80,
+    "special_attack": 60,
+    "special_defence": 30,
+    "speed": 73
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "solidrock",
+    "regenerator"
+  ],
+  "hiddenAbilities": [
+    "angerpoint"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.11,
+  "weight": 157.4,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A desert warrior Digimon with a ferocious temperament.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "rocksmash",
+        "level": 25
+      },
+      {
+        "moveId": "endure",
+        "level": 27
+      },
+      {
+        "moveId": "block",
+        "level": 29
+      },
+      {
+        "moveId": "magnitude",
+        "level": 31
+      },
+      {
+        "moveId": "rocktomb",
+        "level": 33
+      },
+      {
+        "moveId": "stomp",
+        "level": 35
+      },
+      {
+        "moveId": "irondefense",
+        "level": 37
+      },
+      {
+        "moveId": "smackdown",
+        "level": 39
+      },
+      {
+        "moveId": "vitalthrow",
+        "level": 41
+      },
+      {
+        "moveId": "sandstorm",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:gogmamon",
+      "targetSlug": "gogmamon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: ground_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "sunarizamon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/baboongamon.png",
+    "placeholderColor": "#B6A136"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_sandy"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_cave"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

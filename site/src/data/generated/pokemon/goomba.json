@@ -1,0 +1,245 @@
+{
+  "id": "cobblemon:goomba",
+  "namespace": "cobblemon",
+  "slug": "goomba",
+  "name": "Goomba",
+  "nationalPokedexNumber": 1985,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 55,
+    "defence": 35,
+    "special_attack": 20,
+    "special_defence": 20,
+    "speed": 44
+  },
+  "baseStatTotal": 209,
+  "abilities": [
+    "pickup",
+    "guts"
+  ],
+  "hiddenAbilities": [],
+  "eggGroups": [
+    "field",
+    "monster"
+  ],
+  "catchRate": 255,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 250,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 60,
+  "labels": [
+    "extra",
+    "smb"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A small and weak mushroom creature. It generally does not pose a huge threat.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "growth",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 4
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 8
+      },
+      {
+        "moveId": "bite",
+        "level": 12
+      },
+      {
+        "moveId": "takedown",
+        "level": 18
+      },
+      {
+        "moveId": "crunch",
+        "level": 24
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 31
+      },
+      {
+        "moveId": "superfang",
+        "level": 35
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "quickattack"
+      },
+      {
+        "moveId": "retaliate"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychicfangs"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "trailblaze"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "swagger"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/goomba.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_plains",
+        "minecraft:mushroom_fields"
+      ],
+      "bucket": "common",
+      "level": "1-24",
+      "timeRange": null,
+      "sourceId": "game-creatures"
+    }
+  ],
+  "sourceMods": [
+    "game-creatures"
+  ],
+  "primarySource": "game-creatures",
+  "provenance": {
+    "implemented": "game-creatures",
+    "nationalPokedexNumber": "game-creatures",
+    "name": "game-creatures",
+    "primaryType": "game-creatures",
+    "maleRatio": "game-creatures",
+    "height": "game-creatures",
+    "weight": "game-creatures",
+    "pokedex": "game-creatures",
+    "labels": "game-creatures",
+    "aspects": "game-creatures",
+    "abilities": "game-creatures",
+    "eggGroups": "game-creatures",
+    "baseStats": "game-creatures",
+    "evYield": "game-creatures",
+    "baseExperienceYield": "game-creatures",
+    "experienceGroup": "game-creatures",
+    "catchRate": "game-creatures",
+    "eggCycles": "game-creatures",
+    "baseFriendship": "game-creatures",
+    "baseScale": "game-creatures",
+    "hitbox": "game-creatures",
+    "drops": "game-creatures",
+    "moves": "game-creatures",
+    "behaviour": "game-creatures"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "id": "cobblemon:weregarurumon",
+  "namespace": "cobblemon",
+  "slug": "weregarurumon",
+  "name": "Weregarurumon",
+  "nationalPokedexNumber": 2014,
+  "primaryType": "ice",
+  "secondaryType": "fighting",
+  "types": [
+    "ice",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 82,
+    "attack": 128,
+    "defence": 73,
+    "special_attack": 60,
+    "special_defence": 78,
+    "speed": 89
+  },
+  "baseStatTotal": 510,
+  "abilities": [
+    "intimidate",
+    "icebody"
+  ],
+  "hiddenAbilities": [
+    "speedboost"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.21,
+  "weight": 70,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Beast Man Digimon that evolved from Garurumon and gained the ability to walk on two legs.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "icepunch",
+        "level": 44
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 47
+      },
+      {
+        "moveId": "brickbreak",
+        "level": 50
+      },
+      {
+        "moveId": "bonerush",
+        "level": 54
+      },
+      {
+        "moveId": "blazekick",
+        "level": 57
+      },
+      {
+        "moveId": "agility",
+        "level": 61
+      },
+      {
+        "moveId": "icespinner",
+        "level": 66
+      },
+      {
+        "moveId": "dynamicpunch",
+        "level": 70
+      },
+      {
+        "moveId": "detect",
+        "level": 75
+      },
+      {
+        "moveId": "highjumpkick",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "lighdramon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/weregarurumon.png",
+    "placeholderColor": "#96D9D6"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "secondaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

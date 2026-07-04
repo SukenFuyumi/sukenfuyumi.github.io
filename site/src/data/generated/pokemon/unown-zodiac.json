@@ -1,0 +1,235 @@
+{
+  "id": "cobblemon:unown_zodiac",
+  "namespace": "cobblemon",
+  "slug": "unown-zodiac",
+  "name": "Unown_zodiac",
+  "nationalPokedexNumber": 9082,
+  "primaryType": "psychic",
+  "secondaryType": null,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 48,
+    "attack": 48,
+    "defence": 48,
+    "special_attack": 48,
+    "special_defence": 48,
+    "speed": 48
+  },
+  "baseStatTotal": 288,
+  "abilities": [
+    "celestial"
+  ],
+  "hiddenAbilities": [
+    "celestial"
+  ],
+  "eggGroups": [],
+  "catchRate": 45,
+  "eggCycles": 0,
+  "baseFriendship": 70,
+  "height": 5,
+  "weight": 50,
+  "maleRatio": -1,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 118,
+  "labels": [
+    "zodiac",
+    "myths"
+  ],
+  "aspects": [
+    "zodiac"
+  ],
+  "forms": [
+    {
+      "name": "Libra",
+      "aspects": [
+        "zodiac",
+        "libra"
+      ],
+      "primaryType": "psychic",
+      "secondaryType": null,
+      "types": [
+        "psychic"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 48,
+        "attack": 48,
+        "defence": 48,
+        "special_attack": 48,
+        "special_defence": 48,
+        "speed": 48
+      },
+      "baseStatTotal": 288,
+      "abilities": [
+        "celestial"
+      ],
+      "hiddenAbilities": [
+        "celestial"
+      ],
+      "pokedexDescription": "This Unown takes the shape of the celestial scales, drifting silently as it observes the balance of all things.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "cosmicpower",
+            "level": 1
+          },
+          {
+            "moveId": "mysticalpower",
+            "level": 1
+          }
+        ],
+        "egg": [],
+        "tm": [],
+        "tutor": [],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 2
+          },
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "psychic",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "unown-zodiac-libra"
+    }
+  ],
+  "pokedexDescription": "This Unown takes the shape of the celestial scales, drifting silently as it observes the balance of all things.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "cosmicpower",
+        "level": 1
+      },
+      {
+        "moveId": "mysticalpower",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/unown-zodiac.png",
+    "placeholderColor": "#F95587"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "ultra-rare",
+      "level": "28-56",
+      "timeRange": "night",
+      "sourceId": "fais-mythical-monstrosities"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "ultra-rare",
+      "level": "34-62",
+      "timeRange": "night",
+      "sourceId": "fais-mythical-monstrosities"
+    },
+    {
+      "biomes": [
+        "#minecraft:is_end"
+      ],
+      "bucket": "rare",
+      "level": "55-78",
+      "timeRange": null,
+      "sourceId": "fais-mythical-monstrosities"
+    }
+  ],
+  "sourceMods": [
+    "fais-mythical-monstrosities"
+  ],
+  "primarySource": "fais-mythical-monstrosities",
+  "provenance": {
+    "implemented": "fais-mythical-monstrosities",
+    "nationalPokedexNumber": "fais-mythical-monstrosities",
+    "name": "fais-mythical-monstrosities",
+    "primaryType": "fais-mythical-monstrosities",
+    "maleRatio": "fais-mythical-monstrosities",
+    "height": "fais-mythical-monstrosities",
+    "weight": "fais-mythical-monstrosities",
+    "baseScale": "fais-mythical-monstrosities",
+    "hitbox": "fais-mythical-monstrosities",
+    "pokedex": "fais-mythical-monstrosities",
+    "labels": "fais-mythical-monstrosities",
+    "aspects": "fais-mythical-monstrosities",
+    "abilities": "fais-mythical-monstrosities",
+    "eggGroups": "fais-mythical-monstrosities",
+    "eggCycles": "fais-mythical-monstrosities",
+    "baseStats": "fais-mythical-monstrosities",
+    "evYield": "fais-mythical-monstrosities",
+    "baseExperienceYield": "fais-mythical-monstrosities",
+    "experienceGroup": "fais-mythical-monstrosities",
+    "catchRate": "fais-mythical-monstrosities",
+    "baseFriendship": "fais-mythical-monstrosities",
+    "shoulderMountable": "fais-mythical-monstrosities",
+    "behaviour": "fais-mythical-monstrosities",
+    "ai": "fais-mythical-monstrosities",
+    "drops": "fais-mythical-monstrosities",
+    "moves": "fais-mythical-monstrosities",
+    "features": "fais-mythical-monstrosities",
+    "forms": "fais-mythical-monstrosities"
+  }
+}

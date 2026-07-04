@@ -1,0 +1,326 @@
+{
+  "id": "cobblemon:leafeon#Kazeran",
+  "namespace": "cobblemon",
+  "slug": "leafeon-kazeran",
+  "name": "Leafeon Kazeran",
+  "nationalPokedexNumber": 470,
+  "primaryType": "grass",
+  "secondaryType": "ghost",
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 110,
+    "defence": 65,
+    "special_attack": 65,
+    "special_defence": 60,
+    "speed": 95
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "witheringaura",
+    "cursedbody"
+  ],
+  "hiddenAbilities": [
+    "shadowtag"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 35,
+  "height": 10,
+  "weight": 255,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 184,
+  "labels": [
+    "gen4"
+  ],
+  "aspects": [
+    "kazeran"
+  ],
+  "forms": [],
+  "battleOnly": true,
+  "pokedexDescription": "Given a second chance at life through a stone of dusk. This Leafeon lurks in the deep woods, stalking prey and guiding the lost pokémon only to lure them and devour their souls.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "phantombloom",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "razorleaf",
+        "level": 1
+      },
+      {
+        "moveId": "grasswhistle",
+        "level": 1
+      },
+      {
+        "moveId": "copycat",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 5
+      },
+      {
+        "moveId": "quickattack",
+        "level": 10
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 15
+      },
+      {
+        "moveId": "leechseed",
+        "level": 20
+      },
+      {
+        "moveId": "magicalleaf",
+        "level": 25
+      },
+      {
+        "moveId": "shadowsneak",
+        "level": 28
+      },
+      {
+        "moveId": "willowisp",
+        "level": 30
+      },
+      {
+        "moveId": "curse",
+        "level": 35
+      },
+      {
+        "moveId": "hex",
+        "level": 40
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 45
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 50
+      },
+      {
+        "moveId": "phantomforce",
+        "level": 55
+      },
+      {
+        "moveId": "leafblade",
+        "level": 60
+      },
+      {
+        "moveId": "destinybond",
+        "level": 65
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "cottonspore"
+      },
+      {
+        "moveId": "grudge"
+      },
+      {
+        "moveId": "moonlight"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "tickle"
+      },
+      {
+        "moveId": "wish"
+      },
+      {
+        "moveId": "yawn"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "leafblade"
+      },
+      {
+        "moveId": "phantomforce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "willowisp"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "leechseed"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "willowisp"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "eevee",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/leafeon-kazeran.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "kazeran-eeveelutions",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "kazeran-eeveelutions",
+    "evolutions": "kazeran-eeveelutions",
+    "behaviour": "cobblemon-core",
+    "features": "kazeran-eeveelutions",
+    "forms": "kazeran-eeveelutions"
+  },
+  "formOf": {
+    "slug": "leafeon",
+    "name": "Leafeon"
+  },
+  "formName": "Kazeran"
+}

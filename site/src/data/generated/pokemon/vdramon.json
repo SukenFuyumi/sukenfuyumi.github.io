@@ -1,0 +1,197 @@
+{
+  "id": "cobblemon:vdramon",
+  "namespace": "cobblemon",
+  "slug": "vdramon",
+  "name": "Vdramon",
+  "nationalPokedexNumber": 2050,
+  "primaryType": "dragon",
+  "secondaryType": null,
+  "types": [
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 80,
+    "defence": 70,
+    "special_attack": 70,
+    "special_defence": 69,
+    "speed": 50
+  },
+  "baseStatTotal": 404,
+  "abilities": [
+    "angerpoint",
+    "innerfocus"
+  ],
+  "hiddenAbilities": [
+    "adaptability"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.11,
+  "weight": 92.99,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Vdramon is a Champion Dragon Digimon with wings that let it soar.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "twister",
+        "level": 25
+      },
+      {
+        "moveId": "rocksmash",
+        "level": 27
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 29
+      },
+      {
+        "moveId": "cut",
+        "level": 31
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 33
+      },
+      {
+        "moveId": "dragontail",
+        "level": 35
+      },
+      {
+        "moveId": "hornattack",
+        "level": 37
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 39
+      },
+      {
+        "moveId": "roar",
+        "level": 41
+      },
+      {
+        "moveId": "incinerate",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:aerovdramon",
+      "targetSlug": "aerovdramon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: flying_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:sagittarimon",
+      "targetSlug": "sagittarimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: fire_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:skullgreymon",
+      "targetSlug": "skullgreymon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: ghost_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "vmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/vdramon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

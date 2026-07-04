@@ -1,0 +1,303 @@
+{
+  "id": "cobblemon:acideon",
+  "namespace": "cobblemon",
+  "slug": "acideon",
+  "name": "Acideon",
+  "nationalPokedexNumber": 2005,
+  "primaryType": "poison",
+  "secondaryType": null,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 65,
+    "defence": 80,
+    "special_attack": 105,
+    "special_defence": 85,
+    "speed": 70
+  },
+  "baseStatTotal": 500,
+  "abilities": [
+    "poisonpoint",
+    "liquidooze"
+  ],
+  "hiddenAbilities": [
+    "corrosion"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 35,
+  "height": 11,
+  "weight": 300,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 184,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Acideon like to roll around in the muddy dirt within the swamps they live in, in effort to strengthen their poisonous capabilities. The orb on their tail is the source of the toxins they inject into their opponents",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bite",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "faketears",
+        "level": 1
+      },
+      {
+        "moveId": "smokescreen",
+        "level": 1
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 1
+      },
+      {
+        "moveId": "harden",
+        "level": 1
+      },
+      {
+        "moveId": "poisonsting",
+        "level": 4
+      },
+      {
+        "moveId": "knockoff",
+        "level": 7
+      },
+      {
+        "moveId": "screech",
+        "level": 9
+      },
+      {
+        "moveId": "acid",
+        "level": 12
+      },
+      {
+        "moveId": "crunch",
+        "level": 15
+      },
+      {
+        "moveId": "acidspray",
+        "level": 19
+      },
+      {
+        "moveId": "poisongas",
+        "level": 23
+      },
+      {
+        "moveId": "clearsmog",
+        "level": 27
+      },
+      {
+        "moveId": "painsplit",
+        "level": 29
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 32
+      },
+      {
+        "moveId": "toxic",
+        "level": 34
+      },
+      {
+        "moveId": "sludgebomb",
+        "level": 38
+      },
+      {
+        "moveId": "gunkshot",
+        "level": 42
+      },
+      {
+        "moveId": "minimize",
+        "level": 46
+      },
+      {
+        "moveId": "acidarmor",
+        "level": 50
+      },
+      {
+        "moveId": "poisontail",
+        "level": 53
+      },
+      {
+        "moveId": "yawn",
+        "level": 58
+      },
+      {
+        "moveId": "crosspoison",
+        "level": 60
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "brutalstrength"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "leechseed"
+      },
+      {
+        "moveId": "mudbomb"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "toxicspikes"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "venoshock"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "eevee",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/acideon.png",
+    "placeholderColor": "#A33EA1"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "ultra-rare",
+      "level": "18-40",
+      "timeRange": null,
+      "sourceId": "extra-eeveelutions"
+    }
+  ],
+  "sourceMods": [
+    "extra-eeveelutions"
+  ],
+  "primarySource": "extra-eeveelutions",
+  "provenance": {
+    "implemented": "extra-eeveelutions",
+    "name": "extra-eeveelutions",
+    "nationalPokedexNumber": "extra-eeveelutions",
+    "primaryType": "extra-eeveelutions",
+    "abilities": "extra-eeveelutions",
+    "baseStats": "extra-eeveelutions",
+    "behaviour": "extra-eeveelutions",
+    "catchRate": "extra-eeveelutions",
+    "maleRatio": "extra-eeveelutions",
+    "shoulderMountable": "extra-eeveelutions",
+    "forms": "extra-eeveelutions",
+    "baseExperienceYield": "extra-eeveelutions",
+    "experienceGroup": "extra-eeveelutions",
+    "eggCycles": "extra-eeveelutions",
+    "eggGroups": "extra-eeveelutions",
+    "drops": "extra-eeveelutions",
+    "moves": "extra-eeveelutions",
+    "labels": "extra-eeveelutions",
+    "pokedex": "extra-eeveelutions",
+    "preEvolution": "extra-eeveelutions",
+    "baseScale": "extra-eeveelutions",
+    "hitbox": "extra-eeveelutions",
+    "baseFriendship": "extra-eeveelutions",
+    "evYield": "extra-eeveelutions",
+    "height": "extra-eeveelutions",
+    "weight": "extra-eeveelutions"
+  }
+}

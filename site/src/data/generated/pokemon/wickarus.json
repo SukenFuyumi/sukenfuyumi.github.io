@@ -1,0 +1,395 @@
+{
+  "id": "cobblemon:wickarus",
+  "namespace": "cobblemon",
+  "slug": "wickarus",
+  "name": "Wickarus",
+  "nationalPokedexNumber": 27,
+  "primaryType": "bug",
+  "secondaryType": "flying",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 39,
+    "attack": 49,
+    "defence": 42,
+    "special_attack": 37,
+    "special_defence": 32,
+    "speed": 71
+  },
+  "baseStatTotal": 270,
+  "abilities": [
+    "galewings",
+    "opportunist"
+  ],
+  "hiddenAbilities": [
+    "solarpower"
+  ],
+  "eggGroups": [
+    "bug",
+    "human_like"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 55,
+  "maleRatio": 0.5,
+  "experienceGroup": "fast",
+  "baseExperienceYield": 54,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Wickarus can produce a wax that they use as wings and even as hair. This wax isn't very strong and is easily washed away by water and melted by heat. This Pokémon was very popular among ancient civilizations and is regarded as possibly the original starter Pokémon",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bugbite",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "powder",
+        "level": 1
+      },
+      {
+        "moveId": "pursuit",
+        "level": 1
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 4
+      },
+      {
+        "moveId": "sunnyday",
+        "level": 7
+      },
+      {
+        "moveId": "wingattack",
+        "level": 11
+      },
+      {
+        "moveId": "roost",
+        "level": 15
+      },
+      {
+        "moveId": "firstimpression",
+        "level": 20
+      },
+      {
+        "moveId": "heatwave",
+        "level": 24
+      },
+      {
+        "moveId": "quiverdance",
+        "level": 29
+      },
+      {
+        "moveId": "bravebird",
+        "level": 35
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "feint"
+      },
+      {
+        "moveId": "feintattack"
+      },
+      {
+        "moveId": "fellstinger"
+      },
+      {
+        "moveId": "gust"
+      },
+      {
+        "moveId": "morningsun"
+      },
+      {
+        "moveId": "whirlwind"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "bravebird"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "silverwind"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:solarica",
+      "targetSlug": "solarica",
+      "summary": "Nivel · Nv. 31",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "rock",
+        "multiplier": 4
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/wickarus.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "uncommon",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": "day",
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "the_bumblezone:floral_meadow",
+        "the_bumblezone:pollinated_fields"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "name": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "labels": "lively-mons",
+    "primaryType": "lively-mons",
+    "secondaryType": "lively-mons",
+    "abilities": "lively-mons",
+    "baseStats": "lively-mons",
+    "behaviour": "lively-mons",
+    "catchRate": "lively-mons",
+    "maleRatio": "lively-mons",
+    "shoulderMountable": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "eggCycles": "lively-mons",
+    "eggGroups": "lively-mons",
+    "drops": "lively-mons",
+    "moves": "lively-mons",
+    "pokedex": "lively-mons",
+    "evolutions": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "evYield": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "aspects": "lively-mons",
+    "cannotDynamax": "lively-mons"
+  }
+}

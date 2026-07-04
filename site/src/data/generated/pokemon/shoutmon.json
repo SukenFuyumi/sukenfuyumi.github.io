@@ -1,0 +1,232 @@
+{
+  "id": "cobblemon:shoutmon",
+  "namespace": "cobblemon",
+  "slug": "shoutmon",
+  "name": "Shoutmon",
+  "nationalPokedexNumber": 2138,
+  "primaryType": "dragon",
+  "secondaryType": "fire",
+  "types": [
+    "dragon",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 45,
+    "defence": 32,
+    "special_attack": 83,
+    "special_defence": 35,
+    "speed": 65
+  },
+  "baseStatTotal": 305,
+  "abilities": [
+    "soundproof",
+    "punkrock"
+  ],
+  "hiddenAbilities": [
+    "victorystar"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.02,
+  "weight": 11.34,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A hot-blooded vocalist Digimon whose voice is a weapon.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 12
+      },
+      {
+        "moveId": "growl",
+        "level": 14
+      },
+      {
+        "moveId": "ember",
+        "level": 16
+      },
+      {
+        "moveId": "screech",
+        "level": 18
+      },
+      {
+        "moveId": "sing",
+        "level": 19
+      },
+      {
+        "moveId": "echoedvoice",
+        "level": 21
+      },
+      {
+        "moveId": "disarmingvoice",
+        "level": 22
+      },
+      {
+        "moveId": "uproar",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:kingshoutmon",
+      "targetSlug": "kingshoutmon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:shoutmonx2",
+      "targetSlug": "shoutmonx2",
+      "summary": "Nivel · Nv. 24 · party_member",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:darktyrannomon",
+      "targetSlug": "darktyrannomon",
+      "summary": "Nivel · Nv. 24 · De noche",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:growmon",
+      "targetSlug": "growmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: fire_stone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:mimicmon",
+      "targetSlug": "mimicmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: metal_coat",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "gigimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/shoutmon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_hills"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_thermal"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

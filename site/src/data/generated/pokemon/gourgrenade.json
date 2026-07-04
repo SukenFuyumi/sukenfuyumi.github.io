@@ -1,0 +1,1987 @@
+{
+  "id": "cobblemon:gourgrenade",
+  "namespace": "cobblemon",
+  "slug": "gourgrenade",
+  "name": "Gourgrenade",
+  "nationalPokedexNumber": 1035,
+  "primaryType": "fire",
+  "secondaryType": "grass",
+  "types": [
+    "fire",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 100,
+    "defence": 122,
+    "special_attack": 38,
+    "special_defence": 75,
+    "speed": 94
+  },
+  "baseStatTotal": 494,
+  "abilities": [
+    "aftermath",
+    "reckless"
+  ],
+  "hiddenAbilities": [
+    "bombard"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "catchRate": 60,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 9,
+  "weight": 125,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 173,
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [
+    "pumpkin-size-average"
+  ],
+  "forms": [
+    {
+      "name": "Small",
+      "aspects": [
+        "pumpkin-size-small"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "grass",
+      "types": [
+        "fire",
+        "grass"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 55,
+        "attack": 90,
+        "defence": 122,
+        "special_attack": 38,
+        "special_defence": 75,
+        "speed": 114
+      },
+      "baseStatTotal": 494,
+      "abilities": [
+        "aftermath",
+        "chlorophyll"
+      ],
+      "hiddenAbilities": [
+        "bombard"
+      ],
+      "pokedexDescription": "Gourgrenade is a convergent evolution of Gourgeist. In the dark of night, it awakens from its pumpkin patch searching for unsuspecting victims. When it finds one, it showers pumpkin grenades around them in an attempt to scare them.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "selfdestruct",
+            "level": 1
+          },
+          {
+            "moveId": "leafage",
+            "level": 1
+          },
+          {
+            "moveId": "willowisp",
+            "level": 1
+          },
+          {
+            "moveId": "ember",
+            "level": 1
+          },
+          {
+            "moveId": "flamecharge",
+            "level": 1
+          },
+          {
+            "moveId": "sludgebomb",
+            "level": 1
+          },
+          {
+            "moveId": "spotlight",
+            "level": 1
+          },
+          {
+            "moveId": "growth",
+            "level": 1
+          },
+          {
+            "moveId": "razorleaf",
+            "level": 12
+          },
+          {
+            "moveId": "leechseed",
+            "level": 16
+          },
+          {
+            "moveId": "bulletseed",
+            "level": 20
+          },
+          {
+            "moveId": "scaryface",
+            "level": 24
+          },
+          {
+            "moveId": "worryseed",
+            "level": 28
+          },
+          {
+            "moveId": "seedbomb",
+            "level": 32
+          },
+          {
+            "moveId": "firebomb",
+            "level": 36
+          },
+          {
+            "moveId": "trick",
+            "level": 40
+          },
+          {
+            "moveId": "vinepress",
+            "level": 44
+          },
+          {
+            "moveId": "explosion",
+            "level": 48
+          },
+          {
+            "moveId": "flareblitz",
+            "level": 52
+          },
+          {
+            "moveId": "pumpkinbomb",
+            "level": 56
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "bestow"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "destinybond"
+          },
+          {
+            "moveId": "disable"
+          },
+          {
+            "moveId": "trickortreat"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "bodypress"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "demolition"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "explosion"
+          },
+          {
+            "moveId": "explosion"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "flamecharge"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "flareblitz"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "gyroball"
+          },
+          {
+            "moveId": "heatcrash"
+          },
+          {
+            "moveId": "hex"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "imprison"
+          },
+          {
+            "moveId": "incinerate"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "morningglory"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "nightlight"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "powerwhip"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "selfdestruct"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "startlingshriek"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "temperflare"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "wildcharge"
+          },
+          {
+            "moveId": "willowisp"
+          },
+          {
+            "moveId": "woodhammer"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "grass",
+            "multiplier": 0.25
+          },
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "gourgrenade-small"
+    },
+    {
+      "name": "Large",
+      "aspects": [
+        "pumpkin-size-large"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "grass",
+      "types": [
+        "fire",
+        "grass"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 75,
+        "attack": 110,
+        "defence": 122,
+        "special_attack": 38,
+        "special_defence": 75,
+        "speed": 74
+      },
+      "baseStatTotal": 494,
+      "abilities": [
+        "aftermath",
+        "guts"
+      ],
+      "hiddenAbilities": [
+        "bombard"
+      ],
+      "pokedexDescription": "Gourgrenade is a convergent evolution of Gourgeist. In the dark of night, it awakens from its pumpkin patch searching for unsuspecting victims. When it finds one, it showers pumpkin grenades around them in an attempt to scare them.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "selfdestruct",
+            "level": 1
+          },
+          {
+            "moveId": "leafage",
+            "level": 1
+          },
+          {
+            "moveId": "willowisp",
+            "level": 1
+          },
+          {
+            "moveId": "ember",
+            "level": 1
+          },
+          {
+            "moveId": "flamecharge",
+            "level": 1
+          },
+          {
+            "moveId": "sludgebomb",
+            "level": 1
+          },
+          {
+            "moveId": "spotlight",
+            "level": 1
+          },
+          {
+            "moveId": "growth",
+            "level": 1
+          },
+          {
+            "moveId": "razorleaf",
+            "level": 12
+          },
+          {
+            "moveId": "leechseed",
+            "level": 16
+          },
+          {
+            "moveId": "bulletseed",
+            "level": 20
+          },
+          {
+            "moveId": "scaryface",
+            "level": 24
+          },
+          {
+            "moveId": "worryseed",
+            "level": 28
+          },
+          {
+            "moveId": "seedbomb",
+            "level": 32
+          },
+          {
+            "moveId": "firebomb",
+            "level": 36
+          },
+          {
+            "moveId": "trick",
+            "level": 40
+          },
+          {
+            "moveId": "vinepress",
+            "level": 44
+          },
+          {
+            "moveId": "explosion",
+            "level": 48
+          },
+          {
+            "moveId": "flareblitz",
+            "level": 52
+          },
+          {
+            "moveId": "pumpkinbomb",
+            "level": 56
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "bestow"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "destinybond"
+          },
+          {
+            "moveId": "disable"
+          },
+          {
+            "moveId": "trickortreat"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "bodypress"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "demolition"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "explosion"
+          },
+          {
+            "moveId": "explosion"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "flamecharge"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "flareblitz"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "gyroball"
+          },
+          {
+            "moveId": "heatcrash"
+          },
+          {
+            "moveId": "hex"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "imprison"
+          },
+          {
+            "moveId": "incinerate"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "morningglory"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "nightlight"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "powerwhip"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "selfdestruct"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "startlingshriek"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "temperflare"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "wildcharge"
+          },
+          {
+            "moveId": "willowisp"
+          },
+          {
+            "moveId": "woodhammer"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "grass",
+            "multiplier": 0.25
+          },
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "gourgrenade-large"
+    },
+    {
+      "name": "Super",
+      "aspects": [
+        "pumpkin-size-super"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "grass",
+      "types": [
+        "fire",
+        "grass"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 85,
+        "attack": 120,
+        "defence": 122,
+        "special_attack": 38,
+        "special_defence": 75,
+        "speed": 54
+      },
+      "baseStatTotal": 494,
+      "abilities": [
+        "aftermath",
+        "leafguard"
+      ],
+      "hiddenAbilities": [
+        "bombard"
+      ],
+      "pokedexDescription": "Gourgrenade is a convergent evolution of Gourgeist. In the dark of night, it awakens from its pumpkin patch searching for unsuspecting victims. When it finds one, it showers pumpkin grenades around them in an attempt to scare them.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "selfdestruct",
+            "level": 1
+          },
+          {
+            "moveId": "leafage",
+            "level": 1
+          },
+          {
+            "moveId": "willowisp",
+            "level": 1
+          },
+          {
+            "moveId": "ember",
+            "level": 1
+          },
+          {
+            "moveId": "flamecharge",
+            "level": 1
+          },
+          {
+            "moveId": "sludgebomb",
+            "level": 1
+          },
+          {
+            "moveId": "spotlight",
+            "level": 1
+          },
+          {
+            "moveId": "growth",
+            "level": 1
+          },
+          {
+            "moveId": "razorleaf",
+            "level": 12
+          },
+          {
+            "moveId": "leechseed",
+            "level": 16
+          },
+          {
+            "moveId": "bulletseed",
+            "level": 20
+          },
+          {
+            "moveId": "scaryface",
+            "level": 24
+          },
+          {
+            "moveId": "worryseed",
+            "level": 28
+          },
+          {
+            "moveId": "seedbomb",
+            "level": 32
+          },
+          {
+            "moveId": "firebomb",
+            "level": 36
+          },
+          {
+            "moveId": "trick",
+            "level": 40
+          },
+          {
+            "moveId": "vinepress",
+            "level": 44
+          },
+          {
+            "moveId": "explosion",
+            "level": 48
+          },
+          {
+            "moveId": "flareblitz",
+            "level": 52
+          },
+          {
+            "moveId": "pumpkinbomb",
+            "level": 56
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "bestow"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "destinybond"
+          },
+          {
+            "moveId": "disable"
+          },
+          {
+            "moveId": "trickortreat"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "bodypress"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "demolition"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "explosion"
+          },
+          {
+            "moveId": "explosion"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "flamecharge"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "flareblitz"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "gyroball"
+          },
+          {
+            "moveId": "heatcrash"
+          },
+          {
+            "moveId": "hex"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "imprison"
+          },
+          {
+            "moveId": "incinerate"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "morningglory"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "nightlight"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "powerwhip"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "selfdestruct"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "startlingshriek"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "temperflare"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "wildcharge"
+          },
+          {
+            "moveId": "willowisp"
+          },
+          {
+            "moveId": "woodhammer"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "grass",
+            "multiplier": 0.25
+          },
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "gourgrenade-super"
+    }
+  ],
+  "pokedexDescription": "Gourgrenade is a convergent evolution of Gourgeist. In the dark of night, it awakens from its pumpkin patch searching for unsuspecting victims. When it finds one, it showers pumpkin grenades around them in an attempt to scare them.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "selfdestruct",
+        "level": 1
+      },
+      {
+        "moveId": "leafage",
+        "level": 1
+      },
+      {
+        "moveId": "willowisp",
+        "level": 1
+      },
+      {
+        "moveId": "ember",
+        "level": 1
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 1
+      },
+      {
+        "moveId": "sludgebomb",
+        "level": 1
+      },
+      {
+        "moveId": "spotlight",
+        "level": 1
+      },
+      {
+        "moveId": "growth",
+        "level": 1
+      },
+      {
+        "moveId": "razorleaf",
+        "level": 12
+      },
+      {
+        "moveId": "leechseed",
+        "level": 16
+      },
+      {
+        "moveId": "bulletseed",
+        "level": 20
+      },
+      {
+        "moveId": "scaryface",
+        "level": 24
+      },
+      {
+        "moveId": "worryseed",
+        "level": 28
+      },
+      {
+        "moveId": "seedbomb",
+        "level": 32
+      },
+      {
+        "moveId": "firebomb",
+        "level": 36
+      },
+      {
+        "moveId": "trick",
+        "level": 40
+      },
+      {
+        "moveId": "vinepress",
+        "level": 44
+      },
+      {
+        "moveId": "explosion",
+        "level": 48
+      },
+      {
+        "moveId": "flareblitz",
+        "level": 52
+      },
+      {
+        "moveId": "pumpkinbomb",
+        "level": 56
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "bestow"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "destinybond"
+      },
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "trickortreat"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "demolition"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fireblast"
+      },
+      {
+        "moveId": "flamecharge"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flareblitz"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "heatcrash"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "morningglory"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "powerwhip"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "startlingshriek"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "temperflare"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "wildcharge"
+      },
+      {
+        "moveId": "willowisp"
+      },
+      {
+        "moveId": "woodhammer"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "pumpkaboom-super",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/gourgrenade.png",
+    "placeholderColor": "#EE8130"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "29-49",
+      "timeRange": "night",
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_soul_fire"
+      ],
+      "bucket": "uncommon",
+      "level": "29-49",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    }
+  ],
+  "sourceMods": [
+    "lasers-fakemon-pack"
+  ],
+  "primarySource": "lasers-fakemon-pack",
+  "provenance": {
+    "implemented": "lasers-fakemon-pack",
+    "nationalPokedexNumber": "lasers-fakemon-pack",
+    "name": "lasers-fakemon-pack",
+    "primaryType": "lasers-fakemon-pack",
+    "secondaryType": "lasers-fakemon-pack",
+    "maleRatio": "lasers-fakemon-pack",
+    "height": "lasers-fakemon-pack",
+    "weight": "lasers-fakemon-pack",
+    "pokedex": "lasers-fakemon-pack",
+    "labels": "lasers-fakemon-pack",
+    "aspects": "lasers-fakemon-pack",
+    "abilities": "lasers-fakemon-pack",
+    "eggGroups": "lasers-fakemon-pack",
+    "baseStats": "lasers-fakemon-pack",
+    "evYield": "lasers-fakemon-pack",
+    "baseExperienceYield": "lasers-fakemon-pack",
+    "experienceGroup": "lasers-fakemon-pack",
+    "catchRate": "lasers-fakemon-pack",
+    "eggCycles": "lasers-fakemon-pack",
+    "baseFriendship": "lasers-fakemon-pack",
+    "baseScale": "lasers-fakemon-pack",
+    "hitbox": "lasers-fakemon-pack",
+    "behaviour": "lasers-fakemon-pack",
+    "lightingData": "lasers-fakemon-pack",
+    "drops": "lasers-fakemon-pack",
+    "moves": "lasers-fakemon-pack",
+    "preEvolution": "lasers-fakemon-pack",
+    "evolutions": "lasers-fakemon-pack",
+    "forms": "lasers-fakemon-pack"
+  }
+}

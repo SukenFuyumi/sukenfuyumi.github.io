@@ -1,0 +1,207 @@
+{
+  "id": "cobblemon:loogamon",
+  "namespace": "cobblemon",
+  "slug": "loogamon",
+  "name": "Loogamon",
+  "nationalPokedexNumber": 2059,
+  "primaryType": "dark",
+  "secondaryType": "fire",
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 65,
+    "defence": 35,
+    "special_attack": 65,
+    "special_defence": 30,
+    "speed": 60
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "ballfetch",
+    "intimidate"
+  ],
+  "hiddenAbilities": [
+    "guarddog"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.81,
+  "weight": 11.34,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Demon Beast/Prototype Digimon; looks like a puppy but is fierce if approached carelessly.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 12
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 14
+      },
+      {
+        "moveId": "bite",
+        "level": 16
+      },
+      {
+        "moveId": "ember",
+        "level": 18
+      },
+      {
+        "moveId": "smokescreen",
+        "level": 19
+      },
+      {
+        "moveId": "odorsleuth",
+        "level": 21
+      },
+      {
+        "moveId": "assurance",
+        "level": 22
+      },
+      {
+        "moveId": "firefang",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:loogarmon",
+      "targetSlug": "loogarmon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:tyrannomon",
+      "targetSlug": "tyrannomon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: dragon_fang",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:bakemon",
+      "targetSlug": "bakemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: reaper_cloth",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "bowmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/loogamon.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_nether_wasteland",
+        "#cobblemon:is_nether_desert",
+        "#cobblemon:nether"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

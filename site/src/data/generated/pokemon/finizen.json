@@ -1,0 +1,507 @@
+{
+  "id": "cobblemon:finizen",
+  "namespace": "cobblemon",
+  "slug": "finizen",
+  "name": "Finizen",
+  "nationalPokedexNumber": 963,
+  "primaryType": "water",
+  "secondaryType": null,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 45,
+    "defence": 40,
+    "special_attack": 45,
+    "special_defence": 40,
+    "speed": 75
+  },
+  "baseStatTotal": 315,
+  "abilities": [
+    "waterveil"
+  ],
+  "hiddenAbilities": [
+    "waterveil"
+  ],
+  "eggGroups": [
+    "field",
+    "water_2"
+  ],
+  "catchRate": 200,
+  "eggCycles": 40,
+  "baseFriendship": 50,
+  "height": 13,
+  "weight": 602,
+  "maleRatio": 0.5,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 63,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "supersonic",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 7
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 10
+      },
+      {
+        "moveId": "aquajet",
+        "level": 13
+      },
+      {
+        "moveId": "doublehit",
+        "level": 17
+      },
+      {
+        "moveId": "dive",
+        "level": 21
+      },
+      {
+        "moveId": "charm",
+        "level": 25
+      },
+      {
+        "moveId": "acrobatics",
+        "level": 29
+      },
+      {
+        "moveId": "encore",
+        "level": 34
+      },
+      {
+        "moveId": "aquatail",
+        "level": 39
+      },
+      {
+        "moveId": "mist",
+        "level": 44
+      },
+      {
+        "moveId": "hydropump",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "boomburst"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "tickle"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:palafin",
+      "targetSlug": "palafin",
+      "summary": "Nivel · Nv. 38 · variante dolphin_form=zero",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/963.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

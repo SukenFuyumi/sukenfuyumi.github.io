@@ -1,0 +1,44 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import sourcesData from "../../data/generated/sources.json";
+import listing from "../../data/generated/index.json";
+
+const counts = new Map<string, number>();
+for (const p of listing as any[]) {
+  for (const s of p.sourceMods) counts.set(s, (counts.get(s) ?? 0) + 1);
+}
+const roleLabels: Record<string, string> = {
+  base: "Base",
+  content: "Contenido",
+  "balance-patch": "Parche de balance",
+  cosmetic: "Cosmético",
+};
+---
+<Layout title="Mods &amp; créditos">
+  <h1>Mods y datapacks activos</h1>
+  <p>Esta Pokédex se genera directamente desde los archivos instalados en el servidor. Esta es la lista de fuentes activas usadas para construirla.</p>
+  <table>
+    <thead><tr><th>Mod / datapack</th><th>Rol</th><th>Pokémon aportados</th><th>Notas</th></tr></thead>
+    <tbody>
+      {sourcesData.sources.map((s: any) => (
+        <tr>
+          <td><strong>{s.label}</strong></td>
+          <td><span class="pill">{roleLabels[s.role] ?? s.role}</span></td>
+          <td>{counts.get(s.id) ?? 0}</td>
+          <td style="font-size:0.82rem; color:var(--text-muted);">{s.notes ?? ""}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <h2>No activos en el servidor</h2>
+  <p style="color:var(--text-muted);">Estos packs están presentes en la carpeta del servidor pero marcados como deshabilitados, por lo que no aparecen en esta Pokédex.</p>
+  <table>
+    <thead><tr><th>Mod / datapack</th><th>Motivo</th></tr></thead>
+    <tbody>
+      {sourcesData.disabled.map((d: any) => (
+        <tr><td>{d.label}</td><td style="font-size:0.82rem; color:var(--text-muted);">{d.reason}</td></tr>
+      ))}
+    </tbody>
+  </table>
+</Layout>

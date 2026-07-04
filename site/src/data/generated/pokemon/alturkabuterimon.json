@@ -1,0 +1,177 @@
+{
+  "id": "cobblemon:alturkabuterimon",
+  "namespace": "cobblemon",
+  "slug": "alturkabuterimon",
+  "name": "AlturKabuterimon",
+  "nationalPokedexNumber": 2019,
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 62,
+    "defence": 70,
+    "special_attack": 108,
+    "special_defence": 60,
+    "speed": 105
+  },
+  "baseStatTotal": 515,
+  "abilities": [
+    "lightningrod",
+    "shellarmor"
+  ],
+  "hiddenAbilities": [
+    "galvanize"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.92,
+  "weight": 110,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "An evolution of Kabuterimon that was discovered within the tropical region of the Net Area.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "strugglebug",
+        "level": 44
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 47
+      },
+      {
+        "moveId": "spark",
+        "level": 50
+      },
+      {
+        "moveId": "hornattack",
+        "level": 54
+      },
+      {
+        "moveId": "electrify",
+        "level": 57
+      },
+      {
+        "moveId": "stickyweb",
+        "level": 61
+      },
+      {
+        "moveId": "discharge",
+        "level": 66
+      },
+      {
+        "moveId": "bugbuzz",
+        "level": 70
+      },
+      {
+        "moveId": "irondefense",
+        "level": 75
+      },
+      {
+        "moveId": "megahorn",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "kuwagamon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/alturkabuterimon.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_mushroom",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "secondaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

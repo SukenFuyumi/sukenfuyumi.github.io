@@ -1,0 +1,1425 @@
+{
+  "id": "cobblemon:wormadam",
+  "namespace": "cobblemon",
+  "slug": "wormadam",
+  "name": "Wormadam",
+  "nationalPokedexNumber": 413,
+  "primaryType": "bug",
+  "secondaryType": "grass",
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 59,
+    "defence": 85,
+    "special_attack": 79,
+    "special_defence": 105,
+    "speed": 36
+  },
+  "baseStatTotal": 424,
+  "abilities": [
+    "anticipation",
+    "leafguard"
+  ],
+  "hiddenAbilities": [
+    "resilient"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 45,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 5,
+  "weight": 65,
+  "maleRatio": 0,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 148,
+  "labels": [
+    "gen4"
+  ],
+  "aspects": [
+    "plant-cloak"
+  ],
+  "forms": [
+    {
+      "name": "Sandy",
+      "aspects": [
+        "sandy-cloak"
+      ],
+      "primaryType": "bug",
+      "secondaryType": "ground",
+      "types": [
+        "bug",
+        "ground"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 60,
+        "attack": 79,
+        "defence": 105,
+        "special_attack": 59,
+        "special_defence": 85,
+        "speed": 36
+      },
+      "baseStatTotal": 424,
+      "abilities": [
+        "anticipation",
+        "sandguard"
+      ],
+      "hiddenAbilities": [
+        "resilient"
+      ],
+      "pokedexDescription": "Its earthen skin is reasonably hard—it has no problem repelling a Starly's pecking, at least.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "guardpress",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "protect",
+            "level": 1
+          },
+          {
+            "moveId": "bugbite",
+            "level": 1
+          },
+          {
+            "moveId": "suckerpunch",
+            "level": 1
+          },
+          {
+            "moveId": "quiverdance",
+            "level": 1
+          },
+          {
+            "moveId": "sweetscent",
+            "level": 1
+          },
+          {
+            "moveId": "honeydew",
+            "level": 1
+          },
+          {
+            "moveId": "honeybomb",
+            "level": 1
+          },
+          {
+            "moveId": "stringshot",
+            "level": 20
+          },
+          {
+            "moveId": "confusion",
+            "level": 23
+          },
+          {
+            "moveId": "rockblast",
+            "level": 26
+          },
+          {
+            "moveId": "harden",
+            "level": 29
+          },
+          {
+            "moveId": "psybeam",
+            "level": 32
+          },
+          {
+            "moveId": "captivate",
+            "level": 35
+          },
+          {
+            "moveId": "sandshift",
+            "level": 37
+          },
+          {
+            "moveId": "flail",
+            "level": 38
+          },
+          {
+            "moveId": "ensnare",
+            "level": 39
+          },
+          {
+            "moveId": "attract",
+            "level": 41
+          },
+          {
+            "moveId": "stickyweb",
+            "level": 42
+          },
+          {
+            "moveId": "psychic",
+            "level": 44
+          },
+          {
+            "moveId": "fissure",
+            "level": 47
+          },
+          {
+            "moveId": "bugbuzz",
+            "level": 50
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "bugbite"
+          },
+          {
+            "moveId": "bugbuzz"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "dig"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "earthquake"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "guardpress"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "infestation"
+          },
+          {
+            "moveId": "mindbend"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "pitfall"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockblast"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "sandshift"
+          },
+          {
+            "moveId": "sandstorm"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "silverwind"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "stringshot"
+          },
+          {
+            "moveId": "strugglebug"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "venoshock"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "bugbite"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "stringshot"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "water",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ground",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "electric"
+        ]
+      },
+      "evolutions": [],
+      "slug": "wormadam-sandy"
+    },
+    {
+      "name": "Trash",
+      "aspects": [
+        "trash-cloak"
+      ],
+      "primaryType": "bug",
+      "secondaryType": "steel",
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 60,
+        "attack": 69,
+        "defence": 95,
+        "special_attack": 69,
+        "special_defence": 95,
+        "speed": 36
+      },
+      "baseStatTotal": 424,
+      "abilities": [
+        "anticipation",
+        "heatproof"
+      ],
+      "hiddenAbilities": [
+        "resilient"
+      ],
+      "pokedexDescription": "Its body, composed of refuse, blends in to the scenery so much as to be inconspicuous. This seems to be the perfect way for the Pokémon to evade the detection of predators.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "armorpress",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "protect",
+            "level": 1
+          },
+          {
+            "moveId": "bugbite",
+            "level": 1
+          },
+          {
+            "moveId": "mirrorshot",
+            "level": 1
+          },
+          {
+            "moveId": "suckerpunch",
+            "level": 1
+          },
+          {
+            "moveId": "quiverdance",
+            "level": 1
+          },
+          {
+            "moveId": "sweetscent",
+            "level": 1
+          },
+          {
+            "moveId": "honeydew",
+            "level": 1
+          },
+          {
+            "moveId": "honeybomb",
+            "level": 1
+          },
+          {
+            "moveId": "metalburst",
+            "level": 1
+          },
+          {
+            "moveId": "stringshot",
+            "level": 20
+          },
+          {
+            "moveId": "confusion",
+            "level": 23
+          },
+          {
+            "moveId": "metalsound",
+            "level": 29
+          },
+          {
+            "moveId": "psybeam",
+            "level": 32
+          },
+          {
+            "moveId": "captivate",
+            "level": 35
+          },
+          {
+            "moveId": "uturn",
+            "level": 37
+          },
+          {
+            "moveId": "flail",
+            "level": 38
+          },
+          {
+            "moveId": "ensnare",
+            "level": 39
+          },
+          {
+            "moveId": "attract",
+            "level": 41
+          },
+          {
+            "moveId": "stickyweb",
+            "level": 42
+          },
+          {
+            "moveId": "psychic",
+            "level": 44
+          },
+          {
+            "moveId": "ironhead",
+            "level": 47
+          },
+          {
+            "moveId": "bugbuzz",
+            "level": 50
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "armorpress"
+          },
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "bugbite"
+          },
+          {
+            "moveId": "bugbuzz"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "dig"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "gyroball"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "infestation"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "metalsound"
+          },
+          {
+            "moveId": "mindbend"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "silverwind"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "stringshot"
+          },
+          {
+            "moveId": "strugglebug"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "venoshock"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "bugbite"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "stringshot"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fire",
+            "multiplier": 4
+          }
+        ],
+        "resists": [
+          {
+            "type": "grass",
+            "multiplier": 0.25
+          },
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "dragon",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          },
+          {
+            "type": "normal",
+            "multiplier": 0.5
+          },
+          {
+            "type": "psychic",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "poison"
+        ]
+      },
+      "evolutions": [],
+      "slug": "wormadam-trash"
+    }
+  ],
+  "pokedexDescription": "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "vinepress",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "protect",
+        "level": 1
+      },
+      {
+        "moveId": "bugbite",
+        "level": 1
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 1
+      },
+      {
+        "moveId": "quiverdance",
+        "level": 1
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 1
+      },
+      {
+        "moveId": "honeydew",
+        "level": 1
+      },
+      {
+        "moveId": "honeybomb",
+        "level": 1
+      },
+      {
+        "moveId": "stringshot",
+        "level": 20
+      },
+      {
+        "moveId": "confusion",
+        "level": 23
+      },
+      {
+        "moveId": "razorleaf",
+        "level": 26
+      },
+      {
+        "moveId": "growth",
+        "level": 29
+      },
+      {
+        "moveId": "psybeam",
+        "level": 32
+      },
+      {
+        "moveId": "captivate",
+        "level": 35
+      },
+      {
+        "moveId": "backpetal",
+        "level": 37
+      },
+      {
+        "moveId": "flail",
+        "level": 38
+      },
+      {
+        "moveId": "ensnare",
+        "level": 39
+      },
+      {
+        "moveId": "attract",
+        "level": 41
+      },
+      {
+        "moveId": "stickyweb",
+        "level": 42
+      },
+      {
+        "moveId": "psychic",
+        "level": 44
+      },
+      {
+        "moveId": "leafstorm",
+        "level": 47
+      },
+      {
+        "moveId": "bugbuzz",
+        "level": 50
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "backpetal"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "mindbend"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "silverwind"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "burmy-trash",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 4
+      },
+      {
+        "type": "flying",
+        "multiplier": 4
+      },
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.25
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/413.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "biomesoplenty:aspen_glade"
+      ],
+      "bucket": "uncommon",
+      "level": "35-55",
+      "timeRange": null,
+      "sourceId": "mega-showdown"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "uncommon",
+      "level": "15-32",
+      "timeRange": null,
+      "sourceId": "mega-showdown"
+    },
+    {
+      "biomes": [
+        "biomesoplenty:dryland",
+        "biomesoplenty:wasteland_steppe",
+        "biomesoplenty:wasteland"
+      ],
+      "bucket": "uncommon",
+      "level": "35-55",
+      "timeRange": null,
+      "sourceId": "mega-showdown"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "uncommon",
+      "level": "15-32",
+      "timeRange": null,
+      "sourceId": "mega-showdown"
+    },
+    {
+      "biomes": [
+        "biomesoplenty:jacaranda_glade",
+        "biomesoplenty:maple_woods"
+      ],
+      "bucket": "uncommon",
+      "level": "35-55",
+      "timeRange": null,
+      "sourceId": "mega-showdown"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral"
+      ],
+      "bucket": "uncommon",
+      "level": "15-32",
+      "timeRange": null,
+      "sourceId": "mega-showdown"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "mega-showdown",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "lasers-additions",
+    "behaviour": "mega-showdown",
+    "implemented": "mega-showdown",
+    "hitbox": "mega-showdown",
+    "baseScale": "mega-showdown"
+  }
+}

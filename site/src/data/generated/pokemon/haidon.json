@@ -1,0 +1,219 @@
+{
+  "id": "cobblemon:haidon",
+  "namespace": "cobblemon",
+  "slug": "haidon",
+  "name": "Haidon",
+  "nationalPokedexNumber": 6756,
+  "primaryType": "fighting",
+  "secondaryType": null,
+  "types": [
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 67,
+    "defence": 56,
+    "special_attack": 43,
+    "special_defence": 50,
+    "speed": 67
+  },
+  "baseStatTotal": 333,
+  "abilities": [
+    "flashfire"
+  ],
+  "hiddenAbilities": [],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 3,
+  "eggCycles": 120,
+  "baseFriendship": 0,
+  "height": 35,
+  "weight": 9500,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 335,
+  "labels": [
+    "gen9",
+    "legendary",
+    "restricted"
+  ],
+  "aspects": [
+    "standard"
+  ],
+  "forms": [],
+  "pokedexDescription": null,
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "mudshot",
+        "level": 1
+      },
+      {
+        "moveId": "scaryface",
+        "level": 1
+      },
+      {
+        "moveId": "ember",
+        "level": 1
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 9
+      },
+      {
+        "moveId": "rocksmash",
+        "level": 13
+      },
+      {
+        "moveId": "agility",
+        "level": 18
+      },
+      {
+        "moveId": "mudshot",
+        "level": 27
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 31
+      },
+      {
+        "moveId": "sunnyday",
+        "level": 36
+      },
+      {
+        "moveId": "crunch",
+        "level": 40
+      },
+      {
+        "moveId": "shadowclaw",
+        "level": 45
+      },
+      {
+        "moveId": "roar",
+        "level": 49
+      },
+      {
+        "moveId": "taunt",
+        "level": 54
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 66
+      },
+      {
+        "moveId": "snarl",
+        "level": 72
+      },
+      {
+        "moveId": "solarbeam",
+        "level": 81
+      },
+      {
+        "moveId": "closecombat",
+        "level": 90
+      },
+      {
+        "moveId": "dracometeor",
+        "level": 100
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:koraidon",
+      "targetSlug": "koraidon",
+      "summary": "Intercambio · Sosteniendo: dragon_fang · (consume objeto sostenido)",
+      "variant": "trade"
+    },
+    {
+      "targetKey": "cobblemon:koraidon",
+      "targetSlug": "koraidon",
+      "summary": "Usar chicken_sandwich",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/haidon.png",
+    "placeholderColor": "#C22E28"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_sandy"
+      ],
+      "bucket": "rare",
+      "level": "30-39",
+      "timeRange": null,
+      "sourceId": "baby-legends"
+    }
+  ],
+  "sourceMods": [
+    "baby-legends"
+  ],
+  "primarySource": "baby-legends",
+  "provenance": {
+    "nationalPokedexNumber": "baby-legends",
+    "name": "baby-legends",
+    "primaryType": "baby-legends",
+    "maleRatio": "baby-legends",
+    "height": "baby-legends",
+    "weight": "baby-legends",
+    "pokedex": "baby-legends",
+    "labels": "baby-legends",
+    "aspects": "baby-legends",
+    "abilities": "baby-legends",
+    "eggGroups": "baby-legends",
+    "baseStats": "baby-legends",
+    "evYield": "baby-legends",
+    "behaviour": "baby-legends",
+    "baseExperienceYield": "baby-legends",
+    "experienceGroup": "baby-legends",
+    "catchRate": "baby-legends",
+    "eggCycles": "baby-legends",
+    "baseFriendship": "baby-legends",
+    "baseScale": "baby-legends",
+    "hitbox": "baby-legends",
+    "drops": "baby-legends",
+    "moves": "baby-legends",
+    "evolutions": "baby-legends"
+  }
+}

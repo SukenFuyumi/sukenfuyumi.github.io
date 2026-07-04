@@ -1,0 +1,208 @@
+{
+  "id": "cobblemon:scumon",
+  "namespace": "cobblemon",
+  "slug": "scumon",
+  "name": "Scumon",
+  "nationalPokedexNumber": 2110,
+  "primaryType": "poison",
+  "secondaryType": null,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 60,
+    "special_attack": 55,
+    "special_defence": 95,
+    "speed": 70
+  },
+  "baseStatTotal": 380,
+  "abilities": [
+    "stench",
+    "lingeringaroma"
+  ],
+  "hiddenAbilities": [
+    "unaware"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.4,
+  "weight": 30.84,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A putrid sludge Digimon that exudes a nauseating stench.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "lick",
+        "level": 25
+      },
+      {
+        "moveId": "poisongas",
+        "level": 27
+      },
+      {
+        "moveId": "gastroacid",
+        "level": 29
+      },
+      {
+        "moveId": "doublehit",
+        "level": 31
+      },
+      {
+        "moveId": "acid",
+        "level": 33
+      },
+      {
+        "moveId": "taunt",
+        "level": 35
+      },
+      {
+        "moveId": "venomdrench",
+        "level": 37
+      },
+      {
+        "moveId": "sludge",
+        "level": 39
+      },
+      {
+        "moveId": "torment",
+        "level": 41
+      },
+      {
+        "moveId": "frustration",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:greatkingscumon",
+      "targetSlug": "greatkingscumon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: kings_rock",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:scumon",
+      "targetSlug": "scumon",
+      "summary": "Nivel · Nv. 43 · Amistad 8+",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "tyumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/scumon.png",
+    "placeholderColor": "#A33EA1"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_mushroom"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cave",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

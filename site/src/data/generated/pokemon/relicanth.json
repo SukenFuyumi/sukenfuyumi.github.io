@@ -1,0 +1,769 @@
+{
+  "id": "cobblemon:relicanth",
+  "namespace": "cobblemon",
+  "slug": "relicanth",
+  "name": "Relicanth",
+  "nationalPokedexNumber": 369,
+  "primaryType": "water",
+  "secondaryType": "rock",
+  "types": [
+    "water",
+    "rock"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 90,
+    "defence": 130,
+    "special_attack": 45,
+    "special_defence": 65,
+    "speed": 55
+  },
+  "baseStatTotal": 485,
+  "abilities": [
+    "swiftswim",
+    "rockhead"
+  ],
+  "hiddenAbilities": [
+    "sturdy"
+  ],
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "catchRate": 25,
+  "eggCycles": 40,
+  "baseFriendship": 50,
+  "height": 10,
+  "weight": 234,
+  "maleRatio": 0.875,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 170,
+  "labels": [
+    "gen3"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Relicanth is a rare species that was discovered in deep-sea explorations. This Pokémon's body withstands the enormous water pressure of the ocean depths. Its body is covered in tough scales that are like craggy rocks.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "harden",
+        "level": 1
+      },
+      {
+        "moveId": "mudsport",
+        "level": 1
+      },
+      {
+        "moveId": "guardpress",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 5
+      },
+      {
+        "moveId": "ancientpower",
+        "level": 10
+      },
+      {
+        "moveId": "yawn",
+        "level": 15
+      },
+      {
+        "moveId": "dive",
+        "level": 20
+      },
+      {
+        "moveId": "takedown",
+        "level": 25
+      },
+      {
+        "moveId": "aquatail",
+        "level": 30
+      },
+      {
+        "moveId": "rest",
+        "level": 35
+      },
+      {
+        "moveId": "flail",
+        "level": 40
+      },
+      {
+        "moveId": "hydropump",
+        "level": 45
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 50
+      },
+      {
+        "moveId": "headsmash",
+        "level": 55
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "magnitude"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "watersport"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "brine"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "guardpress"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockblast"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "whirlpool"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 4
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.25
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/369.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_deep_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_deep_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_deep_ocean"
+      ],
+      "bucket": "common",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "rare",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "rare",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_deep_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_deep_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_deep_ocean"
+      ],
+      "bucket": "common",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "rare",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "rare",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "riding": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core"
+  }
+}

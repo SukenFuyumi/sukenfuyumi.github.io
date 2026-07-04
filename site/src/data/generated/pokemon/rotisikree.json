@@ -1,0 +1,225 @@
+{
+  "id": "cobblemon:rotisikree",
+  "namespace": "cobblemon",
+  "slug": "rotisikree",
+  "name": "Rotisikree",
+  "nationalPokedexNumber": 6757,
+  "primaryType": "fire",
+  "secondaryType": null,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 45,
+    "special_attack": 75,
+    "special_defence": 50,
+    "speed": 48
+  },
+  "baseStatTotal": 313,
+  "abilities": [
+    "flamebody"
+  ],
+  "hiddenAbilities": [],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 3,
+  "eggCycles": 120,
+  "baseFriendship": 0,
+  "height": 35,
+  "weight": 9500,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 335,
+  "labels": [
+    "gen1",
+    "legendary",
+    "restricted"
+  ],
+  "aspects": [
+    "standard"
+  ],
+  "forms": [],
+  "pokedexDescription": null,
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "charm",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 1
+      },
+      {
+        "moveId": "ember",
+        "level": 5
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 5
+      },
+      {
+        "moveId": "wingattack",
+        "level": 12
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 16
+      },
+      {
+        "moveId": "aerialace",
+        "level": 20
+      },
+      {
+        "moveId": "willowis[",
+        "level": 25
+      },
+      {
+        "moveId": "airslash",
+        "level": 30
+      },
+      {
+        "moveId": "uturn",
+        "level": 35
+      },
+      {
+        "moveId": "flamethrower",
+        "level": 40
+      },
+      {
+        "moveId": "hurricane",
+        "level": 45
+      },
+      {
+        "moveId": "solarbeam",
+        "level": 48
+      },
+      {
+        "moveId": "weatherball",
+        "level": 50
+      },
+      {
+        "moveId": "sunnyday",
+        "level": 57
+      },
+      {
+        "moveId": "overheat",
+        "level": 68
+      },
+      {
+        "moveId": "mysticalfire",
+        "level": 100
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:moltres",
+      "targetSlug": "moltres",
+      "summary": "Usar fire_stone · Nv. 50 · (consume objeto sostenido)",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/rotisikree.png",
+    "placeholderColor": "#EE8130"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "rare",
+      "level": "30-39",
+      "timeRange": null,
+      "sourceId": "baby-legends"
+    }
+  ],
+  "sourceMods": [
+    "baby-legends"
+  ],
+  "primarySource": "baby-legends",
+  "provenance": {
+    "nationalPokedexNumber": "baby-legends",
+    "name": "baby-legends",
+    "primaryType": "baby-legends",
+    "maleRatio": "baby-legends",
+    "height": "baby-legends",
+    "weight": "baby-legends",
+    "pokedex": "baby-legends",
+    "labels": "baby-legends",
+    "aspects": "baby-legends",
+    "abilities": "baby-legends",
+    "eggGroups": "baby-legends",
+    "baseStats": "baby-legends",
+    "evYield": "baby-legends",
+    "behaviour": "baby-legends",
+    "baseExperienceYield": "baby-legends",
+    "experienceGroup": "baby-legends",
+    "catchRate": "baby-legends",
+    "eggCycles": "baby-legends",
+    "baseFriendship": "baby-legends",
+    "baseScale": "baby-legends",
+    "hitbox": "baby-legends",
+    "drops": "baby-legends",
+    "moves": "baby-legends",
+    "evolutions": "baby-legends"
+  }
+}

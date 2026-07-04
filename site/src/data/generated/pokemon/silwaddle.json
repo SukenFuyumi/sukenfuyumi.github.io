@@ -1,0 +1,315 @@
+{
+  "id": "cobblemon:silwaddle",
+  "namespace": "cobblemon",
+  "slug": "silwaddle",
+  "name": "Silwaddle",
+  "nationalPokedexNumber": 1266,
+  "primaryType": "bug",
+  "secondaryType": "dark",
+  "types": [
+    "bug",
+    "dark"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 53,
+    "defence": 60,
+    "special_attack": 40,
+    "special_defence": 70,
+    "speed": 42
+  },
+  "baseStatTotal": 310,
+  "abilities": [
+    "swarm",
+    "insomnia"
+  ],
+  "hiddenAbilities": [
+    "technician"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 255,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 25,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 62,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Despite its resemblance to Sewaddle, it was recently discovered that they're part of a different kind of silk-producing Pokémon.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 0
+      },
+      {
+        "moveId": "stringshot",
+        "level": 0
+      },
+      {
+        "moveId": "poisonfang",
+        "level": 8
+      },
+      {
+        "moveId": "spiderweb",
+        "level": 10
+      },
+      {
+        "moveId": "furycutter",
+        "level": 15
+      },
+      {
+        "moveId": "bite",
+        "level": 22
+      },
+      {
+        "moveId": "furyattack",
+        "level": 29
+      },
+      {
+        "moveId": "stickyweb",
+        "level": 31
+      },
+      {
+        "moveId": "crunch",
+        "level": 36
+      },
+      {
+        "moveId": "flail",
+        "level": 43
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "firstimpression"
+      },
+      {
+        "moveId": "furyattack"
+      },
+      {
+        "moveId": "perishsong"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "switcheroo"
+      },
+      {
+        "moveId": "toxicthread"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "pinmissile"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "poisontail"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "trick"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "suckerpunch"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:silkloon",
+      "targetSlug": "silkloon",
+      "summary": "Nivel · Nv. 20",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/silwaddle.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "common",
+      "level": "1-20",
+      "timeRange": "night",
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "1-20",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

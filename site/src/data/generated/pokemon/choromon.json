@@ -1,0 +1,196 @@
+{
+  "id": "cobblemon:choromon",
+  "namespace": "cobblemon",
+  "slug": "choromon",
+  "name": "Choromon",
+  "nationalPokedexNumber": 2095,
+  "primaryType": "steel",
+  "secondaryType": null,
+  "types": [
+    "steel"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 25,
+    "defence": 30,
+    "special_attack": 15,
+    "special_defence": 30,
+    "speed": 20
+  },
+  "baseStatTotal": 150,
+  "abilities": [
+    "sturdy",
+    "sturdy"
+  ],
+  "hiddenAbilities": [
+    "wimpout"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 150,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.2,
+  "weight": 2.27,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 30,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A small Metal Slime Digimon formed from polished iron grains.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 2
+      },
+      {
+        "moveId": "nuzzle",
+        "level": 3
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:caprimon",
+      "targetSlug": "caprimon",
+      "summary": "Nivel · Nv. 4",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:goromon",
+      "targetSlug": "goromon",
+      "summary": "Nivel · Nv. 4 · attack_defence_ratio",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:pagumon",
+      "targetSlug": "pagumon",
+      "summary": "Nivel · Nv. 4 · De noche",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/choromon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_lightning_rod",
+        "#cobblemon:is_peak"
+      ],
+      "bucket": "rare",
+      "level": "1-8",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

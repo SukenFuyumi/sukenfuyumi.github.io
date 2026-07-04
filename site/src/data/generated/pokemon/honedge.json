@@ -1,0 +1,562 @@
+{
+  "id": "cobblemon:honedge",
+  "namespace": "cobblemon",
+  "slug": "honedge",
+  "name": "Honedge",
+  "nationalPokedexNumber": 679,
+  "primaryType": "steel",
+  "secondaryType": "ghost",
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 80,
+    "defence": 100,
+    "special_attack": 35,
+    "special_defence": 37,
+    "speed": 28
+  },
+  "baseStatTotal": 325,
+  "abilities": [
+    "noguard"
+  ],
+  "hiddenAbilities": [
+    "sharpness"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "catchRate": 180,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 8,
+  "weight": 20,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 65,
+  "labels": [
+    "gen6"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "If anyone dares to grab its hilt, it wraps a blue cloth around that person's arm and drains that person's life energy completely.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "sharpen",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "furycutter",
+        "level": 1
+      },
+      {
+        "moveId": "pursuit",
+        "level": 1
+      },
+      {
+        "moveId": "shadowsneak",
+        "level": 1
+      },
+      {
+        "moveId": "autotomize",
+        "level": 4
+      },
+      {
+        "moveId": "aerialace",
+        "level": 8
+      },
+      {
+        "moveId": "metalsound",
+        "level": 12
+      },
+      {
+        "moveId": "steelcutter",
+        "level": 16
+      },
+      {
+        "moveId": "slash",
+        "level": 20
+      },
+      {
+        "moveId": "nightslash",
+        "level": 24
+      },
+      {
+        "moveId": "retaliate",
+        "level": 28
+      },
+      {
+        "moveId": "irondefense",
+        "level": 32
+      },
+      {
+        "moveId": "ironhead",
+        "level": 36
+      },
+      {
+        "moveId": "phantomblade",
+        "level": 40
+      },
+      {
+        "moveId": "powertrick",
+        "level": 44
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 44
+      },
+      {
+        "moveId": "sacredsword",
+        "level": 48
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "destinybond"
+      },
+      {
+        "moveId": "wideguard"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "armorpress"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "metalsound"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychocut"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarblade"
+      },
+      {
+        "moveId": "spiritdrain"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "steelbeam"
+      },
+      {
+        "moveId": "steelcutter"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "terrainblade"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "psychocut"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "steelbeam"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:doublade",
+      "targetSlug": "doublade",
+      "summary": "Nivel · Nv. 35",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal",
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/679.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#minecraft:is_nether"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#minecraft:is_nether"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core"
+  }
+}

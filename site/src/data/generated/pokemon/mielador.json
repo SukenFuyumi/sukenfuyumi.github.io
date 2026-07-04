@@ -1,0 +1,603 @@
+{
+  "id": "cobblemon:mielador",
+  "namespace": "cobblemon",
+  "slug": "mielador",
+  "name": "Mielador",
+  "nationalPokedexNumber": 34,
+  "primaryType": "normal",
+  "secondaryType": "bug",
+  "types": [
+    "normal",
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 140,
+    "attack": 85,
+    "defence": 90,
+    "special_attack": 80,
+    "special_defence": 70,
+    "speed": 40
+  },
+  "baseStatTotal": 505,
+  "abilities": [
+    "honeypot"
+  ],
+  "hiddenAbilities": [],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 60,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 14,
+  "weight": 4550,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 177,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "With its newfound wings, Mielador take to the skies with an air of laziness, so much laziness that all Mielador refuse to walk, and only get around by flapping their wings. Mielador don't even have to move to get food, eating from the stored honey inside the hive it lives in.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bounce",
+        "level": 1
+      },
+      {
+        "moveId": "quiverdance",
+        "level": 1
+      },
+      {
+        "moveId": "stuffcheeks",
+        "level": 1
+      },
+      {
+        "moveId": "attackorder",
+        "level": 1
+      },
+      {
+        "moveId": "furycutter",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "infestation",
+        "level": 1
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 3
+      },
+      {
+        "moveId": "furyswipes",
+        "level": 6
+      },
+      {
+        "moveId": "bite",
+        "level": 9
+      },
+      {
+        "moveId": "playnice",
+        "level": 12
+      },
+      {
+        "moveId": "flail",
+        "level": 15
+      },
+      {
+        "moveId": "skittersmack",
+        "level": 18
+      },
+      {
+        "moveId": "slash",
+        "level": 21
+      },
+      {
+        "moveId": "followme",
+        "level": 24
+      },
+      {
+        "moveId": "yawn",
+        "level": 27
+      },
+      {
+        "moveId": "playrough",
+        "level": 30
+      },
+      {
+        "moveId": "thrash",
+        "level": 33
+      },
+      {
+        "moveId": "rest",
+        "level": 36
+      },
+      {
+        "moveId": "sleeptalk",
+        "level": 36
+      },
+      {
+        "moveId": "snore",
+        "level": 36
+      },
+      {
+        "moveId": "stickyweb",
+        "level": 41
+      },
+      {
+        "moveId": "gigaimpact",
+        "level": 46
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "bellydrum"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "fellstinger"
+      },
+      {
+        "moveId": "headlongrush"
+      },
+      {
+        "moveId": "nightslash"
+      },
+      {
+        "moveId": "seismictoss"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "darkestlariat"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "heavyslam"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "metalclaw"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "pollenpuff"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "silverwind"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "supercellslam"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "wildcharge"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "tutor": [],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "grubbee",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/mielador.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_mountain",
+        "aether:skyroot_forest",
+        "aether:skyroot_woodland",
+        "#cobblemon:is_taiga"
+      ],
+      "bucket": "common",
+      "level": "30-50",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "30-50",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "the_bumblezone:crystal_canyon",
+        "the_bumblezone:floral_meadow"
+      ],
+      "bucket": "common",
+      "level": "30-50",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "name": "lively-mons",
+    "primaryType": "lively-mons",
+    "secondaryType": "lively-mons",
+    "maleRatio": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "pokedex": "lively-mons",
+    "labels": "lively-mons",
+    "aspects": "lively-mons",
+    "abilities": "lively-mons",
+    "eggGroups": "lively-mons",
+    "baseStats": "lively-mons",
+    "evYield": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "catchRate": "lively-mons",
+    "eggCycles": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "behaviour": "lively-mons",
+    "drops": "lively-mons",
+    "moves": "lively-mons",
+    "riding": "lively-mons",
+    "preEvolution": "lively-mons",
+    "evolutions": "lively-mons"
+  }
+}

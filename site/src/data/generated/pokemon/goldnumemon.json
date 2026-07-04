@@ -1,0 +1,206 @@
+{
+  "id": "cobblemon:goldnumemon",
+  "namespace": "cobblemon",
+  "slug": "goldnumemon",
+  "name": "Goldnumemon",
+  "nationalPokedexNumber": 2116,
+  "primaryType": "steel",
+  "secondaryType": "poison",
+  "types": [
+    "steel",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 40,
+    "defence": 85,
+    "special_attack": 55,
+    "special_defence": 85,
+    "speed": 35
+  },
+  "baseStatTotal": 390,
+  "abilities": [
+    "stench",
+    "clearbody"
+  ],
+  "hiddenAbilities": [
+    "goodasgold"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.4,
+  "weight": 60,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A rare golden Numemon that gleams even in filth.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "poisongas",
+        "level": 25
+      },
+      {
+        "moveId": "taunt",
+        "level": 27
+      },
+      {
+        "moveId": "payday",
+        "level": 29
+      },
+      {
+        "moveId": "lick",
+        "level": 31
+      },
+      {
+        "moveId": "gastroacid",
+        "level": 33
+      },
+      {
+        "moveId": "sludge",
+        "level": 35
+      },
+      {
+        "moveId": "venomdrench",
+        "level": 37
+      },
+      {
+        "moveId": "aircutter",
+        "level": 39
+      },
+      {
+        "moveId": "mirrorshot",
+        "level": 41
+      },
+      {
+        "moveId": "acidarmor",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:monzaemon",
+      "targetSlug": "monzaemon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: love_sweet",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "tyumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 4
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/goldnumemon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

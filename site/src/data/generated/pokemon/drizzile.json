@@ -1,0 +1,452 @@
+{
+  "id": "cobblemon:drizzile",
+  "namespace": "cobblemon",
+  "slug": "drizzile",
+  "name": "Drizzile",
+  "nationalPokedexNumber": 817,
+  "primaryType": "water",
+  "secondaryType": null,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 60,
+    "defence": 55,
+    "special_attack": 95,
+    "special_defence": 55,
+    "speed": 90
+  },
+  "baseStatTotal": 420,
+  "abilities": [
+    "torrent"
+  ],
+  "hiddenAbilities": [
+    "sniper"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 7,
+  "weight": 115,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 147,
+  "labels": [
+    "gen8"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 1
+      },
+      {
+        "moveId": "bind",
+        "level": 1
+      },
+      {
+        "moveId": "waterpulse",
+        "level": 12
+      },
+      {
+        "moveId": "potshot",
+        "level": 16
+      },
+      {
+        "moveId": "tearfullook",
+        "level": 19
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 24
+      },
+      {
+        "moveId": "uturn",
+        "level": 30
+      },
+      {
+        "moveId": "liquidation",
+        "level": 36
+      },
+      {
+        "moveId": "soak",
+        "level": 42
+      },
+      {
+        "moveId": "raindance",
+        "level": 48
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "aquajet"
+      },
+      {
+        "moveId": "aquaring"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "fellstinger"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "iceshard"
+      },
+      {
+        "moveId": "mist"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "potshot"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "shadowstars"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "waterpledge"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "whirlpool"
+      },
+      {
+        "moveId": "workup"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "waterpledge"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:inteleon",
+      "targetSlug": "inteleon",
+      "summary": "Nivel · Nv. 35",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "sobble",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/817.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-42",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-42",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-42",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-42",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-42",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-42",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-42",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-42",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-42",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-42",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

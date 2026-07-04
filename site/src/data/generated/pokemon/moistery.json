@@ -1,0 +1,535 @@
+{
+  "id": "cobblemon:moistery",
+  "namespace": "cobblemon",
+  "slug": "moistery",
+  "name": "Moistery",
+  "nationalPokedexNumber": 45,
+  "primaryType": "psychic",
+  "secondaryType": "water",
+  "types": [
+    "psychic",
+    "water"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 50,
+    "defence": 75,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 20
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "compoundeyes",
+    "levitate"
+  ],
+  "hiddenAbilities": [
+    "psychicsurge"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 525,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 53,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "This Pokémon was only recently discovered and it is unclear how Moistery evolved as their no signs of it in the fossil record. As time goes on Moistery populations are rising at a rapid rate. Moistery gather together in massive groupings under the full moon, no one knows why this is.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "withdraw",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "confuseray",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 3
+      },
+      {
+        "moveId": "acid",
+        "level": 5
+      },
+      {
+        "moveId": "hypnosis",
+        "level": 7
+      },
+      {
+        "moveId": "whirlpool",
+        "level": 9
+      },
+      {
+        "moveId": "psywave",
+        "level": 12
+      },
+      {
+        "moveId": "brine",
+        "level": 15
+      },
+      {
+        "moveId": "mirrorshot",
+        "level": 18
+      },
+      {
+        "moveId": "trickroom",
+        "level": 21
+      },
+      {
+        "moveId": "teleport",
+        "level": 21
+      },
+      {
+        "moveId": "scald",
+        "level": 25
+      },
+      {
+        "moveId": "irondefense",
+        "level": 27
+      },
+      {
+        "moveId": "signalbeam",
+        "level": 29
+      },
+      {
+        "moveId": "flashcannon",
+        "level": 31
+      },
+      {
+        "moveId": "mirrorcoat",
+        "level": 34
+      },
+      {
+        "moveId": "steelbeam",
+        "level": 36
+      },
+      {
+        "moveId": "moonlight",
+        "level": 38
+      },
+      {
+        "moveId": "calmmind",
+        "level": 41
+      },
+      {
+        "moveId": "hydropump",
+        "level": 44
+      },
+      {
+        "moveId": "shellsmash",
+        "level": 47
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "zapcannon"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "brine"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "eerieimpulse"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "gastroacid"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "guardswap"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icespinner"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "metalsound"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "powerswap"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "psychicterrain"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "quash"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "snowscape"
+      },
+      {
+        "moveId": "steelbeam"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "terrainpulse"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "whirlpool"
+      },
+      {
+        "moveId": "wonderroom"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:orbiclad",
+      "targetSlug": "orbiclad",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/moistery.png",
+    "placeholderColor": "#F95587"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_coast"
+      ],
+      "bucket": "common",
+      "level": "5-23",
+      "timeRange": "night",
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast"
+      ],
+      "bucket": "common",
+      "level": "5-23",
+      "timeRange": "night",
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#minecraft:is_end"
+      ],
+      "bucket": "uncommon",
+      "level": "5-23",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast"
+      ],
+      "bucket": "common",
+      "level": "5-23",
+      "timeRange": "night",
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "name": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "labels": "lively-mons",
+    "pokedex": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "shoulderMountable": "lively-mons",
+    "primaryType": "lively-mons",
+    "secondaryType": "lively-mons",
+    "baseStats": "lively-mons",
+    "catchRate": "lively-mons",
+    "maleRatio": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "eggCycles": "lively-mons",
+    "eggGroups": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "evYield": "lively-mons",
+    "moves": "lively-mons",
+    "abilities": "lively-mons",
+    "evolutions": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "drops": "lively-mons",
+    "behaviour": "lively-mons"
+  }
+}

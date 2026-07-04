@@ -1,0 +1,190 @@
+{
+  "id": "cobblemon:ditto",
+  "namespace": "cobblemon",
+  "slug": "ditto",
+  "name": "Ditto",
+  "nationalPokedexNumber": 132,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 48,
+    "attack": 48,
+    "defence": 48,
+    "special_attack": 48,
+    "special_defence": 48,
+    "speed": 48
+  },
+  "baseStatTotal": 288,
+  "abilities": [
+    "limber"
+  ],
+  "hiddenAbilities": [
+    "imposter"
+  ],
+  "eggGroups": [
+    "ditto"
+  ],
+  "catchRate": 35,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 40,
+  "maleRatio": -1,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 101,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Ditto rearranges its cell structure to transform itself into other shapes. However, if it tries to transform itself into something by relying on its memory, this Pokémon manages to get details wrong.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "transform",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "ultra-rare",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "ultra-rare",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "ultra-rare",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "riding": "cobblemon-core"
+  }
+}

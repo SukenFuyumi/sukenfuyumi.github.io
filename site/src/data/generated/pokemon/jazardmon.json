@@ -1,0 +1,212 @@
+{
+  "id": "cobblemon:jazardmon",
+  "namespace": "cobblemon",
+  "slug": "jazardmon",
+  "name": "Jazardmon",
+  "nationalPokedexNumber": 2187,
+  "primaryType": "steel",
+  "secondaryType": "dragon",
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 62,
+    "attack": 45,
+    "defence": 83,
+    "special_attack": 75,
+    "special_defence": 30,
+    "speed": 105
+  },
+  "baseStatTotal": 400,
+  "abilities": [
+    "levitate",
+    "mindseye"
+  ],
+  "hiddenAbilities": [
+    "aerilate"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.6,
+  "weight": 125.2,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A furnace-bodied raptor that runs hot.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "twister",
+        "level": 25
+      },
+      {
+        "moveId": "swift",
+        "level": 27
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 29
+      },
+      {
+        "moveId": "lockon",
+        "level": 31
+      },
+      {
+        "moveId": "whirlwind",
+        "level": 33
+      },
+      {
+        "moveId": "mirrorshot",
+        "level": 35
+      },
+      {
+        "moveId": "autotomize",
+        "level": 37
+      },
+      {
+        "moveId": "defog",
+        "level": 39
+      },
+      {
+        "moveId": "tailwind",
+        "level": 41
+      },
+      {
+        "moveId": "razorwind",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:jazarichmon",
+      "targetSlug": "jazarichmon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: steel_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gigadramon",
+      "targetSlug": "gigadramon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: dark_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "jazamon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/jazardmon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

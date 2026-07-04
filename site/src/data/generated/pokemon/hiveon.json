@@ -1,0 +1,307 @@
+{
+  "id": "cobblemon:hiveon",
+  "namespace": "cobblemon",
+  "slug": "hiveon",
+  "name": "Hiveon",
+  "nationalPokedexNumber": 2009,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 115,
+    "defence": 100,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 110
+  },
+  "baseStatTotal": 555,
+  "abilities": [
+    "compoundeyes",
+    "swarm"
+  ],
+  "hiddenAbilities": [
+    "pressure"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 35,
+  "height": 11,
+  "weight": 300,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 184,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Hiveon like to camp out in trees, with their beehive-like tails hanging from the leaves, their tail attracts unsuspecting Bewear, and injects them with a strong poison",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bugbite",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "absorb",
+        "level": 1
+      },
+      {
+        "moveId": "stringshot",
+        "level": 5
+      },
+      {
+        "moveId": "poisonsting",
+        "level": 8
+      },
+      {
+        "moveId": "furyattack",
+        "level": 13
+      },
+      {
+        "moveId": "laserfocus",
+        "level": 16
+      },
+      {
+        "moveId": "quiverdance",
+        "level": 17
+      },
+      {
+        "moveId": "spikes",
+        "level": 20
+      },
+      {
+        "moveId": "assurance",
+        "level": 23
+      },
+      {
+        "moveId": "stickyweb",
+        "level": 24
+      },
+      {
+        "moveId": "pinmissile",
+        "level": 27
+      },
+      {
+        "moveId": "uturn",
+        "level": 30
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 33
+      },
+      {
+        "moveId": "firstimpression",
+        "level": 37
+      },
+      {
+        "moveId": "pounce",
+        "level": 39
+      },
+      {
+        "moveId": "leechlife",
+        "level": 41
+      },
+      {
+        "moveId": "bugbuzz",
+        "level": 43
+      },
+      {
+        "moveId": "fellstinger",
+        "level": 50
+      },
+      {
+        "moveId": "venoshock",
+        "level": 54
+      },
+      {
+        "moveId": "protect",
+        "level": 57
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 60
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 67
+      },
+      {
+        "moveId": "facade",
+        "level": 73
+      },
+      {
+        "moveId": "falseswipe",
+        "level": 76
+      },
+      {
+        "moveId": "syrupbomb",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "crosspoison"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "grasswhistle"
+      },
+      {
+        "moveId": "gust"
+      },
+      {
+        "moveId": "hornleech"
+      },
+      {
+        "moveId": "leafage"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "megahorn"
+      },
+      {
+        "moveId": "poisonfang"
+      },
+      {
+        "moveId": "poisonpowder"
+      },
+      {
+        "moveId": "purify"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sweetscent"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "venomdrench"
+      },
+      {
+        "moveId": "wingattack"
+      },
+      {
+        "moveId": "woodhammer"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "eevee",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/hiveon.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "ultra-rare",
+      "level": "18-40",
+      "timeRange": null,
+      "sourceId": "extra-eeveelutions"
+    }
+  ],
+  "sourceMods": [
+    "extra-eeveelutions"
+  ],
+  "primarySource": "extra-eeveelutions",
+  "provenance": {
+    "implemented": "extra-eeveelutions",
+    "name": "extra-eeveelutions",
+    "nationalPokedexNumber": "extra-eeveelutions",
+    "primaryType": "extra-eeveelutions",
+    "abilities": "extra-eeveelutions",
+    "baseStats": "extra-eeveelutions",
+    "behaviour": "extra-eeveelutions",
+    "catchRate": "extra-eeveelutions",
+    "maleRatio": "extra-eeveelutions",
+    "shoulderMountable": "extra-eeveelutions",
+    "forms": "extra-eeveelutions",
+    "baseExperienceYield": "extra-eeveelutions",
+    "experienceGroup": "extra-eeveelutions",
+    "eggCycles": "extra-eeveelutions",
+    "eggGroups": "extra-eeveelutions",
+    "moves": "extra-eeveelutions",
+    "labels": "extra-eeveelutions",
+    "pokedex": "extra-eeveelutions",
+    "preEvolution": "extra-eeveelutions",
+    "baseScale": "extra-eeveelutions",
+    "hitbox": "extra-eeveelutions",
+    "baseFriendship": "extra-eeveelutions",
+    "evYield": "extra-eeveelutions",
+    "height": "extra-eeveelutions",
+    "weight": "extra-eeveelutions"
+  }
+}

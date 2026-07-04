@@ -1,0 +1,505 @@
+{
+  "id": "cobblemon:fearow",
+  "namespace": "cobblemon",
+  "slug": "fearow",
+  "name": "Fearow",
+  "nationalPokedexNumber": 22,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 65,
+    "special_attack": 61,
+    "special_defence": 61,
+    "speed": 100
+  },
+  "baseStatTotal": 442,
+  "abilities": [
+    "keeneye"
+  ],
+  "hiddenAbilities": [
+    "sniper"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "catchRate": 90,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 12,
+  "weight": 380,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 155,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Fearow is recognized by its long neck and elongated beak. They are conveniently shaped for catching prey in soil or water. It deftly moves its long and skinny beak to pluck prey.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pluck",
+        "level": 1
+      },
+      {
+        "moveId": "peck",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "pursuit",
+        "level": 1
+      },
+      {
+        "moveId": "drillrun",
+        "level": 1
+      },
+      {
+        "moveId": "assurance",
+        "level": 8
+      },
+      {
+        "moveId": "furyattack",
+        "level": 11
+      },
+      {
+        "moveId": "aerialace",
+        "level": 15
+      },
+      {
+        "moveId": "mirrormove",
+        "level": 18
+      },
+      {
+        "moveId": "takedown",
+        "level": 23
+      },
+      {
+        "moveId": "agility",
+        "level": 27
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 32
+      },
+      {
+        "moveId": "roost",
+        "level": 36
+      },
+      {
+        "moveId": "drillpeck",
+        "level": 41
+      },
+      {
+        "moveId": "nosedive",
+        "level": 47
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "astonish"
+      },
+      {
+        "moveId": "feintattack"
+      },
+      {
+        "moveId": "quickattack"
+      },
+      {
+        "moveId": "razorwind"
+      },
+      {
+        "moveId": "whirlwind"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bravebird"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "drillrun"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "payday"
+      },
+      {
+        "moveId": "pluck"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "skyattack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "triattack"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "wingattack"
+      },
+      {
+        "moveId": "workup"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "drillrun"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "skyattack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "detect"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "spearow",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost",
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_badlands",
+        "#cobblemon:is_savanna",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "common",
+      "level": "20-44",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "20-44",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_badlands",
+        "#cobblemon:is_savanna",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "common",
+      "level": "20-44",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "riding": "cobblemon-core"
+  }
+}

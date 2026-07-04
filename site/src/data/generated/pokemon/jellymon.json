@@ -1,0 +1,199 @@
+{
+  "id": "cobblemon:jellymon",
+  "namespace": "cobblemon",
+  "slug": "jellymon",
+  "name": "Jellymon",
+  "nationalPokedexNumber": 2034,
+  "primaryType": "water",
+  "secondaryType": "electric",
+  "types": [
+    "water",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 65,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 70,
+    "speed": 30
+  },
+  "baseStatTotal": 305,
+  "abilities": [
+    "static",
+    "ironfist"
+  ],
+  "hiddenAbilities": [
+    "voltabsorb"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.09,
+  "weight": 12.7,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Mollusk Digimon with a squishy head like a jellyfish.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 12
+      },
+      {
+        "moveId": "withdraw",
+        "level": 14
+      },
+      {
+        "moveId": "thundershock",
+        "level": 16
+      },
+      {
+        "moveId": "aquajet",
+        "level": 18
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 19
+      },
+      {
+        "moveId": "workup",
+        "level": 21
+      },
+      {
+        "moveId": "charge",
+        "level": 22
+      },
+      {
+        "moveId": "spark",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:teslajellymon",
+      "targetSlug": "teslajellymon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gesomon",
+      "targetSlug": "gesomon",
+      "summary": "Nivel · Nv. 24 · De noche",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:rukamon",
+      "targetSlug": "rukamon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: mystic_water",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:chrysalimon",
+      "targetSlug": "chrysalimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: ender_pearl",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "puyoyomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "steel",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/jellymon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_lukewarm_ocean",
+        "#cobblemon:is_lush",
+        "#cobblemon:is_coast",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

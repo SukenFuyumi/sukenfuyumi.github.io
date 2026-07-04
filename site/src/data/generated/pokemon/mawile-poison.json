@@ -1,0 +1,653 @@
+{
+  "id": "cobblemon:mawile#poison",
+  "namespace": "cobblemon",
+  "slug": "mawile-poison",
+  "name": "Mawile poison",
+  "nationalPokedexNumber": 303,
+  "primaryType": "poison",
+  "secondaryType": "fairy",
+  "types": [
+    "poison",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 20,
+    "defence": 55,
+    "special_attack": 85,
+    "special_defence": 75,
+    "speed": 50
+  },
+  "baseStatTotal": 380,
+  "abilities": [
+    "gooey",
+    "poisonheal"
+  ],
+  "hiddenAbilities": [
+    "venomarmor"
+  ],
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 115,
+  "maleRatio": 0.5,
+  "experienceGroup": "fast",
+  "baseExperienceYield": 133,
+  "labels": [
+    "gen3"
+  ],
+  "aspects": [
+    "rlm",
+    "poison"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "This form of Mawile was poisoned while it was still a Mawile’s pre-evolution. Since then, a toxic aura constantly seeps from its pigtail-like jaw, discouraging anyone from approaching. To suppress this curse, it channels its mystical powers. Though this helps restrain the poison, the effort drains a great deal of its energy.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "acid",
+        "level": 1
+      },
+      {
+        "moveId": "feintattack",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "fairywind",
+        "level": 4
+      },
+      {
+        "moveId": "headbutt",
+        "level": 8
+      },
+      {
+        "moveId": "bite",
+        "level": 12
+      },
+      {
+        "moveId": "venoshock",
+        "level": 16
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 20
+      },
+      {
+        "moveId": "acidarmor",
+        "level": 24
+      },
+      {
+        "moveId": "crunch",
+        "level": 28
+      },
+      {
+        "moveId": "poisongas",
+        "level": 32
+      },
+      {
+        "moveId": "shadowball",
+        "level": 36
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 38
+      },
+      {
+        "moveId": "sludgebomb",
+        "level": 40
+      },
+      {
+        "moveId": "toxic",
+        "level": 42
+      },
+      {
+        "moveId": "calmmind",
+        "level": 44
+      },
+      {
+        "moveId": "moonblast",
+        "level": 48
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "metalburst"
+      },
+      {
+        "moveId": "poisonfang"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "punishment"
+      },
+      {
+        "moveId": "seismictoss"
+      },
+      {
+        "moveId": "slam"
+      },
+      {
+        "moveId": "tickle"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "fireblast"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "guardswap"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "mistyterrain"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychicfangs"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "steelbeam"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "torment"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "steelbeam"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "thunderpunch"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dynamicpunch"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "sing"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": "smowile-normal",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/mawile-poison.png",
+    "placeholderColor": "#A33EA1"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-rlm",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-rlm",
+    "features": "cobblemon-rlm"
+  },
+  "formOf": {
+    "slug": "mawile",
+    "name": "Mawile"
+  },
+  "formName": "poison"
+}

@@ -1,0 +1,183 @@
+{
+  "id": "cobblemon:wurmple",
+  "namespace": "cobblemon",
+  "slug": "wurmple",
+  "name": "Wurmple",
+  "nationalPokedexNumber": 265,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 45,
+    "defence": 35,
+    "special_attack": 20,
+    "special_defence": 30,
+    "speed": 20
+  },
+  "baseStatTotal": 195,
+  "abilities": [
+    "shielddust"
+  ],
+  "hiddenAbilities": [
+    "runaway"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 255,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 36,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 56,
+  "labels": [
+    "gen3"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Wurmple is targeted by Swellow as prey. This Pokémon will try to resist by pointing the spikes on its rear at the attacking predator. It will weaken the foe by leaking poison from the spikes.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "stringshot",
+        "level": 1
+      },
+      {
+        "moveId": "poisonsting",
+        "level": 5
+      },
+      {
+        "moveId": "bugbite",
+        "level": 15
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "stringshot"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:silcoon",
+      "targetSlug": "silcoon",
+      "summary": "Nivel · Nv. 7 · properties",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:cascoon",
+      "targetSlug": "cascoon",
+      "summary": "Nivel · Nv. 7 · properties",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/265.png"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core"
+  }
+}

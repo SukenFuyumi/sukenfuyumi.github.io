@@ -1,0 +1,1162 @@
+{
+  "id": "cobblemon:sandshrew",
+  "namespace": "cobblemon",
+  "slug": "sandshrew",
+  "name": "Sandshrew",
+  "nationalPokedexNumber": 27,
+  "primaryType": "ground",
+  "secondaryType": null,
+  "types": [
+    "ground"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 75,
+    "defence": 85,
+    "special_attack": 20,
+    "special_defence": 30,
+    "speed": 40
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "sandveil",
+    "sandforce"
+  ],
+  "hiddenAbilities": [
+    "sandrush"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 255,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 120,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 60,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Alola",
+      "aspects": [
+        "alolan"
+      ],
+      "primaryType": "ice",
+      "secondaryType": "steel",
+      "types": [
+        "ice",
+        "steel"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 50,
+        "attack": 75,
+        "defence": 90,
+        "special_attack": 10,
+        "special_defence": 35,
+        "speed": 40
+      },
+      "baseStatTotal": 300,
+      "abilities": [
+        "snowcloak",
+        "snowforce"
+      ],
+      "hiddenAbilities": [
+        "slushrush"
+      ],
+      "pokedexDescription": "The skin on its back is as hard as steel. Predators go after its soft belly, so it clings to the ground desperately.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "scratch",
+            "level": 1
+          },
+          {
+            "moveId": "defensecurl",
+            "level": 1
+          },
+          {
+            "moveId": "bide",
+            "level": 1
+          },
+          {
+            "moveId": "mist",
+            "level": 3
+          },
+          {
+            "moveId": "powdersnow",
+            "level": 6
+          },
+          {
+            "moveId": "rollout",
+            "level": 9
+          },
+          {
+            "moveId": "furycutter",
+            "level": 12
+          },
+          {
+            "moveId": "rapidspin",
+            "level": 15
+          },
+          {
+            "moveId": "metalclaw",
+            "level": 18
+          },
+          {
+            "moveId": "swift",
+            "level": 21
+          },
+          {
+            "moveId": "furyswipes",
+            "level": 24
+          },
+          {
+            "moveId": "irondefense",
+            "level": 27
+          },
+          {
+            "moveId": "slash",
+            "level": 30
+          },
+          {
+            "moveId": "steelcutter",
+            "level": 30
+          },
+          {
+            "moveId": "ironhead",
+            "level": 33
+          },
+          {
+            "moveId": "gyroball",
+            "level": 36
+          },
+          {
+            "moveId": "swordsdance",
+            "level": 39
+          },
+          {
+            "moveId": "snowscape",
+            "level": 42
+          },
+          {
+            "moveId": "blizzard",
+            "level": 45
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "chipaway"
+          },
+          {
+            "moveId": "counter"
+          },
+          {
+            "moveId": "crushclaw"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "flail"
+          },
+          {
+            "moveId": "honeclaws"
+          },
+          {
+            "moveId": "iceshard"
+          },
+          {
+            "moveId": "mirrorcoat"
+          },
+          {
+            "moveId": "nightslash"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "amnesia"
+          },
+          {
+            "moveId": "aquatail"
+          },
+          {
+            "moveId": "auroraveil"
+          },
+          {
+            "moveId": "avalanche"
+          },
+          {
+            "moveId": "blizzard"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "chillout"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "dig"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "earthquake"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "frostbreath"
+          },
+          {
+            "moveId": "furycutter"
+          },
+          {
+            "moveId": "gyroball"
+          },
+          {
+            "moveId": "hail"
+          },
+          {
+            "moveId": "honeclaws"
+          },
+          {
+            "moveId": "iceball"
+          },
+          {
+            "moveId": "icebeam"
+          },
+          {
+            "moveId": "icepunch"
+          },
+          {
+            "moveId": "icespinner"
+          },
+          {
+            "moveId": "iciclecrash"
+          },
+          {
+            "moveId": "iciclespear"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "leechlife"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "metalclaw"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "snowscape"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "steelbeam"
+          },
+          {
+            "moveId": "steelcutter"
+          },
+          {
+            "moveId": "steelroller"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "superfang"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "thunderclaw"
+          },
+          {
+            "moveId": "tripleaxel"
+          },
+          {
+            "moveId": "workup"
+          },
+          {
+            "moveId": "xscissor"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "aquatail"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "furycutter"
+          },
+          {
+            "moveId": "iceball"
+          },
+          {
+            "moveId": "icebeam"
+          },
+          {
+            "moveId": "icepunch"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "leechlife"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "steelbeam"
+          },
+          {
+            "moveId": "steelroller"
+          },
+          {
+            "moveId": "superfang"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "tripleaxel"
+          },
+          {
+            "moveId": "xscissor"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "seismictoss"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fighting",
+            "multiplier": 4
+          },
+          {
+            "type": "fire",
+            "multiplier": 4
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "ice",
+            "multiplier": 0.25
+          },
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "dragon",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "normal",
+            "multiplier": 0.5
+          },
+          {
+            "type": "psychic",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "poison"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:sandslash",
+          "targetSlug": "sandslash-alola",
+          "summary": "Usar ice_stone · variante alolan",
+          "variant": "item_interact"
+        }
+      ],
+      "slug": "sandshrew-alola"
+    }
+  ],
+  "pokedexDescription": "Sandshrew has a very dry hide that is extremely tough. The Pokémon can roll into a ball that repels any attack. At night, it burrows into the desert sand to sleep.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 1
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 1
+      },
+      {
+        "moveId": "magnitude",
+        "level": 1
+      },
+      {
+        "moveId": "poisonsting",
+        "level": 3
+      },
+      {
+        "moveId": "sandattack",
+        "level": 6
+      },
+      {
+        "moveId": "rollout",
+        "level": 9
+      },
+      {
+        "moveId": "furycutter",
+        "level": 12
+      },
+      {
+        "moveId": "rapidspin",
+        "level": 15
+      },
+      {
+        "moveId": "bulldoze",
+        "level": 18
+      },
+      {
+        "moveId": "swift",
+        "level": 21
+      },
+      {
+        "moveId": "furyswipes",
+        "level": 24
+      },
+      {
+        "moveId": "agility",
+        "level": 27
+      },
+      {
+        "moveId": "slash",
+        "level": 30
+      },
+      {
+        "moveId": "dig",
+        "level": 33
+      },
+      {
+        "moveId": "gyroball",
+        "level": 36
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 39
+      },
+      {
+        "moveId": "sandstorm",
+        "level": 42
+      },
+      {
+        "moveId": "earthquake",
+        "level": 45
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "chipaway"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "metalclaw"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "nightslash"
+      },
+      {
+        "moveId": "rototiller"
+      },
+      {
+        "moveId": "sandshift"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "crushclaw"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "metalclaw"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockclimb"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "sandshift"
+      },
+      {
+        "moveId": "sandtomb"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "thunderclaw"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "detect"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "dynamicpunch"
+      },
+      {
+        "moveId": "fissure"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "seismictoss"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "submission"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:sandslash",
+      "targetSlug": "sandslash",
+      "summary": "Nivel · Nv. 22",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "features": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "lasers-additions"
+  }
+}

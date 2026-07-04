@@ -1,0 +1,481 @@
+{
+  "id": "cobblemon:mothim",
+  "namespace": "cobblemon",
+  "slug": "mothim",
+  "name": "Mothim",
+  "nationalPokedexNumber": 414,
+  "primaryType": "bug",
+  "secondaryType": "flying",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 94,
+    "defence": 50,
+    "special_attack": 94,
+    "special_defence": 50,
+    "speed": 66
+  },
+  "baseStatTotal": 424,
+  "abilities": [
+    "swarm",
+    "windglider"
+  ],
+  "hiddenAbilities": [
+    "tintedlens"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 45,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 9,
+  "weight": 233,
+  "maleRatio": 1,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 148,
+  "labels": [
+    "gen4"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It flutters around at night and steals honey from the Combee hive.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "protect",
+        "level": 1
+      },
+      {
+        "moveId": "bugbite",
+        "level": 1
+      },
+      {
+        "moveId": "quiverdance",
+        "level": 1
+      },
+      {
+        "moveId": "butterflylanding",
+        "level": 1
+      },
+      {
+        "moveId": "stringshot",
+        "level": 20
+      },
+      {
+        "moveId": "confusion",
+        "level": 23
+      },
+      {
+        "moveId": "gust",
+        "level": 26
+      },
+      {
+        "moveId": "poisonpowder",
+        "level": 29
+      },
+      {
+        "moveId": "psybeam",
+        "level": 32
+      },
+      {
+        "moveId": "camouflage",
+        "level": 35
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 38
+      },
+      {
+        "moveId": "airslash",
+        "level": 41
+      },
+      {
+        "moveId": "psychic",
+        "level": 44
+      },
+      {
+        "moveId": "lunge",
+        "level": 47
+      },
+      {
+        "moveId": "bugbuzz",
+        "level": 50
+      },
+      {
+        "moveId": "hurricane",
+        "level": 55
+      },
+      {
+        "moveId": "nosedive",
+        "level": 55
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "silverwind"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "venoshock"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "twister"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "burmy-trash",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "rock",
+        "multiplier": 4
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/414.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "biomesoplenty:maple_woods"
+      ],
+      "bucket": "rare",
+      "level": "45-65",
+      "timeRange": null,
+      "sourceId": "mega-showdown"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "rare",
+      "level": "28-45",
+      "timeRange": null,
+      "sourceId": "mega-showdown"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "mega-showdown",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "mega-showdown",
+    "hitbox": "mega-showdown",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "mega-showdown",
+    "implemented": "mega-showdown"
+  }
+}

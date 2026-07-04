@@ -1,0 +1,909 @@
+{
+  "id": "cobblemon:glameow",
+  "namespace": "cobblemon",
+  "slug": "glameow",
+  "name": "Glameow",
+  "nationalPokedexNumber": 431,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 49,
+    "attack": 55,
+    "defence": 42,
+    "special_attack": 42,
+    "special_defence": 37,
+    "speed": 85
+  },
+  "baseStatTotal": 310,
+  "abilities": [
+    "limber",
+    "owntempo"
+  ],
+  "hiddenAbilities": [
+    "keeneye"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 5,
+  "weight": 39,
+  "maleRatio": 0.25,
+  "experienceGroup": "fast",
+  "baseExperienceYield": 62,
+  "labels": [
+    "gen4"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "alatian",
+      "aspects": [
+        "alatian"
+      ],
+      "primaryType": "normal",
+      "secondaryType": "fairy",
+      "types": [
+        "normal",
+        "fairy"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 49,
+        "attack": 85,
+        "defence": 42,
+        "special_attack": 42,
+        "special_defence": 37,
+        "speed": 55
+      },
+      "baseStatTotal": 310,
+      "abilities": [
+        "limber",
+        "cutecharm"
+      ],
+      "hiddenAbilities": [
+        "opportunist"
+      ],
+      "pokedexDescription": "She's constantly cleaning her white fur, and if anyone dares to touch it, they will pay the consequences.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "scratch",
+            "level": 1
+          },
+          {
+            "moveId": "fakeout",
+            "level": 5
+          },
+          {
+            "moveId": "babydolleyes",
+            "level": 8
+          },
+          {
+            "moveId": "hypnosis",
+            "level": 13
+          },
+          {
+            "moveId": "drainingkiss",
+            "level": 15
+          },
+          {
+            "moveId": "taunt",
+            "level": 18
+          },
+          {
+            "moveId": "furyswipes",
+            "level": 20
+          },
+          {
+            "moveId": "charm",
+            "level": 25
+          },
+          {
+            "moveId": "aerialace",
+            "level": 29
+          },
+          {
+            "moveId": "sweetkiss",
+            "level": 32
+          },
+          {
+            "moveId": "firelash",
+            "level": 34
+          },
+          {
+            "moveId": "playrough",
+            "level": 35
+          },
+          {
+            "moveId": "suckerpunch",
+            "level": 41
+          },
+          {
+            "moveId": "attract",
+            "level": 44
+          },
+          {
+            "moveId": "honeclaws",
+            "level": 48
+          },
+          {
+            "moveId": "spiritbreak",
+            "level": 50
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "cottonguard"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "highjumpkick"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "spotlight"
+          },
+          {
+            "moveId": "tailwhip"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "cut"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "firefang"
+          },
+          {
+            "moveId": "flareblitz"
+          },
+          {
+            "moveId": "flareblitz"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "followme"
+          },
+          {
+            "moveId": "honeclaws"
+          },
+          {
+            "moveId": "icefang"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "metalclaw"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "nightslash"
+          },
+          {
+            "moveId": "partingshot"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "poweruppunch"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "psychicfangs"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "slash"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "supercellslam"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "tailslap"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "temperflare"
+          },
+          {
+            "moveId": "temperflare"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "thunderfang"
+          },
+          {
+            "moveId": "torment"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "workup"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "healbell"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "poison",
+            "multiplier": 2
+          },
+          {
+            "type": "steel",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "dragon",
+          "ghost"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:purlady",
+          "targetSlug": "purlady",
+          "summary": "Nivel · Nv. 38",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "glameow-alatian"
+    }
+  ],
+  "pokedexDescription": "When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "fakeout",
+        "level": 1
+      },
+      {
+        "moveId": "scratch",
+        "level": 5
+      },
+      {
+        "moveId": "growl",
+        "level": 8
+      },
+      {
+        "moveId": "hypnosis",
+        "level": 13
+      },
+      {
+        "moveId": "feintattack",
+        "level": 17
+      },
+      {
+        "moveId": "furyswipes",
+        "level": 20
+      },
+      {
+        "moveId": "charm",
+        "level": 25
+      },
+      {
+        "moveId": "assist",
+        "level": 29
+      },
+      {
+        "moveId": "captivate",
+        "level": 32
+      },
+      {
+        "moveId": "slash",
+        "level": 37
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 41
+      },
+      {
+        "moveId": "attract",
+        "level": 44
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 48
+      },
+      {
+        "moveId": "playrough",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "bite"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "quickattack"
+      },
+      {
+        "moveId": "sandattack"
+      },
+      {
+        "moveId": "tailwhip"
+      },
+      {
+        "moveId": "wakeupslap"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "workup"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:purugly",
+      "targetSlug": "purugly",
+      "summary": "Nivel · Nv. 38",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/431.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_freezing"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_freezing"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "uncommon",
+      "level": "1-25",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_freezing"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_freezing"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "features": "cobblemon-afp",
+    "forms": "cobblemon-afp"
+  }
+}

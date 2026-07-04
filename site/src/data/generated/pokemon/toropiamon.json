@@ -1,0 +1,202 @@
+{
+  "id": "cobblemon:toropiamon",
+  "namespace": "cobblemon",
+  "slug": "toropiamon",
+  "name": "Toropiamon",
+  "nationalPokedexNumber": 2198,
+  "primaryType": "grass",
+  "secondaryType": "dragon",
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 112,
+    "attack": 85,
+    "defence": 70,
+    "special_attack": 120,
+    "special_defence": 83,
+    "speed": 50
+  },
+  "baseStatTotal": 520,
+  "abilities": [
+    "supersweetsyrup",
+    "effectspore"
+  ],
+  "hiddenAbilities": [
+    "chlorophyll"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.62,
+  "weight": 92.1,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A colossal drake wreathed in vines.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "poisongas",
+        "level": 44
+      },
+      {
+        "moveId": "magicalleaf",
+        "level": 47
+      },
+      {
+        "moveId": "grassyglide",
+        "level": 50
+      },
+      {
+        "moveId": "venoshock",
+        "level": 54
+      },
+      {
+        "moveId": "sleeppowder",
+        "level": 57
+      },
+      {
+        "moveId": "syrupbomb",
+        "level": 61
+      },
+      {
+        "moveId": "dragonclaw",
+        "level": 66
+      },
+      {
+        "moveId": "toxic",
+        "level": 70
+      },
+      {
+        "moveId": "grassyterrain",
+        "level": 75
+      },
+      {
+        "moveId": "petaldance",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "parasaurmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "water",
+        "multiplier": 0.25
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/toropiamon.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

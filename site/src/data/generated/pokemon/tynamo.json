@@ -1,0 +1,336 @@
+{
+  "id": "cobblemon:tynamo",
+  "namespace": "cobblemon",
+  "slug": "tynamo",
+  "name": "Tynamo",
+  "nationalPokedexNumber": 602,
+  "primaryType": "electric",
+  "secondaryType": null,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 55,
+    "defence": 40,
+    "special_attack": 45,
+    "special_defence": 40,
+    "speed": 60
+  },
+  "baseStatTotal": 275,
+  "abilities": [
+    "levitate"
+  ],
+  "hiddenAbilities": [
+    "levitate"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 2,
+  "weight": 3,
+  "maleRatio": 0.5,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 55,
+  "labels": [
+    "gen5"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 1
+      },
+      {
+        "moveId": "spark",
+        "level": 1
+      },
+      {
+        "moveId": "chargebeam",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "risingvoltage"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunderwave"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "risingvoltage"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:eelektrik",
+      "targetSlug": "eelektrik",
+      "summary": "Nivel · Nv. 39",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/602.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

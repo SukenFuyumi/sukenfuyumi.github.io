@@ -1,0 +1,217 @@
+{
+  "id": "cobblemon:applin",
+  "namespace": "cobblemon",
+  "slug": "applin",
+  "name": "Applin",
+  "nationalPokedexNumber": 840,
+  "primaryType": "grass",
+  "secondaryType": "dragon",
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 80,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 20
+  },
+  "baseStatTotal": 260,
+  "abilities": [
+    "ripen",
+    "gluttony"
+  ],
+  "hiddenAbilities": [
+    "bulletproof"
+  ],
+  "eggGroups": [
+    "grass",
+    "dragon"
+  ],
+  "catchRate": 255,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 2,
+  "weight": 5,
+  "maleRatio": 0.5,
+  "experienceGroup": "erratic",
+  "baseExperienceYield": 52,
+  "labels": [
+    "gen8"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It spends its entire life inside an apple. It hides from its natural enemies, bird Pokémon, by pretending it's just an apple and nothing more.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "withdraw",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "defensecurl"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "suckerpunch"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "suckerpunch"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "grassyglide"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:flapple",
+      "targetSlug": "flapple",
+      "summary": "Usar tart_apple",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:appletun",
+      "targetSlug": "appletun",
+      "summary": "Usar sweet_apple",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:dipplin",
+      "targetSlug": "dipplin",
+      "summary": "Usar syrupy_apple",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "water",
+        "multiplier": 0.25
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

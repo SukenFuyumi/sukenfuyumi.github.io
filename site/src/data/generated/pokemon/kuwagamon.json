@@ -1,0 +1,199 @@
+{
+  "id": "cobblemon:kuwagamon",
+  "namespace": "cobblemon",
+  "slug": "kuwagamon",
+  "name": "Kuwagamon",
+  "nationalPokedexNumber": 2118,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 90,
+    "defence": 95,
+    "special_attack": 50,
+    "special_defence": 65,
+    "speed": 50
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "moldbreaker",
+    "hustle"
+  ],
+  "hiddenAbilities": [
+    "strongjaw"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.13,
+  "weight": 73.48,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A stag beetle Digimon that crushes enemies with horned jaws.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pursuit",
+        "level": 25
+      },
+      {
+        "moveId": "furyattack",
+        "level": 27
+      },
+      {
+        "moveId": "furycutter",
+        "level": 29
+      },
+      {
+        "moveId": "visegrip",
+        "level": 31
+      },
+      {
+        "moveId": "counter",
+        "level": 33
+      },
+      {
+        "moveId": "bugbite",
+        "level": 35
+      },
+      {
+        "moveId": "aerialace",
+        "level": 37
+      },
+      {
+        "moveId": "snaptrap",
+        "level": 39
+      },
+      {
+        "moveId": "superfang",
+        "level": 41
+      },
+      {
+        "moveId": "guillotine",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:okuwamon",
+      "targetSlug": "okuwamon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: sticky_barb",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:alturkabuterimon",
+      "targetSlug": "alturkabuterimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: red_card",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "wormmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/kuwagamon.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_spooky",
+        "#cobblemon:is_mushroom",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

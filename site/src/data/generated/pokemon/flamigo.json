@@ -1,0 +1,509 @@
+{
+  "id": "cobblemon:flamigo",
+  "namespace": "cobblemon",
+  "slug": "flamigo",
+  "name": "Flamigo",
+  "nationalPokedexNumber": 973,
+  "primaryType": "flying",
+  "secondaryType": "fighting",
+  "types": [
+    "flying",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 82,
+    "attack": 115,
+    "defence": 74,
+    "special_attack": 75,
+    "special_defence": 64,
+    "speed": 90
+  },
+  "baseStatTotal": 500,
+  "abilities": [
+    "scrappy",
+    "tangledfeet"
+  ],
+  "hiddenAbilities": [
+    "costar"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "catchRate": 100,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 16,
+  "weight": 370,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 175,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "peck",
+        "level": 1
+      },
+      {
+        "moveId": "copycat",
+        "level": 1
+      },
+      {
+        "moveId": "doublekick",
+        "level": 5
+      },
+      {
+        "moveId": "detect",
+        "level": 9
+      },
+      {
+        "moveId": "wingattack",
+        "level": 12
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 15
+      },
+      {
+        "moveId": "lowkick",
+        "level": 18
+      },
+      {
+        "moveId": "feint",
+        "level": 21
+      },
+      {
+        "moveId": "payback",
+        "level": 27
+      },
+      {
+        "moveId": "roost",
+        "level": 31
+      },
+      {
+        "moveId": "airslash",
+        "level": 35
+      },
+      {
+        "moveId": "flyingkick",
+        "level": 35
+      },
+      {
+        "moveId": "megakick",
+        "level": 39
+      },
+      {
+        "moveId": "wideguard",
+        "level": 44
+      },
+      {
+        "moveId": "throatchop",
+        "level": 48
+      },
+      {
+        "moveId": "bravebird",
+        "level": 54
+      },
+      {
+        "moveId": "nosedive",
+        "level": 58
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "quickguard"
+      },
+      {
+        "moveId": "skyattack"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "bravebird"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "flyingkick"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "lowsweep"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "skyattack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "upperhand"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "skyattack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/973.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_savanna",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "25-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_savanna",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "uncommon",
+      "level": "25-50",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "uncommon",
+      "level": "25-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "25-50",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "25-50",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "25-50",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_savanna",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "25-50",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_savanna",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "uncommon",
+      "level": "25-50",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "uncommon",
+      "level": "25-50",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core"
+  }
+}

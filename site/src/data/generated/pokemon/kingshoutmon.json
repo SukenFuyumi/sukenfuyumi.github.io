@@ -1,0 +1,220 @@
+{
+  "id": "cobblemon:kingshoutmon",
+  "namespace": "cobblemon",
+  "slug": "kingshoutmon",
+  "name": "Kingshoutmon",
+  "nationalPokedexNumber": 2139,
+  "primaryType": "dragon",
+  "secondaryType": "fire",
+  "types": [
+    "dragon",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 53,
+    "special_attack": 85,
+    "special_defence": 49,
+    "speed": 83
+  },
+  "baseStatTotal": 390,
+  "abilities": [
+    "soundproof",
+    "punkrock"
+  ],
+  "hiddenAbilities": [
+    "victorystar"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.6,
+  "weight": 44.45,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A crowned warrior who tempers flame with steel.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "echoedvoice",
+        "level": 25
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 27
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 29
+      },
+      {
+        "moveId": "sonicboom",
+        "level": 31
+      },
+      {
+        "moveId": "sing",
+        "level": 33
+      },
+      {
+        "moveId": "supersonic",
+        "level": 35
+      },
+      {
+        "moveId": "flameburst",
+        "level": 37
+      },
+      {
+        "moveId": "metalsound",
+        "level": 39
+      },
+      {
+        "moveId": "clangoroussoul",
+        "level": 41
+      },
+      {
+        "moveId": "perishsong",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:omegashoutmon",
+      "targetSlug": "omegashoutmon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: choice_specs",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:etemon",
+      "targetSlug": "etemon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: dubious_disc",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "shoutmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/kingshoutmon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_hills"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_thermal"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

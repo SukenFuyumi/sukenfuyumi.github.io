@@ -1,0 +1,588 @@
+{
+  "id": "cobblemon:solosis",
+  "namespace": "cobblemon",
+  "slug": "solosis",
+  "name": "Solosis",
+  "nationalPokedexNumber": 577,
+  "primaryType": "psychic",
+  "secondaryType": null,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 30,
+    "defence": 40,
+    "special_attack": 105,
+    "special_defence": 50,
+    "speed": 20
+  },
+  "baseStatTotal": 290,
+  "abilities": [
+    "overcoat",
+    "magicguard"
+  ],
+  "hiddenAbilities": [
+    "regenerator"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "catchRate": 200,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 10,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 58,
+  "labels": [
+    "gen5"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "psywave",
+        "level": 1
+      },
+      {
+        "moveId": "protect",
+        "level": 1
+      },
+      {
+        "moveId": "confusion",
+        "level": 1
+      },
+      {
+        "moveId": "recover",
+        "level": 4
+      },
+      {
+        "moveId": "endeavor",
+        "level": 8
+      },
+      {
+        "moveId": "psybeam",
+        "level": 12
+      },
+      {
+        "moveId": "charm",
+        "level": 16
+      },
+      {
+        "moveId": "psyshock",
+        "level": 20
+      },
+      {
+        "moveId": "reflect",
+        "level": 24
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 24
+      },
+      {
+        "moveId": "allyswitch",
+        "level": 28
+      },
+      {
+        "moveId": "painsplit",
+        "level": 33
+      },
+      {
+        "moveId": "psychic",
+        "level": 36
+      },
+      {
+        "moveId": "skillswap",
+        "level": 40
+      },
+      {
+        "moveId": "futuresight",
+        "level": 44
+      },
+      {
+        "moveId": "wonderroom",
+        "level": 48
+      },
+      {
+        "moveId": "mindbend",
+        "level": 52
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "acidarmor"
+      },
+      {
+        "moveId": "astonish"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "healblock"
+      },
+      {
+        "moveId": "secretpower"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "guardswap"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hypnoblast"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "mindbend"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "powerswap"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicsnap"
+      },
+      {
+        "moveId": "psychicterrain"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:duosion",
+      "targetSlug": "duosion",
+      "summary": "Nivel · Nv. 32",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/577.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_end"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_end"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "standingEyeHeight": "cobblemon-core",
+    "swimmingEyeHeight": "cobblemon-core",
+    "flyingEyeHeight": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core"
+  }
+}

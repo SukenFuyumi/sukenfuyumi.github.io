@@ -1,0 +1,213 @@
+{
+  "id": "cobblemon:gesomon",
+  "namespace": "cobblemon",
+  "slug": "gesomon",
+  "name": "Gesomon",
+  "nationalPokedexNumber": 2106,
+  "primaryType": "water",
+  "secondaryType": "dark",
+  "types": [
+    "water",
+    "dark"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 35,
+    "special_attack": 95,
+    "special_defence": 40,
+    "speed": 80
+  },
+  "baseStatTotal": 400,
+  "abilities": [
+    "emergencyexit",
+    "suctioncups"
+  ],
+  "hiddenAbilities": [
+    "intimidate"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.91,
+  "weight": 84,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A giant squid Digimon that drags prey into the depths with its arms.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "smog",
+        "level": 25
+      },
+      {
+        "moveId": "bubblebeam",
+        "level": 27
+      },
+      {
+        "moveId": "pursuit",
+        "level": 29
+      },
+      {
+        "moveId": "embargo",
+        "level": 31
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 33
+      },
+      {
+        "moveId": "scaryface",
+        "level": 35
+      },
+      {
+        "moveId": "visegrip",
+        "level": 37
+      },
+      {
+        "moveId": "brine",
+        "level": 39
+      },
+      {
+        "moveId": "brutalswing",
+        "level": 41
+      },
+      {
+        "moveId": "octolock",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:marinedevimon",
+      "targetSlug": "marinedevimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: dark_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:rareraremon",
+      "targetSlug": "rareraremon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: black_sludge",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "shakomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/gesomon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_deep_ocean",
+        "#cobblemon:is_ocean",
+        "alexscaves:abyssal_chasm"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

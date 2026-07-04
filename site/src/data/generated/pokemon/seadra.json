@@ -1,0 +1,602 @@
+{
+  "id": "cobblemon:seadra",
+  "namespace": "cobblemon",
+  "slug": "seadra",
+  "name": "Seadra",
+  "nationalPokedexNumber": 117,
+  "primaryType": "water",
+  "secondaryType": null,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 65,
+    "defence": 95,
+    "special_attack": 95,
+    "special_defence": 45,
+    "speed": 85
+  },
+  "baseStatTotal": 440,
+  "abilities": [
+    "poisonpoint",
+    "sniper"
+  ],
+  "hiddenAbilities": [
+    "damp"
+  ],
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "catchRate": 75,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 12,
+  "weight": 250,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 154,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Seadra generates whirlpools by spinning its body. The whirlpools are strong enough to swallow even fishing boats. This Pokémon weakens prey with these currents, then swallows it whole.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bubble",
+        "level": 1
+      },
+      {
+        "moveId": "smokescreen",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 1
+      },
+      {
+        "moveId": "twister",
+        "level": 1
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 15
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 20
+      },
+      {
+        "moveId": "bubblebeam",
+        "level": 25
+      },
+      {
+        "moveId": "agility",
+        "level": 30
+      },
+      {
+        "moveId": "potshot",
+        "level": 30
+      },
+      {
+        "moveId": "waterpulse",
+        "level": 37
+      },
+      {
+        "moveId": "dragonpulse",
+        "level": 44
+      },
+      {
+        "moveId": "hydropump",
+        "level": 51
+      },
+      {
+        "moveId": "dragondance",
+        "level": 58
+      },
+      {
+        "moveId": "raindance",
+        "level": 65
+      },
+      {
+        "moveId": "snipeshot",
+        "level": 70
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "aurorabeam"
+      },
+      {
+        "moveId": "clearsmog"
+      },
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "dragonrage"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "octazooka"
+      },
+      {
+        "moveId": "razorwind"
+      },
+      {
+        "moveId": "splash"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "brine"
+      },
+      {
+        "moveId": "bulletbarrage"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "dragondance"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "frigidwater"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "potshot"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snowscape"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "whirlpool"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:kingdra",
+      "targetSlug": "kingdra",
+      "summary": "Intercambio · Sosteniendo: dragon_scale · (consume objeto sostenido)",
+      "variant": "trade"
+    }
+  ],
+  "evolvesFrom": "horsea",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_lukewarm_ocean",
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "32-44",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "32-44",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_lukewarm_ocean",
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "32-44",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "32-44",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "32-44",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "32-44",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "32-44",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_lukewarm_ocean",
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "32-44",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "32-44",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_lukewarm_ocean",
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "32-44",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "32-44",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "32-44",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "32-44",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

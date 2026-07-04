@@ -1,0 +1,830 @@
+{
+  "id": "cobblemon:hatenna",
+  "namespace": "cobblemon",
+  "slug": "hatenna",
+  "name": "Hatenna",
+  "nationalPokedexNumber": 856,
+  "primaryType": "psychic",
+  "secondaryType": null,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 42,
+    "attack": 30,
+    "defence": 45,
+    "special_attack": 56,
+    "special_defence": 53,
+    "speed": 39
+  },
+  "baseStatTotal": 265,
+  "abilities": [
+    "healer",
+    "recluse"
+  ],
+  "hiddenAbilities": [
+    "magicbounce"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "catchRate": 235,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 34,
+  "maleRatio": 0,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 53,
+  "labels": [
+    "gen8"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Midnight",
+      "aspects": [
+        "midnight"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "fairy",
+      "types": [
+        "fire",
+        "fairy"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 42,
+        "attack": 56,
+        "defence": 45,
+        "special_attack": 30,
+        "special_defence": 53,
+        "speed": 39
+      },
+      "baseStatTotal": 265,
+      "abilities": [
+        "magician",
+        "misdirection"
+      ],
+      "hiddenAbilities": [
+        "costar"
+      ],
+      "pokedexDescription": "This Pokémon is sensitive to human emotions. Because of this, it does everything it can to keep people happy. It uses its hat to perform all sorts of tricks to impress others.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "ember",
+            "level": 1
+          },
+          {
+            "moveId": "playnice",
+            "level": 1
+          },
+          {
+            "moveId": "confuseray",
+            "level": 1
+          },
+          {
+            "moveId": "magictrick",
+            "level": 1
+          },
+          {
+            "moveId": "roleplay",
+            "level": 5
+          },
+          {
+            "moveId": "disarmingvoice",
+            "level": 10
+          },
+          {
+            "moveId": "encore",
+            "level": 15
+          },
+          {
+            "moveId": "flamewheel",
+            "level": 20
+          },
+          {
+            "moveId": "starshot",
+            "level": 25
+          },
+          {
+            "moveId": "trick",
+            "level": 28
+          },
+          {
+            "moveId": "dazzlinggleam",
+            "level": 33
+          },
+          {
+            "moveId": "lashout",
+            "level": 35
+          },
+          {
+            "moveId": "firelash",
+            "level": 40
+          },
+          {
+            "moveId": "magicroom",
+            "level": 45
+          },
+          {
+            "moveId": "playrough",
+            "level": 64
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "aromaticmist"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "nuzzle"
+          },
+          {
+            "moveId": "quash"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "charm"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "disarmingvoice"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "encore"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "imprison"
+          },
+          {
+            "moveId": "lightpulse"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magicbeam"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "metronome"
+          },
+          {
+            "moveId": "mistyterrain"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "quash"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "starshot"
+          },
+          {
+            "moveId": "starshower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunderwave"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "trickroom"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "trick"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          },
+          {
+            "type": "water",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.25
+          },
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "dragon"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:hattrix",
+          "targetSlug": "hattrix-midnight",
+          "summary": "Nivel · Nv. 32 · variante midnight",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "hatenna-midnight"
+    }
+  ],
+  "pokedexDescription": "Via the protrusion on its head, it senses other creatures' emotions. If you don't have a calm disposition, it will never warm up to you.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "confusion",
+        "level": 1
+      },
+      {
+        "moveId": "playnice",
+        "level": 1
+      },
+      {
+        "moveId": "lifedew",
+        "level": 5
+      },
+      {
+        "moveId": "disarmingvoice",
+        "level": 10
+      },
+      {
+        "moveId": "aromatherapy",
+        "level": 15
+      },
+      {
+        "moveId": "psybeam",
+        "level": 20
+      },
+      {
+        "moveId": "healpulse",
+        "level": 25
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 30
+      },
+      {
+        "moveId": "calmmind",
+        "level": 35
+      },
+      {
+        "moveId": "psychic",
+        "level": 40
+      },
+      {
+        "moveId": "healingwish",
+        "level": 45
+      },
+      {
+        "moveId": "phantomtrick",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "aromaticmist"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "nuzzle"
+      },
+      {
+        "moveId": "quash"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "metronome"
+      },
+      {
+        "moveId": "mindbend"
+      },
+      {
+        "moveId": "mistyterrain"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicsnap"
+      },
+      {
+        "moveId": "psychicterrain"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "quash"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "trick"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:hattrem",
+      "targetSlug": "hattrem",
+      "summary": "Nivel · Nv. 32",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/856.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_magical",
+        "aether:skyroot_forest",
+        "aether:skyroot_woodland"
+      ],
+      "bucket": "uncommon",
+      "level": "2-27",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "2-27",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "2-27",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "2-27",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "2-27",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "2-27",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_magical",
+        "aether:skyroot_forest",
+        "aether:skyroot_woodland"
+      ],
+      "bucket": "uncommon",
+      "level": "2-27",
+      "timeRange": "night",
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "2-27",
+      "timeRange": "night",
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "2-27",
+      "timeRange": "night",
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_magical",
+        "aether:skyroot_forest",
+        "aether:skyroot_woodland"
+      ],
+      "bucket": "uncommon",
+      "level": "2-27",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "2-27",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "2-27",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-fakemon-pack",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "forms": "lasers-fakemon-pack"
+  }
+}

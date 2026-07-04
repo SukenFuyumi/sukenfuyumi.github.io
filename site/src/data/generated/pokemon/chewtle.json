@@ -1,0 +1,465 @@
+{
+  "id": "cobblemon:chewtle",
+  "namespace": "cobblemon",
+  "slug": "chewtle",
+  "name": "Chewtle",
+  "nationalPokedexNumber": 833,
+  "primaryType": "water",
+  "secondaryType": null,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 64,
+    "defence": 50,
+    "special_attack": 38,
+    "special_defence": 38,
+    "speed": 44
+  },
+  "baseStatTotal": 284,
+  "abilities": [
+    "strongjaw",
+    "shellarmor"
+  ],
+  "hiddenAbilities": [
+    "swiftswim"
+  ],
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "catchRate": 255,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 85,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 57,
+  "labels": [
+    "gen8"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Apparently the itch of its teething impels it to snap its jaws at anything in front of it.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 1
+      },
+      {
+        "moveId": "bite",
+        "level": 7
+      },
+      {
+        "moveId": "protect",
+        "level": 14
+      },
+      {
+        "moveId": "headbutt",
+        "level": 21
+      },
+      {
+        "moveId": "counter",
+        "level": 28
+      },
+      {
+        "moveId": "jawlock",
+        "level": 35
+      },
+      {
+        "moveId": "liquidation",
+        "level": 42
+      },
+      {
+        "moveId": "bodyslam",
+        "level": 49
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "dragontail"
+      },
+      {
+        "moveId": "fossilfang"
+      },
+      {
+        "moveId": "gastroacid"
+      },
+      {
+        "moveId": "shellsmash"
+      },
+      {
+        "moveId": "skullbash"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "dragonfang"
+      },
+      {
+        "moveId": "dragontail"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "gastroacid"
+      },
+      {
+        "moveId": "guardpress"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "ironfang"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "whirlpool"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "gastroacid"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:drednaw",
+      "targetSlug": "drednaw",
+      "summary": "Nivel · Nv. 22",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/833.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_hills",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_hills",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_freshwater"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_freshwater"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_hills",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_hills",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_freshwater"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_freshwater"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core"
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "id": "cobblemon:dewgong",
+  "namespace": "cobblemon",
+  "slug": "dewgong",
+  "name": "Dewgong",
+  "nationalPokedexNumber": 87,
+  "primaryType": "water",
+  "secondaryType": "ice",
+  "types": [
+    "water",
+    "ice"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 70,
+    "defence": 80,
+    "special_attack": 70,
+    "special_defence": 95,
+    "speed": 70
+  },
+  "baseStatTotal": 475,
+  "abilities": [
+    "thickfat",
+    "hydration"
+  ],
+  "hiddenAbilities": [
+    "icebody"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "catchRate": 75,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 17,
+  "weight": 1200,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 166,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Dewgong loves to snooze on bitterly cold ice. The sight of this Pokémon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "headbutt",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "signalbeam",
+        "level": 1
+      },
+      {
+        "moveId": "icywind",
+        "level": 1
+      },
+      {
+        "moveId": "sheercold",
+        "level": 1
+      },
+      {
+        "moveId": "watersport",
+        "level": 1
+      },
+      {
+        "moveId": "chillout",
+        "level": 9
+      },
+      {
+        "moveId": "encore",
+        "level": 13
+      },
+      {
+        "moveId": "iceshard",
+        "level": 17
+      },
+      {
+        "moveId": "rest",
+        "level": 21
+      },
+      {
+        "moveId": "aquaring",
+        "level": 23
+      },
+      {
+        "moveId": "aurorabeam",
+        "level": 27
+      },
+      {
+        "moveId": "aquajet",
+        "level": 31
+      },
+      {
+        "moveId": "brine",
+        "level": 33
+      },
+      {
+        "moveId": "takedown",
+        "level": 39
+      },
+      {
+        "moveId": "frigidwater",
+        "level": 43
+      },
+      {
+        "moveId": "dive",
+        "level": 45
+      },
+      {
+        "moveId": "aquatail",
+        "level": 49
+      },
+      {
+        "moveId": "icebeam",
+        "level": 55
+      },
+      {
+        "moveId": "safeguard",
+        "level": 61
+      },
+      {
+        "moveId": "snowscape",
+        "level": 65
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "belch"
+      },
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "entrainment"
+      },
+      {
+        "moveId": "fakeout"
+      },
+      {
+        "moveId": "horndrill"
+      },
+      {
+        "moveId": "lick"
+      },
+      {
+        "moveId": "perishsong"
+      },
+      {
+        "moveId": "slam"
+      },
+      {
+        "moveId": "spitup"
+      },
+      {
+        "moveId": "stockpile"
+      },
+      {
+        "moveId": "swallow"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "avalanche"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brine"
+      },
+      {
+        "moveId": "bubblebeam"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "chillout"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "deepfreeze"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "drillrun"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "frigidwater"
+      },
+      {
+        "moveId": "frostbreath"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icespinner"
+      },
+      {
+        "moveId": "iciclespear"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "payday"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smartstrike"
+      },
+      {
+        "moveId": "snowscape"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "tripleaxel"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "watergun"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "whirlpool"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "drillrun"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "tripleaxel"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "megahorn"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "peck"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "seel",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "ice",
+        "multiplier": 0.25
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "34-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "34-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cold_ocean",
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "34-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "34-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cold_ocean",
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "34-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "34-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "34-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "34-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "34-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cold_ocean",
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "34-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "34-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cold_ocean",
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "34-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "riding": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

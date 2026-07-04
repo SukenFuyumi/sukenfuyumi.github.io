@@ -1,0 +1,343 @@
+{
+  "id": "cobblemon:dolwashi",
+  "namespace": "cobblemon",
+  "slug": "dolwashi",
+  "name": "Dolwashi",
+  "nationalPokedexNumber": 1207,
+  "primaryType": "water",
+  "secondaryType": null,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "hp": 49,
+    "attack": 66,
+    "defence": 54,
+    "special_attack": 50,
+    "special_defence": 36,
+    "speed": 59
+  },
+  "baseStatTotal": 314,
+  "abilities": [
+    "torrent"
+  ],
+  "hiddenAbilities": [
+    "waterveil"
+  ],
+  "eggGroups": [
+    "field",
+    "water_2"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 42,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 64,
+  "labels": [
+    "fakemon",
+    "alatia",
+    "starter"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It has a tail that can rotate like a propeller, which allows it to swim at high speed.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 0
+      },
+      {
+        "moveId": "leer",
+        "level": 0
+      },
+      {
+        "moveId": "watergun",
+        "level": 5
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 9
+      },
+      {
+        "moveId": "metalsound",
+        "level": 12
+      },
+      {
+        "moveId": "dive",
+        "level": 15
+      },
+      {
+        "moveId": "slash",
+        "level": 17
+      },
+      {
+        "moveId": "snatch",
+        "level": 19
+      },
+      {
+        "moveId": "bulkup",
+        "level": 22
+      },
+      {
+        "moveId": "liquidation",
+        "level": 26
+      },
+      {
+        "moveId": "waterspout",
+        "level": 28
+      },
+      {
+        "moveId": "stoneedge",
+        "level": 31
+      },
+      {
+        "moveId": "wavecrash",
+        "level": 33
+      },
+      {
+        "moveId": "irontail",
+        "level": 36
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "followme"
+      },
+      {
+        "moveId": "partingshot"
+      },
+      {
+        "moveId": "sacredsword"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aquajet"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "bite"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brine"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "dragonclaw"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "iciclespear"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lowsweep"
+      },
+      {
+        "moveId": "mist"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "tailslap"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "upperhand"
+      },
+      {
+        "moveId": "waterfall"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "iceball"
+      },
+      {
+        "moveId": "waterpledge"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:walphin",
+      "targetSlug": "walphin",
+      "summary": "Nivel · Nv. 16",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/dolwashi.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "evolutions": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp"
+  }
+}

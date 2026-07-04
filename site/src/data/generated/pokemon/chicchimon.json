@@ -1,0 +1,163 @@
+{
+  "id": "cobblemon:chicchimon",
+  "namespace": "cobblemon",
+  "slug": "chicchimon",
+  "name": "Chicchimon",
+  "nationalPokedexNumber": 2174,
+  "primaryType": "flying",
+  "secondaryType": null,
+  "types": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 35,
+    "defence": 30,
+    "special_attack": 30,
+    "special_defence": 30,
+    "speed": 40
+  },
+  "baseStatTotal": 200,
+  "abilities": [
+    "earlybird",
+    "earlybird"
+  ],
+  "hiddenAbilities": [
+    "bigpecks"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 150,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.3048,
+  "weight": 3.6287,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 40,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A chirping fledgling that dashes on tiny legs.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 5
+      },
+      {
+        "moveId": "peck",
+        "level": 7
+      },
+      {
+        "moveId": "leer",
+        "level": 9
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 10
+      },
+      {
+        "moveId": "gust",
+        "level": 11
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:hyokomon",
+      "targetSlug": "hyokomon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "zerimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/chicchimon.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_hills"
+      ],
+      "bucket": "rare",
+      "level": "4-15",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

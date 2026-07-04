@@ -1,0 +1,606 @@
+{
+  "id": "cobblemon:comfey",
+  "namespace": "cobblemon",
+  "slug": "comfey",
+  "name": "Comfey",
+  "nationalPokedexNumber": 764,
+  "primaryType": "fairy",
+  "secondaryType": null,
+  "types": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 51,
+    "attack": 52,
+    "defence": 90,
+    "special_attack": 82,
+    "special_defence": 110,
+    "speed": 100
+  },
+  "baseStatTotal": 485,
+  "abilities": [
+    "flowerveil",
+    "triage"
+  ],
+  "hiddenAbilities": [
+    "naturalcure"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "catchRate": 60,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 1,
+  "weight": 3,
+  "maleRatio": 0.25,
+  "experienceGroup": "fast",
+  "baseExperienceYield": 170,
+  "labels": [
+    "gen7"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It picks flowers and sticks them to its body with fluids it produces. The aroma that wafts from its petals has a healing effect.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "flowershield",
+        "level": 1
+      },
+      {
+        "moveId": "growth",
+        "level": 1
+      },
+      {
+        "moveId": "wrap",
+        "level": 1
+      },
+      {
+        "moveId": "naturalgift",
+        "level": 1
+      },
+      {
+        "moveId": "aromatherapy",
+        "level": 1
+      },
+      {
+        "moveId": "vinewhip",
+        "level": 3
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 6
+      },
+      {
+        "moveId": "drainingkiss",
+        "level": 9
+      },
+      {
+        "moveId": "charm",
+        "level": 12
+      },
+      {
+        "moveId": "magicalleaf",
+        "level": 15
+      },
+      {
+        "moveId": "synthesis",
+        "level": 18
+      },
+      {
+        "moveId": "leechseed",
+        "level": 21
+      },
+      {
+        "moveId": "grassknot",
+        "level": 24
+      },
+      {
+        "moveId": "sweetkiss",
+        "level": 27
+      },
+      {
+        "moveId": "floralhealing",
+        "level": 30
+      },
+      {
+        "moveId": "petalblizzard",
+        "level": 33
+      },
+      {
+        "moveId": "bind",
+        "level": 36
+      },
+      {
+        "moveId": "playrough",
+        "level": 39
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 42
+      },
+      {
+        "moveId": "petaldance",
+        "level": 45
+      },
+      {
+        "moveId": "grassyterrain",
+        "level": 48
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "leaftornado"
+      },
+      {
+        "moveId": "luckychant"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "petalblizzard"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "pollenpuff"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "celebrate"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/764.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_bumblezone:floral_meadow"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "the_bumblezone:floral_meadow"
+      ],
+      "bucket": "uncommon",
+      "level": "24-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

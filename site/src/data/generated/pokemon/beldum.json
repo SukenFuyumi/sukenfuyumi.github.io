@@ -1,0 +1,325 @@
+{
+  "id": "cobblemon:beldum",
+  "namespace": "cobblemon",
+  "slug": "beldum",
+  "name": "Beldum",
+  "nationalPokedexNumber": 374,
+  "primaryType": "steel",
+  "secondaryType": "psychic",
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 55,
+    "defence": 80,
+    "special_attack": 35,
+    "special_defence": 60,
+    "speed": 30
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "clearbody"
+  ],
+  "hiddenAbilities": [
+    "lightmetal"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "catchRate": 3,
+  "eggCycles": 40,
+  "baseFriendship": 35,
+  "height": 6,
+  "weight": 952,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "gen3"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Beldum keeps itself floating by generating a magnetic force that repels earth's natural magnetism. When it sleeps, this Pokémon anchors itself to a cliff using the hooks on its rear.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "steelbeam"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "steelbeam"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [],
+    "other": [
+      {
+        "moveId": "holdback"
+      }
+    ]
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:metang",
+      "targetSlug": "metang",
+      "summary": "Nivel · Nv. 20",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "psychic",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/374.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_dripstone",
+        "#cobblemon:is_peak"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_end"
+      ],
+      "bucket": "rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "uncommon",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_bumblezone:howling_constructs"
+      ],
+      "bucket": "rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_dripstone",
+        "#cobblemon:is_peak"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_end"
+      ],
+      "bucket": "rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "uncommon",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "the_bumblezone:howling_constructs"
+      ],
+      "bucket": "rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

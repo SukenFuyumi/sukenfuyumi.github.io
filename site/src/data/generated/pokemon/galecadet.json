@@ -1,0 +1,350 @@
+{
+  "id": "cobblemon:galecadet",
+  "namespace": "cobblemon",
+  "slug": "galecadet",
+  "name": "Galecadet",
+  "nationalPokedexNumber": 1052,
+  "primaryType": "flying",
+  "secondaryType": null,
+  "types": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 30,
+    "special_attack": 50,
+    "special_defence": 30,
+    "speed": 55
+  },
+  "baseStatTotal": 255,
+  "abilities": [
+    "windrider",
+    "technician"
+  ],
+  "hiddenAbilities": [
+    "aerilate"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "catchRate": 90,
+  "eggCycles": 35,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 105,
+  "maleRatio": 0.5,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 51,
+  "labels": [
+    "laserdex",
+    "minecraftian"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "This Pokémon trains day in and day out within the Trial Chambers, hoping to become strong enough to wield a powerful weapon and finally evolve. Its body contains a never-ending whirlwind.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "barrage",
+        "level": 1
+      },
+      {
+        "moveId": "gust",
+        "level": 1
+      },
+      {
+        "moveId": "defog",
+        "level": 1
+      },
+      {
+        "moveId": "bide",
+        "level": 4
+      },
+      {
+        "moveId": "aerialace",
+        "level": 8
+      },
+      {
+        "moveId": "acrobatics",
+        "level": 12
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 16
+      },
+      {
+        "moveId": "swift",
+        "level": 20
+      },
+      {
+        "moveId": "shockwave",
+        "level": 24
+      },
+      {
+        "moveId": "aircutter",
+        "level": 28
+      },
+      {
+        "moveId": "mirrorshot",
+        "level": 32
+      },
+      {
+        "moveId": "airslash",
+        "level": 36
+      },
+      {
+        "moveId": "weatherball",
+        "level": 40
+      },
+      {
+        "moveId": "autotomize",
+        "level": 44
+      },
+      {
+        "moveId": "breezeball",
+        "level": 44
+      },
+      {
+        "moveId": "bodyslam",
+        "level": 49
+      },
+      {
+        "moveId": "hurricane",
+        "level": 52
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "bulletpunch"
+      },
+      {
+        "moveId": "cometpunch"
+      },
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "forcepalm"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "spite"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "razorwind"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "terrainpulse"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "triattack"
+      },
+      {
+        "moveId": "typhoon"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "whirlwind"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spite"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:zephyrouge",
+      "targetSlug": "zephyrouge",
+      "summary": "Usar auspicious_armor",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:ceruclone",
+      "targetSlug": "ceruclone",
+      "summary": "Usar malicious_armor · (consume objeto sostenido)",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/galecadet.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#minecraft:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "1-26",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "uncommon",
+      "level": "1-26",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    }
+  ],
+  "sourceMods": [
+    "lasers-fakemon-pack"
+  ],
+  "primarySource": "lasers-fakemon-pack",
+  "provenance": {
+    "implemented": "lasers-fakemon-pack",
+    "nationalPokedexNumber": "lasers-fakemon-pack",
+    "name": "lasers-fakemon-pack",
+    "primaryType": "lasers-fakemon-pack",
+    "maleRatio": "lasers-fakemon-pack",
+    "height": "lasers-fakemon-pack",
+    "weight": "lasers-fakemon-pack",
+    "pokedex": "lasers-fakemon-pack",
+    "labels": "lasers-fakemon-pack",
+    "aspects": "lasers-fakemon-pack",
+    "abilities": "lasers-fakemon-pack",
+    "eggGroups": "lasers-fakemon-pack",
+    "baseStats": "lasers-fakemon-pack",
+    "evYield": "lasers-fakemon-pack",
+    "baseExperienceYield": "lasers-fakemon-pack",
+    "experienceGroup": "lasers-fakemon-pack",
+    "catchRate": "lasers-fakemon-pack",
+    "eggCycles": "lasers-fakemon-pack",
+    "baseFriendship": "lasers-fakemon-pack",
+    "shoulderMountable": "lasers-fakemon-pack",
+    "standingEyeHeight": "lasers-fakemon-pack",
+    "baseScale": "lasers-fakemon-pack",
+    "hitbox": "lasers-fakemon-pack",
+    "behaviour": "lasers-fakemon-pack",
+    "drops": "lasers-fakemon-pack",
+    "moves": "lasers-fakemon-pack",
+    "evolutions": "lasers-fakemon-pack"
+  }
+}

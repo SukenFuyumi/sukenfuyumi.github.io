@@ -1,0 +1,146 @@
+{
+  "id": "cobblemon:zygarde#Core",
+  "namespace": "cobblemon",
+  "slug": "zygarde-core",
+  "name": "Zygarde Core",
+  "nationalPokedexNumber": 718,
+  "primaryType": "dragon",
+  "secondaryType": null,
+  "types": [
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 1
+  },
+  "baseStatTotal": 6,
+  "abilities": [
+    "aurabreak"
+  ],
+  "hiddenAbilities": [
+    "aurabreak"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 3,
+  "eggCycles": 120,
+  "baseFriendship": 0,
+  "height": 50,
+  "weight": 3050,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 300,
+  "labels": [
+    "gen6",
+    "legendary",
+    "restricted"
+  ],
+  "aspects": [
+    "core-percent"
+  ],
+  "forms": [],
+  "battleOnly": true,
+  "pokedexDescription": "It's hypothesized that it's monitoring those who destroy the ecosystem from deep in the cave where it lives.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bulldoze",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/zygarde-core.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "mega-showdown",
+    "zamega",
+    "cobblemon-core"
+  ],
+  "primarySource": "mega-showdown",
+  "provenance": {
+    "implemented": "mega-showdown",
+    "nationalPokedexNumber": "mega-showdown",
+    "name": "mega-showdown",
+    "primaryType": "mega-showdown",
+    "secondaryType": "mega-showdown",
+    "maleRatio": "mega-showdown",
+    "height": "mega-showdown",
+    "weight": "mega-showdown",
+    "pokedex": "mega-showdown",
+    "labels": "mega-showdown",
+    "riding": "mega-showdown",
+    "aspects": "mega-showdown",
+    "abilities": "mega-showdown",
+    "eggGroups": "mega-showdown",
+    "baseStats": "mega-showdown",
+    "evYield": "mega-showdown",
+    "baseScale": "mega-showdown",
+    "hitbox": "mega-showdown",
+    "behaviour": "mega-showdown",
+    "baseExperienceYield": "mega-showdown",
+    "experienceGroup": "mega-showdown",
+    "catchRate": "mega-showdown",
+    "eggCycles": "mega-showdown",
+    "baseFriendship": "mega-showdown",
+    "moves": "mega-showdown",
+    "evolutions": "mega-showdown",
+    "forms": "zamega",
+    "features": "zamega"
+  },
+  "formOf": {
+    "slug": "zygarde",
+    "name": "Zygarde"
+  },
+  "formName": "Core"
+}

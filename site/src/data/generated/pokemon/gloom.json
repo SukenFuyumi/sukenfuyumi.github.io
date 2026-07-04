@@ -1,0 +1,572 @@
+{
+  "id": "cobblemon:gloom",
+  "namespace": "cobblemon",
+  "slug": "gloom",
+  "name": "Gloom",
+  "nationalPokedexNumber": 44,
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 65,
+    "defence": 70,
+    "special_attack": 85,
+    "special_defence": 75,
+    "speed": 40
+  },
+  "baseStatTotal": 395,
+  "abilities": [
+    "chlorophyll",
+    "honeygather"
+  ],
+  "hiddenAbilities": [
+    "stench"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 8,
+  "weight": 86,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 138,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "From its mouth Gloom drips honey that smells absolutely horrible. Apparently, it loves the horrid stench. It sniffs the noxious fumes and then drools even more of its honey.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "absorb",
+        "level": 1
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 1
+      },
+      {
+        "moveId": "acid",
+        "level": 1
+      },
+      {
+        "moveId": "luckychant",
+        "level": 1
+      },
+      {
+        "moveId": "growth",
+        "level": 1
+      },
+      {
+        "moveId": "naturalgift",
+        "level": 1
+      },
+      {
+        "moveId": "megadrain",
+        "level": 12
+      },
+      {
+        "moveId": "poisonpowder",
+        "level": 14
+      },
+      {
+        "moveId": "stunspore",
+        "level": 16
+      },
+      {
+        "moveId": "sleeppowder",
+        "level": 18
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 20
+      },
+      {
+        "moveId": "honeydew",
+        "level": 23
+      },
+      {
+        "moveId": "honeybomb",
+        "level": 23
+      },
+      {
+        "moveId": "toxic",
+        "level": 26
+      },
+      {
+        "moveId": "moonblast",
+        "level": 32
+      },
+      {
+        "moveId": "grassyterrain",
+        "level": 38
+      },
+      {
+        "moveId": "backpetal",
+        "level": 42
+      },
+      {
+        "moveId": "moonlight",
+        "level": 44
+      },
+      {
+        "moveId": "petaldance",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "ingrain"
+      },
+      {
+        "moveId": "leechseed"
+      },
+      {
+        "moveId": "luckychant"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "razorleaf"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "strengthsap"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "teeterdance"
+      },
+      {
+        "moveId": "tickle"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "backpetal"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "gastroacid"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "petalblizzard"
+      },
+      {
+        "moveId": "pollenpuff"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "gastroacid"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "takedown"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:vileplume",
+      "targetSlug": "vileplume",
+      "summary": "Usar leaf_stone",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:bellossom",
+      "targetSlug": "bellossom",
+      "summary": "Usar sun_stone",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": "oddish",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "common",
+      "level": "21-40",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "21-40",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_savanna",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "21-40",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "21-40",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "21-40",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "21-40",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "common",
+      "level": "21-40",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "21-40",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_savanna",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "21-40",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "features": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

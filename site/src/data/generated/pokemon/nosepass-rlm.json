@@ -1,0 +1,239 @@
+{
+  "id": "cobblemon:nosepass#rlm",
+  "namespace": "cobblemon",
+  "slug": "nosepass-rlm",
+  "name": "Nosepass rlm",
+  "nationalPokedexNumber": 299,
+  "primaryType": "rock",
+  "secondaryType": "fairy",
+  "types": [
+    "rock",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 40,
+    "defence": 100,
+    "special_attack": 80,
+    "special_defence": 95,
+    "speed": 30
+  },
+  "baseStatTotal": 375,
+  "abilities": [
+    "sturdy",
+    "unaware"
+  ],
+  "hiddenAbilities": [
+    "contrary"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "catchRate": 255,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 10,
+  "weight": 970,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 75,
+  "labels": [
+    "gen3"
+  ],
+  "aspects": [
+    "rlm"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "Extremely laid-back, this Nosepass spends its entire life lounging on beaches, whether they are bustling with tourists or completely wild. It is so sedentary that it often ends up partially buried in the sand. Local beachgoers adore its company and frequently decorate it with tiny hats or sunglasses, treats it accepts with calm indifference.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "present",
+        "level": 1
+      },
+      {
+        "moveId": "harden",
+        "level": 4
+      },
+      {
+        "moveId": "watergun",
+        "level": 7
+      },
+      {
+        "moveId": "rockthrow",
+        "level": 10
+      },
+      {
+        "moveId": "rest",
+        "level": 13
+      },
+      {
+        "moveId": "fairywind",
+        "level": 16
+      },
+      {
+        "moveId": "waterpulse",
+        "level": 19
+      },
+      {
+        "moveId": "tailwind",
+        "level": 19
+      },
+      {
+        "moveId": "rockslide",
+        "level": 22
+      },
+      {
+        "moveId": "aquaring",
+        "level": 25
+      },
+      {
+        "moveId": "rockblast",
+        "level": 28
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 31
+      },
+      {
+        "moveId": "calmmind",
+        "level": 34
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 37
+      },
+      {
+        "moveId": "stoneedge",
+        "level": 40
+      },
+      {
+        "moveId": "charm",
+        "level": 43
+      },
+      {
+        "moveId": "thunder",
+        "level": 43
+      },
+      {
+        "moveId": "explosion",
+        "level": 50
+      },
+      {
+        "moveId": "recover",
+        "level": 60
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "disable"
+      }
+    ],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:probopass",
+      "targetSlug": "probopass",
+      "summary": "Usar water_stone · variante rlm=true",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "steel",
+        "multiplier": 4
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/nosepass-rlm.png",
+    "placeholderColor": "#B6A136"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-rlm",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "ai": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "features": "cobblemon-rlm",
+    "forms": "cobblemon-rlm"
+  },
+  "formOf": {
+    "slug": "nosepass",
+    "name": "Nosepass"
+  },
+  "formName": "rlm"
+}

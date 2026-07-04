@@ -1,0 +1,346 @@
+{
+  "id": "cobblemon:blabully",
+  "namespace": "cobblemon",
+  "slug": "blabully",
+  "name": "Blabully",
+  "nationalPokedexNumber": 1325,
+  "primaryType": "fire",
+  "secondaryType": "dark",
+  "types": [
+    "fire",
+    "dark"
+  ],
+  "baseStats": {
+    "hp": 49,
+    "attack": 102,
+    "defence": 44,
+    "special_attack": 86,
+    "special_defence": 35,
+    "speed": 89
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "blaze"
+  ],
+  "hiddenAbilities": [
+    "hypercutter"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 10,
+  "weight": 430,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 142,
+  "labels": [
+    "fakemon",
+    "aster"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "With evolution it enters a rebellious phase in which it fully manifests its dark side, burning anything it dislikes. There are very few trainers who can deal with its disposition.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 0
+      },
+      {
+        "moveId": "growl",
+        "level": 0
+      },
+      {
+        "moveId": "ember",
+        "level": 0
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 0
+      },
+      {
+        "moveId": "flamewheel",
+        "level": 10
+      },
+      {
+        "moveId": "bite",
+        "level": 15
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 20
+      },
+      {
+        "moveId": "lowsweep",
+        "level": 25
+      },
+      {
+        "moveId": "hyperfang",
+        "level": 30
+      },
+      {
+        "moveId": "firefang",
+        "level": 35
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 40
+      },
+      {
+        "moveId": "meanlook",
+        "level": 45
+      },
+      {
+        "moveId": "flareblitz",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "crushclaw"
+      },
+      {
+        "moveId": "direclaw"
+      },
+      {
+        "moveId": "machpunch"
+      },
+      {
+        "moveId": "powertrip"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "fireblast"
+      },
+      {
+        "moveId": "flamecharge"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flareblitz"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "pinmissile"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "temperflare"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "willowisp"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "firepledge"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:diablaze",
+      "targetSlug": "diablaze",
+      "summary": "Nivel · Nv. 36",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "scorchin",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/blabully.png",
+    "placeholderColor": "#EE8130"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:nether/is_crimson"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "preEvolution": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

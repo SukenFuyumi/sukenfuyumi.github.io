@@ -1,0 +1,240 @@
+{
+  "id": "cobblemon:keramon",
+  "namespace": "cobblemon",
+  "slug": "keramon",
+  "name": "Keramon",
+  "nationalPokedexNumber": 2039,
+  "primaryType": "dark",
+  "secondaryType": "bug",
+  "types": [
+    "dark",
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 30,
+    "special_attack": 62,
+    "special_defence": 60,
+    "speed": 63
+  },
+  "baseStatTotal": 315,
+  "abilities": [
+    "prankster",
+    "insomnia"
+  ],
+  "hiddenAbilities": [
+    "infiltrator"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.02,
+  "weight": 8.16,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Child Digimon that evolved from Tsumemon. Its physique has gotten larger, and with its huge mouth, it can eat away at much more data than Tsumemon could.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 12
+      },
+      {
+        "moveId": "scaryface",
+        "level": 14
+      },
+      {
+        "moveId": "snarl",
+        "level": 16
+      },
+      {
+        "moveId": "meanlook",
+        "level": 18
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 19
+      },
+      {
+        "moveId": "stockpile",
+        "level": 21
+      },
+      {
+        "moveId": "spitup",
+        "level": 22
+      },
+      {
+        "moveId": "taunt",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:chrysalimon",
+      "targetSlug": "chrysalimon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:bakemon",
+      "targetSlug": "bakemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: reaper_cloth",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:numemon",
+      "targetSlug": "numemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: poison_barb",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:devidramon",
+      "targetSlug": "devidramon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: dark_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:octmon",
+      "targetSlug": "octmon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "yarmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/keramon.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_deep_dark"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_pc"
+      ],
+      "bucket": "rare",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "ultra-rare",
+      "level": "12-32",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "ultra-rare",
+      "level": "12-32",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

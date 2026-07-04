@@ -1,0 +1,163 @@
+{
+  "id": "cobblemon:Wamek",
+  "namespace": "cobblemon",
+  "slug": "cobblemon-wamek",
+  "name": "Wamek",
+  "nationalPokedexNumber": null,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {},
+  "baseStatTotal": 0,
+  "abilities": [],
+  "hiddenAbilities": [],
+  "eggGroups": [],
+  "catchRate": null,
+  "eggCycles": null,
+  "baseFriendship": null,
+  "height": null,
+  "weight": null,
+  "maleRatio": null,
+  "experienceGroup": null,
+  "baseExperienceYield": null,
+  "labels": [],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "primaryType": "bug",
+      "secondaryType": "dragon",
+      "types": [
+        "bug",
+        "dragon"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 60,
+        "attack": 180,
+        "defence": 94,
+        "special_attack": 90,
+        "special_defence": 94,
+        "speed": 110
+      },
+      "baseStatTotal": 628,
+      "abilities": [
+        "dragonlate",
+        "dragonlate"
+      ],
+      "hiddenAbilities": [
+        "dragonlate"
+      ],
+      "pokedexDescription": "Mega Evolution has pushed its strength even further. Now larger, tougher, and more powerful, it enters battle with complete confidence in its victory.",
+      "moveset": {
+        "levelUp": [],
+        "egg": [],
+        "tm": [],
+        "tutor": [],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dragon",
+            "multiplier": 2
+          },
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "grass",
+            "multiplier": 0.25
+          },
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ground",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "cobblemon-wamek-mega"
+    }
+  ],
+  "pokedexDescription": null,
+  "moveset": {
+    "levelUp": [],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/cobblemon-wamek.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "ultra-rare",
+      "level": "30-60",
+      "timeRange": null,
+      "sourceId": "cobblemon-rlm"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-rlm"
+  ],
+  "primarySource": "cobblemon-rlm",
+  "provenance": {
+    "features": "cobblemon-rlm",
+    "forms": "cobblemon-rlm"
+  }
+}

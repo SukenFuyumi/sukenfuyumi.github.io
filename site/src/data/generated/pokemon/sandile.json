@@ -1,0 +1,987 @@
+{
+  "id": "cobblemon:sandile",
+  "namespace": "cobblemon",
+  "slug": "sandile",
+  "name": "Sandile",
+  "nationalPokedexNumber": 551,
+  "primaryType": "ground",
+  "secondaryType": "dark",
+  "types": [
+    "ground",
+    "dark"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 72,
+    "defence": 35,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 65
+  },
+  "baseStatTotal": 292,
+  "abilities": [
+    "intimidate",
+    "moxie"
+  ],
+  "hiddenAbilities": [
+    "angerpoint"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 180,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 7,
+  "weight": 152,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 58,
+  "labels": [
+    "gen5"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Lively",
+      "aspects": [
+        "sanrosan"
+      ],
+      "primaryType": "steel",
+      "secondaryType": "dark",
+      "types": [
+        "steel",
+        "dark"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 40,
+        "attack": 70,
+        "defence": 77,
+        "special_attack": 30,
+        "special_defence": 60,
+        "speed": 15
+      },
+      "baseStatTotal": 292,
+      "abilities": [
+        "stamina",
+        "noguard"
+      ],
+      "hiddenAbilities": [
+        "steelyspirit"
+      ],
+      "pokedexDescription": "Sanrosan Sandile can commonly be found near ancient ruins. Because of this, historians believe an ancient empire commonly used Sanrosan Sandile. It is believed that all Sandile looked like this at the time of this ancient civilization.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "leer",
+            "level": 1
+          },
+          {
+            "moveId": "rage",
+            "level": 1
+          },
+          {
+            "moveId": "metalclaw",
+            "level": 1
+          },
+          {
+            "moveId": "honeclaws",
+            "level": 1
+          },
+          {
+            "moveId": "powertrip",
+            "level": 1
+          },
+          {
+            "moveId": "bulletpunch",
+            "level": 9
+          },
+          {
+            "moveId": "scaryface",
+            "level": 12
+          },
+          {
+            "moveId": "bite",
+            "level": 15
+          },
+          {
+            "moveId": "autotomize",
+            "level": 18
+          },
+          {
+            "moveId": "ironhead",
+            "level": 21
+          },
+          {
+            "moveId": "irondefense",
+            "level": 24
+          },
+          {
+            "moveId": "crunch",
+            "level": 27
+          },
+          {
+            "moveId": "noretreat",
+            "level": 30
+          },
+          {
+            "moveId": "foulplay",
+            "level": 33
+          },
+          {
+            "moveId": "irontail",
+            "level": 36
+          },
+          {
+            "moveId": "thrash",
+            "level": 39
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "aquatail"
+          },
+          {
+            "moveId": "counter"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "headsmash"
+          },
+          {
+            "moveId": "mefirst"
+          },
+          {
+            "moveId": "meanlook"
+          },
+          {
+            "moveId": "obstruct"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "aquatail"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "beatup"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "crunch"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "cut"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "dig"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "earthquake"
+          },
+          {
+            "moveId": "embargo"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "firefang"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "honeclaws"
+          },
+          {
+            "moveId": "incinerate"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "metalsound"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "roar"
+          },
+          {
+            "moveId": "rockclimb"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "sandstorm"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "snarl"
+          },
+          {
+            "moveId": "snatch"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "stompingtantrum"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "thunderfang"
+          }
+        ],
+        "tutor": [],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fighting",
+            "multiplier": 4
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "dragon",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ghost",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          },
+          {
+            "type": "normal",
+            "multiplier": 0.5
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "poison",
+          "psychic"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:krokorok",
+          "targetSlug": "krokorok-lively",
+          "summary": "Nivel · Nv. 29 · variante sanrosan",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "sandile-lively"
+    }
+  ],
+  "pokedexDescription": "They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "rage",
+        "level": 1
+      },
+      {
+        "moveId": "powertrip",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 3
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 6
+      },
+      {
+        "moveId": "sandtomb",
+        "level": 9
+      },
+      {
+        "moveId": "scaryface",
+        "level": 12
+      },
+      {
+        "moveId": "bite",
+        "level": 15
+      },
+      {
+        "moveId": "torment",
+        "level": 18
+      },
+      {
+        "moveId": "dig",
+        "level": 21
+      },
+      {
+        "moveId": "swagger",
+        "level": 24
+      },
+      {
+        "moveId": "crunch",
+        "level": 27
+      },
+      {
+        "moveId": "sandstorm",
+        "level": 30
+      },
+      {
+        "moveId": "pitfall",
+        "level": 30
+      },
+      {
+        "moveId": "foulplay",
+        "level": 33
+      },
+      {
+        "moveId": "earthquake",
+        "level": 36
+      },
+      {
+        "moveId": "thrash",
+        "level": 39
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "mefirst"
+      },
+      {
+        "moveId": "meanlook"
+      },
+      {
+        "moveId": "pursuit"
+      },
+      {
+        "moveId": "spite"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "beatup"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dragonfang"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "ironfang"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "pitfall"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "rockclimb"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "sandtomb"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "torment"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "thunderfang"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:krokorok",
+      "targetSlug": "krokorok",
+      "summary": "Nivel · Nv. 29",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric",
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/551.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lively-mons",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "features": "lively-mons",
+    "forms": "lively-mons"
+  }
+}

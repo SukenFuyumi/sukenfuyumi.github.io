@@ -1,0 +1,341 @@
+{
+  "id": "cobblemon:tadbulb",
+  "namespace": "cobblemon",
+  "slug": "tadbulb",
+  "name": "Tadbulb",
+  "nationalPokedexNumber": 938,
+  "primaryType": "electric",
+  "secondaryType": null,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 61,
+    "attack": 31,
+    "defence": 41,
+    "special_attack": 59,
+    "special_defence": 35,
+    "speed": 45
+  },
+  "baseStatTotal": 272,
+  "abilities": [
+    "owntempo",
+    "static"
+  ],
+  "hiddenAbilities": [
+    "damp"
+  ],
+  "eggGroups": [
+    "water_1"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 4,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 54,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "mudslap",
+        "level": 1
+      },
+      {
+        "moveId": "thundershock",
+        "level": 7
+      },
+      {
+        "moveId": "watergun",
+        "level": 11
+      },
+      {
+        "moveId": "charge",
+        "level": 17
+      },
+      {
+        "moveId": "spark",
+        "level": 21
+      },
+      {
+        "moveId": "mudshot",
+        "level": 24
+      },
+      {
+        "moveId": "flail",
+        "level": 25
+      },
+      {
+        "moveId": "discharge",
+        "level": 32
+      },
+      {
+        "moveId": "weatherball",
+        "level": 36
+      },
+      {
+        "moveId": "electricterrain",
+        "level": 40
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 45
+      },
+      {
+        "moveId": "zapcannon",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "paraboliccharge"
+      },
+      {
+        "moveId": "soak"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "eerieimpulse"
+      },
+      {
+        "moveId": "electricterrain"
+      },
+      {
+        "moveId": "electroball"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "voltswitch"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:bellibolt",
+      "targetSlug": "bellibolt",
+      "summary": "Usar thunder_stone",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/938.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_freshwater"
+      ],
+      "bucket": "common",
+      "level": "2-27",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "2-27",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_freshwater"
+      ],
+      "bucket": "common",
+      "level": "2-27",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

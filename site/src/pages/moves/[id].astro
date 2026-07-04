@@ -1,0 +1,50 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import moves from "../../data/generated/moves.json";
+import sourcesData from "../../data/generated/sources.json";
+
+export async function getStaticPaths() {
+  return moves.map((m: any) => ({ params: { id: m.id }, props: { m } }));
+}
+const { m } = Astro.props as { m: any };
+const sourceLookup = new Map(sourcesData.sources.map((s: any) => [s.id, s.label]));
+const flagLabels: Record<string, string> = {
+  contact: "Contacto", protect: "Protegible", mirror: "Copiable con Espejo", sound: "Sonido",
+  punch: "Puñetazo", bite: "Mordisco", bullet: "Bala", powder: "Polvo", heal: "Cura",
+  snatch: "Robable", reflectable: "Reflejable", authentic: "Ignora sustituto",
+};
+---
+<Layout title={m.name}>
+  <div class="breadcrumb"><a href="/moves">Movimientos</a> &rsaquo; {m.name}</div>
+  <div class="panel">
+    <h1 style="margin-top:0;">
+      {m.name}
+      {m.isOverride && <span class="pill override">rebalanceado por {sourceLookup.get(m.sourceId) ?? m.sourceId}</span>}
+    </h1>
+    <div style="display:flex; gap:1.5rem; flex-wrap:wrap; margin-bottom:0.75rem;">
+      {m.type && <a href={`/type/${m.type.toLowerCase()}`} class="type-badge" style={`background:var(--type-${m.type.toLowerCase()})`}>{m.type}</a>}
+      <span><strong>Categoría:</strong> {m.category}</span>
+      <span><strong>Poder:</strong> {m.basePower || "—"}</span>
+      <span><strong>Precisión:</strong> {m.accuracy === true ? "—" : m.accuracy}</span>
+      <span><strong>PP:</strong> {m.pp ?? "—"}</span>
+      <span><strong>Prioridad:</strong> {m.priority ?? 0}</span>
+    </div>
+    {(m.shortDesc || m.desc) && <p>{m.desc || m.shortDesc}</p>}
+    {Object.keys(m.flags ?? {}).length > 0 && (
+      <p style="font-size:0.85rem; color:var(--text-muted);">
+        {Object.keys(m.flags).map((f) => flagLabels[f] ?? f).join(" · ")}
+      </p>
+    )}
+  </div>
+
+  {m.learnedBy?.length > 0 && (
+    <div class="panel" style="margin-top:1.25rem;">
+      <h2 style="margin-top:0;">Quién lo aprende ({m.learnedBy.length})</h2>
+      <div style="display:flex; flex-wrap:wrap; gap:0.4rem;">
+        {m.learnedBy.map((l: any) => (
+          <a class="pill" href={`/pokedex/${l.slug}`}>{l.name}</a>
+        ))}
+      </div>
+    </div>
+  )}
+</Layout>

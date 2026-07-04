@@ -1,0 +1,220 @@
+{
+  "id": "cobblemon:karatukinumemon",
+  "namespace": "cobblemon",
+  "slug": "karatukinumemon",
+  "name": "Karatukinumemon",
+  "nationalPokedexNumber": 2114,
+  "primaryType": "poison",
+  "secondaryType": "water",
+  "types": [
+    "poison",
+    "water"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 70,
+    "defence": 75,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 20
+  },
+  "baseStatTotal": 385,
+  "abilities": [
+    "torrent",
+    "stench"
+  ],
+  "hiddenAbilities": [
+    "shellarmor"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.3,
+  "weight": 39.46,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A shell-carrying Numemon variant with rocky armor.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "acidspray",
+        "level": 25
+      },
+      {
+        "moveId": "withdraw",
+        "level": 27
+      },
+      {
+        "moveId": "bubblebeam",
+        "level": 29
+      },
+      {
+        "moveId": "poisongas",
+        "level": 31
+      },
+      {
+        "moveId": "venomdrench",
+        "level": 33
+      },
+      {
+        "moveId": "aquaring",
+        "level": 35
+      },
+      {
+        "moveId": "chillingwater",
+        "level": 37
+      },
+      {
+        "moveId": "sludge",
+        "level": 39
+      },
+      {
+        "moveId": "acidarmor",
+        "level": 41
+      },
+      {
+        "moveId": "sludgewave",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:digitamamon",
+      "targetSlug": "digitamamon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: lucky_egg",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:monzaemon",
+      "targetSlug": "monzaemon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: love_sweet",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "shakomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/karatukinumemon.png",
+    "placeholderColor": "#A33EA1"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_beach"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_beach"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

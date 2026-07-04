@@ -1,0 +1,775 @@
+{
+  "id": "cobblemon:clamperl",
+  "namespace": "cobblemon",
+  "slug": "clamperl",
+  "name": "Clamperl",
+  "nationalPokedexNumber": 366,
+  "primaryType": "water",
+  "secondaryType": null,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 64,
+    "defence": 85,
+    "special_attack": 74,
+    "special_defence": 55,
+    "speed": 32
+  },
+  "baseStatTotal": 345,
+  "abilities": [
+    "shellarmor",
+    "rattled"
+  ],
+  "hiddenAbilities": [
+    "resilient"
+  ],
+  "eggGroups": [
+    "water_1"
+  ],
+  "catchRate": 255,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 525,
+  "maleRatio": 0.5,
+  "experienceGroup": "erratic",
+  "baseExperienceYield": 69,
+  "labels": [
+    "gen3"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Ender",
+      "aspects": [
+        "ender"
+      ],
+      "primaryType": "steel",
+      "secondaryType": "psychic",
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 55,
+        "attack": 44,
+        "defence": 85,
+        "special_attack": 74,
+        "special_defence": 75,
+        "speed": 12
+      },
+      "baseStatTotal": 345,
+      "abilities": [
+        "shellarmor",
+        "emergencyexit"
+      ],
+      "hiddenAbilities": [
+        "recluse"
+      ],
+      "pokedexDescription": "Its body grows while being protected within the Shulker shell. When threatened it fires strange bullets that cause things to float. If its foe continues to bother it, it will retreat by teleporting away.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "shelter",
+            "level": 1
+          },
+          {
+            "moveId": "clamp",
+            "level": 1
+          },
+          {
+            "moveId": "confusion",
+            "level": 1
+          },
+          {
+            "moveId": "barrage",
+            "level": 1
+          },
+          {
+            "moveId": "irondefense",
+            "level": 1
+          },
+          {
+            "moveId": "amnesia",
+            "level": 1
+          },
+          {
+            "moveId": "teleport",
+            "level": 15
+          },
+          {
+            "moveId": "shulkerbullet",
+            "level": 30
+          },
+          {
+            "moveId": "mindbend",
+            "level": 40
+          },
+          {
+            "moveId": "armorpress",
+            "level": 45
+          },
+          {
+            "moveId": "shellsmash",
+            "level": 50
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "barrier"
+          },
+          {
+            "moveId": "breezeball"
+          },
+          {
+            "moveId": "mudsport"
+          },
+          {
+            "moveId": "refresh"
+          },
+          {
+            "moveId": "supersonic"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "amnesia"
+          },
+          {
+            "moveId": "armorpress"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "bulletbarrage"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "guardpress"
+          },
+          {
+            "moveId": "gyroball"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "mindbend"
+          },
+          {
+            "moveId": "potshot"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psyshock"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "voidfog"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "mimic"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "psychic",
+            "multiplier": 0.25
+          },
+          {
+            "type": "dragon",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          },
+          {
+            "type": "normal",
+            "multiplier": 0.5
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "poison"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:boxtail",
+          "targetSlug": "boxtail-ender",
+          "summary": "Intercambio · Sosteniendo: shulker_shell · (consume objeto sostenido) · variante ender",
+          "variant": "trade"
+        },
+        {
+          "targetKey": "cobblemon:boxtail",
+          "targetSlug": "boxtail-ender",
+          "summary": "Intercambio · Sosteniendo: mega_showdown:box_shell · (consume objeto sostenido) · variante ender",
+          "variant": "trade"
+        },
+        {
+          "targetKey": "cobblemon:elabyss",
+          "targetSlug": "elabyss-ender",
+          "summary": "Intercambio · Sosteniendo: phantom_membrane · (consume objeto sostenido) · variante ender",
+          "variant": "trade"
+        },
+        {
+          "targetKey": "cobblemon:elabyss",
+          "targetSlug": "elabyss-ender",
+          "summary": "Intercambio · Sosteniendo: mega_showdown:telepearl · (consume objeto sostenido) · variante ender",
+          "variant": "trade"
+        }
+      ],
+      "slug": "clamperl-ender"
+    }
+  ],
+  "pokedexDescription": "Clamperl grows while being protected by its rock-hard shell. When its body becomes too large to fit inside the shell, it is sure evidence that this Pokémon is getting close to evolution.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "clamp",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 1
+      },
+      {
+        "moveId": "whirlpool",
+        "level": 1
+      },
+      {
+        "moveId": "irondefense",
+        "level": 1
+      },
+      {
+        "moveId": "shellsmash",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "aquaring"
+      },
+      {
+        "moveId": "barrier"
+      },
+      {
+        "moveId": "mudsport"
+      },
+      {
+        "moveId": "refresh"
+      },
+      {
+        "moveId": "supersonic"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brine"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "frigidwater"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "whirlpool"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:huntail",
+      "targetSlug": "huntail",
+      "summary": "Intercambio · Sosteniendo: deep_sea_tooth · (consume objeto sostenido)",
+      "variant": "trade"
+    },
+    {
+      "targetKey": "cobblemon:gorebyss",
+      "targetSlug": "gorebyss",
+      "summary": "Intercambio · Sosteniendo: deep_sea_scale · (consume objeto sostenido)",
+      "variant": "trade"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/366.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_deep_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "rare",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "rare",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "rare",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_end"
+      ],
+      "bucket": "common",
+      "level": "20-45",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_deep_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "rare",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "rare",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "rare",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-fakemon-pack",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "lasers-fakemon-pack"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": "cobblemon:curimon",
+  "namespace": "cobblemon",
+  "slug": "curimon",
+  "name": "Curimon",
+  "nationalPokedexNumber": 2082,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 25,
+    "defence": 30,
+    "special_attack": 15,
+    "special_defence": 30,
+    "speed": 20
+  },
+  "baseStatTotal": 150,
+  "abilities": [
+    "synchronize",
+    "synchronize"
+  ],
+  "hiddenAbilities": [
+    "magicguard"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 150,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.2,
+  "weight": 1.81,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 30,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A tiny Digimon with budding horns and a curious spirit.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "twister",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 2
+      },
+      {
+        "moveId": "leer",
+        "level": 3
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:gurimon",
+      "targetSlug": "gurimon",
+      "summary": "Nivel · Nv. 4",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/curimon.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_dripstone",
+        "#cobblemon:is_plateau",
+        "#cobblemon:is_badlands"
+      ],
+      "bucket": "rare",
+      "level": "1-8",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

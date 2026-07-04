@@ -1,0 +1,273 @@
+{
+  "id": "cobblemon:metapod",
+  "namespace": "cobblemon",
+  "slug": "metapod",
+  "name": "Metapod",
+  "nationalPokedexNumber": 11,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 20,
+    "defence": 55,
+    "special_attack": 25,
+    "special_defence": 25,
+    "speed": 30
+  },
+  "baseStatTotal": 205,
+  "abilities": [
+    "shedskin",
+    "unaware"
+  ],
+  "hiddenAbilities": [
+    "anticipation"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 120,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 7,
+  "weight": 99,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 72,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "The shell covering this Pokémon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "harden",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "stringshot"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:butterfree",
+      "targetSlug": "butterfree",
+      "summary": "Nivel · Nv. 10",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "caterpie",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_plains",
+        "aether:skyroot_forest",
+        "aether:skyroot_woodland"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_bumblezone:floral_meadow"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_plains",
+        "aether:skyroot_forest",
+        "aether:skyroot_woodland"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "the_bumblezone:floral_meadow"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "features": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

@@ -1,0 +1,592 @@
+{
+  "id": "cobblemon:barboach",
+  "namespace": "cobblemon",
+  "slug": "barboach",
+  "name": "Barboach",
+  "nationalPokedexNumber": 339,
+  "primaryType": "water",
+  "secondaryType": "ground",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 48,
+    "defence": 43,
+    "special_attack": 46,
+    "special_defence": 41,
+    "speed": 60
+  },
+  "baseStatTotal": 288,
+  "abilities": [
+    "oblivious",
+    "anticipation"
+  ],
+  "hiddenAbilities": [
+    "hydration"
+  ],
+  "eggGroups": [
+    "water_2"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 19,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 58,
+  "labels": [
+    "gen3"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Barboach's body is covered with a slimy film. If a foe grabs it, this Pokémon just slips out of the enemy's grip. This Pokémon grows weak if the slimy coating dries up.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "mudslap",
+        "level": 1
+      },
+      {
+        "moveId": "mudsport",
+        "level": 1
+      },
+      {
+        "moveId": "watersport",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 1
+      },
+      {
+        "moveId": "mudbomb",
+        "level": 1
+      },
+      {
+        "moveId": "rest",
+        "level": 6
+      },
+      {
+        "moveId": "snore",
+        "level": 6
+      },
+      {
+        "moveId": "waterpulse",
+        "level": 12
+      },
+      {
+        "moveId": "amnesia",
+        "level": 18
+      },
+      {
+        "moveId": "aquatail",
+        "level": 24
+      },
+      {
+        "moveId": "muddywater",
+        "level": 31
+      },
+      {
+        "moveId": "earthquake",
+        "level": 36
+      },
+      {
+        "moveId": "futuresight",
+        "level": 42
+      },
+      {
+        "moveId": "fissure",
+        "level": 48
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "magnitude"
+      },
+      {
+        "moveId": "spark"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "thrash"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dragondance"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "whirlpool"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:whiscash",
+      "targetSlug": "whiscash",
+      "summary": "Nivel · Nv. 30",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 4
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/339.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_hills",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_mushroom",
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_hills",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_mushroom",
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_hills",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_mushroom",
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_hills",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_mushroom",
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

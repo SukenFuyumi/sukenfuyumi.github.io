@@ -1,0 +1,245 @@
+{
+  "id": "cobblemon:mimicmon",
+  "namespace": "cobblemon",
+  "slug": "mimicmon",
+  "name": "Mimicmon",
+  "nationalPokedexNumber": 2158,
+  "primaryType": "ghost",
+  "secondaryType": "steel",
+  "types": [
+    "ghost",
+    "steel"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 50,
+    "defence": 90,
+    "special_attack": 75,
+    "special_defence": 90,
+    "speed": 30
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "disguise",
+    "magicguard"
+  ],
+  "hiddenAbilities": [
+    "magicbounce"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.4,
+  "weight": 157,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A trickster spirit that mimics shapes and voices.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "disable",
+        "level": 25
+      },
+      {
+        "moveId": "poisongas",
+        "level": 27
+      },
+      {
+        "moveId": "gyroball",
+        "level": 29
+      },
+      {
+        "moveId": "confuseray",
+        "level": 31
+      },
+      {
+        "moveId": "ominouswind",
+        "level": 33
+      },
+      {
+        "moveId": "hiddenpower",
+        "level": 35
+      },
+      {
+        "moveId": "mirrorshot",
+        "level": 37
+      },
+      {
+        "moveId": "substitute",
+        "level": 39
+      },
+      {
+        "moveId": "destinybond",
+        "level": 41
+      },
+      {
+        "moveId": "spiritshackle",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:manticoremon",
+      "targetSlug": "manticoremon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: fairy_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:extyrannomon",
+      "targetSlug": "extyrannomon",
+      "summary": "Nivel · Nv. 43 · Amistad 8+",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "toyagumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal",
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/mimicmon.png",
+    "placeholderColor": "#735797"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_end"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:toxic_caves",
+        "#cobblemon:nether"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "id": "cobblemon:dunecargo",
+  "namespace": "cobblemon",
+  "slug": "dunecargo",
+  "name": "Dunecargo",
+  "nationalPokedexNumber": 1033,
+  "primaryType": "ground",
+  "secondaryType": null,
+  "types": [
+    "ground"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 120,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 30
+  },
+  "baseStatTotal": 430,
+  "abilities": [
+    "sandguard",
+    "hotsand"
+  ],
+  "hiddenAbilities": [
+    "sandstream"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "catchRate": 75,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 8,
+  "weight": 550,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 151,
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A convergent evolution that resembles Magcargo. The large rock shell on its back is full of the sand that makes up its body. It travels with the wind, wandering slowly across the dunes. When confronted, it throws burning hot sand at its foes.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "yawn",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 1
+      },
+      {
+        "moveId": "mudslap",
+        "level": 1
+      },
+      {
+        "moveId": "rockthrow",
+        "level": 1
+      },
+      {
+        "moveId": "earthpower",
+        "level": 1
+      },
+      {
+        "moveId": "bulldoze",
+        "level": 1
+      },
+      {
+        "moveId": "shellsmash",
+        "level": 1
+      },
+      {
+        "moveId": "harden",
+        "level": 13
+      },
+      {
+        "moveId": "sandtomb",
+        "level": 20
+      },
+      {
+        "moveId": "ancientpower",
+        "level": 22
+      },
+      {
+        "moveId": "earthquake",
+        "level": 27
+      },
+      {
+        "moveId": "rockslide",
+        "level": 29
+      },
+      {
+        "moveId": "scorchingsands",
+        "level": 34
+      },
+      {
+        "moveId": "amnesia",
+        "level": 36
+      },
+      {
+        "moveId": "bodyslam",
+        "level": 43
+      },
+      {
+        "moveId": "shoreup",
+        "level": 47
+      },
+      {
+        "moveId": "sandshift",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "acidarmor"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "guardswap"
+      },
+      {
+        "moveId": "memento"
+      },
+      {
+        "moveId": "powergem"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "spitup"
+      },
+      {
+        "moveId": "stockpile"
+      },
+      {
+        "moveId": "swallow"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flamecharge"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "guardpress"
+      },
+      {
+        "moveId": "guardswap"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "heatcrash"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "landslide"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "overheat"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "powergem"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockblast"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "sandtomb"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "temperflare"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "willowisp"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "slugrit",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/dunecargo.png",
+    "placeholderColor": "#E2BF65"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "38-43",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    }
+  ],
+  "sourceMods": [
+    "lasers-fakemon-pack"
+  ],
+  "primarySource": "lasers-fakemon-pack",
+  "provenance": {
+    "implemented": "lasers-fakemon-pack",
+    "nationalPokedexNumber": "lasers-fakemon-pack",
+    "name": "lasers-fakemon-pack",
+    "primaryType": "lasers-fakemon-pack",
+    "maleRatio": "lasers-fakemon-pack",
+    "height": "lasers-fakemon-pack",
+    "weight": "lasers-fakemon-pack",
+    "pokedex": "lasers-fakemon-pack",
+    "labels": "lasers-fakemon-pack",
+    "aspects": "lasers-fakemon-pack",
+    "abilities": "lasers-fakemon-pack",
+    "eggGroups": "lasers-fakemon-pack",
+    "baseStats": "lasers-fakemon-pack",
+    "evYield": "lasers-fakemon-pack",
+    "baseExperienceYield": "lasers-fakemon-pack",
+    "experienceGroup": "lasers-fakemon-pack",
+    "catchRate": "lasers-fakemon-pack",
+    "eggCycles": "lasers-fakemon-pack",
+    "baseFriendship": "lasers-fakemon-pack",
+    "baseScale": "lasers-fakemon-pack",
+    "hitbox": "lasers-fakemon-pack",
+    "behaviour": "lasers-fakemon-pack",
+    "drops": "lasers-fakemon-pack",
+    "moves": "lasers-fakemon-pack",
+    "preEvolution": "lasers-fakemon-pack",
+    "evolutions": "lasers-fakemon-pack"
+  }
+}

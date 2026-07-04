@@ -1,0 +1,338 @@
+{
+  "id": "cobblemon:automeon",
+  "namespace": "cobblemon",
+  "slug": "automeon",
+  "name": "Automeon",
+  "nationalPokedexNumber": 2010,
+  "primaryType": "steel",
+  "secondaryType": null,
+  "types": [
+    "steel"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 100,
+    "defence": 130,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 110
+  },
+  "baseStatTotal": 580,
+  "abilities": [
+    "battlearmor",
+    "clearbody"
+  ],
+  "hiddenAbilities": [
+    "analytic"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 35,
+  "height": 11,
+  "weight": 300,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 184,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Rumor has it, when an Automeon takes a fatal blow in battle, it's eyes flicker in a sporadic pattern, no one has deciphered what it means.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "chargebeam",
+        "level": 1
+      },
+      {
+        "moveId": "gearup",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "thundershock",
+        "level": 1
+      },
+      {
+        "moveId": "metalsound",
+        "level": 5
+      },
+      {
+        "moveId": "charge",
+        "level": 8
+      },
+      {
+        "moveId": "chargebeam",
+        "level": 12
+      },
+      {
+        "moveId": "autonomize",
+        "level": 14
+      },
+      {
+        "moveId": "discharge",
+        "level": 17
+      },
+      {
+        "moveId": "geargrind",
+        "level": 18
+      },
+      {
+        "moveId": "lockon",
+        "level": 22
+      },
+      {
+        "moveId": "stomp",
+        "level": 24
+      },
+      {
+        "moveId": "irondefense",
+        "level": 26
+      },
+      {
+        "moveId": "heavyslam",
+        "level": 30
+      },
+      {
+        "moveId": "zapcannon",
+        "level": 34
+      },
+      {
+        "moveId": "selfdestruct",
+        "level": 37
+      },
+      {
+        "moveId": "ironhead",
+        "level": 37
+      },
+      {
+        "moveId": "stealthrock",
+        "level": 40
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 43
+      },
+      {
+        "moveId": "steelroller",
+        "level": 50
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 54
+      },
+      {
+        "moveId": "paraboliccharge",
+        "level": 55
+      },
+      {
+        "moveId": "meteormash",
+        "level": 57
+      },
+      {
+        "moveId": "magnetrise",
+        "level": 60
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 67
+      },
+      {
+        "moveId": "bulletpunch",
+        "level": 73
+      },
+      {
+        "moveId": "gyroball",
+        "level": 76
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "blastburn"
+      },
+      {
+        "moveId": "boltstrike"
+      },
+      {
+        "moveId": "detect"
+      },
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "overheat"
+      },
+      {
+        "moveId": "recover"
+      },
+      {
+        "moveId": "searingshot"
+      },
+      {
+        "moveId": "shiftgear"
+      },
+      {
+        "moveId": "smartstrike"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "volttackle"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "eevee",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/automeon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "ultra-rare",
+      "level": "18-40",
+      "timeRange": null,
+      "sourceId": "extra-eeveelutions"
+    }
+  ],
+  "sourceMods": [
+    "extra-eeveelutions"
+  ],
+  "primarySource": "extra-eeveelutions",
+  "provenance": {
+    "implemented": "extra-eeveelutions",
+    "name": "extra-eeveelutions",
+    "nationalPokedexNumber": "extra-eeveelutions",
+    "primaryType": "extra-eeveelutions",
+    "abilities": "extra-eeveelutions",
+    "baseStats": "extra-eeveelutions",
+    "behaviour": "extra-eeveelutions",
+    "catchRate": "extra-eeveelutions",
+    "maleRatio": "extra-eeveelutions",
+    "shoulderMountable": "extra-eeveelutions",
+    "forms": "extra-eeveelutions",
+    "baseExperienceYield": "extra-eeveelutions",
+    "experienceGroup": "extra-eeveelutions",
+    "eggCycles": "extra-eeveelutions",
+    "eggGroups": "extra-eeveelutions",
+    "moves": "extra-eeveelutions",
+    "labels": "extra-eeveelutions",
+    "pokedex": "extra-eeveelutions",
+    "preEvolution": "extra-eeveelutions",
+    "baseScale": "extra-eeveelutions",
+    "hitbox": "extra-eeveelutions",
+    "baseFriendship": "extra-eeveelutions",
+    "evYield": "extra-eeveelutions",
+    "height": "extra-eeveelutions",
+    "weight": "extra-eeveelutions"
+  }
+}

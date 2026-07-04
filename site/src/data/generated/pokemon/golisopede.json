@@ -1,0 +1,1658 @@
+{
+  "id": "cobblemon:golisopede",
+  "namespace": "cobblemon",
+  "slug": "golisopede",
+  "name": "Golisopede",
+  "nationalPokedexNumber": 1058,
+  "primaryType": "bug",
+  "secondaryType": "ground",
+  "types": [
+    "bug",
+    "ground"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 125,
+    "defence": 140,
+    "special_attack": 30,
+    "special_defence": 90,
+    "speed": 70
+  },
+  "baseStatTotal": 530,
+  "abilities": [
+    "emergencyexit",
+    "swarm"
+  ],
+  "hiddenAbilities": [
+    "hivemind"
+  ],
+  "eggGroups": [
+    "bug",
+    "mineral"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 20,
+  "weight": 1080,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 186,
+  "labels": [
+    "laserdex",
+    "minecraftian"
+  ],
+  "aspects": [
+    "silverfish"
+  ],
+  "forms": [
+    {
+      "name": "Silverfish",
+      "aspects": [
+        "silverfish"
+      ],
+      "primaryType": "bug",
+      "secondaryType": null,
+      "types": [
+        "bug"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": null,
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "firstimpression",
+            "level": 1
+          },
+          {
+            "moveId": "dig",
+            "level": 1
+          },
+          {
+            "moveId": "strugglebug",
+            "level": 1
+          },
+          {
+            "moveId": "irontail",
+            "level": 1
+          },
+          {
+            "moveId": "camouflage",
+            "level": 1
+          },
+          {
+            "moveId": "sandattack",
+            "level": 1
+          },
+          {
+            "moveId": "shelter",
+            "level": 1
+          },
+          {
+            "moveId": "mudsport",
+            "level": 1
+          },
+          {
+            "moveId": "spite",
+            "level": 1
+          },
+          {
+            "moveId": "infestation",
+            "level": 1
+          },
+          {
+            "moveId": "sandshift",
+            "level": 1
+          },
+          {
+            "moveId": "rocksmash",
+            "level": 4
+          },
+          {
+            "moveId": "furycutter",
+            "level": 8
+          },
+          {
+            "moveId": "metalclaw",
+            "level": 8
+          },
+          {
+            "moveId": "mudshot",
+            "level": 12
+          },
+          {
+            "moveId": "bugbite",
+            "level": 16
+          },
+          {
+            "moveId": "bulldoze",
+            "level": 20
+          },
+          {
+            "moveId": "steamroller",
+            "level": 22
+          },
+          {
+            "moveId": "steelcutter",
+            "level": 22
+          },
+          {
+            "moveId": "suckerpunch",
+            "level": 24
+          },
+          {
+            "moveId": "pitfall",
+            "level": 28
+          },
+          {
+            "moveId": "ironhead",
+            "level": 32
+          },
+          {
+            "moveId": "armorpress",
+            "level": 34
+          },
+          {
+            "moveId": "pinmissile",
+            "level": 36
+          },
+          {
+            "moveId": "swordsdance",
+            "level": 40
+          },
+          {
+            "moveId": "earthquake",
+            "level": 44
+          },
+          {
+            "moveId": "fissure",
+            "level": 48
+          },
+          {
+            "moveId": "steelroller",
+            "level": 52
+          },
+          {
+            "moveId": "attackorder",
+            "level": 56
+          },
+          {
+            "moveId": "demolition",
+            "level": 60
+          },
+          {
+            "moveId": "heavyimpact",
+            "level": 64
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "harden"
+          },
+          {
+            "moveId": "metalclaw"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "wideguard"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "armorpress"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "bugbite"
+          },
+          {
+            "moveId": "bugbuzz"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "closecombat"
+          },
+          {
+            "moveId": "demolition"
+          },
+          {
+            "moveId": "drillrun"
+          },
+          {
+            "moveId": "dualchop"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "earthquake"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "fissure"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "furycutter"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "guardpress"
+          },
+          {
+            "moveId": "gyroball"
+          },
+          {
+            "moveId": "hardpress"
+          },
+          {
+            "moveId": "heavyimpact"
+          },
+          {
+            "moveId": "heavyslam"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "landslide"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "leechlife"
+          },
+          {
+            "moveId": "metalclaw"
+          },
+          {
+            "moveId": "metalsound"
+          },
+          {
+            "moveId": "mudshot"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "pinmissile"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "sandtomb"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "sludgewave"
+          },
+          {
+            "moveId": "snarl"
+          },
+          {
+            "moveId": "spikes"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "steelcutter"
+          },
+          {
+            "moveId": "steelroller"
+          },
+          {
+            "moveId": "strugglebug"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "venoshock"
+          },
+          {
+            "moveId": "xscissor"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "bugbite"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "drillrun"
+          },
+          {
+            "moveId": "dualchop"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "furycutter"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "leechlife"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "snarl"
+          },
+          {
+            "moveId": "spikes"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "xscissor"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ground",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "golisopede-silverfish"
+    },
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "primaryType": "bug",
+      "secondaryType": "ground",
+      "types": [
+        "bug",
+        "ground"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 75,
+        "attack": 145,
+        "defence": 185,
+        "special_attack": 45,
+        "special_defence": 120,
+        "speed": 60
+      },
+      "baseStatTotal": 630,
+      "abilities": [
+        "hivemind"
+      ],
+      "hiddenAbilities": [
+        "hivemind"
+      ],
+      "pokedexDescription": "Mega Evolution has heightened its burrowing tendencies, causing it to cover its body in stone bricks to recreate the feeling of being underground. This doubles as armor, which it uses to bash any foe who challenges the swarm.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "firstimpression",
+            "level": 1
+          },
+          {
+            "moveId": "dig",
+            "level": 1
+          },
+          {
+            "moveId": "strugglebug",
+            "level": 1
+          },
+          {
+            "moveId": "irontail",
+            "level": 1
+          },
+          {
+            "moveId": "camouflage",
+            "level": 1
+          },
+          {
+            "moveId": "sandattack",
+            "level": 1
+          },
+          {
+            "moveId": "shelter",
+            "level": 1
+          },
+          {
+            "moveId": "mudsport",
+            "level": 1
+          },
+          {
+            "moveId": "spite",
+            "level": 1
+          },
+          {
+            "moveId": "infestation",
+            "level": 1
+          },
+          {
+            "moveId": "sandshift",
+            "level": 1
+          },
+          {
+            "moveId": "rocksmash",
+            "level": 4
+          },
+          {
+            "moveId": "furycutter",
+            "level": 8
+          },
+          {
+            "moveId": "metalclaw",
+            "level": 8
+          },
+          {
+            "moveId": "mudshot",
+            "level": 12
+          },
+          {
+            "moveId": "bugbite",
+            "level": 16
+          },
+          {
+            "moveId": "bulldoze",
+            "level": 20
+          },
+          {
+            "moveId": "steamroller",
+            "level": 22
+          },
+          {
+            "moveId": "steelcutter",
+            "level": 22
+          },
+          {
+            "moveId": "suckerpunch",
+            "level": 24
+          },
+          {
+            "moveId": "pitfall",
+            "level": 28
+          },
+          {
+            "moveId": "ironhead",
+            "level": 32
+          },
+          {
+            "moveId": "armorpress",
+            "level": 34
+          },
+          {
+            "moveId": "pinmissile",
+            "level": 36
+          },
+          {
+            "moveId": "swordsdance",
+            "level": 40
+          },
+          {
+            "moveId": "earthquake",
+            "level": 44
+          },
+          {
+            "moveId": "fissure",
+            "level": 48
+          },
+          {
+            "moveId": "steelroller",
+            "level": 52
+          },
+          {
+            "moveId": "attackorder",
+            "level": 56
+          },
+          {
+            "moveId": "demolition",
+            "level": 60
+          },
+          {
+            "moveId": "heavyimpact",
+            "level": 64
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "harden"
+          },
+          {
+            "moveId": "metalclaw"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "wideguard"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "armorpress"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "bugbite"
+          },
+          {
+            "moveId": "bugbuzz"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "closecombat"
+          },
+          {
+            "moveId": "demolition"
+          },
+          {
+            "moveId": "drillrun"
+          },
+          {
+            "moveId": "dualchop"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "earthquake"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "fissure"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "furycutter"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "guardpress"
+          },
+          {
+            "moveId": "gyroball"
+          },
+          {
+            "moveId": "hardpress"
+          },
+          {
+            "moveId": "heavyimpact"
+          },
+          {
+            "moveId": "heavyslam"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "landslide"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "leechlife"
+          },
+          {
+            "moveId": "metalclaw"
+          },
+          {
+            "moveId": "metalsound"
+          },
+          {
+            "moveId": "mudshot"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "pinmissile"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "sandtomb"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "sludgewave"
+          },
+          {
+            "moveId": "snarl"
+          },
+          {
+            "moveId": "spikes"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "steelcutter"
+          },
+          {
+            "moveId": "steelroller"
+          },
+          {
+            "moveId": "strugglebug"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "venoshock"
+          },
+          {
+            "moveId": "xscissor"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "bugbite"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "drillrun"
+          },
+          {
+            "moveId": "dualchop"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "furycutter"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "leechlife"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "snarl"
+          },
+          {
+            "moveId": "spikes"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "xscissor"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "water",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ground",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "electric"
+        ]
+      },
+      "evolutions": [],
+      "slug": "golisopede-mega"
+    }
+  ],
+  "pokedexDescription": "When the Wimpod swarm is threatened, they call upon the largest Golisopede for help. It burrows through the ground at high speeds, using vibrations to sense its prey. When it locates its foe, it bursts from the floor to strike them with deadly efficiency. Its armor is powerful enough to burrow through solid stone bricks.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "firstimpression",
+        "level": 1
+      },
+      {
+        "moveId": "dig",
+        "level": 1
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 1
+      },
+      {
+        "moveId": "irontail",
+        "level": 1
+      },
+      {
+        "moveId": "camouflage",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 1
+      },
+      {
+        "moveId": "shelter",
+        "level": 1
+      },
+      {
+        "moveId": "mudsport",
+        "level": 1
+      },
+      {
+        "moveId": "spite",
+        "level": 1
+      },
+      {
+        "moveId": "infestation",
+        "level": 1
+      },
+      {
+        "moveId": "sandshift",
+        "level": 1
+      },
+      {
+        "moveId": "rocksmash",
+        "level": 4
+      },
+      {
+        "moveId": "furycutter",
+        "level": 8
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 8
+      },
+      {
+        "moveId": "mudshot",
+        "level": 12
+      },
+      {
+        "moveId": "bugbite",
+        "level": 16
+      },
+      {
+        "moveId": "bulldoze",
+        "level": 20
+      },
+      {
+        "moveId": "steamroller",
+        "level": 22
+      },
+      {
+        "moveId": "steelcutter",
+        "level": 22
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 24
+      },
+      {
+        "moveId": "pitfall",
+        "level": 28
+      },
+      {
+        "moveId": "ironhead",
+        "level": 32
+      },
+      {
+        "moveId": "armorpress",
+        "level": 34
+      },
+      {
+        "moveId": "pinmissile",
+        "level": 36
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 40
+      },
+      {
+        "moveId": "earthquake",
+        "level": 44
+      },
+      {
+        "moveId": "fissure",
+        "level": 48
+      },
+      {
+        "moveId": "steelroller",
+        "level": 52
+      },
+      {
+        "moveId": "attackorder",
+        "level": 56
+      },
+      {
+        "moveId": "demolition",
+        "level": 60
+      },
+      {
+        "moveId": "heavyimpact",
+        "level": 64
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "harden"
+      },
+      {
+        "moveId": "metalclaw"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "wideguard"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "armorpress"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "demolition"
+      },
+      {
+        "moveId": "drillrun"
+      },
+      {
+        "moveId": "dualchop"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "fissure"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "guardpress"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "hardpress"
+      },
+      {
+        "moveId": "heavyimpact"
+      },
+      {
+        "moveId": "heavyslam"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "landslide"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "metalclaw"
+      },
+      {
+        "moveId": "metalsound"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "pinmissile"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "sandtomb"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "steelcutter"
+      },
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "drillrun"
+      },
+      {
+        "moveId": "dualchop"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/golisopede.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#minecraft:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "30-53",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    }
+  ],
+  "sourceMods": [
+    "lasers-fakemon-pack"
+  ],
+  "primarySource": "lasers-fakemon-pack",
+  "provenance": {
+    "implemented": "lasers-fakemon-pack",
+    "nationalPokedexNumber": "lasers-fakemon-pack",
+    "name": "lasers-fakemon-pack",
+    "primaryType": "lasers-fakemon-pack",
+    "secondaryType": "lasers-fakemon-pack",
+    "maleRatio": "lasers-fakemon-pack",
+    "height": "lasers-fakemon-pack",
+    "weight": "lasers-fakemon-pack",
+    "pokedex": "lasers-fakemon-pack",
+    "labels": "lasers-fakemon-pack",
+    "aspects": "lasers-fakemon-pack",
+    "features": "lasers-fakemon-pack",
+    "abilities": "lasers-fakemon-pack",
+    "eggGroups": "lasers-fakemon-pack",
+    "baseStats": "lasers-fakemon-pack",
+    "evYield": "lasers-fakemon-pack",
+    "baseExperienceYield": "lasers-fakemon-pack",
+    "experienceGroup": "lasers-fakemon-pack",
+    "catchRate": "lasers-fakemon-pack",
+    "eggCycles": "lasers-fakemon-pack",
+    "baseFriendship": "lasers-fakemon-pack",
+    "baseScale": "lasers-fakemon-pack",
+    "hitbox": "lasers-fakemon-pack",
+    "riding": "lasers-fakemon-pack",
+    "behaviour": "lasers-fakemon-pack",
+    "drops": "lasers-fakemon-pack",
+    "moves": "lasers-fakemon-pack",
+    "preEvolution": "lasers-fakemon-pack",
+    "evolutions": "lasers-fakemon-pack",
+    "forms": "lasers-fakemon-pack"
+  }
+}

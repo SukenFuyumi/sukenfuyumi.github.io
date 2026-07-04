@@ -1,0 +1,351 @@
+{
+  "id": "cobblemon:yamask#alatian",
+  "namespace": "cobblemon",
+  "slug": "yamask-alatian",
+  "name": "Yamask alatian",
+  "nationalPokedexNumber": 562,
+  "primaryType": "ghost",
+  "secondaryType": "rock",
+  "types": [
+    "ghost",
+    "rock"
+  ],
+  "baseStats": {
+    "hp": 38,
+    "attack": 50,
+    "defence": 65,
+    "special_attack": 55,
+    "special_defence": 40,
+    "speed": 55
+  },
+  "baseStatTotal": 303,
+  "abilities": [
+    "sturdy"
+  ],
+  "hiddenAbilities": [],
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "catchRate": 190,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 5,
+  "weight": 15,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 61,
+  "labels": [
+    "gen5",
+    "unovan_form"
+  ],
+  "aspects": [
+    "alatian"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "Rumors say that it's the soul of a child torn from its body and imprisoned in a bottle. When it's scared, it pretends to be a simple bottle filled with ink.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "protect",
+        "level": 1
+      },
+      {
+        "moveId": "haze",
+        "level": 4
+      },
+      {
+        "moveId": "nightshade",
+        "level": 8
+      },
+      {
+        "moveId": "disable",
+        "level": 12
+      },
+      {
+        "moveId": "watergun",
+        "level": 16
+      },
+      {
+        "moveId": "craftyshield",
+        "level": 20
+      },
+      {
+        "moveId": "hex",
+        "level": 24
+      },
+      {
+        "moveId": "meanlook",
+        "level": 28
+      },
+      {
+        "moveId": "powergem",
+        "level": 32
+      },
+      {
+        "moveId": "curse",
+        "level": 36
+      },
+      {
+        "moveId": "shadowball",
+        "level": 40
+      },
+      {
+        "moveId": "rockslide",
+        "level": 44
+      },
+      {
+        "moveId": "guardsplit",
+        "level": 48
+      },
+      {
+        "moveId": "powersplit",
+        "level": 48
+      },
+      {
+        "moveId": "destinybond",
+        "level": 52
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "memento"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "willowisp"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "ancientpower"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:ampularigus",
+      "targetSlug": "ampularigus",
+      "summary": "Usar glass_vase · Bioma: is_desert",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/yamask-alatian.png",
+    "placeholderColor": "#735797"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "features": "cobblemon-afp",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-afp"
+  },
+  "formOf": {
+    "slug": "yamask",
+    "name": "Yamask"
+  },
+  "formName": "alatian"
+}

@@ -1,0 +1,242 @@
+{
+  "id": "cobblemon:wamek",
+  "namespace": "cobblemon",
+  "slug": "wamek",
+  "name": "Wamek",
+  "nationalPokedexNumber": 1035,
+  "primaryType": "bug",
+  "secondaryType": "fighting",
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 114,
+    "defence": 70,
+    "special_attack": 90,
+    "special_defence": 80,
+    "speed": 114
+  },
+  "baseStatTotal": 528,
+  "abilities": [
+    "innerfocus",
+    "steadfast"
+  ],
+  "hiddenAbilities": [
+    "adaptability"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "catchRate": 25,
+  "eggCycles": 40,
+  "baseFriendship": 40,
+  "height": 2,
+  "weight": 100,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 300,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Finally evolved, Wamek are proud of their strength. However, they do not rest on their laurels and continue to train rigorously. Although they possess powerful psychic abilities, Wamek seem to prefer relying on their physical strength in battle.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "furyswipes",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "stringshot",
+        "level": 1
+      },
+      {
+        "moveId": "confusion",
+        "level": 1
+      },
+      {
+        "moveId": "poweruppunch",
+        "level": 4
+      },
+      {
+        "moveId": "bulkup",
+        "level": 7
+      },
+      {
+        "moveId": "pinmissile",
+        "level": 10
+      },
+      {
+        "moveId": "endure",
+        "level": 13
+      },
+      {
+        "moveId": "brickbreak",
+        "level": 18
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 21
+      },
+      {
+        "moveId": "silverwind",
+        "level": 24
+      },
+      {
+        "moveId": "aurasphere",
+        "level": 27
+      },
+      {
+        "moveId": "psychic",
+        "level": 30
+      },
+      {
+        "moveId": "firstimpression",
+        "level": 33
+      },
+      {
+        "moveId": "poweruppunch",
+        "level": 36
+      },
+      {
+        "moveId": "calmmind",
+        "level": 39
+      },
+      {
+        "moveId": "gigaimpact",
+        "level": 42
+      },
+      {
+        "moveId": "closecombat",
+        "level": 45
+      },
+      {
+        "moveId": "xscissor",
+        "level": 48
+      },
+      {
+        "moveId": "fly",
+        "level": 51
+      },
+      {
+        "moveId": "machpunch",
+        "level": 54
+      },
+      {
+        "moveId": "falseswipe",
+        "level": 57
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 60
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "tinywone",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "flying",
+        "multiplier": 4
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/wamek.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "ultra-rare",
+      "level": "30-60",
+      "timeRange": null,
+      "sourceId": "cobblemon-rlm"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-rlm"
+  ],
+  "primarySource": "cobblemon-rlm",
+  "provenance": {
+    "implemented": "cobblemon-rlm",
+    "name": "cobblemon-rlm",
+    "nationalPokedexNumber": "cobblemon-rlm",
+    "labels": "cobblemon-rlm",
+    "pokedex": "cobblemon-rlm",
+    "height": "cobblemon-rlm",
+    "weight": "cobblemon-rlm",
+    "features": "cobblemon-rlm",
+    "primaryType": "cobblemon-rlm",
+    "secondaryType": "cobblemon-rlm",
+    "baseStats": "cobblemon-rlm",
+    "catchRate": "cobblemon-rlm",
+    "maleRatio": "cobblemon-rlm",
+    "baseExperienceYield": "cobblemon-rlm",
+    "experienceGroup": "cobblemon-rlm",
+    "eggCycles": "cobblemon-rlm",
+    "eggGroups": "cobblemon-rlm",
+    "baseFriendship": "cobblemon-rlm",
+    "evYield": "cobblemon-rlm",
+    "moves": "cobblemon-rlm",
+    "abilities": "cobblemon-rlm",
+    "preEvolution": "cobblemon-rlm",
+    "evolutions": "cobblemon-rlm",
+    "baseScale": "cobblemon-rlm",
+    "hitbox": "cobblemon-rlm",
+    "drops": "cobblemon-rlm",
+    "behaviour": "cobblemon-rlm",
+    "riding": "cobblemon-rlm"
+  }
+}

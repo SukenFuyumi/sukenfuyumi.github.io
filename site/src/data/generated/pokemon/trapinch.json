@@ -1,0 +1,508 @@
+{
+  "id": "cobblemon:trapinch",
+  "namespace": "cobblemon",
+  "slug": "trapinch",
+  "name": "Trapinch",
+  "nationalPokedexNumber": 328,
+  "primaryType": "ground",
+  "secondaryType": null,
+  "types": [
+    "ground"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 100,
+    "defence": 45,
+    "special_attack": 45,
+    "special_defence": 45,
+    "speed": 10
+  },
+  "baseStatTotal": 290,
+  "abilities": [
+    "hypercutter",
+    "arenatrap"
+  ],
+  "hiddenAbilities": [
+    "sheerforce"
+  ],
+  "eggGroups": [
+    "bug",
+    "dragon"
+  ],
+  "catchRate": 255,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 7,
+  "weight": 150,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 58,
+  "labels": [
+    "gen3"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Trapinch is a patient hunter. It digs an inescapable pit in a desert and waits for its prey to come tumbling down. This Pokémon can go a whole week without access to any water.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "sandattack",
+        "level": 1
+      },
+      {
+        "moveId": "feintattack",
+        "level": 1
+      },
+      {
+        "moveId": "bide",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "snaptrap",
+        "level": 1
+      },
+      {
+        "moveId": "bite",
+        "level": 8
+      },
+      {
+        "moveId": "mudslap",
+        "level": 12
+      },
+      {
+        "moveId": "sandtomb",
+        "level": 16
+      },
+      {
+        "moveId": "bulldoze",
+        "level": 20
+      },
+      {
+        "moveId": "dig",
+        "level": 24
+      },
+      {
+        "moveId": "pitfall",
+        "level": 26
+      },
+      {
+        "moveId": "crunch",
+        "level": 28
+      },
+      {
+        "moveId": "terrabite",
+        "level": 30
+      },
+      {
+        "moveId": "sandstorm",
+        "level": 32
+      },
+      {
+        "moveId": "dragonfang",
+        "level": 34
+      },
+      {
+        "moveId": "earthpower",
+        "level": 36
+      },
+      {
+        "moveId": "earthquake",
+        "level": 40
+      },
+      {
+        "moveId": "superpower",
+        "level": 44
+      },
+      {
+        "moveId": "fissure",
+        "level": 48
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "feint"
+      },
+      {
+        "moveId": "firstimpression"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gust"
+      },
+      {
+        "moveId": "quickattack"
+      },
+      {
+        "moveId": "sandshift"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "dragonfang"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "pitfall"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "sandshift"
+      },
+      {
+        "moveId": "sandtomb"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "superpower"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:vibrava",
+      "targetSlug": "vibrava",
+      "summary": "Nivel · Nv. 35",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/328.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "rare",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "rare",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core"
+  }
+}

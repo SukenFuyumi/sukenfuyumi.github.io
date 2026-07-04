@@ -1,0 +1,166 @@
+{
+  "id": "cobblemon:etemon",
+  "namespace": "cobblemon",
+  "slug": "etemon",
+  "name": "Etemon",
+  "nationalPokedexNumber": 2151,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 88,
+    "attack": 61,
+    "defence": 94,
+    "special_attack": 108,
+    "special_defence": 94,
+    "speed": 80
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "prankster",
+    "soundproof"
+  ],
+  "hiddenAbilities": [
+    "punkrock"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.21,
+  "weight": 80.3,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A showman Digimon clad in leather and swagger.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "chatter",
+        "level": 44
+      },
+      {
+        "moveId": "uproar",
+        "level": 47
+      },
+      {
+        "moveId": "encore",
+        "level": 50
+      },
+      {
+        "moveId": "partingshot",
+        "level": 54
+      },
+      {
+        "moveId": "shadowball",
+        "level": 57
+      },
+      {
+        "moveId": "hypervoice",
+        "level": 61
+      },
+      {
+        "moveId": "sparklingaria",
+        "level": 66
+      },
+      {
+        "moveId": "spotlight",
+        "level": 70
+      },
+      {
+        "moveId": "perishsong",
+        "level": 75
+      },
+      {
+        "moveId": "boomburst",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "kingshoutmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/etemon.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "ultra-rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_desert",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_mangrove_swamp"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

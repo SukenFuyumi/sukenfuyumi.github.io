@@ -1,0 +1,194 @@
+{
+  "id": "cobblemon:betelgammamon",
+  "namespace": "cobblemon",
+  "slug": "betelgammamon",
+  "name": "Betelgammamon",
+  "nationalPokedexNumber": 2085,
+  "primaryType": "dragon",
+  "secondaryType": "fire",
+  "types": [
+    "dragon",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 70,
+    "defence": 73,
+    "special_attack": 70,
+    "special_defence": 50,
+    "speed": 77
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "blaze",
+    "vitalspirit"
+  ],
+  "hiddenAbilities": [
+    "flashfire"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.11,
+  "weight": 69.4,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A fiery Champion form that channels explosive physical power.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "ember",
+        "level": 25
+      },
+      {
+        "moveId": "rocksmash",
+        "level": 27
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 29
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 31
+      },
+      {
+        "moveId": "headbutt",
+        "level": 33
+      },
+      {
+        "moveId": "dualchop",
+        "level": 35
+      },
+      {
+        "moveId": "workup",
+        "level": 37
+      },
+      {
+        "moveId": "firepunch",
+        "level": 39
+      },
+      {
+        "moveId": "detect",
+        "level": 41
+      },
+      {
+        "moveId": "incinerate",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:canoweissmon",
+      "targetSlug": "canoweissmon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: fairy_feather",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "gammamon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/betelgammamon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_dripstone",
+        "#cobblemon:is_plateau",
+        "#cobblemon:is_badlands",
+        "#cobblemon:is_nether_wasteland",
+        "#cobblemon:nether"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

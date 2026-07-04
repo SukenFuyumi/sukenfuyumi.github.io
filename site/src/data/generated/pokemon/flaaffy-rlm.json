@@ -1,0 +1,238 @@
+{
+  "id": "cobblemon:flaaffy#rlm",
+  "namespace": "cobblemon",
+  "slug": "flaaffy-rlm",
+  "name": "Flaaffy rlm",
+  "nationalPokedexNumber": 180,
+  "primaryType": "electric",
+  "secondaryType": "ghost",
+  "types": [
+    "electric",
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 30,
+    "defence": 50,
+    "special_attack": 80,
+    "special_defence": 60,
+    "speed": 80
+  },
+  "baseStatTotal": 380,
+  "abilities": [
+    "static",
+    "infiltrator"
+  ],
+  "hiddenAbilities": [
+    "shadowtag"
+  ],
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 8,
+  "weight": 133,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 128,
+  "labels": [
+    "gen2"
+  ],
+  "aspects": [
+    "rlm"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "As it evolves, its skin turns a pallid black and its wool begins to dissipate into a spectral mist. Flaaffy is known to haunt power plants, feeding on the electricity to maintain its physical form. Those who touch its fleece feel a numbing, supernatural chill.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "shadowball",
+        "level": 1
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 4
+      },
+      {
+        "moveId": "thundershock",
+        "level": 8
+      },
+      {
+        "moveId": "willowisp",
+        "level": 11
+      },
+      {
+        "moveId": "charge",
+        "level": 16
+      },
+      {
+        "moveId": "hex",
+        "level": 20
+      },
+      {
+        "moveId": "takedown",
+        "level": 20
+      },
+      {
+        "moveId": "electroball",
+        "level": 25
+      },
+      {
+        "moveId": "shadowsneak",
+        "level": 27
+      },
+      {
+        "moveId": "confuseray",
+        "level": 29
+      },
+      {
+        "moveId": "powergem",
+        "level": 34
+      },
+      {
+        "moveId": "discharge",
+        "level": 38
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 43
+      },
+      {
+        "moveId": "signalbeam",
+        "level": 47
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 52
+      },
+      {
+        "moveId": "thunder",
+        "level": 56
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:ampharos",
+      "targetSlug": "ampharos",
+      "summary": "Nivel · Nv. 30 · variante rlm=true",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/flaaffy-rlm.png",
+    "placeholderColor": "#F7D02C"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-rlm",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "lightingData": "cobblemon-core",
+    "features": "cobblemon-rlm",
+    "forms": "cobblemon-rlm"
+  },
+  "formOf": {
+    "slug": "flaaffy",
+    "name": "Flaaffy"
+  },
+  "formName": "rlm"
+}

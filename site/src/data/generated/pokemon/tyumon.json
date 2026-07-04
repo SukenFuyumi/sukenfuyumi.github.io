@@ -1,0 +1,211 @@
+{
+  "id": "cobblemon:tyumon",
+  "namespace": "cobblemon",
+  "slug": "tyumon",
+  "name": "Tyumon",
+  "nationalPokedexNumber": 2109,
+  "primaryType": "poison",
+  "secondaryType": null,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 50,
+    "defence": 30,
+    "special_attack": 65,
+    "special_defence": 30,
+    "speed": 75
+  },
+  "baseStatTotal": 285,
+  "abilities": [
+    "runaway",
+    "pickup"
+  ],
+  "hiddenAbilities": [
+    "unburden"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.71,
+  "weight": 7.26,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A filthy Mouse Digimon that survives in junkyards and alleys.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 12
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 14
+      },
+      {
+        "moveId": "acid",
+        "level": 16
+      },
+      {
+        "moveId": "flail",
+        "level": 18
+      },
+      {
+        "moveId": "confide",
+        "level": 19
+      },
+      {
+        "moveId": "quickattack",
+        "level": 21
+      },
+      {
+        "moveId": "bite",
+        "level": 22
+      },
+      {
+        "moveId": "smog",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:scumon",
+      "targetSlug": "scumon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:numemon",
+      "targetSlug": "numemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: poison_barb",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:goldnumemon",
+      "targetSlug": "goldnumemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: relic_coin_sack",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:dogmon",
+      "targetSlug": "dogmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: bone",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "pagumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/tyumon.png",
+    "placeholderColor": "#A33EA1"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_mushroom"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cave",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

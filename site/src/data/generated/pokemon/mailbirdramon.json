@@ -1,0 +1,201 @@
+{
+  "id": "cobblemon:mailbirdramon",
+  "namespace": "cobblemon",
+  "slug": "mailbirdramon",
+  "name": "Mailbirdramon",
+  "nationalPokedexNumber": 2164,
+  "primaryType": "steel",
+  "secondaryType": "flying",
+  "types": [
+    "steel",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 40,
+    "defence": 80,
+    "special_attack": 80,
+    "special_defence": 53,
+    "speed": 80
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "keeneye",
+    "forewarn"
+  ],
+  "hiddenAbilities": [
+    "cloudnine"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.01,
+  "weight": 127.5,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "An armored courier that never misses a route.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "gust",
+        "level": 25
+      },
+      {
+        "moveId": "sonicboom",
+        "level": 27
+      },
+      {
+        "moveId": "magnetbomb",
+        "level": 29
+      },
+      {
+        "moveId": "lockon",
+        "level": 31
+      },
+      {
+        "moveId": "aircutter",
+        "level": 33
+      },
+      {
+        "moveId": "mirrorshot",
+        "level": 35
+      },
+      {
+        "moveId": "autotomize",
+        "level": 37
+      },
+      {
+        "moveId": "metalsound",
+        "level": 39
+      },
+      {
+        "moveId": "irondefense",
+        "level": 41
+      },
+      {
+        "moveId": "steelwing",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:gigadramon",
+      "targetSlug": "gigadramon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: dark_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "hagurumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground",
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/mailbirdramon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_mountain"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "id": "cobblemon:ballistamon",
+  "namespace": "cobblemon",
+  "slug": "ballistamon",
+  "name": "Ballistamon",
+  "nationalPokedexNumber": 2143,
+  "primaryType": "steel",
+  "secondaryType": "bug",
+  "types": [
+    "steel",
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 75,
+    "defence": 85,
+    "special_attack": 65,
+    "special_defence": 70,
+    "speed": 40
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "guts",
+    "voltabsorb"
+  ],
+  "hiddenAbilities": [
+    "punkrock"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.01,
+  "weight": 238.59,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "An iron-bodied bruiser that absorbs impacts head-on.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "spark",
+        "level": 25
+      },
+      {
+        "moveId": "harden",
+        "level": 27
+      },
+      {
+        "moveId": "furycutter",
+        "level": 29
+      },
+      {
+        "moveId": "mirrorshot",
+        "level": 31
+      },
+      {
+        "moveId": "hornattack",
+        "level": 33
+      },
+      {
+        "moveId": "echoedvoice",
+        "level": 35
+      },
+      {
+        "moveId": "metalsound",
+        "level": 37
+      },
+      {
+        "moveId": "pounce",
+        "level": 39
+      },
+      {
+        "moveId": "smartstrike",
+        "level": 41
+      },
+      {
+        "moveId": "heavyslam",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:shoutmonx3",
+      "targetSlug": "shoutmonx3",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: upgrade",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:shoutmonx2",
+      "targetSlug": "shoutmonx2",
+      "summary": "Nivel · Nv. 30 · party_member · (consume objeto sostenido)",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:alturkabuterimon",
+      "targetSlug": "alturkabuterimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: electric_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:paildramon",
+      "targetSlug": "paildramon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: dragon_scale",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "toyagumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 4
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/ballistamon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:magnetic_caves"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

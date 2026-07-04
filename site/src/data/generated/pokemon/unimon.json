@@ -1,0 +1,201 @@
+{
+  "id": "cobblemon:unimon",
+  "namespace": "cobblemon",
+  "slug": "unimon",
+  "name": "Unimon",
+  "nationalPokedexNumber": 2194,
+  "primaryType": "fairy",
+  "secondaryType": "flying",
+  "types": [
+    "fairy",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 46,
+    "special_attack": 85,
+    "special_defence": 74,
+    "speed": 100
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "rockhead",
+    "quickfeet"
+  ],
+  "hiddenAbilities": [
+    "serenegrace"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.7,
+  "weight": 88,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A winged steed revered for grace in battle.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "fairywind",
+        "level": 25
+      },
+      {
+        "moveId": "swift",
+        "level": 27
+      },
+      {
+        "moveId": "airslash",
+        "level": 29
+      },
+      {
+        "moveId": "defog",
+        "level": 31
+      },
+      {
+        "moveId": "confusion",
+        "level": 33
+      },
+      {
+        "moveId": "mirrormove",
+        "level": 35
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 37
+      },
+      {
+        "moveId": "whirlwind",
+        "level": 39
+      },
+      {
+        "moveId": "mistyterrain",
+        "level": 41
+      },
+      {
+        "moveId": "takedown",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:manticoremon",
+      "targetSlug": "manticoremon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: fairy_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "patamon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon",
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/unimon.png",
+    "placeholderColor": "#D685AD"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_hills",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_sky",
+        "alexscaves:candy_cavity"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "id": "cobblemon:drillorm",
+  "namespace": "cobblemon",
+  "slug": "drillorm",
+  "name": "Drillorm",
+  "nationalPokedexNumber": 1273,
+  "primaryType": "ground",
+  "secondaryType": "steel",
+  "types": [
+    "ground",
+    "steel"
+  ],
+  "baseStats": {
+    "hp": 53,
+    "attack": 82,
+    "defence": 79,
+    "special_attack": 43,
+    "special_defence": 30,
+    "speed": 71
+  },
+  "baseStatTotal": 358,
+  "abilities": [
+    "eartheater",
+    "sandveil"
+  ],
+  "hiddenAbilities": [
+    "steamengine"
+  ],
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "catchRate": 180,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 15,
+  "weight": 350,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It lives in groups of hundreds of Drillorm following a single Worvator, waiting to scavenge from its hunts.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "wrap",
+        "level": 0
+      },
+      {
+        "moveId": "tackle",
+        "level": 0
+      },
+      {
+        "moveId": "harden",
+        "level": 0
+      },
+      {
+        "moveId": "wrap",
+        "level": 7
+      },
+      {
+        "moveId": "sandtomb",
+        "level": 10
+      },
+      {
+        "moveId": "sandattack",
+        "level": 13
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 15
+      },
+      {
+        "moveId": "irondefense",
+        "level": 17
+      },
+      {
+        "moveId": "bugbite",
+        "level": 20
+      },
+      {
+        "moveId": "bulldoze",
+        "level": 25
+      },
+      {
+        "moveId": "hyperfang",
+        "level": 30
+      },
+      {
+        "moveId": "dig",
+        "level": 35
+      },
+      {
+        "moveId": "ironhead",
+        "level": 40
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "coil"
+      },
+      {
+        "moveId": "drillrun"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "headsmash"
+      },
+      {
+        "moveId": "highhorsepower"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "metalsound"
+      },
+      {
+        "moveId": "pinmissile"
+      },
+      {
+        "moveId": "poisonfang"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rapidspin"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockclimb"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smartstrike"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "steamroller"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "uturn"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "terrainpulse"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:worvator",
+      "targetSlug": "worvator",
+      "summary": "Nivel · Nv. 41",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "rock",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric",
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/drillorm.png",
+    "placeholderColor": "#E2BF65"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_badlands"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cave"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

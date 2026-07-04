@@ -1,0 +1,1083 @@
+{
+  "id": "cobblemon:dragalge",
+  "namespace": "cobblemon",
+  "slug": "dragalge",
+  "name": "Dragalge",
+  "nationalPokedexNumber": 691,
+  "primaryType": "poison",
+  "secondaryType": "dragon",
+  "types": [
+    "poison",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 75,
+    "defence": 90,
+    "special_attack": 97,
+    "special_defence": 123,
+    "speed": 44
+  },
+  "baseStatTotal": 494,
+  "abilities": [
+    "poisonpoint",
+    "corrosion"
+  ],
+  "hiddenAbilities": [
+    "adaptability"
+  ],
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "catchRate": 55,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 18,
+  "weight": 815,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 173,
+  "labels": [
+    "gen6"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "primaryType": "poison",
+      "secondaryType": null,
+      "types": [
+        "poison"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 65,
+        "attack": 85,
+        "defence": 105,
+        "special_attack": 132,
+        "special_defence": 163,
+        "speed": 44
+      },
+      "baseStatTotal": 594,
+      "abilities": [
+        "regenerator",
+        "regenerator"
+      ],
+      "hiddenAbilities": [
+        "regenerator"
+      ],
+      "pokedexDescription": "It spits a liquid that causes the regenerative power of cells to run wild. The liquid is deadly poison to everything other than itself.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "smokescreen",
+            "level": 1
+          },
+          {
+            "moveId": "watergun",
+            "level": 1
+          },
+          {
+            "moveId": "feintattack",
+            "level": 1
+          },
+          {
+            "moveId": "bubble",
+            "level": 1
+          },
+          {
+            "moveId": "acid",
+            "level": 1
+          },
+          {
+            "moveId": "camouflage",
+            "level": 1
+          },
+          {
+            "moveId": "tailwhip",
+            "level": 15
+          },
+          {
+            "moveId": "doubleteam",
+            "level": 20
+          },
+          {
+            "moveId": "poisontail",
+            "level": 25
+          },
+          {
+            "moveId": "waterpulse",
+            "level": 30
+          },
+          {
+            "moveId": "toxic",
+            "level": 35
+          },
+          {
+            "moveId": "dragonpulse",
+            "level": 40
+          },
+          {
+            "moveId": "aquatail",
+            "level": 45
+          },
+          {
+            "moveId": "sludgebomb",
+            "level": 52
+          },
+          {
+            "moveId": "hydropump",
+            "level": 59
+          },
+          {
+            "moveId": "outrage",
+            "level": 66
+          },
+          {
+            "moveId": "dragonpress",
+            "level": 71
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "acidarmor"
+          },
+          {
+            "moveId": "camouflage"
+          },
+          {
+            "moveId": "dragontail"
+          },
+          {
+            "moveId": "haze"
+          },
+          {
+            "moveId": "soakup"
+          },
+          {
+            "moveId": "twister"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acidspray"
+          },
+          {
+            "moveId": "aquatail"
+          },
+          {
+            "moveId": "bounce"
+          },
+          {
+            "moveId": "chillingwater"
+          },
+          {
+            "moveId": "dive"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "dragontail"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "flipturn"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "hail"
+          },
+          {
+            "moveId": "haze"
+          },
+          {
+            "moveId": "hydropump"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "liquidation"
+          },
+          {
+            "moveId": "mindbend"
+          },
+          {
+            "moveId": "mudshot"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "muddywater"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "poisontail"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "scald"
+          },
+          {
+            "moveId": "scaleshot"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "sludgewave"
+          },
+          {
+            "moveId": "snowscape"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "surf"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "thunder"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "toxicspikes"
+          },
+          {
+            "moveId": "twister"
+          },
+          {
+            "moveId": "venomdrench"
+          },
+          {
+            "moveId": "venoshock"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "waterfall"
+          },
+          {
+            "moveId": "whirlpool"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aquatail"
+          },
+          {
+            "moveId": "bounce"
+          },
+          {
+            "moveId": "dive"
+          },
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "flipturn"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "liquidation"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "scaleshot"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "twister"
+          },
+          {
+            "moveId": "waterpulse"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "dragalge-mega"
+    }
+  ],
+  "pokedexDescription": "Tales are told of ships that wander into seas where Dragalge live, never to return.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "smokescreen",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 1
+      },
+      {
+        "moveId": "feintattack",
+        "level": 1
+      },
+      {
+        "moveId": "bubble",
+        "level": 1
+      },
+      {
+        "moveId": "acid",
+        "level": 1
+      },
+      {
+        "moveId": "camouflage",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 15
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 20
+      },
+      {
+        "moveId": "poisontail",
+        "level": 25
+      },
+      {
+        "moveId": "waterpulse",
+        "level": 30
+      },
+      {
+        "moveId": "toxic",
+        "level": 35
+      },
+      {
+        "moveId": "dragonpulse",
+        "level": 40
+      },
+      {
+        "moveId": "aquatail",
+        "level": 45
+      },
+      {
+        "moveId": "sludgebomb",
+        "level": 52
+      },
+      {
+        "moveId": "hydropump",
+        "level": 59
+      },
+      {
+        "moveId": "outrage",
+        "level": 66
+      },
+      {
+        "moveId": "dragonpress",
+        "level": 71
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "acidarmor"
+      },
+      {
+        "moveId": "camouflage"
+      },
+      {
+        "moveId": "dragontail"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "soakup"
+      },
+      {
+        "moveId": "twister"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "dragontail"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "mindbend"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "poisontail"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "snowscape"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "toxicspikes"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "venomdrench"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "whirlpool"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "skrelp",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "48-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "48-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "48-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "48-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "48-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "48-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "48-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "48-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "48-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "48-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "48-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "48-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "48-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "zamega",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "zamega",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "features": "zamega",
+    "forms": "zamega"
+  }
+}

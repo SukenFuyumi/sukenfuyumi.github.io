@@ -1,0 +1,206 @@
+{
+  "id": "cobblemon:pukamon",
+  "namespace": "cobblemon",
+  "slug": "pukamon",
+  "name": "Pukamon",
+  "nationalPokedexNumber": 2101,
+  "primaryType": "water",
+  "secondaryType": null,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 30,
+    "defence": 30,
+    "special_attack": 40,
+    "special_defence": 35,
+    "speed": 35
+  },
+  "baseStatTotal": 200,
+  "abilities": [
+    "swiftswim",
+    "swiftswim"
+  ],
+  "hiddenAbilities": [
+    "hydration"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 150,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.3,
+  "weight": 3.63,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 40,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It gains flippers and swims in circles when excited.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bubble",
+        "level": 5
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 7
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 9
+      },
+      {
+        "moveId": "watersport",
+        "level": 10
+      },
+      {
+        "moveId": "watergun",
+        "level": 11
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:gomamon",
+      "targetSlug": "gomamon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:shakomon",
+      "targetSlug": "shakomon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:betamon",
+      "targetSlug": "betamon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:kamemon",
+      "targetSlug": "kamemon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "punimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/pukamon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_tropical_island",
+        "#cobblemon:is_freshwater"
+      ],
+      "bucket": "rare",
+      "level": "4-15",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "rare",
+      "level": "4-15",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_freshwater"
+      ],
+      "bucket": "rare",
+      "level": "4-15",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "rare",
+      "level": "4-15",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

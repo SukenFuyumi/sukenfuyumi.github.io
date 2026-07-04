@@ -1,0 +1,357 @@
+{
+  "id": "cobblemon:lootoad",
+  "namespace": "cobblemon",
+  "slug": "lootoad",
+  "name": "Lootoad",
+  "nationalPokedexNumber": 9083,
+  "primaryType": "water",
+  "secondaryType": "grass",
+  "types": [
+    "water",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 70,
+    "defence": 150,
+    "special_attack": 70,
+    "special_defence": 70,
+    "speed": 50
+  },
+  "baseStatTotal": 540,
+  "abilities": [
+    "oompygoompy"
+  ],
+  "hiddenAbilities": [
+    "oompygoompy"
+  ],
+  "eggGroups": [
+    "water_1",
+    "fairy"
+  ],
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 70,
+  "height": 3,
+  "weight": 48,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 138,
+  "labels": [
+    "myths"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "This tiny lilypad-headed frog caches odd trinkets in its leaf satchel. Offer it valuables and it will barter back stranger treasures—after a brief cooldown while it rummages.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "splash",
+        "level": 1
+      },
+      {
+        "moveId": "mudshot",
+        "level": 1
+      },
+      {
+        "moveId": "charm",
+        "level": 1
+      },
+      {
+        "moveId": "bulletseed",
+        "level": 4
+      },
+      {
+        "moveId": "covet",
+        "level": 8
+      },
+      {
+        "moveId": "bubblebeam",
+        "level": 12
+      },
+      {
+        "moveId": "mudbomb",
+        "level": 16
+      },
+      {
+        "moveId": "bounce",
+        "level": 20
+      },
+      {
+        "moveId": "magicalleaf",
+        "level": 24
+      },
+      {
+        "moveId": "rototiller",
+        "level": 28
+      },
+      {
+        "moveId": "dig",
+        "level": 32
+      },
+      {
+        "moveId": "uturn",
+        "level": 36
+      },
+      {
+        "moveId": "earthquake",
+        "level": 40
+      },
+      {
+        "moveId": "petalblizzard",
+        "level": 44
+      },
+      {
+        "moveId": "muddywater",
+        "level": 48
+      },
+      {
+        "moveId": "rollypolly",
+        "level": 52
+      },
+      {
+        "moveId": "fling",
+        "level": 60
+      },
+      {
+        "moveId": "bestow",
+        "level": 64
+      },
+      {
+        "moveId": "superpower",
+        "level": 70
+      },
+      {
+        "moveId": "stuffcheeks",
+        "level": 76
+      },
+      {
+        "moveId": "slackoff",
+        "level": 81
+      },
+      {
+        "moveId": "present",
+        "level": 90
+      },
+      {
+        "moveId": "bellydrum",
+        "level": 100
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "healpulse"
+      },
+      {
+        "moveId": "mistyterrain"
+      },
+      {
+        "moveId": "mistyterrain"
+      },
+      {
+        "moveId": "powder"
+      },
+      {
+        "moveId": "yawn"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "mist"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "switcheroo"
+      },
+      {
+        "moveId": "thief"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aquajet"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "lifedew"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "magipole",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "water",
+        "multiplier": 0.25
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/lootoad.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#minecraft:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "8-30",
+      "timeRange": null,
+      "sourceId": "fais-mythical-monstrosities"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "12-34",
+      "timeRange": null,
+      "sourceId": "fais-mythical-monstrosities"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_river"
+      ],
+      "bucket": "uncommon",
+      "level": "16-36",
+      "timeRange": null,
+      "sourceId": "fais-mythical-monstrosities"
+    },
+    {
+      "biomes": [
+        "minecraft:mangrove_swamp",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "uncommon",
+      "level": "30-44",
+      "timeRange": "night",
+      "sourceId": "fais-mythical-monstrosities"
+    },
+    {
+      "biomes": [
+        "minecraft:dripstone_caves"
+      ],
+      "bucket": "rare",
+      "level": "42-58",
+      "timeRange": null,
+      "sourceId": "fais-mythical-monstrosities"
+    }
+  ],
+  "sourceMods": [
+    "fais-mythical-monstrosities"
+  ],
+  "primarySource": "fais-mythical-monstrosities",
+  "provenance": {
+    "implemented": "fais-mythical-monstrosities",
+    "nationalPokedexNumber": "fais-mythical-monstrosities",
+    "name": "fais-mythical-monstrosities",
+    "primaryType": "fais-mythical-monstrosities",
+    "secondaryType": "fais-mythical-monstrosities",
+    "maleRatio": "fais-mythical-monstrosities",
+    "height": "fais-mythical-monstrosities",
+    "weight": "fais-mythical-monstrosities",
+    "baseScale": "fais-mythical-monstrosities",
+    "hitbox": "fais-mythical-monstrosities",
+    "pokedex": "fais-mythical-monstrosities",
+    "labels": "fais-mythical-monstrosities",
+    "aspects": "fais-mythical-monstrosities",
+    "abilities": "fais-mythical-monstrosities",
+    "eggGroups": "fais-mythical-monstrosities",
+    "eggCycles": "fais-mythical-monstrosities",
+    "baseStats": "fais-mythical-monstrosities",
+    "evYield": "fais-mythical-monstrosities",
+    "baseExperienceYield": "fais-mythical-monstrosities",
+    "experienceGroup": "fais-mythical-monstrosities",
+    "catchRate": "fais-mythical-monstrosities",
+    "baseFriendship": "fais-mythical-monstrosities",
+    "shoulderMountable": "fais-mythical-monstrosities",
+    "riding": "fais-mythical-monstrosities",
+    "behaviour": "fais-mythical-monstrosities",
+    "ai": "fais-mythical-monstrosities",
+    "drops": "fais-mythical-monstrosities",
+    "moves": "fais-mythical-monstrosities"
+  }
+}

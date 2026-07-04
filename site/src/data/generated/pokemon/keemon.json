@@ -1,0 +1,172 @@
+{
+  "id": "cobblemon:keemon",
+  "namespace": "cobblemon",
+  "slug": "keemon",
+  "name": "Keemon",
+  "nationalPokedexNumber": 2145,
+  "primaryType": "dark",
+  "secondaryType": null,
+  "types": [
+    "dark"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 25,
+    "defence": 30,
+    "special_attack": 15,
+    "special_defence": 30,
+    "speed": 20
+  },
+  "baseStatTotal": 150,
+  "abilities": [
+    "prankster",
+    "prankster"
+  ],
+  "hiddenAbilities": [
+    "infiltrator"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 150,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.2,
+  "weight": 1.81,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 100,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A mischievous infant Digimon that bounces and chirps.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 2
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 3
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:yarmon",
+      "targetSlug": "yarmon",
+      "summary": "Nivel · Nv. 4",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:dorimon",
+      "targetSlug": "dorimon",
+      "summary": "Nivel · Nv. 4 · attack_defence_ratio",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gigimon",
+      "targetSlug": "gigimon",
+      "summary": "Nivel · use_move",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/keemon.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_spooky"
+      ],
+      "bucket": "rare",
+      "level": "1-8",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_temperate",
+        "#cobblemon:is_magical"
+      ],
+      "bucket": "ultra-rare",
+      "level": "1-12",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

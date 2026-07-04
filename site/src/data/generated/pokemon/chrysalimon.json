@@ -1,0 +1,224 @@
+{
+  "id": "cobblemon:chrysalimon",
+  "namespace": "cobblemon",
+  "slug": "chrysalimon",
+  "name": "Chrysalimon",
+  "nationalPokedexNumber": 2040,
+  "primaryType": "dark",
+  "secondaryType": "bug",
+  "types": [
+    "dark",
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 65,
+    "defence": 100,
+    "special_attack": 50,
+    "special_defence": 70,
+    "speed": 30
+  },
+  "baseStatTotal": 390,
+  "abilities": [
+    "analytic",
+    "stall"
+  ],
+  "hiddenAbilities": [
+    "swarm"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.6,
+  "weight": 33.57,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "An Adult Digimon whose appearance resembles a chrysalis. In order to evolve into a stronger Digimon, the Child-level Keramon entered a chrysalis-like state and began conserving its energy.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "eerieimpulse",
+        "level": 25
+      },
+      {
+        "moveId": "twineedle",
+        "level": 27
+      },
+      {
+        "moveId": "wringout",
+        "level": 29
+      },
+      {
+        "moveId": "obstruct",
+        "level": 31
+      },
+      {
+        "moveId": "furycutter",
+        "level": 33
+      },
+      {
+        "moveId": "spiderweb",
+        "level": 35
+      },
+      {
+        "moveId": "payback",
+        "level": 37
+      },
+      {
+        "moveId": "conversion2",
+        "level": 39
+      },
+      {
+        "moveId": "snatch",
+        "level": 41
+      },
+      {
+        "moveId": "coil",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:infermon",
+      "targetSlug": "infermon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: focus_band",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "tentomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/chrysalimon.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_deep_dark"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_pc"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "ultra-rare",
+      "level": "24-65",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "ultra-rare",
+      "level": "24-65",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

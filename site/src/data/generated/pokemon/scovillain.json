@@ -1,0 +1,857 @@
+{
+  "id": "cobblemon:scovillain",
+  "namespace": "cobblemon",
+  "slug": "scovillain",
+  "name": "Scovillain",
+  "nationalPokedexNumber": 952,
+  "primaryType": "grass",
+  "secondaryType": "fire",
+  "types": [
+    "grass",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 108,
+    "defence": 65,
+    "special_attack": 108,
+    "special_defence": 65,
+    "speed": 75
+  },
+  "baseStatTotal": 486,
+  "abilities": [
+    "chlorophyll",
+    "insomnia"
+  ],
+  "hiddenAbilities": [
+    "moody"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "catchRate": 75,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 9,
+  "weight": 150,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 170,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "primaryType": "grass",
+      "secondaryType": null,
+      "types": [
+        "grass"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 65,
+        "attack": 138,
+        "defence": 85,
+        "special_attack": 138,
+        "special_defence": 85,
+        "speed": 75
+      },
+      "baseStatTotal": 586,
+      "abilities": [
+        "contrary",
+        "contrary"
+      ],
+      "hiddenAbilities": [
+        "contrary"
+      ],
+      "pokedexDescription": "Mega Evolution has dialed up this Pokémon's spiciness. It swings its necktie around to wallop its foes.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "spicyextract",
+            "level": 1
+          },
+          {
+            "moveId": "volatileextract",
+            "level": 1
+          },
+          {
+            "moveId": "flamethrower",
+            "level": 1
+          },
+          {
+            "moveId": "quickfire",
+            "level": 1
+          },
+          {
+            "moveId": "leer",
+            "level": 1
+          },
+          {
+            "moveId": "firefang",
+            "level": 1
+          },
+          {
+            "moveId": "leafage",
+            "level": 1
+          },
+          {
+            "moveId": "bite",
+            "level": 4
+          },
+          {
+            "moveId": "growth",
+            "level": 10
+          },
+          {
+            "moveId": "razorleaf",
+            "level": 13
+          },
+          {
+            "moveId": "sunnyday",
+            "level": 17
+          },
+          {
+            "moveId": "bulletseed",
+            "level": 21
+          },
+          {
+            "moveId": "headbutt",
+            "level": 24
+          },
+          {
+            "moveId": "zenheadbutt",
+            "level": 28
+          },
+          {
+            "moveId": "worryseed",
+            "level": 33
+          },
+          {
+            "moveId": "crunch",
+            "level": 38
+          },
+          {
+            "moveId": "seedbomb",
+            "level": 44
+          },
+          {
+            "moveId": "solarbeam",
+            "level": 48
+          },
+          {
+            "moveId": "overheat",
+            "level": 48
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "ingrain"
+          },
+          {
+            "moveId": "leechseed"
+          },
+          {
+            "moveId": "ragepowder"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "backpetal"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "burningjealousy"
+          },
+          {
+            "moveId": "crunch"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "firefang"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "grassyterrain"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "leafstorm"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "overheat"
+          },
+          {
+            "moveId": "potshot"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "quickfire"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "rootout"
+          },
+          {
+            "moveId": "sandstorm"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "stompingtantrum"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "superfang"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "temperflare"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "willowisp"
+          },
+          {
+            "moveId": "worryseed"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "burningjealousy"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "firefang"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "stompingtantrum"
+          },
+          {
+            "moveId": "superfang"
+          },
+          {
+            "moveId": "worryseed"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 2
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ground",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "scovillain-mega"
+    }
+  ],
+  "pokedexDescription": "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "spicyextract",
+        "level": 1
+      },
+      {
+        "moveId": "volatileextract",
+        "level": 1
+      },
+      {
+        "moveId": "flamethrower",
+        "level": 1
+      },
+      {
+        "moveId": "quickfire",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "firefang",
+        "level": 1
+      },
+      {
+        "moveId": "leafage",
+        "level": 1
+      },
+      {
+        "moveId": "bite",
+        "level": 4
+      },
+      {
+        "moveId": "growth",
+        "level": 10
+      },
+      {
+        "moveId": "razorleaf",
+        "level": 13
+      },
+      {
+        "moveId": "sunnyday",
+        "level": 17
+      },
+      {
+        "moveId": "bulletseed",
+        "level": 21
+      },
+      {
+        "moveId": "headbutt",
+        "level": 24
+      },
+      {
+        "moveId": "zenheadbutt",
+        "level": 28
+      },
+      {
+        "moveId": "worryseed",
+        "level": 33
+      },
+      {
+        "moveId": "crunch",
+        "level": 38
+      },
+      {
+        "moveId": "seedbomb",
+        "level": 44
+      },
+      {
+        "moveId": "solarbeam",
+        "level": 48
+      },
+      {
+        "moveId": "overheat",
+        "level": 48
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "ingrain"
+      },
+      {
+        "moveId": "leechseed"
+      },
+      {
+        "moveId": "ragepowder"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "backpetal"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "burningjealousy"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fireblast"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "overheat"
+      },
+      {
+        "moveId": "potshot"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "quickfire"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "rootout"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "temperflare"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "willowisp"
+      },
+      {
+        "moveId": "worryseed"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "burningjealousy"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "worryseed"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "capsakid",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/952.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:nether/is_overgrowth"
+      ],
+      "bucket": "common",
+      "level": "25-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "25-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "25-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "25-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_overgrowth"
+      ],
+      "bucket": "common",
+      "level": "25-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "25-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "zamega",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "features": "zamega",
+    "forms": "zamega"
+  }
+}

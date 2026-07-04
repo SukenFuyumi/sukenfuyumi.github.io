@@ -1,0 +1,731 @@
+{
+  "id": "cobblemon:ekans",
+  "namespace": "cobblemon",
+  "slug": "ekans",
+  "name": "Ekans",
+  "nationalPokedexNumber": 23,
+  "primaryType": "poison",
+  "secondaryType": null,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 60,
+    "defence": 44,
+    "special_attack": 40,
+    "special_defence": 54,
+    "speed": 55
+  },
+  "baseStatTotal": 288,
+  "abilities": [
+    "intimidate",
+    "shedskin"
+  ],
+  "hiddenAbilities": [
+    "unnerve"
+  ],
+  "eggGroups": [
+    "field",
+    "dragon"
+  ],
+  "catchRate": 255,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 20,
+  "weight": 69,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 58,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "wrap",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "poisonsting",
+        "level": 4
+      },
+      {
+        "moveId": "bite",
+        "level": 9
+      },
+      {
+        "moveId": "glare",
+        "level": 12
+      },
+      {
+        "moveId": "screech",
+        "level": 17
+      },
+      {
+        "moveId": "acid",
+        "level": 20
+      },
+      {
+        "moveId": "stockpile",
+        "level": 25
+      },
+      {
+        "moveId": "swallow",
+        "level": 25
+      },
+      {
+        "moveId": "spitup",
+        "level": 25
+      },
+      {
+        "moveId": "acidspray",
+        "level": 28
+      },
+      {
+        "moveId": "mudbomb",
+        "level": 33
+      },
+      {
+        "moveId": "gastroacid",
+        "level": 36
+      },
+      {
+        "moveId": "belch",
+        "level": 38
+      },
+      {
+        "moveId": "haze",
+        "level": 41
+      },
+      {
+        "moveId": "coil",
+        "level": 44
+      },
+      {
+        "moveId": "gunkshot",
+        "level": 49
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "poisonfang"
+      },
+      {
+        "moveId": "poisontail"
+      },
+      {
+        "moveId": "pursuit"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "slam"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "switcheroo"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "beatup"
+      },
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "gastroacid"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "poisontail"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychicfangs"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "toxicspikes"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "venoshock"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "gastroacid"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "suckerpunch"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "fissure"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "megadrain"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:arbok",
+      "targetSlug": "arbok",
+      "summary": "Nivel · Nv. 22",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_desert"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_desert"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "features": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

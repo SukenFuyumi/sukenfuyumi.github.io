@@ -1,0 +1,353 @@
+{
+  "id": "cobblemon:lampent#alatian",
+  "namespace": "cobblemon",
+  "slug": "lampent-alatian",
+  "name": "Lampent alatian",
+  "nationalPokedexNumber": 608,
+  "primaryType": "ghost",
+  "secondaryType": "fairy",
+  "types": [
+    "ghost",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 95,
+    "special_attack": 60,
+    "special_defence": 75,
+    "speed": 40
+  },
+  "baseStatTotal": 370,
+  "abilities": [
+    "clearbody",
+    "illuminate"
+  ],
+  "hiddenAbilities": [
+    "lingeringaroma"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "catchRate": 90,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 130,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 130,
+  "labels": [
+    "gen5"
+  ],
+  "aspects": [
+    "alatian"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "It loves to disguise as a lamp post and scaring passersby.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "astonish",
+        "level": 0
+      },
+      {
+        "moveId": "smog",
+        "level": 0
+      },
+      {
+        "moveId": "fairywind",
+        "level": 0
+      },
+      {
+        "moveId": "flash",
+        "level": 0
+      },
+      {
+        "moveId": "spotlight",
+        "level": 12
+      },
+      {
+        "moveId": "hex",
+        "level": 16
+      },
+      {
+        "moveId": "willowisp",
+        "level": 20
+      },
+      {
+        "moveId": "drainingkiss",
+        "level": 24
+      },
+      {
+        "moveId": "nightshade",
+        "level": 28
+      },
+      {
+        "moveId": "clearsmog",
+        "level": 32
+      },
+      {
+        "moveId": "shadowball",
+        "level": 36
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 40
+      },
+      {
+        "moveId": "aromatherapy",
+        "level": 46
+      },
+      {
+        "moveId": "painsplit",
+        "level": 52
+      },
+      {
+        "moveId": "moonblast",
+        "level": 58
+      },
+      {
+        "moveId": "mistyterrain",
+        "level": 64
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "acidarmor"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "memento"
+      },
+      {
+        "moveId": "mist"
+      },
+      {
+        "moveId": "powersplit"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "aurasphere"
+      },
+      {
+        "moveId": "burningjealousy"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "flameburst"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "mistyexplosion"
+      },
+      {
+        "moveId": "mistyterrain"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "phantomforce"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicterrain"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "sweetscent"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "willowisp"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "signalbeam"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:chandelure",
+      "targetSlug": "chandelure-alatian",
+      "summary": "Usar shiny_stone · variante alatian",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": "litwick-alatian",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      }
+    ],
+    "immuneTo": [
+      "dragon",
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/lampent-alatian.png",
+    "placeholderColor": "#735797"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-afp",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "standingEyeHeight": "cobblemon-core",
+    "swimmingEyeHeight": "cobblemon-core",
+    "flyingEyeHeight": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "lightingData": "cobblemon-core",
+    "features": "cobblemon-afp",
+    "forms": "cobblemon-afp"
+  },
+  "formOf": {
+    "slug": "lampent",
+    "name": "Lampent"
+  },
+  "formName": "alatian"
+}

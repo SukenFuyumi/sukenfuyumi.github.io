@@ -1,0 +1,993 @@
+{
+  "id": "cobblemon:keldeo",
+  "namespace": "cobblemon",
+  "slug": "keldeo",
+  "name": "Keldeo",
+  "nationalPokedexNumber": 647,
+  "primaryType": "water",
+  "secondaryType": "fighting",
+  "types": [
+    "water",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 91,
+    "attack": 72,
+    "defence": 90,
+    "special_attack": 129,
+    "special_defence": 90,
+    "speed": 108
+  },
+  "baseStatTotal": 580,
+  "abilities": [
+    "rectitude"
+  ],
+  "hiddenAbilities": [
+    "resilient"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 3,
+  "eggCycles": 80,
+  "baseFriendship": 35,
+  "height": 14,
+  "weight": 485,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 290,
+  "labels": [
+    "gen5",
+    "mythical"
+  ],
+  "aspects": [
+    "ordinary-form"
+  ],
+  "forms": [
+    {
+      "name": "Resolute",
+      "aspects": [
+        "resolute-form"
+      ],
+      "primaryType": "water",
+      "secondaryType": "fighting",
+      "types": [
+        "water",
+        "fighting"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "Keldeo has strengthened its resolve for battle, filling its body with power and changing its form.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "aquajet",
+            "level": 1
+          },
+          {
+            "moveId": "leer",
+            "level": 1
+          },
+          {
+            "moveId": "helpinghand",
+            "level": 1
+          },
+          {
+            "moveId": "workup",
+            "level": 1
+          },
+          {
+            "moveId": "secretsword",
+            "level": 1
+          },
+          {
+            "moveId": "bubblebeam",
+            "level": 7
+          },
+          {
+            "moveId": "quickguard",
+            "level": 14
+          },
+          {
+            "moveId": "doublekick",
+            "level": 21
+          },
+          {
+            "moveId": "retaliate",
+            "level": 28
+          },
+          {
+            "moveId": "aquatail",
+            "level": 35
+          },
+          {
+            "moveId": "takedown",
+            "level": 42
+          },
+          {
+            "moveId": "sacredsword",
+            "level": 49
+          },
+          {
+            "moveId": "swordsdance",
+            "level": 56
+          },
+          {
+            "moveId": "hydropump",
+            "level": 63
+          },
+          {
+            "moveId": "closecombat",
+            "level": 70
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "seamitarslash"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "airslash"
+          },
+          {
+            "moveId": "aquatail"
+          },
+          {
+            "moveId": "aurasphere"
+          },
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "bounce"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "chillingwater"
+          },
+          {
+            "moveId": "closecombat"
+          },
+          {
+            "moveId": "coaching"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "cut"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "flipturn"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "hail"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hydropump"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "liquidation"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "megahorn"
+          },
+          {
+            "moveId": "muddywater"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "revenge"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "roar"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "smartstrike"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "strength"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "surf"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "upperhand"
+          },
+          {
+            "moveId": "vacuumwave"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "workup"
+          },
+          {
+            "moveId": "xscissor"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "aquatail"
+          },
+          {
+            "moveId": "bounce"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "coaching"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "flipturn"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "liquidation"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "megahorn"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "secretsword"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "vacuumwave"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "xscissor"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "scald"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": [
+          {
+            "moveId": "secretsword"
+          }
+        ]
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "electric",
+            "multiplier": 2
+          },
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "grass",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "keldeo-resolute"
+    }
+  ],
+  "pokedexDescription": "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "aquajet",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 1
+      },
+      {
+        "moveId": "workup",
+        "level": 1
+      },
+      {
+        "moveId": "secretsword",
+        "level": 1
+      },
+      {
+        "moveId": "bubblebeam",
+        "level": 7
+      },
+      {
+        "moveId": "quickguard",
+        "level": 14
+      },
+      {
+        "moveId": "doublekick",
+        "level": 21
+      },
+      {
+        "moveId": "retaliate",
+        "level": 28
+      },
+      {
+        "moveId": "aquatail",
+        "level": 35
+      },
+      {
+        "moveId": "takedown",
+        "level": 42
+      },
+      {
+        "moveId": "sacredsword",
+        "level": 49
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 56
+      },
+      {
+        "moveId": "hydropump",
+        "level": 63
+      },
+      {
+        "moveId": "closecombat",
+        "level": 70
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "seamitarslash"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "aurasphere"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "coaching"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "megahorn"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smartstrike"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "upperhand"
+      },
+      {
+        "moveId": "vacuumwave"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "coaching"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "megahorn"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "secretsword"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "vacuumwave"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "secretsword"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": "karfoal",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/647.png"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "mega-showdown",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "implemented": "mega-showdown",
+    "riding": "mega-showdown",
+    "baseScale": "mega-showdown",
+    "hitbox": "mega-showdown"
+  }
+}

@@ -1,0 +1,620 @@
+{
+  "id": "cobblemon:ludikappa",
+  "namespace": "cobblemon",
+  "slug": "ludikappa",
+  "name": "Ludikappa",
+  "nationalPokedexNumber": 82,
+  "primaryType": "water",
+  "secondaryType": "grass",
+  "types": [
+    "water",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 80,
+    "defence": 120,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 50
+  },
+  "baseStatTotal": 480,
+  "abilities": [
+    "drizzle",
+    "raindish"
+  ],
+  "hiddenAbilities": [
+    "grassysurge"
+  ],
+  "eggGroups": [
+    "water_1",
+    "grass"
+  ],
+  "catchRate": 45,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 18,
+  "weight": 350,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Ludikappa are solitary predators that lure travellers deep into bogs with the sweet scent of the flower on its head. When its prey gets too close to the water it drags them down into the deep, never to be seen again. The flower on its head makes a smell so pleasent it is said no one can resist its aroma. For this reason many perfumes use this flower as a part of their recipes.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "megadrain",
+        "level": 1
+      },
+      {
+        "moveId": "naturepower",
+        "level": 1
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 1
+      },
+      {
+        "moveId": "raindance",
+        "level": 1
+      },
+      {
+        "moveId": "energyball",
+        "level": 1
+      },
+      {
+        "moveId": "zenheadbutt",
+        "level": 1
+      },
+      {
+        "moveId": "knockoff",
+        "level": 1
+      },
+      {
+        "moveId": "teeterdance",
+        "level": 1
+      },
+      {
+        "moveId": "fakeout",
+        "level": 1
+      },
+      {
+        "moveId": "flail",
+        "level": 1
+      },
+      {
+        "moveId": "mist",
+        "level": 1
+      },
+      {
+        "moveId": "furyswipes",
+        "level": 1
+      },
+      {
+        "moveId": "bubblebeam",
+        "level": 1
+      },
+      {
+        "moveId": "hydropump",
+        "level": 1
+      },
+      {
+        "moveId": "absorb",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 1
+      },
+      {
+        "moveId": "leechseed",
+        "level": 1
+      },
+      {
+        "moveId": "bubble",
+        "level": 1
+      },
+      {
+        "moveId": "naturalgift",
+        "level": 1
+      },
+      {
+        "moveId": "watersport",
+        "level": 1
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "razorleaf"
+      },
+      {
+        "moveId": "sweetscent"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "teeterdance"
+      },
+      {
+        "moveId": "tickle"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "leafblade"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "metronome"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "pollenpuff"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockclimb"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "whirlpool"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "dynamicpunch"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "seismictoss"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "lombre",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "water",
+        "multiplier": 0.25
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/ludikappa.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "29-48",
+      "timeRange": "night",
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "29-48",
+      "timeRange": "night",
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "29-48",
+      "timeRange": "night",
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "29-48",
+      "timeRange": "night",
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "name": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "primaryType": "lively-mons",
+    "secondaryType": "lively-mons",
+    "labels": "lively-mons",
+    "abilities": "lively-mons",
+    "baseStats": "lively-mons",
+    "catchRate": "lively-mons",
+    "maleRatio": "lively-mons",
+    "shoulderMountable": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "eggCycles": "lively-mons",
+    "eggGroups": "lively-mons",
+    "behaviour": "lively-mons",
+    "drops": "lively-mons",
+    "moves": "lively-mons",
+    "pokedex": "lively-mons",
+    "preEvolution": "lively-mons",
+    "evolutions": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "evYield": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "aspects": "lively-mons",
+    "cannotDynamax": "lively-mons"
+  }
+}

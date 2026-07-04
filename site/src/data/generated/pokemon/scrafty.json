@@ -1,0 +1,1262 @@
+{
+  "id": "cobblemon:scrafty",
+  "namespace": "cobblemon",
+  "slug": "scrafty",
+  "name": "Scrafty",
+  "nationalPokedexNumber": 560,
+  "primaryType": "dark",
+  "secondaryType": "fighting",
+  "types": [
+    "dark",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 115,
+    "special_attack": 45,
+    "special_defence": 115,
+    "speed": 58
+  },
+  "baseStatTotal": 488,
+  "abilities": [
+    "shedskin",
+    "moxie"
+  ],
+  "hiddenAbilities": [
+    "intimidate"
+  ],
+  "eggGroups": [
+    "field",
+    "dragon"
+  ],
+  "catchRate": 90,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 11,
+  "weight": 300,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 171,
+  "labels": [
+    "gen5"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "primaryType": "dark",
+      "secondaryType": null,
+      "types": [
+        "dark"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 65,
+        "attack": 130,
+        "defence": 135,
+        "special_attack": 55,
+        "special_defence": 135,
+        "speed": 68
+      },
+      "baseStatTotal": 588,
+      "abilities": [
+        "shedskin",
+        "shedskin"
+      ],
+      "hiddenAbilities": [
+        "shedskin"
+      ],
+      "pokedexDescription": "Mega Evolution has caused Scrafty's shed skin to turn white, growing tough and supple. Of course, this Pokémon is still as feisty as ever.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "leer",
+            "level": 1
+          },
+          {
+            "moveId": "lowkick",
+            "level": 1
+          },
+          {
+            "moveId": "feintattack",
+            "level": 1
+          },
+          {
+            "moveId": "headbutt",
+            "level": 1
+          },
+          {
+            "moveId": "payback",
+            "level": 1
+          },
+          {
+            "moveId": "chipaway",
+            "level": 1
+          },
+          {
+            "moveId": "sandattack",
+            "level": 12
+          },
+          {
+            "moveId": "facade",
+            "level": 16
+          },
+          {
+            "moveId": "torment",
+            "level": 20
+          },
+          {
+            "moveId": "beatup",
+            "level": 24
+          },
+          {
+            "moveId": "scaryface",
+            "level": 28
+          },
+          {
+            "moveId": "brickbreak",
+            "level": 32
+          },
+          {
+            "moveId": "swagger",
+            "level": 36
+          },
+          {
+            "moveId": "crunch",
+            "level": 42
+          },
+          {
+            "moveId": "highjumpkick",
+            "level": 48
+          },
+          {
+            "moveId": "focuspunch",
+            "level": 54
+          },
+          {
+            "moveId": "headsmash",
+            "level": 60
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "chipaway"
+          },
+          {
+            "moveId": "counter"
+          },
+          {
+            "moveId": "detect"
+          },
+          {
+            "moveId": "fakeout"
+          },
+          {
+            "moveId": "feintattack"
+          },
+          {
+            "moveId": "quickguard"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acidspray"
+          },
+          {
+            "moveId": "amnesia"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "beatup"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "closecombat"
+          },
+          {
+            "moveId": "coaching"
+          },
+          {
+            "moveId": "crunch"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "dig"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "dragonclaw"
+          },
+          {
+            "moveId": "dragondance"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "dragontail"
+          },
+          {
+            "moveId": "drainpunch"
+          },
+          {
+            "moveId": "dualchop"
+          },
+          {
+            "moveId": "encore"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "firepunch"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icepunch"
+          },
+          {
+            "moveId": "incinerate"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "lowsweep"
+          },
+          {
+            "moveId": "megakick"
+          },
+          {
+            "moveId": "megapunch"
+          },
+          {
+            "moveId": "metronome"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "poweruppunch"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "revenge"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "roar"
+          },
+          {
+            "moveId": "rockclimb"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "smackdown"
+          },
+          {
+            "moveId": "snarl"
+          },
+          {
+            "moveId": "snatch"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "strength"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "superfang"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "thunderpunch"
+          },
+          {
+            "moveId": "torment"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "upperhand"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "workup"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "coaching"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "drainpunch"
+          },
+          {
+            "moveId": "dualchop"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "firepunch"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icepunch"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "snarl"
+          },
+          {
+            "moveId": "snatch"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "superfang"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "thunderpunch"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 2
+          },
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "fighting",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ghost",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "psychic"
+        ]
+      },
+      "evolutions": [],
+      "slug": "scrafty-mega"
+    }
+  ],
+  "pokedexDescription": "It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the group leader.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "lowkick",
+        "level": 1
+      },
+      {
+        "moveId": "feintattack",
+        "level": 1
+      },
+      {
+        "moveId": "headbutt",
+        "level": 1
+      },
+      {
+        "moveId": "payback",
+        "level": 1
+      },
+      {
+        "moveId": "chipaway",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 12
+      },
+      {
+        "moveId": "facade",
+        "level": 16
+      },
+      {
+        "moveId": "torment",
+        "level": 20
+      },
+      {
+        "moveId": "beatup",
+        "level": 24
+      },
+      {
+        "moveId": "scaryface",
+        "level": 28
+      },
+      {
+        "moveId": "brickbreak",
+        "level": 32
+      },
+      {
+        "moveId": "swagger",
+        "level": 36
+      },
+      {
+        "moveId": "crunch",
+        "level": 42
+      },
+      {
+        "moveId": "highjumpkick",
+        "level": 48
+      },
+      {
+        "moveId": "focuspunch",
+        "level": 54
+      },
+      {
+        "moveId": "headsmash",
+        "level": 60
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "chipaway"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "detect"
+      },
+      {
+        "moveId": "fakeout"
+      },
+      {
+        "moveId": "feintattack"
+      },
+      {
+        "moveId": "quickguard"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "beatup"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "coaching"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dragonclaw"
+      },
+      {
+        "moveId": "dragondance"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "dragontail"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "dualchop"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "lowsweep"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "metronome"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "rockclimb"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "upperhand"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "coaching"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "dualchop"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "scraggy",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 4
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.25
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_badlands"
+      ],
+      "bucket": "common",
+      "level": "39-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "39-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "39-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "39-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "39-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "39-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_badlands"
+      ],
+      "bucket": "common",
+      "level": "39-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "39-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "39-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "zamega"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "features": "zamega",
+    "forms": "zamega"
+  }
+}

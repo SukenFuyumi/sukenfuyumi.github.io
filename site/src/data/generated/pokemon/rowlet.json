@@ -1,0 +1,989 @@
+{
+  "id": "cobblemon:rowlet",
+  "namespace": "cobblemon",
+  "slug": "rowlet",
+  "name": "Rowlet",
+  "nationalPokedexNumber": 722,
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 55,
+    "defence": 55,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 42
+  },
+  "baseStatTotal": 320,
+  "abilities": [
+    "overgrow"
+  ],
+  "hiddenAbilities": [
+    "longreach"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "catchRate": 45,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 15,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 64,
+  "labels": [
+    "gen7",
+    "starter",
+    "alolan_form"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Hisui-Bias",
+      "aspects": [
+        "region-bias-hisui"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "flying",
+      "types": [
+        "grass",
+        "flying"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "It feels relaxed in tight, dark places and has been known to use its Trainer's pocket or bag as a nest.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "growl",
+            "level": 1
+          },
+          {
+            "moveId": "leafage",
+            "level": 3
+          },
+          {
+            "moveId": "astonish",
+            "level": 6
+          },
+          {
+            "moveId": "peck",
+            "level": 9
+          },
+          {
+            "moveId": "shadowsneak",
+            "level": 12
+          },
+          {
+            "moveId": "razorleaf",
+            "level": 15
+          },
+          {
+            "moveId": "foresight",
+            "level": 18
+          },
+          {
+            "moveId": "pluck",
+            "level": 21
+          },
+          {
+            "moveId": "nastyplot",
+            "level": 24
+          },
+          {
+            "moveId": "suckerpunch",
+            "level": 27
+          },
+          {
+            "moveId": "leafblade",
+            "level": 30
+          },
+          {
+            "moveId": "featherdance",
+            "level": 33
+          },
+          {
+            "moveId": "bravebird",
+            "level": 36
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "furyattack"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "roost"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "airslash"
+          },
+          {
+            "moveId": "bravebird"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "echoedvoice"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "featherdance"
+          },
+          {
+            "moveId": "flyingkick"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "grasspledge"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "grassyterrain"
+          },
+          {
+            "moveId": "haze"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "leafblade"
+          },
+          {
+            "moveId": "leafstorm"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "nightshade"
+          },
+          {
+            "moveId": "nosedive"
+          },
+          {
+            "moveId": "pluck"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "skyattack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "steelwing"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "workup"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "grasspledge"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "skyattack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "ominouswind"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ice",
+            "multiplier": 4
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "grass",
+            "multiplier": 0.25
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "ground"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:dartrix",
+          "targetSlug": "dartrix",
+          "summary": "Nivel · Nv. 17",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "rowlet-hisui-bias"
+    }
+  ],
+  "pokedexDescription": "It feels relaxed in tight, dark places and has been known to use its Trainer's pocket or bag as a nest.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "leafage",
+        "level": 3
+      },
+      {
+        "moveId": "astonish",
+        "level": 6
+      },
+      {
+        "moveId": "peck",
+        "level": 9
+      },
+      {
+        "moveId": "shadowsneak",
+        "level": 12
+      },
+      {
+        "moveId": "razorleaf",
+        "level": 15
+      },
+      {
+        "moveId": "foresight",
+        "level": 18
+      },
+      {
+        "moveId": "pluck",
+        "level": 21
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 24
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 27
+      },
+      {
+        "moveId": "leafblade",
+        "level": 30
+      },
+      {
+        "moveId": "featherdance",
+        "level": 33
+      },
+      {
+        "moveId": "bravebird",
+        "level": 36
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "furyattack"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "roost"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "bravebird"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "flyingkick"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grasspledge"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "leafblade"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "pluck"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "skyattack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "grasspledge"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "skyattack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:dartrix",
+      "targetSlug": "dartrix",
+      "summary": "Nivel · Nv. 17",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/722.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "aether:skyroot_forest",
+        "aether:skyroot_woodland",
+        "#cobblemon:is_taiga"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_snowy_forest",
+        "#cobblemon:is_snowy_taiga"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "aether:skyroot_forest",
+        "aether:skyroot_woodland",
+        "#cobblemon:is_taiga"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_snowy_forest",
+        "#cobblemon:is_snowy_taiga"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "features": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core"
+  }
+}

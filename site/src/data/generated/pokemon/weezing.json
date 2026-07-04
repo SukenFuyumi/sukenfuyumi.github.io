@@ -1,0 +1,1064 @@
+{
+  "id": "cobblemon:weezing",
+  "namespace": "cobblemon",
+  "slug": "weezing",
+  "name": "Weezing",
+  "nationalPokedexNumber": 110,
+  "primaryType": "poison",
+  "secondaryType": null,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 120,
+    "special_attack": 85,
+    "special_defence": 70,
+    "speed": 60
+  },
+  "baseStatTotal": 490,
+  "abilities": [
+    "levitate",
+    "neutralizinggas"
+  ],
+  "hiddenAbilities": [
+    "stench"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "catchRate": 60,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 12,
+  "weight": 95,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 172,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Galar",
+      "aspects": [
+        "galarian"
+      ],
+      "primaryType": "poison",
+      "secondaryType": "fairy",
+      "types": [
+        "poison",
+        "fairy"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": [
+        "levitate",
+        "neutralizinggas"
+      ],
+      "hiddenAbilities": [
+        "mistysurge"
+      ],
+      "pokedexDescription": "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "aromatherapy",
+            "level": 1
+          },
+          {
+            "moveId": "doublehit",
+            "level": 1
+          },
+          {
+            "moveId": "strangesteam",
+            "level": 1
+          },
+          {
+            "moveId": "defog",
+            "level": 1
+          },
+          {
+            "moveId": "heatwave",
+            "level": 1
+          },
+          {
+            "moveId": "smog",
+            "level": 1
+          },
+          {
+            "moveId": "smokescreen",
+            "level": 1
+          },
+          {
+            "moveId": "haze",
+            "level": 1
+          },
+          {
+            "moveId": "poisongas",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "aromaticmist",
+            "level": 1
+          },
+          {
+            "moveId": "clearsmog",
+            "level": 12
+          },
+          {
+            "moveId": "assurance",
+            "level": 16
+          },
+          {
+            "moveId": "sludge",
+            "level": 20
+          },
+          {
+            "moveId": "fairywind",
+            "level": 24
+          },
+          {
+            "moveId": "selfdestruct",
+            "level": 28
+          },
+          {
+            "moveId": "sludgebomb",
+            "level": 32
+          },
+          {
+            "moveId": "toxic",
+            "level": 38
+          },
+          {
+            "moveId": "belch",
+            "level": 44
+          },
+          {
+            "moveId": "explosion",
+            "level": 50
+          },
+          {
+            "moveId": "memento",
+            "level": 56
+          },
+          {
+            "moveId": "destinybond",
+            "level": 62
+          },
+          {
+            "moveId": "mistyterrain",
+            "level": 68
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "grudge"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "psywave"
+          },
+          {
+            "moveId": "spitup"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "stockpile"
+          },
+          {
+            "moveId": "swallow"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acidspray"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "corrosivegas"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "explosion"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "gyroball"
+          },
+          {
+            "moveId": "haze"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "mistyexplosion"
+          },
+          {
+            "moveId": "mistyterrain"
+          },
+          {
+            "moveId": "overheat"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "selfdestruct"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "sludgewave"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "thunder"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "toxicspikes"
+          },
+          {
+            "moveId": "venomdrench"
+          },
+          {
+            "moveId": "venoshock"
+          },
+          {
+            "moveId": "willowisp"
+          },
+          {
+            "moveId": "wonderroom"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "corrosivegas"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "mistyexplosion"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "wonderroom"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "bide"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "mimic"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "rage"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zapcannon"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          },
+          {
+            "type": "steel",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.25
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.25
+          },
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "dragon"
+        ]
+      },
+      "evolutions": [],
+      "slug": "weezing-galar"
+    }
+  ],
+  "pokedexDescription": "Weezing alternately shrinks and inflates its twin bodies to mix together toxic gases inside. The more the gases are mixed, the more powerful the toxins become. The Pokémon also becomes more putrid.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "poisongas",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "smog",
+        "level": 1
+      },
+      {
+        "moveId": "smokescreen",
+        "level": 1
+      },
+      {
+        "moveId": "doublehit",
+        "level": 1
+      },
+      {
+        "moveId": "heatwave",
+        "level": 1
+      },
+      {
+        "moveId": "clearsmog",
+        "level": 12
+      },
+      {
+        "moveId": "assurance",
+        "level": 16
+      },
+      {
+        "moveId": "sludge",
+        "level": 20
+      },
+      {
+        "moveId": "haze",
+        "level": 24
+      },
+      {
+        "moveId": "selfdestruct",
+        "level": 28
+      },
+      {
+        "moveId": "sludgebomb",
+        "level": 32
+      },
+      {
+        "moveId": "toxic",
+        "level": 38
+      },
+      {
+        "moveId": "belch",
+        "level": 44
+      },
+      {
+        "moveId": "explosion",
+        "level": 50
+      },
+      {
+        "moveId": "memento",
+        "level": 56
+      },
+      {
+        "moveId": "destinybond",
+        "level": 62
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "grudge"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "psywave"
+      },
+      {
+        "moveId": "spitup"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "stockpile"
+      },
+      {
+        "moveId": "swallow"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "corrosivegas"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fireblast"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "toxicspikes"
+      },
+      {
+        "moveId": "venomdrench"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "willowisp"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "corrosivegas"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "thunderbolt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "zapcannon"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "koffing-galar-bias",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "35-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "35-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_toxic"
+      ],
+      "bucket": "common",
+      "level": "35-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_magical"
+      ],
+      "bucket": "common",
+      "level": "35-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_spooky"
+      ],
+      "bucket": "common",
+      "level": "35-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "35-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "35-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "35-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "35-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "35-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_toxic"
+      ],
+      "bucket": "common",
+      "level": "35-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_magical"
+      ],
+      "bucket": "common",
+      "level": "35-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_spooky"
+      ],
+      "bucket": "common",
+      "level": "35-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "features": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core",
+    "riding": "cobblemon-core"
+  }
+}

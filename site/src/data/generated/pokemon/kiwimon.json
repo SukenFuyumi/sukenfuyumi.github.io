@@ -1,0 +1,194 @@
+{
+  "id": "cobblemon:kiwimon",
+  "namespace": "cobblemon",
+  "slug": "kiwimon",
+  "name": "Kiwimon",
+  "nationalPokedexNumber": 2195,
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 75,
+    "defence": 50,
+    "special_attack": 60,
+    "special_defence": 60,
+    "speed": 85
+  },
+  "baseStatTotal": 390,
+  "abilities": [
+    "oblivious",
+    "earlybird"
+  ],
+  "hiddenAbilities": [
+    "chlorophyll"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.4,
+  "weight": 62.14,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A fruit-crowned bird that sprints through brush.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tearfullook",
+        "level": 25
+      },
+      {
+        "moveId": "aircutter",
+        "level": 27
+      },
+      {
+        "moveId": "leechseed",
+        "level": 29
+      },
+      {
+        "moveId": "magicalleaf",
+        "level": 31
+      },
+      {
+        "moveId": "pluck",
+        "level": 33
+      },
+      {
+        "moveId": "stomp",
+        "level": 35
+      },
+      {
+        "moveId": "agility",
+        "level": 37
+      },
+      {
+        "moveId": "bulletseed",
+        "level": 39
+      },
+      {
+        "moveId": "tropkick",
+        "level": 41
+      },
+      {
+        "moveId": "synthesis",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:blossomon",
+      "targetSlug": "blossomon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: grass_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "pteromon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/kiwimon.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_plains",
+        "#cobblemon:is_floral"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

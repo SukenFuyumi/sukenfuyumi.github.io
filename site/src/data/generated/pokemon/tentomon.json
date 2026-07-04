@@ -1,0 +1,209 @@
+{
+  "id": "cobblemon:tentomon",
+  "namespace": "cobblemon",
+  "slug": "tentomon",
+  "name": "Tentomon",
+  "nationalPokedexNumber": 2017,
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 65,
+    "special_defence": 50,
+    "speed": 40
+  },
+  "baseStatTotal": 295,
+  "abilities": [
+    "compoundeyes",
+    "shellarmor"
+  ],
+  "hiddenAbilities": [
+    "galvanize"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.81,
+  "weight": 9.07,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "The original type of Insect Digimon who, although it has a hard shell, still has low aggression.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 12
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 14
+      },
+      {
+        "moveId": "thundershock",
+        "level": 16
+      },
+      {
+        "moveId": "cut",
+        "level": 18
+      },
+      {
+        "moveId": "protect",
+        "level": 19
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 21
+      },
+      {
+        "moveId": "charge",
+        "level": 22
+      },
+      {
+        "moveId": "chargebeam",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:kabuterimon",
+      "targetSlug": "kabuterimon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:kuwagamon",
+      "targetSlug": "kuwagamon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: leaf_stone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:snimon",
+      "targetSlug": "snimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: tanga_berry",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:archelomon",
+      "targetSlug": "archelomon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: shell_bell",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:chrysalimon",
+      "targetSlug": "chrysalimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: poison_barb",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "mochimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/tentomon.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "secondaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "id": "cobblemon:icedevimon",
+  "namespace": "cobblemon",
+  "slug": "icedevimon",
+  "name": "Icedevimon",
+  "nationalPokedexNumber": 2070,
+  "primaryType": "dark",
+  "secondaryType": "ice",
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 55,
+    "defence": 60,
+    "special_attack": 80,
+    "special_defence": 60,
+    "speed": 85
+  },
+  "baseStatTotal": 400,
+  "abilities": [
+    "shadowtag",
+    "icescales"
+  ],
+  "hiddenAbilities": [
+    "slushrush"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.91,
+  "weight": 58,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A chilling Devimon subspecies that freezes foes with cruel delight.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "spite",
+        "level": 25
+      },
+      {
+        "moveId": "darkpulse",
+        "level": 27
+      },
+      {
+        "moveId": "flatter",
+        "level": 29
+      },
+      {
+        "moveId": "haze",
+        "level": 31
+      },
+      {
+        "moveId": "lashout",
+        "level": 33
+      },
+      {
+        "moveId": "icepunch",
+        "level": 35
+      },
+      {
+        "moveId": "glaciate",
+        "level": 37
+      },
+      {
+        "moveId": "hail",
+        "level": 39
+      },
+      {
+        "moveId": "bittermalice",
+        "level": 41
+      },
+      {
+        "moveId": "sheercold",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:marinedevimon",
+      "targetSlug": "marinedevimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: water_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "picodevimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 4
+      },
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/icedevimon.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

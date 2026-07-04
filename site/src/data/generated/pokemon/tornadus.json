@@ -1,0 +1,913 @@
+{
+  "id": "cobblemon:tornadus",
+  "namespace": "cobblemon",
+  "slug": "tornadus",
+  "name": "Tornadus",
+  "nationalPokedexNumber": 641,
+  "primaryType": "flying",
+  "secondaryType": null,
+  "types": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 79,
+    "attack": 115,
+    "defence": 70,
+    "special_attack": 125,
+    "special_defence": 80,
+    "speed": 111
+  },
+  "baseStatTotal": 580,
+  "abilities": [
+    "prankster"
+  ],
+  "hiddenAbilities": [
+    "defiant"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 3,
+  "eggCycles": 120,
+  "baseFriendship": 90,
+  "height": 15,
+  "weight": 630,
+  "maleRatio": 1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 290,
+  "labels": [
+    "gen5",
+    "legendary"
+  ],
+  "aspects": [
+    "incarnate-forme"
+  ],
+  "forms": [
+    {
+      "name": "Therian",
+      "aspects": [
+        "therian-forme"
+      ],
+      "primaryType": "flying",
+      "secondaryType": null,
+      "types": [
+        "flying"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 79,
+        "attack": 100,
+        "defence": 80,
+        "special_attack": 110,
+        "special_defence": 90,
+        "speed": 121
+      },
+      "baseStatTotal": 580,
+      "abilities": [
+        "regenerator"
+      ],
+      "hiddenAbilities": [
+        "regenerator"
+      ],
+      "pokedexDescription": "An example of what is known as a \"form change,\" though I suspect this strange avian guise to be Tornadus's true form. Tornadus has been sighted crossing the ocean while in this form.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "gust",
+            "level": 1
+          },
+          {
+            "moveId": "leer",
+            "level": 5
+          },
+          {
+            "moveId": "swagger",
+            "level": 10
+          },
+          {
+            "moveId": "bite",
+            "level": 15
+          },
+          {
+            "moveId": "aircutter",
+            "level": 20
+          },
+          {
+            "moveId": "agility",
+            "level": 25
+          },
+          {
+            "moveId": "tailwind",
+            "level": 30
+          },
+          {
+            "moveId": "airslash",
+            "level": 35
+          },
+          {
+            "moveId": "crunch",
+            "level": 40
+          },
+          {
+            "moveId": "extrasensory",
+            "level": 45
+          },
+          {
+            "moveId": "uproar",
+            "level": 50
+          },
+          {
+            "moveId": "hammerarm",
+            "level": 55
+          },
+          {
+            "moveId": "raindance",
+            "level": 60
+          },
+          {
+            "moveId": "hurricane",
+            "level": 65
+          },
+          {
+            "moveId": "thrash",
+            "level": 70
+          },
+          {
+            "moveId": "bleakwindstorm",
+            "level": 77
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "acrobatics"
+          },
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "airslash"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "chillingwater"
+          },
+          {
+            "moveId": "crunch"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "embargo"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "fly"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "hurricane"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "incinerate"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "metronome"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "nosedive"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "revenge"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "sandstorm"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "skydrop"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "sludgewave"
+          },
+          {
+            "moveId": "smackdown"
+          },
+          {
+            "moveId": "snowscape"
+          },
+          {
+            "moveId": "strength"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "torment"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "weatherball"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "electric",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "ground"
+        ]
+      },
+      "evolutions": [],
+      "slug": "tornadus-therian"
+    }
+  ],
+  "pokedexDescription": "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "gust",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 5
+      },
+      {
+        "moveId": "swagger",
+        "level": 10
+      },
+      {
+        "moveId": "bite",
+        "level": 15
+      },
+      {
+        "moveId": "aircutter",
+        "level": 20
+      },
+      {
+        "moveId": "agility",
+        "level": 25
+      },
+      {
+        "moveId": "tailwind",
+        "level": 30
+      },
+      {
+        "moveId": "airslash",
+        "level": 35
+      },
+      {
+        "moveId": "crunch",
+        "level": 40
+      },
+      {
+        "moveId": "extrasensory",
+        "level": 45
+      },
+      {
+        "moveId": "uproar",
+        "level": 50
+      },
+      {
+        "moveId": "hammerarm",
+        "level": 55
+      },
+      {
+        "moveId": "raindance",
+        "level": 60
+      },
+      {
+        "moveId": "hurricane",
+        "level": 65
+      },
+      {
+        "moveId": "thrash",
+        "level": 70
+      },
+      {
+        "moveId": "bleakwindstorm",
+        "level": 77
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "metronome"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "skydrop"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "snowscape"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "weatherball"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/641.png"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "mega-showdown",
+    "lasers-additions",
+    "cobblemon-core"
+  ],
+  "primarySource": "mega-showdown",
+  "provenance": {
+    "implemented": "mega-showdown",
+    "nationalPokedexNumber": "mega-showdown",
+    "name": "mega-showdown",
+    "primaryType": "mega-showdown",
+    "riding": "mega-showdown",
+    "maleRatio": "mega-showdown",
+    "height": "mega-showdown",
+    "weight": "mega-showdown",
+    "pokedex": "mega-showdown",
+    "labels": "mega-showdown",
+    "aspects": "mega-showdown",
+    "abilities": "mega-showdown",
+    "eggGroups": "mega-showdown",
+    "behaviour": "mega-showdown",
+    "baseScale": "mega-showdown",
+    "hitbox": "mega-showdown",
+    "baseStats": "mega-showdown",
+    "evYield": "mega-showdown",
+    "baseExperienceYield": "mega-showdown",
+    "experienceGroup": "mega-showdown",
+    "catchRate": "mega-showdown",
+    "eggCycles": "mega-showdown",
+    "baseFriendship": "mega-showdown",
+    "moves": "lasers-additions",
+    "evolutions": "mega-showdown",
+    "forms": "mega-showdown"
+  }
+}

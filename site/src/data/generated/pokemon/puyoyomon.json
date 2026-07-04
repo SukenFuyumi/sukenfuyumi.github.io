@@ -1,0 +1,176 @@
+{
+  "id": "cobblemon:puyoyomon",
+  "namespace": "cobblemon",
+  "slug": "puyoyomon",
+  "name": "Puyoyomon",
+  "nationalPokedexNumber": 2033,
+  "primaryType": "water",
+  "secondaryType": "electric",
+  "types": [
+    "water",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 35,
+    "defence": 20,
+    "special_attack": 50,
+    "special_defence": 25,
+    "speed": 40
+  },
+  "baseStatTotal": 200,
+  "abilities": [
+    "synchronize",
+    "synchronize"
+  ],
+  "hiddenAbilities": [
+    "static"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 150,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.3,
+  "weight": 3.63,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 40,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Puyomon evolved by taking in jellyfish data.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "nuzzle",
+        "level": 5
+      },
+      {
+        "moveId": "bubble",
+        "level": 7
+      },
+      {
+        "moveId": "leer",
+        "level": 9
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 10
+      },
+      {
+        "moveId": "thundershock",
+        "level": 11
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:jellymon",
+      "targetSlug": "jellymon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "puyomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "steel",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/puyoyomon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_ocean",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "rare",
+      "level": "4-15",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "rare",
+      "level": "1-8",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

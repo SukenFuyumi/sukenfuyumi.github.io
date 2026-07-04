@@ -1,0 +1,167 @@
+{
+  "id": "cobblemon:Flammiko",
+  "namespace": "cobblemon",
+  "slug": "cobblemon-flammiko",
+  "name": "Flammiko",
+  "nationalPokedexNumber": null,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {},
+  "baseStatTotal": 0,
+  "abilities": [],
+  "hiddenAbilities": [],
+  "eggGroups": [],
+  "catchRate": null,
+  "eggCycles": null,
+  "baseFriendship": null,
+  "height": null,
+  "weight": null,
+  "maleRatio": null,
+  "experienceGroup": null,
+  "baseExperienceYield": null,
+  "labels": [],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "electric",
+      "types": [
+        "fire",
+        "electric"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 55,
+        "attack": 140,
+        "defence": 50,
+        "special_attack": 160,
+        "special_defence": 50,
+        "speed": 130
+      },
+      "baseStatTotal": 585,
+      "abilities": [
+        "simple",
+        "simple"
+      ],
+      "hiddenAbilities": [
+        "simple"
+      ],
+      "pokedexDescription": "Even after Mega Evolution, it retains its awkward stance and unbalanced appearance. Despite how unimpressive it may seem, it should never be underestimated: Mega FLammiko possesses truly terrifying power.",
+      "moveset": {
+        "levelUp": [],
+        "egg": [],
+        "tm": [],
+        "tutor": [],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 4
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          },
+          {
+            "type": "water",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "steel",
+            "multiplier": 0.25
+          },
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "cobblemon-flammiko-mega"
+    }
+  ],
+  "pokedexDescription": null,
+  "moveset": {
+    "levelUp": [],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/cobblemon-flammiko.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "18-60",
+      "timeRange": null,
+      "sourceId": "cobblemon-rlm"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-rlm"
+  ],
+  "primarySource": "cobblemon-rlm",
+  "provenance": {
+    "features": "cobblemon-rlm",
+    "forms": "cobblemon-rlm"
+  }
+}

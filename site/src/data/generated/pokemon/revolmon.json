@@ -1,0 +1,217 @@
+{
+  "id": "cobblemon:revolmon",
+  "namespace": "cobblemon",
+  "slug": "revolmon",
+  "name": "Revolmon",
+  "nationalPokedexNumber": 2098,
+  "primaryType": "steel",
+  "secondaryType": "fighting",
+  "types": [
+    "steel",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 62,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 100,
+    "special_defence": 50,
+    "speed": 88
+  },
+  "baseStatTotal": 400,
+  "abilities": [
+    "justified",
+    "quickdraw"
+  ],
+  "hiddenAbilities": [
+    "competitive"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.7,
+  "weight": 109.77,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A gunslinger Machine Digimon that excels at precise rapid fire.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "selfdestruct",
+        "level": 25
+      },
+      {
+        "moveId": "sonicboom",
+        "level": 27
+      },
+      {
+        "moveId": "metronome",
+        "level": 29
+      },
+      {
+        "moveId": "noretreat",
+        "level": 31
+      },
+      {
+        "moveId": "flashcannon",
+        "level": 33
+      },
+      {
+        "moveId": "aurasphere",
+        "level": 35
+      },
+      {
+        "moveId": "metalsound",
+        "level": 37
+      },
+      {
+        "moveId": "barrage",
+        "level": 39
+      },
+      {
+        "moveId": "bulletseed",
+        "level": 41
+      },
+      {
+        "moveId": "protect",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:megadramon",
+      "targetSlug": "megadramon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: steel_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:mametyramon",
+      "targetSlug": "mametyramon",
+      "summary": "Nivel · Nv. 43 · party_member",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:shootmon",
+      "targetSlug": "shootmon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: electric_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "toyagumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/revolmon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_sandy"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

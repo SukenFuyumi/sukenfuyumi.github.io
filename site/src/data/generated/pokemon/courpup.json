@@ -1,0 +1,246 @@
+{
+  "id": "cobblemon:courpup",
+  "namespace": "cobblemon",
+  "slug": "courpup",
+  "name": "Courpup",
+  "nationalPokedexNumber": 9999,
+  "primaryType": "steel",
+  "secondaryType": null,
+  "types": [
+    "steel"
+  ],
+  "baseStats": {
+    "hp": 71,
+    "attack": 65,
+    "defence": 63,
+    "special_attack": 93,
+    "special_defence": 89,
+    "speed": 70
+  },
+  "baseStatTotal": 451,
+  "abilities": [
+    "justified"
+  ],
+  "hiddenAbilities": [
+    "guarddog"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 17,
+  "eggCycles": 81,
+  "baseFriendship": 50,
+  "height": 2,
+  "weight": 130,
+  "maleRatio": 0.5,
+  "experienceGroup": "erratic",
+  "baseExperienceYield": 200,
+  "labels": [
+    "custom",
+    "legendary"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": null,
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "charm",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 1
+      },
+      {
+        "moveId": "quickattack",
+        "level": 5
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 8
+      },
+      {
+        "moveId": "snarl",
+        "level": 12
+      },
+      {
+        "moveId": "bite",
+        "level": 16
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 20
+      },
+      {
+        "moveId": "dig",
+        "level": 25
+      },
+      {
+        "moveId": "trailblaze",
+        "level": 30
+      },
+      {
+        "moveId": "crunch",
+        "level": 35
+      },
+      {
+        "moveId": "flashcannon",
+        "level": 40
+      },
+      {
+        "moveId": "reflect",
+        "level": 45
+      },
+      {
+        "moveId": "playrough",
+        "level": 45
+      },
+      {
+        "moveId": "wildcharge",
+        "level": 50
+      },
+      {
+        "moveId": "closecombat",
+        "level": 68
+      },
+      {
+        "moveId": "kingsshield",
+        "level": 100
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:zamazenta",
+      "targetSlug": "zamazenta",
+      "summary": "Nivel · Amistad 160+ · properties · (consume objeto sostenido)",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:zacian",
+      "targetSlug": "zacian",
+      "summary": "Nivel · Amistad 160+ · properties",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/courpup.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "rare",
+      "level": "25-32",
+      "timeRange": null,
+      "sourceId": "baby-legends"
+    }
+  ],
+  "sourceMods": [
+    "baby-legends"
+  ],
+  "primarySource": "baby-legends",
+  "provenance": {
+    "implemented": "baby-legends",
+    "name": "baby-legends",
+    "nationalPokedexNumber": "baby-legends",
+    "primaryType": "baby-legends",
+    "abilities": "baby-legends",
+    "pokedex": "baby-legends",
+    "baseStats": "baby-legends",
+    "evYield": "baby-legends",
+    "moves": "baby-legends",
+    "behaviour": "baby-legends",
+    "combat": "baby-legends",
+    "catchRate": "baby-legends",
+    "maleRatio": "baby-legends",
+    "shoulderMountable": "baby-legends",
+    "baseExperienceYield": "baby-legends",
+    "experienceGroup": "baby-legends",
+    "eggCycles": "baby-legends",
+    "eggGroups": "baby-legends",
+    "drops": "baby-legends",
+    "labels": "baby-legends",
+    "baseScale": "baby-legends",
+    "hitbox": "baby-legends",
+    "baseFriendship": "baby-legends",
+    "height": "baby-legends",
+    "weight": "baby-legends",
+    "evolutions": "baby-legends"
+  }
+}

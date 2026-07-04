@@ -1,0 +1,222 @@
+{
+  "id": "cobblemon:palmon",
+  "namespace": "cobblemon",
+  "slug": "palmon",
+  "name": "Palmon",
+  "nationalPokedexNumber": 2179,
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 60,
+    "defence": 35,
+    "special_attack": 55,
+    "special_defence": 30,
+    "speed": 30
+  },
+  "baseStatTotal": 295,
+  "abilities": [
+    "overgrow",
+    "naturalcure"
+  ],
+  "hiddenAbilities": [
+    "seedsower"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.91,
+  "weight": 9.07,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A cheery plant Digimon with hand-like fronds.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 12
+      },
+      {
+        "moveId": "growth",
+        "level": 14
+      },
+      {
+        "moveId": "vinewhip",
+        "level": 16
+      },
+      {
+        "moveId": "ingrain",
+        "level": 18
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 19
+      },
+      {
+        "moveId": "poisonsting",
+        "level": 21
+      },
+      {
+        "moveId": "sleeppowder",
+        "level": 22
+      },
+      {
+        "moveId": "synthesis",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:togemon",
+      "targetSlug": "togemon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:woodmon",
+      "targetSlug": "woodmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: leaf_stone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:kiwimon",
+      "targetSlug": "kiwimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: sharp_beak",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:numemon",
+      "targetSlug": "numemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: poison_barb",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:scumon",
+      "targetSlug": "scumon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: king_rocks",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "tanemon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/palmon.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

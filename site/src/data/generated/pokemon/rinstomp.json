@@ -1,0 +1,349 @@
+{
+  "id": "cobblemon:rinstomp",
+  "namespace": "cobblemon",
+  "slug": "rinstomp",
+  "name": "Rinstomp",
+  "nationalPokedexNumber": 1322,
+  "primaryType": "grass",
+  "secondaryType": "fighting",
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 64,
+    "attack": 95,
+    "defence": 78,
+    "special_attack": 56,
+    "special_defence": 58,
+    "speed": 54
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "overgrow"
+  ],
+  "hiddenAbilities": [
+    "ironfist"
+  ],
+  "eggGroups": [
+    "field",
+    "monster"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 13,
+  "weight": 1320,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 150,
+  "labels": [
+    "fakemon",
+    "aster"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Through evolution, it develops strong limbs that enable it to specialize in close combat. Its stomping can shake the land around it.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "needlearm",
+        "level": 0
+      },
+      {
+        "moveId": "pound",
+        "level": 0
+      },
+      {
+        "moveId": "leer",
+        "level": 0
+      },
+      {
+        "moveId": "leafage",
+        "level": 0
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 9
+      },
+      {
+        "moveId": "armthrust",
+        "level": 13
+      },
+      {
+        "moveId": "stunspore",
+        "level": 22
+      },
+      {
+        "moveId": "hornleech",
+        "level": 26
+      },
+      {
+        "moveId": "drainpunch",
+        "level": 30
+      },
+      {
+        "moveId": "curse",
+        "level": 35
+      },
+      {
+        "moveId": "wideguard",
+        "level": 40
+      },
+      {
+        "moveId": "poisonjab",
+        "level": 45
+      },
+      {
+        "moveId": "woodhammer",
+        "level": 50
+      },
+      {
+        "moveId": "headlongrush",
+        "level": 55
+      },
+      {
+        "moveId": "superpower",
+        "level": 60
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "circlethrow"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "drumbeating"
+      },
+      {
+        "moveId": "flareblitz"
+      },
+      {
+        "moveId": "spore"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "horndrill"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "leechseed"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "upperhand"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "grasspledge"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:gladiathorn",
+      "targetSlug": "gladiathorn",
+      "summary": "Nivel · Nv. 36",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "boxrin",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "flying",
+        "multiplier": 4
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/rinstomp.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "timeRange": "day",
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "preEvolution": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

@@ -1,0 +1,606 @@
+{
+  "id": "cobblemon:mareanie",
+  "namespace": "cobblemon",
+  "slug": "mareanie",
+  "name": "Mareanie",
+  "nationalPokedexNumber": 747,
+  "primaryType": "poison",
+  "secondaryType": "water",
+  "types": [
+    "poison",
+    "water"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 53,
+    "defence": 62,
+    "special_attack": 43,
+    "special_defence": 52,
+    "speed": 45
+  },
+  "baseStatTotal": 305,
+  "abilities": [
+    "merciless",
+    "limber"
+  ],
+  "hiddenAbilities": [
+    "regenerator"
+  ],
+  "eggGroups": [
+    "water_1"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 80,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 61,
+  "labels": [
+    "gen7"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Aside from its head, its body parts regenerate quickly if they're cut off. After a good night's sleep, Mareanie is back to normal.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "poisonsting",
+        "level": 1
+      },
+      {
+        "moveId": "peck",
+        "level": 1
+      },
+      {
+        "moveId": "wideguard",
+        "level": 5
+      },
+      {
+        "moveId": "bite",
+        "level": 10
+      },
+      {
+        "moveId": "venoshock",
+        "level": 15
+      },
+      {
+        "moveId": "recover",
+        "level": 20
+      },
+      {
+        "moveId": "pinmissile",
+        "level": 25
+      },
+      {
+        "moveId": "toxicspikes",
+        "level": 30
+      },
+      {
+        "moveId": "liquidation",
+        "level": 35
+      },
+      {
+        "moveId": "acidspray",
+        "level": 40
+      },
+      {
+        "moveId": "poisonjab",
+        "level": 45
+      },
+      {
+        "moveId": "toxic",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "spikecannon"
+      },
+      {
+        "moveId": "spitup"
+      },
+      {
+        "moveId": "stockpile"
+      },
+      {
+        "moveId": "swallow"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "brine"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "frostbreath"
+      },
+      {
+        "moveId": "gastroacid"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icespinner"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "pinmissile"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "toxicspikes"
+      },
+      {
+        "moveId": "venomdrench"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "gastroacid"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "swagger"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:toxapex",
+      "targetSlug": "toxapex",
+      "summary": "Nivel · Nv. 38",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/747.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_coast"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

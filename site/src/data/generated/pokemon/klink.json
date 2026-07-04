@@ -1,0 +1,727 @@
+{
+  "id": "cobblemon:klink",
+  "namespace": "cobblemon",
+  "slug": "klink",
+  "name": "Klink",
+  "nationalPokedexNumber": 599,
+  "primaryType": "steel",
+  "secondaryType": null,
+  "types": [
+    "steel"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 55,
+    "defence": 70,
+    "special_attack": 45,
+    "special_defence": 60,
+    "speed": 30
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "plus",
+    "minus"
+  ],
+  "hiddenAbilities": [
+    "clearbody"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "catchRate": 130,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 210,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "gen5"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "alatian",
+      "aspects": [
+        "alatian"
+      ],
+      "primaryType": "grass",
+      "secondaryType": null,
+      "types": [
+        "grass"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 30,
+        "attack": 70,
+        "defence": 55,
+        "special_attack": 45,
+        "special_defence": 60,
+        "speed": 40
+      },
+      "baseStatTotal": 300,
+      "abilities": [
+        "chlorophyll",
+        "motordrive"
+      ],
+      "hiddenAbilities": [
+        "levitate"
+      ],
+      "pokedexDescription": "It doens't have to spin its gears to generate energy as it feeds on sunlight, but it does it anyway.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "visegrip",
+            "level": 0
+          },
+          {
+            "moveId": "leafage",
+            "level": 0
+          },
+          {
+            "moveId": "bind",
+            "level": 4
+          },
+          {
+            "moveId": "gust",
+            "level": 8
+          },
+          {
+            "moveId": "rollout",
+            "level": 12
+          },
+          {
+            "moveId": "screech",
+            "level": 16
+          },
+          {
+            "moveId": "autotomize",
+            "level": 20
+          },
+          {
+            "moveId": "rapidspin",
+            "level": 22
+          },
+          {
+            "moveId": "bulletseed",
+            "level": 24
+          },
+          {
+            "moveId": "growth",
+            "level": 28
+          },
+          {
+            "moveId": "geargrind",
+            "level": 32
+          },
+          {
+            "moveId": "lockon",
+            "level": 36
+          },
+          {
+            "moveId": "shiftgear",
+            "level": 40
+          },
+          {
+            "moveId": "woodhammer",
+            "level": 44
+          },
+          {
+            "moveId": "acrobatics",
+            "level": 48
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "leafblade"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "solarblade"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "tutor": [],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 2
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ground",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:klang",
+          "targetSlug": "klang-alatian",
+          "summary": "Nivel · Nv. 38 · variante alatian",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "klink-alatian"
+    }
+  ],
+  "pokedexDescription": "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "visegrip",
+        "level": 1
+      },
+      {
+        "moveId": "thundershock",
+        "level": 1
+      },
+      {
+        "moveId": "mirrorshot",
+        "level": 1
+      },
+      {
+        "moveId": "bind",
+        "level": 4
+      },
+      {
+        "moveId": "charge",
+        "level": 8
+      },
+      {
+        "moveId": "chargebeam",
+        "level": 12
+      },
+      {
+        "moveId": "metalsound",
+        "level": 16
+      },
+      {
+        "moveId": "autotomize",
+        "level": 20
+      },
+      {
+        "moveId": "discharge",
+        "level": 24
+      },
+      {
+        "moveId": "screech",
+        "level": 28
+      },
+      {
+        "moveId": "geargrind",
+        "level": 32
+      },
+      {
+        "moveId": "lockon",
+        "level": 36
+      },
+      {
+        "moveId": "shiftgear",
+        "level": 40
+      },
+      {
+        "moveId": "zapcannon",
+        "level": 44
+      },
+      {
+        "moveId": "hyperbeam",
+        "level": 48
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "metalsound"
+      },
+      {
+        "moveId": "powergem"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "risingvoltage"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "steelbeam"
+      },
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "voltswitch"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "risingvoltage"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "steelbeam"
+      },
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:klang",
+      "targetSlug": "klang",
+      "summary": "Nivel · Nv. 38",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/599.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "features": "cobblemon-afp",
+    "forms": "cobblemon-afp"
+  }
+}

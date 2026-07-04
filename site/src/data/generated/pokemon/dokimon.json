@@ -1,0 +1,157 @@
+{
+  "id": "cobblemon:dokimon",
+  "namespace": "cobblemon",
+  "slug": "dokimon",
+  "name": "Dokimon",
+  "nationalPokedexNumber": 2090,
+  "primaryType": "electric",
+  "secondaryType": null,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 25,
+    "defence": 30,
+    "special_attack": 15,
+    "special_defence": 30,
+    "speed": 20
+  },
+  "baseStatTotal": 150,
+  "abilities": [
+    "static",
+    "static"
+  ],
+  "hiddenAbilities": [
+    "synchronize"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 150,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.2,
+  "weight": 1.81,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 30,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A tiny Digimon born from corrupted data, with a glitchy body.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 2
+      },
+      {
+        "moveId": "nuzzle",
+        "level": 3
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:bibimon",
+      "targetSlug": "bibimon",
+      "summary": "Nivel · Nv. 4",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:puyoyomon",
+      "targetSlug": "puyoyomon",
+      "summary": "Nivel · Nv. 4 · attack_defence_ratio",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:tsumemon",
+      "targetSlug": "tsumemon",
+      "summary": "Nivel · Nv. 4 · attack_defence_ratio",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/dokimon.png",
+    "placeholderColor": "#F7D02C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_grassland"
+      ],
+      "bucket": "rare",
+      "level": "1-8",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

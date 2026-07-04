@@ -1,0 +1,192 @@
+{
+  "id": "cobblemon:kotora",
+  "namespace": "cobblemon",
+  "slug": "kotora",
+  "name": "Kotora",
+  "nationalPokedexNumber": 1032,
+  "primaryType": "electric",
+  "secondaryType": "fairy",
+  "types": [
+    "electric",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 45,
+    "defence": 35,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 85
+  },
+  "baseStatTotal": 290,
+  "abilities": [
+    "guts",
+    "scrappy"
+  ],
+  "hiddenAbilities": [
+    "hustle"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "catchRate": 200,
+  "eggCycles": 15,
+  "baseFriendship": 70,
+  "height": 1,
+  "weight": 25,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "normal",
+      "aspects": [],
+      "primaryType": "electric",
+      "secondaryType": null,
+      "types": [
+        "electric"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": null,
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "growl",
+            "level": 1
+          }
+        ],
+        "egg": [],
+        "tm": [],
+        "tutor": [],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "kotora-normal"
+    }
+  ],
+  "pokedexDescription": null,
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "growl",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/kotora.png",
+    "placeholderColor": "#F7D02C"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-rlm"
+  ],
+  "primarySource": "cobblemon-rlm",
+  "provenance": {
+    "implemented": "cobblemon-rlm",
+    "name": "cobblemon-rlm",
+    "nationalPokedexNumber": "cobblemon-rlm",
+    "labels": "cobblemon-rlm",
+    "pokedex": "cobblemon-rlm",
+    "height": "cobblemon-rlm",
+    "weight": "cobblemon-rlm",
+    "features": "cobblemon-rlm",
+    "forms": "cobblemon-rlm",
+    "shoulderMountable": "cobblemon-rlm",
+    "shoulderEffects": "cobblemon-rlm",
+    "primaryType": "cobblemon-rlm",
+    "secondaryType": "cobblemon-rlm",
+    "baseStats": "cobblemon-rlm",
+    "catchRate": "cobblemon-rlm",
+    "maleRatio": "cobblemon-rlm",
+    "baseExperienceYield": "cobblemon-rlm",
+    "experienceGroup": "cobblemon-rlm",
+    "eggCycles": "cobblemon-rlm",
+    "eggGroups": "cobblemon-rlm",
+    "baseFriendship": "cobblemon-rlm",
+    "evYield": "cobblemon-rlm",
+    "moves": "cobblemon-rlm",
+    "abilities": "cobblemon-rlm",
+    "baseScale": "cobblemon-rlm",
+    "hitbox": "cobblemon-rlm",
+    "drops": "cobblemon-rlm",
+    "behaviour": "cobblemon-rlm"
+  }
+}

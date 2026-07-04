@@ -1,0 +1,1761 @@
+{
+  "id": "cobblemon:shiinotic",
+  "namespace": "cobblemon",
+  "slug": "shiinotic",
+  "name": "Shiinotic",
+  "nationalPokedexNumber": 756,
+  "primaryType": "grass",
+  "secondaryType": "fairy",
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 45,
+    "defence": 80,
+    "special_attack": 90,
+    "special_defence": 100,
+    "speed": 30
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "illuminate",
+    "effectspore"
+  ],
+  "hiddenAbilities": [
+    "raindish"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "catchRate": 75,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 10,
+  "weight": 115,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 142,
+  "labels": [
+    "gen7"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Crimson",
+      "aspects": [
+        "crimson"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "fire",
+      "types": [
+        "grass",
+        "fire"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 70,
+        "attack": 45,
+        "defence": 100,
+        "special_attack": 95,
+        "special_defence": 80,
+        "speed": 45
+      },
+      "baseStatTotal": 435,
+      "abilities": [
+        "tanglinghair",
+        "wellbakedbody"
+      ],
+      "hiddenAbilities": [
+        "chlorophyll"
+      ],
+      "pokedexDescription": "This Shiinotic has evolved to match the Crimson Forest it lives in. The vines hanging from its mushroom cap are specialized to absorb heat from the Nether air, powering the Pokémon's inner light. It fires beams of light from its mushroom cap to burn its foes.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "absorb",
+            "level": 1
+          },
+          {
+            "moveId": "ember",
+            "level": 1
+          },
+          {
+            "moveId": "astonish",
+            "level": 1
+          },
+          {
+            "moveId": "confuseray",
+            "level": 1
+          },
+          {
+            "moveId": "spotlight",
+            "level": 1
+          },
+          {
+            "moveId": "ingrain",
+            "level": 1
+          },
+          {
+            "moveId": "flash",
+            "level": 1
+          },
+          {
+            "moveId": "nightlight",
+            "level": 1
+          },
+          {
+            "moveId": "megadrain",
+            "level": 12
+          },
+          {
+            "moveId": "willowisp",
+            "level": 16
+          },
+          {
+            "moveId": "morningsun",
+            "level": 20
+          },
+          {
+            "moveId": "strengthsap",
+            "level": 27
+          },
+          {
+            "moveId": "gigadrain",
+            "level": 32
+          },
+          {
+            "moveId": "flameburst",
+            "level": 38
+          },
+          {
+            "moveId": "spore",
+            "level": 44
+          },
+          {
+            "moveId": "morningglory",
+            "level": 50
+          },
+          {
+            "moveId": "flamethrower",
+            "level": 56
+          },
+          {
+            "moveId": "solarbeam",
+            "level": 72
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "growth"
+          },
+          {
+            "moveId": "leechseed"
+          },
+          {
+            "moveId": "poisonpowder"
+          },
+          {
+            "moveId": "spotlight"
+          },
+          {
+            "moveId": "stunspore"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "amnesia"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "drainpunch"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "firespin"
+          },
+          {
+            "moveId": "flamecharge"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "incinerate"
+          },
+          {
+            "moveId": "lightpulse"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "morningglory"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "nightlight"
+          },
+          {
+            "moveId": "pollenpuff"
+          },
+          {
+            "moveId": "powerblast"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "starshower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunderwave"
+          },
+          {
+            "moveId": "weatherball"
+          },
+          {
+            "moveId": "willowisp"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "grass",
+            "multiplier": 0.25
+          },
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "shiinotic-crimson"
+    },
+    {
+      "name": "Warped",
+      "aspects": [
+        "warped"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "psychic",
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 70,
+        "attack": 30,
+        "defence": 80,
+        "special_attack": 100,
+        "special_defence": 100,
+        "speed": 55
+      },
+      "baseStatTotal": 435,
+      "abilities": [
+        "wonderskin",
+        "wellbakedbody"
+      ],
+      "hiddenAbilities": [
+        "contrary"
+      ],
+      "pokedexDescription": "This Shiinotic has evolved to match the Warped Forest it lives in. It lures in prey with its hypnotic lights, before coating them in mind-controlling spores.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "absorb",
+            "level": 1
+          },
+          {
+            "moveId": "confusion",
+            "level": 1
+          },
+          {
+            "moveId": "astonish",
+            "level": 1
+          },
+          {
+            "moveId": "confuseray",
+            "level": 1
+          },
+          {
+            "moveId": "ingrain",
+            "level": 1
+          },
+          {
+            "moveId": "spotlight",
+            "level": 1
+          },
+          {
+            "moveId": "flash",
+            "level": 1
+          },
+          {
+            "moveId": "nightlight",
+            "level": 1
+          },
+          {
+            "moveId": "megadrain",
+            "level": 12
+          },
+          {
+            "moveId": "hypnosis",
+            "level": 16
+          },
+          {
+            "moveId": "moonlight",
+            "level": 20
+          },
+          {
+            "moveId": "strengthsap",
+            "level": 27
+          },
+          {
+            "moveId": "gigadrain",
+            "level": 32
+          },
+          {
+            "moveId": "extrasensory",
+            "level": 38
+          },
+          {
+            "moveId": "psychicsnap",
+            "level": 42
+          },
+          {
+            "moveId": "spore",
+            "level": 44
+          },
+          {
+            "moveId": "psychic",
+            "level": 50
+          },
+          {
+            "moveId": "wonderblast",
+            "level": 56
+          },
+          {
+            "moveId": "dreameater",
+            "level": 62
+          },
+          {
+            "moveId": "hypnoblast",
+            "level": 68
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "growth"
+          },
+          {
+            "moveId": "leechseed"
+          },
+          {
+            "moveId": "poisonpowder"
+          },
+          {
+            "moveId": "spotlight"
+          },
+          {
+            "moveId": "stunspore"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "amnesia"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "drainpunch"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypnoblast"
+          },
+          {
+            "moveId": "leafstorm"
+          },
+          {
+            "moveId": "lightpulse"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magicbeam"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "magicroom"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "nightlight"
+          },
+          {
+            "moveId": "pollenpuff"
+          },
+          {
+            "moveId": "powerblast"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicnoise"
+          },
+          {
+            "moveId": "psychicsnap"
+          },
+          {
+            "moveId": "psychicterrain"
+          },
+          {
+            "moveId": "psyshock"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "starshower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunderwave"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "weatherball"
+          },
+          {
+            "moveId": "wonderblast"
+          },
+          {
+            "moveId": "wonderroom"
+          },
+          {
+            "moveId": "worryseed"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "drainpunch"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "magicroom"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "wonderroom"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 4
+          },
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ground",
+            "multiplier": 0.5
+          },
+          {
+            "type": "psychic",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "shiinotic-warped"
+    },
+    {
+      "name": "Neuron",
+      "aspects": [
+        "neuron"
+      ],
+      "primaryType": "electric",
+      "secondaryType": "fairy",
+      "types": [
+        "electric",
+        "fairy"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": [
+        "illuminate",
+        "static"
+      ],
+      "hiddenAbilities": [
+        "telepathy"
+      ],
+      "pokedexDescription": "This Shiinotic's braincells have developed so much that its brain took over its entire cap. However, they emit more light than they make it smarter.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "absorb",
+            "level": 1
+          },
+          {
+            "moveId": "astonish",
+            "level": 1
+          },
+          {
+            "moveId": "thundershock",
+            "level": 1
+          },
+          {
+            "moveId": "confusion",
+            "level": 1
+          },
+          {
+            "moveId": "ingrain",
+            "level": 1
+          },
+          {
+            "moveId": "flash",
+            "level": 1
+          },
+          {
+            "moveId": "confuseray",
+            "level": 1
+          },
+          {
+            "moveId": "spotlight",
+            "level": 1
+          },
+          {
+            "moveId": "megadrain",
+            "level": 12
+          },
+          {
+            "moveId": "hypnosis",
+            "level": 16
+          },
+          {
+            "moveId": "charge",
+            "level": 20
+          },
+          {
+            "moveId": "discharge",
+            "level": 27
+          },
+          {
+            "moveId": "gigadrain",
+            "level": 32
+          },
+          {
+            "moveId": "dazzlinggleam",
+            "level": 38
+          },
+          {
+            "moveId": "electricterrain",
+            "level": 44
+          },
+          {
+            "moveId": "thunderbolt",
+            "level": 50
+          },
+          {
+            "moveId": "thunder",
+            "level": 56
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "imprison"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "spotlight"
+          },
+          {
+            "moveId": "thunderwave"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "amnesia"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "drainpunch"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "futuresight"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "magicroom"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicterrain"
+          },
+          {
+            "moveId": "psyshock"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunderwave"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "weatherball"
+          },
+          {
+            "moveId": "wonderroom"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "drainpunch"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "magicroom"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psyshock"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "wonderroom"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "dragon"
+        ]
+      },
+      "evolutions": [],
+      "slug": "shiinotic-neuron"
+    }
+  ],
+  "pokedexDescription": "When it starts fighting for territory with Parasect, the entire area gets completely coated in spores!",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "absorb",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "ingrain",
+        "level": 1
+      },
+      {
+        "moveId": "flash",
+        "level": 1
+      },
+      {
+        "moveId": "confuseray",
+        "level": 1
+      },
+      {
+        "moveId": "spotlight",
+        "level": 1
+      },
+      {
+        "moveId": "megadrain",
+        "level": 12
+      },
+      {
+        "moveId": "sleeppowder",
+        "level": 16
+      },
+      {
+        "moveId": "moonlight",
+        "level": 20
+      },
+      {
+        "moveId": "strengthsap",
+        "level": 27
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 32
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 38
+      },
+      {
+        "moveId": "nightlight",
+        "level": 38
+      },
+      {
+        "moveId": "spore",
+        "level": 44
+      },
+      {
+        "moveId": "moonblast",
+        "level": 50
+      },
+      {
+        "moveId": "dreameater",
+        "level": 56
+      },
+      {
+        "moveId": "flashbang",
+        "level": 62
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "growth"
+      },
+      {
+        "moveId": "leechseed"
+      },
+      {
+        "moveId": "poisonpowder"
+      },
+      {
+        "moveId": "spotlight"
+      },
+      {
+        "moveId": "stunspore"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypnoblast"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "pollenpuff"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "spiritdrain"
+      },
+      {
+        "moveId": "starshower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "morelull-neuron",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "poison",
+        "multiplier": 4
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/756.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_mushroom"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_lush"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_fungus"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_crimson"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_warped"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_warped"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_crimson"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_mushroom"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_lush"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_fungus"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "24-41",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-fakemon-pack",
+    "fanmade-form-funfair",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "lightingData": "cobblemon-core",
+    "forms": "fanmade-form-funfair",
+    "features": "fanmade-form-funfair"
+  }
+}

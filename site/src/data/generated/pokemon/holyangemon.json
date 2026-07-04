@@ -1,0 +1,193 @@
+{
+  "id": "cobblemon:holyangemon",
+  "namespace": "cobblemon",
+  "slug": "holyangemon",
+  "name": "Holyangemon",
+  "nationalPokedexNumber": 2026,
+  "primaryType": "flying",
+  "secondaryType": "fighting",
+  "types": [
+    "flying",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 82,
+    "attack": 115,
+    "defence": 90,
+    "special_attack": 70,
+    "special_defence": 110,
+    "speed": 55
+  },
+  "baseStatTotal": 522,
+  "abilities": [
+    "justified",
+    "sharpness"
+  ],
+  "hiddenAbilities": [
+    "serenegrace"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.01,
+  "weight": 81.2,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "An Archangel Digimon with eight shining, silver wings. Holy Angemon's mission in the Digital World is to act as a law enforcement officer,",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "defog",
+        "level": 44
+      },
+      {
+        "moveId": "rollingkick",
+        "level": 47
+      },
+      {
+        "moveId": "airslash",
+        "level": 50
+      },
+      {
+        "moveId": "healpulse",
+        "level": 54
+      },
+      {
+        "moveId": "acrobatics",
+        "level": 57
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 61
+      },
+      {
+        "moveId": "roost",
+        "level": 66
+      },
+      {
+        "moveId": "sacredsword",
+        "level": 70
+      },
+      {
+        "moveId": "psychocut",
+        "level": 75
+      },
+      {
+        "moveId": "solarblade",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "angemon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/holyangemon.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_floral",
+        "#cobblemon:is_sky",
+        "#cobblemon:is_end"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "secondaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

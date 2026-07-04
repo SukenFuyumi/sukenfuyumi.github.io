@@ -1,0 +1,250 @@
+{
+  "id": "cobblemon:kakuna",
+  "namespace": "cobblemon",
+  "slug": "kakuna",
+  "name": "Kakuna",
+  "nationalPokedexNumber": 14,
+  "primaryType": "bug",
+  "secondaryType": "poison",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 25,
+    "defence": 50,
+    "special_attack": 25,
+    "special_defence": 25,
+    "speed": 35
+  },
+  "baseStatTotal": 205,
+  "abilities": [
+    "shedskin",
+    "poisonpoint"
+  ],
+  "hiddenAbilities": [
+    "anticipation"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 120,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 100,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 72,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "harden",
+        "level": 1
+      },
+      {
+        "moveId": "poisonsting",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "stringshot"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:beedrill",
+      "targetSlug": "beedrill",
+      "summary": "Nivel · Nv. 10",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "weedle",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle",
+        "aether:skyroot_forest",
+        "aether:skyroot_woodland"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#the_bumblezone:the_bumblezone"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle",
+        "aether:skyroot_forest",
+        "aether:skyroot_woodland"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#the_bumblezone:the_bumblezone"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

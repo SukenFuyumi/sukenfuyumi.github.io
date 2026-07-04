@@ -1,0 +1,203 @@
+{
+  "id": "cobblemon:darktyrannomon",
+  "namespace": "cobblemon",
+  "slug": "darktyrannomon",
+  "name": "Darktyrannomon",
+  "nationalPokedexNumber": 2132,
+  "primaryType": "dark",
+  "secondaryType": "fighting",
+  "types": [
+    "dark",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 73,
+    "attack": 115,
+    "defence": 60,
+    "special_attack": 40,
+    "special_defence": 52,
+    "speed": 60
+  },
+  "baseStatTotal": 400,
+  "abilities": [
+    "intimidate",
+    "moldbreaker"
+  ],
+  "hiddenAbilities": [
+    "moxie"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.11,
+  "weight": 111.6,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A corrupted tyrant that revels in destruction.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "ember",
+        "level": 25
+      },
+      {
+        "moveId": "pursuit",
+        "level": 27
+      },
+      {
+        "moveId": "smokescreen",
+        "level": 29
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 31
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 33
+      },
+      {
+        "moveId": "bite",
+        "level": 35
+      },
+      {
+        "moveId": "submission",
+        "level": 37
+      },
+      {
+        "moveId": "nightslash",
+        "level": 39
+      },
+      {
+        "moveId": "dragontail",
+        "level": 41
+      },
+      {
+        "moveId": "takedown",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:metaltyrannomon",
+      "targetSlug": "metaltyrannomon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: steel_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:skullgreymon",
+      "targetSlug": "skullgreymon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: ghost_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "sunarizamon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 4
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.25
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/darktyrannomon.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_volcanic",
+        "#cobblemon:is_nether_wasteland",
+        "#cobblemon:nether"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

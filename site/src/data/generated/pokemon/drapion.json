@@ -1,0 +1,613 @@
+{
+  "id": "cobblemon:drapion",
+  "namespace": "cobblemon",
+  "slug": "drapion",
+  "name": "Drapion",
+  "nationalPokedexNumber": 452,
+  "primaryType": "poison",
+  "secondaryType": "dark",
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 90,
+    "defence": 110,
+    "special_attack": 60,
+    "special_defence": 75,
+    "speed": 95
+  },
+  "baseStatTotal": 500,
+  "abilities": [
+    "battlearmor",
+    "sniper"
+  ],
+  "hiddenAbilities": [
+    "keeneye"
+  ],
+  "eggGroups": [
+    "bug",
+    "water_3"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 13,
+  "weight": 615,
+  "maleRatio": 0.5,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 175,
+  "labels": [
+    "gen4"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "thunderfang",
+        "level": 1
+      },
+      {
+        "moveId": "icefang",
+        "level": 1
+      },
+      {
+        "moveId": "firefang",
+        "level": 1
+      },
+      {
+        "moveId": "poisonsting",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "pursuit",
+        "level": 1
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 1
+      },
+      {
+        "moveId": "fellstinger",
+        "level": 1
+      },
+      {
+        "moveId": "poisonfang",
+        "level": 9
+      },
+      {
+        "moveId": "bite",
+        "level": 12
+      },
+      {
+        "moveId": "toxicspikes",
+        "level": 15
+      },
+      {
+        "moveId": "bugbite",
+        "level": 18
+      },
+      {
+        "moveId": "venoshock",
+        "level": 21
+      },
+      {
+        "moveId": "knockoff",
+        "level": 24
+      },
+      {
+        "moveId": "scaryface",
+        "level": 27
+      },
+      {
+        "moveId": "pinmissile",
+        "level": 30
+      },
+      {
+        "moveId": "toxic",
+        "level": 33
+      },
+      {
+        "moveId": "nightslash",
+        "level": 36
+      },
+      {
+        "moveId": "crosspoison",
+        "level": 39
+      },
+      {
+        "moveId": "xscissor",
+        "level": 44
+      },
+      {
+        "moveId": "acupressure",
+        "level": 49
+      },
+      {
+        "moveId": "crunch",
+        "level": 54
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "feintattack"
+      },
+      {
+        "moveId": "pursuit"
+      },
+      {
+        "moveId": "sandattack"
+      },
+      {
+        "moveId": "slash"
+      },
+      {
+        "moveId": "twineedle"
+      },
+      {
+        "moveId": "whirlwind"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "crosspoison"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "pinmissile"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "poisontail"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "rockclimb"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "sandtomb"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "toxicspikes"
+      },
+      {
+        "moveId": "venomdrench"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "skorupi",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/452.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_badlands",
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "common",
+      "level": "40-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "40-50",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_badlands",
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "common",
+      "level": "40-50",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

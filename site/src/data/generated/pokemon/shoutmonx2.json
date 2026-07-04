@@ -1,0 +1,206 @@
+{
+  "id": "cobblemon:shoutmonx2",
+  "namespace": "cobblemon",
+  "slug": "shoutmonx2",
+  "name": "Shoutmonx2",
+  "nationalPokedexNumber": 2141,
+  "primaryType": "dragon",
+  "secondaryType": "steel",
+  "types": [
+    "dragon",
+    "steel"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 80,
+    "defence": 70,
+    "special_attack": 80,
+    "special_defence": 65,
+    "speed": 40
+  },
+  "baseStatTotal": 400,
+  "abilities": [
+    "transistor",
+    "punkrock"
+  ],
+  "hiddenAbilities": [
+    "victorystar"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.01,
+  "weight": 267.17,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A fusion fighter whose rhythm fuels relentless combos.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "harden",
+        "level": 25
+      },
+      {
+        "moveId": "spark",
+        "level": 27
+      },
+      {
+        "moveId": "echoedvoice",
+        "level": 29
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 31
+      },
+      {
+        "moveId": "mirrorshot",
+        "level": 33
+      },
+      {
+        "moveId": "smartstrike",
+        "level": 35
+      },
+      {
+        "moveId": "hornattack",
+        "level": 37
+      },
+      {
+        "moveId": "dualchop",
+        "level": 39
+      },
+      {
+        "moveId": "metalsound",
+        "level": 41
+      },
+      {
+        "moveId": "heavyslam",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:shoutmonx3",
+      "targetSlug": "shoutmonx3",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: assault_vest",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "shoutmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/shoutmonx2.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_hills"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

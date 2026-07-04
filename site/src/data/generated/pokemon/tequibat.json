@@ -1,0 +1,340 @@
+{
+  "id": "cobblemon:tequibat",
+  "namespace": "cobblemon",
+  "slug": "tequibat",
+  "name": "Tequibat",
+  "nationalPokedexNumber": 1239,
+  "primaryType": "fairy",
+  "secondaryType": "flying",
+  "types": [
+    "fairy",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 40,
+    "defence": 30,
+    "special_attack": 40,
+    "special_defence": 35,
+    "speed": 45
+  },
+  "baseStatTotal": 245,
+  "abilities": [
+    "adaptability",
+    "gluttony"
+  ],
+  "hiddenAbilities": [
+    "frisk"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 2,
+  "weight": 52,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 70,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Its metabolism is unusual, as it consumes the pigment contained in fruits and vegetables instead of the food itself. When it's hungry it turns pale.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bugbite",
+        "level": 0
+      },
+      {
+        "moveId": "gust",
+        "level": 0
+      },
+      {
+        "moveId": "naturalgift",
+        "level": 0
+      },
+      {
+        "moveId": "fairywind",
+        "level": 0
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 0
+      },
+      {
+        "moveId": "quickattack",
+        "level": 7
+      },
+      {
+        "moveId": "drainingkiss",
+        "level": 12
+      },
+      {
+        "moveId": "bulletseed",
+        "level": 16
+      },
+      {
+        "moveId": "fling",
+        "level": 20
+      },
+      {
+        "moveId": "aerialace",
+        "level": 24
+      },
+      {
+        "moveId": "healpulse",
+        "level": 28
+      },
+      {
+        "moveId": "reflecttype",
+        "level": 32
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "belch"
+      },
+      {
+        "moveId": "mirrorcoat"
+      },
+      {
+        "moveId": "poisonfang"
+      },
+      {
+        "moveId": "stuffcheeks"
+      },
+      {
+        "moveId": "thief"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "dragoncheer"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "leechseed"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "metalclaw"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "weatherball"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "hypnosis"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:chiroquila",
+      "targetSlug": "chiroquila",
+      "summary": "Nivel · Nv. 25",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon",
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/tequibat.png",
+    "placeholderColor": "#D685AD"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_tropical"
+      ],
+      "bucket": "common",
+      "level": "11-36",
+      "timeRange": "day",
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "terralith:desert_oasis"
+      ],
+      "bucket": "common",
+      "level": "11-36",
+      "timeRange": "day",
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

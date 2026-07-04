@@ -1,0 +1,409 @@
+{
+  "id": "cobblemon:sizzlipede",
+  "namespace": "cobblemon",
+  "slug": "sizzlipede",
+  "name": "Sizzlipede",
+  "nationalPokedexNumber": 850,
+  "primaryType": "fire",
+  "secondaryType": "bug",
+  "types": [
+    "fire",
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 45,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 45
+  },
+  "baseStatTotal": 305,
+  "abilities": [
+    "flashfire",
+    "whitesmoke"
+  ],
+  "hiddenAbilities": [
+    "flamebody"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 7,
+  "weight": 10,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 61,
+  "labels": [
+    "gen8"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "ember",
+        "level": 1
+      },
+      {
+        "moveId": "smokescreen",
+        "level": 1
+      },
+      {
+        "moveId": "wrap",
+        "level": 5
+      },
+      {
+        "moveId": "bite",
+        "level": 10
+      },
+      {
+        "moveId": "flamewheel",
+        "level": 15
+      },
+      {
+        "moveId": "bugbite",
+        "level": 20
+      },
+      {
+        "moveId": "coil",
+        "level": 25
+      },
+      {
+        "moveId": "slam",
+        "level": 30
+      },
+      {
+        "moveId": "firespin",
+        "level": 35
+      },
+      {
+        "moveId": "crunch",
+        "level": 40
+      },
+      {
+        "moveId": "firelash",
+        "level": 45
+      },
+      {
+        "moveId": "lunge",
+        "level": 50
+      },
+      {
+        "moveId": "burnup",
+        "level": 55
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "defensecurl"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "strugglebug"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firespin"
+      },
+      {
+        "moveId": "heatcrash"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "powerwhip"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "venoshock"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:centiskorch",
+      "targetSlug": "centiskorch",
+      "summary": "Nivel · Nv. 28",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "rock",
+        "multiplier": 4
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/850.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_badlands",
+        "#cobblemon:is_volcanic"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_basalt"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_wasteland"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_badlands",
+        "#cobblemon:is_volcanic"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_basalt"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_wasteland"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "lightingData": "cobblemon-core"
+  }
+}

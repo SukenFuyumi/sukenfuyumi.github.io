@@ -1,0 +1,41 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import abilities from "../../data/generated/abilities.json";
+import sourcesData from "../../data/generated/sources.json";
+
+export async function getStaticPaths() {
+  return abilities.map((a: any) => ({ params: { id: a.id }, props: { a } }));
+}
+const { a } = Astro.props as { a: any };
+const sourceLookup = new Map(sourcesData.sources.map((s: any) => [s.id, s.label]));
+---
+<Layout title={a.name}>
+  <div class="breadcrumb"><a href="/abilities">Habilidades</a> &rsaquo; {a.name}</div>
+  <div class="panel">
+    <h1 style="margin-top:0;">
+      {a.name}
+      {a.isOverride && <span class="pill override">modificada por {sourceLookup.get(a.sourceId) ?? a.sourceId}</span>}
+    </h1>
+    <p>{a.desc || a.shortDesc || "Sin descripción disponible."}</p>
+    {a.immuneTo?.[0] === "*" && <p><span class="pill override">Inmune a cualquier movimiento que no sea supereficaz</span></p>}
+    {a.immuneTo?.length > 0 && a.immuneTo[0] !== "*" && (
+      <p>
+        Inmune a:{" "}
+        {a.immuneTo.map((t: string) => (
+          <a href={`/type/${t}`} class="type-badge" style={`background:var(--type-${t}); margin-right:0.25rem;`}>{t}</a>
+        ))}
+      </p>
+    )}
+  </div>
+
+  {a.grantedTo?.length > 0 && (
+    <div class="panel" style="margin-top:1.25rem;">
+      <h2 style="margin-top:0;">Quién la tiene ({a.grantedTo.length})</h2>
+      <div style="display:flex; flex-wrap:wrap; gap:0.4rem;">
+        {a.grantedTo.map((g: any) => (
+          <a class="pill" href={`/pokedex/${g.slug}`}>{g.name}{g.hidden ? " (oculta)" : ""}</a>
+        ))}
+      </div>
+    </div>
+  )}
+</Layout>

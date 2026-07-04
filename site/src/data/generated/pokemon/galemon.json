@@ -1,0 +1,200 @@
+{
+  "id": "cobblemon:galemon",
+  "namespace": "cobblemon",
+  "slug": "galemon",
+  "name": "Galemon",
+  "nationalPokedexNumber": 2075,
+  "primaryType": "flying",
+  "secondaryType": "dragon",
+  "types": [
+    "flying",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 105,
+    "special_defence": 60,
+    "speed": 90
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "keeneye",
+    "galewings"
+  ],
+  "hiddenAbilities": [
+    "aerilate"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.11,
+  "weight": 66.22,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Dragon Bird Digimon radiating authority and might.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "twister",
+        "level": 25
+      },
+      {
+        "moveId": "quickattack",
+        "level": 27
+      },
+      {
+        "moveId": "airslash",
+        "level": 29
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 31
+      },
+      {
+        "moveId": "cut",
+        "level": 33
+      },
+      {
+        "moveId": "whirlwind",
+        "level": 35
+      },
+      {
+        "moveId": "agility",
+        "level": 37
+      },
+      {
+        "moveId": "wingattack",
+        "level": 39
+      },
+      {
+        "moveId": "featherdance",
+        "level": 41
+      },
+      {
+        "moveId": "tailwind",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:grandgalemon",
+      "targetSlug": "grandgalemon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: power_weight",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "pteromon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/galemon.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_sky",
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

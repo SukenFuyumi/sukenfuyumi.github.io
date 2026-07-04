@@ -1,0 +1,200 @@
+{
+  "id": "cobblemon:shawujinmon",
+  "namespace": "cobblemon",
+  "slug": "shawujinmon",
+  "name": "Shawujinmon",
+  "nationalPokedexNumber": 2066,
+  "primaryType": "water",
+  "secondaryType": "fighting",
+  "types": [
+    "water",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 115,
+    "defence": 73,
+    "special_attack": 97,
+    "special_defence": 86,
+    "speed": 82
+  },
+  "baseStatTotal": 523,
+  "abilities": [
+    "waterveil",
+    "innerfocus"
+  ],
+  "hiddenAbilities": [
+    "swiftswim"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.01,
+  "weight": 65,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A warrior monk Digimon that channels water into disciplined martial arts.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "workup",
+        "level": 44
+      },
+      {
+        "moveId": "vacuumwave",
+        "level": 47
+      },
+      {
+        "moveId": "waterpulse",
+        "level": 50
+      },
+      {
+        "moveId": "heavyslam",
+        "level": 54
+      },
+      {
+        "moveId": "flipturn",
+        "level": 57
+      },
+      {
+        "moveId": "brickbreak",
+        "level": 61
+      },
+      {
+        "moveId": "waterpledge",
+        "level": 66
+      },
+      {
+        "moveId": "counter",
+        "level": 70
+      },
+      {
+        "moveId": "raindance",
+        "level": 75
+      },
+      {
+        "moveId": "wavecrash",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "gawappamon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/shawujinmon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_cherry_blossom"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

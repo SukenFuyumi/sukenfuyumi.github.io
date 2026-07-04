@@ -1,0 +1,9 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import TeamBuilder from "../../components/TeamBuilder.tsx";
+---
+<Layout title="Mi equipo">
+  <h1>Arma tu equipo</h1>
+  <p>Elige hasta 8 Pokémon del servidor y genera una imagen para compartir. Tu equipo se guarda en este navegador.</p>
+  <TeamBuilder client:load />
+</Layout>

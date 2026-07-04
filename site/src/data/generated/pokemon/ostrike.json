@@ -1,0 +1,502 @@
+{
+  "id": "cobblemon:ostrike",
+  "namespace": "cobblemon",
+  "slug": "ostrike",
+  "name": "Ostrike",
+  "nationalPokedexNumber": 20,
+  "primaryType": "fighting",
+  "secondaryType": "electric",
+  "types": [
+    "fighting",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 67,
+    "attack": 54,
+    "defence": 65,
+    "special_attack": 115,
+    "special_defence": 68,
+    "speed": 130
+  },
+  "baseStatTotal": 499,
+  "abilities": [
+    "speedboost"
+  ],
+  "hiddenAbilities": [
+    "noguard"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "catchRate": 120,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 18,
+  "weight": 852,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 119,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "When Ostrike runs, its legs move so fast they become a blur. Ostrikes can run so fast the very ground they run on smokes from the kinetic energy. Ostrikes inexplicably have the ability to walk right through a painted tunnel as if it was real. Scientists have zero idea how this could be possible.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 1
+      },
+      {
+        "moveId": "gust",
+        "level": 5
+      },
+      {
+        "moveId": "sandattack",
+        "level": 7
+      },
+      {
+        "moveId": "chargebeam",
+        "level": 12
+      },
+      {
+        "moveId": "wingattack",
+        "level": 14
+      },
+      {
+        "moveId": "reversal",
+        "level": 18
+      },
+      {
+        "moveId": "mindreader",
+        "level": 22
+      },
+      {
+        "moveId": "electroball",
+        "level": 29
+      },
+      {
+        "moveId": "jumpkick",
+        "level": 33
+      },
+      {
+        "moveId": "tailwind",
+        "level": 39
+      },
+      {
+        "moveId": "hypervoice",
+        "level": 45
+      },
+      {
+        "moveId": "thunder",
+        "level": 54
+      },
+      {
+        "moveId": "aurasphere",
+        "level": 60
+      },
+      {
+        "moveId": "extremespeed",
+        "level": 67
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "doublekick"
+      },
+      {
+        "moveId": "finalgambit"
+      },
+      {
+        "moveId": "quickattack"
+      },
+      {
+        "moveId": "skyuppercut"
+      },
+      {
+        "moveId": "tickle"
+      },
+      {
+        "moveId": "twister"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "aurasphere"
+      },
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "blazekick"
+      },
+      {
+        "moveId": "bravebird"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "eerieimpulse"
+      },
+      {
+        "moveId": "electricterrain"
+      },
+      {
+        "moveId": "electroball"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "flamecharge"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "lowsweep"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "overheat"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "pluck"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "risingvoltage"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "rockclimb"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "skyattack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "speedswap"
+      },
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "supercellslam"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "vacuumwave"
+      },
+      {
+        "moveId": "voltswitch"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "voltite",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/ostrike.png",
+    "placeholderColor": "#C22E28"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "uncommon",
+      "level": "34-45",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_badlands"
+      ],
+      "bucket": "common",
+      "level": "34-45",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "name": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "labels": "lively-mons",
+    "pokedex": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "preEvolution": "lively-mons",
+    "primaryType": "lively-mons",
+    "secondaryType": "lively-mons",
+    "baseStats": "lively-mons",
+    "catchRate": "lively-mons",
+    "maleRatio": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "eggCycles": "lively-mons",
+    "eggGroups": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "evYield": "lively-mons",
+    "moves": "lively-mons",
+    "abilities": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "drops": "lively-mons",
+    "behaviour": "lively-mons",
+    "riding": "lively-mons"
+  }
+}

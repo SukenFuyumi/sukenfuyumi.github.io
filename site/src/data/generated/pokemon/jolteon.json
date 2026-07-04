@@ -1,0 +1,1254 @@
+{
+  "id": "cobblemon:jolteon",
+  "namespace": "cobblemon",
+  "slug": "jolteon",
+  "name": "Jolteon",
+  "nationalPokedexNumber": 135,
+  "primaryType": "electric",
+  "secondaryType": null,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 110,
+    "special_defence": 95,
+    "speed": 130
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "voltabsorb",
+    "quickfeet"
+  ],
+  "hiddenAbilities": [
+    "electric-mastery"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 50,
+  "height": 8,
+  "weight": 245,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 184,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Kazeran",
+      "aspects": [
+        "kazeran"
+      ],
+      "primaryType": "electric",
+      "secondaryType": "ground",
+      "types": [
+        "electric",
+        "ground"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 60,
+        "attack": 65,
+        "defence": 95,
+        "special_attack": 110,
+        "special_defence": 65,
+        "speed": 130
+      },
+      "baseStatTotal": 525,
+      "abilities": [
+        "lightningrod",
+        "magneticflux"
+      ],
+      "hiddenAbilities": [
+        "sandrush"
+      ],
+      "pokedexDescription": "Adapted to the thunderous deserts of the Kazeran region, it has the ability to manipulate the iron found in small grains of sand to use as versatile weaponry, also making use of the magnetic fields in the area to levitate itself.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "shockwaveslam",
+            "level": 1
+          },
+          {
+            "moveId": "tailwhip",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "helpinghand",
+            "level": 1
+          },
+          {
+            "moveId": "thundershock",
+            "level": 1
+          },
+          {
+            "moveId": "swift",
+            "level": 1
+          },
+          {
+            "moveId": "covet",
+            "level": 1
+          },
+          {
+            "moveId": "bite",
+            "level": 1
+          },
+          {
+            "moveId": "copycat",
+            "level": 1
+          },
+          {
+            "moveId": "batonpass",
+            "level": 1
+          },
+          {
+            "moveId": "takedown",
+            "level": 1
+          },
+          {
+            "moveId": "charm",
+            "level": 1
+          },
+          {
+            "moveId": "doubleedge",
+            "level": 1
+          },
+          {
+            "moveId": "growl",
+            "level": 1
+          },
+          {
+            "moveId": "trumpcard",
+            "level": 1
+          },
+          {
+            "moveId": "refresh",
+            "level": 1
+          },
+          {
+            "moveId": "sandattack",
+            "level": 5
+          },
+          {
+            "moveId": "quickattack",
+            "level": 10
+          },
+          {
+            "moveId": "babydolleyes",
+            "level": 15
+          },
+          {
+            "moveId": "thunderwave",
+            "level": 20
+          },
+          {
+            "moveId": "mudbomb",
+            "level": 25
+          },
+          {
+            "moveId": "thunderfang",
+            "level": 30
+          },
+          {
+            "moveId": "pinmissile",
+            "level": 35
+          },
+          {
+            "moveId": "earthpower",
+            "level": 40
+          },
+          {
+            "moveId": "agility",
+            "level": 45
+          },
+          {
+            "moveId": "thunder",
+            "level": 50
+          },
+          {
+            "moveId": "lastresort",
+            "level": 55
+          },
+          {
+            "moveId": "earthquake",
+            "level": 60
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "detect"
+          },
+          {
+            "moveId": "doublekick"
+          },
+          {
+            "moveId": "flail"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "synchronoise"
+          },
+          {
+            "moveId": "tickle"
+          },
+          {
+            "moveId": "wish"
+          },
+          {
+            "moveId": "yawn"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "alluringvoice"
+          },
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "charge"
+          },
+          {
+            "moveId": "charm"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "dig"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "echoedvoice"
+          },
+          {
+            "moveId": "eerieimpulse"
+          },
+          {
+            "moveId": "electricterrain"
+          },
+          {
+            "moveId": "electroball"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "healbell"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "metalsound"
+          },
+          {
+            "moveId": "mudbomb"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "payday"
+          },
+          {
+            "moveId": "pinmissile"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "risingvoltage"
+          },
+          {
+            "moveId": "roar"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "strength"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunder"
+          },
+          {
+            "moveId": "thunderfang"
+          },
+          {
+            "moveId": "thunderwave"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "voltswitch"
+          },
+          {
+            "moveId": "weatherball"
+          },
+          {
+            "moveId": "wildcharge"
+          },
+          {
+            "moveId": "workup"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "healbell"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "mudbomb"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "risingvoltage"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "thunderfang"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "wildcharge"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "grass",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "water",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "electric"
+        ]
+      },
+      "evolutions": [],
+      "slug": "jolteon-kazeran"
+    }
+  ],
+  "pokedexDescription": "Jolteon's cells generate a low level of electricity. This power is amplified by the static electricity of its fur, enabling the Pokémon to drop thunderbolts. The bristling fur is made of electrically charged needles.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "buzzybuzz",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 1
+      },
+      {
+        "moveId": "thundershock",
+        "level": 1
+      },
+      {
+        "moveId": "swift",
+        "level": 1
+      },
+      {
+        "moveId": "covet",
+        "level": 1
+      },
+      {
+        "moveId": "bite",
+        "level": 1
+      },
+      {
+        "moveId": "copycat",
+        "level": 1
+      },
+      {
+        "moveId": "batonpass",
+        "level": 1
+      },
+      {
+        "moveId": "takedown",
+        "level": 1
+      },
+      {
+        "moveId": "charm",
+        "level": 1
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "trumpcard",
+        "level": 1
+      },
+      {
+        "moveId": "refresh",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 5
+      },
+      {
+        "moveId": "quickattack",
+        "level": 10
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 15
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 20
+      },
+      {
+        "moveId": "doublekick",
+        "level": 25
+      },
+      {
+        "moveId": "thunderfang",
+        "level": 30
+      },
+      {
+        "moveId": "pinmissile",
+        "level": 35
+      },
+      {
+        "moveId": "discharge",
+        "level": 40
+      },
+      {
+        "moveId": "agility",
+        "level": 45
+      },
+      {
+        "moveId": "thunder",
+        "level": 50
+      },
+      {
+        "moveId": "lastresort",
+        "level": 55
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "detect"
+      },
+      {
+        "moveId": "doublekick"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "synchronoise"
+      },
+      {
+        "moveId": "tickle"
+      },
+      {
+        "moveId": "wish"
+      },
+      {
+        "moveId": "yawn"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "boltbeam"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "eerieimpulse"
+      },
+      {
+        "moveId": "electricterrain"
+      },
+      {
+        "moveId": "electroball"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "metalsound"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "payday"
+      },
+      {
+        "moveId": "pinmissile"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "risingvoltage"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderclaw"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "voltswitch"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "wildcharge"
+      },
+      {
+        "moveId": "workup"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "risingvoltage"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "zapcannon"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "celebrate"
+      },
+      {
+        "moveId": "sing"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": "eevee",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_grassland"
+      ],
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_grassland"
+      ],
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "kazeran-eeveelutions",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "features": "kazeran-eeveelutions",
+    "forms": "kazeran-eeveelutions"
+  }
+}

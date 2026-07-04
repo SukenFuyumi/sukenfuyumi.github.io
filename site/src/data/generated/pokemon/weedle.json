@@ -1,0 +1,248 @@
+{
+  "id": "cobblemon:weedle",
+  "namespace": "cobblemon",
+  "slug": "weedle",
+  "name": "Weedle",
+  "nationalPokedexNumber": 13,
+  "primaryType": "bug",
+  "secondaryType": "poison",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 30,
+    "special_attack": 20,
+    "special_defence": 20,
+    "speed": 50
+  },
+  "baseStatTotal": 195,
+  "abilities": [
+    "shielddust",
+    "runaway"
+  ],
+  "hiddenAbilities": [
+    "rattled"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 255,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 32,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 39,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "poisonsting",
+        "level": 1
+      },
+      {
+        "moveId": "stringshot",
+        "level": 1
+      },
+      {
+        "moveId": "bugbite",
+        "level": 9
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "stringshot"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:kakuna",
+      "targetSlug": "kakuna",
+      "summary": "Nivel · Nv. 7",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle",
+        "aether:skyroot_forest",
+        "aether:skyroot_woodland"
+      ],
+      "bucket": "common",
+      "level": "1-20",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#the_bumblezone:the_bumblezone"
+      ],
+      "bucket": "common",
+      "level": "1-20",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "1-20",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "1-20",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle",
+        "aether:skyroot_forest",
+        "aether:skyroot_woodland"
+      ],
+      "bucket": "common",
+      "level": "1-20",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#the_bumblezone:the_bumblezone"
+      ],
+      "bucket": "common",
+      "level": "1-20",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

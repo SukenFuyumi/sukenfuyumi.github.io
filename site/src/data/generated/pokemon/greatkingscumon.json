@@ -1,0 +1,187 @@
+{
+  "id": "cobblemon:greatkingscumon",
+  "namespace": "cobblemon",
+  "slug": "greatkingscumon",
+  "name": "Greatkingscumon",
+  "nationalPokedexNumber": 2111,
+  "primaryType": "poison",
+  "secondaryType": null,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 90,
+    "defence": 85,
+    "special_attack": 105,
+    "special_defence": 82,
+    "speed": 73
+  },
+  "baseStatTotal": 515,
+  "abilities": [
+    "stench",
+    "liquidooze"
+  ],
+  "hiddenAbilities": [
+    "supremeoverlord"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.5,
+  "weight": 65,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A tyrant of filth that rules refuse heaps like a monarch.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "sludge",
+        "level": 44
+      },
+      {
+        "moveId": "mudshot",
+        "level": 47
+      },
+      {
+        "moveId": "venomdrench",
+        "level": 50
+      },
+      {
+        "moveId": "slackoff",
+        "level": 54
+      },
+      {
+        "moveId": "barrage",
+        "level": 57
+      },
+      {
+        "moveId": "muddywater",
+        "level": 61
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 66
+      },
+      {
+        "moveId": "mortalspin",
+        "level": 70
+      },
+      {
+        "moveId": "sludgewave",
+        "level": 75
+      },
+      {
+        "moveId": "skyattack",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "scumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/greatkingscumon.png",
+    "placeholderColor": "#A33EA1"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:forlorn_hollows"
+      ],
+      "bucket": "common",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

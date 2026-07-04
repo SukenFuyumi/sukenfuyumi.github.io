@@ -1,0 +1,220 @@
+{
+  "id": "cobblemon:sunflora#volcan",
+  "namespace": "cobblemon",
+  "slug": "sunflora-volcan",
+  "name": "Sunflora volcan",
+  "nationalPokedexNumber": 192,
+  "primaryType": "grass",
+  "secondaryType": "fire",
+  "types": [
+    "grass",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 85,
+    "defence": 85,
+    "special_attack": 85,
+    "special_defence": 85,
+    "speed": 115
+  },
+  "baseStatTotal": 500,
+  "abilities": [
+    "drought",
+    "chlorophyll"
+  ],
+  "hiddenAbilities": [
+    "contrary"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 8,
+  "weight": 85,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 149,
+  "labels": [
+    "gen2"
+  ],
+  "aspects": [
+    "rlm",
+    "volcan"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "Surprisingly, this Sunflora believes itself to be Groudon's best friend, claiming to have battled Kyogre alongside the legendary titan. Strangely enough, no proof of this has ever been found.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "growth",
+        "level": 1
+      },
+      {
+        "moveId": "flamewheel",
+        "level": 1
+      },
+      {
+        "moveId": "stomp",
+        "level": 1
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 4
+      },
+      {
+        "moveId": "bodyslam",
+        "level": 7
+      },
+      {
+        "moveId": "protect",
+        "level": 10
+      },
+      {
+        "moveId": "stealthrock",
+        "level": 16
+      },
+      {
+        "moveId": "synthesis",
+        "level": 19
+      },
+      {
+        "moveId": "bodyslam",
+        "level": 22
+      },
+      {
+        "moveId": "takedown",
+        "level": 25
+      },
+      {
+        "moveId": "firespin",
+        "level": 28
+      },
+      {
+        "moveId": "solarbeam",
+        "level": 34
+      },
+      {
+        "moveId": "overheat",
+        "level": 37
+      },
+      {
+        "moveId": "eruption",
+        "level": 39
+      },
+      {
+        "moveId": "sunnyday",
+        "level": 40
+      },
+      {
+        "moveId": "overheat",
+        "level": 43
+      },
+      {
+        "moveId": "flareblitz",
+        "level": 50
+      },
+      {
+        "moveId": "fireblast",
+        "level": 60
+      },
+      {
+        "moveId": "magmastorm",
+        "level": 100
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/sunflora-volcan.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-rlm",
+    "fanmade-form-funfair",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "features": "fanmade-form-funfair",
+    "forms": "fanmade-form-funfair"
+  },
+  "formOf": {
+    "slug": "sunflora",
+    "name": "Sunflora"
+  },
+  "formName": "volcan"
+}

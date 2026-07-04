@@ -1,0 +1,548 @@
+{
+  "id": "cobblemon:dollamb",
+  "namespace": "cobblemon",
+  "slug": "dollamb",
+  "name": "Dollamb",
+  "nationalPokedexNumber": 22,
+  "primaryType": "normal",
+  "secondaryType": "poison",
+  "types": [
+    "normal",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 38,
+    "attack": 25,
+    "defence": 37,
+    "special_attack": 28,
+    "special_defence": 50,
+    "speed": 47
+  },
+  "baseStatTotal": 225,
+  "abilities": [
+    "adaptability"
+  ],
+  "hiddenAbilities": [
+    "regenerator"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 255,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 78,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 122,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Dollamb at first seems to be an average Pokémon but the cells in its body multiply at much faster rate than any other Pokémon. Its cells also are also very reactive to ionizing radiation and multiply even faster when next to radioative materials like redstone. Dollamb also seem to strongly react to other nearby poison type Pokémon.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "smog",
+        "level": 1
+      },
+      {
+        "moveId": "poisongas",
+        "level": 1
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 1
+      },
+      {
+        "moveId": "metronome",
+        "level": 2
+      },
+      {
+        "moveId": "echoedvoice",
+        "level": 4
+      },
+      {
+        "moveId": "tearfullook",
+        "level": 6
+      },
+      {
+        "moveId": "poisonfang",
+        "level": 8
+      },
+      {
+        "moveId": "painsplit",
+        "level": 12
+      },
+      {
+        "moveId": "doublehit",
+        "level": 16
+      },
+      {
+        "moveId": "cottonspore",
+        "level": 20
+      },
+      {
+        "moveId": "recover",
+        "level": 24
+      },
+      {
+        "moveId": "headcharge",
+        "level": 32
+      },
+      {
+        "moveId": "cottonguard",
+        "level": 40
+      },
+      {
+        "moveId": "hyperbeam",
+        "level": 48
+      },
+      {
+        "moveId": "belch",
+        "level": 56
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "defensecurl"
+      },
+      {
+        "moveId": "discharge"
+      },
+      {
+        "moveId": "memento"
+      },
+      {
+        "moveId": "milkdrink"
+      },
+      {
+        "moveId": "mudbomb"
+      },
+      {
+        "moveId": "nobleroar"
+      },
+      {
+        "moveId": "nuzzle"
+      },
+      {
+        "moveId": "stickyweb"
+      },
+      {
+        "moveId": "stomp"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "corrosivegas"
+      },
+      {
+        "moveId": "cosmicpower"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "gastroacid"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "metronome"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "poisontail"
+      },
+      {
+        "moveId": "pollenpuff"
+      },
+      {
+        "moveId": "powerswap"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "quash"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "rockclimb"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "terrainpulse"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "toxicspikes"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "voltswitch"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:folly",
+      "targetSlug": "folly",
+      "summary": "Nivel · Nv. 26 · party_member",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/dollamb.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "3-25",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "name": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "labels": "lively-mons",
+    "primaryType": "lively-mons",
+    "secondaryType": "lively-mons",
+    "abilities": "lively-mons",
+    "baseStats": "lively-mons",
+    "behaviour": "lively-mons",
+    "catchRate": "lively-mons",
+    "maleRatio": "lively-mons",
+    "shoulderMountable": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "eggCycles": "lively-mons",
+    "eggGroups": "lively-mons",
+    "drops": "lively-mons",
+    "moves": "lively-mons",
+    "pokedex": "lively-mons",
+    "evolutions": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "evYield": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "aspects": "lively-mons",
+    "cannotDynamax": "lively-mons"
+  }
+}

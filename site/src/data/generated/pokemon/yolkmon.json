@@ -1,0 +1,141 @@
+{
+  "id": "cobblemon:yolkmon",
+  "namespace": "cobblemon",
+  "slug": "yolkmon",
+  "name": "Yolkmon",
+  "nationalPokedexNumber": 2072,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 25,
+    "defence": 30,
+    "special_attack": 15,
+    "special_defence": 30,
+    "speed": 20
+  },
+  "baseStatTotal": 150,
+  "abilities": [
+    "shellarmor",
+    "shellarmor"
+  ],
+  "hiddenAbilities": [
+    "sturdy"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 150,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.2,
+  "weight": 1.36,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 30,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Baby Digimon resembling a fragile egg with legs and a tail.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 2
+      },
+      {
+        "moveId": "harden",
+        "level": 3
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:fluffymon",
+      "targetSlug": "fluffymon",
+      "summary": "Nivel · Nv. 4",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:chicchimon",
+      "targetSlug": "chicchimon",
+      "summary": "Nivel · Nv. 4",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/yolkmon.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "rare",
+      "level": "1-8",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "id": "cobblemon:okuwamon",
+  "namespace": "cobblemon",
+  "slug": "okuwamon",
+  "name": "Okuwamon",
+  "nationalPokedexNumber": 2122,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 108,
+    "attack": 106,
+    "defence": 124,
+    "special_attack": 43,
+    "special_defence": 65,
+    "speed": 42
+  },
+  "baseStatTotal": 488,
+  "abilities": [
+    "strongjaw",
+    "hustle"
+  ],
+  "hiddenAbilities": [
+    "moldbreaker"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.72,
+  "weight": 107.5,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A colossal beetle Digimon with destructive mandibles.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bugbite",
+        "level": 44
+      },
+      {
+        "moveId": "visegrip",
+        "level": 47
+      },
+      {
+        "moveId": "ragepowder",
+        "level": 50
+      },
+      {
+        "moveId": "firstimpression",
+        "level": 54
+      },
+      {
+        "moveId": "hyperfang",
+        "level": 57
+      },
+      {
+        "moveId": "xscissor",
+        "level": 61
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 66
+      },
+      {
+        "moveId": "crunch",
+        "level": 70
+      },
+      {
+        "moveId": "thrash",
+        "level": 75
+      },
+      {
+        "moveId": "guillotine",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "stingmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/okuwamon.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_spooky",
+        "#cobblemon:is_mushroom",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

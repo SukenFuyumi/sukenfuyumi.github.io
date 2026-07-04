@@ -1,0 +1,172 @@
+{
+  "id": "cobblemon:cutemon",
+  "namespace": "cobblemon",
+  "slug": "cutemon",
+  "name": "Cutemon",
+  "nationalPokedexNumber": 2193,
+  "primaryType": "fairy",
+  "secondaryType": "normal",
+  "types": [
+    "fairy",
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 30,
+    "defence": 50,
+    "special_attack": 40,
+    "special_defence": 75,
+    "speed": 45
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "cutecharm",
+    "friendguard"
+  ],
+  "hiddenAbilities": [
+    "regenerator"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.91,
+  "weight": 9.98,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A kindhearted sprite that mends allies with a hum.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 12
+      },
+      {
+        "moveId": "sing",
+        "level": 14
+      },
+      {
+        "moveId": "echoedvoice",
+        "level": 16
+      },
+      {
+        "moveId": "disarmingvoice",
+        "level": 18
+      },
+      {
+        "moveId": "charm",
+        "level": 19
+      },
+      {
+        "moveId": "simplebeam",
+        "level": 21
+      },
+      {
+        "moveId": "healpulse",
+        "level": 22
+      },
+      {
+        "moveId": "uproar",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:unimon",
+      "targetSlug": "unimon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "tsunomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon",
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/cutemon.png",
+    "placeholderColor": "#D685AD"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_tundra",
+        "#cobblemon:is_taiga",
+        "alexscaves:candy_cavity"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

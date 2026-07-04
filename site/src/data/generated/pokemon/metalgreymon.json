@@ -1,0 +1,204 @@
+{
+  "id": "cobblemon:metalgreymon",
+  "namespace": "cobblemon",
+  "slug": "metalgreymon",
+  "name": "Metalgreymon",
+  "nationalPokedexNumber": 2009,
+  "primaryType": "fire",
+  "secondaryType": "steel",
+  "types": [
+    "fire",
+    "steel"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 110,
+    "defence": 90,
+    "special_attack": 100,
+    "special_defence": 90,
+    "speed": 65
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "megalauncher",
+    "heavymetal"
+  ],
+  "hiddenAbilities": [
+    "sheerforce"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.62,
+  "weight": 118.4,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Cyborg Digimon which has mechanized more than half of its body.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "metalclaw",
+        "level": 44
+      },
+      {
+        "moveId": "irondefense",
+        "level": 47
+      },
+      {
+        "moveId": "ironhead",
+        "level": 50
+      },
+      {
+        "moveId": "aurasphere",
+        "level": 54
+      },
+      {
+        "moveId": "curse",
+        "level": 57
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 61
+      },
+      {
+        "moveId": "dragonpulse",
+        "level": 66
+      },
+      {
+        "moveId": "heavyslam",
+        "level": 70
+      },
+      {
+        "moveId": "flareblitz",
+        "level": 75
+      },
+      {
+        "moveId": "steelbeam",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "tyrannomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 4
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.25
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/metalgreymon.png",
+    "placeholderColor": "#EE8130"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_volcanic",
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "secondaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

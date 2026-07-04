@@ -1,0 +1,919 @@
+{
+  "id": "cobblemon:basculegion",
+  "namespace": "cobblemon",
+  "slug": "basculegion",
+  "name": "Basculegion",
+  "nationalPokedexNumber": 902,
+  "primaryType": "water",
+  "secondaryType": "ghost",
+  "types": [
+    "water",
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 120,
+    "attack": 112,
+    "defence": 65,
+    "special_attack": 80,
+    "special_defence": 75,
+    "speed": 78
+  },
+  "baseStatTotal": 530,
+  "abilities": [
+    "swiftswim",
+    "adaptability"
+  ],
+  "hiddenAbilities": [
+    "moldbreaker"
+  ],
+  "eggGroups": [
+    "water_2"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 30,
+  "weight": 1100,
+  "maleRatio": 1,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 265,
+  "labels": [
+    "gen8a"
+  ],
+  "aspects": [
+    "male"
+  ],
+  "forms": [
+    {
+      "name": "F",
+      "aspects": [
+        "female"
+      ],
+      "primaryType": "water",
+      "secondaryType": "ghost",
+      "types": [
+        "water",
+        "ghost"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 120,
+        "attack": 92,
+        "defence": 65,
+        "special_attack": 100,
+        "special_defence": 75,
+        "speed": 78
+      },
+      "baseStatTotal": 530,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "The souls of its comrades cloak its body and propel it effortlessly through even raging rapids.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "shadowball",
+            "level": 1
+          },
+          {
+            "moveId": "tailwhip",
+            "level": 1
+          },
+          {
+            "moveId": "watergun",
+            "level": 1
+          },
+          {
+            "moveId": "phantomforce",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 4
+          },
+          {
+            "moveId": "flail",
+            "level": 8
+          },
+          {
+            "moveId": "aquajet",
+            "level": 12
+          },
+          {
+            "moveId": "bite",
+            "level": 16
+          },
+          {
+            "moveId": "scaryface",
+            "level": 20
+          },
+          {
+            "moveId": "headbutt",
+            "level": 24
+          },
+          {
+            "moveId": "soak",
+            "level": 28
+          },
+          {
+            "moveId": "crunch",
+            "level": 32
+          },
+          {
+            "moveId": "takedown",
+            "level": 36
+          },
+          {
+            "moveId": "uproar",
+            "level": 40
+          },
+          {
+            "moveId": "wavecrash",
+            "level": 44
+          },
+          {
+            "moveId": "thrash",
+            "level": 48
+          },
+          {
+            "moveId": "doubleedge",
+            "level": 52
+          },
+          {
+            "moveId": "headsmash",
+            "level": 56
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "lastrespects"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "aquatail"
+          },
+          {
+            "moveId": "blizzard"
+          },
+          {
+            "moveId": "chillingwater"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "crunch"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "flipturn"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "hex"
+          },
+          {
+            "moveId": "hydropump"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icebeam"
+          },
+          {
+            "moveId": "icefang"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "liquidation"
+          },
+          {
+            "moveId": "mudshot"
+          },
+          {
+            "moveId": "muddywater"
+          },
+          {
+            "moveId": "nightshade"
+          },
+          {
+            "moveId": "ominouswind"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "phantomforce"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychicfangs"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "scaleshot"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "snowscape"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "surf"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "waterfall"
+          },
+          {
+            "moveId": "whirlpool"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aquatail"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "flipturn"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icebeam"
+          },
+          {
+            "moveId": "icefang"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "liquidation"
+          },
+          {
+            "moveId": "ominouswind"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "scaleshot"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "electric",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "grass",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "fighting",
+          "normal"
+        ]
+      },
+      "evolutions": [],
+      "slug": "basculegion-f"
+    }
+  ],
+  "pokedexDescription": "This Pokémon is cloaked in the souls of its comrades who perished during a punishing journey to the river of their birth.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "shadowball",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 1
+      },
+      {
+        "moveId": "phantomforce",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 4
+      },
+      {
+        "moveId": "flail",
+        "level": 8
+      },
+      {
+        "moveId": "aquajet",
+        "level": 12
+      },
+      {
+        "moveId": "bite",
+        "level": 16
+      },
+      {
+        "moveId": "scaryface",
+        "level": 20
+      },
+      {
+        "moveId": "headbutt",
+        "level": 24
+      },
+      {
+        "moveId": "soak",
+        "level": 28
+      },
+      {
+        "moveId": "crunch",
+        "level": 32
+      },
+      {
+        "moveId": "takedown",
+        "level": 36
+      },
+      {
+        "moveId": "uproar",
+        "level": 40
+      },
+      {
+        "moveId": "wavecrash",
+        "level": 44
+      },
+      {
+        "moveId": "thrash",
+        "level": 48
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 52
+      },
+      {
+        "moveId": "headsmash",
+        "level": 56
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "lastrespects"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "phantomforce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychicfangs"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snowscape"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "whirlpool"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "basculin-white-striped",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/902.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_freshwater"
+      ],
+      "bucket": "common",
+      "level": "41-53",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_grassland",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_snowy_forest",
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "common",
+      "level": "41-53",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_freshwater"
+      ],
+      "bucket": "common",
+      "level": "41-53",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_grassland",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_snowy_forest",
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "common",
+      "level": "41-53",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "41-53",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_freshwater"
+      ],
+      "bucket": "common",
+      "level": "41-53",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_grassland",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_snowy_forest",
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "common",
+      "level": "41-53",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_freshwater"
+      ],
+      "bucket": "common",
+      "level": "41-53",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_grassland",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_snowy_forest",
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "common",
+      "level": "41-53",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core"
+  }
+}

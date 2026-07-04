@@ -1,0 +1,195 @@
+{
+  "id": "cobblemon:soloogarmon",
+  "namespace": "cobblemon",
+  "slug": "soloogarmon",
+  "name": "Soloogarmon",
+  "nationalPokedexNumber": 2061,
+  "primaryType": "dark",
+  "secondaryType": "fire",
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 76,
+    "attack": 124,
+    "defence": 67,
+    "special_attack": 78,
+    "special_defence": 80,
+    "speed": 95
+  },
+  "baseStatTotal": 520,
+  "abilities": [
+    "intimidate",
+    "toughclaws"
+  ],
+  "hiddenAbilities": [
+    "quickfeet"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.31,
+  "weight": 86,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Dark Beast Digimon that controls sinister magic data sealed within its armor.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "incinerate",
+        "level": 44
+      },
+      {
+        "moveId": "howl",
+        "level": 47
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 50
+      },
+      {
+        "moveId": "darkpulse",
+        "level": 54
+      },
+      {
+        "moveId": "throatchop",
+        "level": 57
+      },
+      {
+        "moveId": "mysticalfire",
+        "level": 61
+      },
+      {
+        "moveId": "foulplay",
+        "level": 66
+      },
+      {
+        "moveId": "flareblitz",
+        "level": 70
+      },
+      {
+        "moveId": "partingshot",
+        "level": 75
+      },
+      {
+        "moveId": "bitterblade",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "wizarmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/soloogarmon.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_nether_wasteland",
+        "#cobblemon:is_nether_desert",
+        "#cobblemon:nether"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

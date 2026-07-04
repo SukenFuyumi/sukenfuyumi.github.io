@@ -1,0 +1,194 @@
+{
+  "id": "cobblemon:woodmon",
+  "namespace": "cobblemon",
+  "slug": "woodmon",
+  "name": "Woodmon",
+  "nationalPokedexNumber": 2184,
+  "primaryType": "grass",
+  "secondaryType": null,
+  "types": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 70,
+    "defence": 85,
+    "special_attack": 80,
+    "special_defence": 60,
+    "speed": 30
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "dryskin",
+    "chlorophyll"
+  ],
+  "hiddenAbilities": [
+    "solarpower"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.8,
+  "weight": 98.88,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "An ambulatory stump that lurks in groves.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "leechseed",
+        "level": 25
+      },
+      {
+        "moveId": "magicalleaf",
+        "level": 27
+      },
+      {
+        "moveId": "stunspore",
+        "level": 29
+      },
+      {
+        "moveId": "stomp",
+        "level": 31
+      },
+      {
+        "moveId": "growth",
+        "level": 33
+      },
+      {
+        "moveId": "grassknot",
+        "level": 35
+      },
+      {
+        "moveId": "sludge",
+        "level": 37
+      },
+      {
+        "moveId": "ingrain",
+        "level": 39
+      },
+      {
+        "moveId": "grassyterrain",
+        "level": 41
+      },
+      {
+        "moveId": "hornleech",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:jyureimon",
+      "targetSlug": "jyureimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: grass_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "palmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/woodmon.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "id": "cobblemon:pulsemon",
+  "namespace": "cobblemon",
+  "slug": "pulsemon",
+  "name": "Pulsemon",
+  "nationalPokedexNumber": 2092,
+  "primaryType": "electric",
+  "secondaryType": null,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 60,
+    "defence": 29,
+    "special_attack": 60,
+    "special_defence": 30,
+    "speed": 86
+  },
+  "baseStatTotal": 305,
+  "abilities": [
+    "plus",
+    "quickfeet"
+  ],
+  "hiddenAbilities": [
+    "voltabsorb"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.91,
+  "weight": 11.34,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Rookie Digimon with an energetic spirit and electric speed.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 12
+      },
+      {
+        "moveId": "growl",
+        "level": 14
+      },
+      {
+        "moveId": "thundershock",
+        "level": 16
+      },
+      {
+        "moveId": "workup",
+        "level": 18
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 19
+      },
+      {
+        "moveId": "machpunch",
+        "level": 21
+      },
+      {
+        "moveId": "charge",
+        "level": 22
+      },
+      {
+        "moveId": "spark",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:bulkmon",
+      "targetSlug": "bulkmon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:lighdramon",
+      "targetSlug": "lighdramon",
+      "summary": "Nivel · Nv. 22",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "bibimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/pulsemon.png",
+    "placeholderColor": "#F7D02C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_grassland"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

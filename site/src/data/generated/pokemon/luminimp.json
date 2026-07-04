@@ -1,0 +1,284 @@
+{
+  "id": "cobblemon:luminimp",
+  "namespace": "cobblemon",
+  "slug": "luminimp",
+  "name": "Luminimp",
+  "nationalPokedexNumber": 9086,
+  "primaryType": "bug",
+  "secondaryType": "psychic",
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 55,
+    "special_attack": 70,
+    "special_defence": 100,
+    "speed": 35
+  },
+  "baseStatTotal": 360,
+  "abilities": [
+    "xenoluminescence"
+  ],
+  "hiddenAbilities": [],
+  "eggGroups": [
+    "bug",
+    "fairy"
+  ],
+  "catchRate": 75,
+  "eggCycles": 20,
+  "baseFriendship": 35,
+  "height": 5,
+  "weight": 64,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 148,
+  "labels": [
+    "myths"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Luminimp drifts through moonlit ruins, radiating alien light from the spores nested in its antennae.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "charge",
+        "level": 1
+      },
+      {
+        "moveId": "absorb",
+        "level": 1
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 1
+      },
+      {
+        "moveId": "magicpowder",
+        "level": 1
+      },
+      {
+        "moveId": "psywave",
+        "level": 5
+      },
+      {
+        "moveId": "infestation",
+        "level": 9
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 13
+      },
+      {
+        "moveId": "psybeam",
+        "level": 17
+      },
+      {
+        "moveId": "signalbeam",
+        "level": 21
+      },
+      {
+        "moveId": "moonlight",
+        "level": 25
+      },
+      {
+        "moveId": "bugbuzz",
+        "level": 29
+      },
+      {
+        "moveId": "hypnosis",
+        "level": 33
+      },
+      {
+        "moveId": "psychic",
+        "level": 37
+      },
+      {
+        "moveId": "hornleech",
+        "level": 41
+      },
+      {
+        "moveId": "tailglow",
+        "level": 45
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 49
+      },
+      {
+        "moveId": "psychicnoise",
+        "level": 53
+      },
+      {
+        "moveId": "psychicsiphon",
+        "level": 57
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "teleport"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "uturn"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "magiccoat"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/luminimp.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#minecraft:is_forest"
+      ],
+      "bucket": "uncommon",
+      "level": "16-34",
+      "timeRange": "night",
+      "sourceId": "fais-mythical-monstrosities"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#minecraft:is_forest"
+      ],
+      "bucket": "uncommon",
+      "level": "20-38",
+      "timeRange": "night",
+      "sourceId": "fais-mythical-monstrosities"
+    }
+  ],
+  "sourceMods": [
+    "fais-mythical-monstrosities"
+  ],
+  "primarySource": "fais-mythical-monstrosities",
+  "provenance": {
+    "implemented": "fais-mythical-monstrosities",
+    "nationalPokedexNumber": "fais-mythical-monstrosities",
+    "name": "fais-mythical-monstrosities",
+    "primaryType": "fais-mythical-monstrosities",
+    "secondaryType": "fais-mythical-monstrosities",
+    "maleRatio": "fais-mythical-monstrosities",
+    "height": "fais-mythical-monstrosities",
+    "weight": "fais-mythical-monstrosities",
+    "baseScale": "fais-mythical-monstrosities",
+    "hitbox": "fais-mythical-monstrosities",
+    "pokedex": "fais-mythical-monstrosities",
+    "labels": "fais-mythical-monstrosities",
+    "aspects": "fais-mythical-monstrosities",
+    "abilities": "fais-mythical-monstrosities",
+    "eggGroups": "fais-mythical-monstrosities",
+    "eggCycles": "fais-mythical-monstrosities",
+    "baseStats": "fais-mythical-monstrosities",
+    "evYield": "fais-mythical-monstrosities",
+    "baseExperienceYield": "fais-mythical-monstrosities",
+    "experienceGroup": "fais-mythical-monstrosities",
+    "catchRate": "fais-mythical-monstrosities",
+    "baseFriendship": "fais-mythical-monstrosities",
+    "shoulderMountable": "fais-mythical-monstrosities",
+    "cannotDynamax": "fais-mythical-monstrosities",
+    "behaviour": "fais-mythical-monstrosities",
+    "drops": "fais-mythical-monstrosities",
+    "moves": "fais-mythical-monstrosities"
+  }
+}

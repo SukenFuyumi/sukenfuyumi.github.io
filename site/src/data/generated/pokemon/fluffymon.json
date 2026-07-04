@@ -1,0 +1,149 @@
+{
+  "id": "cobblemon:fluffymon",
+  "namespace": "cobblemon",
+  "slug": "fluffymon",
+  "name": "Fluffymon",
+  "nationalPokedexNumber": 2073,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 35,
+    "defence": 25,
+    "special_attack": 30,
+    "special_defence": 40,
+    "speed": 40
+  },
+  "baseStatTotal": 200,
+  "abilities": [
+    "keeneye",
+    "keeneye"
+  ],
+  "hiddenAbilities": [
+    "tangledfeet"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 150,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.3,
+  "weight": 3.63,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 40,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Covered in fluff, this Digimon bounces about happily.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "peck",
+        "level": 5
+      },
+      {
+        "moveId": "quickattack",
+        "level": 7
+      },
+      {
+        "moveId": "sandattack",
+        "level": 9
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 10
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 11
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:pteromon",
+      "targetSlug": "pteromon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:pomumon",
+      "targetSlug": "pomumon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "yolkmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/fluffymon.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "rare",
+      "level": "4-15",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

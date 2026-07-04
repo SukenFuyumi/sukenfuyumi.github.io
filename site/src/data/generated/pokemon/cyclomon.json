@@ -1,0 +1,206 @@
+{
+  "id": "cobblemon:cyclomon",
+  "namespace": "cobblemon",
+  "slug": "cyclomon",
+  "name": "Cyclomon",
+  "nationalPokedexNumber": 2172,
+  "primaryType": "dragon",
+  "secondaryType": "fighting",
+  "types": [
+    "dragon",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 108,
+    "defence": 70,
+    "special_attack": 58,
+    "special_defence": 60,
+    "speed": 45
+  },
+  "baseStatTotal": 401,
+  "abilities": [
+    "mindseye",
+    "rockhead"
+  ],
+  "hiddenAbilities": [
+    "moldbreaker"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.11,
+  "weight": 119,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A one-eyed drake that never loses its mark.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "rocksmash",
+        "level": 25
+      },
+      {
+        "moveId": "slash",
+        "level": 27
+      },
+      {
+        "moveId": "dragonrage",
+        "level": 29
+      },
+      {
+        "moveId": "scaryface",
+        "level": 31
+      },
+      {
+        "moveId": "poweruppunch",
+        "level": 33
+      },
+      {
+        "moveId": "breakingswipe",
+        "level": 35
+      },
+      {
+        "moveId": "submission",
+        "level": 37
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 39
+      },
+      {
+        "moveId": "takedown",
+        "level": 41
+      },
+      {
+        "moveId": "powertrip",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:skullgreymon",
+      "targetSlug": "skullgreymon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: ghost_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "picodevimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 4
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/cyclomon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_badlands"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

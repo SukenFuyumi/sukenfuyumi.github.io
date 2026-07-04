@@ -1,0 +1,917 @@
+{
+  "id": "cobblemon:voltorb",
+  "namespace": "cobblemon",
+  "slug": "voltorb",
+  "name": "Voltorb",
+  "nationalPokedexNumber": 100,
+  "primaryType": "electric",
+  "secondaryType": null,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 50,
+    "special_attack": 55,
+    "special_defence": 55,
+    "speed": 100
+  },
+  "baseStatTotal": 330,
+  "abilities": [
+    "soundproof",
+    "static"
+  ],
+  "hiddenAbilities": [
+    "aftermath"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 5,
+  "weight": 104,
+  "maleRatio": -1,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 66,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Hisui",
+      "aspects": [
+        "hisuian"
+      ],
+      "primaryType": "electric",
+      "secondaryType": "grass",
+      "types": [
+        "electric",
+        "grass"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "charge",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "thundershock",
+            "level": 4
+          },
+          {
+            "moveId": "stunspore",
+            "level": 6
+          },
+          {
+            "moveId": "bulletseed",
+            "level": 9
+          },
+          {
+            "moveId": "rollout",
+            "level": 11
+          },
+          {
+            "moveId": "screech",
+            "level": 13
+          },
+          {
+            "moveId": "chargebeam",
+            "level": 16
+          },
+          {
+            "moveId": "swift",
+            "level": 20
+          },
+          {
+            "moveId": "electroball",
+            "level": 22
+          },
+          {
+            "moveId": "selfdestruct",
+            "level": 26
+          },
+          {
+            "moveId": "energyball",
+            "level": 29
+          },
+          {
+            "moveId": "seedbomb",
+            "level": 34
+          },
+          {
+            "moveId": "discharge",
+            "level": 34
+          },
+          {
+            "moveId": "explosion",
+            "level": 41
+          },
+          {
+            "moveId": "gyroball",
+            "level": 46
+          },
+          {
+            "moveId": "grassyterrain",
+            "level": 50
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "leechseed"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "charge"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "electricterrain"
+          },
+          {
+            "moveId": "electroball"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "explosion"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "grassyterrain"
+          },
+          {
+            "moveId": "gyroball"
+          },
+          {
+            "moveId": "iceball"
+          },
+          {
+            "moveId": "leafstorm"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "selfdestruct"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "thunder"
+          },
+          {
+            "moveId": "thunderwave"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "voltswitch"
+          },
+          {
+            "moveId": "wildcharge"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "iceball"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "wildcharge"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 2
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "electric",
+            "multiplier": 0.25
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:electrode",
+          "targetSlug": "electrode-hisui",
+          "summary": "Usar leaf_stone · variante hisuian",
+          "variant": "item_interact"
+        }
+      ],
+      "slug": "voltorb-hisui"
+    }
+  ],
+  "pokedexDescription": "Voltorb is extremely sensitive—it explodes at the slightest of shocks. It is rumored that it was first created when a Poké Ball was exposed to a powerful pulse of energy.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "charge",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "sonicboom",
+        "level": 1
+      },
+      {
+        "moveId": "thundershock",
+        "level": 4
+      },
+      {
+        "moveId": "eerieimpulse",
+        "level": 6
+      },
+      {
+        "moveId": "spark",
+        "level": 9
+      },
+      {
+        "moveId": "rollout",
+        "level": 11
+      },
+      {
+        "moveId": "screech",
+        "level": 13
+      },
+      {
+        "moveId": "chargebeam",
+        "level": 16
+      },
+      {
+        "moveId": "swift",
+        "level": 20
+      },
+      {
+        "moveId": "electroball",
+        "level": 22
+      },
+      {
+        "moveId": "selfdestruct",
+        "level": 26
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 29
+      },
+      {
+        "moveId": "magnetrise",
+        "level": 34
+      },
+      {
+        "moveId": "discharge",
+        "level": 37
+      },
+      {
+        "moveId": "explosion",
+        "level": 41
+      },
+      {
+        "moveId": "gyroball",
+        "level": 46
+      },
+      {
+        "moveId": "mirrorcoat",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "metalsound"
+      },
+      {
+        "moveId": "recycle"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "eerieimpulse"
+      },
+      {
+        "moveId": "electricterrain"
+      },
+      {
+        "moveId": "electroball"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "metalsound"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "risingvoltage"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "voltswitch"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "risingvoltage"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "teleport"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "zapcannon"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "refresh"
+      }
+    ]
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:electrode",
+      "targetSlug": "electrode",
+      "summary": "Nivel · Nv. 30",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "features": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core"
+  }
+}

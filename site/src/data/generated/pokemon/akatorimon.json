@@ -1,0 +1,184 @@
+{
+  "id": "cobblemon:akatorimon",
+  "namespace": "cobblemon",
+  "slug": "akatorimon",
+  "name": "Akatorimon",
+  "nationalPokedexNumber": 2170,
+  "primaryType": "flying",
+  "secondaryType": null,
+  "types": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 65,
+    "defence": 50,
+    "special_attack": 75,
+    "special_defence": 80,
+    "speed": 45
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "intimidate",
+    "blaze"
+  ],
+  "hiddenAbilities": [
+    "unburden"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.91,
+  "weight": 60.78,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A crimson raptor that rules thermal winds.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "peck",
+        "level": 25
+      },
+      {
+        "moveId": "glare",
+        "level": 27
+      },
+      {
+        "moveId": "aircutter",
+        "level": 29
+      },
+      {
+        "moveId": "takedown",
+        "level": 31
+      },
+      {
+        "moveId": "agility",
+        "level": 33
+      },
+      {
+        "moveId": "pluck",
+        "level": 35
+      },
+      {
+        "moveId": "roost",
+        "level": 37
+      },
+      {
+        "moveId": "razorwind",
+        "level": 39
+      },
+      {
+        "moveId": "featherdance",
+        "level": 41
+      },
+      {
+        "moveId": "freezingglare",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:garudamon",
+      "targetSlug": "garudamon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: fire_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "pteromon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/akatorimon.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_hills",
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

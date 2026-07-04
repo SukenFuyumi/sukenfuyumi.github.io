@@ -1,0 +1,968 @@
+{
+  "id": "cobblemon:zorua",
+  "namespace": "cobblemon",
+  "slug": "zorua",
+  "name": "Zorua",
+  "nationalPokedexNumber": 570,
+  "primaryType": "dark",
+  "secondaryType": null,
+  "types": [
+    "dark"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 65,
+    "defence": 40,
+    "special_attack": 80,
+    "special_defence": 40,
+    "speed": 65
+  },
+  "baseStatTotal": 330,
+  "abilities": [
+    "illusion"
+  ],
+  "hiddenAbilities": [
+    "illusion"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 75,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 7,
+  "weight": 125,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 66,
+  "labels": [
+    "gen5",
+    "unovan_form"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Hisui",
+      "aspects": [
+        "hisuian"
+      ],
+      "primaryType": "normal",
+      "secondaryType": "ghost",
+      "types": [
+        "normal",
+        "ghost"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 35,
+        "attack": 60,
+        "defence": 40,
+        "special_attack": 85,
+        "special_defence": 40,
+        "speed": 70
+      },
+      "baseStatTotal": 330,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "scratch",
+            "level": 1
+          },
+          {
+            "moveId": "leer",
+            "level": 1
+          },
+          {
+            "moveId": "torment",
+            "level": 4
+          },
+          {
+            "moveId": "honeclaws",
+            "level": 8
+          },
+          {
+            "moveId": "shadowsneak",
+            "level": 12
+          },
+          {
+            "moveId": "curse",
+            "level": 16
+          },
+          {
+            "moveId": "taunt",
+            "level": 20
+          },
+          {
+            "moveId": "knockoff",
+            "level": 24
+          },
+          {
+            "moveId": "agility",
+            "level": 32
+          },
+          {
+            "moveId": "shadowball",
+            "level": 36
+          },
+          {
+            "moveId": "bittermalice",
+            "level": 40
+          },
+          {
+            "moveId": "nastyplot",
+            "level": 44
+          },
+          {
+            "moveId": "foulplay",
+            "level": 48
+          },
+          {
+            "moveId": "spiritdrain",
+            "level": 52
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "comeuppance"
+          },
+          {
+            "moveId": "detect"
+          },
+          {
+            "moveId": "extrasensory"
+          },
+          {
+            "moveId": "memento"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "burningjealousy"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "chillout"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "deepfreeze"
+          },
+          {
+            "moveId": "dig"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "hex"
+          },
+          {
+            "moveId": "honeclaws"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "imprison"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "nightshade"
+          },
+          {
+            "moveId": "nightlight"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "phantomforce"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "roar"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "shadowstars"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "snarl"
+          },
+          {
+            "moveId": "snowscape"
+          },
+          {
+            "moveId": "spiritdrain"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "thunderclaw"
+          },
+          {
+            "moveId": "torment"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "willowisp"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "burningjealousy"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "snarl"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "trick"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dark",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "fighting",
+          "ghost",
+          "normal"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:zoroark",
+          "targetSlug": "zoroark-hisui",
+          "summary": "Nivel · Nv. 30 · variante hisuian",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "zorua-hisui"
+    }
+  ],
+  "pokedexDescription": "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "pursuit",
+        "level": 1
+      },
+      {
+        "moveId": "torment",
+        "level": 4
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 8
+      },
+      {
+        "moveId": "furyswipes",
+        "level": 12
+      },
+      {
+        "moveId": "scaryface",
+        "level": 16
+      },
+      {
+        "moveId": "taunt",
+        "level": 20
+      },
+      {
+        "moveId": "knockoff",
+        "level": 24
+      },
+      {
+        "moveId": "faketears",
+        "level": 28
+      },
+      {
+        "moveId": "agility",
+        "level": 32
+      },
+      {
+        "moveId": "imprison",
+        "level": 36
+      },
+      {
+        "moveId": "nightdaze",
+        "level": 40
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 44
+      },
+      {
+        "moveId": "foulplay",
+        "level": 48
+      },
+      {
+        "moveId": "vitalslash",
+        "level": 52
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "copycat"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "detect"
+      },
+      {
+        "moveId": "extrasensory"
+      },
+      {
+        "moveId": "feintattack"
+      },
+      {
+        "moveId": "memento"
+      },
+      {
+        "moveId": "punishment"
+      },
+      {
+        "moveId": "suckerpunch"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "burningjealousy"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "shadowstars"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunderclaw"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "uturn"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "burningjealousy"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "trick"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:zoroark",
+      "targetSlug": "zoroark",
+      "summary": "Nivel · Nv. 30",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/570.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": "night",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_snowy_forest",
+        "#cobblemon:is_snowy_taiga"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": "night",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#minecraft:is_nether"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": "night",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_snowy_forest",
+        "#cobblemon:is_snowy_taiga"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": "night",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#minecraft:is_nether"
+      ],
+      "bucket": "uncommon",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "features": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "lasers-additions",
+    "behaviour": "cobblemon-core"
+  }
+}

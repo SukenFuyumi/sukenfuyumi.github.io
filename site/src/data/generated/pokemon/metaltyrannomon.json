@@ -1,0 +1,205 @@
+{
+  "id": "cobblemon:metaltyrannomon",
+  "namespace": "cobblemon",
+  "slug": "metaltyrannomon",
+  "name": "Metaltyrannomon",
+  "nationalPokedexNumber": 2133,
+  "primaryType": "fire",
+  "secondaryType": "steel",
+  "types": [
+    "fire",
+    "steel"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 86,
+    "defence": 92,
+    "special_attack": 118,
+    "special_defence": 71,
+    "speed": 57
+  },
+  "baseStatTotal": 524,
+  "abilities": [
+    "clearbody",
+    "sturdy"
+  ],
+  "hiddenAbilities": [
+    "moldbreaker"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.62,
+  "weight": 117,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A mechanized terror whose steel frame shrugs off blows.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "chargebeam",
+        "level": 44
+      },
+      {
+        "moveId": "shiftgear",
+        "level": 47
+      },
+      {
+        "moveId": "magnetbomb",
+        "level": 50
+      },
+      {
+        "moveId": "thunderbolt",
+        "level": 54
+      },
+      {
+        "moveId": "charge",
+        "level": 57
+      },
+      {
+        "moveId": "flashcannon",
+        "level": 61
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 66
+      },
+      {
+        "moveId": "thunder",
+        "level": 70
+      },
+      {
+        "moveId": "fireblast",
+        "level": 75
+      },
+      {
+        "moveId": "steelbeam",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "darktyrannomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 4
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.25
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/metaltyrannomon.png",
+    "placeholderColor": "#EE8130"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_volcanic",
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

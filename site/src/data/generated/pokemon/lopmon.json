@@ -1,0 +1,203 @@
+{
+  "id": "cobblemon:lopmon",
+  "namespace": "cobblemon",
+  "slug": "lopmon",
+  "name": "Lopmon",
+  "nationalPokedexNumber": 2044,
+  "primaryType": "flying",
+  "secondaryType": "ice",
+  "types": [
+    "flying",
+    "ice"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 40,
+    "defence": 30,
+    "special_attack": 75,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "baseStatTotal": 295,
+  "abilities": [
+    "earlybird",
+    "thickfat"
+  ],
+  "hiddenAbilities": [
+    "windrider"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.81,
+  "weight": 7.26,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "An extremely precious twin Digimon Child. Terriermon is the one with one horn growing from its head, while Lopmon is the one with three horns growing from its head.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "peck",
+        "level": 12
+      },
+      {
+        "moveId": "leer",
+        "level": 14
+      },
+      {
+        "moveId": "powdersnow",
+        "level": 16
+      },
+      {
+        "moveId": "workup",
+        "level": 18
+      },
+      {
+        "moveId": "gust",
+        "level": 19
+      },
+      {
+        "moveId": "sandattack",
+        "level": 21
+      },
+      {
+        "moveId": "fairywind",
+        "level": 22
+      },
+      {
+        "moveId": "icywind",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:turuiemon",
+      "targetSlug": "turuiemon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gargomon",
+      "targetSlug": "gargomon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: shiny_stone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:wizarmon",
+      "targetSlug": "wizarmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: covert_cloak",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:centalmon",
+      "targetSlug": "centalmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: upgrade",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:icedevimon",
+      "targetSlug": "icedevimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: ice_stone",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "pagumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "rock",
+        "multiplier": 4
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/lopmon.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_plains",
+        "alexscaves:candy_cavity"
+      ],
+      "bucket": "rare",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

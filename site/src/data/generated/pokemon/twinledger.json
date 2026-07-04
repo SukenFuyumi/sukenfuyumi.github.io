@@ -1,0 +1,603 @@
+{
+  "id": "cobblemon:twinledger",
+  "namespace": "cobblemon",
+  "slug": "twinledger",
+  "name": "Twinledger",
+  "nationalPokedexNumber": 1073,
+  "primaryType": "psychic",
+  "secondaryType": "ghost",
+  "types": [
+    "psychic",
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 59,
+    "attack": 45,
+    "defence": 49,
+    "special_attack": 110,
+    "special_defence": 150,
+    "speed": 35
+  },
+  "baseStatTotal": 448,
+  "abilities": [
+    "magicguard"
+  ],
+  "hiddenAbilities": [
+    "prankster"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "catchRate": 90,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 8,
+  "weight": 20,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 157,
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "The two sheathes act together in unison, combining their minds together to cast spells. If one gets distract and the two aren't in sync, their spells will missfire.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bind",
+        "level": 1
+      },
+      {
+        "moveId": "swift",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "confusion",
+        "level": 1
+      },
+      {
+        "moveId": "storedpower",
+        "level": 1
+      },
+      {
+        "moveId": "nightshade",
+        "level": 1
+      },
+      {
+        "moveId": "roleplay",
+        "level": 1
+      },
+      {
+        "moveId": "magictrick",
+        "level": 1
+      },
+      {
+        "moveId": "hypnosis",
+        "level": 4
+      },
+      {
+        "moveId": "agility",
+        "level": 8
+      },
+      {
+        "moveId": "psybeam",
+        "level": 12
+      },
+      {
+        "moveId": "magicbeam",
+        "level": 12
+      },
+      {
+        "moveId": "confide",
+        "level": 16
+      },
+      {
+        "moveId": "hiddenpower",
+        "level": 20
+      },
+      {
+        "moveId": "hex",
+        "level": 24
+      },
+      {
+        "moveId": "mirrorcoat",
+        "level": 28
+      },
+      {
+        "moveId": "amnesia",
+        "level": 32
+      },
+      {
+        "moveId": "eeriespell",
+        "level": 36
+      },
+      {
+        "moveId": "psychicsnap",
+        "level": 38
+      },
+      {
+        "moveId": "trickroom",
+        "level": 40
+      },
+      {
+        "moveId": "magicroom",
+        "level": 40
+      },
+      {
+        "moveId": "wonderroom",
+        "level": 40
+      },
+      {
+        "moveId": "calmmind",
+        "level": 44
+      },
+      {
+        "moveId": "shadowball",
+        "level": 48
+      },
+      {
+        "moveId": "aurasphere",
+        "level": 52
+      },
+      {
+        "moveId": "psychic",
+        "level": 56
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "destinybond"
+      },
+      {
+        "moveId": "guardsplit"
+      },
+      {
+        "moveId": "healblock"
+      },
+      {
+        "moveId": "healpulse"
+      },
+      {
+        "moveId": "memento"
+      },
+      {
+        "moveId": "powersplit"
+      },
+      {
+        "moveId": "teleport"
+      },
+      {
+        "moveId": "wish"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "aurasphere"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "guardswap"
+      },
+      {
+        "moveId": "healblock"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magicbeam"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "mindbend"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "phantomforce"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "powerblast"
+      },
+      {
+        "moveId": "powerswap"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicsnap"
+      },
+      {
+        "moveId": "psychicterrain"
+      },
+      {
+        "moveId": "psychocut"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "speedswap"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "teleport"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "triattack"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "willowisp"
+      },
+      {
+        "moveId": "wonderblast"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "powershift"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychocut"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "triattack"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:wizledger",
+      "targetSlug": "wizledger",
+      "summary": "Usar dawn_stone · variante spell_forme=fire",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": "tomledger",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 4
+      },
+      {
+        "type": "ghost",
+        "multiplier": 4
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/twinledger.png",
+    "placeholderColor": "#F95587"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "35-45",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "35-45",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "35-45",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    }
+  ],
+  "sourceMods": [
+    "lasers-fakemon-pack"
+  ],
+  "primarySource": "lasers-fakemon-pack",
+  "provenance": {
+    "implemented": "lasers-fakemon-pack",
+    "nationalPokedexNumber": "lasers-fakemon-pack",
+    "name": "lasers-fakemon-pack",
+    "primaryType": "lasers-fakemon-pack",
+    "secondaryType": "lasers-fakemon-pack",
+    "maleRatio": "lasers-fakemon-pack",
+    "height": "lasers-fakemon-pack",
+    "weight": "lasers-fakemon-pack",
+    "pokedex": "lasers-fakemon-pack",
+    "labels": "lasers-fakemon-pack",
+    "aspects": "lasers-fakemon-pack",
+    "abilities": "lasers-fakemon-pack",
+    "eggGroups": "lasers-fakemon-pack",
+    "baseStats": "lasers-fakemon-pack",
+    "evYield": "lasers-fakemon-pack",
+    "baseExperienceYield": "lasers-fakemon-pack",
+    "experienceGroup": "lasers-fakemon-pack",
+    "catchRate": "lasers-fakemon-pack",
+    "eggCycles": "lasers-fakemon-pack",
+    "baseFriendship": "lasers-fakemon-pack",
+    "baseScale": "lasers-fakemon-pack",
+    "hitbox": "lasers-fakemon-pack",
+    "behaviour": "lasers-fakemon-pack",
+    "drops": "lasers-fakemon-pack",
+    "moves": "lasers-fakemon-pack",
+    "preEvolution": "lasers-fakemon-pack",
+    "evolutions": "lasers-fakemon-pack"
+  }
+}

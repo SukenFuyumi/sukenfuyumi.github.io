@@ -1,0 +1,304 @@
+{
+  "_comment": "Manifest of every mod jar / datapack that feeds the Pokedex. 'sourceRoot' is resolved relative to this file. Add a new jar/datapack: drop the file in the right folder, add one entry here, rerun `npm run extract`.",
+  "sourceRoot": "../..",
+  "sources": [
+    {
+      "id": "cobblemon-core",
+      "label": "Cobblemon",
+      "file": "Cobblemon-fabric-1.7.3+1.21.1.jar",
+      "kind": "jar",
+      "role": "base",
+      "priority": 0
+    },
+    {
+      "id": "cobblemon-afp",
+      "label": "Cobblemon AFP",
+      "file": "Cobblemon AFP 1.9.2-1.21.1-Fabric-NoGEB.jar",
+      "kind": "jar",
+      "role": "content",
+      "priority": 10
+    },
+    {
+      "id": "digimod",
+      "label": "Digimod",
+      "file": "digimodcobblemon-1.3+1.21.1[Fabric].jar",
+      "kind": "jar",
+      "role": "content",
+      "priority": 11
+    },
+    {
+      "id": "lasers-fakemon-pack",
+      "label": "Laser's Fakemon Pack",
+      "file": "lasers-fakemon-pack-1.6.jar",
+      "kind": "jar",
+      "role": "content",
+      "priority": 12
+    },
+    {
+      "id": "lasers-foolmon-pack",
+      "label": "Laser's Foolmon Pack",
+      "file": "lasers-foolmon-pack-1.0.jar",
+      "kind": "jar",
+      "role": "content",
+      "priority": 13
+    },
+    {
+      "id": "lively-mons",
+      "label": "Lively Mons",
+      "file": "lively-mons-1.10.1.jar",
+      "kind": "jar",
+      "role": "content",
+      "priority": 14
+    },
+    {
+      "id": "baby-legends",
+      "label": "Baby Legends",
+      "file": "baby-legends-cobblemon-2.3.jar",
+      "kind": "jar",
+      "role": "content",
+      "priority": 15
+    },
+    {
+      "id": "cobblemon-rlm",
+      "label": "Cobblemon RLM",
+      "file": "cobblemon-rlm-1.5.6.jar",
+      "kind": "jar",
+      "role": "content",
+      "priority": 16
+    },
+    {
+      "id": "extra-eeveelutions",
+      "label": "Extra Eeveelutions",
+      "file": "extra-eeveelutions-1.2.jar",
+      "kind": "jar",
+      "role": "content",
+      "priority": 17
+    },
+    {
+      "id": "fais-mythical-monstrosities",
+      "label": "Fai's Mythical Monstrosities",
+      "file": "fais-mythical-monstrosities-0.1.8.2.jar",
+      "kind": "jar",
+      "role": "content",
+      "priority": 18
+    },
+    {
+      "id": "game-creatures",
+      "label": "Game Creatures",
+      "file": "game-creatures-v1.0b1.jar",
+      "kind": "jar",
+      "role": "content",
+      "priority": 19
+    },
+    {
+      "id": "mega-showdown",
+      "label": "Mega Showdown",
+      "file": "mega_showdown-fabric-1.7.3+1.7.3+1.21.1.jar",
+      "kind": "jar",
+      "role": "content",
+      "priority": 20
+    },
+    {
+      "id": "zamega",
+      "label": "ZA Mega",
+      "file": "zamega-fabric-1.7.1.jar",
+      "kind": "jar",
+      "role": "content",
+      "priority": 21
+    },
+    {
+      "id": "kazeran-eeveelutions",
+      "label": "Kazeran Eeveelutions",
+      "file": "kazeran-eeveelutions-1.4.1.jar",
+      "kind": "jar",
+      "role": "content",
+      "priority": 22,
+      "notes": "Corrected: adds a real 'Kazeran' form (own stats/types/abilities/moveset) to each of the 8 eeveelutions via species_additions, plus matching Eevee evolution entries - not cosmetic, initial classification missed species_additions files."
+    },
+    {
+      "id": "blue-eyes-white-dragon",
+      "label": "Blue-Eyes White Dragon (custom)",
+      "file": "datapacks/Blue-Eyes White Dragon (SPATK + Custom) 7.0 .zip",
+      "kind": "datapack",
+      "role": "content",
+      "priority": 30
+    },
+    {
+      "id": "fanmade-form-funfair",
+      "label": "Fanmade Form Funfair",
+      "file": "datapacks/fanmade form funfair v1.3.0.zip",
+      "kind": "datapack",
+      "role": "content",
+      "priority": 31
+    },
+    {
+      "id": "mellomons",
+      "label": "MelloMons",
+      "file": "datapacks/MelloMons RP.zip",
+      "kind": "datapack",
+      "role": "content",
+      "priority": 32,
+      "notes": "Named 'RP' but carries a small amount of species data alongside its textures."
+    },
+    {
+      "id": "kenji-yoshi",
+      "label": "Kenji's Cobblemon Yoshi",
+      "file": "datapacks/[v.1.0] Kenji's Cobblemon Yoshi.zip",
+      "kind": "datapack",
+      "role": "content",
+      "priority": 33
+    },
+    {
+      "id": "digimod-spawn-together",
+      "label": "Cobblemon + Digimod Spawn Together",
+      "file": "datapacks/Cobblemon + Digimod Spawn Together 1.21.1.zip",
+      "kind": "datapack",
+      "role": "content",
+      "priority": 90,
+      "notes": "Spawn-pool/dex-registration compatibility patch for Digimod - must load after digimod's own species."
+    },
+    {
+      "id": "lasers-additions",
+      "label": "Laser's Additions",
+      "file": "lasers-additions-1.0.jar",
+      "kind": "jar",
+      "role": "balance-patch",
+      "priority": 100,
+      "notes": "Rebalances moves/abilities on existing species (official and fakemon). Always applied last and wins field conflicts, per server owner's ruling."
+    },
+    {
+      "id": "atm-msd-radiants",
+      "label": "AllTheMons x MegaShowdown Radiants",
+      "file": "datapacks/AllTheMons x MegaShowdown Radiants 1.3.zip",
+      "kind": "datapack",
+      "role": "cosmetic",
+      "priority": 40,
+      "notes": "Only touches species_features/species_feature_assignments (a cosmetic 'radiant' visual flag) - no stat/species content. Its base ATM x MSD pack is disabled on this server (see disabled list), so this remnant contributes nothing to the dex either way."
+    }
+  ],
+  "disabled": [
+    {
+      "id": "atm-msd-full",
+      "label": "AllTheMons x MegaShowdown (full pack)",
+      "file": "datapacks/z DO NOT ENABLE z [ATM x MSD - Credits Only].zip",
+      "reason": "Explicitly marked DO NOT ENABLE by server owner - not active on the server."
+    },
+    {
+      "id": "cavscobblemons",
+      "label": "CavsCobbleMons",
+      "file": "datapacks/z DO NOT ENABLE z [CavsCobbleMons - Credits Only].zip",
+      "reason": "Explicitly marked DO NOT ENABLE."
+    },
+    {
+      "id": "cobblemotion",
+      "label": "CobbleMotion",
+      "file": "datapacks/z DO NOT ENABLE z [CobbleMotion - Credits Only].zip",
+      "reason": "Explicitly marked DO NOT ENABLE."
+    },
+    {
+      "id": "e19-minimap-icons",
+      "label": "E19 Minimap Icons (full pack)",
+      "file": "datapacks/z DO NOT ENABLE z [E19 Minimap Icons - Credits Only].zip",
+      "reason": "Explicitly marked DO NOT ENABLE (also cosmetic-only, no species data)."
+    },
+    {
+      "id": "glitchdex",
+      "label": "GlitchDex",
+      "file": "datapacks/z DO NOT ENABLE z [GlitchDex - Credits Only].zip",
+      "reason": "Explicitly marked DO NOT ENABLE."
+    },
+    {
+      "id": "hydro-reanimodel",
+      "label": "Hydro Reanimodel",
+      "file": "datapacks/z DO NOT ENABLE z [Hydro Reanimodel - Credits Only].zip",
+      "reason": "Explicitly marked DO NOT ENABLE."
+    },
+    {
+      "id": "lackingmons",
+      "label": "LackingMons",
+      "file": "datapacks/z DO NOT ENABLE z [LackingMons - Credits Only].zip",
+      "reason": "Explicitly marked DO NOT ENABLE."
+    },
+    {
+      "id": "missingmons",
+      "label": "MissingMons",
+      "file": "datapacks/z DO NOT ENABLE z [MissingMons - Credits Only].zip",
+      "reason": "Explicitly marked DO NOT ENABLE."
+    },
+    {
+      "id": "mundialmons",
+      "label": "MundialMons",
+      "file": "datapacks/z DO NOT ENABLE z [MundialMons - Credits Only].zip",
+      "reason": "Explicitly marked DO NOT ENABLE."
+    },
+    {
+      "id": "mysticmons",
+      "label": "MysticMons",
+      "file": "datapacks/z DO NOT ENABLE z [MysticMons - Credits Only].zip",
+      "reason": "Explicitly marked DO NOT ENABLE."
+    },
+    {
+      "id": "planetacobblemon",
+      "label": "PlanetaCobblemon",
+      "file": "datapacks/z DO NOT ENABLE z [PlanetaCobblemon - Credits Only].zip",
+      "reason": "Explicitly marked DO NOT ENABLE (also no species data)."
+    },
+    {
+      "id": "pokemans",
+      "label": "Pokemans",
+      "file": "datapacks/z DO NOT ENABLE z [Pokemans - Credits Only].zip",
+      "reason": "Explicitly marked DO NOT ENABLE."
+    },
+    {
+      "id": "tdmon",
+      "label": "TDmon",
+      "file": "datapacks/z DO NOT ENABLE z [TDmon - Credits Only].zip",
+      "reason": "Explicitly marked DO NOT ENABLE."
+    },
+    {
+      "id": "terralith",
+      "label": "Terralith",
+      "file": "datapacks/z DO NOT ENABLE z [Terralith - Credits Only].zip",
+      "reason": "Explicitly marked DO NOT ENABLE (also just worldgen, unrelated to Pokemon data)."
+    }
+  ],
+  "cosmeticOnly": [
+    "datapacks/-1.21.2 Fresh Moves v3.1 (No Animated Eyes).zip",
+    "datapacks/ATMxMSD RP.zip",
+    "datapacks/Artemis Cobblemon VG sounds pack (public release).zip",
+    "datapacks/Canon PC Wallpapers.zip",
+    "datapacks/CavsCobbleMons RP.zip",
+    "datapacks/Classic Grass.zip",
+    "datapacks/Cobblemon Better Type Icons-1.0,1.4.0+mc1.19.2-1.21.1.zip",
+    "datapacks/Cobblemon Dark Edition v3.zip",
+    "datapacks/Cobblemon Interface Modded.zip",
+    "datapacks/Cobblemon Interface.zip",
+    "datapacks/Cobblemon Midnight V3.1.zip",
+    "datapacks/CobbleMotion RP.zip",
+    "datapacks/COBBLEVERSE RCTmod RP.zip",
+    "datapacks/COBBLEVERSE RP.zip",
+    "datapacks/Comforts Modernized.zip",
+    "datapacks/E19 Cobblemon Minimap Icons.zip",
+    "datapacks/EeveelutionsReimagined RP.zip",
+    "datapacks/Emissive Cobblemon Ores.zip",
+    "datapacks/Fresh Animations.zip",
+    "datapacks/Fresh Icons.zip",
+    "datapacks/FullyHisuianStarters RP.zip",
+    "datapacks/GlitchDex RP.zip",
+    "datapacks/HydroReanimodel RP.zip",
+    "datapacks/JJ's Reworked Shiny Pokemon.zip",
+    "datapacks/LackingMons RP.zip",
+    "datapacks/Low Fire.zip",
+    "datapacks/MissingMons RP.zip",
+    "datapacks/MundialMons RP.zip",
+    "datapacks/MysticMons RP.zip",
+    "datapacks/OJsAnimations RP.zip",
+    "datapacks/Original Pokemon Battle Music.zip",
+    "datapacks/PlanetaCobblemon RP.zip",
+    "datapacks/PokeDiscs.zip",
+    "datapacks/Pokemans RP.zip",
+    "datapacks/PokeRods3D.zip",
+    "datapacks/RBSkins.zip",
+    "datapacks/TDmon RP.zip"
+  ]
+}

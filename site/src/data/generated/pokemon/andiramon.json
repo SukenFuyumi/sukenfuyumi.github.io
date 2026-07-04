@@ -1,0 +1,191 @@
+{
+  "id": "cobblemon:andiramon",
+  "namespace": "cobblemon",
+  "slug": "andiramon",
+  "name": "Andiramon",
+  "nationalPokedexNumber": 2046,
+  "primaryType": "fighting",
+  "secondaryType": "fairy",
+  "types": [
+    "fighting",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 73,
+    "attack": 100,
+    "defence": 80,
+    "special_attack": 71,
+    "special_defence": 73,
+    "speed": 108
+  },
+  "baseStatTotal": 505,
+  "abilities": [
+    "naturalcure",
+    "serenegrace"
+  ],
+  "hiddenAbilities": [
+    "superluck"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.92,
+  "weight": 91.17,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "One of the Deva Digimon, it is a Perfect Digimon with a form resembling the Rabbit.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "machpunch",
+        "level": 44
+      },
+      {
+        "moveId": "agility",
+        "level": 47
+      },
+      {
+        "moveId": "slash",
+        "level": 50
+      },
+      {
+        "moveId": "dualchop",
+        "level": 54
+      },
+      {
+        "moveId": "tripleaxel",
+        "level": 57
+      },
+      {
+        "moveId": "rapidspin",
+        "level": 61
+      },
+      {
+        "moveId": "strengthsap",
+        "level": 66
+      },
+      {
+        "moveId": "playrough",
+        "level": 70
+      },
+      {
+        "moveId": "crosschop",
+        "level": 75
+      },
+      {
+        "moveId": "nightslash",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "turuiemon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/andiramon.png",
+    "placeholderColor": "#C22E28"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "ultra-rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

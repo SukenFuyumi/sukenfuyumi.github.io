@@ -1,0 +1,618 @@
+{
+  "id": "cobblemon:abra",
+  "namespace": "cobblemon",
+  "slug": "abra",
+  "name": "Abra",
+  "nationalPokedexNumber": 63,
+  "primaryType": "psychic",
+  "secondaryType": null,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 25,
+    "attack": 20,
+    "defence": 15,
+    "special_attack": 105,
+    "special_defence": 55,
+    "speed": 90
+  },
+  "baseStatTotal": 310,
+  "abilities": [
+    "synchronize",
+    "innerfocus"
+  ],
+  "hiddenAbilities": [
+    "magicguard"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "catchRate": 200,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 9,
+  "weight": 195,
+  "maleRatio": 0.75,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 62,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Abra needs to sleep for eighteen hours a day. If it doesn't, this Pokémon loses its ability to use telekinetic powers. If it is attacked, Abra escapes using Teleport while it is still sleeping.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "teleport",
+        "level": 1
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "barrier"
+      },
+      {
+        "moveId": "confusion"
+      },
+      {
+        "moveId": "guardsplit"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magictrick"
+      },
+      {
+        "moveId": "powertrick"
+      },
+      {
+        "moveId": "psychoshift"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "guardswap"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hypnoblast"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "metronome"
+      },
+      {
+        "moveId": "mindbend"
+      },
+      {
+        "moveId": "powerswap"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicsnap"
+      },
+      {
+        "moveId": "psychicterrain"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "speedswap"
+      },
+      {
+        "moveId": "starshower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "triattack"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dynamicpunch"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "nightmare"
+      },
+      {
+        "moveId": "psywave"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "seismictoss"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "submission"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "zapcannon"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:kadabra",
+      "targetSlug": "kadabra",
+      "summary": "Nivel · Nv. 16",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_hills",
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "rare",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_magical"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_hills",
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "rare",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_magical"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core"
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "id": "cobblemon:poipole",
+  "namespace": "cobblemon",
+  "slug": "poipole",
+  "name": "Poipole",
+  "nationalPokedexNumber": 803,
+  "primaryType": "poison",
+  "secondaryType": null,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 67,
+    "attack": 73,
+    "defence": 67,
+    "special_attack": 73,
+    "special_defence": 67,
+    "speed": 73
+  },
+  "baseStatTotal": 420,
+  "abilities": [
+    "beastboost"
+  ],
+  "hiddenAbilities": [
+    "corrosion"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 45,
+  "eggCycles": 120,
+  "baseFriendship": 0,
+  "height": 6,
+  "weight": 18,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 210,
+  "labels": [
+    "gen7",
+    "ultra_beast"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "An Ultra Beast that lives in a different world, it cackles wildly as it sprays its opponents with poison from the needles on its head.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "dragonpulse",
+        "level": 1
+      },
+      {
+        "moveId": "peck",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 1
+      },
+      {
+        "moveId": "acid",
+        "level": 1
+      },
+      {
+        "moveId": "furyattack",
+        "level": 7
+      },
+      {
+        "moveId": "fellstinger",
+        "level": 14
+      },
+      {
+        "moveId": "charm",
+        "level": 21
+      },
+      {
+        "moveId": "venoshock",
+        "level": 28
+      },
+      {
+        "moveId": "venomdrench",
+        "level": 35
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 42
+      },
+      {
+        "moveId": "poisonjab",
+        "level": 49
+      },
+      {
+        "moveId": "gastroacid",
+        "level": 56
+      },
+      {
+        "moveId": "toxic",
+        "level": 63
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "gastroacid"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "pinmissile"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "potshot"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "toxicspikes"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "venomdrench"
+      },
+      {
+        "moveId": "venoshock"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "gastroacid"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:naganadel",
+      "targetSlug": "naganadel",
+      "summary": "Nivel · Conoce dragonpulse",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/803.png"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core"
+  }
+}

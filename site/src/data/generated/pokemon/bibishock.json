@@ -1,0 +1,210 @@
+{
+  "id": "cobblemon:bibishock",
+  "namespace": "cobblemon",
+  "slug": "bibishock",
+  "name": "Bibishock",
+  "nationalPokedexNumber": 1226,
+  "primaryType": "electric",
+  "secondaryType": null,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 61,
+    "attack": 55,
+    "defence": 42,
+    "special_attack": 60,
+    "special_defence": 67,
+    "speed": 36
+  },
+  "baseStatTotal": 321,
+  "abilities": [
+    "static",
+    "lightningrod"
+  ],
+  "hiddenAbilities": [
+    "speedboost"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 255,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 2,
+  "weight": 17,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 50,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Its body works like a capacitor, when someone rubs it, it will build up a huge charge of electricity.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "nuzzle",
+        "level": 0
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 0
+      },
+      {
+        "moveId": "charge",
+        "level": 0
+      },
+      {
+        "moveId": "doubleslap",
+        "level": 0
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "circlethrow"
+      },
+      {
+        "moveId": "iondeluge"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "quickguard"
+      },
+      {
+        "moveId": "ragingfury"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderwave"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:tikishock",
+      "targetSlug": "tikishock",
+      "summary": "Nivel · Nv. 30",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/bibishock.png",
+    "placeholderColor": "#F7D02C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_taiga"
+      ],
+      "bucket": "uncommon",
+      "level": "11-36",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_spooky"
+      ],
+      "bucket": "uncommon",
+      "level": "11-36",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

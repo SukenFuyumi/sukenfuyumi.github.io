@@ -1,0 +1,241 @@
+{
+  "id": "cobblemon:scatterbug",
+  "namespace": "cobblemon",
+  "slug": "scatterbug",
+  "name": "Scatterbug",
+  "nationalPokedexNumber": 664,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 38,
+    "attack": 35,
+    "defence": 40,
+    "special_attack": 27,
+    "special_defence": 25,
+    "speed": 35
+  },
+  "baseStatTotal": 200,
+  "abilities": [
+    "shielddust",
+    "compoundeyes"
+  ],
+  "hiddenAbilities": [
+    "friendguard"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 255,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 25,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 40,
+  "labels": [
+    "gen6"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "The powder that covers its body regulates its temperature, so it can live in any region or climate.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "stringshot",
+        "level": 1
+      },
+      {
+        "moveId": "stunspore",
+        "level": 6
+      },
+      {
+        "moveId": "bugbite",
+        "level": 15
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "poisonpowder"
+      },
+      {
+        "moveId": "ragepowder"
+      },
+      {
+        "moveId": "stunspore"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "stringshot"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:spewpa",
+      "targetSlug": "spewpa",
+      "summary": "Nivel · Nv. 9",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_floral",
+        "#cobblemon:is_plains",
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "common",
+      "level": "1-20",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_bumblezone:floral_meadow"
+      ],
+      "bucket": "common",
+      "level": "1-20",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "1-20",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "1-20",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_floral",
+        "#cobblemon:is_plains",
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "common",
+      "level": "1-20",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "the_bumblezone:floral_meadow"
+      ],
+      "bucket": "common",
+      "level": "1-20",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

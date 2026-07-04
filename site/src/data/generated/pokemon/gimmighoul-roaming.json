@@ -1,0 +1,183 @@
+{
+  "id": "cobblemon:gimmighoul#Roaming",
+  "namespace": "cobblemon",
+  "slug": "gimmighoul-roaming",
+  "name": "Gimmighoul Roaming",
+  "nationalPokedexNumber": 999,
+  "primaryType": "ghost",
+  "secondaryType": null,
+  "types": [
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 30,
+    "defence": 25,
+    "special_attack": 75,
+    "special_defence": 45,
+    "speed": 80
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "runaway"
+  ],
+  "hiddenAbilities": [],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 0,
+  "eggCycles": 50,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 50,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [
+    "roaming"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "-",
+  "moveset": {
+    "levelUp": [],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:gholdengo",
+      "targetSlug": "gholdengo",
+      "summary": "Nivel · properties",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gholdengo",
+      "targetSlug": "gholdengo",
+      "summary": "Nivel · properties · property_range · variante netherite_coating=stage1",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gholdengo",
+      "targetSlug": "gholdengo",
+      "summary": "Nivel · properties · property_range · variante netherite_coating=stage2",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gholdengo",
+      "targetSlug": "gholdengo",
+      "summary": "Nivel · properties · property_range · variante netherite_coating=stage3",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gholdengo",
+      "targetSlug": "gholdengo",
+      "summary": "Nivel · properties · property_range · variante netherite_coating=stage4",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gholdengo",
+      "targetSlug": "gholdengo",
+      "summary": "Nivel · properties · property_range · variante netherite_coating=stage5",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gholdengo",
+      "targetSlug": "gholdengo",
+      "summary": "Nivel · properties · property_range · variante netherite_coating=stage6",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gholdengo",
+      "targetSlug": "gholdengo",
+      "summary": "Nivel · properties · property_range · variante netherite_coating=stage7",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gholdengo",
+      "targetSlug": "gholdengo",
+      "summary": "Nivel · properties · properties · variante netherite_coating=full",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/gimmighoul-roaming.png",
+    "placeholderColor": "#735797"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "digimod",
+    "lasers-additions",
+    "cobblemon-core"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "baseExperienceYield": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "behaviour": "digimod",
+    "features": "digimod",
+    "moves": "lasers-additions",
+    "labels": "digimod",
+    "aspects": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "cannotDynamax": "digimod",
+    "forms": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "drops": "digimod"
+  },
+  "formOf": {
+    "slug": "gimmighoul",
+    "name": "Gimmighoul"
+  },
+  "formName": "Roaming"
+}

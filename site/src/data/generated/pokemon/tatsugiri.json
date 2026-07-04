@@ -1,0 +1,1631 @@
+{
+  "id": "cobblemon:tatsugiri",
+  "namespace": "cobblemon",
+  "slug": "tatsugiri",
+  "name": "Tatsugiri",
+  "nationalPokedexNumber": 978,
+  "primaryType": "dragon",
+  "secondaryType": "water",
+  "types": [
+    "dragon",
+    "water"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 50,
+    "defence": 60,
+    "special_attack": 120,
+    "special_defence": 95,
+    "speed": 82
+  },
+  "baseStatTotal": 475,
+  "abilities": [
+    "commander",
+    "tastyaroma"
+  ],
+  "hiddenAbilities": [
+    "stormdrain"
+  ],
+  "eggGroups": [
+    "water_2"
+  ],
+  "catchRate": 100,
+  "eggCycles": 35,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 80,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 166,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [
+    "tatsugiri-texture-curly"
+  ],
+  "forms": [
+    {
+      "name": "Droopy",
+      "aspects": [
+        "tatsugiri-texture-droopy"
+      ],
+      "primaryType": "dragon",
+      "secondaryType": "water",
+      "types": [
+        "dragon",
+        "water"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "This species' differing colors and patterns are apparently the result of Tatsugiri changing itself to suit the preferences of the prey it lures in.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "watergun",
+            "level": 1
+          },
+          {
+            "moveId": "splash",
+            "level": 1
+          },
+          {
+            "moveId": "harden",
+            "level": 6
+          },
+          {
+            "moveId": "helpinghand",
+            "level": 12
+          },
+          {
+            "moveId": "waterpulse",
+            "level": 17
+          },
+          {
+            "moveId": "soak",
+            "level": 23
+          },
+          {
+            "moveId": "taunt",
+            "level": 28
+          },
+          {
+            "moveId": "memento",
+            "level": 34
+          },
+          {
+            "moveId": "muddywater",
+            "level": 39
+          },
+          {
+            "moveId": "nastyplot",
+            "level": 43
+          },
+          {
+            "moveId": "mirrorcoat",
+            "level": 47
+          },
+          {
+            "moveId": "dragonpulse",
+            "level": 52
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "counter"
+          },
+          {
+            "moveId": "rapidspin"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "chillingwater"
+          },
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragoncheer"
+          },
+          {
+            "moveId": "dragondance"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hydropump"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "lunge"
+          },
+          {
+            "moveId": "muddywater"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "surf"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "whirlpool"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "waterpulse"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dragon",
+            "multiplier": 2
+          },
+          {
+            "type": "fairy",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "fire",
+            "multiplier": 0.25
+          },
+          {
+            "type": "water",
+            "multiplier": 0.25
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "tatsugiri-droopy"
+    },
+    {
+      "name": "Stretchy",
+      "aspects": [
+        "tatsugiri-texture-stretchy"
+      ],
+      "primaryType": "dragon",
+      "secondaryType": "water",
+      "types": [
+        "dragon",
+        "water"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "Bird Pokémon are its main prey. This Pokémon knows it's weak, so it hunts with a partner.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "watergun",
+            "level": 1
+          },
+          {
+            "moveId": "splash",
+            "level": 1
+          },
+          {
+            "moveId": "harden",
+            "level": 6
+          },
+          {
+            "moveId": "helpinghand",
+            "level": 12
+          },
+          {
+            "moveId": "waterpulse",
+            "level": 17
+          },
+          {
+            "moveId": "soak",
+            "level": 23
+          },
+          {
+            "moveId": "taunt",
+            "level": 28
+          },
+          {
+            "moveId": "memento",
+            "level": 34
+          },
+          {
+            "moveId": "muddywater",
+            "level": 39
+          },
+          {
+            "moveId": "nastyplot",
+            "level": 43
+          },
+          {
+            "moveId": "mirrorcoat",
+            "level": 47
+          },
+          {
+            "moveId": "dragonpulse",
+            "level": 52
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "counter"
+          },
+          {
+            "moveId": "rapidspin"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "chillingwater"
+          },
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragoncheer"
+          },
+          {
+            "moveId": "dragondance"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hydropump"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "lunge"
+          },
+          {
+            "moveId": "muddywater"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "surf"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "whirlpool"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "waterpulse"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dragon",
+            "multiplier": 2
+          },
+          {
+            "type": "fairy",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "fire",
+            "multiplier": 0.25
+          },
+          {
+            "type": "water",
+            "multiplier": 0.25
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "tatsugiri-stretchy"
+    },
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega",
+        "tatsugiri-texture-curly"
+      ],
+      "primaryType": "dragon",
+      "secondaryType": null,
+      "types": [
+        "dragon"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 68,
+        "attack": 65,
+        "defence": 90,
+        "special_attack": 135,
+        "special_defence": 125,
+        "speed": 92
+      },
+      "baseStatTotal": 575,
+      "abilities": [
+        "drizzle"
+      ],
+      "hiddenAbilities": [
+        "drizzle"
+      ],
+      "pokedexDescription": "Tatsugiri's brain has been invigorated by Mega Evolution, making it even wilier. It can create and command copies of itself.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "watergun",
+            "level": 1
+          },
+          {
+            "moveId": "splash",
+            "level": 1
+          },
+          {
+            "moveId": "harden",
+            "level": 6
+          },
+          {
+            "moveId": "helpinghand",
+            "level": 12
+          },
+          {
+            "moveId": "waterpulse",
+            "level": 17
+          },
+          {
+            "moveId": "soak",
+            "level": 23
+          },
+          {
+            "moveId": "taunt",
+            "level": 28
+          },
+          {
+            "moveId": "memento",
+            "level": 34
+          },
+          {
+            "moveId": "muddywater",
+            "level": 39
+          },
+          {
+            "moveId": "nastyplot",
+            "level": 43
+          },
+          {
+            "moveId": "mirrorcoat",
+            "level": 47
+          },
+          {
+            "moveId": "dragonpulse",
+            "level": 52
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "counter"
+          },
+          {
+            "moveId": "rapidspin"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "chillingwater"
+          },
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragoncheer"
+          },
+          {
+            "moveId": "dragondance"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hydropump"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "lunge"
+          },
+          {
+            "moveId": "muddywater"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "surf"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "whirlpool"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "waterpulse"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dragon",
+            "multiplier": 2
+          },
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "tatsugiri-mega"
+    },
+    {
+      "name": "MegaS",
+      "aspects": [
+        "mega",
+        "tatsugiri-texture-stretchy"
+      ],
+      "primaryType": "dragon",
+      "secondaryType": null,
+      "types": [
+        "dragon"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 68,
+        "attack": 65,
+        "defence": 90,
+        "special_attack": 135,
+        "special_defence": 125,
+        "speed": 92
+      },
+      "baseStatTotal": 575,
+      "abilities": [
+        "drizzle"
+      ],
+      "hiddenAbilities": [
+        "drizzle"
+      ],
+      "pokedexDescription": "Using the energy of Mega Evolution, it creates a dish to ride upon, allowing it to move with total freedom-even through the air.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "watergun",
+            "level": 1
+          },
+          {
+            "moveId": "splash",
+            "level": 1
+          },
+          {
+            "moveId": "harden",
+            "level": 6
+          },
+          {
+            "moveId": "helpinghand",
+            "level": 12
+          },
+          {
+            "moveId": "waterpulse",
+            "level": 17
+          },
+          {
+            "moveId": "soak",
+            "level": 23
+          },
+          {
+            "moveId": "taunt",
+            "level": 28
+          },
+          {
+            "moveId": "memento",
+            "level": 34
+          },
+          {
+            "moveId": "muddywater",
+            "level": 39
+          },
+          {
+            "moveId": "nastyplot",
+            "level": 43
+          },
+          {
+            "moveId": "mirrorcoat",
+            "level": 47
+          },
+          {
+            "moveId": "dragonpulse",
+            "level": 52
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "counter"
+          },
+          {
+            "moveId": "rapidspin"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "chillingwater"
+          },
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragoncheer"
+          },
+          {
+            "moveId": "dragondance"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hydropump"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "lunge"
+          },
+          {
+            "moveId": "muddywater"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "surf"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "whirlpool"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "waterpulse"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dragon",
+            "multiplier": 2
+          },
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "tatsugiri-megas"
+    },
+    {
+      "name": "MegaD",
+      "aspects": [
+        "mega",
+        "tatsugiri-texture-droopy"
+      ],
+      "primaryType": "dragon",
+      "secondaryType": null,
+      "types": [
+        "dragon"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 68,
+        "attack": 65,
+        "defence": 90,
+        "special_attack": 135,
+        "special_defence": 125,
+        "speed": 92
+      },
+      "baseStatTotal": 575,
+      "abilities": [
+        "drizzle"
+      ],
+      "hiddenAbilities": [
+        "drizzle"
+      ],
+      "pokedexDescription": "It solidifies the energy of Mega Evolution, building up an overflowing pile to launch as projectiles. These projectiles explode on contact.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "watergun",
+            "level": 1
+          },
+          {
+            "moveId": "splash",
+            "level": 1
+          },
+          {
+            "moveId": "harden",
+            "level": 6
+          },
+          {
+            "moveId": "helpinghand",
+            "level": 12
+          },
+          {
+            "moveId": "waterpulse",
+            "level": 17
+          },
+          {
+            "moveId": "soak",
+            "level": 23
+          },
+          {
+            "moveId": "taunt",
+            "level": 28
+          },
+          {
+            "moveId": "memento",
+            "level": 34
+          },
+          {
+            "moveId": "muddywater",
+            "level": 39
+          },
+          {
+            "moveId": "nastyplot",
+            "level": 43
+          },
+          {
+            "moveId": "mirrorcoat",
+            "level": 47
+          },
+          {
+            "moveId": "dragonpulse",
+            "level": 52
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "counter"
+          },
+          {
+            "moveId": "rapidspin"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "chillingwater"
+          },
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragoncheer"
+          },
+          {
+            "moveId": "dragondance"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hydropump"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "lunge"
+          },
+          {
+            "moveId": "muddywater"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "surf"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "whirlpool"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "waterpulse"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dragon",
+            "multiplier": 2
+          },
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "tatsugiri-megad"
+    }
+  ],
+  "pokedexDescription": "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "watergun",
+        "level": 1
+      },
+      {
+        "moveId": "splash",
+        "level": 1
+      },
+      {
+        "moveId": "harden",
+        "level": 6
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 12
+      },
+      {
+        "moveId": "waterpulse",
+        "level": 17
+      },
+      {
+        "moveId": "soak",
+        "level": 23
+      },
+      {
+        "moveId": "taunt",
+        "level": 28
+      },
+      {
+        "moveId": "memento",
+        "level": 34
+      },
+      {
+        "moveId": "muddywater",
+        "level": 39
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 43
+      },
+      {
+        "moveId": "mirrorcoat",
+        "level": 47
+      },
+      {
+        "moveId": "dragonpulse",
+        "level": 52
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "rapidspin"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragoncheer"
+      },
+      {
+        "moveId": "dragondance"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "whirlpool"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.25
+      },
+      {
+        "type": "water",
+        "multiplier": 0.25
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/978.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "rare",
+      "level": "23-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "rare",
+      "level": "23-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_bamboo",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "rare",
+      "level": "23-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "rare",
+      "level": "23-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_bamboo",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "rare",
+      "level": "23-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "23-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "23-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "rare",
+      "level": "23-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "rare",
+      "level": "23-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_bamboo",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "rare",
+      "level": "23-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "rare",
+      "level": "23-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_bamboo",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "rare",
+      "level": "23-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "zamega",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "zamega",
+    "features": "zamega"
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "id": "cobblemon:cramorant#Gulping",
+  "namespace": "cobblemon",
+  "slug": "cramorant-gulping",
+  "name": "Cramorant Gulping",
+  "nationalPokedexNumber": 845,
+  "primaryType": "flying",
+  "secondaryType": "water",
+  "types": [
+    "flying",
+    "water"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 85,
+    "defence": 55,
+    "special_attack": 85,
+    "special_defence": 95,
+    "speed": 85
+  },
+  "baseStatTotal": 475,
+  "abilities": [
+    "gulpmissile"
+  ],
+  "hiddenAbilities": [
+    "gulpmissile"
+  ],
+  "eggGroups": [
+    "water_1",
+    "flying"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 8,
+  "weight": 180,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 166,
+  "labels": [
+    "gen8"
+  ],
+  "aspects": [
+    "gulping-form"
+  ],
+  "forms": [],
+  "battleOnly": true,
+  "pokedexDescription": "Cramorant's gluttony led it to try to swallow an Arrokuda whole, which in turn led to Cramorant getting an Arrokuda stuck in its throat.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "belch",
+        "level": 1
+      },
+      {
+        "moveId": "peck",
+        "level": 1
+      },
+      {
+        "moveId": "stockpile",
+        "level": 1
+      },
+      {
+        "moveId": "swallow",
+        "level": 1
+      },
+      {
+        "moveId": "spitup",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 7
+      },
+      {
+        "moveId": "furyattack",
+        "level": 14
+      },
+      {
+        "moveId": "pluck",
+        "level": 21
+      },
+      {
+        "moveId": "dive",
+        "level": 28
+      },
+      {
+        "moveId": "drillpeck",
+        "level": 35
+      },
+      {
+        "moveId": "amnesia",
+        "level": 42
+      },
+      {
+        "moveId": "thrash",
+        "level": 49
+      },
+      {
+        "moveId": "hydropump",
+        "level": 56
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aquacutter"
+      },
+      {
+        "moveId": "aquaring"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "roost"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bravebird"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "pluck"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "whirlpool"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 4
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/cramorant-gulping.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "mega-showdown"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "mega-showdown",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "mega-showdown",
+    "hitbox": "mega-showdown",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core"
+  },
+  "formOf": {
+    "slug": "cramorant",
+    "name": "Cramorant"
+  },
+  "formName": "Gulping"
+}

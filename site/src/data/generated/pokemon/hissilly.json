@@ -1,0 +1,1785 @@
+{
+  "id": "cobblemon:hissilly",
+  "namespace": "cobblemon",
+  "slug": "hissilly",
+  "name": "Hissilly",
+  "nationalPokedexNumber": 1245,
+  "primaryType": "poison",
+  "secondaryType": "water",
+  "types": [
+    "poison",
+    "water"
+  ],
+  "baseStats": {
+    "hp": 38,
+    "attack": 71,
+    "defence": 42,
+    "special_attack": 39,
+    "special_defence": 41,
+    "speed": 43
+  },
+  "baseStatTotal": 274,
+  "abilities": [
+    "shellarmor",
+    "shedskin"
+  ],
+  "hiddenAbilities": [
+    "poisontouch"
+  ],
+  "eggGroups": [
+    "field",
+    "dragon"
+  ],
+  "catchRate": 255,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 35,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "red_coral",
+      "aspects": [
+        "red-coral"
+      ],
+      "primaryType": "poison",
+      "secondaryType": null,
+      "types": [
+        "poison"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": null,
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "wrap",
+            "level": 0
+          },
+          {
+            "moveId": "babydolleyes",
+            "level": 0
+          },
+          {
+            "moveId": "acid",
+            "level": 4
+          },
+          {
+            "moveId": "watergun",
+            "level": 8
+          },
+          {
+            "moveId": "withdraw",
+            "level": 11
+          },
+          {
+            "moveId": "poisonfang",
+            "level": 16
+          },
+          {
+            "moveId": "glare",
+            "level": 18
+          },
+          {
+            "moveId": "bite",
+            "level": 20
+          },
+          {
+            "moveId": "toxic",
+            "level": 24
+          },
+          {
+            "moveId": "dive",
+            "level": 28
+          },
+          {
+            "moveId": "coil",
+            "level": 30
+          },
+          {
+            "moveId": "venoshock",
+            "level": 36
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "acidarmor"
+          },
+          {
+            "moveId": "lastrespects"
+          },
+          {
+            "moveId": "lifedew"
+          },
+          {
+            "moveId": "revivalblessing"
+          },
+          {
+            "moveId": "shellsmash"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acidspray"
+          },
+          {
+            "moveId": "aquajet"
+          },
+          {
+            "moveId": "aquaring"
+          },
+          {
+            "moveId": "beatup"
+          },
+          {
+            "moveId": "brine"
+          },
+          {
+            "moveId": "crunch"
+          },
+          {
+            "moveId": "dive"
+          },
+          {
+            "moveId": "dragoncheer"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "poisontail"
+          },
+          {
+            "moveId": "powerwhip"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockthrow"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "scaleshot"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarblade"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "superfang"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunderfang"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aquatail"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:hissicobra",
+          "targetSlug": "hissicobra",
+          "summary": "Nivel · Nv. 24 · variante red",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "hissilly-red-coral"
+    },
+    {
+      "name": "blue_coral",
+      "aspects": [
+        "blue-coral"
+      ],
+      "primaryType": "poison",
+      "secondaryType": null,
+      "types": [
+        "poison"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": null,
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "wrap",
+            "level": 0
+          },
+          {
+            "moveId": "babydolleyes",
+            "level": 0
+          },
+          {
+            "moveId": "acid",
+            "level": 4
+          },
+          {
+            "moveId": "watergun",
+            "level": 8
+          },
+          {
+            "moveId": "withdraw",
+            "level": 11
+          },
+          {
+            "moveId": "poisonfang",
+            "level": 16
+          },
+          {
+            "moveId": "glare",
+            "level": 18
+          },
+          {
+            "moveId": "bite",
+            "level": 20
+          },
+          {
+            "moveId": "toxic",
+            "level": 24
+          },
+          {
+            "moveId": "dive",
+            "level": 28
+          },
+          {
+            "moveId": "coil",
+            "level": 30
+          },
+          {
+            "moveId": "venoshock",
+            "level": 36
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "acidarmor"
+          },
+          {
+            "moveId": "lastrespects"
+          },
+          {
+            "moveId": "lifedew"
+          },
+          {
+            "moveId": "revivalblessing"
+          },
+          {
+            "moveId": "shellsmash"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acidspray"
+          },
+          {
+            "moveId": "aquajet"
+          },
+          {
+            "moveId": "aquaring"
+          },
+          {
+            "moveId": "beatup"
+          },
+          {
+            "moveId": "brine"
+          },
+          {
+            "moveId": "crunch"
+          },
+          {
+            "moveId": "dive"
+          },
+          {
+            "moveId": "dragoncheer"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "poisontail"
+          },
+          {
+            "moveId": "powerwhip"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockthrow"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "scaleshot"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarblade"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "superfang"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunderfang"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aquatail"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:hissicobra",
+          "targetSlug": "hissicobra",
+          "summary": "Nivel · Nv. 24 · variante blue",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "hissilly-blue-coral"
+    },
+    {
+      "name": "yellow_coral",
+      "aspects": [
+        "yellow-coral"
+      ],
+      "primaryType": "poison",
+      "secondaryType": null,
+      "types": [
+        "poison"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": null,
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "wrap",
+            "level": 0
+          },
+          {
+            "moveId": "babydolleyes",
+            "level": 0
+          },
+          {
+            "moveId": "acid",
+            "level": 4
+          },
+          {
+            "moveId": "watergun",
+            "level": 8
+          },
+          {
+            "moveId": "withdraw",
+            "level": 11
+          },
+          {
+            "moveId": "poisonfang",
+            "level": 16
+          },
+          {
+            "moveId": "glare",
+            "level": 18
+          },
+          {
+            "moveId": "bite",
+            "level": 20
+          },
+          {
+            "moveId": "toxic",
+            "level": 24
+          },
+          {
+            "moveId": "dive",
+            "level": 28
+          },
+          {
+            "moveId": "coil",
+            "level": 30
+          },
+          {
+            "moveId": "venoshock",
+            "level": 36
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "acidarmor"
+          },
+          {
+            "moveId": "lastrespects"
+          },
+          {
+            "moveId": "lifedew"
+          },
+          {
+            "moveId": "revivalblessing"
+          },
+          {
+            "moveId": "shellsmash"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acidspray"
+          },
+          {
+            "moveId": "aquajet"
+          },
+          {
+            "moveId": "aquaring"
+          },
+          {
+            "moveId": "beatup"
+          },
+          {
+            "moveId": "brine"
+          },
+          {
+            "moveId": "crunch"
+          },
+          {
+            "moveId": "dive"
+          },
+          {
+            "moveId": "dragoncheer"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "poisontail"
+          },
+          {
+            "moveId": "powerwhip"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockthrow"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "scaleshot"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarblade"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "superfang"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunderfang"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aquatail"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:hissicobra",
+          "targetSlug": "hissicobra",
+          "summary": "Nivel · Nv. 24 · variante yellow",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "hissilly-yellow-coral"
+    },
+    {
+      "name": "green_coral",
+      "aspects": [
+        "green-coral"
+      ],
+      "primaryType": "poison",
+      "secondaryType": null,
+      "types": [
+        "poison"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": null,
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "wrap",
+            "level": 0
+          },
+          {
+            "moveId": "babydolleyes",
+            "level": 0
+          },
+          {
+            "moveId": "acid",
+            "level": 4
+          },
+          {
+            "moveId": "watergun",
+            "level": 8
+          },
+          {
+            "moveId": "withdraw",
+            "level": 11
+          },
+          {
+            "moveId": "poisonfang",
+            "level": 16
+          },
+          {
+            "moveId": "glare",
+            "level": 18
+          },
+          {
+            "moveId": "bite",
+            "level": 20
+          },
+          {
+            "moveId": "toxic",
+            "level": 24
+          },
+          {
+            "moveId": "dive",
+            "level": 28
+          },
+          {
+            "moveId": "coil",
+            "level": 30
+          },
+          {
+            "moveId": "venoshock",
+            "level": 36
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "acidarmor"
+          },
+          {
+            "moveId": "lastrespects"
+          },
+          {
+            "moveId": "lifedew"
+          },
+          {
+            "moveId": "revivalblessing"
+          },
+          {
+            "moveId": "shellsmash"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acidspray"
+          },
+          {
+            "moveId": "aquajet"
+          },
+          {
+            "moveId": "aquaring"
+          },
+          {
+            "moveId": "beatup"
+          },
+          {
+            "moveId": "brine"
+          },
+          {
+            "moveId": "crunch"
+          },
+          {
+            "moveId": "dive"
+          },
+          {
+            "moveId": "dragoncheer"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "poisontail"
+          },
+          {
+            "moveId": "powerwhip"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockthrow"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "scaleshot"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarblade"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "superfang"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunderfang"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aquatail"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:hissicobra",
+          "targetSlug": "hissicobra",
+          "summary": "Nivel · Nv. 24 · variante green",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "hissilly-green-coral"
+    },
+    {
+      "name": "purple_coral",
+      "aspects": [
+        "purple-coral"
+      ],
+      "primaryType": "poison",
+      "secondaryType": null,
+      "types": [
+        "poison"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": null,
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "wrap",
+            "level": 0
+          },
+          {
+            "moveId": "babydolleyes",
+            "level": 0
+          },
+          {
+            "moveId": "acid",
+            "level": 4
+          },
+          {
+            "moveId": "watergun",
+            "level": 8
+          },
+          {
+            "moveId": "withdraw",
+            "level": 11
+          },
+          {
+            "moveId": "poisonfang",
+            "level": 16
+          },
+          {
+            "moveId": "glare",
+            "level": 18
+          },
+          {
+            "moveId": "bite",
+            "level": 20
+          },
+          {
+            "moveId": "toxic",
+            "level": 24
+          },
+          {
+            "moveId": "dive",
+            "level": 28
+          },
+          {
+            "moveId": "coil",
+            "level": 30
+          },
+          {
+            "moveId": "venoshock",
+            "level": 36
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "acidarmor"
+          },
+          {
+            "moveId": "lastrespects"
+          },
+          {
+            "moveId": "lifedew"
+          },
+          {
+            "moveId": "revivalblessing"
+          },
+          {
+            "moveId": "shellsmash"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acidspray"
+          },
+          {
+            "moveId": "aquajet"
+          },
+          {
+            "moveId": "aquaring"
+          },
+          {
+            "moveId": "beatup"
+          },
+          {
+            "moveId": "brine"
+          },
+          {
+            "moveId": "crunch"
+          },
+          {
+            "moveId": "dive"
+          },
+          {
+            "moveId": "dragoncheer"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "poisontail"
+          },
+          {
+            "moveId": "powerwhip"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockthrow"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "scaleshot"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarblade"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "superfang"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunderfang"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aquatail"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:hissicobra",
+          "targetSlug": "hissicobra",
+          "summary": "Nivel · Nv. 24 · variante purple",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "hissilly-purple-coral"
+    },
+    {
+      "name": "pink_coral",
+      "aspects": [
+        "pink-coral"
+      ],
+      "primaryType": "poison",
+      "secondaryType": null,
+      "types": [
+        "poison"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": null,
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "wrap",
+            "level": 0
+          },
+          {
+            "moveId": "babydolleyes",
+            "level": 0
+          },
+          {
+            "moveId": "acid",
+            "level": 4
+          },
+          {
+            "moveId": "watergun",
+            "level": 8
+          },
+          {
+            "moveId": "withdraw",
+            "level": 11
+          },
+          {
+            "moveId": "poisonfang",
+            "level": 16
+          },
+          {
+            "moveId": "glare",
+            "level": 18
+          },
+          {
+            "moveId": "bite",
+            "level": 20
+          },
+          {
+            "moveId": "toxic",
+            "level": 24
+          },
+          {
+            "moveId": "dive",
+            "level": 28
+          },
+          {
+            "moveId": "coil",
+            "level": 30
+          },
+          {
+            "moveId": "venoshock",
+            "level": 36
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "acidarmor"
+          },
+          {
+            "moveId": "lastrespects"
+          },
+          {
+            "moveId": "lifedew"
+          },
+          {
+            "moveId": "revivalblessing"
+          },
+          {
+            "moveId": "shellsmash"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acidspray"
+          },
+          {
+            "moveId": "aquajet"
+          },
+          {
+            "moveId": "aquaring"
+          },
+          {
+            "moveId": "beatup"
+          },
+          {
+            "moveId": "brine"
+          },
+          {
+            "moveId": "crunch"
+          },
+          {
+            "moveId": "dive"
+          },
+          {
+            "moveId": "dragoncheer"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "poisontail"
+          },
+          {
+            "moveId": "powerwhip"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockthrow"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "scaleshot"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarblade"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "superfang"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunderfang"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aquatail"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:hissicobra",
+          "targetSlug": "hissicobra",
+          "summary": "Nivel · Nv. 24 · variante pink",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "hissilly-pink-coral"
+    }
+  ],
+  "pokedexDescription": "The poison on its skin is highly irritating to everything, except corals and Corsola.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "wrap",
+        "level": 0
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 0
+      },
+      {
+        "moveId": "acid",
+        "level": 4
+      },
+      {
+        "moveId": "watergun",
+        "level": 8
+      },
+      {
+        "moveId": "withdraw",
+        "level": 11
+      },
+      {
+        "moveId": "poisonfang",
+        "level": 16
+      },
+      {
+        "moveId": "glare",
+        "level": 18
+      },
+      {
+        "moveId": "bite",
+        "level": 20
+      },
+      {
+        "moveId": "toxic",
+        "level": 24
+      },
+      {
+        "moveId": "dive",
+        "level": 28
+      },
+      {
+        "moveId": "coil",
+        "level": 30
+      },
+      {
+        "moveId": "venoshock",
+        "level": 36
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "acidarmor"
+      },
+      {
+        "moveId": "lastrespects"
+      },
+      {
+        "moveId": "lifedew"
+      },
+      {
+        "moveId": "revivalblessing"
+      },
+      {
+        "moveId": "shellsmash"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "aquajet"
+      },
+      {
+        "moveId": "aquaring"
+      },
+      {
+        "moveId": "beatup"
+      },
+      {
+        "moveId": "brine"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "dragoncheer"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "poisontail"
+      },
+      {
+        "moveId": "powerwhip"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockthrow"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarblade"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aquatail"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/hissilly.png",
+    "placeholderColor": "#A33EA1"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean",
+        "#biome:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean",
+        "#biome:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean",
+        "#biome:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean",
+        "#biome:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean",
+        "#biome:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean",
+        "#biome:is_warm_ocean"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "features": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "forms": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp"
+  }
+}

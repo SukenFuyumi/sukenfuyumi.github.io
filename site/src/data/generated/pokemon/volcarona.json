@@ -1,0 +1,634 @@
+{
+  "id": "cobblemon:volcarona",
+  "namespace": "cobblemon",
+  "slug": "volcarona",
+  "name": "Volcarona",
+  "nationalPokedexNumber": 637,
+  "primaryType": "bug",
+  "secondaryType": "fire",
+  "types": [
+    "bug",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 60,
+    "defence": 65,
+    "special_attack": 135,
+    "special_defence": 105,
+    "speed": 100
+  },
+  "baseStatTotal": 550,
+  "abilities": [
+    "flamebody"
+  ],
+  "hiddenAbilities": [
+    "swarm"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 15,
+  "eggCycles": 40,
+  "baseFriendship": 50,
+  "height": 16,
+  "weight": 460,
+  "maleRatio": 0.5,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 275,
+  "labels": [
+    "gen5"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "When volcanic ash darkened the atmosphere, it is said that Volcarona's fire provided a replacement for the sun.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "ember",
+        "level": 1
+      },
+      {
+        "moveId": "stringshot",
+        "level": 1
+      },
+      {
+        "moveId": "gust",
+        "level": 1
+      },
+      {
+        "moveId": "firespin",
+        "level": 1
+      },
+      {
+        "moveId": "whirlwind",
+        "level": 1
+      },
+      {
+        "moveId": "quiverdance",
+        "level": 1
+      },
+      {
+        "moveId": "fierydance",
+        "level": 1
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 1
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 1
+      },
+      {
+        "moveId": "flareblitz",
+        "level": 1
+      },
+      {
+        "moveId": "thrash",
+        "level": 1
+      },
+      {
+        "moveId": "absorb",
+        "level": 1
+      },
+      {
+        "moveId": "takedown",
+        "level": 1
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 1
+      },
+      {
+        "moveId": "flamewheel",
+        "level": 18
+      },
+      {
+        "moveId": "bugbite",
+        "level": 24
+      },
+      {
+        "moveId": "screech",
+        "level": 30
+      },
+      {
+        "moveId": "leechlife",
+        "level": 36
+      },
+      {
+        "moveId": "bugbuzz",
+        "level": 42
+      },
+      {
+        "moveId": "heatwave",
+        "level": 48
+      },
+      {
+        "moveId": "amnesia",
+        "level": 54
+      },
+      {
+        "moveId": "hurricane",
+        "level": 62
+      },
+      {
+        "moveId": "fireblast",
+        "level": 70
+      },
+      {
+        "moveId": "ragepowder",
+        "level": 78
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "absorb"
+      },
+      {
+        "moveId": "foresight"
+      },
+      {
+        "moveId": "harden"
+      },
+      {
+        "moveId": "morningsun"
+      },
+      {
+        "moveId": "thrash"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fireblast"
+      },
+      {
+        "moveId": "firespin"
+      },
+      {
+        "moveId": "flamecharge"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flareblitz"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "overheat"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "silverwind"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "wildcharge"
+      },
+      {
+        "moveId": "willowisp"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "wildcharge"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "larvesta",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "rock",
+        "multiplier": 4
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/637.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "uncommon",
+      "level": "59-64",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "uncommon",
+      "level": "59-64",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_crimson",
+        "#cobblemon:nether/is_forest"
+      ],
+      "bucket": "uncommon",
+      "level": "59-64",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "uncommon",
+      "level": "59-64",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "59-64",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "59-64",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "59-64",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "uncommon",
+      "level": "59-64",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "uncommon",
+      "level": "59-64",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_crimson",
+        "#cobblemon:nether/is_forest"
+      ],
+      "bucket": "uncommon",
+      "level": "59-64",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "uncommon",
+      "level": "59-64",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "riding": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

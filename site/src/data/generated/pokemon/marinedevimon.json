@@ -1,0 +1,216 @@
+{
+  "id": "cobblemon:marinedevimon",
+  "namespace": "cobblemon",
+  "slug": "marinedevimon",
+  "name": "Marinedevimon",
+  "nationalPokedexNumber": 2071,
+  "primaryType": "water",
+  "secondaryType": "dark",
+  "types": [
+    "water",
+    "dark"
+  ],
+  "baseStats": {
+    "hp": 107,
+    "attack": 107,
+    "defence": 78,
+    "special_attack": 120,
+    "special_defence": 71,
+    "speed": 35
+  },
+  "baseStatTotal": 518,
+  "abilities": [
+    "cursedbody",
+    "opportunist"
+  ],
+  "hiddenAbilities": [
+    "darkaura"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.21,
+  "weight": 80,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A deep-sea Devimon variant lurking in abyssal waters.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "octazooka",
+        "level": 44
+      },
+      {
+        "moveId": "meanlook",
+        "level": 47
+      },
+      {
+        "moveId": "acidspray",
+        "level": 50
+      },
+      {
+        "moveId": "brine",
+        "level": 54
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 57
+      },
+      {
+        "moveId": "darkpulse",
+        "level": 61
+      },
+      {
+        "moveId": "surf",
+        "level": 66
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 70
+      },
+      {
+        "moveId": "hydropump",
+        "level": 75
+      },
+      {
+        "moveId": "liquidation",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "shellmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/marinedevimon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cave"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

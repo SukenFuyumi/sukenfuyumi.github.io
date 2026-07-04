@@ -1,0 +1,185 @@
+{
+  "id": "cobblemon:omegashoutmon",
+  "namespace": "cobblemon",
+  "slug": "omegashoutmon",
+  "name": "Omegashoutmon",
+  "nationalPokedexNumber": 2140,
+  "primaryType": "dragon",
+  "secondaryType": "fire",
+  "types": [
+    "dragon",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 84,
+    "attack": 62,
+    "defence": 90,
+    "special_attack": 106,
+    "special_defence": 83,
+    "speed": 90
+  },
+  "baseStatTotal": 515,
+  "abilities": [
+    "soundproof",
+    "punkrock"
+  ],
+  "hiddenAbilities": [
+    "victorystar"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.31,
+  "weight": 90.3,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A blazing dragon of victory who roars down foes.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pyroball",
+        "level": 44
+      },
+      {
+        "moveId": "willowisp",
+        "level": 47
+      },
+      {
+        "moveId": "hypervoice",
+        "level": 50
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 54
+      },
+      {
+        "moveId": "burningbulwark",
+        "level": 57
+      },
+      {
+        "moveId": "dragonpulse",
+        "level": 61
+      },
+      {
+        "moveId": "flamethrower",
+        "level": 66
+      },
+      {
+        "moveId": "dracometeor",
+        "level": 70
+      },
+      {
+        "moveId": "victorydance",
+        "level": 75
+      },
+      {
+        "moveId": "torchsong",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "kingshoutmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/omegashoutmon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_hills",
+        "#cobblemon:is_thermal"
+      ],
+      "bucket": "ultra-rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

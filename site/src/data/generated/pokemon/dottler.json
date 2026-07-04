@@ -1,0 +1,388 @@
+{
+  "id": "cobblemon:dottler",
+  "namespace": "cobblemon",
+  "slug": "dottler",
+  "name": "Dottler",
+  "nationalPokedexNumber": 825,
+  "primaryType": "bug",
+  "secondaryType": "psychic",
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 35,
+    "defence": 80,
+    "special_attack": 50,
+    "special_defence": 90,
+    "speed": 30
+  },
+  "baseStatTotal": 335,
+  "abilities": [
+    "swarm",
+    "compoundeyes"
+  ],
+  "hiddenAbilities": [
+    "telepathy"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 120,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 195,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 117,
+  "labels": [
+    "gen8"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It barely moves, but it's still alive. Hiding in its shell without food or water seems to have awakened its psychic powers.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "reflect",
+        "level": 1
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 1
+      },
+      {
+        "moveId": "confusion",
+        "level": 1
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 1
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "recover"
+      },
+      {
+        "moveId": "stickyweb"
+      },
+      {
+        "moveId": "supersonic"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "guardswap"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hypnoblast"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "mindbend"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "powerswap"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicsnap"
+      },
+      {
+        "moveId": "psychicterrain"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "starshower"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:orbeetle",
+      "targetSlug": "orbeetle",
+      "summary": "Nivel · Nv. 30",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "blipbug",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/825.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "uncommon",
+      "level": "9-20",
+      "timeRange": null,
+      "sourceId": "mega-showdown"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "uncommon",
+      "level": "9-20",
+      "timeRange": null,
+      "sourceId": "mega-showdown"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "mega-showdown",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "mega-showdown",
+    "hitbox": "mega-showdown",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "implemented": "mega-showdown"
+  }
+}

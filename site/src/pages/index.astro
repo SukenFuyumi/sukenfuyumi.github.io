@@ -1,0 +1,56 @@
+---
+import Layout from "../layouts/Layout.astro";
+import listing from "../data/generated/index.json";
+import sourcesData from "../data/generated/sources.json";
+
+const officialCount = listing.filter((p: any) => p.primarySource === "cobblemon-core").length;
+const customCount = listing.length - officialCount;
+const types = ["normal","fire","water","electric","grass","ice","fighting","poison","ground","flying","psychic","bug","rock","ghost","dragon","dark","steel","fairy"];
+const packCount = sourcesData.sources.length;
+---
+<Layout title="Inicio">
+  <h1>Cobbleverse Dex</h1>
+  <p>
+    Referencia completa de los <strong>{listing.length}</strong> Pokémon disponibles en el servidor
+    ({officialCount} oficiales + {customCount} fakemon/custom/megas) generada directamente desde los {packCount} mods
+    y datapacks instalados. Movimientos y habilidades ya reflejan los rebalanceos aplicados en el servidor.
+  </p>
+
+  <form action="/pokedex" class="panel" style="margin: 1.25rem 0;">
+    <label for="q" style="display:block; font-weight:700; margin-bottom:0.5rem;">Buscar un Pokémon</label>
+    <input id="q" name="q" class="search-box" type="search" placeholder="Ej. Charizard, Agumon, Mega..." autocomplete="off" />
+  </form>
+
+  <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));">
+    <a class="panel mon-card" href="/pokedex" style="text-align:left;">
+      <strong>Pokédex completa</strong>
+      <p style="color:var(--text-muted); font-size:0.85rem; margin:0.4rem 0 0;">Explora, filtra y ordena los {listing.length} registros.</p>
+    </a>
+    <a class="panel mon-card" href="/moves" style="text-align:left;">
+      <strong>Movimientos</strong>
+      <p style="color:var(--text-muted); font-size:0.85rem; margin:0.4rem 0 0;">Poder, precisión, tipo y quién lo aprende - incluye rebalanceos.</p>
+    </a>
+    <a class="panel mon-card" href="/abilities" style="text-align:left;">
+      <strong>Habilidades</strong>
+      <p style="color:var(--text-muted); font-size:0.85rem; margin:0.4rem 0 0;">Descripciones y qué Pokémon las tienen.</p>
+    </a>
+    <a class="panel mon-card" href="/type" style="text-align:left;">
+      <strong>Tabla de tipos</strong>
+      <p style="color:var(--text-muted); font-size:0.85rem; margin:0.4rem 0 0;">Debilidades, resistencias e inmunidades para el competitivo.</p>
+    </a>
+    <a class="panel mon-card" href="/team" style="text-align:left;">
+      <strong>Mi equipo</strong>
+      <p style="color:var(--text-muted); font-size:0.85rem; margin:0.4rem 0 0;">Arma un equipo de 8 y genera una imagen para compartir.</p>
+    </a>
+  </div>
+
+  <h2>Por tipo</h2>
+  <div style="display:flex; flex-wrap:wrap; gap:0.5rem;">
+    {types.map((t) => (
+      <a class="type-badge" href={`/type/${t}`} style={`background: var(--type-${t})`}>{t}</a>
+    ))}
+  </div>
+
+  <h2>Por origen</h2>
+  <p><a href="/packs">Ver los {packCount} mods/datapacks activos y sus créditos &rarr;</a></p>
+</Layout>

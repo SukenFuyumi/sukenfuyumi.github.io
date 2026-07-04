@@ -1,0 +1,1442 @@
+{
+  "id": "cobblemon:malamar",
+  "namespace": "cobblemon",
+  "slug": "malamar",
+  "name": "Malamar",
+  "nationalPokedexNumber": 687,
+  "primaryType": "dark",
+  "secondaryType": "psychic",
+  "types": [
+    "dark",
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 86,
+    "attack": 92,
+    "defence": 88,
+    "special_attack": 68,
+    "special_defence": 75,
+    "speed": 73
+  },
+  "baseStatTotal": 482,
+  "abilities": [
+    "contrary",
+    "suctioncups"
+  ],
+  "hiddenAbilities": [
+    "infiltrator"
+  ],
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "catchRate": 80,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 15,
+  "weight": 470,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 169,
+  "labels": [
+    "gen6"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "primaryType": "dark",
+      "secondaryType": null,
+      "types": [
+        "dark"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 86,
+        "attack": 102,
+        "defence": 88,
+        "special_attack": 98,
+        "special_defence": 120,
+        "speed": 88
+      },
+      "baseStatTotal": 582,
+      "abilities": [
+        "contrary"
+      ],
+      "hiddenAbilities": [
+        "contrary"
+      ],
+      "pokedexDescription": "It uses its colorful lights to overwrite the personalities and memories of others—and to control them.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "mindbend",
+            "level": 1
+          },
+          {
+            "moveId": "reversal",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "peck",
+            "level": 1
+          },
+          {
+            "moveId": "constrict",
+            "level": 1
+          },
+          {
+            "moveId": "psywave",
+            "level": 1
+          },
+          {
+            "moveId": "hypnosis",
+            "level": 1
+          },
+          {
+            "moveId": "wrap",
+            "level": 1
+          },
+          {
+            "moveId": "payback",
+            "level": 9
+          },
+          {
+            "moveId": "pluck",
+            "level": 12
+          },
+          {
+            "moveId": "psybeam",
+            "level": 15
+          },
+          {
+            "moveId": "swagger",
+            "level": 18
+          },
+          {
+            "moveId": "slash",
+            "level": 21
+          },
+          {
+            "moveId": "nightslash",
+            "level": 24
+          },
+          {
+            "moveId": "psychocut",
+            "level": 27
+          },
+          {
+            "moveId": "switcheroo",
+            "level": 33
+          },
+          {
+            "moveId": "foulplay",
+            "level": 37
+          },
+          {
+            "moveId": "topsyturvy",
+            "level": 42
+          },
+          {
+            "moveId": "superpower",
+            "level": 47
+          },
+          {
+            "moveId": "hypnoblast",
+            "level": 47
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "acupressure"
+          },
+          {
+            "moveId": "camouflage"
+          },
+          {
+            "moveId": "destinybond"
+          },
+          {
+            "moveId": "disable"
+          },
+          {
+            "moveId": "flatter"
+          },
+          {
+            "moveId": "powersplit"
+          },
+          {
+            "moveId": "simplebeam"
+          },
+          {
+            "moveId": "vitalslash"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "bind"
+          },
+          {
+            "moveId": "block"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "cut"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "embargo"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "futuresight"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "guardswap"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypnoblast"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "liquidation"
+          },
+          {
+            "moveId": "lunge"
+          },
+          {
+            "moveId": "mindbend"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "nightlight"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "pluck"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicnoise"
+          },
+          {
+            "moveId": "psychicsnap"
+          },
+          {
+            "moveId": "psychocut"
+          },
+          {
+            "moveId": "psyshock"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "shadowstars"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "snatch"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "starshower"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "torment"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "trickroom"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "bind"
+          },
+          {
+            "moveId": "block"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "liquidation"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychocut"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "snatch"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "trick"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": [
+          {
+            "moveId": "happyhour"
+          }
+        ]
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 2
+          },
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "fighting",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ghost",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "psychic"
+        ]
+      },
+      "evolutions": [],
+      "slug": "malamar-mega"
+    }
+  ],
+  "pokedexDescription": "It lures its prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "mindbend",
+        "level": 1
+      },
+      {
+        "moveId": "reversal",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "peck",
+        "level": 1
+      },
+      {
+        "moveId": "constrict",
+        "level": 1
+      },
+      {
+        "moveId": "psywave",
+        "level": 1
+      },
+      {
+        "moveId": "hypnosis",
+        "level": 1
+      },
+      {
+        "moveId": "wrap",
+        "level": 1
+      },
+      {
+        "moveId": "payback",
+        "level": 9
+      },
+      {
+        "moveId": "pluck",
+        "level": 12
+      },
+      {
+        "moveId": "psybeam",
+        "level": 15
+      },
+      {
+        "moveId": "swagger",
+        "level": 18
+      },
+      {
+        "moveId": "slash",
+        "level": 21
+      },
+      {
+        "moveId": "nightslash",
+        "level": 24
+      },
+      {
+        "moveId": "psychocut",
+        "level": 27
+      },
+      {
+        "moveId": "switcheroo",
+        "level": 33
+      },
+      {
+        "moveId": "foulplay",
+        "level": 37
+      },
+      {
+        "moveId": "topsyturvy",
+        "level": 42
+      },
+      {
+        "moveId": "superpower",
+        "level": 47
+      },
+      {
+        "moveId": "hypnoblast",
+        "level": 47
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "acupressure"
+      },
+      {
+        "moveId": "camouflage"
+      },
+      {
+        "moveId": "destinybond"
+      },
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "flatter"
+      },
+      {
+        "moveId": "powersplit"
+      },
+      {
+        "moveId": "simplebeam"
+      },
+      {
+        "moveId": "vitalslash"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "guardswap"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypnoblast"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "mindbend"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "pluck"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "psychicsnap"
+      },
+      {
+        "moveId": "psychocut"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "shadowstars"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "starshower"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychocut"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "trick"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "happyhour"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": "inkay",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 4
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_end"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_end"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "30-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "zamega",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "features": "zamega",
+    "forms": "zamega"
+  }
+}

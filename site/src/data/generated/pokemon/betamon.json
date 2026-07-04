@@ -1,0 +1,197 @@
+{
+  "id": "cobblemon:betamon",
+  "namespace": "cobblemon",
+  "slug": "betamon",
+  "name": "Betamon",
+  "nationalPokedexNumber": 2165,
+  "primaryType": "water",
+  "secondaryType": "electric",
+  "types": [
+    "water",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 40,
+    "special_attack": 60,
+    "special_defence": 40,
+    "speed": 60
+  },
+  "baseStatTotal": 295,
+  "abilities": [
+    "torrent",
+    "static"
+  ],
+  "hiddenAbilities": [
+    "raindish"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.81,
+  "weight": 8.16,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "An amphibious Digimon that channels electricity from its fins.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 12
+      },
+      {
+        "moveId": "leer",
+        "level": 14
+      },
+      {
+        "moveId": "watergun",
+        "level": 16
+      },
+      {
+        "moveId": "sharpen",
+        "level": 18
+      },
+      {
+        "moveId": "thundershock",
+        "level": 19
+      },
+      {
+        "moveId": "aquajet",
+        "level": 21
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 22
+      },
+      {
+        "moveId": "spark",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:seadramon",
+      "targetSlug": "seadramon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:airdramon",
+      "targetSlug": "airdramon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: dragon_scale",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:karatukinumemon",
+      "targetSlug": "karatukinumemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: nautilus_shell",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:shellmon",
+      "targetSlug": "shellmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: shell_bell",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "tanemon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "steel",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/betamon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_freshwater"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

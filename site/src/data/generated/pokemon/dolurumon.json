@@ -1,0 +1,205 @@
+{
+  "id": "cobblemon:dolurumon",
+  "namespace": "cobblemon",
+  "slug": "dolurumon",
+  "name": "Dolurumon",
+  "nationalPokedexNumber": 2144,
+  "primaryType": "ground",
+  "secondaryType": "rock",
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 96,
+    "defence": 66,
+    "special_attack": 45,
+    "special_defence": 54,
+    "speed": 92
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "sandrush",
+    "costar"
+  ],
+  "hiddenAbilities": [
+    "sturdy"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.6,
+  "weight": 55,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A drilling runner that races across dunes like a bullet.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "sandtomb",
+        "level": 25
+      },
+      {
+        "moveId": "scratch",
+        "level": 27
+      },
+      {
+        "moveId": "howl",
+        "level": 29
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 31
+      },
+      {
+        "moveId": "bonemerang",
+        "level": 33
+      },
+      {
+        "moveId": "cut",
+        "level": 35
+      },
+      {
+        "moveId": "agility",
+        "level": 37
+      },
+      {
+        "moveId": "accelerock",
+        "level": 39
+      },
+      {
+        "moveId": "sandstorm",
+        "level": 41
+      },
+      {
+        "moveId": "drillrun",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:shoutmonx3",
+      "targetSlug": "shoutmonx3",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: steel_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "gabumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 4
+      },
+      {
+        "type": "water",
+        "multiplier": 4
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/dolurumon.png",
+    "placeholderColor": "#E2BF65"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_sandy"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

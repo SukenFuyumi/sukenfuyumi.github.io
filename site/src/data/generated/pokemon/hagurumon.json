@@ -1,0 +1,231 @@
+{
+  "id": "cobblemon:hagurumon",
+  "namespace": "cobblemon",
+  "slug": "hagurumon",
+  "name": "Hagurumon",
+  "nationalPokedexNumber": 2087,
+  "primaryType": "steel",
+  "secondaryType": null,
+  "types": [
+    "steel"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 30
+  },
+  "baseStatTotal": 305,
+  "abilities": [
+    "levitate",
+    "sturdy"
+  ],
+  "hiddenAbilities": [
+    "download"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.81,
+  "weight": 38.56,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Machine Digimon resembling a gear that constantly turns.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 12
+      },
+      {
+        "moveId": "leer",
+        "level": 14
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 16
+      },
+      {
+        "moveId": "metalsound",
+        "level": 18
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 19
+      },
+      {
+        "moveId": "selfdestruct",
+        "level": 21
+      },
+      {
+        "moveId": "spark",
+        "level": 22
+      },
+      {
+        "moveId": "charge",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:guardromon",
+      "targetSlug": "guardromon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:ballistamon",
+      "targetSlug": "ballistamon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: upgrade",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:mailbirdramon",
+      "targetSlug": "mailbirdramon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: metal_coat",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:cyclomon",
+      "targetSlug": "cyclomon",
+      "summary": "Nivel · Nv. 24 · De noche",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "gumimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/hagurumon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_peak"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:magnetic_caves"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

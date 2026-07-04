@@ -1,0 +1,197 @@
+{
+  "id": "cobblemon:gigadramon",
+  "namespace": "cobblemon",
+  "slug": "gigadramon",
+  "name": "Gigadramon",
+  "nationalPokedexNumber": 2163,
+  "primaryType": "steel",
+  "secondaryType": "dragon",
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 110,
+    "defence": 76,
+    "special_attack": 85,
+    "special_defence": 76,
+    "speed": 88
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "levitate",
+    "filter"
+  ],
+  "hiddenAbilities": [
+    "skilllink"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.51,
+  "weight": 96.2,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A mechanized dragon loaded with armaments.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "magnetbomb",
+        "level": 44
+      },
+      {
+        "moveId": "spikecannon",
+        "level": 47
+      },
+      {
+        "moveId": "detect",
+        "level": 50
+      },
+      {
+        "moveId": "anchorshot",
+        "level": 54
+      },
+      {
+        "moveId": "pinmissile",
+        "level": 57
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 61
+      },
+      {
+        "moveId": "bulletpunch",
+        "level": 66
+      },
+      {
+        "moveId": "dragondance",
+        "level": 70
+      },
+      {
+        "moveId": "scaleshot",
+        "level": 75
+      },
+      {
+        "moveId": "ceaselessedge",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "mailbirdramon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/gigadramon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

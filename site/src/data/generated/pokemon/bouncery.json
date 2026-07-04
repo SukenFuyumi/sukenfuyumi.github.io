@@ -1,0 +1,935 @@
+{
+  "id": "cobblemon:bouncery",
+  "namespace": "cobblemon",
+  "slug": "bouncery",
+  "name": "Bouncery",
+  "nationalPokedexNumber": 1089,
+  "primaryType": "water",
+  "secondaryType": "poison",
+  "types": [
+    "water",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 24,
+    "defence": 40,
+    "special_attack": 50,
+    "special_defence": 71,
+    "speed": 45
+  },
+  "baseStatTotal": 270,
+  "abilities": [
+    "gooey",
+    "liquidooze"
+  ],
+  "hiddenAbilities": [
+    "division"
+  ],
+  "eggGroups": [
+    "fairy",
+    "amorphous"
+  ],
+  "catchRate": 200,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 2,
+  "weight": 3,
+  "maleRatio": 0,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 54,
+  "labels": [
+    "laserdex",
+    "minecraftian"
+  ],
+  "aspects": [
+    "slime-size-medium"
+  ],
+  "forms": [
+    {
+      "name": "Small",
+      "aspects": [
+        "slime-size-small"
+      ],
+      "primaryType": "water",
+      "secondaryType": "poison",
+      "types": [
+        "water",
+        "poison"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 24,
+        "attack": 40,
+        "defence": 40,
+        "special_attack": 45,
+        "special_defence": 71,
+        "speed": 50
+      },
+      "baseStatTotal": 270,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "This Pokémon was born when the light of a full moon hit a ball of swamp sludge. When attacked it will throw globs of sticky slime at the attacker... Unfortunately, its small-minded so it usually forgets to run away afterwards.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "absorb",
+            "level": 1
+          },
+          {
+            "moveId": "acid",
+            "level": 1
+          },
+          {
+            "moveId": "bubble",
+            "level": 1
+          },
+          {
+            "moveId": "lifedew",
+            "level": 1
+          },
+          {
+            "moveId": "acidspray",
+            "level": 5
+          },
+          {
+            "moveId": "waterpulse",
+            "level": 10
+          },
+          {
+            "moveId": "aquaring",
+            "level": 15
+          },
+          {
+            "moveId": "sludge",
+            "level": 20
+          },
+          {
+            "moveId": "bounce",
+            "level": 25
+          },
+          {
+            "moveId": "acidarmor",
+            "level": 30
+          },
+          {
+            "moveId": "bouncybubble",
+            "level": 35
+          },
+          {
+            "moveId": "moonlight",
+            "level": 40
+          },
+          {
+            "moveId": "slickslime",
+            "level": 45
+          },
+          {
+            "moveId": "slimeball",
+            "level": 45
+          },
+          {
+            "moveId": "muddywater",
+            "level": 50
+          },
+          {
+            "moveId": "sludgebomb",
+            "level": 55
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "stickybubble"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acidspray"
+          },
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "bounce"
+          },
+          {
+            "moveId": "charm"
+          },
+          {
+            "moveId": "chillingwater"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "muddywater"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "sludgewave"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "venoshock"
+          },
+          {
+            "moveId": "waterpulse"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "snore"
+          }
+        ],
+        "other": [
+          {
+            "moveId": "celebrate"
+          }
+        ]
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "electric",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:alslimie",
+          "targetSlug": "alslimie",
+          "summary": "Nivel · moon_phase · De noche",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "bouncery-small"
+    },
+    {
+      "name": "Large",
+      "aspects": [
+        "slime-size-large"
+      ],
+      "primaryType": "water",
+      "secondaryType": "poison",
+      "types": [
+        "water",
+        "poison"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 45,
+        "attack": 40,
+        "defence": 40,
+        "special_attack": 50,
+        "special_defence": 71,
+        "speed": 24
+      },
+      "baseStatTotal": 270,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "This Pokémon was born when the light of a full moon hit a ball of swamp sludge. When attacked it will throw globs of sticky slime at the attacker... Unfortunately, its small-minded so it usually forgets to run away afterwards.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "absorb",
+            "level": 1
+          },
+          {
+            "moveId": "acid",
+            "level": 1
+          },
+          {
+            "moveId": "bubble",
+            "level": 1
+          },
+          {
+            "moveId": "lifedew",
+            "level": 1
+          },
+          {
+            "moveId": "acidspray",
+            "level": 5
+          },
+          {
+            "moveId": "waterpulse",
+            "level": 10
+          },
+          {
+            "moveId": "aquaring",
+            "level": 15
+          },
+          {
+            "moveId": "sludge",
+            "level": 20
+          },
+          {
+            "moveId": "bounce",
+            "level": 25
+          },
+          {
+            "moveId": "acidarmor",
+            "level": 30
+          },
+          {
+            "moveId": "bouncybubble",
+            "level": 35
+          },
+          {
+            "moveId": "moonlight",
+            "level": 40
+          },
+          {
+            "moveId": "slickslime",
+            "level": 45
+          },
+          {
+            "moveId": "slimeball",
+            "level": 45
+          },
+          {
+            "moveId": "muddywater",
+            "level": 50
+          },
+          {
+            "moveId": "sludgebomb",
+            "level": 55
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "stickybubble"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acidspray"
+          },
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "bounce"
+          },
+          {
+            "moveId": "charm"
+          },
+          {
+            "moveId": "chillingwater"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "muddywater"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "sludgewave"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "venoshock"
+          },
+          {
+            "moveId": "waterpulse"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "snore"
+          }
+        ],
+        "other": [
+          {
+            "moveId": "celebrate"
+          }
+        ]
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "electric",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:alslimie",
+          "targetSlug": "alslimie",
+          "summary": "Nivel · moon_phase · De noche",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "bouncery-large"
+    }
+  ],
+  "pokedexDescription": "This Pokémon was born when the light of a full moon hit a ball of swamp sludge. When attacked it will throw globs of sticky slime at the attacker... Unfortunately, its small-minded so it usually forgets to run away afterwards.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "absorb",
+        "level": 1
+      },
+      {
+        "moveId": "acid",
+        "level": 1
+      },
+      {
+        "moveId": "bubble",
+        "level": 1
+      },
+      {
+        "moveId": "lifedew",
+        "level": 1
+      },
+      {
+        "moveId": "acidspray",
+        "level": 5
+      },
+      {
+        "moveId": "waterpulse",
+        "level": 10
+      },
+      {
+        "moveId": "aquaring",
+        "level": 15
+      },
+      {
+        "moveId": "sludge",
+        "level": 20
+      },
+      {
+        "moveId": "bounce",
+        "level": 25
+      },
+      {
+        "moveId": "acidarmor",
+        "level": 30
+      },
+      {
+        "moveId": "bouncybubble",
+        "level": 35
+      },
+      {
+        "moveId": "moonlight",
+        "level": 40
+      },
+      {
+        "moveId": "slickslime",
+        "level": 45
+      },
+      {
+        "moveId": "slimeball",
+        "level": 45
+      },
+      {
+        "moveId": "muddywater",
+        "level": 50
+      },
+      {
+        "moveId": "sludgebomb",
+        "level": 55
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "stickybubble"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "celebrate"
+      }
+    ]
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:alslimie",
+      "targetSlug": "alslimie",
+      "summary": "Nivel · moon_phase · De noche",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/bouncery.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "2-27",
+      "timeRange": "night",
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [],
+      "bucket": "common",
+      "level": "2-27",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "2-27",
+      "timeRange": "night",
+      "sourceId": "lasers-fakemon-pack"
+    }
+  ],
+  "sourceMods": [
+    "lasers-fakemon-pack"
+  ],
+  "primarySource": "lasers-fakemon-pack",
+  "provenance": {
+    "implemented": "lasers-fakemon-pack",
+    "nationalPokedexNumber": "lasers-fakemon-pack",
+    "name": "lasers-fakemon-pack",
+    "primaryType": "lasers-fakemon-pack",
+    "secondaryType": "lasers-fakemon-pack",
+    "maleRatio": "lasers-fakemon-pack",
+    "height": "lasers-fakemon-pack",
+    "weight": "lasers-fakemon-pack",
+    "pokedex": "lasers-fakemon-pack",
+    "labels": "lasers-fakemon-pack",
+    "aspects": "lasers-fakemon-pack",
+    "abilities": "lasers-fakemon-pack",
+    "eggGroups": "lasers-fakemon-pack",
+    "baseStats": "lasers-fakemon-pack",
+    "evYield": "lasers-fakemon-pack",
+    "baseExperienceYield": "lasers-fakemon-pack",
+    "experienceGroup": "lasers-fakemon-pack",
+    "catchRate": "lasers-fakemon-pack",
+    "eggCycles": "lasers-fakemon-pack",
+    "baseFriendship": "lasers-fakemon-pack",
+    "shoulderMountable": "lasers-fakemon-pack",
+    "baseScale": "lasers-fakemon-pack",
+    "hitbox": "lasers-fakemon-pack",
+    "behaviour": "lasers-fakemon-pack",
+    "drops": "lasers-fakemon-pack",
+    "moves": "lasers-fakemon-pack",
+    "evolutions": "lasers-fakemon-pack",
+    "forms": "lasers-fakemon-pack"
+  }
+}

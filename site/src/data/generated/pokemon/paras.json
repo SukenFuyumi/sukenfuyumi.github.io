@@ -1,0 +1,1119 @@
+{
+  "id": "cobblemon:paras",
+  "namespace": "cobblemon",
+  "slug": "paras",
+  "name": "Paras",
+  "nationalPokedexNumber": 46,
+  "primaryType": "bug",
+  "secondaryType": "grass",
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 70,
+    "defence": 55,
+    "special_attack": 45,
+    "special_defence": 55,
+    "speed": 25
+  },
+  "baseStatTotal": 285,
+  "abilities": [
+    "effectspore",
+    "dryskin"
+  ],
+  "hiddenAbilities": [
+    "damp"
+  ],
+  "eggGroups": [
+    "bug",
+    "grass"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 54,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 57,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Psychodelic",
+      "aspects": [
+        "psychodelic"
+      ],
+      "primaryType": "bug",
+      "secondaryType": "psychic",
+      "types": [
+        "bug",
+        "psychic"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 35,
+        "attack": 35,
+        "defence": 55,
+        "special_attack": 90,
+        "special_defence": 55,
+        "speed": 25
+      },
+      "baseStatTotal": 295,
+      "abilities": [
+        "effectspore",
+        "overcoat"
+      ],
+      "hiddenAbilities": [
+        "poisonheal"
+      ],
+      "pokedexDescription": "The fungus growing on Paras' body has psychodelic compounds and pumps them into their brain.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "confusion",
+            "level": 1
+          },
+          {
+            "moveId": "hypnosis",
+            "level": 6
+          },
+          {
+            "moveId": "poisonpowder",
+            "level": 6
+          },
+          {
+            "moveId": "acid",
+            "level": 11
+          },
+          {
+            "moveId": "storedpower",
+            "level": 17
+          },
+          {
+            "moveId": "spore",
+            "level": 22
+          },
+          {
+            "moveId": "psychocut",
+            "level": 27
+          },
+          {
+            "moveId": "growth",
+            "level": 33
+          },
+          {
+            "moveId": "gigadrain",
+            "level": 38
+          },
+          {
+            "moveId": "aromatherapy",
+            "level": 43
+          },
+          {
+            "moveId": "ragepowder",
+            "level": 49
+          },
+          {
+            "moveId": "magicpowder",
+            "level": 52
+          },
+          {
+            "moveId": "psychic",
+            "level": 54
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "counter"
+          },
+          {
+            "moveId": "fellstinger"
+          },
+          {
+            "moveId": "flail"
+          },
+          {
+            "moveId": "leechseed"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "pursuit"
+          },
+          {
+            "moveId": "rototiller"
+          },
+          {
+            "moveId": "sweetscent"
+          },
+          {
+            "moveId": "wideguard"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "amnesia"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "bugbite"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "cut"
+          },
+          {
+            "moveId": "dig"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "infestation"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "leechlife"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "mirrorcoat"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "pollenpuff"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicterrain"
+          },
+          {
+            "moveId": "psyshock"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "stringshot"
+          },
+          {
+            "moveId": "strugglebug"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "venoshock"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "bugbite"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "leechlife"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "stringshot"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "bide"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "furyswipes"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "megadrain"
+          },
+          {
+            "moveId": "mimic"
+          },
+          {
+            "moveId": "rage"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skullbash"
+          },
+          {
+            "moveId": "sleeppowder"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": [
+          {
+            "moveId": "refresh"
+          }
+        ]
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 2
+          },
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "fighting",
+            "multiplier": 0.25
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ground",
+            "multiplier": 0.5
+          },
+          {
+            "type": "psychic",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:parasect",
+          "targetSlug": "parasect",
+          "summary": "Nivel · Nv. 24 · variante aspect=psychodelic",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "paras-psychodelic"
+    }
+  ],
+  "pokedexDescription": "Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokémon host. They are highly valued as a medicine for extending life.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 1
+      },
+      {
+        "moveId": "stunspore",
+        "level": 6
+      },
+      {
+        "moveId": "poisonpowder",
+        "level": 6
+      },
+      {
+        "moveId": "absorb",
+        "level": 11
+      },
+      {
+        "moveId": "furycutter",
+        "level": 17
+      },
+      {
+        "moveId": "spore",
+        "level": 22
+      },
+      {
+        "moveId": "slash",
+        "level": 27
+      },
+      {
+        "moveId": "growth",
+        "level": 33
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 38
+      },
+      {
+        "moveId": "aromatherapy",
+        "level": 43
+      },
+      {
+        "moveId": "ragepowder",
+        "level": 49
+      },
+      {
+        "moveId": "xscissor",
+        "level": 54
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "fellstinger"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "leechseed"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "pursuit"
+      },
+      {
+        "moveId": "rototiller"
+      },
+      {
+        "moveId": "sweetscent"
+      },
+      {
+        "moveId": "wideguard"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "crosspoison"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "metalclaw"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "worryseed"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "worryseed"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "furyswipes"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "megadrain"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "sleeppowder"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "refresh"
+      }
+    ]
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:parasect",
+      "targetSlug": "parasect",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 4
+      },
+      {
+        "type": "flying",
+        "multiplier": 4
+      },
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.25
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_lush"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_mushroom"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_fungus"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_lush"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_mushroom"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_fungus"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_lush"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_mushroom"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_fungus"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "fanmade-form-funfair"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "features": "fanmade-form-funfair",
+    "forms": "fanmade-form-funfair"
+  }
+}

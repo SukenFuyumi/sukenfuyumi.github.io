@@ -1,0 +1,528 @@
+{
+  "id": "cobblemon:castform#Snowy",
+  "namespace": "cobblemon",
+  "slug": "castform-snowy",
+  "name": "Castform Snowy",
+  "nationalPokedexNumber": 351,
+  "primaryType": "ice",
+  "secondaryType": null,
+  "types": [
+    "ice"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 80,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 80
+  },
+  "baseStatTotal": 480,
+  "abilities": [
+    "forecast"
+  ],
+  "hiddenAbilities": [
+    "forecast"
+  ],
+  "eggGroups": [
+    "fairy",
+    "amorphous"
+  ],
+  "catchRate": 45,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 8,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 147,
+  "labels": [
+    "gen3"
+  ],
+  "aspects": [
+    "snowy-form"
+  ],
+  "forms": [],
+  "battleOnly": true,
+  "pokedexDescription": "This is Castform's form when caught in a hailstorm. Its whole body is chilled, and its skin is partially frozen!",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 10
+      },
+      {
+        "moveId": "ember",
+        "level": 10
+      },
+      {
+        "moveId": "powdersnow",
+        "level": 10
+      },
+      {
+        "moveId": "rockthrow",
+        "level": 10
+      },
+      {
+        "moveId": "headbutt",
+        "level": 15
+      },
+      {
+        "moveId": "raindance",
+        "level": 20
+      },
+      {
+        "moveId": "sunnyday",
+        "level": 20
+      },
+      {
+        "moveId": "hail",
+        "level": 20
+      },
+      {
+        "moveId": "snowscape",
+        "level": 20
+      },
+      {
+        "moveId": "sandstorm",
+        "level": 20
+      },
+      {
+        "moveId": "weatherball",
+        "level": 25
+      },
+      {
+        "moveId": "blizzard",
+        "level": 35
+      },
+      {
+        "moveId": "fireblast",
+        "level": 35
+      },
+      {
+        "moveId": "hydropump",
+        "level": 35
+      },
+      {
+        "moveId": "stoneedge",
+        "level": 35
+      },
+      {
+        "moveId": "hurricane",
+        "level": 45
+      },
+      {
+        "moveId": "naturepower",
+        "level": 45
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "auroraveil"
+      },
+      {
+        "moveId": "clearsmog"
+      },
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "growth"
+      },
+      {
+        "moveId": "luckychant"
+      },
+      {
+        "moveId": "moonlight"
+      },
+      {
+        "moveId": "morningsun"
+      },
+      {
+        "moveId": "reflecttype"
+      },
+      {
+        "moveId": "shiverdance"
+      },
+      {
+        "moveId": "shoreup"
+      },
+      {
+        "moveId": "snowbank"
+      },
+      {
+        "moveId": "stormsiphon"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "avalanche"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "cosmicpower"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fireblast"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "frigidwater"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "guardswap"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "powergem"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "rockblast"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "sandshift"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snowscape"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "solarblade"
+      },
+      {
+        "moveId": "starshower"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "terrainpulse"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "workup"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "defensecurl"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/castform-snowy.png",
+    "placeholderColor": "#96D9D6"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "mega-showdown",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "lasers-additions",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "mega-showdown",
+    "hitbox": "mega-showdown",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "lasers-additions",
+    "implemented": "mega-showdown"
+  },
+  "formOf": {
+    "slug": "castform",
+    "name": "Castform"
+  },
+  "formName": "Snowy"
+}

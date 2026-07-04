@@ -1,0 +1,228 @@
+{
+  "id": "cobblemon:raremon",
+  "namespace": "cobblemon",
+  "slug": "raremon",
+  "name": "Raremon",
+  "nationalPokedexNumber": 2126,
+  "primaryType": "poison",
+  "secondaryType": "steel",
+  "types": [
+    "poison",
+    "steel"
+  ],
+  "baseStats": {
+    "hp": 170,
+    "attack": 40,
+    "defence": 100,
+    "special_attack": 50,
+    "special_defence": 5,
+    "speed": 20
+  },
+  "baseStatTotal": 385,
+  "abilities": [
+    "stench",
+    "oblivious"
+  ],
+  "hiddenAbilities": [
+    "unaware"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.6,
+  "weight": 123.83,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A reeking corpse-like Digimon bound together by sludge.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "poisongas",
+        "level": 25
+      },
+      {
+        "moveId": "gastroacid",
+        "level": 27
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 29
+      },
+      {
+        "moveId": "stockpile",
+        "level": 31
+      },
+      {
+        "moveId": "spitup",
+        "level": 33
+      },
+      {
+        "moveId": "swallow",
+        "level": 35
+      },
+      {
+        "moveId": "sludge",
+        "level": 37
+      },
+      {
+        "moveId": "venomdrench",
+        "level": 39
+      },
+      {
+        "moveId": "heavyslam",
+        "level": 41
+      },
+      {
+        "moveId": "frustration",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:rareraremon",
+      "targetSlug": "rareraremon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: poison_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:digitamamon",
+      "targetSlug": "digitamamon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: dusk_stone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:extyrannomon",
+      "targetSlug": "extyrannomon",
+      "summary": "Nivel · Nv. 43 · Amistad 8+",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "toyagumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 4
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/raremon.png",
+    "placeholderColor": "#A33EA1"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:toxic_caves",
+        "#cobblemon:nether"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

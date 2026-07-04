@@ -1,0 +1,192 @@
+{
+  "id": "cobblemon:garudamon",
+  "namespace": "cobblemon",
+  "slug": "garudamon",
+  "name": "Garudamon",
+  "nationalPokedexNumber": 2021,
+  "primaryType": "flying",
+  "secondaryType": "fighting",
+  "types": [
+    "flying",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 97,
+    "defence": 74,
+    "special_attack": 116,
+    "special_defence": 65,
+    "speed": 95
+  },
+  "baseStatTotal": 519,
+  "abilities": [
+    "flamebody",
+    "regenerator"
+  ],
+  "hiddenAbilities": [
+    "aerilate"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.01,
+  "weight": 73.5,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Bird Man Digimon that has gigantic talons and wings that let it dance freely through the sky.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "incinerate",
+        "level": 44
+      },
+      {
+        "moveId": "machpunch",
+        "level": 47
+      },
+      {
+        "moveId": "airslash",
+        "level": 50
+      },
+      {
+        "moveId": "skydrop",
+        "level": 54
+      },
+      {
+        "moveId": "featherdance",
+        "level": 57
+      },
+      {
+        "moveId": "firepunch",
+        "level": 61
+      },
+      {
+        "moveId": "skyuppercut",
+        "level": 66
+      },
+      {
+        "moveId": "heatwave",
+        "level": 70
+      },
+      {
+        "moveId": "agility",
+        "level": 75
+      },
+      {
+        "moveId": "focusblast",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "birdramon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/garudamon.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_sandy",
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_thermal"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "secondaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

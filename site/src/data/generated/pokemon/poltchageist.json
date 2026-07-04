@@ -1,0 +1,801 @@
+{
+  "id": "cobblemon:poltchageist",
+  "namespace": "cobblemon",
+  "slug": "poltchageist",
+  "name": "Poltchageist",
+  "nationalPokedexNumber": 1012,
+  "primaryType": "grass",
+  "secondaryType": "ghost",
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 45,
+    "special_attack": 74,
+    "special_defence": 54,
+    "speed": 50
+  },
+  "baseStatTotal": 308,
+  "abilities": [
+    "hospitality"
+  ],
+  "hiddenAbilities": [
+    "heatproof"
+  ],
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 1,
+  "weight": 11,
+  "maleRatio": -1,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 62,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [
+    "counterfeit"
+  ],
+  "forms": [
+    {
+      "name": "Artisan",
+      "aspects": [
+        "artisan"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "ghost",
+      "types": [
+        "grass",
+        "ghost"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "It sprinkles some of its powdery body onto food and drains the life-force from those who so much as lick it.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "stunspore",
+            "level": 1
+          },
+          {
+            "moveId": "withdraw",
+            "level": 1
+          },
+          {
+            "moveId": "astonish",
+            "level": 1
+          },
+          {
+            "moveId": "absorb",
+            "level": 6
+          },
+          {
+            "moveId": "lifedew",
+            "level": 12
+          },
+          {
+            "moveId": "foulplay",
+            "level": 18
+          },
+          {
+            "moveId": "megadrain",
+            "level": 24
+          },
+          {
+            "moveId": "hex",
+            "level": 30
+          },
+          {
+            "moveId": "ragepowder",
+            "level": 36
+          },
+          {
+            "moveId": "gigadrain",
+            "level": 42
+          },
+          {
+            "moveId": "spiritdrain",
+            "level": 46
+          },
+          {
+            "moveId": "shadowball",
+            "level": 48
+          },
+          {
+            "moveId": "memento",
+            "level": 54
+          },
+          {
+            "moveId": "leafstorm",
+            "level": 60
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "grassyterrain"
+          },
+          {
+            "moveId": "hex"
+          },
+          {
+            "moveId": "imprison"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "leafstorm"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "nightshade"
+          },
+          {
+            "moveId": "nightlight"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "phantomforce"
+          },
+          {
+            "moveId": "poltergeist"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "scald"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "spiritdrain"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "poltergeist"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ground",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "fighting",
+          "normal"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:sinistcha",
+          "targetSlug": "sinistcha",
+          "summary": "Usar masterpiece_teacup · variante matcha_authenticity=masterpiece",
+          "variant": "item_interact"
+        }
+      ],
+      "slug": "poltchageist-artisan"
+    }
+  ],
+  "pokedexDescription": "Supposedly, the regrets of a tea ceremony master who died before perfecting his craft lingered in some matcha and became a Pokémon.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "stunspore",
+        "level": 1
+      },
+      {
+        "moveId": "withdraw",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "absorb",
+        "level": 6
+      },
+      {
+        "moveId": "lifedew",
+        "level": 12
+      },
+      {
+        "moveId": "foulplay",
+        "level": 18
+      },
+      {
+        "moveId": "megadrain",
+        "level": 24
+      },
+      {
+        "moveId": "hex",
+        "level": 30
+      },
+      {
+        "moveId": "ragepowder",
+        "level": 36
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 42
+      },
+      {
+        "moveId": "spiritdrain",
+        "level": 46
+      },
+      {
+        "moveId": "shadowball",
+        "level": 48
+      },
+      {
+        "moveId": "memento",
+        "level": 54
+      },
+      {
+        "moveId": "leafstorm",
+        "level": 60
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "phantomforce"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "spiritdrain"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:sinistcha",
+      "targetSlug": "sinistcha",
+      "summary": "Usar unremarkable_teacup · variante matcha_authenticity=unremarkable",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1012.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_bamboo",
+        "#cobblemon:is_cherry_blossom",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_island",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_ocean",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_thermal",
+        "#cobblemon:is_volcanic"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_bamboo",
+        "#cobblemon:is_cherry_blossom",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_island",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_ocean",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_thermal",
+        "#cobblemon:is_volcanic"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_bamboo",
+        "#cobblemon:is_cherry_blossom",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_island",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_ocean",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_thermal",
+        "#cobblemon:is_volcanic"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_bamboo",
+        "#cobblemon:is_cherry_blossom",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_island",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_ocean",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_thermal",
+        "#cobblemon:is_volcanic"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_bamboo",
+        "#cobblemon:is_cherry_blossom",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_island",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_ocean",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_thermal",
+        "#cobblemon:is_volcanic"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_bamboo",
+        "#cobblemon:is_cherry_blossom",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_island",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_ocean",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_thermal",
+        "#cobblemon:is_volcanic"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_bamboo",
+        "#cobblemon:is_cherry_blossom",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_island",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_ocean",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_thermal",
+        "#cobblemon:is_volcanic"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_bamboo",
+        "#cobblemon:is_cherry_blossom",
+        "#cobblemon:is_forest",
+        "#cobblemon:is_island",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_ocean",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_thermal",
+        "#cobblemon:is_volcanic"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core",
+    "behaviour": "cobblemon-core"
+  }
+}

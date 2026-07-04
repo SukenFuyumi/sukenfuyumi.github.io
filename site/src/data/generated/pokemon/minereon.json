@@ -1,0 +1,319 @@
+{
+  "id": "cobblemon:minereon",
+  "namespace": "cobblemon",
+  "slug": "minereon",
+  "name": "Minereon",
+  "nationalPokedexNumber": 2008,
+  "primaryType": "rock",
+  "secondaryType": null,
+  "types": [
+    "rock"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 105,
+    "defence": 100,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 110
+  },
+  "baseStatTotal": 545,
+  "abilities": [
+    "sandforce",
+    "sturdy"
+  ],
+  "hiddenAbilities": [
+    "keeneye"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 35,
+  "height": 11,
+  "weight": 300,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 184,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Minereon use the spike protruding from the end of their tail to carve out ores and gemstones from caves, and the metal-like tips on their ears to clear off excess rock. Their eyes allow them to clearly see what they're trying to mine while deep within the caves.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "rollout",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 1
+      },
+      {
+        "moveId": "rockpolish",
+        "level": 5
+      },
+      {
+        "moveId": "sandstorm",
+        "level": 8
+      },
+      {
+        "moveId": "harden",
+        "level": 12
+      },
+      {
+        "moveId": "rockthrow",
+        "level": 14
+      },
+      {
+        "moveId": "selfdestruct",
+        "level": 17
+      },
+      {
+        "moveId": "stealthrock",
+        "level": 18
+      },
+      {
+        "moveId": "bulldoze",
+        "level": 22
+      },
+      {
+        "moveId": "ancientpower",
+        "level": 24
+      },
+      {
+        "moveId": "headsmash",
+        "level": 26
+      },
+      {
+        "moveId": "rocksmash",
+        "level": 30
+      },
+      {
+        "moveId": "powergem",
+        "level": 34
+      },
+      {
+        "moveId": "tarshot",
+        "level": 37
+      },
+      {
+        "moveId": "irondefense",
+        "level": 37
+      },
+      {
+        "moveId": "headbutt",
+        "level": 40
+      },
+      {
+        "moveId": "mudslap",
+        "level": 43
+      },
+      {
+        "moveId": "rocktomb",
+        "level": 50
+      },
+      {
+        "moveId": "rockslide",
+        "level": 54
+      },
+      {
+        "moveId": "protect",
+        "level": 57
+      },
+      {
+        "moveId": "superpower",
+        "level": 60
+      },
+      {
+        "moveId": "stoneedge",
+        "level": 67
+      },
+      {
+        "moveId": "facade",
+        "level": 73
+      },
+      {
+        "moveId": "bulldoze",
+        "level": 76
+      },
+      {
+        "moveId": "earthquake",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "destinybond"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "eruption"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "heavyslam"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "lavaplume"
+      },
+      {
+        "moveId": "meteormash"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "recover"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rockwrecker"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "wideguard"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "eevee",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/minereon.png",
+    "placeholderColor": "#B6A136"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "ultra-rare",
+      "level": "18-40",
+      "timeRange": null,
+      "sourceId": "extra-eeveelutions"
+    }
+  ],
+  "sourceMods": [
+    "extra-eeveelutions"
+  ],
+  "primarySource": "extra-eeveelutions",
+  "provenance": {
+    "implemented": "extra-eeveelutions",
+    "name": "extra-eeveelutions",
+    "nationalPokedexNumber": "extra-eeveelutions",
+    "primaryType": "extra-eeveelutions",
+    "abilities": "extra-eeveelutions",
+    "baseStats": "extra-eeveelutions",
+    "behaviour": "extra-eeveelutions",
+    "catchRate": "extra-eeveelutions",
+    "maleRatio": "extra-eeveelutions",
+    "shoulderMountable": "extra-eeveelutions",
+    "forms": "extra-eeveelutions",
+    "baseExperienceYield": "extra-eeveelutions",
+    "experienceGroup": "extra-eeveelutions",
+    "eggCycles": "extra-eeveelutions",
+    "eggGroups": "extra-eeveelutions",
+    "moves": "extra-eeveelutions",
+    "labels": "extra-eeveelutions",
+    "pokedex": "extra-eeveelutions",
+    "preEvolution": "extra-eeveelutions",
+    "baseScale": "extra-eeveelutions",
+    "hitbox": "extra-eeveelutions",
+    "baseFriendship": "extra-eeveelutions",
+    "evYield": "extra-eeveelutions",
+    "height": "extra-eeveelutions",
+    "weight": "extra-eeveelutions"
+  }
+}

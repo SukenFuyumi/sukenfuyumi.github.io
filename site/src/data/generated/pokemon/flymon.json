@@ -1,0 +1,206 @@
+{
+  "id": "cobblemon:flymon",
+  "namespace": "cobblemon",
+  "slug": "flymon",
+  "name": "Flymon",
+  "nationalPokedexNumber": 2121,
+  "primaryType": "bug",
+  "secondaryType": "poison",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 85,
+    "defence": 74,
+    "special_attack": 45,
+    "special_defence": 46,
+    "speed": 90
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "compoundeyes",
+    "poisonpoint"
+  ],
+  "hiddenAbilities": [
+    "unburden"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.6,
+  "weight": 40.4,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A venomous wasp-like Digimon that patrols the skies.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "poisonpowder",
+        "level": 25
+      },
+      {
+        "moveId": "twineedle",
+        "level": 27
+      },
+      {
+        "moveId": "poisonsting",
+        "level": 29
+      },
+      {
+        "moveId": "visegrip",
+        "level": 31
+      },
+      {
+        "moveId": "bugbite",
+        "level": 33
+      },
+      {
+        "moveId": "poisonfang",
+        "level": 35
+      },
+      {
+        "moveId": "supersonic",
+        "level": 37
+      },
+      {
+        "moveId": "airslash",
+        "level": 39
+      },
+      {
+        "moveId": "screech",
+        "level": 41
+      },
+      {
+        "moveId": "toxicspikes",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:okuwamon",
+      "targetSlug": "okuwamon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: sticky_barb",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "kunemon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/flymon.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

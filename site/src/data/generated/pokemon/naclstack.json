@@ -1,0 +1,871 @@
+{
+  "id": "cobblemon:naclstack",
+  "namespace": "cobblemon",
+  "slug": "naclstack",
+  "name": "Naclstack",
+  "nationalPokedexNumber": 933,
+  "primaryType": "rock",
+  "secondaryType": null,
+  "types": [
+    "rock"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 100,
+    "special_attack": 35,
+    "special_defence": 65,
+    "speed": 35
+  },
+  "baseStatTotal": 355,
+  "abilities": [
+    "purifyingsalt",
+    "sturdy"
+  ],
+  "hiddenAbilities": [
+    "clearbody"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 1050,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 124,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "tomb",
+      "aspects": [
+        "tomb"
+      ],
+      "primaryType": "rock",
+      "secondaryType": "ghost",
+      "types": [
+        "rock",
+        "ghost"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": [
+        "purifyingsalt",
+        "filter"
+      ],
+      "hiddenAbilities": [
+        "clearbody"
+      ],
+      "pokedexDescription": "When a powerful Tomb Nacli evolves, it gains the ability to trap evil spirits into its hunchback. Once there, they cannot get out.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "saltcure",
+            "level": 1
+          },
+          {
+            "moveId": "purify",
+            "level": 1
+          },
+          {
+            "moveId": "shadowsneak",
+            "level": 1
+          },
+          {
+            "moveId": "harden",
+            "level": 1
+          },
+          {
+            "moveId": "rockthrow",
+            "level": 5
+          },
+          {
+            "moveId": "mudshot",
+            "level": 7
+          },
+          {
+            "moveId": "smackdown",
+            "level": 10
+          },
+          {
+            "moveId": "rockpolish",
+            "level": 13
+          },
+          {
+            "moveId": "headbutt",
+            "level": 16
+          },
+          {
+            "moveId": "irondefense",
+            "level": 20
+          },
+          {
+            "moveId": "strengthsap",
+            "level": 30
+          },
+          {
+            "moveId": "rockslide",
+            "level": 34
+          },
+          {
+            "moveId": "stealthrock",
+            "level": 38
+          },
+          {
+            "moveId": "heavyslam",
+            "level": 41
+          },
+          {
+            "moveId": "earthquake",
+            "level": 45
+          },
+          {
+            "moveId": "stoneedge",
+            "level": 51
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "disable"
+          },
+          {
+            "moveId": "fissure"
+          },
+          {
+            "moveId": "haze"
+          },
+          {
+            "moveId": "powergem"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "bodypress"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "dig"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "earthquake"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "heavyslam"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hex"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "meteorbeam"
+          },
+          {
+            "moveId": "mudshot"
+          },
+          {
+            "moveId": "powergem"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockpolish"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "sandstorm"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "smackdown"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "stompingtantrum"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "meteorbeam"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "stompingtantrum"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "grass",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "steel",
+            "multiplier": 2
+          },
+          {
+            "type": "water",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "poison",
+            "multiplier": 0.25
+          },
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "fighting",
+          "normal"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:garganacl",
+          "targetSlug": "garganacl",
+          "summary": "Nivel · Nv. 38 · variante aspect=tomb",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "naclstack-tomb"
+    }
+  ],
+  "pokedexDescription": "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "saltcure",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "harden",
+        "level": 1
+      },
+      {
+        "moveId": "rockthrow",
+        "level": 5
+      },
+      {
+        "moveId": "mudshot",
+        "level": 7
+      },
+      {
+        "moveId": "smackdown",
+        "level": 10
+      },
+      {
+        "moveId": "rockpolish",
+        "level": 13
+      },
+      {
+        "moveId": "headbutt",
+        "level": 16
+      },
+      {
+        "moveId": "irondefense",
+        "level": 20
+      },
+      {
+        "moveId": "recover",
+        "level": 30
+      },
+      {
+        "moveId": "rockslide",
+        "level": 34
+      },
+      {
+        "moveId": "stealthrock",
+        "level": 38
+      },
+      {
+        "moveId": "heavyslam",
+        "level": 41
+      },
+      {
+        "moveId": "guardpress",
+        "level": 43
+      },
+      {
+        "moveId": "earthquake",
+        "level": 45
+      },
+      {
+        "moveId": "stoneedge",
+        "level": 51
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "fissure"
+      },
+      {
+        "moveId": "powergem"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "guardpress"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "heavyslam"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "powergem"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:garganacl",
+      "targetSlug": "garganacl",
+      "summary": "Nivel · Nv. 38",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "nacli-tomb",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/933.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_badlands"
+      ],
+      "bucket": "common",
+      "level": "24-36",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [],
+      "bucket": "common",
+      "level": "24-36",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_quartz"
+      ],
+      "bucket": "common",
+      "level": "24-36",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "24-36",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "24-36",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "24-36",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_spooky"
+      ],
+      "bucket": "common",
+      "level": "24-36",
+      "timeRange": "night",
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [],
+      "bucket": "common",
+      "level": "24-36",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_soul_sand"
+      ],
+      "bucket": "common",
+      "level": "24-36",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [],
+      "bucket": "common",
+      "level": "24-36",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [],
+      "bucket": "common",
+      "level": "24-36",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_deep_dark"
+      ],
+      "bucket": "uncommon",
+      "level": "24-36",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_badlands"
+      ],
+      "bucket": "common",
+      "level": "24-36",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [],
+      "bucket": "common",
+      "level": "24-36",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_quartz"
+      ],
+      "bucket": "common",
+      "level": "24-36",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "fanmade-form-funfair",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "features": "fanmade-form-funfair",
+    "forms": "fanmade-form-funfair"
+  }
+}

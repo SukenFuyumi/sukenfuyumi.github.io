@@ -1,0 +1,214 @@
+{
+  "id": "cobblemon:skullgreymon",
+  "namespace": "cobblemon",
+  "slug": "skullgreymon",
+  "name": "Skullgreymon",
+  "nationalPokedexNumber": 2161,
+  "primaryType": "dragon",
+  "secondaryType": "ghost",
+  "types": [
+    "dragon",
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 88,
+    "attack": 103,
+    "defence": 90,
+    "special_attack": 103,
+    "special_defence": 63,
+    "speed": 78
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "intimidate",
+    "rockhead"
+  ],
+  "hiddenAbilities": [
+    "cursedbody"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.62,
+  "weight": 58.06,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A berserk husk driven only to destroy.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bonerush",
+        "level": 44
+      },
+      {
+        "moveId": "bittermalice",
+        "level": 47
+      },
+      {
+        "moveId": "curse",
+        "level": 50
+      },
+      {
+        "moveId": "pinmissile",
+        "level": 54
+      },
+      {
+        "moveId": "darkpulse",
+        "level": 57
+      },
+      {
+        "moveId": "shadowbone",
+        "level": 61
+      },
+      {
+        "moveId": "destinybond",
+        "level": 66
+      },
+      {
+        "moveId": "sludgebomb",
+        "level": 70
+      },
+      {
+        "moveId": "toxic",
+        "level": 75
+      },
+      {
+        "moveId": "foulplay",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "vdramon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/skullgreymon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_nether_desert",
+        "#cobblemon:is_nether_soul_fire",
+        "#cobblemon:is_nether_soul_sand",
+        "alexscaves:toxic_caves",
+        "#cobblemon:is_nether_toxic",
+        "#cobblemon:nether"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

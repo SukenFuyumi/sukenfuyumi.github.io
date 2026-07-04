@@ -1,0 +1,185 @@
+{
+  "id": "cobblemon:kabuterimon",
+  "namespace": "cobblemon",
+  "slug": "kabuterimon",
+  "name": "Kabuterimon",
+  "nationalPokedexNumber": 2018,
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 59,
+    "defence": 103,
+    "special_attack": 92,
+    "special_defence": 39,
+    "speed": 60
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "lightningrod",
+    "shellarmor"
+  ],
+  "hiddenAbilities": [
+    "galvanize"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.11,
+  "weight": 70.76,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A fairly unique Insect Digimon, even among newly discovered Digimon. ",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "infestation",
+        "level": 25
+      },
+      {
+        "moveId": "thundershock",
+        "level": 27
+      },
+      {
+        "moveId": "swift",
+        "level": 29
+      },
+      {
+        "moveId": "furycutter",
+        "level": 31
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 33
+      },
+      {
+        "moveId": "hornattack",
+        "level": 35
+      },
+      {
+        "moveId": "silverwind",
+        "level": 37
+      },
+      {
+        "moveId": "bugbite",
+        "level": 39
+      },
+      {
+        "moveId": "chargebeam",
+        "level": 41
+      },
+      {
+        "moveId": "stickyweb",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:alturkabuterimon",
+      "targetSlug": "alturkabuterimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: electric_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "wormmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/kabuterimon.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_mushroom",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_sky",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "secondaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

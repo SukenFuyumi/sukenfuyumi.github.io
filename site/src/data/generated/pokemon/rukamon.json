@@ -1,0 +1,193 @@
+{
+  "id": "cobblemon:rukamon",
+  "namespace": "cobblemon",
+  "slug": "rukamon",
+  "name": "Rukamon",
+  "nationalPokedexNumber": 2103,
+  "primaryType": "water",
+  "secondaryType": null,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 30,
+    "defence": 42,
+    "special_attack": 58,
+    "special_defence": 100,
+    "speed": 120
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "telepathy",
+    "innerfocus"
+  ],
+  "hiddenAbilities": [
+    "swiftswim"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.4,
+  "weight": 71.21,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A hardy sea warrior that thrives in icy waters.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "watergun",
+        "level": 25
+      },
+      {
+        "moveId": "doublehit",
+        "level": 27
+      },
+      {
+        "moveId": "echoedvoice",
+        "level": 29
+      },
+      {
+        "moveId": "disarmingvoice",
+        "level": 31
+      },
+      {
+        "moveId": "aquajet",
+        "level": 33
+      },
+      {
+        "moveId": "trick",
+        "level": 35
+      },
+      {
+        "moveId": "waterpulse",
+        "level": 37
+      },
+      {
+        "moveId": "aquaring",
+        "level": 39
+      },
+      {
+        "moveId": "supersonic",
+        "level": 41
+      },
+      {
+        "moveId": "screech",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:marinedevimon",
+      "targetSlug": "marinedevimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: dark_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "kamemon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/rukamon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cold_ocean",
+        "#cobblemon:is_frozen_oceans",
+        "#cobblemon:is_deep_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

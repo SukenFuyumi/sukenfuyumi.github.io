@@ -1,0 +1,10 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import MoveTable from "../../components/MoveTable.tsx";
+import moves from "../../data/generated/moves.json";
+---
+<Layout title="Movimientos">
+  <h1>Movimientos ({moves.length})</h1>
+  <p>Incluye los valores ya rebalanceados por los mods de balance del servidor (marcados como "rebalanceado").</p>
+  <MoveTable client:load />
+</Layout>

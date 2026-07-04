@@ -1,0 +1,1645 @@
+{
+  "id": "cobblemon:dragonite",
+  "namespace": "cobblemon",
+  "slug": "dragonite",
+  "name": "Dragonite",
+  "nationalPokedexNumber": 149,
+  "primaryType": "dragon",
+  "secondaryType": "flying",
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 91,
+    "attack": 134,
+    "defence": 95,
+    "special_attack": 100,
+    "special_defence": 100,
+    "speed": 80
+  },
+  "baseStatTotal": 600,
+  "abilities": [
+    "innerfocus"
+  ],
+  "hiddenAbilities": [
+    "multiscale"
+  ],
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "catchRate": 45,
+  "eggCycles": 40,
+  "baseFriendship": 35,
+  "height": 22,
+  "weight": 2100,
+  "maleRatio": 0.5,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 300,
+  "labels": [
+    "gen1",
+    "powerhouse"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "primaryType": "dragon",
+      "secondaryType": null,
+      "types": [
+        "dragon"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 91,
+        "attack": 124,
+        "defence": 115,
+        "special_attack": 145,
+        "special_defence": 125,
+        "speed": 100
+      },
+      "baseStatTotal": 700,
+      "abilities": [
+        "multiscale"
+      ],
+      "hiddenAbilities": [
+        "multiscale"
+      ],
+      "pokedexDescription": "Mega Evolution has excessively powered up this Pokémon's feelings of kindness. It finishes off its opponents with mercy in its heart.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "firepunch",
+            "level": 1
+          },
+          {
+            "moveId": "thunderpunch",
+            "level": 1
+          },
+          {
+            "moveId": "roost",
+            "level": 1
+          },
+          {
+            "moveId": "wrap",
+            "level": 1
+          },
+          {
+            "moveId": "leer",
+            "level": 1
+          },
+          {
+            "moveId": "thunderwave",
+            "level": 1
+          },
+          {
+            "moveId": "twister",
+            "level": 1
+          },
+          {
+            "moveId": "dragonrage",
+            "level": 1
+          },
+          {
+            "moveId": "wingattack",
+            "level": 1
+          },
+          {
+            "moveId": "hurricane",
+            "level": 1
+          },
+          {
+            "moveId": "extremespeed",
+            "level": 1
+          },
+          {
+            "moveId": "dragontail",
+            "level": 15
+          },
+          {
+            "moveId": "agility",
+            "level": 20
+          },
+          {
+            "moveId": "slam",
+            "level": 25
+          },
+          {
+            "moveId": "aquatail",
+            "level": 33
+          },
+          {
+            "moveId": "dragonrush",
+            "level": 39
+          },
+          {
+            "moveId": "outrage",
+            "level": 41
+          },
+          {
+            "moveId": "safeguard",
+            "level": 46
+          },
+          {
+            "moveId": "raindance",
+            "level": 53
+          },
+          {
+            "moveId": "dragondance",
+            "level": 62
+          },
+          {
+            "moveId": "nosedive",
+            "level": 67
+          },
+          {
+            "moveId": "hyperbeam",
+            "level": 80
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "aquajet"
+          },
+          {
+            "moveId": "dragonbreath"
+          },
+          {
+            "moveId": "extremespeed"
+          },
+          {
+            "moveId": "mist"
+          },
+          {
+            "moveId": "supersonic"
+          },
+          {
+            "moveId": "waterpulse"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "airslash"
+          },
+          {
+            "moveId": "aquatail"
+          },
+          {
+            "moveId": "bind"
+          },
+          {
+            "moveId": "blizzard"
+          },
+          {
+            "moveId": "bodypress"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "breakingswipe"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "chillingwater"
+          },
+          {
+            "moveId": "cut"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "dive"
+          },
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragoncheer"
+          },
+          {
+            "moveId": "dragonclaw"
+          },
+          {
+            "moveId": "dragondance"
+          },
+          {
+            "moveId": "dragonfang"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "dragontail"
+          },
+          {
+            "moveId": "earthquake"
+          },
+          {
+            "moveId": "encore"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "firepunch"
+          },
+          {
+            "moveId": "firespin"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "fly"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "furycutter"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "hail"
+          },
+          {
+            "moveId": "haze"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "honeclaws"
+          },
+          {
+            "moveId": "hurricane"
+          },
+          {
+            "moveId": "hydropump"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icebeam"
+          },
+          {
+            "moveId": "icepunch"
+          },
+          {
+            "moveId": "icespinner"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "incinerate"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "megakick"
+          },
+          {
+            "moveId": "megapunch"
+          },
+          {
+            "moveId": "metronome"
+          },
+          {
+            "moveId": "nosedive"
+          },
+          {
+            "moveId": "ominouswind"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "poweruppunch"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "roar"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "sandstorm"
+          },
+          {
+            "moveId": "scaleshot"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "skydrop"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "snowscape"
+          },
+          {
+            "moveId": "steelwing"
+          },
+          {
+            "moveId": "stompingtantrum"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "strength"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "surf"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunder"
+          },
+          {
+            "moveId": "thunderpunch"
+          },
+          {
+            "moveId": "thunderwave"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "twister"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "waterfall"
+          },
+          {
+            "moveId": "weatherball"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "aquatail"
+          },
+          {
+            "moveId": "bind"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "dive"
+          },
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "firepunch"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "furycutter"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "healbell"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icebeam"
+          },
+          {
+            "moveId": "icepunch"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "ominouswind"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "scaleshot"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "stompingtantrum"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "thunderpunch"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "twister"
+          },
+          {
+            "moveId": "waterpulse"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "bide"
+          },
+          {
+            "moveId": "bubblebeam"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "detect"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "dynamicpunch"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "horndrill"
+          },
+          {
+            "moveId": "mimic"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "rage"
+          },
+          {
+            "moveId": "razorwind"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "skullbash"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "watergun"
+          },
+          {
+            "moveId": "whirlpool"
+          },
+          {
+            "moveId": "zapcannon"
+          }
+        ],
+        "other": [
+          {
+            "moveId": "barrier"
+          },
+          {
+            "moveId": "healbell"
+          }
+        ]
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dragon",
+            "multiplier": 2
+          },
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "dragonite-mega"
+    }
+  ],
+  "pokedexDescription": "Dragonite is capable of circling the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "firepunch",
+        "level": 1
+      },
+      {
+        "moveId": "thunderpunch",
+        "level": 1
+      },
+      {
+        "moveId": "roost",
+        "level": 1
+      },
+      {
+        "moveId": "wrap",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 1
+      },
+      {
+        "moveId": "twister",
+        "level": 1
+      },
+      {
+        "moveId": "dragonrage",
+        "level": 1
+      },
+      {
+        "moveId": "wingattack",
+        "level": 1
+      },
+      {
+        "moveId": "hurricane",
+        "level": 1
+      },
+      {
+        "moveId": "extremespeed",
+        "level": 1
+      },
+      {
+        "moveId": "dragontail",
+        "level": 15
+      },
+      {
+        "moveId": "agility",
+        "level": 20
+      },
+      {
+        "moveId": "slam",
+        "level": 25
+      },
+      {
+        "moveId": "aquatail",
+        "level": 33
+      },
+      {
+        "moveId": "dragonrush",
+        "level": 39
+      },
+      {
+        "moveId": "outrage",
+        "level": 41
+      },
+      {
+        "moveId": "safeguard",
+        "level": 46
+      },
+      {
+        "moveId": "raindance",
+        "level": 53
+      },
+      {
+        "moveId": "dragondance",
+        "level": 62
+      },
+      {
+        "moveId": "nosedive",
+        "level": 67
+      },
+      {
+        "moveId": "hyperbeam",
+        "level": 80
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "aquajet"
+      },
+      {
+        "moveId": "dragonbreath"
+      },
+      {
+        "moveId": "extremespeed"
+      },
+      {
+        "moveId": "mist"
+      },
+      {
+        "moveId": "supersonic"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "breakingswipe"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragoncheer"
+      },
+      {
+        "moveId": "dragonclaw"
+      },
+      {
+        "moveId": "dragondance"
+      },
+      {
+        "moveId": "dragonfang"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "dragontail"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fireblast"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "firespin"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icespinner"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "metronome"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "skydrop"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snowscape"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "weatherball"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "bubblebeam"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "detect"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "dynamicpunch"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "horndrill"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "razorwind"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "watergun"
+      },
+      {
+        "moveId": "whirlpool"
+      },
+      {
+        "moveId": "zapcannon"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "barrier"
+      },
+      {
+        "moveId": "healbell"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": "dragonair",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "zamega",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "riding": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "features": "zamega",
+    "forms": "zamega"
+  }
+}

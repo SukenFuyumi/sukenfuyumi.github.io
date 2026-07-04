@@ -1,0 +1,373 @@
+{
+  "id": "cobblemon:dipplin",
+  "namespace": "cobblemon",
+  "slug": "dipplin",
+  "name": "Dipplin",
+  "nationalPokedexNumber": 1011,
+  "primaryType": "grass",
+  "secondaryType": "dragon",
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 110,
+    "special_attack": 95,
+    "special_defence": 80,
+    "speed": 40
+  },
+  "baseStatTotal": 485,
+  "abilities": [
+    "supersweetsyrup",
+    "gluttony"
+  ],
+  "hiddenAbilities": [
+    "stickyhold"
+  ],
+  "eggGroups": [
+    "grass",
+    "dragon"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 44,
+  "maleRatio": 0.5,
+  "experienceGroup": "erratic",
+  "baseExperienceYield": 170,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Dipplin is two creatures in one Pokémon. Its evolution was triggered by a special apple grown only in one place.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "doublehit",
+        "level": 1
+      },
+      {
+        "moveId": "withdraw",
+        "level": 1
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 1
+      },
+      {
+        "moveId": "recycle",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "infestation",
+        "level": 1
+      },
+      {
+        "moveId": "dragontail",
+        "level": 4
+      },
+      {
+        "moveId": "growth",
+        "level": 8
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 12
+      },
+      {
+        "moveId": "protect",
+        "level": 16
+      },
+      {
+        "moveId": "bulletseed",
+        "level": 20
+      },
+      {
+        "moveId": "syrupbomb",
+        "level": 28
+      },
+      {
+        "moveId": "dragonpulse",
+        "level": 32
+      },
+      {
+        "moveId": "recover",
+        "level": 36
+      },
+      {
+        "moveId": "energyball",
+        "level": 40
+      },
+      {
+        "moveId": "substitute",
+        "level": 44
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "defensecurl"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "suckerpunch"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragoncheer"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "dragontail"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "pollenpuff"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "suckerpunch"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:hydrapple",
+      "targetSlug": "hydrapple",
+      "summary": "Nivel · Conoce dragoncheer",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "applin",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "water",
+        "multiplier": 0.25
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1011.png"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core"
+  }
+}

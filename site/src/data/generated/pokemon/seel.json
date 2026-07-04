@@ -1,0 +1,623 @@
+{
+  "id": "cobblemon:seel",
+  "namespace": "cobblemon",
+  "slug": "seel",
+  "name": "Seel",
+  "nationalPokedexNumber": 86,
+  "primaryType": "water",
+  "secondaryType": null,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 45,
+    "defence": 55,
+    "special_attack": 45,
+    "special_defence": 70,
+    "speed": 45
+  },
+  "baseStatTotal": 325,
+  "abilities": [
+    "thickfat",
+    "hydration"
+  ],
+  "hiddenAbilities": [
+    "icebody"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 11,
+  "weight": 900,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 65,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Seel hunts for prey in the frigid sea underneath sheets of ice. When it needs to breathe, it punches a hole through the ice with the sharply protruding section of its head.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "headbutt",
+        "level": 1
+      },
+      {
+        "moveId": "watersport",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 3
+      },
+      {
+        "moveId": "charm",
+        "level": 7
+      },
+      {
+        "moveId": "chillout",
+        "level": 9
+      },
+      {
+        "moveId": "icywind",
+        "level": 11
+      },
+      {
+        "moveId": "encore",
+        "level": 13
+      },
+      {
+        "moveId": "iceshard",
+        "level": 17
+      },
+      {
+        "moveId": "rest",
+        "level": 21
+      },
+      {
+        "moveId": "aquaring",
+        "level": 23
+      },
+      {
+        "moveId": "aurorabeam",
+        "level": 27
+      },
+      {
+        "moveId": "aquajet",
+        "level": 31
+      },
+      {
+        "moveId": "brine",
+        "level": 33
+      },
+      {
+        "moveId": "takedown",
+        "level": 37
+      },
+      {
+        "moveId": "frigidwater",
+        "level": 39
+      },
+      {
+        "moveId": "dive",
+        "level": 41
+      },
+      {
+        "moveId": "aquatail",
+        "level": 43
+      },
+      {
+        "moveId": "icebeam",
+        "level": 47
+      },
+      {
+        "moveId": "safeguard",
+        "level": 51
+      },
+      {
+        "moveId": "snowscape",
+        "level": 53
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "belch"
+      },
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "entrainment"
+      },
+      {
+        "moveId": "fakeout"
+      },
+      {
+        "moveId": "horndrill"
+      },
+      {
+        "moveId": "lick"
+      },
+      {
+        "moveId": "perishsong"
+      },
+      {
+        "moveId": "slam"
+      },
+      {
+        "moveId": "spitup"
+      },
+      {
+        "moveId": "stockpile"
+      },
+      {
+        "moveId": "swallow"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "avalanche"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brine"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "chillout"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "deepfreeze"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "drillrun"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "frigidwater"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icespinner"
+      },
+      {
+        "moveId": "iciclespear"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "payday"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smartstrike"
+      },
+      {
+        "moveId": "snowscape"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "tripleaxel"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "watergun"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "whirlpool"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "drillrun"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "tripleaxel"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "bubblebeam"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "megahorn"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "peck"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:dewgong",
+      "targetSlug": "dewgong",
+      "summary": "Nivel · Nv. 34",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cold_ocean",
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cold_ocean",
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cold_ocean",
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cold_ocean",
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core"
+  }
+}

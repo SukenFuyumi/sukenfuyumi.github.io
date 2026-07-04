@@ -1,0 +1,282 @@
+{
+  "id": "cobblemon:nymble",
+  "namespace": "cobblemon",
+  "slug": "nymble",
+  "name": "Nymble",
+  "nationalPokedexNumber": 919,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 33,
+    "attack": 46,
+    "defence": 40,
+    "special_attack": 21,
+    "special_defence": 25,
+    "speed": 45
+  },
+  "baseStatTotal": 210,
+  "abilities": [
+    "swarm",
+    "rattled"
+  ],
+  "hiddenAbilities": [
+    "tintedlens"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 20,
+  "height": 2,
+  "weight": 10,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 42,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 4
+      },
+      {
+        "moveId": "astonish",
+        "level": 6
+      },
+      {
+        "moveId": "assurance",
+        "level": 9
+      },
+      {
+        "moveId": "doublekick",
+        "level": 11
+      },
+      {
+        "moveId": "screech",
+        "level": 14
+      },
+      {
+        "moveId": "endure",
+        "level": 18
+      },
+      {
+        "moveId": "bugbite",
+        "level": 22
+      },
+      {
+        "moveId": "feint",
+        "level": 26
+      },
+      {
+        "moveId": "agility",
+        "level": 30
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 38
+      },
+      {
+        "moveId": "firstimpression",
+        "level": 41
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "skittersmack"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:lokix",
+      "targetSlug": "lokix",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/919.png"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core"
+  }
+}

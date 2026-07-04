@@ -1,0 +1,197 @@
+{
+  "id": "cobblemon:buraimon",
+  "namespace": "cobblemon",
+  "slug": "buraimon",
+  "name": "Buraimon",
+  "nationalPokedexNumber": 2176,
+  "primaryType": "fighting",
+  "secondaryType": "flying",
+  "types": [
+    "fighting",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 75,
+    "defence": 45,
+    "special_attack": 35,
+    "special_defence": 72,
+    "speed": 108
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "keeneye",
+    "innerfocus"
+  ],
+  "hiddenAbilities": [
+    "defiant"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.91,
+  "weight": 63.05,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A warrior of the air who marries grace with force.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "cut",
+        "level": 25
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 27
+      },
+      {
+        "moveId": "bulkup",
+        "level": 29
+      },
+      {
+        "moveId": "gust",
+        "level": 31
+      },
+      {
+        "moveId": "mirrormove",
+        "level": 33
+      },
+      {
+        "moveId": "circlethrow",
+        "level": 35
+      },
+      {
+        "moveId": "acrobatics",
+        "level": 37
+      },
+      {
+        "moveId": "counter",
+        "level": 39
+      },
+      {
+        "moveId": "detect",
+        "level": 41
+      },
+      {
+        "moveId": "vitalthrow",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:butenmon",
+      "targetSlug": "butenmon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: diamond_sword",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "hyokomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/buraimon.png",
+    "placeholderColor": "#C22E28"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_cherry_blossom"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

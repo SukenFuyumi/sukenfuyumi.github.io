@@ -1,0 +1,576 @@
+{
+  "id": "cobblemon:cyclopod",
+  "namespace": "cobblemon",
+  "slug": "cyclopod",
+  "name": "Cyclopod",
+  "nationalPokedexNumber": 99,
+  "primaryType": "water",
+  "secondaryType": "dark",
+  "types": [
+    "water",
+    "dark"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 65,
+    "defence": 30,
+    "special_attack": 110,
+    "special_defence": 90,
+    "speed": 110
+  },
+  "baseStatTotal": 490,
+  "abilities": [
+    "undertow"
+  ],
+  "hiddenAbilities": [
+    "cloudnine"
+  ],
+  "eggGroups": [
+    "water_1"
+  ],
+  "catchRate": 25,
+  "eggCycles": 40,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 50,
+  "maleRatio": 0.5,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 189,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "When Cyclopod feel threatened, they create a cyclone around them, causing mass-destruction in its vicinity and trapping anything inside the eye of the hurricane. As temperatures rise, Cyclopod become more numerous, causing more cyclones to appear across the globe.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "constrict",
+        "level": 1
+      },
+      {
+        "moveId": "whirlpool",
+        "level": 1
+      },
+      {
+        "moveId": "gust",
+        "level": 4
+      },
+      {
+        "moveId": "mist",
+        "level": 9
+      },
+      {
+        "moveId": "aquaring",
+        "level": 13
+      },
+      {
+        "moveId": "brutalswing",
+        "level": 18
+      },
+      {
+        "moveId": "embargo",
+        "level": 22
+      },
+      {
+        "moveId": "waterpulse",
+        "level": 27
+      },
+      {
+        "moveId": "foulplay",
+        "level": 31
+      },
+      {
+        "moveId": "acupressure",
+        "level": 36
+      },
+      {
+        "moveId": "octazooka",
+        "level": 40
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 45
+      },
+      {
+        "moveId": "darkpulse",
+        "level": 49
+      },
+      {
+        "moveId": "raindance",
+        "level": 54
+      },
+      {
+        "moveId": "hydropump",
+        "level": 58
+      },
+      {
+        "moveId": "knockoff",
+        "level": 63
+      },
+      {
+        "moveId": "hurricane",
+        "level": 67
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "foresight"
+      },
+      {
+        "moveId": "freezedry"
+      },
+      {
+        "moveId": "refresh"
+      },
+      {
+        "moveId": "tickle"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "brine"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icespinner"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "poisontail"
+      },
+      {
+        "moveId": "powerwhip"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "razorshell"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "skydrop"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "snowscape"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "whirlpool"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "workup"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/cyclopod.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "21-45",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "rare",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "rare",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "name": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "labels": "lively-mons",
+    "pokedex": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "shoulderMountable": "lively-mons",
+    "primaryType": "lively-mons",
+    "secondaryType": "lively-mons",
+    "baseStats": "lively-mons",
+    "catchRate": "lively-mons",
+    "maleRatio": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "eggCycles": "lively-mons",
+    "eggGroups": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "evYield": "lively-mons",
+    "moves": "lively-mons",
+    "abilities": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "drops": "lively-mons",
+    "behaviour": "lively-mons",
+    "lightingData": "lively-mons"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "id": "cobblemon:funbeemon",
+  "namespace": "cobblemon",
+  "slug": "funbeemon",
+  "name": "Funbeemon",
+  "nationalPokedexNumber": 2120,
+  "primaryType": "bug",
+  "secondaryType": "flying",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 60,
+    "defence": 30,
+    "special_attack": 75,
+    "special_defence": 30,
+    "speed": 70
+  },
+  "baseStatTotal": 305,
+  "abilities": [
+    "swarm",
+    "honeygather"
+  ],
+  "hiddenAbilities": [
+    "skilllink"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.81,
+  "weight": 9.07,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A cheerful worker bee Digimon that builds hive networks.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 12
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 14
+      },
+      {
+        "moveId": "furycutter",
+        "level": 16
+      },
+      {
+        "moveId": "assist",
+        "level": 18
+      },
+      {
+        "moveId": "furyattack",
+        "level": 19
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 21
+      },
+      {
+        "moveId": "workup",
+        "level": 22
+      },
+      {
+        "moveId": "pinmissile",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:flymon",
+      "targetSlug": "flymon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:ballistamon",
+      "targetSlug": "ballistamon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: metal_coat",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:kabuterimon",
+      "targetSlug": "kabuterimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: electrizer",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:goldnumemon",
+      "targetSlug": "goldnumemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: relic_coin_sack",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "tanemon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "rock",
+        "multiplier": 4
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/funbeemon.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "rare",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_bumblezone"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_bumblezone"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "id": "cobblemon:kricketot",
+  "namespace": "cobblemon",
+  "slug": "kricketot",
+  "name": "Kricketot",
+  "nationalPokedexNumber": 401,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 37,
+    "attack": 25,
+    "defence": 41,
+    "special_attack": 25,
+    "special_defence": 41,
+    "speed": 25
+  },
+  "baseStatTotal": 194,
+  "abilities": [
+    "shedskin"
+  ],
+  "hiddenAbilities": [
+    "runaway"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 255,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 22,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 39,
+  "labels": [
+    "gen4"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "When its antennae hit each other, it sounds like the music of a xylophone.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "bide",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 6
+      },
+      {
+        "moveId": "bugbite",
+        "level": 16
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "pound"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "stringshot"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:kricketune",
+      "targetSlug": "kricketune",
+      "summary": "Nivel · Nv. 10",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/401.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "1-19",
+      "timeRange": "night",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "1-19",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "1-19",
+      "timeRange": "night",
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

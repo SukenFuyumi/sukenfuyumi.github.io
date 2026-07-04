@@ -1,0 +1,422 @@
+{
+  "id": "cobblemon:lechonk",
+  "namespace": "cobblemon",
+  "slug": "lechonk",
+  "name": "Lechonk",
+  "nationalPokedexNumber": 915,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 54,
+    "attack": 45,
+    "defence": 40,
+    "special_attack": 35,
+    "special_defence": 45,
+    "speed": 35
+  },
+  "baseStatTotal": 254,
+  "abilities": [
+    "aromaveil",
+    "gluttony"
+  ],
+  "hiddenAbilities": [
+    "thickfat"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 255,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 5,
+  "weight": 102,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 51,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "disarmingvoice",
+        "level": 5
+      },
+      {
+        "moveId": "echoedvoice",
+        "level": 8
+      },
+      {
+        "moveId": "mudshot",
+        "level": 12
+      },
+      {
+        "moveId": "covet",
+        "level": 15
+      },
+      {
+        "moveId": "dig",
+        "level": 17
+      },
+      {
+        "moveId": "headbutt",
+        "level": 21
+      },
+      {
+        "moveId": "yawn",
+        "level": 24
+      },
+      {
+        "moveId": "takedown",
+        "level": 27
+      },
+      {
+        "moveId": "workup",
+        "level": 30
+      },
+      {
+        "moveId": "uproar",
+        "level": 32
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 35
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "spitup"
+      },
+      {
+        "moveId": "stockpile"
+      },
+      {
+        "moveId": "stuffcheeks"
+      },
+      {
+        "moveId": "swallow"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:oinkologne",
+      "targetSlug": "oinkologne",
+      "summary": "Nivel · Nv. 18 · properties · variante male",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:oinkologne",
+      "targetSlug": "oinkologne-f",
+      "summary": "Nivel · Nv. 18 · properties · variante female",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/915.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_mushroom",
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "1-25",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "1-25",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_crimson",
+        "#cobblemon:nether/is_fungus",
+        "#cobblemon:nether/is_overgrowth"
+      ],
+      "bucket": "common",
+      "level": "1-25",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "1-25",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "1-25",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "1-25",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_mushroom",
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "1-25",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "1-25",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_crimson",
+        "#cobblemon:nether/is_fungus",
+        "#cobblemon:nether/is_overgrowth"
+      ],
+      "bucket": "common",
+      "level": "1-25",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "id": "cobblemon:pecharunt",
+  "namespace": "cobblemon",
+  "slug": "pecharunt",
+  "name": "Pecharunt",
+  "nationalPokedexNumber": 1025,
+  "primaryType": "poison",
+  "secondaryType": "ghost",
+  "types": [
+    "poison",
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 88,
+    "attack": 88,
+    "defence": 160,
+    "special_attack": 88,
+    "special_defence": 88,
+    "speed": 88
+  },
+  "baseStatTotal": 600,
+  "abilities": [
+    "poisonpuppeteer"
+  ],
+  "hiddenAbilities": [
+    "poisonpuppeteer"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 3,
+  "eggCycles": 20,
+  "baseFriendship": 0,
+  "height": 3,
+  "weight": 3,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 300,
+  "labels": [
+    "gen9",
+    "mythical"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt's control, chained to its will.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "smog",
+        "level": 1
+      },
+      {
+        "moveId": "poisongas",
+        "level": 1
+      },
+      {
+        "moveId": "memento",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 1
+      },
+      {
+        "moveId": "rollout",
+        "level": 1
+      },
+      {
+        "moveId": "meanlook",
+        "level": 1
+      },
+      {
+        "moveId": "spiritdrain",
+        "level": 1
+      },
+      {
+        "moveId": "withdraw",
+        "level": 8
+      },
+      {
+        "moveId": "destinybond",
+        "level": 16
+      },
+      {
+        "moveId": "faketears",
+        "level": 24
+      },
+      {
+        "moveId": "partingshot",
+        "level": 32
+      },
+      {
+        "moveId": "shadowball",
+        "level": 40
+      },
+      {
+        "moveId": "malignantchain",
+        "level": 48
+      },
+      {
+        "moveId": "toxic",
+        "level": 56
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 64
+      },
+      {
+        "moveId": "recover",
+        "level": 72
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "guardpress"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "hypnoblast"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "phantomforce"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "spiritdrain"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "venoshock"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "spite"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1025.png"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core"
+  }
+}

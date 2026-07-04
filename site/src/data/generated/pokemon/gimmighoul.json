@@ -1,0 +1,443 @@
+{
+  "id": "cobblemon:gimmighoul",
+  "namespace": "cobblemon",
+  "slug": "gimmighoul",
+  "name": "Gimmighoul",
+  "nationalPokedexNumber": 999,
+  "primaryType": "ghost",
+  "secondaryType": null,
+  "types": [
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 30,
+    "defence": 70,
+    "special_attack": 75,
+    "special_defence": 70,
+    "speed": 10
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "rattled"
+  ],
+  "hiddenAbilities": [],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 0,
+  "eggCycles": 50,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 50,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Roaming",
+      "aspects": [
+        "roaming"
+      ],
+      "primaryType": "ghost",
+      "secondaryType": null,
+      "types": [
+        "ghost"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 45,
+        "attack": 30,
+        "defence": 25,
+        "special_attack": 75,
+        "special_defence": 45,
+        "speed": 80
+      },
+      "baseStatTotal": 300,
+      "abilities": [
+        "runaway"
+      ],
+      "hiddenAbilities": [],
+      "pokedexDescription": null,
+      "moveset": {
+        "levelUp": [],
+        "egg": [],
+        "tm": [],
+        "tutor": [],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "fighting",
+          "normal"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:gholdengo",
+          "targetSlug": "gholdengo",
+          "summary": "Nivel · properties",
+          "variant": "level_up"
+        },
+        {
+          "targetKey": "cobblemon:gholdengo",
+          "targetSlug": "gholdengo",
+          "summary": "Nivel · properties · property_range · variante netherite_coating=stage1",
+          "variant": "level_up"
+        },
+        {
+          "targetKey": "cobblemon:gholdengo",
+          "targetSlug": "gholdengo",
+          "summary": "Nivel · properties · property_range · variante netherite_coating=stage2",
+          "variant": "level_up"
+        },
+        {
+          "targetKey": "cobblemon:gholdengo",
+          "targetSlug": "gholdengo",
+          "summary": "Nivel · properties · property_range · variante netherite_coating=stage3",
+          "variant": "level_up"
+        },
+        {
+          "targetKey": "cobblemon:gholdengo",
+          "targetSlug": "gholdengo",
+          "summary": "Nivel · properties · property_range · variante netherite_coating=stage4",
+          "variant": "level_up"
+        },
+        {
+          "targetKey": "cobblemon:gholdengo",
+          "targetSlug": "gholdengo",
+          "summary": "Nivel · properties · property_range · variante netherite_coating=stage5",
+          "variant": "level_up"
+        },
+        {
+          "targetKey": "cobblemon:gholdengo",
+          "targetSlug": "gholdengo",
+          "summary": "Nivel · properties · property_range · variante netherite_coating=stage6",
+          "variant": "level_up"
+        },
+        {
+          "targetKey": "cobblemon:gholdengo",
+          "targetSlug": "gholdengo",
+          "summary": "Nivel · properties · property_range · variante netherite_coating=stage7",
+          "variant": "level_up"
+        },
+        {
+          "targetKey": "cobblemon:gholdengo",
+          "targetSlug": "gholdengo",
+          "summary": "Nivel · properties · properties · variante netherite_coating=full",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "gimmighoul-roaming"
+    }
+  ],
+  "pokedexDescription": "-",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "shadowsneak",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "payday",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "powergem"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:goldnumemon",
+      "targetSlug": "goldnumemon",
+      "summary": "Nivel · Nv. 31",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/999.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "uncommon",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "5-22",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "5-22",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "uncommon",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "digimod",
+    "lasers-additions",
+    "cobblemon-core"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "baseExperienceYield": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "behaviour": "digimod",
+    "features": "digimod",
+    "moves": "lasers-additions",
+    "labels": "digimod",
+    "aspects": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "cannotDynamax": "digimod",
+    "forms": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "drops": "digimod"
+  }
+}

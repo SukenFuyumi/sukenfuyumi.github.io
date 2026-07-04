@@ -1,0 +1,508 @@
+{
+  "id": "cobblemon:vanilluxe",
+  "namespace": "cobblemon",
+  "slug": "vanilluxe",
+  "name": "Vanilluxe",
+  "nationalPokedexNumber": 584,
+  "primaryType": "ice",
+  "secondaryType": null,
+  "types": [
+    "ice"
+  ],
+  "baseStats": {
+    "hp": 71,
+    "attack": 95,
+    "defence": 85,
+    "special_attack": 110,
+    "special_defence": 95,
+    "speed": 79
+  },
+  "baseStatTotal": 535,
+  "abilities": [
+    "icebody",
+    "snowwarning"
+  ],
+  "hiddenAbilities": [
+    "weakarmor"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 13,
+  "weight": 575,
+  "maleRatio": 0.5,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 268,
+  "labels": [
+    "gen5"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Swallowing large amounts of water, they make snow clouds inside their bodies and, when angry, cause violent blizzards.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "weatherball",
+        "level": 1
+      },
+      {
+        "moveId": "harden",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "mist",
+        "level": 1
+      },
+      {
+        "moveId": "taunt",
+        "level": 1
+      },
+      {
+        "moveId": "mirrorshot",
+        "level": 1
+      },
+      {
+        "moveId": "chillout",
+        "level": 1
+      },
+      {
+        "moveId": "freezedry",
+        "level": 1
+      },
+      {
+        "moveId": "iciclecrash",
+        "level": 1
+      },
+      {
+        "moveId": "icywind",
+        "level": 12
+      },
+      {
+        "moveId": "avalanche",
+        "level": 16
+      },
+      {
+        "moveId": "hail",
+        "level": 20
+      },
+      {
+        "moveId": "iciclespear",
+        "level": 24
+      },
+      {
+        "moveId": "uproar",
+        "level": 28
+      },
+      {
+        "moveId": "acidarmor",
+        "level": 32
+      },
+      {
+        "moveId": "mirrorcoat",
+        "level": 38
+      },
+      {
+        "moveId": "icebeam",
+        "level": 44
+      },
+      {
+        "moveId": "blizzard",
+        "level": 52
+      },
+      {
+        "moveId": "sheercold",
+        "level": 60
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "auroraveil"
+      },
+      {
+        "moveId": "autotomize"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "iceshard"
+      },
+      {
+        "moveId": "iciclecrash"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "mirrorshot"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "powdersnow"
+      },
+      {
+        "moveId": "softserve"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "auroraveil"
+      },
+      {
+        "moveId": "avalanche"
+      },
+      {
+        "moveId": "beatup"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "chillout"
+      },
+      {
+        "moveId": "deepfreeze"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "frigidwater"
+      },
+      {
+        "moveId": "frostbreath"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "iciclespear"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "weatherball"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "vanillish",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/584.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_freezing"
+      ],
+      "bucket": "common",
+      "level": "47-54",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_freezing"
+      ],
+      "bucket": "uncommon",
+      "level": "47-54",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_frozen"
+      ],
+      "bucket": "common",
+      "level": "47-54",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "47-54",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "47-54",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "47-54",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_freezing"
+      ],
+      "bucket": "common",
+      "level": "47-54",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_freezing"
+      ],
+      "bucket": "uncommon",
+      "level": "47-54",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_frozen"
+      ],
+      "bucket": "common",
+      "level": "47-54",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "standingEyeHeight": "cobblemon-core",
+    "swimmingEyeHeight": "cobblemon-core",
+    "flyingEyeHeight": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

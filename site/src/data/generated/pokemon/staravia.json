@@ -1,0 +1,465 @@
+{
+  "id": "cobblemon:staravia",
+  "namespace": "cobblemon",
+  "slug": "staravia",
+  "name": "Staravia",
+  "nationalPokedexNumber": 397,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 75,
+    "defence": 50,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 80
+  },
+  "baseStatTotal": 340,
+  "abilities": [
+    "intimidate"
+  ],
+  "hiddenAbilities": [
+    "reckless"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "catchRate": 120,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 155,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 119,
+  "labels": [
+    "gen4"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "quickattack",
+        "level": 1
+      },
+      {
+        "moveId": "wingattack",
+        "level": 9
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 13
+      },
+      {
+        "moveId": "endeavor",
+        "level": 18
+      },
+      {
+        "moveId": "whirlwind",
+        "level": 23
+      },
+      {
+        "moveId": "aerialace",
+        "level": 28
+      },
+      {
+        "moveId": "takedown",
+        "level": 33
+      },
+      {
+        "moveId": "agility",
+        "level": 38
+      },
+      {
+        "moveId": "bravebird",
+        "level": 43
+      },
+      {
+        "moveId": "finalgambit",
+        "level": 48
+      },
+      {
+        "moveId": "nosedive",
+        "level": 53
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "astonish"
+      },
+      {
+        "moveId": "detect"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "foresight"
+      },
+      {
+        "moveId": "furyattack"
+      },
+      {
+        "moveId": "mirrormove"
+      },
+      {
+        "moveId": "pursuit"
+      },
+      {
+        "moveId": "sandattack"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "bravebird"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "flyingkick"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "pluck"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "starshower"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "workup"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:staraptor",
+      "targetSlug": "staraptor",
+      "summary": "Nivel · Nv. 34",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "starly",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost",
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/397.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_hills",
+        "#cobblemon:is_sky",
+        "#cobblemon:is_snowy_forest",
+        "#cobblemon:is_taiga"
+      ],
+      "bucket": "common",
+      "level": "14-34",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "14-34",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_hills",
+        "#cobblemon:is_sky",
+        "#cobblemon:is_snowy_forest",
+        "#cobblemon:is_taiga"
+      ],
+      "bucket": "common",
+      "level": "14-34",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

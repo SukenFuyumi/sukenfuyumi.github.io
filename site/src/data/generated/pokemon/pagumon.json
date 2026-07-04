@@ -1,0 +1,197 @@
+{
+  "id": "cobblemon:pagumon",
+  "namespace": "cobblemon",
+  "slug": "pagumon",
+  "name": "Pagumon",
+  "nationalPokedexNumber": 2068,
+  "primaryType": "poison",
+  "secondaryType": null,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 25,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 30
+  },
+  "baseStatTotal": 200,
+  "abilities": [
+    "prankster",
+    "prankster"
+  ],
+  "hiddenAbilities": [
+    "corrosion"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 150,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.3,
+  "weight": 2.72,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 40,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A mischievous Baby Digimon that puffs up and spits bubbles.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "astonish",
+        "level": 5
+      },
+      {
+        "moveId": "growl",
+        "level": 7
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 9
+      },
+      {
+        "moveId": "snarl",
+        "level": 10
+      },
+      {
+        "moveId": "bite",
+        "level": 11
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:picodevimon",
+      "targetSlug": "picodevimon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:tyumon",
+      "targetSlug": "tyumon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:bearmon",
+      "targetSlug": "bearmon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:impmon",
+      "targetSlug": "impmon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:lopmon",
+      "targetSlug": "lopmon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "zurumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/pagumon.png",
+    "placeholderColor": "#A33EA1"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_spooky"
+      ],
+      "bucket": "rare",
+      "level": "4-15",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_mountain"
+      ],
+      "bucket": "ultra-rare",
+      "level": "4-15",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "id": "cobblemon:birdramon",
+  "namespace": "cobblemon",
+  "slug": "birdramon",
+  "name": "Birdramon",
+  "nationalPokedexNumber": 9020,
+  "primaryType": "flying",
+  "secondaryType": "fire",
+  "types": [
+    "flying",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 70,
+    "special_attack": 75,
+    "special_defence": 40,
+    "speed": 70
+  },
+  "baseStatTotal": 395,
+  "abilities": [
+    "flamebody",
+    "aftermath"
+  ],
+  "hiddenAbilities": [
+    "drought"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.11,
+  "weight": 65.3,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Giant Bird Digimon which has an appearance shrouded in blazing flames.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "ember",
+        "level": 25
+      },
+      {
+        "moveId": "mirrormove",
+        "level": 27
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 29
+      },
+      {
+        "moveId": "defog",
+        "level": 31
+      },
+      {
+        "moveId": "firefang",
+        "level": 33
+      },
+      {
+        "moveId": "aircutter",
+        "level": 35
+      },
+      {
+        "moveId": "counter",
+        "level": 37
+      },
+      {
+        "moveId": "roost",
+        "level": 39
+      },
+      {
+        "moveId": "skydrop",
+        "level": 41
+      },
+      {
+        "moveId": "incinerate",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:garudamon",
+      "targetSlug": "garudamon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: fire_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "piyomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "rock",
+        "multiplier": 4
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/birdramon.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_sandy",
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_thermal"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "secondaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

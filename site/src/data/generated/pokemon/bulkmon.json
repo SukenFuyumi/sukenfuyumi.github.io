@@ -1,0 +1,199 @@
+{
+  "id": "cobblemon:bulkmon",
+  "namespace": "cobblemon",
+  "slug": "bulkmon",
+  "name": "Bulkmon",
+  "nationalPokedexNumber": 2093,
+  "primaryType": "electric",
+  "secondaryType": "fighting",
+  "types": [
+    "electric",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 100,
+    "defence": 60,
+    "special_attack": 70,
+    "special_defence": 50,
+    "speed": 60
+  },
+  "baseStatTotal": 400,
+  "abilities": [
+    "voltabsorb",
+    "guts"
+  ],
+  "hiddenAbilities": [
+    "quickfeet"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.01,
+  "weight": 112.49,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A muscular Champion Digimon that channels raw electric power.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "charge",
+        "level": 25
+      },
+      {
+        "moveId": "thundershock",
+        "level": 27
+      },
+      {
+        "moveId": "bulkup",
+        "level": 29
+      },
+      {
+        "moveId": "spark",
+        "level": 31
+      },
+      {
+        "moveId": "forcepalm",
+        "level": 33
+      },
+      {
+        "moveId": "coaching",
+        "level": 35
+      },
+      {
+        "moveId": "takedown",
+        "level": 37
+      },
+      {
+        "moveId": "machpunch",
+        "level": 39
+      },
+      {
+        "moveId": "thunderpunch",
+        "level": 41
+      },
+      {
+        "moveId": "skyuppercut",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:shootmon",
+      "targetSlug": "shootmon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: electric_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:omegashoutmon",
+      "targetSlug": "omegashoutmon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: choice_specs",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "pulsemon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/bulkmon.png",
+    "placeholderColor": "#F7D02C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_grassland"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

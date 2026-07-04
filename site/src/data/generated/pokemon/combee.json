@@ -1,0 +1,321 @@
+{
+  "id": "cobblemon:combee",
+  "namespace": "cobblemon",
+  "slug": "combee",
+  "name": "Combee",
+  "nationalPokedexNumber": 415,
+  "primaryType": "bug",
+  "secondaryType": "flying",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 30,
+    "defence": 42,
+    "special_attack": 30,
+    "special_defence": 42,
+    "speed": 70
+  },
+  "baseStatTotal": 244,
+  "abilities": [
+    "honeygather",
+    "swarm"
+  ],
+  "hiddenAbilities": [
+    "hustle"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 120,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 55,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 49,
+  "labels": [
+    "gen4"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "sweetscent",
+        "level": 1
+      },
+      {
+        "moveId": "honeydew",
+        "level": 1
+      },
+      {
+        "moveId": "honeybomb",
+        "level": 1
+      },
+      {
+        "moveId": "gust",
+        "level": 1
+      },
+      {
+        "moveId": "bugbite",
+        "level": 1
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stringshot"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailwind"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:vespiquen",
+      "targetSlug": "vespiquen",
+      "summary": "Nivel · Nv. 21 · properties",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "rock",
+        "multiplier": 4
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/415.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "1-24",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "1-24",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "common",
+      "level": "1-24",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#the_bumblezone:the_bumblezone"
+      ],
+      "bucket": "common",
+      "level": "1-24",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "ultra-rare",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "1-24",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "1-24",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "common",
+      "level": "1-24",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#the_bumblezone:the_bumblezone"
+      ],
+      "bucket": "common",
+      "level": "1-24",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "features": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "ai": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core"
+  }
+}

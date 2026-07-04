@@ -1,0 +1,1475 @@
+{
+  "id": "cobblemon:tangela",
+  "namespace": "cobblemon",
+  "slug": "tangela",
+  "name": "Tangela",
+  "nationalPokedexNumber": 114,
+  "primaryType": "grass",
+  "secondaryType": null,
+  "types": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 55,
+    "defence": 115,
+    "special_attack": 100,
+    "special_defence": 40,
+    "speed": 60
+  },
+  "baseStatTotal": 435,
+  "abilities": [
+    "chlorophyll",
+    "leafguard"
+  ],
+  "hiddenAbilities": [
+    "regenerator"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 10,
+  "weight": 350,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 87,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Lush-Cave",
+      "aspects": [
+        "lush"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "dark",
+      "types": [
+        "grass",
+        "dark"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 65,
+        "attack": 100,
+        "defence": 68,
+        "special_attack": 45,
+        "special_defence": 115,
+        "speed": 82
+      },
+      "baseStatTotal": 475,
+      "abilities": [
+        "grasspelt",
+        "rattled"
+      ],
+      "hiddenAbilities": [
+        "regenerator"
+      ],
+      "pokedexDescription": "Thick moss and vines cover its whole body, preventing anyone from seeing its true appearance. It has an intense fear of the dark, but fears showing its face even more. Because of this, it will stubbornly hide in the shadows if anyone approaches, even despite its fear.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "faketears",
+            "level": 1
+          },
+          {
+            "moveId": "constrict",
+            "level": 1
+          },
+          {
+            "moveId": "astonish",
+            "level": 1
+          },
+          {
+            "moveId": "absorb",
+            "level": 1
+          },
+          {
+            "moveId": "payback",
+            "level": 1
+          },
+          {
+            "moveId": "bind",
+            "level": 1
+          },
+          {
+            "moveId": "stunspore",
+            "level": 4
+          },
+          {
+            "moveId": "growth",
+            "level": 8
+          },
+          {
+            "moveId": "flail",
+            "level": 10
+          },
+          {
+            "moveId": "megadrain",
+            "level": 12
+          },
+          {
+            "moveId": "vinewhip",
+            "level": 16
+          },
+          {
+            "moveId": "strugglebug",
+            "level": 18
+          },
+          {
+            "moveId": "snarl",
+            "level": 20
+          },
+          {
+            "moveId": "ancientpower",
+            "level": 24
+          },
+          {
+            "moveId": "backpetal",
+            "level": 24
+          },
+          {
+            "moveId": "knockoff",
+            "level": 28
+          },
+          {
+            "moveId": "gigadrain",
+            "level": 32
+          },
+          {
+            "moveId": "sleeppowder",
+            "level": 36
+          },
+          {
+            "moveId": "suckerpunch",
+            "level": 40
+          },
+          {
+            "moveId": "tickle",
+            "level": 44
+          },
+          {
+            "moveId": "morningglory",
+            "level": 48
+          },
+          {
+            "moveId": "ingrain",
+            "level": 52
+          },
+          {
+            "moveId": "falsesurrender",
+            "level": 54
+          },
+          {
+            "moveId": "grassyterrain",
+            "level": 56
+          },
+          {
+            "moveId": "vinepress",
+            "level": 56
+          },
+          {
+            "moveId": "powerwhip",
+            "level": 58
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "confusion"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "flail"
+          },
+          {
+            "moveId": "leechseed"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "ragepowder"
+          },
+          {
+            "moveId": "wakeupslap"
+          },
+          {
+            "moveId": "wringout"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "amnesia"
+          },
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "backpetal"
+          },
+          {
+            "moveId": "bind"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "cut"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "flail"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "grassyterrain"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "infestation"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "leafstorm"
+          },
+          {
+            "moveId": "morningglory"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "nightlight"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "potshot"
+          },
+          {
+            "moveId": "powerswap"
+          },
+          {
+            "moveId": "powerwhip"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "rainbloom"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rootout"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "snarl"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "strugglebug"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "voidfog"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "bind"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 4
+          },
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "fighting",
+            "multiplier": 2
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ghost",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ground",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "psychic"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:tanglare",
+          "targetSlug": "tanglare-lush-cave",
+          "summary": "Usar galarica_wreath · variante lush",
+          "variant": "item_interact"
+        }
+      ],
+      "slug": "tangela-lush-cave"
+    },
+    {
+      "name": "Kelp",
+      "aspects": [
+        "kelp"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "water",
+      "types": [
+        "grass",
+        "water"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 65,
+        "attack": 55,
+        "defence": 110,
+        "special_attack": 100,
+        "special_defence": 45,
+        "speed": 60
+      },
+      "baseStatTotal": 435,
+      "abilities": [
+        "dryskin",
+        "overgrow"
+      ],
+      "hiddenAbilities": [
+        "regenerator"
+      ],
+      "pokedexDescription": "This Tangela adapted to live on the seafloor, but can't hold to it very well, ofen washing ashore.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "constrict",
+            "level": 1
+          },
+          {
+            "moveId": "bubble",
+            "level": 1
+          },
+          {
+            "moveId": "bind",
+            "level": 1
+          },
+          {
+            "moveId": "stunspore",
+            "level": 4
+          },
+          {
+            "moveId": "growth",
+            "level": 8
+          },
+          {
+            "moveId": "bubblebeam",
+            "level": 12
+          },
+          {
+            "moveId": "vinewhip",
+            "level": 16
+          },
+          {
+            "moveId": "waterpulse",
+            "level": 20
+          },
+          {
+            "moveId": "ancientpower",
+            "level": 24
+          },
+          {
+            "moveId": "knockoff",
+            "level": 28
+          },
+          {
+            "moveId": "gigadrain",
+            "level": 32
+          },
+          {
+            "moveId": "sleeppowder",
+            "level": 36
+          },
+          {
+            "moveId": "liquidation",
+            "level": 40
+          },
+          {
+            "moveId": "tickle",
+            "level": 44
+          },
+          {
+            "moveId": "hydropump",
+            "level": 48
+          },
+          {
+            "moveId": "ingrain",
+            "level": 52
+          },
+          {
+            "moveId": "grassyterrain",
+            "level": 56
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "confusion"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "flail"
+          },
+          {
+            "moveId": "leechseed"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "ragepowder"
+          },
+          {
+            "moveId": "wakeupslap"
+          },
+          {
+            "moveId": "wringout"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "amnesia"
+          },
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "bind"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "grassyterrain"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "infestation"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "leafstorm"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "powerswap"
+          },
+          {
+            "moveId": "powerwhip"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "surf"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "bind"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "bide"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "mimic"
+          },
+          {
+            "moveId": "rage"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "skullbash"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "sweetscent"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": [
+          {
+            "moveId": "moonlight"
+          }
+        ]
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "water",
+            "multiplier": 0.25
+          },
+          {
+            "type": "ground",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:tangrowth",
+          "targetSlug": "tangrowth",
+          "summary": "Nivel · Conoce ancientpower · variante aspect=kelp",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "tangela-kelp"
+    }
+  ],
+  "pokedexDescription": "Tangela's vines snap off easily if they are grabbed. This happens without pain, allowing it to make a quick getaway. The lost vines are replaced by newly grown vines the very next day.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "constrict",
+        "level": 1
+      },
+      {
+        "moveId": "absorb",
+        "level": 1
+      },
+      {
+        "moveId": "bind",
+        "level": 1
+      },
+      {
+        "moveId": "stunspore",
+        "level": 4
+      },
+      {
+        "moveId": "growth",
+        "level": 8
+      },
+      {
+        "moveId": "megadrain",
+        "level": 12
+      },
+      {
+        "moveId": "vinewhip",
+        "level": 16
+      },
+      {
+        "moveId": "poisonpowder",
+        "level": 20
+      },
+      {
+        "moveId": "ancientpower",
+        "level": 24
+      },
+      {
+        "moveId": "knockoff",
+        "level": 28
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 32
+      },
+      {
+        "moveId": "sleeppowder",
+        "level": 36
+      },
+      {
+        "moveId": "slam",
+        "level": 40
+      },
+      {
+        "moveId": "tickle",
+        "level": 44
+      },
+      {
+        "moveId": "powerwhip",
+        "level": 48
+      },
+      {
+        "moveId": "ingrain",
+        "level": 52
+      },
+      {
+        "moveId": "grassyterrain",
+        "level": 56
+      },
+      {
+        "moveId": "vinepress",
+        "level": 60
+      },
+      {
+        "moveId": "rootout",
+        "level": 64
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "confusion"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "leechseed"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "ragepowder"
+      },
+      {
+        "moveId": "wakeupslap"
+      },
+      {
+        "moveId": "wringout"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "powerswap"
+      },
+      {
+        "moveId": "powerwhip"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rootout"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "sweetscent"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "morningsun"
+      }
+    ]
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:tangrowth",
+      "targetSlug": "tangrowth",
+      "summary": "Nivel · Conoce ancientpower",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "common",
+      "level": "19-44",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "19-44",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_lush"
+      ],
+      "bucket": "common",
+      "level": "19-44",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "19-44",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [],
+      "bucket": "uncommon",
+      "level": "19-44",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "19-44",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "common",
+      "level": "19-44",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-fakemon-pack",
+    "fanmade-form-funfair",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "forms": "fanmade-form-funfair",
+    "features": "fanmade-form-funfair"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "id": "cobblemon:burmy#Sandy",
+  "namespace": "cobblemon",
+  "slug": "burmy-sandy",
+  "name": "Burmy Sandy",
+  "nationalPokedexNumber": 412,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 29,
+    "defence": 45,
+    "special_attack": 29,
+    "special_defence": 45,
+    "speed": 36
+  },
+  "baseStatTotal": 224,
+  "abilities": [
+    "anticipation",
+    "shedskin"
+  ],
+  "hiddenAbilities": [
+    "overcoat"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 120,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 2,
+  "weight": 34,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 45,
+  "labels": [
+    "gen4"
+  ],
+  "aspects": [
+    "sandy-cloak"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "It creates a cloak by weaving together sand, mud, and silk it has spat out. This earthen cloak is ruined by wind and rain, so the Pokémon hides away in caves and other such places.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 10
+      },
+      {
+        "moveId": "bugbite",
+        "level": 15
+      },
+      {
+        "moveId": "stringshot",
+        "level": 20
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "stringshot"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:wormadam",
+      "targetSlug": "wormadam",
+      "summary": "Nivel · Nv. 20 · properties",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:mothim",
+      "targetSlug": "mothim",
+      "summary": "Nivel · Nv. 20 · properties",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/burmy-sandy.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "mega-showdown",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "mega-showdown",
+    "hitbox": "mega-showdown",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core",
+    "behaviour": "mega-showdown",
+    "implemented": "mega-showdown"
+  },
+  "formOf": {
+    "slug": "burmy",
+    "name": "Burmy"
+  },
+  "formName": "Sandy"
+}

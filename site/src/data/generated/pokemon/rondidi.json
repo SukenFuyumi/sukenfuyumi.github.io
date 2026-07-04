@@ -1,0 +1,334 @@
+{
+  "id": "cobblemon:rondidi",
+  "namespace": "cobblemon",
+  "slug": "rondidi",
+  "name": "Rondidi",
+  "nationalPokedexNumber": 1275,
+  "primaryType": "ground",
+  "secondaryType": null,
+  "types": [
+    "ground"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 45,
+    "defence": 100,
+    "special_attack": 25,
+    "special_defence": 81,
+    "speed": 35
+  },
+  "baseStatTotal": 321,
+  "abilities": [
+    "sandrush",
+    "bulletproof"
+  ],
+  "hiddenAbilities": [
+    "steelworker"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 255,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 124,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 50,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It's easily scared, and will curl up almost immediately when approached.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "rollout",
+        "level": 0
+      },
+      {
+        "moveId": "sandattack",
+        "level": 0
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 0
+      },
+      {
+        "moveId": "mudslap",
+        "level": 5
+      },
+      {
+        "moveId": "protect",
+        "level": 8
+      },
+      {
+        "moveId": "takedown",
+        "level": 12
+      },
+      {
+        "moveId": "bulldoze",
+        "level": 18
+      },
+      {
+        "moveId": "shellsmash",
+        "level": 23
+      },
+      {
+        "moveId": "gyroball",
+        "level": 28
+      },
+      {
+        "moveId": "irondefense",
+        "level": 30
+      },
+      {
+        "moveId": "highhorsepower",
+        "level": 33
+      },
+      {
+        "moveId": "ironhead",
+        "level": 36
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 40
+      },
+      {
+        "moveId": "earthquake",
+        "level": 45
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "accelerock"
+      },
+      {
+        "moveId": "flamewheel"
+      },
+      {
+        "moveId": "iceball"
+      },
+      {
+        "moveId": "steamroller"
+      },
+      {
+        "moveId": "wideguard"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "icespinner"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rapidspin"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockblast"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "steelroller"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:armillo",
+      "targetSlug": "armillo",
+      "summary": "Nivel · Nv. 30",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/rondidi.png",
+    "placeholderColor": "#E2BF65"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "common",
+      "level": "11-36",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_badlands"
+      ],
+      "bucket": "common",
+      "level": "11-36",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

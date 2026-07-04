@@ -1,0 +1,1541 @@
+{
+  "id": "cobblemon:sunflora",
+  "namespace": "cobblemon",
+  "slug": "sunflora",
+  "name": "Sunflora",
+  "nationalPokedexNumber": 192,
+  "primaryType": "grass",
+  "secondaryType": null,
+  "types": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 75,
+    "defence": 55,
+    "special_attack": 105,
+    "special_defence": 85,
+    "speed": 30
+  },
+  "baseStatTotal": 425,
+  "abilities": [
+    "chlorophyll",
+    "solarpower"
+  ],
+  "hiddenAbilities": [
+    "flowergift"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 8,
+  "weight": 85,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 149,
+  "labels": [
+    "gen2"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "ocean",
+      "aspects": [
+        "rlm",
+        "ocean"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "water",
+      "types": [
+        "grass",
+        "water"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 115,
+        "attack": 85,
+        "defence": 85,
+        "special_attack": 45,
+        "special_defence": 85,
+        "speed": 85
+      },
+      "baseStatTotal": 500,
+      "abilities": [
+        "drizzle",
+        "swiftswim"
+      ],
+      "hiddenAbilities": [
+        "contrary"
+      ],
+      "pokedexDescription": "With a very creative imagination, this Sunflora claims to have defeated Kyogre in a duel, forcing the titan to hide in an underwater cave ever since. Strangely enough, no proof of this has ever been found.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "growth",
+            "level": 1
+          },
+          {
+            "moveId": "payday",
+            "level": 1
+          },
+          {
+            "moveId": "stomp",
+            "level": 1
+          },
+          {
+            "moveId": "recover",
+            "level": 4
+          },
+          {
+            "moveId": "watergun",
+            "level": 4
+          },
+          {
+            "moveId": "disable",
+            "level": 7
+          },
+          {
+            "moveId": "aquaring",
+            "level": 10
+          },
+          {
+            "moveId": "protect",
+            "level": 13
+          },
+          {
+            "moveId": "aquajet",
+            "level": 16
+          },
+          {
+            "moveId": "confusion",
+            "level": 19
+          },
+          {
+            "moveId": "waterfall",
+            "level": 22
+          },
+          {
+            "moveId": "hydropump",
+            "level": 25
+          },
+          {
+            "moveId": "drainingkiss",
+            "level": 28
+          },
+          {
+            "moveId": "yawn",
+            "level": 31
+          },
+          {
+            "moveId": "solarbeam",
+            "level": 34
+          },
+          {
+            "moveId": "flipturn",
+            "level": 35
+          },
+          {
+            "moveId": "doubleedge",
+            "level": 37
+          },
+          {
+            "moveId": "raindance",
+            "level": 40
+          },
+          {
+            "moveId": "recover",
+            "level": 43
+          },
+          {
+            "moveId": "extremespeed",
+            "level": 50
+          },
+          {
+            "moveId": "originpulse",
+            "level": 100
+          }
+        ],
+        "egg": [],
+        "tm": [],
+        "tutor": [],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "water",
+            "multiplier": 0.25
+          },
+          {
+            "type": "ground",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "sunflora-ocean"
+    },
+    {
+      "name": "ciel",
+      "aspects": [
+        "rlm",
+        "ciel"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "flying",
+      "types": [
+        "grass",
+        "flying"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 85,
+        "attack": 115,
+        "defence": 85,
+        "special_attack": 45,
+        "special_defence": 85,
+        "speed": 85
+      },
+      "baseStatTotal": 500,
+      "abilities": [
+        "deltastream",
+        "unburden"
+      ],
+      "hiddenAbilities": [
+        "contrary"
+      ],
+      "pokedexDescription": "This Sunflora confidently implies it was once Rayquaza's master, claiming to have taught the legendary Pokémon everything it knows. Strangely enough, no proof of this has ever been found.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "stomp",
+            "level": 1
+          },
+          {
+            "moveId": "recover",
+            "level": 1
+          },
+          {
+            "moveId": "sweetscent",
+            "level": 4
+          },
+          {
+            "moveId": "grasswhistle",
+            "level": 7
+          },
+          {
+            "moveId": "airslash",
+            "level": 10
+          },
+          {
+            "moveId": "leechseed",
+            "level": 13
+          },
+          {
+            "moveId": "airslash",
+            "level": 16
+          },
+          {
+            "moveId": "worryseed",
+            "level": 19
+          },
+          {
+            "moveId": "leafblade",
+            "level": 22
+          },
+          {
+            "moveId": "flail",
+            "level": 25
+          },
+          {
+            "moveId": "defog",
+            "level": 28
+          },
+          {
+            "moveId": "acrobatics",
+            "level": 31
+          },
+          {
+            "moveId": "solarbeam",
+            "level": 34
+          },
+          {
+            "moveId": "doubleedge",
+            "level": 37
+          },
+          {
+            "moveId": "overheat",
+            "level": 40
+          },
+          {
+            "moveId": "fly",
+            "level": 43
+          },
+          {
+            "moveId": "seedflare",
+            "level": 50
+          },
+          {
+            "moveId": "dragonascent",
+            "level": 100
+          }
+        ],
+        "egg": [],
+        "tm": [],
+        "tutor": [],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ice",
+            "multiplier": 4
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "grass",
+            "multiplier": 0.25
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "ground"
+        ]
+      },
+      "evolutions": [],
+      "slug": "sunflora-ciel"
+    },
+    {
+      "name": "volcan",
+      "aspects": [
+        "rlm",
+        "volcan"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "fire",
+      "types": [
+        "grass",
+        "fire"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 45,
+        "attack": 85,
+        "defence": 85,
+        "special_attack": 85,
+        "special_defence": 85,
+        "speed": 115
+      },
+      "baseStatTotal": 500,
+      "abilities": [
+        "drought",
+        "chlorophyll"
+      ],
+      "hiddenAbilities": [
+        "contrary"
+      ],
+      "pokedexDescription": "Surprisingly, this Sunflora believes itself to be Groudon's best friend, claiming to have battled Kyogre alongside the legendary titan. Strangely enough, no proof of this has ever been found.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "growth",
+            "level": 1
+          },
+          {
+            "moveId": "flamewheel",
+            "level": 1
+          },
+          {
+            "moveId": "stomp",
+            "level": 1
+          },
+          {
+            "moveId": "flamecharge",
+            "level": 4
+          },
+          {
+            "moveId": "bodyslam",
+            "level": 7
+          },
+          {
+            "moveId": "protect",
+            "level": 10
+          },
+          {
+            "moveId": "stealthrock",
+            "level": 16
+          },
+          {
+            "moveId": "synthesis",
+            "level": 19
+          },
+          {
+            "moveId": "bodyslam",
+            "level": 22
+          },
+          {
+            "moveId": "takedown",
+            "level": 25
+          },
+          {
+            "moveId": "firespin",
+            "level": 28
+          },
+          {
+            "moveId": "solarbeam",
+            "level": 34
+          },
+          {
+            "moveId": "overheat",
+            "level": 37
+          },
+          {
+            "moveId": "eruption",
+            "level": 39
+          },
+          {
+            "moveId": "sunnyday",
+            "level": 40
+          },
+          {
+            "moveId": "overheat",
+            "level": 43
+          },
+          {
+            "moveId": "flareblitz",
+            "level": 50
+          },
+          {
+            "moveId": "fireblast",
+            "level": 60
+          },
+          {
+            "moveId": "magmastorm",
+            "level": 100
+          }
+        ],
+        "egg": [],
+        "tm": [],
+        "tutor": [],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "grass",
+            "multiplier": 0.25
+          },
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "sunflora-volcan"
+    },
+    {
+      "name": "Scorched",
+      "aspects": [
+        "scorched"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "fire",
+      "types": [
+        "grass",
+        "fire"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "When a Sunkern is exposed to the too much heat, it evolves into this variation of Sunflora. It is not in pain, but it is parched.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "pound",
+            "level": 1
+          },
+          {
+            "moveId": "growth",
+            "level": 1
+          },
+          {
+            "moveId": "grasswhistle",
+            "level": 1
+          },
+          {
+            "moveId": "flowershield",
+            "level": 1
+          },
+          {
+            "moveId": "naturalgift",
+            "level": 1
+          },
+          {
+            "moveId": "ember",
+            "level": 1
+          },
+          {
+            "moveId": "ingrain",
+            "level": 4
+          },
+          {
+            "moveId": "absorb",
+            "level": 7
+          },
+          {
+            "moveId": "megadrain",
+            "level": 10
+          },
+          {
+            "moveId": "leechseed",
+            "level": 13
+          },
+          {
+            "moveId": "razorleaf",
+            "level": 16
+          },
+          {
+            "moveId": "worryseed",
+            "level": 19
+          },
+          {
+            "moveId": "gigadrain",
+            "level": 22
+          },
+          {
+            "moveId": "bulletseed",
+            "level": 25
+          },
+          {
+            "moveId": "petaldance",
+            "level": 28
+          },
+          {
+            "moveId": "solarbeam",
+            "level": 31
+          },
+          {
+            "moveId": "doubleedge",
+            "level": 34
+          },
+          {
+            "moveId": "sunnyday",
+            "level": 39
+          },
+          {
+            "moveId": "leafstorm",
+            "level": 43
+          },
+          {
+            "moveId": "heatwave",
+            "level": 43
+          },
+          {
+            "moveId": "petalblizzard",
+            "level": 50
+          },
+          {
+            "moveId": "inferno",
+            "level": 55
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "bide"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "encore"
+          },
+          {
+            "moveId": "grasswhistle"
+          },
+          {
+            "moveId": "grassyterrain"
+          },
+          {
+            "moveId": "ingrain"
+          },
+          {
+            "moveId": "leechseed"
+          },
+          {
+            "moveId": "morningsun"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "sweetscent"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "cut"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "encore"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "grassyterrain"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hex"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "inferno"
+          },
+          {
+            "moveId": "leafblade"
+          },
+          {
+            "moveId": "leafstorm"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "overheat"
+          },
+          {
+            "moveId": "petalblizzard"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "weatherball"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "synthesis"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "mimic"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "grass",
+            "multiplier": 0.25
+          },
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "sunflora-scorched"
+    }
+  ],
+  "pokedexDescription": "Sunflora converts solar energy into nutrition. It moves around actively in the daytime when it is warm. It stops moving as soon as the sun goes down for the night.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 1
+      },
+      {
+        "moveId": "growth",
+        "level": 1
+      },
+      {
+        "moveId": "grasswhistle",
+        "level": 1
+      },
+      {
+        "moveId": "flowershield",
+        "level": 1
+      },
+      {
+        "moveId": "naturalgift",
+        "level": 1
+      },
+      {
+        "moveId": "naturepower",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "ingrain",
+        "level": 4
+      },
+      {
+        "moveId": "absorb",
+        "level": 7
+      },
+      {
+        "moveId": "megadrain",
+        "level": 10
+      },
+      {
+        "moveId": "leechseed",
+        "level": 13
+      },
+      {
+        "moveId": "razorleaf",
+        "level": 16
+      },
+      {
+        "moveId": "worryseed",
+        "level": 19
+      },
+      {
+        "moveId": "backpetal",
+        "level": 20
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 22
+      },
+      {
+        "moveId": "bulletseed",
+        "level": 25
+      },
+      {
+        "moveId": "petaldance",
+        "level": 28
+      },
+      {
+        "moveId": "solarbeam",
+        "level": 31
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 34
+      },
+      {
+        "moveId": "sunnyday",
+        "level": 39
+      },
+      {
+        "moveId": "leafstorm",
+        "level": 43
+      },
+      {
+        "moveId": "petalblizzard",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "grasswhistle"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "ingrain"
+      },
+      {
+        "moveId": "leechseed"
+      },
+      {
+        "moveId": "morningsun"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "sweetscent"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "backpetal"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "leafblade"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "petalblizzard"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "sunkern",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/192.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "minecraft:sunflower_plains"
+      ],
+      "bucket": "common",
+      "level": "13-43",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "13-43",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "aether:skyroot_grove",
+        "aether:skyroot_meadow"
+      ],
+      "bucket": "common",
+      "level": "13-43",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_bumblezone:floral_meadow"
+      ],
+      "bucket": "common",
+      "level": "13-43",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "13-43",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "13-43",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "13-43",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "13-43",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_beach",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "uncommon",
+      "level": "20-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-rlm"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "uncommon",
+      "level": "20-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-rlm"
+    },
+    {
+      "biomes": [
+        "#minecraft:is_nether"
+      ],
+      "bucket": "uncommon",
+      "level": "20-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-rlm"
+    },
+    {
+      "biomes": [
+        "minecraft:sunflower_plains"
+      ],
+      "bucket": "common",
+      "level": "13-43",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "13-43",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "minecraft:sunflower_plains"
+      ],
+      "bucket": "common",
+      "level": "13-43",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "13-43",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "aether:skyroot_grove",
+        "aether:skyroot_meadow"
+      ],
+      "bucket": "common",
+      "level": "13-43",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "the_bumblezone:floral_meadow"
+      ],
+      "bucket": "common",
+      "level": "13-43",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-rlm",
+    "fanmade-form-funfair",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "features": "fanmade-form-funfair",
+    "forms": "fanmade-form-funfair"
+  }
+}

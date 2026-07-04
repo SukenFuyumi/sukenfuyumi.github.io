@@ -1,0 +1,198 @@
+{
+  "id": "cobblemon:megadramon",
+  "namespace": "cobblemon",
+  "slug": "megadramon",
+  "name": "Megadramon",
+  "nationalPokedexNumber": 2099,
+  "primaryType": "dark",
+  "secondaryType": "dragon",
+  "types": [
+    "dark",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 85,
+    "defence": 76,
+    "special_attack": 110,
+    "special_defence": 76,
+    "speed": 88
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "levitate",
+    "filter"
+  ],
+  "hiddenAbilities": [
+    "steelworker"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.51,
+  "weight": 96.2,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A terrifying Cyborg Dragon that brings ruin wherever it flies.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "snarl",
+        "level": 44
+      },
+      {
+        "moveId": "mirrorshot",
+        "level": 47
+      },
+      {
+        "moveId": "detect",
+        "level": 50
+      },
+      {
+        "moveId": "darkpulse",
+        "level": 54
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 57
+      },
+      {
+        "moveId": "dragonpulse",
+        "level": 61
+      },
+      {
+        "moveId": "sludge",
+        "level": 66
+      },
+      {
+        "moveId": "dragondance",
+        "level": 70
+      },
+      {
+        "moveId": "flashcannon",
+        "level": 75
+      },
+      {
+        "moveId": "armorcannon",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "revolmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 4
+      },
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/megadramon.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_peak"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

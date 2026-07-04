@@ -1,0 +1,309 @@
+{
+  "id": "cobblemon:tatsugiri#Droopy",
+  "namespace": "cobblemon",
+  "slug": "tatsugiri-droopy",
+  "name": "Tatsugiri Droopy",
+  "nationalPokedexNumber": 978,
+  "primaryType": "dragon",
+  "secondaryType": "water",
+  "types": [
+    "dragon",
+    "water"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 50,
+    "defence": 60,
+    "special_attack": 120,
+    "special_defence": 95,
+    "speed": 82
+  },
+  "baseStatTotal": 475,
+  "abilities": [
+    "commander",
+    "tastyaroma"
+  ],
+  "hiddenAbilities": [
+    "stormdrain"
+  ],
+  "eggGroups": [
+    "water_2"
+  ],
+  "catchRate": 100,
+  "eggCycles": 35,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 80,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 166,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [
+    "tatsugiri-texture-droopy"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "This species' differing colors and patterns are apparently the result of Tatsugiri changing itself to suit the preferences of the prey it lures in.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "watergun",
+        "level": 1
+      },
+      {
+        "moveId": "splash",
+        "level": 1
+      },
+      {
+        "moveId": "harden",
+        "level": 6
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 12
+      },
+      {
+        "moveId": "waterpulse",
+        "level": 17
+      },
+      {
+        "moveId": "soak",
+        "level": 23
+      },
+      {
+        "moveId": "taunt",
+        "level": 28
+      },
+      {
+        "moveId": "memento",
+        "level": 34
+      },
+      {
+        "moveId": "muddywater",
+        "level": 39
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 43
+      },
+      {
+        "moveId": "mirrorcoat",
+        "level": 47
+      },
+      {
+        "moveId": "dragonpulse",
+        "level": 52
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "rapidspin"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragoncheer"
+      },
+      {
+        "moveId": "dragondance"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "whirlpool"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.25
+      },
+      {
+        "type": "water",
+        "multiplier": 0.25
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/tatsugiri-droopy.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "zamega",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "zamega",
+    "features": "zamega"
+  },
+  "formOf": {
+    "slug": "tatsugiri",
+    "name": "Tatsugiri"
+  },
+  "formName": "Droopy"
+}

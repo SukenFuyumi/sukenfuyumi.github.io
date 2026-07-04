@@ -1,0 +1,959 @@
+{
+  "id": "cobblemon:aegislash",
+  "namespace": "cobblemon",
+  "slug": "aegislash",
+  "name": "Aegislash",
+  "nationalPokedexNumber": 681,
+  "primaryType": "steel",
+  "secondaryType": "ghost",
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 140,
+    "special_attack": 50,
+    "special_defence": 140,
+    "speed": 60
+  },
+  "baseStatTotal": 500,
+  "abilities": [
+    "stancechange"
+  ],
+  "hiddenAbilities": [
+    "stancechange"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 17,
+  "weight": 530,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 250,
+  "labels": [
+    "gen6"
+  ],
+  "aspects": [
+    "shield-forme"
+  ],
+  "forms": [
+    {
+      "name": "Blade",
+      "aspects": [
+        "blade-forme"
+      ],
+      "primaryType": "steel",
+      "secondaryType": "ghost",
+      "types": [
+        "steel",
+        "ghost"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 60,
+        "attack": 140,
+        "defence": 50,
+        "special_attack": 140,
+        "special_defence": 50,
+        "speed": 60
+      },
+      "baseStatTotal": 500,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "This stance is dedicated to offense. It can cleave any opponent with the strength and weight of its steel blade.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "furycutter",
+            "level": 1
+          },
+          {
+            "moveId": "pursuit",
+            "level": 1
+          },
+          {
+            "moveId": "autotomize",
+            "level": 1
+          },
+          {
+            "moveId": "shadowsneak",
+            "level": 1
+          },
+          {
+            "moveId": "slash",
+            "level": 1
+          },
+          {
+            "moveId": "irondefense",
+            "level": 1
+          },
+          {
+            "moveId": "nightslash",
+            "level": 1
+          },
+          {
+            "moveId": "powertrick",
+            "level": 1
+          },
+          {
+            "moveId": "ironhead",
+            "level": 1
+          },
+          {
+            "moveId": "headsmash",
+            "level": 1
+          },
+          {
+            "moveId": "swordsdance",
+            "level": 1
+          },
+          {
+            "moveId": "aerialace",
+            "level": 1
+          },
+          {
+            "moveId": "kingsshield",
+            "level": 1
+          },
+          {
+            "moveId": "sacredsword",
+            "level": 1
+          },
+          {
+            "moveId": "retaliate",
+            "level": 1
+          },
+          {
+            "moveId": "metalsound",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "airslash"
+          },
+          {
+            "moveId": "block"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "closecombat"
+          },
+          {
+            "moveId": "cut"
+          },
+          {
+            "moveId": "destinybond"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "furycutter"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gyroball"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "metalsound"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychocut"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarblade"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "steelbeam"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "wideguard"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "block"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "furycutter"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "psychocut"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "steelbeam"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.25
+          },
+          {
+            "type": "dragon",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          },
+          {
+            "type": "psychic",
+            "multiplier": 0.5
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "fighting",
+          "normal",
+          "poison"
+        ]
+      },
+      "evolutions": [],
+      "slug": "aegislash-blade"
+    }
+  ],
+  "pokedexDescription": "Apparently, it can detect the innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "sharpen",
+        "level": 1
+      },
+      {
+        "moveId": "furycutter",
+        "level": 1
+      },
+      {
+        "moveId": "pursuit",
+        "level": 1
+      },
+      {
+        "moveId": "autotomize",
+        "level": 1
+      },
+      {
+        "moveId": "shadowsneak",
+        "level": 1
+      },
+      {
+        "moveId": "slash",
+        "level": 1
+      },
+      {
+        "moveId": "irondefense",
+        "level": 1
+      },
+      {
+        "moveId": "nightslash",
+        "level": 1
+      },
+      {
+        "moveId": "steelcutter",
+        "level": 1
+      },
+      {
+        "moveId": "powertrick",
+        "level": 1
+      },
+      {
+        "moveId": "ironhead",
+        "level": 1
+      },
+      {
+        "moveId": "headsmash",
+        "level": 1
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 1
+      },
+      {
+        "moveId": "aerialace",
+        "level": 1
+      },
+      {
+        "moveId": "kingsshield",
+        "level": 1
+      },
+      {
+        "moveId": "phantomblade",
+        "level": 1
+      },
+      {
+        "moveId": "sacredsword",
+        "level": 1
+      },
+      {
+        "moveId": "retaliate",
+        "level": 1
+      },
+      {
+        "moveId": "metalsound",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "destinybond"
+      },
+      {
+        "moveId": "wideguard"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "armorpress"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "metalsound"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychocut"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarblade"
+      },
+      {
+        "moveId": "spiritdrain"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "steelbeam"
+      },
+      {
+        "moveId": "steelcutter"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "terrainblade"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "psychocut"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "steelbeam"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "doublade",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal",
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#minecraft:is_nether"
+      ],
+      "bucket": "uncommon",
+      "level": "40-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "40-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "40-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "uncommon",
+      "level": "40-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "40-50",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "40-50",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "40-50",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#minecraft:is_nether"
+      ],
+      "bucket": "uncommon",
+      "level": "40-50",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "40-50",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "40-50",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "uncommon",
+      "level": "40-50",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core"
+  }
+}

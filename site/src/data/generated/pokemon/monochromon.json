@@ -1,0 +1,210 @@
+{
+  "id": "cobblemon:monochromon",
+  "namespace": "cobblemon",
+  "slug": "monochromon",
+  "name": "Monochromon",
+  "nationalPokedexNumber": 2189,
+  "primaryType": "rock",
+  "secondaryType": "fire",
+  "types": [
+    "rock",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 70,
+    "defence": 80,
+    "special_attack": 50,
+    "special_defence": 60,
+    "speed": 60
+  },
+  "baseStatTotal": 395,
+  "abilities": [
+    "rockhead",
+    "reckless"
+  ],
+  "hiddenAbilities": [
+    "solidrock"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.5,
+  "weight": 124.74,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A horned titan that charges like a boulder.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "rollout",
+        "level": 25
+      },
+      {
+        "moveId": "rockpolish",
+        "level": 27
+      },
+      {
+        "moveId": "rockthrow",
+        "level": 29
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 31
+      },
+      {
+        "moveId": "hornattack",
+        "level": 33
+      },
+      {
+        "moveId": "bulldoze",
+        "level": 35
+      },
+      {
+        "moveId": "takedown",
+        "level": 37
+      },
+      {
+        "moveId": "protect",
+        "level": 39
+      },
+      {
+        "moveId": "incinerate",
+        "level": 41
+      },
+      {
+        "moveId": "stealthrock",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:megadramon",
+      "targetSlug": "megadramon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: dragon_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:cargodramon",
+      "targetSlug": "cargodramon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: steel_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "gammamon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 4
+      },
+      {
+        "type": "water",
+        "multiplier": 4
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/monochromon.png",
+    "placeholderColor": "#B6A136"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_badlands"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

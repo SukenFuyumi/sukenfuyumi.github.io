@@ -1,0 +1,11 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import PokedexTable from "../../components/PokedexTable.tsx";
+import listing from "../../data/generated/index.json";
+import sourcesData from "../../data/generated/sources.json";
+---
+<Layout title="Pokédex">
+  <h1>Pokédex ({listing.length})</h1>
+  <p>Todos los Pokémon, fakemon, megas y formas registrados en el servidor. Los datos ya incluyen los rebalanceos de movimientos/habilidades aplicados por los mods de balance.</p>
+  <PokedexTable client:load sources={sourcesData.sources.map((s: any) => ({ id: s.id, label: s.label }))} />
+</Layout>

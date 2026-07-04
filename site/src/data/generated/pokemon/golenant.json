@@ -1,0 +1,608 @@
+{
+  "id": "cobblemon:golenant",
+  "namespace": "cobblemon",
+  "slug": "golenant",
+  "name": "Golenant",
+  "nationalPokedexNumber": null,
+  "primaryType": "ghost",
+  "secondaryType": "rock",
+  "types": [
+    "ghost",
+    "rock"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 110,
+    "defence": 76,
+    "special_attack": 65,
+    "special_defence": 82,
+    "speed": 56
+  },
+  "baseStatTotal": 474,
+  "abilities": [
+    "sturdy",
+    "frisk"
+  ],
+  "hiddenAbilities": [
+    "solidrock"
+  ],
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "catchRate": 60,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 15,
+  "weight": 710,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 166,
+  "labels": [
+    "gen6"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Many say that Golenant was the inspiration for a video game boss, but the developers refused to comment.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "feintattack",
+        "level": 1
+      },
+      {
+        "moveId": "shadowclaw",
+        "level": 1
+      },
+      {
+        "moveId": "lick",
+        "level": 4
+      },
+      {
+        "moveId": "smackdown",
+        "level": 8
+      },
+      {
+        "moveId": "confuseray",
+        "level": 12
+      },
+      {
+        "moveId": "willowisp",
+        "level": 16
+      },
+      {
+        "moveId": "hex",
+        "level": 20
+      },
+      {
+        "moveId": "stealthrock",
+        "level": 24
+      },
+      {
+        "moveId": "rockslide",
+        "level": 28
+      },
+      {
+        "moveId": "curse",
+        "level": 32
+      },
+      {
+        "moveId": "phantomforce",
+        "level": 36
+      },
+      {
+        "moveId": "rockpolish",
+        "level": 40
+      },
+      {
+        "moveId": "stoneedge",
+        "level": 44
+      },
+      {
+        "moveId": "destinybond",
+        "level": 48
+      },
+      {
+        "moveId": "sandstorm",
+        "level": 52
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "bestow"
+      },
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "feintattack"
+      },
+      {
+        "moveId": "grudge"
+      },
+      {
+        "moveId": "suckerpunch"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "burningjealousy"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "hardpress"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "phantomforce"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "venomdrench"
+      },
+      {
+        "moveId": "wideguard"
+      },
+      {
+        "moveId": "willowisp"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "burningjealousy"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "wideguard"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "phantock",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/golenant.png",
+    "placeholderColor": "#735797"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "26-47",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    }
+  ],
+  "sourceMods": [
+    "fanmade-form-funfair"
+  ],
+  "primarySource": "fanmade-form-funfair",
+  "provenance": {
+    "implemented": "fanmade-form-funfair",
+    "name": "fanmade-form-funfair",
+    "primaryType": "fanmade-form-funfair",
+    "secondaryType": "fanmade-form-funfair",
+    "maleRatio": "fanmade-form-funfair",
+    "height": "fanmade-form-funfair",
+    "weight": "fanmade-form-funfair",
+    "pokedex": "fanmade-form-funfair",
+    "labels": "fanmade-form-funfair",
+    "aspects": "fanmade-form-funfair",
+    "abilities": "fanmade-form-funfair",
+    "eggGroups": "fanmade-form-funfair",
+    "baseStats": "fanmade-form-funfair",
+    "evYield": "fanmade-form-funfair",
+    "baseExperienceYield": "fanmade-form-funfair",
+    "experienceGroup": "fanmade-form-funfair",
+    "catchRate": "fanmade-form-funfair",
+    "eggCycles": "fanmade-form-funfair",
+    "baseFriendship": "fanmade-form-funfair",
+    "baseScale": "fanmade-form-funfair",
+    "hitbox": "fanmade-form-funfair",
+    "behaviour": "fanmade-form-funfair",
+    "drops": "fanmade-form-funfair",
+    "moves": "fanmade-form-funfair",
+    "preEvolution": "fanmade-form-funfair"
+  }
+}

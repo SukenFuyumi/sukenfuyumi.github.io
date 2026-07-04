@@ -1,0 +1,193 @@
+{
+  "id": "cobblemon:grandgalemon",
+  "namespace": "cobblemon",
+  "slug": "grandgalemon",
+  "name": "Grandgalemon",
+  "nationalPokedexNumber": 2076,
+  "primaryType": "flying",
+  "secondaryType": "dragon",
+  "types": [
+    "flying",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 82,
+    "attack": 100,
+    "defence": 90,
+    "special_attack": 90,
+    "special_defence": 85,
+    "speed": 78
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "magicguard",
+    "defiant"
+  ],
+  "hiddenAbilities": [
+    "galewings"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.41,
+  "weight": 75.3,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "The ultimate form of this line, combining dragon and sky power.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "steelwing",
+        "level": 44
+      },
+      {
+        "moveId": "defog",
+        "level": 47
+      },
+      {
+        "moveId": "roost",
+        "level": 50
+      },
+      {
+        "moveId": "dualchop",
+        "level": 54
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 57
+      },
+      {
+        "moveId": "upperhand",
+        "level": 61
+      },
+      {
+        "moveId": "tailwind",
+        "level": 66
+      },
+      {
+        "moveId": "bravebird",
+        "level": 70
+      },
+      {
+        "moveId": "sacredsword",
+        "level": 75
+      },
+      {
+        "moveId": "bleakwindstorm",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "galemon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/grandgalemon.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_sky",
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

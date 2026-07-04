@@ -1,0 +1,190 @@
+{
+  "id": "cobblemon:bakemon",
+  "namespace": "cobblemon",
+  "slug": "bakemon",
+  "name": "Bakemon",
+  "nationalPokedexNumber": 2148,
+  "primaryType": "ghost",
+  "secondaryType": null,
+  "types": [
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 80,
+    "defence": 60,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 40
+  },
+  "baseStatTotal": 395,
+  "abilities": [
+    "levitate",
+    "cursedbody"
+  ],
+  "hiddenAbilities": [
+    "prankster"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.3,
+  "weight": 3.63,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A sheet-like ghost that moans from empty air.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "poisongas",
+        "level": 25
+      },
+      {
+        "moveId": "scaryface",
+        "level": 27
+      },
+      {
+        "moveId": "hex",
+        "level": 29
+      },
+      {
+        "moveId": "confusion",
+        "level": 31
+      },
+      {
+        "moveId": "confuseray",
+        "level": 33
+      },
+      {
+        "moveId": "ominouswind",
+        "level": 35
+      },
+      {
+        "moveId": "shadowpunch",
+        "level": 37
+      },
+      {
+        "moveId": "curse",
+        "level": 39
+      },
+      {
+        "moveId": "torment",
+        "level": 41
+      },
+      {
+        "moveId": "payback",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:monzaemon",
+      "targetSlug": "monzaemon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: love_sweet",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:skullgreymon",
+      "targetSlug": "skullgreymon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: ghost_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "picodevimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/bakemon.png",
+    "placeholderColor": "#735797"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_spooky",
+        "#cobblemon:is_magical"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

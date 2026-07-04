@@ -1,0 +1,369 @@
+{
+  "id": "cobblemon:palmtea",
+  "namespace": "cobblemon",
+  "slug": "palmtea",
+  "name": "Palmtea",
+  "nationalPokedexNumber": null,
+  "primaryType": "grass",
+  "secondaryType": "fairy",
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 45,
+    "special_attack": 74,
+    "special_defence": 54,
+    "speed": 50
+  },
+  "baseStatTotal": 308,
+  "abilities": [
+    "hospitality",
+    "stickyhold"
+  ],
+  "hiddenAbilities": [
+    "shellarmor"
+  ],
+  "eggGroups": [
+    "grass",
+    "amorphous"
+  ],
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 1,
+  "weight": 2,
+  "maleRatio": -1,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 62,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Palmtea make their homes in cracked open coconuts, which serve as a very good form of defence.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "stunspore",
+        "level": 1
+      },
+      {
+        "moveId": "harden",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "absorb",
+        "level": 6
+      },
+      {
+        "moveId": "lifedew",
+        "level": 12
+      },
+      {
+        "moveId": "grassyglide",
+        "level": 18
+      },
+      {
+        "moveId": "megadrain",
+        "level": 24
+      },
+      {
+        "moveId": "drainingkiss",
+        "level": 30
+      },
+      {
+        "moveId": "ragepowder",
+        "level": 36
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 42
+      },
+      {
+        "moveId": "hydropump",
+        "level": 48
+      },
+      {
+        "moveId": "floralhealing",
+        "level": 54
+      },
+      {
+        "moveId": "leafstorm",
+        "level": 60
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "sweetkiss"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "wideguard"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sweetkissspite"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "wideguard"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:fruitigeist",
+      "targetSlug": "fruitigeist",
+      "summary": "Nivel · properties",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "poison",
+        "multiplier": 4
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/palmtea.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_beach",
+        "#cobblemon:is_coast",
+        "#cobblemon:is_island"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_beach",
+        "#cobblemon:is_coast",
+        "#cobblemon:is_desert",
+        "#cobblemon:is_island",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_ocean",
+        "#cobblemon:is_sandy",
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    }
+  ],
+  "sourceMods": [
+    "fanmade-form-funfair"
+  ],
+  "primarySource": "fanmade-form-funfair",
+  "provenance": {
+    "implemented": "fanmade-form-funfair",
+    "name": "fanmade-form-funfair",
+    "primaryType": "fanmade-form-funfair",
+    "secondaryType": "fanmade-form-funfair",
+    "maleRatio": "fanmade-form-funfair",
+    "height": "fanmade-form-funfair",
+    "weight": "fanmade-form-funfair",
+    "features": "fanmade-form-funfair",
+    "forms": "fanmade-form-funfair",
+    "shoulderMountable": "fanmade-form-funfair",
+    "catchRate": "fanmade-form-funfair",
+    "baseScale": "fanmade-form-funfair",
+    "eggCycles": "fanmade-form-funfair",
+    "baseFriendship": "fanmade-form-funfair",
+    "baseExperienceYield": "fanmade-form-funfair",
+    "experienceGroup": "fanmade-form-funfair",
+    "pokedex": "fanmade-form-funfair",
+    "labels": "fanmade-form-funfair",
+    "abilities": "fanmade-form-funfair",
+    "eggGroups": "fanmade-form-funfair",
+    "baseStats": "fanmade-form-funfair",
+    "evYield": "fanmade-form-funfair",
+    "hitbox": "fanmade-form-funfair",
+    "behaviour": "fanmade-form-funfair",
+    "evolutions": "fanmade-form-funfair",
+    "drops": "fanmade-form-funfair",
+    "moves": "fanmade-form-funfair"
+  }
+}

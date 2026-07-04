@@ -1,0 +1,757 @@
+{
+  "id": "cobblemon:flaaffy",
+  "namespace": "cobblemon",
+  "slug": "flaaffy",
+  "name": "Flaaffy",
+  "nationalPokedexNumber": 180,
+  "primaryType": "electric",
+  "secondaryType": null,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 55,
+    "defence": 55,
+    "special_attack": 80,
+    "special_defence": 60,
+    "speed": 45
+  },
+  "baseStatTotal": 365,
+  "abilities": [
+    "static",
+    "illuminate"
+  ],
+  "hiddenAbilities": [
+    "plus"
+  ],
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 8,
+  "weight": 133,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 128,
+  "labels": [
+    "gen2"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "rlm",
+      "aspects": [
+        "rlm"
+      ],
+      "primaryType": "electric",
+      "secondaryType": "ghost",
+      "types": [
+        "electric",
+        "ghost"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 80,
+        "attack": 30,
+        "defence": 50,
+        "special_attack": 80,
+        "special_defence": 60,
+        "speed": 80
+      },
+      "baseStatTotal": 380,
+      "abilities": [
+        "static",
+        "infiltrator"
+      ],
+      "hiddenAbilities": [
+        "shadowtag"
+      ],
+      "pokedexDescription": "As it evolves, its skin turns a pallid black and its wool begins to dissipate into a spectral mist. Flaaffy is known to haunt power plants, feeding on the electricity to maintain its physical form. Those who touch its fleece feel a numbing, supernatural chill.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "growl",
+            "level": 1
+          },
+          {
+            "moveId": "thunderwave",
+            "level": 1
+          },
+          {
+            "moveId": "astonish",
+            "level": 1
+          },
+          {
+            "moveId": "shadowball",
+            "level": 1
+          },
+          {
+            "moveId": "thunderwave",
+            "level": 4
+          },
+          {
+            "moveId": "thundershock",
+            "level": 8
+          },
+          {
+            "moveId": "willowisp",
+            "level": 11
+          },
+          {
+            "moveId": "charge",
+            "level": 16
+          },
+          {
+            "moveId": "hex",
+            "level": 20
+          },
+          {
+            "moveId": "takedown",
+            "level": 20
+          },
+          {
+            "moveId": "electroball",
+            "level": 25
+          },
+          {
+            "moveId": "shadowsneak",
+            "level": 27
+          },
+          {
+            "moveId": "confuseray",
+            "level": 29
+          },
+          {
+            "moveId": "powergem",
+            "level": 34
+          },
+          {
+            "moveId": "discharge",
+            "level": 38
+          },
+          {
+            "moveId": "lightscreen",
+            "level": 43
+          },
+          {
+            "moveId": "signalbeam",
+            "level": 47
+          },
+          {
+            "moveId": "lightscreen",
+            "level": 52
+          },
+          {
+            "moveId": "thunder",
+            "level": 56
+          }
+        ],
+        "egg": [],
+        "tm": [],
+        "tutor": [],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "fighting",
+          "normal"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:ampharos",
+          "targetSlug": "ampharos",
+          "summary": "Nivel · Nv. 30 · variante rlm=true",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "flaaffy-rlm"
+    }
+  ],
+  "pokedexDescription": "Flaaffy's wool quality changes so that it can generate a high amount of static electricity with a small amount of wool. The bare and slick parts of its hide are shielded against electricity.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "thundershock",
+        "level": 6
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 9
+      },
+      {
+        "moveId": "cottonspore",
+        "level": 11
+      },
+      {
+        "moveId": "charge",
+        "level": 16
+      },
+      {
+        "moveId": "takedown",
+        "level": 20
+      },
+      {
+        "moveId": "electroball",
+        "level": 25
+      },
+      {
+        "moveId": "confuseray",
+        "level": 29
+      },
+      {
+        "moveId": "powergem",
+        "level": 34
+      },
+      {
+        "moveId": "discharge",
+        "level": 38
+      },
+      {
+        "moveId": "paraboliccharge",
+        "level": 40
+      },
+      {
+        "moveId": "cottonguard",
+        "level": 43
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 47
+      },
+      {
+        "moveId": "nightlight",
+        "level": 47
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 52
+      },
+      {
+        "moveId": "thunder",
+        "level": 56
+      },
+      {
+        "moveId": "flashbang",
+        "level": 60
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "eerieimpulse"
+      },
+      {
+        "moveId": "electricterrain"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "flatter"
+      },
+      {
+        "moveId": "odorsleuth"
+      },
+      {
+        "moveId": "sandattack"
+      },
+      {
+        "moveId": "tailglow"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "boltbeam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "eerieimpulse"
+      },
+      {
+        "moveId": "electricterrain"
+      },
+      {
+        "moveId": "electroball"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "powergem"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "risingvoltage"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "voltswitch"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "risingvoltage"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "defensecurl"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "dynamicpunch"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "seismictoss"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "zapcannon"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "holdback"
+      }
+    ]
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:ampharos",
+      "targetSlug": "ampharos",
+      "summary": "Nivel · Nv. 30",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "mareep-rlm",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/180.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_highlands",
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "common",
+      "level": "15-37",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "15-37",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_soul_sand",
+        "#cobblemon:is_end",
+        "#cobblemon:is_spooky"
+      ],
+      "bucket": "uncommon",
+      "level": "1-17",
+      "timeRange": null,
+      "sourceId": "cobblemon-rlm"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_highlands",
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "common",
+      "level": "15-37",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-rlm",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "lightingData": "cobblemon-core",
+    "features": "cobblemon-rlm",
+    "forms": "cobblemon-rlm"
+  }
+}

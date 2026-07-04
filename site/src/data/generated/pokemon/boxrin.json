@@ -1,0 +1,331 @@
+{
+  "id": "cobblemon:boxrin",
+  "namespace": "cobblemon",
+  "slug": "boxrin",
+  "name": "Boxrin",
+  "nationalPokedexNumber": 1321,
+  "primaryType": "grass",
+  "secondaryType": null,
+  "types": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 59,
+    "attack": 65,
+    "defence": 61,
+    "special_attack": 48,
+    "special_defence": 45,
+    "speed": 35
+  },
+  "baseStatTotal": 313,
+  "abilities": [
+    "overgrow"
+  ],
+  "hiddenAbilities": [
+    "ironfist"
+  ],
+  "eggGroups": [
+    "field",
+    "monster"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 2,
+  "weight": 540,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 65,
+  "labels": [
+    "fakemon",
+    "aster",
+    "starter"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It’s constantly training to achieve its perfect fighting style. Because of its short arms, it wears mushrooms like boxing gloves to punch.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 0
+      },
+      {
+        "moveId": "leer",
+        "level": 0
+      },
+      {
+        "moveId": "leafage",
+        "level": 5
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 9
+      },
+      {
+        "moveId": "armthrust",
+        "level": 13
+      },
+      {
+        "moveId": "stunspore",
+        "level": 22
+      },
+      {
+        "moveId": "hornleech",
+        "level": 26
+      },
+      {
+        "moveId": "drainpunch",
+        "level": 29
+      },
+      {
+        "moveId": "curse",
+        "level": 33
+      },
+      {
+        "moveId": "wideguard",
+        "level": 35
+      },
+      {
+        "moveId": "poisonjab",
+        "level": 37
+      },
+      {
+        "moveId": "woodhammer",
+        "level": 43
+      },
+      {
+        "moveId": "headlongrush",
+        "level": 45
+      },
+      {
+        "moveId": "superpower",
+        "level": 47
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "circlethrow"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "drumbeating"
+      },
+      {
+        "moveId": "flareblitz"
+      },
+      {
+        "moveId": "spore"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "horndrill"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "leechseed"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "upperhand"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "grasspledge"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:rinstomp",
+      "targetSlug": "rinstomp",
+      "summary": "Nivel · Nv. 16",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/boxrin.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "timeRange": "day",
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "id": "cobblemon:vikavolt",
+  "namespace": "cobblemon",
+  "slug": "vikavolt",
+  "name": "Vikavolt",
+  "nationalPokedexNumber": 738,
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 77,
+    "attack": 70,
+    "defence": 90,
+    "special_attack": 145,
+    "special_defence": 75,
+    "speed": 43
+  },
+  "baseStatTotal": 500,
+  "abilities": [
+    "levitate"
+  ],
+  "hiddenAbilities": [
+    "megablaster"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 45,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 15,
+  "weight": 450,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 250,
+  "labels": [
+    "gen7"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Vikavolt flusters opponents with acrobatic flying maneuvers. This creates an opening for it to deliver an electric beam attack.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "thunderbolt",
+        "level": 1
+      },
+      {
+        "moveId": "airslash",
+        "level": 1
+      },
+      {
+        "moveId": "charge",
+        "level": 1
+      },
+      {
+        "moveId": "visegrip",
+        "level": 1
+      },
+      {
+        "moveId": "stringshot",
+        "level": 1
+      },
+      {
+        "moveId": "mudslap",
+        "level": 1
+      },
+      {
+        "moveId": "bugbite",
+        "level": 1
+      },
+      {
+        "moveId": "acrobatics",
+        "level": 1
+      },
+      {
+        "moveId": "dig",
+        "level": 1
+      },
+      {
+        "moveId": "irondefense",
+        "level": 1
+      },
+      {
+        "moveId": "xscissor",
+        "level": 1
+      },
+      {
+        "moveId": "crunch",
+        "level": 1
+      },
+      {
+        "moveId": "discharge",
+        "level": 1
+      },
+      {
+        "moveId": "chargebeam",
+        "level": 1
+      },
+      {
+        "moveId": "signalbeam",
+        "level": 1
+      },
+      {
+        "moveId": "boltbeam",
+        "level": 1
+      },
+      {
+        "moveId": "bite",
+        "level": 15
+      },
+      {
+        "moveId": "spark",
+        "level": 23
+      },
+      {
+        "moveId": "stickyweb",
+        "level": 29
+      },
+      {
+        "moveId": "bugbuzz",
+        "level": 36
+      },
+      {
+        "moveId": "guillotine",
+        "level": 43
+      },
+      {
+        "moveId": "fly",
+        "level": 50
+      },
+      {
+        "moveId": "agility",
+        "level": 57
+      },
+      {
+        "moveId": "zapcannon",
+        "level": 64
+      },
+      {
+        "moveId": "thunderclap",
+        "level": 71
+      },
+      {
+        "moveId": "heliobeam",
+        "level": 78
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "discharge"
+      },
+      {
+        "moveId": "harden"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "boltbeam"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "eerieimpulse"
+      },
+      {
+        "moveId": "electricterrain"
+      },
+      {
+        "moveId": "electroball"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "risingvoltage"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "skydrop"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "supercellslam"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "voltswitch"
+      },
+      {
+        "moveId": "wildcharge"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "risingvoltage"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "wildcharge"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "charjabug",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/738.png"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core"
+  }
+}

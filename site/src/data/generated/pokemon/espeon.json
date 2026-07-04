@@ -1,0 +1,1306 @@
+{
+  "id": "cobblemon:espeon",
+  "namespace": "cobblemon",
+  "slug": "espeon",
+  "name": "Espeon",
+  "nationalPokedexNumber": 196,
+  "primaryType": "psychic",
+  "secondaryType": null,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 130,
+    "special_defence": 95,
+    "speed": 110
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "synchronize",
+    "magicbounce"
+  ],
+  "hiddenAbilities": [
+    "psychic-mastery"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 50,
+  "height": 9,
+  "weight": 265,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 184,
+  "labels": [
+    "gen2"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Kazeran",
+      "aspects": [
+        "kazeran"
+      ],
+      "primaryType": "psychic",
+      "secondaryType": "steel",
+      "types": [
+        "psychic",
+        "steel"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 65,
+        "attack": 60,
+        "defence": 110,
+        "special_attack": 95,
+        "special_defence": 130,
+        "speed": 65
+      },
+      "baseStatTotal": 525,
+      "abilities": [
+        "levitate",
+        "psychicsurge"
+      ],
+      "hiddenAbilities": [
+        "prismcapacitor"
+      ],
+      "pokedexDescription": "Eevee's evolution into Espeon was altered by the Kazeran region's unique energy coming from underground, giving it a more robotic appearance. It draws power from the gem above its head, said to be a fragment of a fallen star.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "metalstorm",
+            "level": 1
+          },
+          {
+            "moveId": "tailwhip",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "helpinghand",
+            "level": 1
+          },
+          {
+            "moveId": "confusion",
+            "level": 1
+          },
+          {
+            "moveId": "mirrorcoat",
+            "level": 1
+          },
+          {
+            "moveId": "flashcannon",
+            "level": 1
+          },
+          {
+            "moveId": "metalclaw",
+            "level": 1
+          },
+          {
+            "moveId": "copycat",
+            "level": 1
+          },
+          {
+            "moveId": "batonpass",
+            "level": 1
+          },
+          {
+            "moveId": "takedown",
+            "level": 1
+          },
+          {
+            "moveId": "charm",
+            "level": 1
+          },
+          {
+            "moveId": "doubleedge",
+            "level": 1
+          },
+          {
+            "moveId": "growl",
+            "level": 1
+          },
+          {
+            "moveId": "miracleeye",
+            "level": 1
+          },
+          {
+            "moveId": "sandattack",
+            "level": 5
+          },
+          {
+            "moveId": "quickattack",
+            "level": 10
+          },
+          {
+            "moveId": "babydolleyes",
+            "level": 15
+          },
+          {
+            "moveId": "swift",
+            "level": 20
+          },
+          {
+            "moveId": "psybeam",
+            "level": 25
+          },
+          {
+            "moveId": "calmmind",
+            "level": 30
+          },
+          {
+            "moveId": "irondefense",
+            "level": 35
+          },
+          {
+            "moveId": "psychic",
+            "level": 40
+          },
+          {
+            "moveId": "psychup",
+            "level": 45
+          },
+          {
+            "moveId": "flashcannon",
+            "level": 50
+          },
+          {
+            "moveId": "lastresort",
+            "level": 55
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "barrier"
+          },
+          {
+            "moveId": "cosmicpower"
+          },
+          {
+            "moveId": "detect"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "metalburst"
+          },
+          {
+            "moveId": "mirrorshot"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "teleport"
+          },
+          {
+            "moveId": "wish"
+          },
+          {
+            "moveId": "yawn"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "alluringvoice"
+          },
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "bodypress"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "charm"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "cosmicpower"
+          },
+          {
+            "moveId": "cut"
+          },
+          {
+            "moveId": "disarmingvoice"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "healbell"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "imprison"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "magicroom"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "metalsound"
+          },
+          {
+            "moveId": "mirrorcoat"
+          },
+          {
+            "moveId": "payday"
+          },
+          {
+            "moveId": "powergem"
+          },
+          {
+            "moveId": "powerswap"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicfangs"
+          },
+          {
+            "moveId": "psychicnoise"
+          },
+          {
+            "moveId": "psychicterrain"
+          },
+          {
+            "moveId": "psyshock"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "roar"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "steelbeam"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunderwave"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "weatherball"
+          },
+          {
+            "moveId": "workup"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "cosmicpower"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "healbell"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "magicroom"
+          },
+          {
+            "moveId": "mirrorcoat"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "trick"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "psychic",
+            "multiplier": 0.25
+          },
+          {
+            "type": "dragon",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          },
+          {
+            "type": "normal",
+            "multiplier": 0.5
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "poison"
+        ]
+      },
+      "evolutions": [],
+      "slug": "espeon-kazeran"
+    }
+  ],
+  "pokedexDescription": "Espeon is extremely loyal to any Trainer it considers to be worthy. It is said that this Pokémon developed its precognitive powers to protect its Trainer from harm.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "glitzyglow",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 1
+      },
+      {
+        "moveId": "confusion",
+        "level": 1
+      },
+      {
+        "moveId": "covet",
+        "level": 1
+      },
+      {
+        "moveId": "bite",
+        "level": 1
+      },
+      {
+        "moveId": "copycat",
+        "level": 1
+      },
+      {
+        "moveId": "batonpass",
+        "level": 1
+      },
+      {
+        "moveId": "takedown",
+        "level": 1
+      },
+      {
+        "moveId": "charm",
+        "level": 1
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "trumpcard",
+        "level": 1
+      },
+      {
+        "moveId": "refresh",
+        "level": 1
+      },
+      {
+        "moveId": "psychicsnap",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 5
+      },
+      {
+        "moveId": "quickattack",
+        "level": 10
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 15
+      },
+      {
+        "moveId": "swift",
+        "level": 20
+      },
+      {
+        "moveId": "psybeam",
+        "level": 25
+      },
+      {
+        "moveId": "morningsun",
+        "level": 30
+      },
+      {
+        "moveId": "powerswap",
+        "level": 35
+      },
+      {
+        "moveId": "psychic",
+        "level": 40
+      },
+      {
+        "moveId": "psychup",
+        "level": 45
+      },
+      {
+        "moveId": "futuresight",
+        "level": 50
+      },
+      {
+        "moveId": "lastresort",
+        "level": 55
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "detect"
+      },
+      {
+        "moveId": "doublekick"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "synchronoise"
+      },
+      {
+        "moveId": "tickle"
+      },
+      {
+        "moveId": "wish"
+      },
+      {
+        "moveId": "yawn"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "hypnoblast"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "mindbend"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "payday"
+      },
+      {
+        "moveId": "powergem"
+      },
+      {
+        "moveId": "powerswap"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicfangs"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "psychicsnap"
+      },
+      {
+        "moveId": "psychicterrain"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "nightmare"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "zapcannon"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "celebrate"
+      },
+      {
+        "moveId": "sing"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": "eevee",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_hills"
+      ],
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_hills"
+      ],
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "28-53",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "kazeran-eeveelutions",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "features": "kazeran-eeveelutions",
+    "forms": "kazeran-eeveelutions"
+  }
+}

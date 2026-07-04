@@ -1,0 +1,282 @@
+{
+  "id": "cobblemon:bulbee#green_light",
+  "namespace": "cobblemon",
+  "slug": "bulbee-green-light",
+  "name": "Bulbee green_light",
+  "nationalPokedexNumber": 1215,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 52,
+    "defence": 52,
+    "special_attack": 52,
+    "special_defence": 52,
+    "speed": 52
+  },
+  "baseStatTotal": 312,
+  "abilities": [
+    "tintedlens",
+    "illuminate"
+  ],
+  "hiddenAbilities": [
+    "telepathy"
+  ],
+  "eggGroups": [
+    "bug",
+    "mineral"
+  ],
+  "catchRate": 255,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 1,
+  "weight": 3,
+  "maleRatio": 0.9,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 52,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [
+    "green-light"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "It's part of a swarm that collaborates within a hive, using their glowing abdomens to communicate with each other with different light signals.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "flash",
+        "level": 0
+      },
+      {
+        "moveId": "thundershock",
+        "level": 0
+      },
+      {
+        "moveId": "infestation",
+        "level": 0
+      },
+      {
+        "moveId": "reflect",
+        "level": 5
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 5
+      },
+      {
+        "moveId": "confusion",
+        "level": 10
+      },
+      {
+        "moveId": "spotlight",
+        "level": 15
+      },
+      {
+        "moveId": "discharge",
+        "level": 20
+      },
+      {
+        "moveId": "tailglow",
+        "level": 25
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "electricterrain"
+      },
+      {
+        "moveId": "electroshot"
+      },
+      {
+        "moveId": "twineedle"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "eerieimpulse"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "gearup"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "pinmissile"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "supercellslam"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "voltswitch"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:glownet",
+      "targetSlug": "glownet-green-light",
+      "summary": "Nivel · Nv. 25 · variante green-light",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/bulbee-green-light.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "features": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "ai": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp",
+    "forms": "cobblemon-afp"
+  },
+  "formOf": {
+    "slug": "bulbee",
+    "name": "Bulbee"
+  },
+  "formName": "green_light"
+}

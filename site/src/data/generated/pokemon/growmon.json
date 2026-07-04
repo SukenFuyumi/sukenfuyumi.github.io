@@ -1,0 +1,205 @@
+{
+  "id": "cobblemon:growmon",
+  "namespace": "cobblemon",
+  "slug": "growmon",
+  "name": "Growmon",
+  "nationalPokedexNumber": 2030,
+  "primaryType": "fire",
+  "secondaryType": "dark",
+  "types": [
+    "fire",
+    "dark"
+  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 70,
+    "defence": 105,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 35
+  },
+  "baseStatTotal": 398,
+  "abilities": [
+    "solarpower",
+    "intimidate"
+  ],
+  "hiddenAbilities": [
+    "moxie"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.11,
+  "weight": 104.8,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Demon Dragon Digimon that is called the Deep-crimson Demon Dragon.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "smokescreen",
+        "level": 25
+      },
+      {
+        "moveId": "ember",
+        "level": 27
+      },
+      {
+        "moveId": "bite",
+        "level": 29
+      },
+      {
+        "moveId": "echoedvoice",
+        "level": 31
+      },
+      {
+        "moveId": "howl",
+        "level": 33
+      },
+      {
+        "moveId": "snarl",
+        "level": 35
+      },
+      {
+        "moveId": "nobleroar",
+        "level": 37
+      },
+      {
+        "moveId": "incinerate",
+        "level": 39
+      },
+      {
+        "moveId": "breakingswipe",
+        "level": 41
+      },
+      {
+        "moveId": "temperflare",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:megalogrowmon",
+      "targetSlug": "megalogrowmon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: steel_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "shoutmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/growmon.png",
+    "placeholderColor": "#EE8130"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_nether_crimson",
+        "#cobblemon:is_volcanic",
+        "#cobblemon:is_thermal",
+        "#cobblemon:nether"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

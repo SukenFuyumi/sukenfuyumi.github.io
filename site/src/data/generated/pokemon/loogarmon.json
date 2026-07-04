@@ -1,0 +1,203 @@
+{
+  "id": "cobblemon:loogarmon",
+  "namespace": "cobblemon",
+  "slug": "loogarmon",
+  "name": "Loogarmon",
+  "nationalPokedexNumber": 2060,
+  "primaryType": "dark",
+  "secondaryType": "fire",
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 80,
+    "defence": 30,
+    "special_attack": 80,
+    "special_defence": 70,
+    "speed": 85
+  },
+  "baseStatTotal": 400,
+  "abilities": [
+    "intimidate",
+    "flashfire"
+  ],
+  "hiddenAbilities": [
+    "guarddog"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.6,
+  "weight": 99.4,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "An evolved wolf-like form partnered with Nagasumi Eiji in Digimon Seekers.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "howl",
+        "level": 25
+      },
+      {
+        "moveId": "smokescreen",
+        "level": 27
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 29
+      },
+      {
+        "moveId": "snarl",
+        "level": 31
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 33
+      },
+      {
+        "moveId": "torment",
+        "level": 35
+      },
+      {
+        "moveId": "brutalswing",
+        "level": 37
+      },
+      {
+        "moveId": "willowisp",
+        "level": 39
+      },
+      {
+        "moveId": "flameburst",
+        "level": 41
+      },
+      {
+        "moveId": "burningbulwark",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:soloogarmon",
+      "targetSlug": "soloogarmon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: dark_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "terriermon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/loogarmon.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_nether_wasteland",
+        "#cobblemon:is_nether_desert",
+        "#cobblemon:nether"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "id": "cobblemon:froxic",
+  "namespace": "cobblemon",
+  "slug": "froxic",
+  "name": "Froxic",
+  "nationalPokedexNumber": 1241,
+  "primaryType": "ice",
+  "secondaryType": "poison",
+  "types": [
+    "ice",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 37,
+    "attack": 57,
+    "defence": 33,
+    "special_attack": 55,
+    "special_defence": 38,
+    "speed": 36
+  },
+  "baseStatTotal": 256,
+  "abilities": [
+    "poisontouch",
+    "snowwarning"
+  ],
+  "hiddenAbilities": [
+    "wonderskin"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 255,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 55,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 55,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Its skin produces a nitrogen-based liquid that will freeze anything it makes contact with.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "powdersnow",
+        "level": 0
+      },
+      {
+        "moveId": "smog",
+        "level": 0
+      },
+      {
+        "moveId": "doubleslap",
+        "level": 0
+      },
+      {
+        "moveId": "lick",
+        "level": 0
+      },
+      {
+        "moveId": "bubble",
+        "level": 5
+      },
+      {
+        "moveId": "disable",
+        "level": 7
+      },
+      {
+        "moveId": "stockpile",
+        "level": 10
+      },
+      {
+        "moveId": "spitup",
+        "level": 10
+      },
+      {
+        "moveId": "swallow",
+        "level": 10
+      },
+      {
+        "moveId": "iceshard",
+        "level": 12
+      },
+      {
+        "moveId": "charm",
+        "level": 16
+      },
+      {
+        "moveId": "poisonfang",
+        "level": 20
+      },
+      {
+        "moveId": "icefang",
+        "level": 24
+      },
+      {
+        "moveId": "toxic",
+        "level": 28
+      },
+      {
+        "moveId": "aquajet",
+        "level": 32
+      },
+      {
+        "moveId": "sludgewave",
+        "level": 36
+      },
+      {
+        "moveId": "yawn",
+        "level": 40
+      },
+      {
+        "moveId": "iciclecrash",
+        "level": 44
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "chillyreception"
+      },
+      {
+        "moveId": "mist"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "pursuit"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "tripleaxel"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "workup"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:permafrox",
+      "targetSlug": "permafrox",
+      "summary": "Usar ice_stone",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/froxic.png",
+    "placeholderColor": "#96D9D6"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_freezing"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_frozen_ocean"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

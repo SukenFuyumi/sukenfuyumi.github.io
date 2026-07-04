@@ -1,0 +1,209 @@
+{
+  "id": "cobblemon:articoo",
+  "namespace": "cobblemon",
+  "slug": "articoo",
+  "name": "Articoo",
+  "nationalPokedexNumber": 6763,
+  "primaryType": "ice",
+  "secondaryType": null,
+  "types": [
+    "ice"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 43,
+    "defence": 50,
+    "special_attack": 45,
+    "special_defence": 75,
+    "speed": 45
+  },
+  "baseStatTotal": 303,
+  "abilities": [
+    "icebody"
+  ],
+  "hiddenAbilities": [],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 3,
+  "eggCycles": 120,
+  "baseFriendship": 0,
+  "height": 35,
+  "weight": 9500,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 335,
+  "labels": [
+    "gen1",
+    "legendary",
+    "restricted"
+  ],
+  "aspects": [
+    "standard"
+  ],
+  "forms": [],
+  "pokedexDescription": null,
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "charm",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "mist",
+        "level": 1
+      },
+      {
+        "moveId": "gust",
+        "level": 5
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 5
+      },
+      {
+        "moveId": "peck",
+        "level": 12
+      },
+      {
+        "moveId": "icywind",
+        "level": 16
+      },
+      {
+        "moveId": "haze",
+        "level": 20
+      },
+      {
+        "moveId": "featherdance",
+        "level": 25
+      },
+      {
+        "moveId": "agility",
+        "level": 30
+      },
+      {
+        "moveId": "tailwind",
+        "level": 35
+      },
+      {
+        "moveId": "freezedry",
+        "level": 40
+      },
+      {
+        "moveId": "hail",
+        "level": 45
+      },
+      {
+        "moveId": "roost",
+        "level": 48
+      },
+      {
+        "moveId": "hurricane",
+        "level": 50
+      },
+      {
+        "moveId": "mindreader",
+        "level": 57
+      },
+      {
+        "moveId": "blizzard",
+        "level": 68
+      },
+      {
+        "moveId": "chillyreception",
+        "level": 100
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:articuno",
+      "targetSlug": "articuno",
+      "summary": "Usar ice_stone · Nv. 50 · (consume objeto sostenido)",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/articoo.png",
+    "placeholderColor": "#96D9D6"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "rare",
+      "level": "4-29",
+      "timeRange": null,
+      "sourceId": "baby-legends"
+    }
+  ],
+  "sourceMods": [
+    "baby-legends"
+  ],
+  "primarySource": "baby-legends",
+  "provenance": {
+    "nationalPokedexNumber": "baby-legends",
+    "name": "baby-legends",
+    "primaryType": "baby-legends",
+    "maleRatio": "baby-legends",
+    "height": "baby-legends",
+    "weight": "baby-legends",
+    "pokedex": "baby-legends",
+    "labels": "baby-legends",
+    "aspects": "baby-legends",
+    "abilities": "baby-legends",
+    "eggGroups": "baby-legends",
+    "baseStats": "baby-legends",
+    "evYield": "baby-legends",
+    "behaviour": "baby-legends",
+    "baseExperienceYield": "baby-legends",
+    "experienceGroup": "baby-legends",
+    "catchRate": "baby-legends",
+    "eggCycles": "baby-legends",
+    "baseFriendship": "baby-legends",
+    "baseScale": "baby-legends",
+    "hitbox": "baby-legends",
+    "drops": "baby-legends",
+    "moves": "baby-legends",
+    "evolutions": "baby-legends"
+  }
+}

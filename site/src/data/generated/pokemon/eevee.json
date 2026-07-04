@@ -1,0 +1,1125 @@
+{
+  "id": "cobblemon:eevee",
+  "namespace": "cobblemon",
+  "slug": "eevee",
+  "name": "Eevee",
+  "nationalPokedexNumber": 133,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 55,
+    "defence": 50,
+    "special_attack": 45,
+    "special_defence": 65,
+    "speed": 55
+  },
+  "baseStatTotal": 325,
+  "abilities": [
+    "adaptability",
+    "runaway"
+  ],
+  "hiddenAbilities": [
+    "normal-mastery"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 65,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 65,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Gmax",
+      "aspects": [
+        "gmax"
+      ],
+      "primaryType": "normal",
+      "secondaryType": null,
+      "types": [
+        "normal"
+      ],
+      "battleOnly": true,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "A Gigantamax phenomenon that makes this Pokémon distorts space to change its size while affecting the world around them while altering their appearance drastically.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "tailwhip",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "helpinghand",
+            "level": 1
+          },
+          {
+            "moveId": "growl",
+            "level": 1
+          },
+          {
+            "moveId": "covet",
+            "level": 1
+          },
+          {
+            "moveId": "sandattack",
+            "level": 5
+          },
+          {
+            "moveId": "quickattack",
+            "level": 10
+          },
+          {
+            "moveId": "babydolleyes",
+            "level": 15
+          },
+          {
+            "moveId": "refresh",
+            "level": 20
+          },
+          {
+            "moveId": "bite",
+            "level": 25
+          },
+          {
+            "moveId": "copycat",
+            "level": 30
+          },
+          {
+            "moveId": "batonpass",
+            "level": 35
+          },
+          {
+            "moveId": "takedown",
+            "level": 40
+          },
+          {
+            "moveId": "trumpcard",
+            "level": 45
+          },
+          {
+            "moveId": "doubleedge",
+            "level": 50
+          },
+          {
+            "moveId": "lastresort",
+            "level": 55
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "detect"
+          },
+          {
+            "moveId": "doublekick"
+          },
+          {
+            "moveId": "flail"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "synchronoise"
+          },
+          {
+            "moveId": "tickle"
+          },
+          {
+            "moveId": "wish"
+          },
+          {
+            "moveId": "yawn"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "alluringvoice"
+          },
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "charm"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "dig"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "echoedvoice"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "healbell"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "payday"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "roar"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "weatherball"
+          },
+          {
+            "moveId": "workup"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "healbell"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "swift"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "bide"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "mimic"
+          },
+          {
+            "moveId": "rage"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "skullbash"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": [
+          {
+            "moveId": "celebrate"
+          },
+          {
+            "moveId": "sing"
+          }
+        ]
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fighting",
+            "multiplier": 2
+          }
+        ],
+        "resists": [],
+        "immuneTo": [
+          "ghost"
+        ]
+      },
+      "evolutions": [],
+      "slug": "eevee-gmax"
+    }
+  ],
+  "pokedexDescription": "Eevee has an unstable genetic makeup that suddenly mutates due to the environment in which it lives. Radiation from various stones causes this Pokémon to evolve.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "covet",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 5
+      },
+      {
+        "moveId": "quickattack",
+        "level": 10
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 15
+      },
+      {
+        "moveId": "refresh",
+        "level": 20
+      },
+      {
+        "moveId": "bite",
+        "level": 25
+      },
+      {
+        "moveId": "copycat",
+        "level": 30
+      },
+      {
+        "moveId": "batonpass",
+        "level": 35
+      },
+      {
+        "moveId": "takedown",
+        "level": 40
+      },
+      {
+        "moveId": "trumpcard",
+        "level": 45
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 50
+      },
+      {
+        "moveId": "lastresort",
+        "level": 55
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "detect"
+      },
+      {
+        "moveId": "doublekick"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "synchronoise"
+      },
+      {
+        "moveId": "tickle"
+      },
+      {
+        "moveId": "wish"
+      },
+      {
+        "moveId": "yawn"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "payday"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "workup"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "celebrate"
+      },
+      {
+        "moveId": "sing"
+      }
+    ]
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:jolteon",
+      "targetSlug": "jolteon",
+      "summary": "Usar thunder_stone",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:vaporeon",
+      "targetSlug": "vaporeon",
+      "summary": "Usar water_stone",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:flareon",
+      "targetSlug": "flareon",
+      "summary": "Usar fire_stone",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:espeon",
+      "targetSlug": "espeon",
+      "summary": "Nivel · Amistad 160+ · De día",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:umbreon",
+      "targetSlug": "umbreon",
+      "summary": "Nivel · Amistad 160+ · De noche",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:sylveon",
+      "targetSlug": "sylveon",
+      "summary": "Nivel · Amistad 160+ · Conoce un movimiento de tipo fairy",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:leafeon",
+      "targetSlug": "leafeon",
+      "summary": "Usar leaf_stone",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:glaceon",
+      "targetSlug": "glaceon",
+      "summary": "Usar ice_stone",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:glideon",
+      "targetSlug": "glideon",
+      "summary": "Usar feather",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:sympheon",
+      "targetSlug": "sympheon",
+      "summary": "Usar note_block",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:prismeon_alatia",
+      "targetSlug": "prismeon-alatia",
+      "summary": "Usar shiny_stone",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:spectreonee",
+      "targetSlug": "spectreonee",
+      "summary": "Nivel · Amistad 160+ · Bioma: soul_sand_valley",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:wyveon",
+      "targetSlug": "wyveon",
+      "summary": "Nivel · Amistad 160+ · Dimensión: the_end",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:automeon",
+      "targetSlug": "automeon",
+      "summary": "Usar redstone_block · Sosteniendo: lever · (consume objeto sostenido)",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:acideon",
+      "targetSlug": "acideon",
+      "summary": "Nivel · party_member · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:champeon",
+      "targetSlug": "champeon",
+      "summary": "Nivel · Sosteniendo: focus_band · Nv. 36 · (consume objeto sostenido)",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:hiveon",
+      "targetSlug": "hiveon",
+      "summary": "Nivel · party_member · Sosteniendo: beehive · (consume objeto sostenido)",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:minereon",
+      "targetSlug": "minereon",
+      "summary": "Nivel · Bioma: dripstone_caves · Sosteniendo: iron_pickaxe · (consume objeto sostenido)",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:aereonee",
+      "targetSlug": "aereonee",
+      "summary": "Usar air_balloon · (consume objeto sostenido)",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:eeveeon",
+      "targetSlug": "eeveeon",
+      "summary": "Nivel · Conoce lastresort · Amistad 255+",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:dungeon",
+      "targetSlug": "dungeon",
+      "summary": "Nivel · Bioma: deep_dark · Sosteniendo: lantern · (consume objeto sostenido)",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:evereon",
+      "targetSlug": "evereon",
+      "summary": "Nivel · Derrotar a Vaporeon, Flareon, Jolteon (+15 más)",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:glaceon",
+      "targetSlug": "glaceon-kazeran",
+      "summary": "Usar ice_gem · Bioma: is_nether · variante kazeran",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:leafeon",
+      "targetSlug": "leafeon-kazeran",
+      "summary": "Usar dusk_stone · Bioma: has_structure/woodland_mansion · variante kazeran",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:sylveon",
+      "targetSlug": "sylveon-kazeran",
+      "summary": "Usar toxic_orb · Amistad 160+ · Conoce un movimiento de tipo fairy · (consume objeto sostenido) · variante kazeran",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:umbreon",
+      "targetSlug": "umbreon-kazeran",
+      "summary": "Usar sun_stone · De noche · Amistad 160+ · variante kazeran",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:espeon",
+      "targetSlug": "espeon-kazeran",
+      "summary": "Usar metal_coat · De día · Amistad 160+ · variante kazeran",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:vaporeon",
+      "targetSlug": "vaporeon-kazeran",
+      "summary": "Usar water_gem · Sosteniendo: fairy_feather · (consume objeto sostenido) · variante kazeran",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:flareon",
+      "targetSlug": "flareon-kazeran",
+      "summary": "Usar fire_gem · Sosteniendo: dragon_scale · (consume objeto sostenido) · variante kazeran",
+      "variant": "item_interact"
+    },
+    {
+      "targetKey": "cobblemon:jolteon",
+      "targetSlug": "jolteon-kazeran",
+      "summary": "Usar electric_gem · Bioma: has_structure/desert_pyramid · variante kazeran",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "rare",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "rare",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "5-33",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-afp",
+    "extra-eeveelutions",
+    "kazeran-eeveelutions",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "kazeran-eeveelutions",
+    "forms": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "features": "kazeran-eeveelutions"
+  }
+}

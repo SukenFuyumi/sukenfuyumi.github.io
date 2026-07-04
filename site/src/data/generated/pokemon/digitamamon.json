@@ -1,0 +1,169 @@
+{
+  "id": "cobblemon:digitamamon",
+  "namespace": "cobblemon",
+  "slug": "digitamamon",
+  "name": "Digitamamon",
+  "nationalPokedexNumber": 2115,
+  "primaryType": "normal",
+  "secondaryType": "ghost",
+  "types": [
+    "normal",
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 40,
+    "defence": 120,
+    "special_attack": 90,
+    "special_defence": 130,
+    "speed": 50
+  },
+  "baseStatTotal": 535,
+  "abilities": [
+    "shellarmor",
+    "cursedbody"
+  ],
+  "hiddenAbilities": [
+    "magicbounce"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.5,
+  "weight": 78.02,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A cursed egg Digimon whose shell cannot be cracked.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "shadowsneak",
+        "level": 44
+      },
+      {
+        "moveId": "curse",
+        "level": 47
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 50
+      },
+      {
+        "moveId": "calmmind",
+        "level": 54
+      },
+      {
+        "moveId": "shadowball",
+        "level": 57
+      },
+      {
+        "moveId": "psychic",
+        "level": 61
+      },
+      {
+        "moveId": "hypnosis",
+        "level": 66
+      },
+      {
+        "moveId": "softboiled",
+        "level": 70
+      },
+      {
+        "moveId": "trickroom",
+        "level": 75
+      },
+      {
+        "moveId": "nightmare",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "raremon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "ghost",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/digitamamon.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_deep_dark",
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

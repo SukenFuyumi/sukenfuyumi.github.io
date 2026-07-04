@@ -1,0 +1,1073 @@
+{
+  "id": "cobblemon:glalie",
+  "namespace": "cobblemon",
+  "slug": "glalie",
+  "name": "Glalie",
+  "nationalPokedexNumber": 362,
+  "primaryType": "ice",
+  "secondaryType": null,
+  "types": [
+    "ice"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 80,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 80
+  },
+  "baseStatTotal": 480,
+  "abilities": [
+    "innerfocus",
+    "snowforce"
+  ],
+  "hiddenAbilities": [
+    "moody"
+  ],
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "catchRate": 75,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 15,
+  "weight": 2565,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 168,
+  "labels": [
+    "gen3"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "primaryType": "ice",
+      "secondaryType": null,
+      "types": [
+        "ice"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 80,
+        "attack": 120,
+        "defence": 80,
+        "special_attack": 120,
+        "special_defence": 80,
+        "speed": 100
+      },
+      "baseStatTotal": 580,
+      "abilities": [
+        "refrigerate"
+      ],
+      "hiddenAbilities": [
+        "refrigerate"
+      ],
+      "pokedexDescription": "The excess energy from Mega Evolution spilled over from its mouth, breaking its jaw. It spews endless blizzards.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "powdersnow",
+            "level": 1
+          },
+          {
+            "moveId": "chillout",
+            "level": 1
+          },
+          {
+            "moveId": "leer",
+            "level": 1
+          },
+          {
+            "moveId": "doubleteam",
+            "level": 1
+          },
+          {
+            "moveId": "headbutt",
+            "level": 1
+          },
+          {
+            "moveId": "sheercold",
+            "level": 1
+          },
+          {
+            "moveId": "freezedry",
+            "level": 1
+          },
+          {
+            "moveId": "iceball",
+            "level": 1
+          },
+          {
+            "moveId": "astonish",
+            "level": 1
+          },
+          {
+            "moveId": "flashbang",
+            "level": 1
+          },
+          {
+            "moveId": "iceshard",
+            "level": 15
+          },
+          {
+            "moveId": "protect",
+            "level": 20
+          },
+          {
+            "moveId": "icywind",
+            "level": 25
+          },
+          {
+            "moveId": "frostbreath",
+            "level": 30
+          },
+          {
+            "moveId": "bite",
+            "level": 35
+          },
+          {
+            "moveId": "icefang",
+            "level": 40
+          },
+          {
+            "moveId": "snowscape",
+            "level": 47
+          },
+          {
+            "moveId": "weatherball",
+            "level": 54
+          },
+          {
+            "moveId": "crunch",
+            "level": 61
+          },
+          {
+            "moveId": "blizzard",
+            "level": 68
+          },
+          {
+            "moveId": "deepfreeze",
+            "level": 75
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "bide"
+          },
+          {
+            "moveId": "block"
+          },
+          {
+            "moveId": "disable"
+          },
+          {
+            "moveId": "iciclecrash"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "switcheroo"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "avalanche"
+          },
+          {
+            "moveId": "blizzard"
+          },
+          {
+            "moveId": "block"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "chillout"
+          },
+          {
+            "moveId": "chillingwater"
+          },
+          {
+            "moveId": "crunch"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "deepfreeze"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "earthquake"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "explosion"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "frostbreath"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gyroball"
+          },
+          {
+            "moveId": "hail"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hex"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "iceball"
+          },
+          {
+            "moveId": "icebeam"
+          },
+          {
+            "moveId": "icefang"
+          },
+          {
+            "moveId": "icespinner"
+          },
+          {
+            "moveId": "iciclespear"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "selfdestruct"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "snowscape"
+          },
+          {
+            "moveId": "spikes"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "steelroller"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "torment"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "weatherball"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "block"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "iceball"
+          },
+          {
+            "moveId": "icebeam"
+          },
+          {
+            "moveId": "icefang"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "spikes"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "steelroller"
+          },
+          {
+            "moveId": "waterpulse"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "defensecurl"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "mimic"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "superfang"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": [
+          {
+            "moveId": "sing"
+          }
+        ]
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fighting",
+            "multiplier": 2
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          },
+          {
+            "type": "steel",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "glalie-mega"
+    }
+  ],
+  "pokedexDescription": "Glalie has the ability to freely control ice. For example, it can instantly freeze its prey solid. After immobilizing its prey in ice, this Pokémon enjoys eating it in leisurely fashion.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "powdersnow",
+        "level": 1
+      },
+      {
+        "moveId": "chillout",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 1
+      },
+      {
+        "moveId": "headbutt",
+        "level": 1
+      },
+      {
+        "moveId": "sheercold",
+        "level": 1
+      },
+      {
+        "moveId": "freezedry",
+        "level": 1
+      },
+      {
+        "moveId": "iceball",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "flashbang",
+        "level": 1
+      },
+      {
+        "moveId": "iceshard",
+        "level": 15
+      },
+      {
+        "moveId": "protect",
+        "level": 20
+      },
+      {
+        "moveId": "icywind",
+        "level": 25
+      },
+      {
+        "moveId": "frostbreath",
+        "level": 30
+      },
+      {
+        "moveId": "bite",
+        "level": 35
+      },
+      {
+        "moveId": "icefang",
+        "level": 40
+      },
+      {
+        "moveId": "snowscape",
+        "level": 47
+      },
+      {
+        "moveId": "weatherball",
+        "level": 54
+      },
+      {
+        "moveId": "crunch",
+        "level": 61
+      },
+      {
+        "moveId": "blizzard",
+        "level": 68
+      },
+      {
+        "moveId": "deepfreeze",
+        "level": 75
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "iciclecrash"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "switcheroo"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "avalanche"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "chillout"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "deepfreeze"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "frostbreath"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "iceball"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "icespinner"
+      },
+      {
+        "moveId": "iciclespear"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snowscape"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "weatherball"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "iceball"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "defensecurl"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "sing"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": "snorunt",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_glacial"
+      ],
+      "bucket": "uncommon",
+      "level": "42-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_snowy",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "uncommon",
+      "level": "42-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_frozen"
+      ],
+      "bucket": "uncommon",
+      "level": "42-48",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "42-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "42-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "42-48",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_glacial"
+      ],
+      "bucket": "uncommon",
+      "level": "42-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_snowy",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "uncommon",
+      "level": "42-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_frozen"
+      ],
+      "bucket": "uncommon",
+      "level": "42-48",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "mega-showdown",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "mega-showdown",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "standingEyeHeight": "cobblemon-core",
+    "flyingEyeHeight": "cobblemon-core",
+    "baseScale": "mega-showdown",
+    "hitbox": "mega-showdown",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core"
+  }
+}

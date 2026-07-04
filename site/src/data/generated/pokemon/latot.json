@@ -1,0 +1,293 @@
+{
+  "id": "cobblemon:latot",
+  "namespace": "cobblemon",
+  "slug": "latot",
+  "name": "Latot",
+  "nationalPokedexNumber": 6760,
+  "primaryType": "psychic",
+  "secondaryType": null,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 70,
+    "defence": 70,
+    "special_attack": 80,
+    "special_defence": 70,
+    "speed": 80
+  },
+  "baseStatTotal": 450,
+  "abilities": [
+    "levitate"
+  ],
+  "hiddenAbilities": [],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 20,
+  "eggCycles": 120,
+  "baseFriendship": 20,
+  "height": 40,
+  "weight": 1003,
+  "maleRatio": 0.5,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 270,
+  "labels": [
+    "custom",
+    "legendary"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It loves soaring around flower fields at top speed. Latot is known to form a strong bond with its trainer.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "charm",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 1
+      },
+      {
+        "moveId": "scaryface",
+        "level": 1
+      },
+      {
+        "moveId": "confusion",
+        "level": 5
+      },
+      {
+        "moveId": "gust",
+        "level": 5
+      },
+      {
+        "moveId": "psywave",
+        "level": 20
+      },
+      {
+        "moveId": "tailwind",
+        "level": 25
+      },
+      {
+        "moveId": "fly",
+        "level": 30
+      },
+      {
+        "moveId": "psyshock",
+        "level": 35
+      },
+      {
+        "moveId": "reflect",
+        "level": 45
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 45
+      },
+      {
+        "moveId": "calmmind",
+        "level": 50
+      },
+      {
+        "moveId": "moonblast",
+        "level": 100
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "breakingswipe"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychocut"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "whirlpool"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:latios",
+      "targetSlug": "latios",
+      "summary": "Nivel · Amistad 160+ · properties · (consume objeto sostenido)",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:latias",
+      "targetSlug": "latias",
+      "summary": "Nivel · Amistad 160+ · properties",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/latot.png",
+    "placeholderColor": "#F95587"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "rare",
+      "level": "25-32",
+      "timeRange": null,
+      "sourceId": "baby-legends"
+    }
+  ],
+  "sourceMods": [
+    "baby-legends"
+  ],
+  "primarySource": "baby-legends",
+  "provenance": {
+    "implemented": "baby-legends",
+    "name": "baby-legends",
+    "labels": "baby-legends",
+    "nationalPokedexNumber": "baby-legends",
+    "pokedex": "baby-legends",
+    "height": "baby-legends",
+    "weight": "baby-legends",
+    "primaryType": "baby-legends",
+    "baseStats": "baby-legends",
+    "catchRate": "baby-legends",
+    "maleRatio": "baby-legends",
+    "baseExperienceYield": "baby-legends",
+    "experienceGroup": "baby-legends",
+    "eggCycles": "baby-legends",
+    "eggGroups": "baby-legends",
+    "baseFriendship": "baby-legends",
+    "evYield": "baby-legends",
+    "moves": "baby-legends",
+    "abilities": "baby-legends",
+    "evolutions": "baby-legends",
+    "baseScale": "baby-legends",
+    "hitbox": "baby-legends",
+    "drops": "baby-legends",
+    "behaviour": "baby-legends"
+  }
+}

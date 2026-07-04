@@ -1,0 +1,417 @@
+{
+  "id": "cobblemon:lokix",
+  "namespace": "cobblemon",
+  "slug": "lokix",
+  "name": "Lokix",
+  "nationalPokedexNumber": 920,
+  "primaryType": "bug",
+  "secondaryType": "dark",
+  "types": [
+    "bug",
+    "dark"
+  ],
+  "baseStats": {
+    "hp": 71,
+    "attack": 102,
+    "defence": 78,
+    "special_attack": 52,
+    "special_defence": 55,
+    "speed": 92
+  },
+  "baseStatTotal": 450,
+  "abilities": [
+    "swarm",
+    "spikedheels"
+  ],
+  "hiddenAbilities": [
+    "tintedlens"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 30,
+  "eggCycles": 20,
+  "baseFriendship": 0,
+  "height": 10,
+  "weight": 175,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 158,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "showdownmode",
+        "level": 1
+      },
+      {
+        "moveId": "lunge",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "lowkick",
+        "level": 1
+      },
+      {
+        "moveId": "detect",
+        "level": 1
+      },
+      {
+        "moveId": "flyingkick",
+        "level": 1
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 4
+      },
+      {
+        "moveId": "astonish",
+        "level": 6
+      },
+      {
+        "moveId": "assurance",
+        "level": 9
+      },
+      {
+        "moveId": "doublekick",
+        "level": 11
+      },
+      {
+        "moveId": "screech",
+        "level": 14
+      },
+      {
+        "moveId": "endure",
+        "level": 18
+      },
+      {
+        "moveId": "bugbite",
+        "level": 22
+      },
+      {
+        "moveId": "feint",
+        "level": 28
+      },
+      {
+        "moveId": "agility",
+        "level": 32
+      },
+      {
+        "moveId": "obliquekick",
+        "level": 36
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 40
+      },
+      {
+        "moveId": "firstimpression",
+        "level": 44
+      },
+      {
+        "moveId": "bounce",
+        "level": 48
+      },
+      {
+        "moveId": "axekick",
+        "level": 53
+      },
+      {
+        "moveId": "dropkix",
+        "level": 53
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "skittersmack"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "flyingkick"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "lowsweep"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "obliquekick"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "nymble",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/920.png"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "baseScale": "lasers-additions",
+    "hitbox": "lasers-additions"
+  }
+}

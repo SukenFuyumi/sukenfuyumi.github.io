@@ -1,0 +1,207 @@
+{
+  "id": "cobblemon:stingmon",
+  "namespace": "cobblemon",
+  "slug": "stingmon",
+  "name": "Stingmon",
+  "nationalPokedexNumber": 2153,
+  "primaryType": "bug",
+  "secondaryType": "fighting",
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 90,
+    "defence": 30,
+    "special_attack": 50,
+    "special_defence": 68,
+    "speed": 102
+  },
+  "baseStatTotal": 400,
+  "abilities": [
+    "justified",
+    "technician"
+  ],
+  "hiddenAbilities": [
+    "tintedlens"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.11,
+  "weight": 58.06,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A swift lancer whose stinger pierces armor.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "twineedle",
+        "level": 25
+      },
+      {
+        "moveId": "pursuit",
+        "level": 27
+      },
+      {
+        "moveId": "quickattack",
+        "level": 29
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 31
+      },
+      {
+        "moveId": "rocksmash",
+        "level": 33
+      },
+      {
+        "moveId": "detect",
+        "level": 35
+      },
+      {
+        "moveId": "spikecannon",
+        "level": 37
+      },
+      {
+        "moveId": "fellstinger",
+        "level": 39
+      },
+      {
+        "moveId": "taunt",
+        "level": 41
+      },
+      {
+        "moveId": "drainpunch",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:paildramon",
+      "targetSlug": "paildramon",
+      "summary": "Nivel · Nv. 30 · party_member",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:dinobeemon",
+      "targetSlug": "dinobeemon",
+      "summary": "Nivel · Nv. 43 · party_member",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:okuwamon",
+      "targetSlug": "okuwamon",
+      "summary": "Nivel · Nv. 43",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "wormmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "flying",
+        "multiplier": 4
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/stingmon.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_dense"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "id": "cobblemon:hitmonlee",
+  "namespace": "cobblemon",
+  "slug": "hitmonlee",
+  "name": "Hitmonlee",
+  "nationalPokedexNumber": 106,
+  "primaryType": "fighting",
+  "secondaryType": null,
+  "types": [
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 120,
+    "defence": 53,
+    "special_attack": 35,
+    "special_defence": 110,
+    "speed": 87
+  },
+  "baseStatTotal": 455,
+  "abilities": [
+    "limber",
+    "striker"
+  ],
+  "hiddenAbilities": [
+    "unburden"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "catchRate": 45,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 15,
+  "weight": 498,
+  "maleRatio": 1,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 159,
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Hitmonlee's legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "revenge",
+        "level": 1
+      },
+      {
+        "moveId": "meditate",
+        "level": 1
+      },
+      {
+        "moveId": "rollingkick",
+        "level": 1
+      },
+      {
+        "moveId": "jumpkick",
+        "level": 1
+      },
+      {
+        "moveId": "brickbreak",
+        "level": 1
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 1
+      },
+      {
+        "moveId": "mindreader",
+        "level": 1
+      },
+      {
+        "moveId": "foresight",
+        "level": 1
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 1
+      },
+      {
+        "moveId": "lowsweep",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "fakeout",
+        "level": 1
+      },
+      {
+        "moveId": "doublekick",
+        "level": 4
+      },
+      {
+        "moveId": "lowkick",
+        "level": 8
+      },
+      {
+        "moveId": "endure",
+        "level": 12
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 16
+      },
+      {
+        "moveId": "wideguard",
+        "level": 21
+      },
+      {
+        "moveId": "blazekick",
+        "level": 24
+      },
+      {
+        "moveId": "feint",
+        "level": 28
+      },
+      {
+        "moveId": "flyingkick",
+        "level": 30
+      },
+      {
+        "moveId": "megakick",
+        "level": 32
+      },
+      {
+        "moveId": "closecombat",
+        "level": 36
+      },
+      {
+        "moveId": "reversal",
+        "level": 40
+      },
+      {
+        "moveId": "highjumpkick",
+        "level": 44
+      },
+      {
+        "moveId": "axekick",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "bulletpunch"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "feint"
+      },
+      {
+        "moveId": "highjumpkick"
+      },
+      {
+        "moveId": "machpunch"
+      },
+      {
+        "moveId": "mindreader"
+      },
+      {
+        "moveId": "pursuit"
+      },
+      {
+        "moveId": "rapidspin"
+      },
+      {
+        "moveId": "vacuumwave"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aurasphere"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "blazekick"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "coaching"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "flyingkick"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "lowsweep"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "metronome"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "obliquekick"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "rockclimb"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "upperhand"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "vacuumwave"
+      },
+      {
+        "moveId": "workup"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "coaching"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "vacuumwave"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "detect"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "dynamicpunch"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "seismictoss"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "submission"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "refresh"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": "tyrogue",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_hills"
+      ],
+      "bucket": "uncommon",
+      "level": "20-46",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "20-46",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_hills"
+      ],
+      "bucket": "uncommon",
+      "level": "20-46",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

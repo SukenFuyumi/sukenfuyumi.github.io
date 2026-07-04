@@ -1,0 +1,10 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import AbilityTable from "../../components/AbilityTable.tsx";
+import abilities from "../../data/generated/abilities.json";
+---
+<Layout title="Habilidades">
+  <h1>Habilidades ({abilities.length})</h1>
+  <p>Incluye las habilidades ya modificadas por los mods de balance del servidor y las inmunidades de tipo que otorgan (marcadas como "inmune a...").</p>
+  <AbilityTable client:load />
+</Layout>

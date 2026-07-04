@@ -1,0 +1,175 @@
+{
+  "id": "cobblemon:brachimon",
+  "namespace": "cobblemon",
+  "slug": "brachimon",
+  "name": "Brachimon",
+  "nationalPokedexNumber": 2131,
+  "primaryType": "water",
+  "secondaryType": null,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 95,
+    "defence": 90,
+    "special_attack": 95,
+    "special_defence": 90,
+    "speed": 65
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "dryskin",
+    "swiftswim"
+  ],
+  "hiddenAbilities": [
+    "stormdrain"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 3.84,
+  "weight": 225,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A colossal long-necked Digimon with rocky armor.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bubblebeam",
+        "level": 44
+      },
+      {
+        "moveId": "avalanche",
+        "level": 47
+      },
+      {
+        "moveId": "raindance",
+        "level": 50
+      },
+      {
+        "moveId": "chillingwater",
+        "level": 54
+      },
+      {
+        "moveId": "freezedry",
+        "level": 57
+      },
+      {
+        "moveId": "stompingtantrum",
+        "level": 61
+      },
+      {
+        "moveId": "aquaring",
+        "level": 66
+      },
+      {
+        "moveId": "dragonhammer",
+        "level": 70
+      },
+      {
+        "moveId": "surf",
+        "level": 75
+      },
+      {
+        "moveId": "wavecrash",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "tuskmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/brachimon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "alexscaves:primordial_caves",
+        "#cobblemon:is_thermal",
+        "#cobblemon:is_freshwater"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

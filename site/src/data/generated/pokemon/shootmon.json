@@ -1,0 +1,183 @@
+{
+  "id": "cobblemon:shootmon",
+  "namespace": "cobblemon",
+  "slug": "shootmon",
+  "name": "Shootmon",
+  "nationalPokedexNumber": 2094,
+  "primaryType": "fighting",
+  "secondaryType": "electric",
+  "types": [
+    "fighting",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 73,
+    "defence": 87,
+    "special_attack": 102,
+    "special_defence": 58,
+    "speed": 90
+  },
+  "baseStatTotal": 505,
+  "abilities": [
+    "ballfetch",
+    "unburden"
+  ],
+  "hiddenAbilities": [
+    "sniper"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.6,
+  "weight": 105,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "An Ultimate Digimon specializing in ranged and close combat.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bounce",
+        "level": 44
+      },
+      {
+        "moveId": "vacuumwave",
+        "level": 47
+      },
+      {
+        "moveId": "charge",
+        "level": 50
+      },
+      {
+        "moveId": "voltswitch",
+        "level": 54
+      },
+      {
+        "moveId": "tarshot",
+        "level": 57
+      },
+      {
+        "moveId": "weatherball",
+        "level": 61
+      },
+      {
+        "moveId": "aurasphere",
+        "level": 66
+      },
+      {
+        "moveId": "searingshot",
+        "level": 70
+      },
+      {
+        "moveId": "agility",
+        "level": 75
+      },
+      {
+        "moveId": "thunderbolt",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "revolmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/shootmon.png",
+    "placeholderColor": "#C22E28"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

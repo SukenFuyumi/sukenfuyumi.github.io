@@ -1,0 +1,637 @@
+{
+  "id": "cobblemon:beaquin",
+  "namespace": "cobblemon",
+  "slug": "beaquin",
+  "name": "Beaquin",
+  "nationalPokedexNumber": 1217,
+  "primaryType": "bug",
+  "secondaryType": "psychic",
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 80,
+    "defence": 100,
+    "special_attack": 100,
+    "special_defence": 80,
+    "speed": 100
+  },
+  "baseStatTotal": 550,
+  "abilities": [
+    "tintedlens",
+    "illuminate"
+  ],
+  "hiddenAbilities": [
+    "telepathy"
+  ],
+  "eggGroups": [
+    "bug",
+    "mineral"
+  ],
+  "catchRate": 50,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 13,
+  "weight": 93,
+  "maleRatio": 0,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 180,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "She commands the entire hive with the light signals from her glowing abdomen, and the swarm do all in their power to protect and sustain her.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "attackorder",
+        "level": 0
+      },
+      {
+        "moveId": "defendorder",
+        "level": 0
+      },
+      {
+        "moveId": "flash",
+        "level": 0
+      },
+      {
+        "moveId": "thundershock",
+        "level": 0
+      },
+      {
+        "moveId": "infestation",
+        "level": 0
+      },
+      {
+        "moveId": "confusion",
+        "level": 0
+      },
+      {
+        "moveId": "spotlight",
+        "level": 0
+      },
+      {
+        "moveId": "poisonjab",
+        "level": 0
+      },
+      {
+        "moveId": "irondefense",
+        "level": 0
+      },
+      {
+        "moveId": "agility",
+        "level": 0
+      },
+      {
+        "moveId": "reflect",
+        "level": 5
+      },
+      {
+        "moveId": "discharge",
+        "level": 20
+      },
+      {
+        "moveId": "tailglow",
+        "level": 25
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 35
+      },
+      {
+        "moveId": "recycle",
+        "level": 40
+      },
+      {
+        "moveId": "iondeluge",
+        "level": 45
+      },
+      {
+        "moveId": "luminacrash",
+        "level": 50
+      },
+      {
+        "moveId": "electroball",
+        "level": 55
+      },
+      {
+        "moveId": "instruct",
+        "level": 60
+      },
+      {
+        "moveId": "psychic",
+        "level": 65
+      },
+      {
+        "moveId": "megahorn",
+        "level": 70
+      },
+      {
+        "moveId": "psychicnoise",
+        "level": 100
+      },
+      {
+        "moveId": "headbutt",
+        "level": 100
+      },
+      {
+        "moveId": "bugbuzz",
+        "level": 100
+      },
+      {
+        "moveId": "facade",
+        "level": 100
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 100
+      },
+      {
+        "moveId": "flash",
+        "level": 100
+      },
+      {
+        "moveId": "protect",
+        "level": 100
+      },
+      {
+        "moveId": "substitute",
+        "level": 100
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 100
+      },
+      {
+        "moveId": "sunnyday",
+        "level": 100
+      },
+      {
+        "moveId": "psybeam",
+        "level": 100
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 100
+      },
+      {
+        "moveId": "endure",
+        "level": 100
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 100
+      },
+      {
+        "moveId": "poisonjab",
+        "level": 100
+      },
+      {
+        "moveId": "infestation",
+        "level": 100
+      },
+      {
+        "moveId": "sleeptalk",
+        "level": 100
+      },
+      {
+        "moveId": "reflect",
+        "level": 100
+      },
+      {
+        "moveId": "pinmissile",
+        "level": 100
+      },
+      {
+        "moveId": "confuseray",
+        "level": 100
+      },
+      {
+        "moveId": "gearup",
+        "level": 100
+      },
+      {
+        "moveId": "trick",
+        "level": 100
+      },
+      {
+        "moveId": "trickroom",
+        "level": 100
+      },
+      {
+        "moveId": "amnesia",
+        "level": 100
+      },
+      {
+        "moveId": "batonpass",
+        "level": 100
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 100
+      },
+      {
+        "moveId": "flashcannon",
+        "level": 100
+      },
+      {
+        "moveId": "swift",
+        "level": 100
+      },
+      {
+        "moveId": "beatup",
+        "level": 100
+      },
+      {
+        "moveId": "incinerate",
+        "level": 100
+      },
+      {
+        "moveId": "heatwave",
+        "level": 100
+      },
+      {
+        "moveId": "psychic",
+        "level": 100
+      },
+      {
+        "moveId": "solarbeam",
+        "level": 100
+      },
+      {
+        "moveId": "thunderbolt",
+        "level": 100
+      },
+      {
+        "moveId": "zapcannon",
+        "level": 100
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 100
+      },
+      {
+        "moveId": "thunder",
+        "level": 100
+      },
+      {
+        "moveId": "coaching",
+        "level": 100
+      },
+      {
+        "moveId": "toxic",
+        "level": 100
+      },
+      {
+        "moveId": "focusblast",
+        "level": 100
+      },
+      {
+        "moveId": "defog",
+        "level": 100
+      },
+      {
+        "moveId": "acrobatics",
+        "level": 100
+      },
+      {
+        "moveId": "megahorn",
+        "level": 100
+      },
+      {
+        "moveId": "workup",
+        "level": 100
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 100
+      },
+      {
+        "moveId": "energyball",
+        "level": 100
+      },
+      {
+        "moveId": "charge",
+        "level": 100
+      },
+      {
+        "moveId": "voltswitch",
+        "level": 100
+      },
+      {
+        "moveId": "eerieimpulse",
+        "level": 100
+      },
+      {
+        "moveId": "supercellslam",
+        "level": 100
+      },
+      {
+        "moveId": "psychicterrain",
+        "level": 100
+      },
+      {
+        "moveId": "expandingforce",
+        "level": 100
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "electricterrain"
+      },
+      {
+        "moveId": "electroshot"
+      },
+      {
+        "moveId": "twineedle"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "beatup"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "coaching"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "eerieimpulse"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "gearup"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "megahorn"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "pinmissile"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "psychicterrain"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "supercellslam"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "voltswitch"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "zapcannon"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "glownet-yellow-light",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/beaquin.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "45-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_temperate"
+      ],
+      "bucket": "common",
+      "level": "45-50",
+      "timeRange": "day",
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#the_bumblezone:the_bumblezone"
+      ],
+      "bucket": "common",
+      "level": "45-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "preEvolution": "cobblemon-afp"
+  }
+}

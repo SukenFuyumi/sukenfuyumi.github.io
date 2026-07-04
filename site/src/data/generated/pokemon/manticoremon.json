@@ -1,0 +1,191 @@
+{
+  "id": "cobblemon:manticoremon",
+  "namespace": "cobblemon",
+  "slug": "manticoremon",
+  "name": "Manticoremon",
+  "nationalPokedexNumber": 2160,
+  "primaryType": "fairy",
+  "secondaryType": "poison",
+  "types": [
+    "fairy",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 83,
+    "attack": 123,
+    "defence": 57,
+    "special_attack": 86,
+    "special_defence": 65,
+    "speed": 96
+  },
+  "baseStatTotal": 510,
+  "abilities": [
+    "intimidate",
+    "moxie"
+  ],
+  "hiddenAbilities": [
+    "infiltrator"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.21,
+  "weight": 82.55,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A leonine fiend with venomous tail and wings.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "fairywind",
+        "level": 44
+      },
+      {
+        "moveId": "scaryface",
+        "level": 47
+      },
+      {
+        "moveId": "poisontail",
+        "level": 50
+      },
+      {
+        "moveId": "fairylock",
+        "level": 54
+      },
+      {
+        "moveId": "venoshock",
+        "level": 57
+      },
+      {
+        "moveId": "venomdrench",
+        "level": 61
+      },
+      {
+        "moveId": "toxic",
+        "level": 66
+      },
+      {
+        "moveId": "poisonjab",
+        "level": 70
+      },
+      {
+        "moveId": "playrough",
+        "level": 75
+      },
+      {
+        "moveId": "toxicspikes",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "unimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/manticoremon.png",
+    "placeholderColor": "#D685AD"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_end",
+        "#cobblemon:is_nether",
+        "#cobblemon:is_spooky",
+        "#cobblemon:is_magical",
+        "#cobblemon:nether/is_fungus"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

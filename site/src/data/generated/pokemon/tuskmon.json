@@ -1,0 +1,203 @@
+{
+  "id": "cobblemon:tuskmon",
+  "namespace": "cobblemon",
+  "slug": "tuskmon",
+  "name": "Tuskmon",
+  "nationalPokedexNumber": 2130,
+  "primaryType": "fighting",
+  "secondaryType": "ground",
+  "types": [
+    "fighting",
+    "ground"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 85,
+    "defence": 80,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 90
+  },
+  "baseStatTotal": 400,
+  "abilities": [
+    "sandrush",
+    "rockhead"
+  ],
+  "hiddenAbilities": [
+    "reckless"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.6,
+  "weight": 88,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A saurian covered in deadly spikes and massive tusks.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 25
+      },
+      {
+        "moveId": "rocksmash",
+        "level": 27
+      },
+      {
+        "moveId": "scaryface",
+        "level": 29
+      },
+      {
+        "moveId": "hornattack",
+        "level": 31
+      },
+      {
+        "moveId": "vacuumwave",
+        "level": 33
+      },
+      {
+        "moveId": "workup",
+        "level": 35
+      },
+      {
+        "moveId": "dragontail",
+        "level": 37
+      },
+      {
+        "moveId": "brickbreak",
+        "level": 39
+      },
+      {
+        "moveId": "takedown",
+        "level": 41
+      },
+      {
+        "moveId": "submission",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:brachimon",
+      "targetSlug": "brachimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: water_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "agumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "rock",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/tuskmon.png",
+    "placeholderColor": "#C22E28"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_plains",
+        "#cobblemon:is_hills",
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

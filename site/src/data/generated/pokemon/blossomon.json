@@ -1,0 +1,198 @@
+{
+  "id": "cobblemon:blossomon",
+  "namespace": "cobblemon",
+  "slug": "blossomon",
+  "name": "Blossomon",
+  "nationalPokedexNumber": 2190,
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 90,
+    "defence": 75,
+    "special_attack": 100,
+    "special_defence": 110,
+    "speed": 45
+  },
+  "baseStatTotal": 510,
+  "abilities": [
+    "chlorophyll",
+    "effectspore"
+  ],
+  "hiddenAbilities": [
+    "harvest"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.62,
+  "weight": 88,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A monstrous bloom that lures with perfume.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "leechseed",
+        "level": 44
+      },
+      {
+        "moveId": "vinewhip",
+        "level": 47
+      },
+      {
+        "moveId": "poisonpowder",
+        "level": 50
+      },
+      {
+        "moveId": "venomdrench",
+        "level": 54
+      },
+      {
+        "moveId": "stunspore",
+        "level": 57
+      },
+      {
+        "moveId": "sludgewave",
+        "level": 61
+      },
+      {
+        "moveId": "sleeppowder",
+        "level": 66
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 70
+      },
+      {
+        "moveId": "toxic",
+        "level": 75
+      },
+      {
+        "moveId": "petaldance",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "togemon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/blossomon.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

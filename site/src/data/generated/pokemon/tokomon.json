@@ -1,0 +1,160 @@
+{
+  "id": "cobblemon:tokomon",
+  "namespace": "cobblemon",
+  "slug": "tokomon",
+  "name": "Tokomon",
+  "nationalPokedexNumber": 2023,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 45,
+    "defence": 35,
+    "special_attack": 30,
+    "special_defence": 30,
+    "speed": 30
+  },
+  "baseStatTotal": 200,
+  "abilities": [
+    "strongjaw",
+    "strongjaw"
+  ],
+  "hiddenAbilities": [
+    "friendguard"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 150,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.3,
+  "weight": 4.54,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 40,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A tiny Digimon with limb-like protrusions growing beneath its body (head?).",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 5
+      },
+      {
+        "moveId": "growl",
+        "level": 7
+      },
+      {
+        "moveId": "astonish",
+        "level": 9
+      },
+      {
+        "moveId": "bubble",
+        "level": 10
+      },
+      {
+        "moveId": "bite",
+        "level": 11
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:patamon",
+      "targetSlug": "patamon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:kunemon",
+      "targetSlug": "kunemon",
+      "summary": "Nivel · Nv. 12 · De noche",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:bakumon",
+      "targetSlug": "bakumon",
+      "summary": "Nivel · Nv. 12 · attack_defence_ratio",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:guilmon",
+      "targetSlug": "guilmon",
+      "summary": "Nivel · Nv. 13",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "poyomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/tokomon.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_magical"
+      ],
+      "bucket": "rare",
+      "level": "4-15",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "id": "cobblemon:airdramon",
+  "namespace": "cobblemon",
+  "slug": "airdramon",
+  "name": "Airdramon",
+  "nationalPokedexNumber": 2168,
+  "primaryType": "dragon",
+  "secondaryType": "flying",
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 40,
+    "defence": 70,
+    "special_attack": 80,
+    "special_defence": 85,
+    "speed": 60
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "intimidate",
+    "battlearmor"
+  ],
+  "hiddenAbilities": [
+    "pressure"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.59,
+  "weight": 69.4,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A sky serpent that rides jet streams.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "twister",
+        "level": 25
+      },
+      {
+        "moveId": "swift",
+        "level": 27
+      },
+      {
+        "moveId": "aircutter",
+        "level": 29
+      },
+      {
+        "moveId": "firespin",
+        "level": 31
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 33
+      },
+      {
+        "moveId": "electroball",
+        "level": 35
+      },
+      {
+        "moveId": "wingattack",
+        "level": 37
+      },
+      {
+        "moveId": "nobleroar",
+        "level": 39
+      },
+      {
+        "moveId": "dragontail",
+        "level": 41
+      },
+      {
+        "moveId": "coil",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:mametyramon",
+      "targetSlug": "mametyramon",
+      "summary": "Nivel · Nv. 54",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:megadramon",
+      "targetSlug": "megadramon",
+      "summary": "Usar dragon_scale",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": "betamon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/airdramon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

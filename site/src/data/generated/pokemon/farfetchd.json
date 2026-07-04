@@ -1,0 +1,994 @@
+{
+  "id": "cobblemon:farfetchd",
+  "namespace": "cobblemon",
+  "slug": "farfetchd",
+  "name": "Farfetch’d",
+  "nationalPokedexNumber": 83,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 90,
+    "defence": 55,
+    "special_attack": 58,
+    "special_defence": 62,
+    "speed": 60
+  },
+  "baseStatTotal": 377,
+  "abilities": [
+    "keeneye",
+    "innerfocus"
+  ],
+  "hiddenAbilities": [
+    "defiant"
+  ],
+  "eggGroups": [
+    "flying",
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 8,
+  "weight": 150,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 132,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Galar",
+      "aspects": [
+        "galarian"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": null,
+      "types": [
+        "fighting"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 52,
+        "attack": 95,
+        "defence": 55,
+        "special_attack": 58,
+        "special_defence": 62,
+        "speed": 55
+      },
+      "baseStatTotal": 377,
+      "abilities": [
+        "steadfast",
+        "bigpecks"
+      ],
+      "hiddenAbilities": [
+        "scrappy"
+      ],
+      "pokedexDescription": "The stalks of leeks are thicker and longer in the Galar region. Farfetch'd that adapted to these stalks took on a unique form.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "peck",
+            "level": 1
+          },
+          {
+            "moveId": "sandattack",
+            "level": 1
+          },
+          {
+            "moveId": "leer",
+            "level": 5
+          },
+          {
+            "moveId": "furycutter",
+            "level": 10
+          },
+          {
+            "moveId": "rocksmash",
+            "level": 15
+          },
+          {
+            "moveId": "brutalswing",
+            "level": 20
+          },
+          {
+            "moveId": "detect",
+            "level": 25
+          },
+          {
+            "moveId": "knockoff",
+            "level": 30
+          },
+          {
+            "moveId": "defog",
+            "level": 35
+          },
+          {
+            "moveId": "brickbreak",
+            "level": 40
+          },
+          {
+            "moveId": "swordsdance",
+            "level": 45
+          },
+          {
+            "moveId": "slam",
+            "level": 50
+          },
+          {
+            "moveId": "leafblade",
+            "level": 55
+          },
+          {
+            "moveId": "finalgambit",
+            "level": 60
+          },
+          {
+            "moveId": "bravebird",
+            "level": 65
+          },
+          {
+            "moveId": "nosedive",
+            "level": 70
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "counter"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "feint"
+          },
+          {
+            "moveId": "flail"
+          },
+          {
+            "moveId": "nightslash"
+          },
+          {
+            "moveId": "quickattack"
+          },
+          {
+            "moveId": "quickguard"
+          },
+          {
+            "moveId": "simplebeam"
+          },
+          {
+            "moveId": "skyattack"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "bravebird"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "closecombat"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "furycutter"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "leafblade"
+          },
+          {
+            "moveId": "nosedive"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "revenge"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "skyattack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarblade"
+          },
+          {
+            "moveId": "steelcutter"
+          },
+          {
+            "moveId": "steelwing"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "terrainblade"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "workup"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "furycutter"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "skyattack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "throatchop"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "snore"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:sirfetchd",
+          "targetSlug": "sirfetchd",
+          "summary": "Nivel · battle_critical_hits",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "farfetchd-galar"
+    }
+  ],
+  "pokedexDescription": "Farfetch'd is always seen with a stalk from a plant of some sort. Apparently, there are good stalks and bad stalks. This Pokémon has been known to fight with others over stalks.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "peck",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 1
+      },
+      {
+        "moveId": "furyattack",
+        "level": 1
+      },
+      {
+        "moveId": "nightslash",
+        "level": 1
+      },
+      {
+        "moveId": "feint",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 5
+      },
+      {
+        "moveId": "furycutter",
+        "level": 10
+      },
+      {
+        "moveId": "cut",
+        "level": 15
+      },
+      {
+        "moveId": "aerialace",
+        "level": 20
+      },
+      {
+        "moveId": "aircutter",
+        "level": 25
+      },
+      {
+        "moveId": "knockoff",
+        "level": 30
+      },
+      {
+        "moveId": "falseswipe",
+        "level": 35
+      },
+      {
+        "moveId": "slash",
+        "level": 40
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 45
+      },
+      {
+        "moveId": "airslash",
+        "level": 50
+      },
+      {
+        "moveId": "leafblade",
+        "level": 55
+      },
+      {
+        "moveId": "agility",
+        "level": 60
+      },
+      {
+        "moveId": "bravebird",
+        "level": 65
+      },
+      {
+        "moveId": "nosedive",
+        "level": 70
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "feint"
+      },
+      {
+        "moveId": "finalgambit"
+      },
+      {
+        "moveId": "firstimpression"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "foresight"
+      },
+      {
+        "moveId": "gust"
+      },
+      {
+        "moveId": "mirrormove"
+      },
+      {
+        "moveId": "nightslash"
+      },
+      {
+        "moveId": "papercut"
+      },
+      {
+        "moveId": "quickattack"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "simplebeam"
+      },
+      {
+        "moveId": "skyattack"
+      },
+      {
+        "moveId": "trumpcard"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bravebird"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "leafblade"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "pluck"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "skyattack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarblade"
+      },
+      {
+        "moveId": "steelcutter"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "terrainblade"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "workup"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "skyattack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "detect"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "razorleaf"
+      },
+      {
+        "moveId": "razorwind"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "whirlwind"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "wish"
+      },
+      {
+        "moveId": "yawn"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost",
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "13-38",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "rare",
+      "level": "13-38",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "13-38",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "13-38",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "13-38",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "rare",
+      "level": "13-38",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "features": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "lasers-additions"
+  }
+}

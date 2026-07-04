@@ -1,0 +1,322 @@
+{
+  "id": "cobblemon:snoddle",
+  "namespace": "cobblemon",
+  "slug": "snoddle",
+  "name": "Snoddle",
+  "nationalPokedexNumber": 1243,
+  "primaryType": "bug",
+  "secondaryType": "ice",
+  "types": [
+    "bug",
+    "ice"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 85,
+    "defence": 55,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 65
+  },
+  "baseStatTotal": 325,
+  "abilities": [
+    "icebody",
+    "slushrush"
+  ],
+  "hiddenAbilities": [
+    "defiant"
+  ],
+  "eggGroups": [
+    "bug",
+    "mineral"
+  ],
+  "catchRate": 100,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 405,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 65,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Despite the similarities with Dwebble, it's actually a different species with a very aggressive attitude due to the hostile habitat in which it lives.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "iceball",
+        "level": 0
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 0
+      },
+      {
+        "moveId": "rapidspin",
+        "level": 0
+      },
+      {
+        "moveId": "rollout",
+        "level": 5
+      },
+      {
+        "moveId": "smackdown",
+        "level": 8
+      },
+      {
+        "moveId": "bugbite",
+        "level": 12
+      },
+      {
+        "moveId": "steamroller",
+        "level": 16
+      },
+      {
+        "moveId": "iceshard",
+        "level": 20
+      },
+      {
+        "moveId": "mefirst",
+        "level": 22
+      },
+      {
+        "moveId": "curse",
+        "level": 24
+      },
+      {
+        "moveId": "autotomize",
+        "level": 28
+      },
+      {
+        "moveId": "rockblast",
+        "level": 32
+      },
+      {
+        "moveId": "xscissor",
+        "level": 36
+      },
+      {
+        "moveId": "icespinner",
+        "level": 40
+      },
+      {
+        "moveId": "uturn",
+        "level": 44
+      },
+      {
+        "moveId": "blizzard",
+        "level": 48
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "headsmash"
+      },
+      {
+        "moveId": "shiftgear"
+      },
+      {
+        "moveId": "spinout"
+      },
+      {
+        "moveId": "wideguard"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "heavyslam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icespinner"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rapidspin"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rockthrow"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smartstrike"
+      },
+      {
+        "moveId": "snowscape"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "tripleaxel"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:icicranid",
+      "targetSlug": "icicranid",
+      "summary": "Nivel · blocks_traveled · Bioma: is_freezing",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 4
+      },
+      {
+        "type": "rock",
+        "multiplier": 4
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/snoddle.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#c:snowy",
+        "minecraft:frozen_peaks",
+        "#cobblemon:is_freezing"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

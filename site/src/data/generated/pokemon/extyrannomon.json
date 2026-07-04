@@ -1,0 +1,179 @@
+{
+  "id": "cobblemon:extyrannomon",
+  "namespace": "cobblemon",
+  "slug": "extyrannomon",
+  "name": "Extyrannomon",
+  "nationalPokedexNumber": 2129,
+  "primaryType": "ghost",
+  "secondaryType": "fairy",
+  "types": [
+    "ghost",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 60,
+    "defence": 110,
+    "special_attack": 85,
+    "special_defence": 100,
+    "speed": 60
+  },
+  "baseStatTotal": 515,
+  "abilities": [
+    "marvelscale",
+    "fluffy"
+  ],
+  "hiddenAbilities": [
+    "disguise"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.51,
+  "weight": 43,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A reinforced dragon Digimon clad in metallic plates.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "disarmingvoice",
+        "level": 44
+      },
+      {
+        "moveId": "followme",
+        "level": 47
+      },
+      {
+        "moveId": "hex",
+        "level": 50
+      },
+      {
+        "moveId": "willowisp",
+        "level": 54
+      },
+      {
+        "moveId": "spikes",
+        "level": 57
+      },
+      {
+        "moveId": "substitute",
+        "level": 61
+      },
+      {
+        "moveId": "shadowball",
+        "level": 66
+      },
+      {
+        "moveId": "darkpulse",
+        "level": 70
+      },
+      {
+        "moveId": "lifedew",
+        "level": 75
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "raremon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      }
+    ],
+    "immuneTo": [
+      "dragon",
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/extyrannomon.png",
+    "placeholderColor": "#735797"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:candy_cavity",
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "secondaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

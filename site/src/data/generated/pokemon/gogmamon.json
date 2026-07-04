@@ -1,0 +1,210 @@
+{
+  "id": "cobblemon:gogmamon",
+  "namespace": "cobblemon",
+  "slug": "gogmamon",
+  "name": "Gogmamon",
+  "nationalPokedexNumber": 2081,
+  "primaryType": "rock",
+  "secondaryType": "ground",
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 95,
+    "defence": 124,
+    "special_attack": 86,
+    "special_defence": 102,
+    "speed": 23
+  },
+  "baseStatTotal": 505,
+  "abilities": [
+    "sandforce",
+    "guts"
+  ],
+  "hiddenAbilities": [
+    "solidrock"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.62,
+  "weight": 216.4,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A drill-armed mineral Digimon that carves tunnels out of bedrock.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "rocktomb",
+        "level": 44
+      },
+      {
+        "moveId": "sharpen",
+        "level": 47
+      },
+      {
+        "moveId": "wideguard",
+        "level": 50
+      },
+      {
+        "moveId": "magnitude",
+        "level": 54
+      },
+      {
+        "moveId": "rototiller",
+        "level": 57
+      },
+      {
+        "moveId": "powergem",
+        "level": 61
+      },
+      {
+        "moveId": "rockpolish",
+        "level": 66
+      },
+      {
+        "moveId": "earthquake",
+        "level": 70
+      },
+      {
+        "moveId": "stealthrock",
+        "level": 75
+      },
+      {
+        "moveId": "rockwrecker",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "wizarmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 4
+      },
+      {
+        "type": "water",
+        "multiplier": 4
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/gogmamon.png",
+    "placeholderColor": "#B6A136"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_cave"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_sandy",
+        "#cobblemon:is_nether_quartz",
+        "#cobblemon:is_thermal",
+        "#cobblemon:nether"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

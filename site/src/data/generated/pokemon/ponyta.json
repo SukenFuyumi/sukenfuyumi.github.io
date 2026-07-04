@@ -1,0 +1,841 @@
+{
+  "id": "cobblemon:ponyta",
+  "namespace": "cobblemon",
+  "slug": "ponyta",
+  "name": "Ponyta",
+  "nationalPokedexNumber": 77,
+  "primaryType": "fire",
+  "secondaryType": null,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 85,
+    "defence": 55,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 90
+  },
+  "baseStatTotal": 410,
+  "abilities": [
+    "runaway",
+    "flashfire"
+  ],
+  "hiddenAbilities": [
+    "flamebody"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 10,
+  "weight": 300,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 82,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Galar",
+      "aspects": [
+        "galarian"
+      ],
+      "primaryType": "psychic",
+      "secondaryType": null,
+      "types": [
+        "psychic"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": [
+        "mistrider",
+        "pastelveil"
+      ],
+      "hiddenAbilities": [
+        "anticipation"
+      ],
+      "pokedexDescription": "Its small horn hides a healing power. With a few rubs from this Pokémon's horn, any slight wound you have will be healed.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "growl",
+            "level": 1
+          },
+          {
+            "moveId": "tailwhip",
+            "level": 5
+          },
+          {
+            "moveId": "confusion",
+            "level": 10
+          },
+          {
+            "moveId": "fairywind",
+            "level": 15
+          },
+          {
+            "moveId": "agility",
+            "level": 20
+          },
+          {
+            "moveId": "psybeam",
+            "level": 25
+          },
+          {
+            "moveId": "stomp",
+            "level": 30
+          },
+          {
+            "moveId": "healpulse",
+            "level": 35
+          },
+          {
+            "moveId": "takedown",
+            "level": 41
+          },
+          {
+            "moveId": "dazzlinggleam",
+            "level": 45
+          },
+          {
+            "moveId": "psychic",
+            "level": 50
+          },
+          {
+            "moveId": "healingwish",
+            "level": 55
+          },
+          {
+            "moveId": "starshower",
+            "level": 60
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "doublekick"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "horndrill"
+          },
+          {
+            "moveId": "hypnosis"
+          },
+          {
+            "moveId": "morningsun"
+          },
+          {
+            "moveId": "thrash"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "bounce"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "charm"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "futuresight"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "imprison"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicsnap"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "starshower"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "wildcharge"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "bounce"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "wildcharge"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "snore"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 2
+          },
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "psychic",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:rapidash",
+          "targetSlug": "rapidash-galar",
+          "summary": "Nivel · Nv. 40 · variante galarian",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "ponyta-galar"
+    }
+  ],
+  "pokedexDescription": "Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "quickfire",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 5
+      },
+      {
+        "moveId": "ember",
+        "level": 10
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 15
+      },
+      {
+        "moveId": "agility",
+        "level": 20
+      },
+      {
+        "moveId": "flamewheel",
+        "level": 25
+      },
+      {
+        "moveId": "stomp",
+        "level": 30
+      },
+      {
+        "moveId": "firespin",
+        "level": 35
+      },
+      {
+        "moveId": "takedown",
+        "level": 41
+      },
+      {
+        "moveId": "inferno",
+        "level": 45
+      },
+      {
+        "moveId": "fireblast",
+        "level": 50
+      },
+      {
+        "moveId": "flareblitz",
+        "level": 55
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "doublekick"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "horndrill"
+      },
+      {
+        "moveId": "hypnosis"
+      },
+      {
+        "moveId": "morningsun"
+      },
+      {
+        "moveId": "thrash"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fireblast"
+      },
+      {
+        "moveId": "firespin"
+      },
+      {
+        "moveId": "flamecharge"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flareblitz"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "overheat"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "quickfire"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "solarblade"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "wildcharge"
+      },
+      {
+        "moveId": "willowisp"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "quickattack"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:rapidash",
+      "targetSlug": "rapidash",
+      "summary": "Nivel · Nv. 40",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_grassland"
+      ],
+      "bucket": "uncommon",
+      "level": "16-41",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_overgrowth",
+        "#cobblemon:nether/is_wasteland"
+      ],
+      "bucket": "common",
+      "level": "16-41",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_magical"
+      ],
+      "bucket": "uncommon",
+      "level": "16-41",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "common",
+      "level": "16-41",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "16-41",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "16-41",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "16-41",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_grassland"
+      ],
+      "bucket": "uncommon",
+      "level": "16-41",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_overgrowth",
+        "#cobblemon:nether/is_wasteland"
+      ],
+      "bucket": "common",
+      "level": "16-41",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_magical"
+      ],
+      "bucket": "uncommon",
+      "level": "16-41",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "common",
+      "level": "16-41",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "features": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "lasers-additions",
+    "lightingData": "cobblemon-core"
+  }
+}

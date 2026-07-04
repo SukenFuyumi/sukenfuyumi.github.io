@@ -1,0 +1,387 @@
+{
+  "id": "cobblemon:burstile",
+  "namespace": "cobblemon",
+  "slug": "burstile",
+  "name": "Burstile",
+  "nationalPokedexNumber": 1233,
+  "primaryType": "fire",
+  "secondaryType": "normal",
+  "types": [
+    "fire",
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 56,
+    "attack": 75,
+    "defence": 64,
+    "special_attack": 87,
+    "special_defence": 80,
+    "speed": 85
+  },
+  "baseStatTotal": 447,
+  "abilities": [
+    "bulletproof",
+    "scrappy"
+  ],
+  "hiddenAbilities": [
+    "aftermath"
+  ],
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "catchRate": 100,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 9,
+  "weight": 302,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 170,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Its mane of sparks can create explosive charges which Burstile can pick up and throw.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "ember",
+        "level": 0
+      },
+      {
+        "moveId": "leer",
+        "level": 0
+      },
+      {
+        "moveId": "roar",
+        "level": 0
+      },
+      {
+        "moveId": "round",
+        "level": 0
+      },
+      {
+        "moveId": "firespin",
+        "level": 4
+      },
+      {
+        "moveId": "echoedvoice",
+        "level": 5
+      },
+      {
+        "moveId": "snarl",
+        "level": 8
+      },
+      {
+        "moveId": "flamewheel",
+        "level": 12
+      },
+      {
+        "moveId": "smokescreen",
+        "level": 16
+      },
+      {
+        "moveId": "powder",
+        "level": 20
+      },
+      {
+        "moveId": "flameburst",
+        "level": 24
+      },
+      {
+        "moveId": "uproar",
+        "level": 28
+      },
+      {
+        "moveId": "eruption",
+        "level": 32
+      },
+      {
+        "moveId": "overdrive",
+        "level": 36
+      },
+      {
+        "moveId": "selfdestruct",
+        "level": 40
+      },
+      {
+        "moveId": "mindblown",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "clangoroussoul"
+      },
+      {
+        "moveId": "mistyexplosion"
+      },
+      {
+        "moveId": "perishsong"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "zapcannon"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bulletpunch"
+      },
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragonbreath"
+      },
+      {
+        "moveId": "dragondance"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firepledge"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flareblitz"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "lavaplume"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "overheat"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "vacuumwave"
+      },
+      {
+        "moveId": "willowisp"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:nitragon",
+      "targetSlug": "nitragon",
+      "summary": "Nivel · Amistad 160+",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "boomka",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/burstile.png",
+    "placeholderColor": "#EE8130"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_volcanic"
+      ],
+      "bucket": "common",
+      "level": "30-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_wasteland"
+      ],
+      "bucket": "common",
+      "level": "30-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "lightingData": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "preEvolution": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

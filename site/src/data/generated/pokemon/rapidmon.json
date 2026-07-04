@@ -1,0 +1,198 @@
+{
+  "id": "cobblemon:rapidmon",
+  "namespace": "cobblemon",
+  "slug": "rapidmon",
+  "name": "Rapidmon",
+  "nationalPokedexNumber": 9004,
+  "primaryType": "steel",
+  "secondaryType": "flying",
+  "types": [
+    "steel",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 98,
+    "attack": 67,
+    "defence": 75,
+    "special_attack": 100,
+    "special_defence": 75,
+    "speed": 110
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "fullmetalbody",
+    "battlearmor"
+  ],
+  "hiddenAbilities": [
+    "stalwart"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.31,
+  "weight": 114.31,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Cyborg Digimon that evolves from Galgomon, nicknamed Keen Hound, moving at near-light speed to defeat opponents.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "mirrorshot",
+        "level": 44
+      },
+      {
+        "moveId": "metalsound",
+        "level": 47
+      },
+      {
+        "moveId": "triattack",
+        "level": 50
+      },
+      {
+        "moveId": "gearup",
+        "level": 54
+      },
+      {
+        "moveId": "powergem",
+        "level": 57
+      },
+      {
+        "moveId": "flashcannon",
+        "level": 61
+      },
+      {
+        "moveId": "agility",
+        "level": 66
+      },
+      {
+        "moveId": "aeroblast",
+        "level": 70
+      },
+      {
+        "moveId": "shiftgear",
+        "level": 75
+      },
+      {
+        "moveId": "thunderbolt",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "galgomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground",
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/rapidmon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_plains",
+        "#cobblemon:is_sky",
+        "#cobblemon:is_mountain"
+      ],
+      "bucket": "ultra-rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "secondaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "id": "cobblemon:pawmi",
+  "namespace": "cobblemon",
+  "slug": "pawmi",
+  "name": "Pawmi",
+  "nationalPokedexNumber": 921,
+  "primaryType": "electric",
+  "secondaryType": null,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 20,
+    "special_attack": 40,
+    "special_defence": 25,
+    "speed": 60
+  },
+  "baseStatTotal": 240,
+  "abilities": [
+    "static",
+    "naturalcure"
+  ],
+  "hiddenAbilities": [
+    "ironfist"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 190,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 25,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 48,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "thundershock",
+        "level": 3
+      },
+      {
+        "moveId": "quickattack",
+        "level": 6
+      },
+      {
+        "moveId": "charge",
+        "level": 8
+      },
+      {
+        "moveId": "nuzzle",
+        "level": 12
+      },
+      {
+        "moveId": "dig",
+        "level": 15
+      },
+      {
+        "moveId": "bite",
+        "level": 19
+      },
+      {
+        "moveId": "spark",
+        "level": 23
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 27
+      },
+      {
+        "moveId": "entrainment",
+        "level": 31
+      },
+      {
+        "moveId": "slam",
+        "level": 35
+      },
+      {
+        "moveId": "discharge",
+        "level": 38
+      },
+      {
+        "moveId": "agility",
+        "level": 40
+      },
+      {
+        "moveId": "wildcharge",
+        "level": 44
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "fakeout"
+      },
+      {
+        "moveId": "machpunch"
+      },
+      {
+        "moveId": "sweetkiss"
+      },
+      {
+        "moveId": "wish"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "eerieimpulse"
+      },
+      {
+        "moveId": "electricterrain"
+      },
+      {
+        "moveId": "electroball"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "metalclaw"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "voltswitch"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "legacy": [],
+    "other": [
+      {
+        "moveId": "celebrate"
+      }
+    ]
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:pawmo",
+      "targetSlug": "pawmo",
+      "summary": "Nivel · Nv. 18",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/921.png"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core"
+  }
+}

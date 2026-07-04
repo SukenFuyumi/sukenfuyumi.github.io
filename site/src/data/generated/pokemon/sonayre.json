@@ -1,0 +1,334 @@
+{
+  "id": "cobblemon:sonayre",
+  "namespace": "cobblemon",
+  "slug": "sonayre",
+  "name": "Sonayre",
+  "nationalPokedexNumber": 1211,
+  "primaryType": "flying",
+  "secondaryType": "normal",
+  "types": [
+    "flying",
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 66,
+    "defence": 51,
+    "special_attack": 81,
+    "special_defence": 58,
+    "speed": 60
+  },
+  "baseStatTotal": 374,
+  "abilities": [
+    "keeneye",
+    "soundproof"
+  ],
+  "hiddenAbilities": [
+    "simple"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "catchRate": 120,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 10,
+  "weight": 128,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It's usually part of a choir of Sounoirs as their assigned contralto or mezzo-soprano.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 0
+      },
+      {
+        "moveId": "growl",
+        "level": 0
+      },
+      {
+        "moveId": "peck",
+        "level": 5
+      },
+      {
+        "moveId": "screech",
+        "level": 9
+      },
+      {
+        "moveId": "sing",
+        "level": 10
+      },
+      {
+        "moveId": "gust",
+        "level": 12
+      },
+      {
+        "moveId": "round",
+        "level": 16
+      },
+      {
+        "moveId": "quickattack",
+        "level": 19
+      },
+      {
+        "moveId": "charm",
+        "level": 20
+      },
+      {
+        "moveId": "uproar",
+        "level": 22
+      },
+      {
+        "moveId": "aircutter",
+        "level": 24
+      },
+      {
+        "moveId": "supersonic",
+        "level": 27
+      },
+      {
+        "moveId": "airslash",
+        "level": 31
+      },
+      {
+        "moveId": "hypervoice",
+        "level": 34
+      },
+      {
+        "moveId": "acrobatics",
+        "level": 38
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "luckychant"
+      },
+      {
+        "moveId": "raindance"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "beatup"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "dragoncheer"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "metalclaw"
+      },
+      {
+        "moveId": "metalsound"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "pluck"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "supersonic"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "whirlwind"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "ominouswind"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:ballearia",
+      "targetSlug": "ballearia",
+      "summary": "Nivel · Nv. 35",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "sounoir",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost",
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/sonayre.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_temperate",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "common",
+      "level": "14-34",
+      "timeRange": "day",
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "preEvolution": "cobblemon-afp",
+    "evolutions": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp"
+  }
+}

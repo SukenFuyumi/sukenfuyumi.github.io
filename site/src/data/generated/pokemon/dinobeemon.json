@@ -1,0 +1,193 @@
+{
+  "id": "cobblemon:dinobeemon",
+  "namespace": "cobblemon",
+  "slug": "dinobeemon",
+  "name": "Dinobeemon",
+  "nationalPokedexNumber": 2162,
+  "primaryType": "bug",
+  "secondaryType": "dragon",
+  "types": [
+    "bug",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 115,
+    "defence": 85,
+    "special_attack": 55,
+    "special_defence": 85,
+    "speed": 105
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "merciless",
+    "compoundeyes"
+  ],
+  "hiddenAbilities": [
+    "unburden"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.21,
+  "weight": 85,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A chimera of claw and wing that hunts midair.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "slash",
+        "level": 44
+      },
+      {
+        "moveId": "bulkup",
+        "level": 47
+      },
+      {
+        "moveId": "breakingswipe",
+        "level": 50
+      },
+      {
+        "moveId": "uturn",
+        "level": 54
+      },
+      {
+        "moveId": "detect",
+        "level": 57
+      },
+      {
+        "moveId": "xscissor",
+        "level": 61
+      },
+      {
+        "moveId": "dragonclaw",
+        "level": 66
+      },
+      {
+        "moveId": "extremespeed",
+        "level": 70
+      },
+      {
+        "moveId": "dualwingbeat",
+        "level": 75
+      },
+      {
+        "moveId": "direclaw",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "stingmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/dinobeemon.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

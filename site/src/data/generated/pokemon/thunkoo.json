@@ -1,0 +1,589 @@
+{
+  "id": "cobblemon:thunkoo",
+  "namespace": "cobblemon",
+  "slug": "thunkoo",
+  "name": "Thunkoo",
+  "nationalPokedexNumber": 53,
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 85,
+    "defence": 125,
+    "special_attack": 60,
+    "special_defence": 100,
+    "speed": 25
+  },
+  "baseStatTotal": 455,
+  "abilities": [
+    "earlybird",
+    "analytic"
+  ],
+  "hiddenAbilities": [
+    "owntempo"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "catchRate": 45,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 7,
+  "weight": 348,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 159,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Thunkoo have an incredible sense of time, crying out at precisely 8:00 at every day, even if they can't see the sky. It is believed Thunkoo are an engineered Pokémon made in a distant time.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "wakeupcall",
+        "level": 1
+      },
+      {
+        "moveId": "peck",
+        "level": 1
+      },
+      {
+        "moveId": "autotomize",
+        "level": 1
+      },
+      {
+        "moveId": "leafage",
+        "level": 1
+      },
+      {
+        "moveId": "echoedvoice",
+        "level": 1
+      },
+      {
+        "moveId": "sing",
+        "level": 3
+      },
+      {
+        "moveId": "rapidspin",
+        "level": 6
+      },
+      {
+        "moveId": "encore",
+        "level": 9
+      },
+      {
+        "moveId": "wingattack",
+        "level": 13
+      },
+      {
+        "moveId": "geargrind",
+        "level": 15
+      },
+      {
+        "moveId": "bulletseed",
+        "level": 17
+      },
+      {
+        "moveId": "morningsun",
+        "level": 21
+      },
+      {
+        "moveId": "futuresight",
+        "level": 27
+      },
+      {
+        "moveId": "leechseed",
+        "level": 33
+      },
+      {
+        "moveId": "shiftgear",
+        "level": 39
+      },
+      {
+        "moveId": "endeavor",
+        "level": 45
+      },
+      {
+        "moveId": "uproar",
+        "level": 51
+      },
+      {
+        "moveId": "bravebird",
+        "level": 57
+      },
+      {
+        "moveId": "woodhammer",
+        "level": 60
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "boomburst"
+      },
+      {
+        "moveId": "chatter"
+      },
+      {
+        "moveId": "gearup"
+      },
+      {
+        "moveId": "grasswhistle"
+      },
+      {
+        "moveId": "mirrormove"
+      },
+      {
+        "moveId": "perishsong"
+      },
+      {
+        "moveId": "refresh"
+      },
+      {
+        "moveId": "sleeppowder"
+      },
+      {
+        "moveId": "supersonic"
+      },
+      {
+        "moveId": "wakeupslap"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bravebird"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dragoncheer"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "metalsound"
+      },
+      {
+        "moveId": "metronome"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "pluck"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "quash"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockblast"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skyattack"
+      },
+      {
+        "moveId": "skydrop"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "voltswitch"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "worryseed"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "piochio",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/thunkoo.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "22-46",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "22-46",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "name": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "primaryType": "lively-mons",
+    "secondaryType": "lively-mons",
+    "abilities": "lively-mons",
+    "preEvolution": "lively-mons",
+    "baseStats": "lively-mons",
+    "catchRate": "lively-mons",
+    "maleRatio": "lively-mons",
+    "shoulderMountable": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "eggCycles": "lively-mons",
+    "eggGroups": "lively-mons",
+    "behaviour": "lively-mons",
+    "drops": "lively-mons",
+    "moves": "lively-mons",
+    "labels": "lively-mons",
+    "pokedex": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "evYield": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "aspects": "lively-mons",
+    "cannotDynamax": "lively-mons"
+  }
+}

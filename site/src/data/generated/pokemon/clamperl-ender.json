@@ -1,0 +1,386 @@
+{
+  "id": "cobblemon:clamperl#Ender",
+  "namespace": "cobblemon",
+  "slug": "clamperl-ender",
+  "name": "Clamperl Ender",
+  "nationalPokedexNumber": 366,
+  "primaryType": "steel",
+  "secondaryType": "psychic",
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 44,
+    "defence": 85,
+    "special_attack": 74,
+    "special_defence": 75,
+    "speed": 12
+  },
+  "baseStatTotal": 345,
+  "abilities": [
+    "shellarmor",
+    "emergencyexit"
+  ],
+  "hiddenAbilities": [
+    "recluse"
+  ],
+  "eggGroups": [
+    "water_1"
+  ],
+  "catchRate": 255,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 525,
+  "maleRatio": 0.5,
+  "experienceGroup": "erratic",
+  "baseExperienceYield": 69,
+  "labels": [
+    "gen3"
+  ],
+  "aspects": [
+    "ender"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "Its body grows while being protected within the Shulker shell. When threatened it fires strange bullets that cause things to float. If its foe continues to bother it, it will retreat by teleporting away.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "shelter",
+        "level": 1
+      },
+      {
+        "moveId": "clamp",
+        "level": 1
+      },
+      {
+        "moveId": "confusion",
+        "level": 1
+      },
+      {
+        "moveId": "barrage",
+        "level": 1
+      },
+      {
+        "moveId": "irondefense",
+        "level": 1
+      },
+      {
+        "moveId": "amnesia",
+        "level": 1
+      },
+      {
+        "moveId": "teleport",
+        "level": 15
+      },
+      {
+        "moveId": "shulkerbullet",
+        "level": 30
+      },
+      {
+        "moveId": "mindbend",
+        "level": 40
+      },
+      {
+        "moveId": "armorpress",
+        "level": 45
+      },
+      {
+        "moveId": "shellsmash",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "barrier"
+      },
+      {
+        "moveId": "breezeball"
+      },
+      {
+        "moveId": "mudsport"
+      },
+      {
+        "moveId": "refresh"
+      },
+      {
+        "moveId": "supersonic"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "armorpress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bulletbarrage"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "guardpress"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "mindbend"
+      },
+      {
+        "moveId": "potshot"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "voidfog"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:boxtail",
+      "targetSlug": "boxtail-ender",
+      "summary": "Intercambio · Sosteniendo: shulker_shell · (consume objeto sostenido) · variante ender",
+      "variant": "trade"
+    },
+    {
+      "targetKey": "cobblemon:boxtail",
+      "targetSlug": "boxtail-ender",
+      "summary": "Intercambio · Sosteniendo: mega_showdown:box_shell · (consume objeto sostenido) · variante ender",
+      "variant": "trade"
+    },
+    {
+      "targetKey": "cobblemon:elabyss",
+      "targetSlug": "elabyss-ender",
+      "summary": "Intercambio · Sosteniendo: phantom_membrane · (consume objeto sostenido) · variante ender",
+      "variant": "trade"
+    },
+    {
+      "targetKey": "cobblemon:elabyss",
+      "targetSlug": "elabyss-ender",
+      "summary": "Intercambio · Sosteniendo: mega_showdown:telepearl · (consume objeto sostenido) · variante ender",
+      "variant": "trade"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "psychic",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/clamperl-ender.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-fakemon-pack",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "lasers-fakemon-pack"
+  },
+  "formOf": {
+    "slug": "clamperl",
+    "name": "Clamperl"
+  },
+  "formName": "Ender"
+}

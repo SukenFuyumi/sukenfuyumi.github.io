@@ -1,0 +1,308 @@
+{
+  "id": "cobblemon:aereonee",
+  "namespace": "cobblemon",
+  "slug": "aereonee",
+  "name": "Aereonee",
+  "nationalPokedexNumber": 2007,
+  "primaryType": "flying",
+  "secondaryType": null,
+  "types": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 105,
+    "defence": 100,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 110
+  },
+  "baseStatTotal": 545,
+  "abilities": [
+    "unburden",
+    "hustle"
+  ],
+  "hiddenAbilities": [
+    "simple"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 35,
+  "height": 11,
+  "weight": 300,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 184,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Aereon like to swim amongst the clouds alongside other Flying-type Pokemon, similar to it's ocean counterpart Vaporeon, Aereon can turn into clouds as a defense mechanism.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "gust",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 5
+      },
+      {
+        "moveId": "aircutter",
+        "level": 8
+      },
+      {
+        "moveId": "bite",
+        "level": 12
+      },
+      {
+        "moveId": "agility",
+        "level": 14
+      },
+      {
+        "moveId": "raindance",
+        "level": 17
+      },
+      {
+        "moveId": "airslash",
+        "level": 18
+      },
+      {
+        "moveId": "tailwind",
+        "level": 22
+      },
+      {
+        "moveId": "defog",
+        "level": 24
+      },
+      {
+        "moveId": "acrobatics",
+        "level": 26
+      },
+      {
+        "moveId": "scald",
+        "level": 30
+      },
+      {
+        "moveId": "thunder",
+        "level": 34
+      },
+      {
+        "moveId": "snowscape",
+        "level": 37
+      },
+      {
+        "moveId": "blizzard",
+        "level": 37
+      },
+      {
+        "moveId": "icebeam",
+        "level": 40
+      },
+      {
+        "moveId": "aerialace",
+        "level": 43
+      },
+      {
+        "moveId": "whirlwind",
+        "level": 50
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 54
+      },
+      {
+        "moveId": "roost",
+        "level": 57
+      },
+      {
+        "moveId": "fly",
+        "level": 60
+      },
+      {
+        "moveId": "freezeshock",
+        "level": 64
+      },
+      {
+        "moveId": "heatwave",
+        "level": 67
+      },
+      {
+        "moveId": "solarbeam",
+        "level": 73
+      },
+      {
+        "moveId": "featherdance",
+        "level": 76
+      },
+      {
+        "moveId": "skydrop",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "auroraveil"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "bravebird"
+      },
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "heatcrash"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "iceshard"
+      },
+      {
+        "moveId": "mist"
+      },
+      {
+        "moveId": "nuzzle"
+      },
+      {
+        "moveId": "overheat"
+      },
+      {
+        "moveId": "skyattack"
+      },
+      {
+        "moveId": "spark"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "wingattack"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "eevee",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/aereonee.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "minecraft:meadow",
+        "minecraft:windswept_hills"
+      ],
+      "bucket": "ultra-rare",
+      "level": "18-40",
+      "timeRange": null,
+      "sourceId": "extra-eeveelutions"
+    }
+  ],
+  "sourceMods": [
+    "extra-eeveelutions"
+  ],
+  "primarySource": "extra-eeveelutions",
+  "provenance": {
+    "implemented": "extra-eeveelutions",
+    "name": "extra-eeveelutions",
+    "nationalPokedexNumber": "extra-eeveelutions",
+    "primaryType": "extra-eeveelutions",
+    "abilities": "extra-eeveelutions",
+    "baseStats": "extra-eeveelutions",
+    "behaviour": "extra-eeveelutions",
+    "catchRate": "extra-eeveelutions",
+    "maleRatio": "extra-eeveelutions",
+    "shoulderMountable": "extra-eeveelutions",
+    "forms": "extra-eeveelutions",
+    "baseExperienceYield": "extra-eeveelutions",
+    "experienceGroup": "extra-eeveelutions",
+    "eggCycles": "extra-eeveelutions",
+    "eggGroups": "extra-eeveelutions",
+    "moves": "extra-eeveelutions",
+    "labels": "extra-eeveelutions",
+    "pokedex": "extra-eeveelutions",
+    "preEvolution": "extra-eeveelutions",
+    "baseScale": "extra-eeveelutions",
+    "hitbox": "extra-eeveelutions",
+    "baseFriendship": "extra-eeveelutions",
+    "evYield": "extra-eeveelutions",
+    "height": "extra-eeveelutions",
+    "weight": "extra-eeveelutions"
+  }
+}

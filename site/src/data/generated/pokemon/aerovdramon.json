@@ -1,0 +1,191 @@
+{
+  "id": "cobblemon:aerovdramon",
+  "namespace": "cobblemon",
+  "slug": "aerovdramon",
+  "name": "Aerovdramon",
+  "nationalPokedexNumber": 2051,
+  "primaryType": "dragon",
+  "secondaryType": "flying",
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 83,
+    "attack": 104,
+    "defence": 90,
+    "special_attack": 68,
+    "special_defence": 90,
+    "speed": 87
+  },
+  "baseStatTotal": 522,
+  "abilities": [
+    "guts",
+    "moldbreaker"
+  ],
+  "hiddenAbilities": [
+    "victorystar"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.13,
+  "weight": 93,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "AeroVdramon is an Ultimate Dragon Digimon, evolved from Vdramon.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "breakingswipe",
+        "level": 44
+      },
+      {
+        "moveId": "aerialace",
+        "level": 47
+      },
+      {
+        "moveId": "firepunch",
+        "level": 50
+      },
+      {
+        "moveId": "tailwind",
+        "level": 54
+      },
+      {
+        "moveId": "skyuppercut",
+        "level": 57
+      },
+      {
+        "moveId": "dualwingbeat",
+        "level": 61
+      },
+      {
+        "moveId": "dragonclaw",
+        "level": 66
+      },
+      {
+        "moveId": "dragondance",
+        "level": 70
+      },
+      {
+        "moveId": "facade",
+        "level": 75
+      },
+      {
+        "moveId": "flamethrower",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "vdramon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/aerovdramon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_savanna",
+        "#cobblemon:is_mountain"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

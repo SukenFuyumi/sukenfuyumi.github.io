@@ -1,0 +1,117 @@
+{
+  "id": "cobblemon:Mawile#MegaRlmPoison",
+  "namespace": "cobblemon",
+  "slug": "cobblemon-mawile-megarlmpoison",
+  "name": "Mawile MegaRlmPoison",
+  "nationalPokedexNumber": null,
+  "primaryType": "poison",
+  "secondaryType": "fairy",
+  "types": [
+    "poison",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 35,
+    "defence": 85,
+    "special_attack": 105,
+    "special_defence": 80,
+    "speed": 90
+  },
+  "baseStatTotal": 490,
+  "abilities": [
+    "venomarmor",
+    "venomarmor"
+  ],
+  "hiddenAbilities": [
+    "venomarmor"
+  ],
+  "eggGroups": [],
+  "catchRate": null,
+  "eggCycles": null,
+  "baseFriendship": null,
+  "height": null,
+  "weight": null,
+  "maleRatio": null,
+  "experienceGroup": null,
+  "baseExperienceYield": null,
+  "labels": [],
+  "aspects": [
+    "rlm",
+    "poison",
+    "mega"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "Mega Evolution granted it the strength needed to fully control its poison. Freed from its burden, this Mawile finally reveals its true potential, displaying newfound confidence and joy. However, it remains aware that this surge of power is only temporary.",
+  "moveset": {
+    "levelUp": [],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/cobblemon-mawile-megarlmpoison.png",
+    "placeholderColor": "#A33EA1"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-rlm"
+  ],
+  "primarySource": "cobblemon-rlm",
+  "provenance": {
+    "features": "cobblemon-rlm",
+    "forms": "cobblemon-rlm"
+  },
+  "formOf": {
+    "slug": "cobblemon-mawile",
+    "name": "Mawile"
+  },
+  "formName": "MegaRlmPoison"
+}

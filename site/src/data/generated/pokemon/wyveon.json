@@ -1,0 +1,311 @@
+{
+  "id": "cobblemon:wyveon",
+  "namespace": "cobblemon",
+  "slug": "wyveon",
+  "name": "Wyveon",
+  "nationalPokedexNumber": 2011,
+  "primaryType": "dragon",
+  "secondaryType": null,
+  "types": [
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 100,
+    "defence": 90,
+    "special_attack": 110,
+    "special_defence": 75,
+    "speed": 95
+  },
+  "baseStatTotal": 555,
+  "abilities": [
+    "rivalry",
+    "overcoat"
+  ],
+  "hiddenAbilities": [
+    "rockhead"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 35,
+  "height": 11,
+  "weight": 300,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 184,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "The crystals embedded into Wyveon's body are actually hardened scales, when it feels threatened, Wyveon can shoot these scales towards its enemy. Wyveon are also very territorial",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 1
+      },
+      {
+        "moveId": "takedown",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "falseswipe",
+        "level": 1
+      },
+      {
+        "moveId": "assurance",
+        "level": 5
+      },
+      {
+        "moveId": "dragonclaw",
+        "level": 8
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 12
+      },
+      {
+        "moveId": "aerialace",
+        "level": 14
+      },
+      {
+        "moveId": "bellydrum",
+        "level": 17
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 18
+      },
+      {
+        "moveId": "blizzard",
+        "level": 22
+      },
+      {
+        "moveId": "headcharge",
+        "level": 24
+      },
+      {
+        "moveId": "flareblitz",
+        "level": 26
+      },
+      {
+        "moveId": "outrage",
+        "level": 30
+      },
+      {
+        "moveId": "thunderbolt",
+        "level": 34
+      },
+      {
+        "moveId": "steelbeam",
+        "level": 37
+      },
+      {
+        "moveId": "acidarmor",
+        "level": 37
+      },
+      {
+        "moveId": "shadowclaw",
+        "level": 40
+      },
+      {
+        "moveId": "stealthrock",
+        "level": 43
+      },
+      {
+        "moveId": "irontail",
+        "level": 50
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 54
+      },
+      {
+        "moveId": "substitute",
+        "level": 57
+      },
+      {
+        "moveId": "snarl",
+        "level": 60
+      },
+      {
+        "moveId": "dragondance",
+        "level": 67
+      },
+      {
+        "moveId": "dragonhammer",
+        "level": 73
+      },
+      {
+        "moveId": "dualchop",
+        "level": 76
+      },
+      {
+        "moveId": "dracometeor",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "astonish"
+      },
+      {
+        "moveId": "bravebird"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "extrasensory"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "healblock"
+      },
+      {
+        "moveId": "heavyslam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "mist"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "pinmissile"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockthrow"
+      },
+      {
+        "moveId": "skyattack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "wavecrash"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "eevee",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/wyveon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_peak"
+      ],
+      "bucket": "ultra-rare",
+      "level": "18-40",
+      "timeRange": null,
+      "sourceId": "extra-eeveelutions"
+    }
+  ],
+  "sourceMods": [
+    "extra-eeveelutions"
+  ],
+  "primarySource": "extra-eeveelutions",
+  "provenance": {
+    "implemented": "extra-eeveelutions",
+    "name": "extra-eeveelutions",
+    "nationalPokedexNumber": "extra-eeveelutions",
+    "primaryType": "extra-eeveelutions",
+    "abilities": "extra-eeveelutions",
+    "baseStats": "extra-eeveelutions",
+    "behaviour": "extra-eeveelutions",
+    "catchRate": "extra-eeveelutions",
+    "maleRatio": "extra-eeveelutions",
+    "shoulderMountable": "extra-eeveelutions",
+    "forms": "extra-eeveelutions",
+    "baseExperienceYield": "extra-eeveelutions",
+    "experienceGroup": "extra-eeveelutions",
+    "eggCycles": "extra-eeveelutions",
+    "eggGroups": "extra-eeveelutions",
+    "moves": "extra-eeveelutions",
+    "labels": "extra-eeveelutions",
+    "pokedex": "extra-eeveelutions",
+    "preEvolution": "extra-eeveelutions",
+    "baseScale": "extra-eeveelutions",
+    "hitbox": "extra-eeveelutions",
+    "baseFriendship": "extra-eeveelutions",
+    "evYield": "extra-eeveelutions",
+    "height": "extra-eeveelutions",
+    "weight": "extra-eeveelutions"
+  }
+}

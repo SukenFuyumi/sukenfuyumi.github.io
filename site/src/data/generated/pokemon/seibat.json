@@ -1,0 +1,994 @@
+{
+  "id": "cobblemon:seibat",
+  "namespace": "cobblemon",
+  "slug": "seibat",
+  "name": "Seibat",
+  "nationalPokedexNumber": 72,
+  "primaryType": "dark",
+  "secondaryType": "flying",
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 85,
+    "defence": 115,
+    "special_attack": 95,
+    "special_defence": 85,
+    "speed": 25
+  },
+  "baseStatTotal": 480,
+  "abilities": [
+    "magicdrain"
+  ],
+  "hiddenAbilities": [
+    "triage"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "catchRate": 45,
+  "eggCycles": 25,
+  "baseFriendship": 35,
+  "height": 5,
+  "weight": 110,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 133,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "normal",
+      "aspects": [],
+      "primaryType": "dark",
+      "secondaryType": null,
+      "types": [
+        "dark"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": null,
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "scratch",
+            "level": 1
+          },
+          {
+            "moveId": "mist",
+            "level": 1
+          },
+          {
+            "moveId": "leer",
+            "level": 1
+          },
+          {
+            "moveId": "pursuit",
+            "level": 3
+          },
+          {
+            "moveId": "wingattack",
+            "level": 9
+          },
+          {
+            "moveId": "megadrain",
+            "level": 11
+          },
+          {
+            "moveId": "bite",
+            "level": 17
+          },
+          {
+            "moveId": "ancientpower",
+            "level": 19
+          },
+          {
+            "moveId": "moonlight",
+            "level": 25
+          },
+          {
+            "moveId": "aircutter",
+            "level": 27
+          },
+          {
+            "moveId": "partingshot",
+            "level": 33
+          },
+          {
+            "moveId": "crunch",
+            "level": 35
+          },
+          {
+            "moveId": "leechlife",
+            "level": 41
+          },
+          {
+            "moveId": "powergem",
+            "level": 43
+          },
+          {
+            "moveId": "stealthrock",
+            "level": 49
+          },
+          {
+            "moveId": "darkpulse",
+            "level": 51
+          },
+          {
+            "moveId": "switcheroo",
+            "level": 57
+          },
+          {
+            "moveId": "oblivionwing",
+            "level": 59
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "flatter"
+          },
+          {
+            "moveId": "hypnosis"
+          },
+          {
+            "moveId": "quickattack"
+          },
+          {
+            "moveId": "supersonic"
+          },
+          {
+            "moveId": "whirlwind"
+          },
+          {
+            "moveId": "wideguard"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acrobatics"
+          },
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "airslash"
+          },
+          {
+            "moveId": "alluringvoice"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "bravebird"
+          },
+          {
+            "moveId": "breakingswipe"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "crunch"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "cut"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "disarmingvoice"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "dragonclaw"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "echoedvoice"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "featherdance"
+          },
+          {
+            "moveId": "firefang"
+          },
+          {
+            "moveId": "fly"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hex"
+          },
+          {
+            "moveId": "honeclaws"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "icefang"
+          },
+          {
+            "moveId": "imprison"
+          },
+          {
+            "moveId": "infestation"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "leechlife"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "lunge"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "ominouswind"
+          },
+          {
+            "moveId": "painsplit"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "phantomforce"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "pounce"
+          },
+          {
+            "moveId": "powergem"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychicfangs"
+          },
+          {
+            "moveId": "psychicnoise"
+          },
+          {
+            "moveId": "quash"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "rockblast"
+          },
+          {
+            "moveId": "rockpolish"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "selfdestruct"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "smackdown"
+          },
+          {
+            "moveId": "snarl"
+          },
+          {
+            "moveId": "snatch"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "spikes"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "steelwing"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "superfang"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "thunderfang"
+          },
+          {
+            "moveId": "torment"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "willowisp"
+          }
+        ],
+        "tutor": [],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 2
+          },
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "fighting",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ghost",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "psychic"
+        ]
+      },
+      "evolutions": [],
+      "slug": "seibat-normal"
+    }
+  ],
+  "pokedexDescription": "An ancient civilization created statues to ward off deadly spirits. When this ancient civilization fell, the spirits of its citizens possessed the statues and became Seibat. Beacuse of this, Seibat are found around the remains of this ancient civilization.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 1
+      },
+      {
+        "moveId": "mist",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "pursuit",
+        "level": 3
+      },
+      {
+        "moveId": "wingattack",
+        "level": 9
+      },
+      {
+        "moveId": "megadrain",
+        "level": 11
+      },
+      {
+        "moveId": "bite",
+        "level": 17
+      },
+      {
+        "moveId": "ancientpower",
+        "level": 19
+      },
+      {
+        "moveId": "moonlight",
+        "level": 25
+      },
+      {
+        "moveId": "aircutter",
+        "level": 27
+      },
+      {
+        "moveId": "partingshot",
+        "level": 33
+      },
+      {
+        "moveId": "crunch",
+        "level": 35
+      },
+      {
+        "moveId": "leechlife",
+        "level": 41
+      },
+      {
+        "moveId": "powergem",
+        "level": 43
+      },
+      {
+        "moveId": "stealthrock",
+        "level": 49
+      },
+      {
+        "moveId": "darkpulse",
+        "level": 51
+      },
+      {
+        "moveId": "switcheroo",
+        "level": 57
+      },
+      {
+        "moveId": "oblivionwing",
+        "level": 59
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "flatter"
+      },
+      {
+        "moveId": "hypnosis"
+      },
+      {
+        "moveId": "quickattack"
+      },
+      {
+        "moveId": "supersonic"
+      },
+      {
+        "moveId": "whirlwind"
+      },
+      {
+        "moveId": "wideguard"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bravebird"
+      },
+      {
+        "moveId": "breakingswipe"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "dragonclaw"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "phantomforce"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "powergem"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychicfangs"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "quash"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "rockblast"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "roleplay"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "superfang"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "willowisp"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground",
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/seibat.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_deep_dark"
+      ],
+      "bucket": "common",
+      "level": "15-37",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "15-37",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "name": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "labels": "lively-mons",
+    "pokedex": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "forms": "lively-mons",
+    "shoulderMountable": "lively-mons",
+    "primaryType": "lively-mons",
+    "secondaryType": "lively-mons",
+    "baseStats": "lively-mons",
+    "catchRate": "lively-mons",
+    "maleRatio": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "eggCycles": "lively-mons",
+    "eggGroups": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "evYield": "lively-mons",
+    "moves": "lively-mons",
+    "abilities": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "drops": "lively-mons",
+    "behaviour": "lively-mons"
+  }
+}

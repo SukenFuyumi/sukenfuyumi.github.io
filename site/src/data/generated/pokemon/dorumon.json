@@ -1,0 +1,215 @@
+{
+  "id": "cobblemon:dorumon",
+  "namespace": "cobblemon",
+  "slug": "dorumon",
+  "name": "Dorumon",
+  "nationalPokedexNumber": 2183,
+  "primaryType": "dragon",
+  "secondaryType": "steel",
+  "types": [
+    "dragon",
+    "steel"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 30,
+    "special_attack": 65,
+    "special_defence": 40,
+    "speed": 60
+  },
+  "baseStatTotal": 295,
+  "abilities": [
+    "overcoat",
+    "clearbody"
+  ],
+  "hiddenAbilities": [
+    "sturdy"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.91,
+  "weight": 11.34,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A proto-dragon with a metal growth on its brow.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 12
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 14
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 16
+      },
+      {
+        "moveId": "sandattack",
+        "level": 18
+      },
+      {
+        "moveId": "bite",
+        "level": 19
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 21
+      },
+      {
+        "moveId": "dragonrage",
+        "level": 22
+      },
+      {
+        "moveId": "magnetbomb",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:cyclomon",
+      "targetSlug": "cyclomon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:devidramon",
+      "targetSlug": "devidramon",
+      "summary": "Nivel · Nv. 24 · De noche",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:garurumon",
+      "targetSlug": "garurumon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: razor_fang",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:greymon",
+      "targetSlug": "greymon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: fire_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "yarmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/dorumon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

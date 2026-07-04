@@ -1,0 +1,231 @@
+---
+import MonImage from "./MonImage.astro";
+
+interface Props {
+  root: any;
+  allBySlug: Map<string, any>;
+  currentSlug: string;
+}
+const { root, allBySlug, currentSlug } = Astro.props;
+
+interface EvoNode {
+  slug: string;
+  children: { summary: string; node: EvoNode }[];
+}
+
+// Build the real branching family tree (not just a straight line) by
+// following each species' resolved evolution targets recursively.
+function buildTree(slug: string, depth: number, seen: Set<string>): EvoNode {
+  const mon = allBySlug.get(slug);
+  const alreadySeen = seen.has(slug);
+  const nextSeen = new Set(seen);
+  nextSeen.add(slug);
+  const children =
+    mon && !alreadySeen && depth < 6
+      ? (mon.evolutions ?? [])
+          .filter((e: any) => e.targetSlug && allBySlug.has(e.targetSlug))
+          .map((e: any) => ({ summary: e.summary, node: buildTree(e.targetSlug, depth + 1, nextSeen) }))
+      : [];
+  return { slug, children };
+}
+
+const tree = buildTree(root.slug, 0, new Set());
+
+// When a node has more than GROUP_SIZE children (e.g. Eevee with 30
+// eeveelutions across every installed pack), pokemondb doesn't draw one
+// giant fan spanning the whole page - it repeats the parent's card once per
+// group of ~3 children, each with its own short, clean local fan. Mirror
+// that here instead of one unreadable page-tall sunburst.
+const GROUP_SIZE = 3;
+
+const CARD_W = 120;
+const CARD_H = 150; // must fit the 72px circular art + up to a 2-line name + .mon-card's own padding
+const COL_W = 260;
+const LABEL_LINE_H = 15;
+const LABEL_CHARS_PER_LINE = 19;
+const LABEL_V_PADDING = 16; // vertical padding + border of the label box
+const ROW_GAP = 14; // breathing room between stacked rows
+
+// Every evolution condition part becomes its own line in the label (see
+// render below); estimate how tall that label will render so rows can be
+// spaced apart by exactly enough - fixing overlaps for verbose conditions
+// (e.g. "defeat" chains) without wasting space on short ones.
+function estimateLabelHeight(summary: string): number {
+  const parts = summary.split(" · ").filter(Boolean);
+  if (parts.length === 0) return CARD_H;
+  let lines = 0;
+  for (const part of parts) lines += Math.max(1, Math.ceil(part.length / LABEL_CHARS_PER_LINE));
+  return lines * LABEL_LINE_H + LABEL_V_PADDING;
+}
+
+interface Pos {
+  slug: string;
+  depth: number;
+  yStart: number;
+  height: number;
+}
+interface Edge {
+  from: Pos;
+  to: Pos;
+  summary: string;
+}
+const positions: Pos[] = [];
+const edges: Edge[] = [];
+
+function chunk<T>(arr: T[], size: number): T[][] {
+  const out: T[][] = [];
+  for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+  return out;
+}
+
+// Lays out `node` starting at pixel y `yStart`, reserving at least
+// `minHeight` for its own row (driven by the incoming edge's label size).
+// Returns [pixelHeightConsumed, firstPos].
+function layout(node: EvoNode, depth: number, yStart: number, minHeight: number): [number, Pos] {
+  if (node.children.length === 0) {
+    const h = Math.max(CARD_H + ROW_GAP, minHeight);
+    const pos: Pos = { slug: node.slug, depth, yStart, height: h };
+    positions.push(pos);
+    return [h, pos];
+  }
+
+  const groups = node.children.length > GROUP_SIZE ? chunk(node.children, GROUP_SIZE) : [node.children];
+  let totalOffset = 0;
+  let firstNodePos: Pos | null = null;
+
+  for (const group of groups) {
+    const groupStart = yStart + totalOffset;
+    let groupOffset = 0;
+    const childResults: { pos: Pos; summary: string }[] = [];
+    for (const { summary, node: childNode } of group) {
+      const neededHeight = estimateLabelHeight(summary);
+      const [h, childPos] = layout(childNode, depth + 1, groupStart + groupOffset, neededHeight);
+      groupOffset += h;
+      childResults.push({ pos: childPos, summary });
+    }
+    const nodePos: Pos = { slug: node.slug, depth, yStart: groupStart, height: groupOffset };
+    positions.push(nodePos);
+    if (!firstNodePos) firstNodePos = nodePos;
+    for (const { pos: childPos, summary } of childResults) {
+      edges.push({ from: nodePos, to: childPos, summary });
+    }
+    totalOffset += groupOffset;
+  }
+
+  return [totalOffset, firstNodePos!];
+}
+const [totalHeight] = layout(tree, 0, 0, CARD_H + ROW_GAP);
+
+const maxDepth = Math.max(...positions.map((pos) => pos.depth), 0);
+const totalWidth = (maxDepth + 1) * COL_W;
+
+function centerY(pos: Pos): number {
+  return pos.yStart + pos.height / 2;
+}
+---
+{positions.length > 1 && (
+  <div class="evo-tree-scroll">
+    <div class="evo-tree" style={`height:${totalHeight}px; width:${totalWidth}px;`}>
+      <svg class="evo-tree-svg" width={totalWidth} height={totalHeight} viewBox={`0 0 ${totalWidth} ${totalHeight}`}>
+        <defs>
+          <marker id="evo-arrow" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#475569"></path>
+          </marker>
+        </defs>
+        {edges.map((edge) => {
+          const x1 = edge.from.depth * COL_W + CARD_W + 6;
+          const y1 = centerY(edge.from);
+          const x2 = edge.to.depth * COL_W - 8;
+          const y2 = centerY(edge.to);
+          return <line x1={x1} y1={y1} x2={x2} y2={y2} stroke="#475569" stroke-width="2" marker-end="url(#evo-arrow)" />;
+        })}
+      </svg>
+      {edges.map((edge) => {
+        const x1 = edge.from.depth * COL_W + CARD_W + 6;
+        const x2 = edge.to.depth * COL_W - 8;
+        const midX = (x1 + x2) / 2;
+        // Vertically, anchor to the *target's* own row rather than the
+        // straight midpoint between parent and child: when one card (like a
+        // shared Eevee) has several children of different row heights, the
+        // parent-child midpoint compresses toward the parent's center and
+        // labels for different children end up overlapping each other even
+        // though the cards themselves are correctly spaced. Anchoring to the
+        // child's row inherits that already-correct spacing.
+        const midY = centerY(edge.to);
+        return (
+          <div class="evo-edge-label" style={`left:${midX}px; top:${midY}px;`}>
+            {edge.summary.split(" · ").map((part) => (
+              <div class="evo-edge-label-line">{part}</div>
+            ))}
+          </div>
+        );
+      })}
+      {positions.map((pos) => {
+        const mon = allBySlug.get(pos.slug);
+        if (!mon) return null;
+        const y = centerY(pos) - CARD_H / 2;
+        const x = pos.depth * COL_W;
+        return (
+          <a
+            href={`/pokedex/${pos.slug}`}
+            class="evo-node mon-card"
+            style={`left:${x}px; top:${y}px; width:${CARD_W}px; height:${CARD_H}px; ${pos.slug === currentSlug ? "border-color:var(--accent); border-width:2px;" : ""}`}
+          >
+            <MonImage image={mon.image} name={mon.name} size={72} />
+            <div class="mon-name">{mon.name}</div>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+)}
+
+<style>
+  .evo-tree-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 0.5rem;
+  }
+  .evo-tree {
+    position: relative;
+  }
+  .evo-tree-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: visible;
+  }
+  .evo-node {
+    /* Base look (background/border/hover/placeholder styling) comes from the
+       site-wide .mon-card class - only positioning and overflow safety live here. */
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .evo-node :global(img) {
+    /* .mon-card img normally forces 88px, which is taller than this card
+       has room for - !important guarantees this smaller size wins here. */
+    width: 72px !important;
+    height: 72px !important;
+  }
+  .evo-edge-label {
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    text-align: center;
+    padding: 0.25rem 0.4rem;
+    border-radius: 6px;
+    /* Must fit inside the gap between two cards (COL_W - CARD_W) or it
+       overlaps the card art on either side. */
+    width: 130px;
+    pointer-events: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  .evo-edge-label-line {
+    font-size: 0.66rem;
+    line-height: 1.35;
+  }
+</style>

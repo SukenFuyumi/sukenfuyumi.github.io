@@ -1,0 +1,215 @@
+{
+  "id": "cobblemon:terriermon",
+  "namespace": "cobblemon",
+  "slug": "terriermon",
+  "name": "Terriermon",
+  "nationalPokedexNumber": 9002,
+  "primaryType": "flying",
+  "secondaryType": "fire",
+  "types": [
+    "flying",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 55,
+    "defence": 30,
+    "special_attack": 70,
+    "special_defence": 30,
+    "speed": 70
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "cloudnine",
+    "pickup"
+  ],
+  "hiddenAbilities": [
+    "windrider"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.81,
+  "weight": 8.16,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A mysterious Digimon with a single horn on its head, possibly a Beast type, though its future evolution is unknown.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "peck",
+        "level": 12
+      },
+      {
+        "moveId": "leer",
+        "level": 14
+      },
+      {
+        "moveId": "ember",
+        "level": 16
+      },
+      {
+        "moveId": "workup",
+        "level": 18
+      },
+      {
+        "moveId": "gust",
+        "level": 19
+      },
+      {
+        "moveId": "sandattack",
+        "level": 21
+      },
+      {
+        "moveId": "twister",
+        "level": 22
+      },
+      {
+        "moveId": "incinerate",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:galgomon",
+      "targetSlug": "galgomon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gargomon",
+      "targetSlug": "gargomon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: float_stone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:mimicmon",
+      "targetSlug": "mimicmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: metal_coat",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:mimicmon",
+      "targetSlug": "mimicmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: bone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:loogarmon",
+      "targetSlug": "loogarmon",
+      "summary": "Nivel · Nv. 25",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "gumimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "rock",
+        "multiplier": 4
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/terriermon.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_plains",
+        "alexscaves:candy_cavity"
+      ],
+      "bucket": "rare",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "secondaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

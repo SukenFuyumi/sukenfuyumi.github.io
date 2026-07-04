@@ -1,0 +1,240 @@
+{
+  "id": "cobblemon:ebery",
+  "namespace": "cobblemon",
+  "slug": "ebery",
+  "name": "Ebery",
+  "nationalPokedexNumber": 1229,
+  "primaryType": "grass",
+  "secondaryType": "dragon",
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 36,
+    "defence": 42,
+    "special_attack": 77,
+    "special_defence": 50,
+    "speed": 61
+  },
+  "baseStatTotal": 321,
+  "abilities": [
+    "roughskin",
+    "leafguard"
+  ],
+  "hiddenAbilities": [
+    "colorchange"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 255,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 23,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 50,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It grows purple flowers on its body to better camouflage in shrubbery, but they can also shoot an hallucinogenic venom.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "absorb",
+        "level": 0
+      },
+      {
+        "moveId": "sleeppowder",
+        "level": 0
+      },
+      {
+        "moveId": "poisonpowder",
+        "level": 0
+      },
+      {
+        "moveId": "stunspore",
+        "level": 0
+      },
+      {
+        "moveId": "wrap",
+        "level": 0
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "acupressure"
+      },
+      {
+        "moveId": "aromatherapy"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "flowershield"
+      },
+      {
+        "moveId": "spikyshield"
+      },
+      {
+        "moveId": "twineedle"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "dragontail"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "leechseed"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "toxicspikes"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:nagarel",
+      "targetSlug": "nagarel",
+      "summary": "Nivel · Nv. 30",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "water",
+        "multiplier": 0.25
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/ebery.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#biome:is_floral"
+      ],
+      "bucket": "common",
+      "level": "11-36",
+      "timeRange": "day",
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "11-36",
+      "timeRange": "day",
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

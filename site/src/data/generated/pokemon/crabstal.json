@@ -1,0 +1,589 @@
+{
+  "id": "cobblemon:crabstal",
+  "namespace": "cobblemon",
+  "slug": "crabstal",
+  "name": "Crabstal",
+  "nationalPokedexNumber": 1085,
+  "primaryType": "ground",
+  "secondaryType": "fairy",
+  "types": [
+    "ground",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 150,
+    "defence": 60,
+    "special_attack": 60,
+    "special_defence": 150,
+    "speed": 42
+  },
+  "baseStatTotal": 530,
+  "abilities": [
+    "clearbody",
+    "rockypayload"
+  ],
+  "hiddenAbilities": [
+    "hammertime"
+  ],
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "catchRate": 30,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 9,
+  "weight": 1267,
+  "maleRatio": 0.5,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 200,
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Crabstal hangs from the underside of the outer End islands, using their sharp legs to anchor themselves to the ceiling. When it gets hungry, it digs through the island to reach the surface and seeks out Bittior to hunt. It swings its heavy claws like a sledgehammer to crush its prey.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "hammerdown",
+        "level": 1
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 1
+      },
+      {
+        "moveId": "clamp",
+        "level": 1
+      },
+      {
+        "moveId": "harden",
+        "level": 1
+      },
+      {
+        "moveId": "mudslap",
+        "level": 1
+      },
+      {
+        "moveId": "rockthrow",
+        "level": 1
+      },
+      {
+        "moveId": "sharpen",
+        "level": 1
+      },
+      {
+        "moveId": "flash",
+        "level": 1
+      },
+      {
+        "moveId": "guardsplit",
+        "level": 5
+      },
+      {
+        "moveId": "smackdown",
+        "level": 10
+      },
+      {
+        "moveId": "starshot",
+        "level": 15
+      },
+      {
+        "moveId": "bulldoze",
+        "level": 20
+      },
+      {
+        "moveId": "rockpolish",
+        "level": 25
+      },
+      {
+        "moveId": "reflect",
+        "level": 30
+      },
+      {
+        "moveId": "rockslide",
+        "level": 35
+      },
+      {
+        "moveId": "hammerarm",
+        "level": 37
+      },
+      {
+        "moveId": "moonlight",
+        "level": 40
+      },
+      {
+        "moveId": "powergem",
+        "level": 45
+      },
+      {
+        "moveId": "stompingtantrum",
+        "level": 47
+      },
+      {
+        "moveId": "spikes",
+        "level": 50
+      },
+      {
+        "moveId": "crystalhammer",
+        "level": 55
+      },
+      {
+        "moveId": "crabhammer",
+        "level": 57
+      },
+      {
+        "moveId": "stoneedge",
+        "level": 60
+      },
+      {
+        "moveId": "earthquake",
+        "level": 65
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "crabhammer"
+      },
+      {
+        "moveId": "dragonhammer"
+      },
+      {
+        "moveId": "icehammer"
+      },
+      {
+        "moveId": "woodhammer"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "guardpress"
+      },
+      {
+        "moveId": "guardswap"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "hammerarm"
+      },
+      {
+        "moveId": "heavyslam"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "lightpulse"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "mistyexplosion"
+      },
+      {
+        "moveId": "mistyterrain"
+      },
+      {
+        "moveId": "mudbomb"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "powergem"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockblast"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "sandtomb"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "starshot"
+      },
+      {
+        "moveId": "starshower"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "terrainpulse"
+      },
+      {
+        "moveId": "thunderclaw"
+      },
+      {
+        "moveId": "trickroom"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "mistyexplosion"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "terrainpulse"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "crabink",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon",
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/crabstal.png",
+    "placeholderColor": "#E2BF65"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_end"
+      ],
+      "bucket": "common",
+      "level": "45-60",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    }
+  ],
+  "sourceMods": [
+    "lasers-fakemon-pack"
+  ],
+  "primarySource": "lasers-fakemon-pack",
+  "provenance": {
+    "implemented": "lasers-fakemon-pack",
+    "nationalPokedexNumber": "lasers-fakemon-pack",
+    "name": "lasers-fakemon-pack",
+    "primaryType": "lasers-fakemon-pack",
+    "secondaryType": "lasers-fakemon-pack",
+    "maleRatio": "lasers-fakemon-pack",
+    "height": "lasers-fakemon-pack",
+    "weight": "lasers-fakemon-pack",
+    "pokedex": "lasers-fakemon-pack",
+    "labels": "lasers-fakemon-pack",
+    "aspects": "lasers-fakemon-pack",
+    "abilities": "lasers-fakemon-pack",
+    "eggGroups": "lasers-fakemon-pack",
+    "baseStats": "lasers-fakemon-pack",
+    "evYield": "lasers-fakemon-pack",
+    "baseExperienceYield": "lasers-fakemon-pack",
+    "experienceGroup": "lasers-fakemon-pack",
+    "catchRate": "lasers-fakemon-pack",
+    "eggCycles": "lasers-fakemon-pack",
+    "baseFriendship": "lasers-fakemon-pack",
+    "baseScale": "lasers-fakemon-pack",
+    "hitbox": "lasers-fakemon-pack",
+    "drops": "lasers-fakemon-pack",
+    "moves": "lasers-fakemon-pack",
+    "preEvolution": "lasers-fakemon-pack",
+    "evolutions": "lasers-fakemon-pack",
+    "ai": "lasers-fakemon-pack",
+    "behaviour": "lasers-fakemon-pack"
+  }
+}

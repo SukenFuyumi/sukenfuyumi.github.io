@@ -1,0 +1,216 @@
+{
+  "id": "cobblemon:devidramon",
+  "namespace": "cobblemon",
+  "slug": "devidramon",
+  "name": "Devidramon",
+  "nationalPokedexNumber": 2156,
+  "primaryType": "dark",
+  "secondaryType": "dragon",
+  "types": [
+    "dark",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 90,
+    "defence": 54,
+    "special_attack": 55,
+    "special_defence": 44,
+    "speed": 72
+  },
+  "baseStatTotal": 393,
+  "abilities": [
+    "intimidate",
+    "pressure"
+  ],
+  "hiddenAbilities": [
+    "darkaura"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.13,
+  "weight": 69,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A ruthless wyvern that delights in fear.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bite",
+        "level": 25
+      },
+      {
+        "moveId": "visegrip",
+        "level": 27
+      },
+      {
+        "moveId": "torment",
+        "level": 29
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 31
+      },
+      {
+        "moveId": "nightslash",
+        "level": 33
+      },
+      {
+        "moveId": "breakingswipe",
+        "level": 35
+      },
+      {
+        "moveId": "wingattack",
+        "level": 37
+      },
+      {
+        "moveId": "glare",
+        "level": 39
+      },
+      {
+        "moveId": "shadowclaw",
+        "level": 41
+      },
+      {
+        "moveId": "knockoff",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:cyberdramon",
+      "targetSlug": "cyberdramon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: fighting_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "picodevimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 4
+      },
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/devidramon.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_nether_forest",
+        "#cobblemon:is_end",
+        "#cobblemon:is_spooky",
+        "#cobblemon:nether"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:forlorn_hollows"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

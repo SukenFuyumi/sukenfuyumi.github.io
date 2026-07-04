@@ -1,0 +1,505 @@
+{
+  "id": "cobblemon:branchief",
+  "namespace": "cobblemon",
+  "slug": "branchief",
+  "name": "Branchief",
+  "nationalPokedexNumber": 62,
+  "primaryType": "grass",
+  "secondaryType": "dragon",
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 85,
+    "defence": 135,
+    "special_attack": 85,
+    "special_defence": 90,
+    "speed": 30
+  },
+  "baseStatTotal": 520,
+  "abilities": [
+    "friendguard",
+    "steadfast"
+  ],
+  "hiddenAbilities": [
+    "thickskin"
+  ],
+  "eggGroups": [
+    "grass",
+    "dragon"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 32,
+  "weight": 1600,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 260,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Branchief protect groups of Canjitsu and teach them how to fight. They commonly get into fights with Sajonin and use their tough skin to outlast them in battle.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "triattack",
+        "level": 1
+      },
+      {
+        "moveId": "detect",
+        "level": 1
+      },
+      {
+        "moveId": "substitute",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "branchpoke",
+        "level": 4
+      },
+      {
+        "moveId": "growth",
+        "level": 7
+      },
+      {
+        "moveId": "razorleaf",
+        "level": 10
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 11
+      },
+      {
+        "moveId": "bulldoze",
+        "level": 15
+      },
+      {
+        "moveId": "leechseed",
+        "level": 18
+      },
+      {
+        "moveId": "seedbomb",
+        "level": 21
+      },
+      {
+        "moveId": "dragontail",
+        "level": 22
+      },
+      {
+        "moveId": "matblock",
+        "level": 26
+      },
+      {
+        "moveId": "synthesis",
+        "level": 29
+      },
+      {
+        "moveId": "dragonpulse",
+        "level": 32
+      },
+      {
+        "moveId": "dragonhammer",
+        "level": 38
+      },
+      {
+        "moveId": "batonpass",
+        "level": 43
+      },
+      {
+        "moveId": "woodhammer",
+        "level": 48
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "acupressure"
+      },
+      {
+        "moveId": "fissure"
+      },
+      {
+        "moveId": "lifedew"
+      },
+      {
+        "moveId": "luckychant"
+      },
+      {
+        "moveId": "megadrain"
+      },
+      {
+        "moveId": "quickguard"
+      },
+      {
+        "moveId": "refresh"
+      },
+      {
+        "moveId": "stomp"
+      },
+      {
+        "moveId": "wideguard"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "aurasphere"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "breakingswipe"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "coaching"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragoncheer"
+      },
+      {
+        "moveId": "dragondance"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "dragontail"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "heavyslam"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "powerwhip"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "triattack"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "wildcharge"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "worryseed"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "canjitsu",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "water",
+        "multiplier": 0.25
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/branchief.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "34-48",
+      "timeRange": "day",
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "name": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "labels": "lively-mons",
+    "preEvolution": "lively-mons",
+    "pokedex": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "shoulderMountable": "lively-mons",
+    "primaryType": "lively-mons",
+    "secondaryType": "lively-mons",
+    "baseStats": "lively-mons",
+    "catchRate": "lively-mons",
+    "maleRatio": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "eggCycles": "lively-mons",
+    "eggGroups": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "evYield": "lively-mons",
+    "moves": "lively-mons",
+    "abilities": "lively-mons",
+    "evolutions": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "drops": "lively-mons",
+    "riding": "lively-mons",
+    "behaviour": "lively-mons"
+  }
+}

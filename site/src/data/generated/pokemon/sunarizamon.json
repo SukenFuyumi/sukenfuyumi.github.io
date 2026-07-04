@@ -1,0 +1,209 @@
+{
+  "id": "cobblemon:sunarizamon",
+  "namespace": "cobblemon",
+  "slug": "sunarizamon",
+  "name": "Sunarizamon",
+  "nationalPokedexNumber": 2079,
+  "primaryType": "ground",
+  "secondaryType": "rock",
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 55,
+    "defence": 40,
+    "special_attack": 30,
+    "special_defence": 60,
+    "speed": 35
+  },
+  "baseStatTotal": 290,
+  "abilities": [
+    "roughskin",
+    "sandveil"
+  ],
+  "hiddenAbilities": [
+    "moxie"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.81,
+  "weight": 11.34,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A lizard-shaped Rookie that races across dunes on heated sand.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 12
+      },
+      {
+        "moveId": "growl",
+        "level": 14
+      },
+      {
+        "moveId": "mudslap",
+        "level": 16
+      },
+      {
+        "moveId": "mudsport",
+        "level": 18
+      },
+      {
+        "moveId": "workup",
+        "level": 19
+      },
+      {
+        "moveId": "rockthrow",
+        "level": 21
+      },
+      {
+        "moveId": "cut",
+        "level": 22
+      },
+      {
+        "moveId": "mudshot",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:baboongamon",
+      "targetSlug": "baboongamon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:darktyrannomon",
+      "targetSlug": "darktyrannomon",
+      "summary": "Nivel · Nv. 24 · De noche",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:tyrannomon",
+      "targetSlug": "tyrannomon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: fire_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "goromon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 4
+      },
+      {
+        "type": "water",
+        "multiplier": 4
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/sunarizamon.png",
+    "placeholderColor": "#E2BF65"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_sandy"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "cobblemon:chocomon",
+  "namespace": "cobblemon",
+  "slug": "chocomon",
+  "name": "Chocomon",
+  "nationalPokedexNumber": 2043,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 25,
+    "attack": 35,
+    "defence": 30,
+    "special_attack": 40,
+    "special_defence": 35,
+    "speed": 35
+  },
+  "baseStatTotal": 200,
+  "abilities": [
+    "synchronize",
+    "synchronize"
+  ],
+  "hiddenAbilities": [
+    "minus"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 150,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.3,
+  "weight": 3.18,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 40,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Digimon that grew up from Cocomon.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "astonish",
+        "level": 5
+      },
+      {
+        "moveId": "bubble",
+        "level": 7
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 9
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 10
+      },
+      {
+        "moveId": "hornattack",
+        "level": 11
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:lopmon",
+      "targetSlug": "lopmon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:jazamon",
+      "targetSlug": "jazamon",
+      "summary": "Nivel · Nv. 13",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:picodevimon",
+      "targetSlug": "picodevimon",
+      "summary": "Nivel · Nv. 12 · De noche",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:wormmon",
+      "targetSlug": "wormmon",
+      "summary": "Nivel · Nv. 12 · Amistad 2.5+",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "cocomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/chocomon.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "ultra-rare",
+      "level": "4-15",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:candy_cavity"
+      ],
+      "bucket": "uncommon",
+      "level": "4-15",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "id": "cobblemon:dolliv",
+  "namespace": "cobblemon",
+  "slug": "dolliv",
+  "name": "Dolliv",
+  "nationalPokedexNumber": 929,
+  "primaryType": "grass",
+  "secondaryType": "normal",
+  "types": [
+    "grass",
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 53,
+    "defence": 60,
+    "special_attack": 78,
+    "special_defence": 78,
+    "speed": 33
+  },
+  "baseStatTotal": 354,
+  "abilities": [
+    "earlybird"
+  ],
+  "hiddenAbilities": [
+    "harvest"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 119,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 124,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 1
+      },
+      {
+        "moveId": "absorb",
+        "level": 5
+      },
+      {
+        "moveId": "growth",
+        "level": 7
+      },
+      {
+        "moveId": "razorleaf",
+        "level": 10
+      },
+      {
+        "moveId": "helpinghand",
+        "level": 13
+      },
+      {
+        "moveId": "flail",
+        "level": 16
+      },
+      {
+        "moveId": "megadrain",
+        "level": 20
+      },
+      {
+        "moveId": "grassyterrain",
+        "level": 23
+      },
+      {
+        "moveId": "seedbomb",
+        "level": 29
+      },
+      {
+        "moveId": "energyball",
+        "level": 34
+      },
+      {
+        "moveId": "leechseed",
+        "level": 37
+      },
+      {
+        "moveId": "terrainpulse",
+        "level": 42
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "memento"
+      },
+      {
+        "moveId": "strengthsap"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "weatherball"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "solarblade"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "terrainpulse"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "weatherball"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "terrainpulse"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:arboliva",
+      "targetSlug": "arboliva",
+      "summary": "Nivel · Nv. 35",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "smoliv",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/929.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "uncommon",
+      "level": "25-35",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "25-35",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "uncommon",
+      "level": "25-35",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "standingEyeHeight": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core"
+  }
+}

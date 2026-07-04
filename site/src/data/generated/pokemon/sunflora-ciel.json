@@ -1,0 +1,226 @@
+{
+  "id": "cobblemon:sunflora#ciel",
+  "namespace": "cobblemon",
+  "slug": "sunflora-ciel",
+  "name": "Sunflora ciel",
+  "nationalPokedexNumber": 192,
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 115,
+    "defence": 85,
+    "special_attack": 45,
+    "special_defence": 85,
+    "speed": 85
+  },
+  "baseStatTotal": 500,
+  "abilities": [
+    "deltastream",
+    "unburden"
+  ],
+  "hiddenAbilities": [
+    "contrary"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 8,
+  "weight": 85,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 149,
+  "labels": [
+    "gen2"
+  ],
+  "aspects": [
+    "rlm",
+    "ciel"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "This Sunflora confidently implies it was once Rayquaza's master, claiming to have taught the legendary Pokémon everything it knows. Strangely enough, no proof of this has ever been found.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "stomp",
+        "level": 1
+      },
+      {
+        "moveId": "recover",
+        "level": 1
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 4
+      },
+      {
+        "moveId": "grasswhistle",
+        "level": 7
+      },
+      {
+        "moveId": "airslash",
+        "level": 10
+      },
+      {
+        "moveId": "leechseed",
+        "level": 13
+      },
+      {
+        "moveId": "airslash",
+        "level": 16
+      },
+      {
+        "moveId": "worryseed",
+        "level": 19
+      },
+      {
+        "moveId": "leafblade",
+        "level": 22
+      },
+      {
+        "moveId": "flail",
+        "level": 25
+      },
+      {
+        "moveId": "defog",
+        "level": 28
+      },
+      {
+        "moveId": "acrobatics",
+        "level": 31
+      },
+      {
+        "moveId": "solarbeam",
+        "level": 34
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 37
+      },
+      {
+        "moveId": "overheat",
+        "level": 40
+      },
+      {
+        "moveId": "fly",
+        "level": 43
+      },
+      {
+        "moveId": "seedflare",
+        "level": 50
+      },
+      {
+        "moveId": "dragonascent",
+        "level": 100
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/sunflora-ciel.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-rlm",
+    "fanmade-form-funfair",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "features": "fanmade-form-funfair",
+    "forms": "fanmade-form-funfair"
+  },
+  "formOf": {
+    "slug": "sunflora",
+    "name": "Sunflora"
+  },
+  "formName": "ciel"
+}

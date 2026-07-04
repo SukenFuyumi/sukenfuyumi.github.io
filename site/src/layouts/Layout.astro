@@ -1,0 +1,39 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = "Pokedex del servidor Cobbleverse: oficiales, fakemon, megas y todo lo instalado." } = Astro.props;
+---
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · Cobbleverse Dex</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="bar">
+        <a class="brand" href="/">Cobbleverse Dex</a>
+        <nav>
+          <a href="/pokedex">Pokédex</a>
+          <a href="/moves">Movimientos</a>
+          <a href="/abilities">Habilidades</a>
+          <a href="/type">Tipos</a>
+          <a href="/team">Mi equipo</a>
+          <a href="/packs">Mods &amp; créditos</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      Generado directamente desde los mods y datapacks instalados en el servidor. Ver <a href="/packs">mods &amp; créditos</a>.
+    </footer>
+  </body>
+</html>

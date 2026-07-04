@@ -1,0 +1,28 @@
+---
+interface Props {
+  level?: number;
+  move: any | null;
+  moveId: string;
+}
+const { level, move, moveId } = Astro.props;
+---
+<tr>
+  {level !== undefined && <td>{level}</td>}
+  <td>
+    <a href={`/moves/${moveId}`} class="move-name" data-move-desc={move?.desc || move?.shortDesc || undefined}>
+      {move?.name ?? moveId}
+    </a>
+  </td>
+  {move ? (
+    <>
+      <td><a href={`/type/${move.type?.toLowerCase()}`} class="type-badge" style={`background: var(--type-${move.type?.toLowerCase()})`}>{move.type}</a></td>
+      <td>{move.category}</td>
+      <td>{move.basePower || "—"}</td>
+      <td>{move.accuracy === true ? "—" : move.accuracy}</td>
+      <td>{move.pp ?? "—"}</td>
+      <td>{move.isOverride && <span class="pill override">rebalanceado</span>}</td>
+    </>
+  ) : (
+    <td colspan="5" style="color:var(--text-muted);">Movimiento no encontrado en los datos del servidor</td>
+  )}
+</tr>

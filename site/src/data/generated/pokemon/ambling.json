@@ -1,0 +1,314 @@
+{
+  "id": "cobblemon:ambling",
+  "namespace": "cobblemon",
+  "slug": "ambling",
+  "name": "Ambling",
+  "nationalPokedexNumber": 1264,
+  "primaryType": "rock",
+  "secondaryType": "bug",
+  "types": [
+    "rock",
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 80,
+    "defence": 58,
+    "special_attack": 44,
+    "special_defence": 46,
+    "speed": 67
+  },
+  "baseStatTotal": 350,
+  "abilities": [
+    "weakarmor",
+    "shellarmor"
+  ],
+  "hiddenAbilities": [
+    "infiltrator"
+  ],
+  "eggGroups": [
+    "bug",
+    "mineral"
+  ],
+  "catchRate": 45,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1,
+  "weight": 2,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 75,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "The body is covered in a thick layer of amber which doesn't allow it to have working wings.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "absorb",
+        "level": 0
+      },
+      {
+        "moveId": "harden",
+        "level": 0
+      },
+      {
+        "moveId": "infestation",
+        "level": 0
+      },
+      {
+        "moveId": "supersonic",
+        "level": 4
+      },
+      {
+        "moveId": "rollout",
+        "level": 8
+      },
+      {
+        "moveId": "bugbite",
+        "level": 12
+      },
+      {
+        "moveId": "drainingkiss",
+        "level": 16
+      },
+      {
+        "moveId": "taunt",
+        "level": 20
+      },
+      {
+        "moveId": "fellstinger",
+        "level": 24
+      },
+      {
+        "moveId": "rocktomb",
+        "level": 28
+      },
+      {
+        "moveId": "screech",
+        "level": 32
+      },
+      {
+        "moveId": "leechlife",
+        "level": 36
+      },
+      {
+        "moveId": "uturn",
+        "level": 40
+      },
+      {
+        "moveId": "stoneedge",
+        "level": 44
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "firstimpression"
+      },
+      {
+        "moveId": "followme"
+      },
+      {
+        "moveId": "furyattack"
+      },
+      {
+        "moveId": "shadowsneak"
+      },
+      {
+        "moveId": "strengthsap"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "megadrain"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "phantomforce"
+      },
+      {
+        "moveId": "pinmissile"
+      },
+      {
+        "moveId": "pluck"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockblast"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "meteorbeam"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:buzzlex",
+      "targetSlug": "buzzlex",
+      "summary": "Nivel · Nv. 32",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/ambling.png",
+    "placeholderColor": "#B6A136"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_lush"
+      ],
+      "bucket": "ultra-rare",
+      "level": "11-36",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

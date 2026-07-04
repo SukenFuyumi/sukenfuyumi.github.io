@@ -1,0 +1,210 @@
+{
+  "id": "cobblemon:coredramongreen",
+  "namespace": "cobblemon",
+  "slug": "coredramongreen",
+  "name": "Coredramongreen",
+  "nationalPokedexNumber": 2055,
+  "primaryType": "dragon",
+  "secondaryType": "ground",
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 70,
+    "special_attack": 60,
+    "special_defence": 55,
+    "speed": 70
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "angerpoint",
+    "leafguard"
+  ],
+  "hiddenAbilities": [
+    "sandforce"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.01,
+  "weight": 88.45,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": null,
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "mudslap",
+        "level": 25
+      },
+      {
+        "moveId": "ember",
+        "level": 27
+      },
+      {
+        "moveId": "stomp",
+        "level": 29
+      },
+      {
+        "moveId": "gust",
+        "level": 31
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 33
+      },
+      {
+        "moveId": "mudbomb",
+        "level": 35
+      },
+      {
+        "moveId": "scaryface",
+        "level": 37
+      },
+      {
+        "moveId": "dragontail",
+        "level": 39
+      },
+      {
+        "moveId": "stompingtantrum",
+        "level": 41
+      },
+      {
+        "moveId": "grassyglide",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:groundramon",
+      "targetSlug": "groundramon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: ground_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "dracomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/coredramongreen.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_hills"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_thermal"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "ultra-rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

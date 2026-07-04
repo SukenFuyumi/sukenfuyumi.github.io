@@ -1,0 +1,126 @@
+{
+  "id": "cobblemon:Ampharos#MegaRlm",
+  "namespace": "cobblemon",
+  "slug": "cobblemon-ampharos-megarlm",
+  "name": "Ampharos MegaRlm",
+  "nationalPokedexNumber": null,
+  "primaryType": "electric",
+  "secondaryType": "fire",
+  "types": [
+    "electric",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 120,
+    "special_attack": 140,
+    "special_defence": 120,
+    "speed": 100
+  },
+  "baseStatTotal": 620,
+  "abilities": [
+    "shadowtag",
+    "shadowtag"
+  ],
+  "hiddenAbilities": [
+    "shadowtag"
+  ],
+  "eggGroups": [],
+  "catchRate": null,
+  "eggCycles": null,
+  "baseFriendship": null,
+  "height": null,
+  "weight": null,
+  "maleRatio": null,
+  "experienceGroup": null,
+  "baseExperienceYield": null,
+  "labels": [],
+  "aspects": [
+    "rlm",
+    "mega"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "When it Mega Evolves, the spiritual energy within it spirals out of control. In this state, its presence alone is enough to make the bravest tremble.",
+  "moveset": {
+    "levelUp": [],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 4
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "steel",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/cobblemon-ampharos-megarlm.png",
+    "placeholderColor": "#F7D02C"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-rlm"
+  ],
+  "primarySource": "cobblemon-rlm",
+  "provenance": {
+    "features": "cobblemon-rlm",
+    "forms": "cobblemon-rlm"
+  },
+  "formOf": {
+    "slug": "cobblemon-ampharos",
+    "name": "Ampharos"
+  },
+  "formName": "MegaRlm"
+}

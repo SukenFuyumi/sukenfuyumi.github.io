@@ -1,0 +1,934 @@
+{
+  "id": "cobblemon:harpivoir",
+  "namespace": "cobblemon",
+  "slug": "harpivoir",
+  "name": "Harpivoir",
+  "nationalPokedexNumber": 9003,
+  "primaryType": "dark",
+  "secondaryType": "flying",
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 128,
+    "defence": 65,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 127
+  },
+  "baseStatTotal": 518,
+  "abilities": [
+    "predator",
+    "pressure"
+  ],
+  "hiddenAbilities": [
+    "intimidate"
+  ],
+  "eggGroups": [
+    "amorphous",
+    "human_like"
+  ],
+  "catchRate": 20,
+  "eggCycles": 30,
+  "baseFriendship": 10,
+  "height": 10,
+  "weight": 60,
+  "maleRatio": 0.5,
+  "experienceGroup": "fast",
+  "baseExperienceYield": 300,
+  "labels": [
+    "myths"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Harpivoir rides the night winds with a watchful grace. It follows lonely roads, calling in a clear, lilting tone to guide travelers closer to the skies, and those who meet it speak of the steady calm in its wings.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "gust",
+        "level": 1
+      },
+      {
+        "moveId": "nightshade",
+        "level": 1
+      },
+      {
+        "moveId": "umbralflurry",
+        "level": 1
+      },
+      {
+        "moveId": "snarl",
+        "level": 1
+      },
+      {
+        "moveId": "healingwish",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "confusion",
+        "level": 1
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 1
+      },
+      {
+        "moveId": "healpulse",
+        "level": 1
+      },
+      {
+        "moveId": "mistyterrain",
+        "level": 1
+      },
+      {
+        "moveId": "disarmingvoice",
+        "level": 1
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 1
+      },
+      {
+        "moveId": "captivate",
+        "level": 1
+      },
+      {
+        "moveId": "mysticalfire",
+        "level": 1
+      },
+      {
+        "moveId": "charm",
+        "level": 1
+      },
+      {
+        "moveId": "luckychant",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 5
+      },
+      {
+        "moveId": "skydrop",
+        "level": 8
+      },
+      {
+        "moveId": "doublekick",
+        "level": 11
+      },
+      {
+        "moveId": "wingattack",
+        "level": 14
+      },
+      {
+        "moveId": "teleport",
+        "level": 15
+      },
+      {
+        "moveId": "astonish",
+        "level": 17
+      },
+      {
+        "moveId": "psybeam",
+        "level": 18
+      },
+      {
+        "moveId": "feintattack",
+        "level": 20
+      },
+      {
+        "moveId": "aircutter",
+        "level": 23
+      },
+      {
+        "moveId": "lifedew",
+        "level": 23
+      },
+      {
+        "moveId": "hex",
+        "level": 26
+      },
+      {
+        "moveId": "wish",
+        "level": 28
+      },
+      {
+        "moveId": "drainingkiss",
+        "level": 29
+      },
+      {
+        "moveId": "dualwingbeat",
+        "level": 32
+      },
+      {
+        "moveId": "slash",
+        "level": 35
+      },
+      {
+        "moveId": "calmmind",
+        "level": 35
+      },
+      {
+        "moveId": "airslash",
+        "level": 38
+      },
+      {
+        "moveId": "umbralflurry",
+        "level": 40
+      },
+      {
+        "moveId": "moonlight",
+        "level": 41
+      },
+      {
+        "moveId": "psychic",
+        "level": 42
+      },
+      {
+        "moveId": "darkpulse",
+        "level": 44
+      },
+      {
+        "moveId": "psychocut",
+        "level": 47
+      },
+      {
+        "moveId": "moonblast",
+        "level": 49
+      },
+      {
+        "moveId": "featherdance",
+        "level": 50
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 53
+      },
+      {
+        "moveId": "ominouswind",
+        "level": 56
+      },
+      {
+        "moveId": "dreameater",
+        "level": 56
+      },
+      {
+        "moveId": "hypnosis",
+        "level": 59
+      },
+      {
+        "moveId": "hurricane",
+        "level": 62
+      },
+      {
+        "moveId": "futuresight",
+        "level": 63
+      },
+      {
+        "moveId": "foulplay",
+        "level": 66
+      },
+      {
+        "moveId": "flyingpress",
+        "level": 70
+      },
+      {
+        "moveId": "spiritbreak",
+        "level": 70
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "destinybond"
+      },
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "grudge"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "meanlook"
+      },
+      {
+        "moveId": "memento"
+      },
+      {
+        "moveId": "mirrormove"
+      },
+      {
+        "moveId": "mistyterrain"
+      },
+      {
+        "moveId": "moonblast"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "perishsong"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "shadowsneak"
+      },
+      {
+        "moveId": "synchronoise"
+      },
+      {
+        "moveId": "trick"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "aurasphere"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fakeout"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "guardswap"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "metronome"
+      },
+      {
+        "moveId": "mistyexplosion"
+      },
+      {
+        "moveId": "mistyterrain"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "powerswap"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "psychicterrain"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "tripleaxel"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "vacuumwave"
+      },
+      {
+        "moveId": "willowisp"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "beatup"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "darkestlariat"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "expandingforce"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "mistyexplosion"
+      },
+      {
+        "moveId": "moonblast"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "nightmare"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "powergem"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychocut"
+      },
+      {
+        "moveId": "quickguard"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowpunch"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snatch"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "tripleaxel"
+      },
+      {
+        "moveId": "vacuumwave"
+      },
+      {
+        "moveId": "wideguard"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "defensecurl"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "nightmare"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "sing"
+      },
+      {
+        "moveId": "wish"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": "gardevoir",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground",
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/harpivoir.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "uncommon",
+      "level": "8-30",
+      "timeRange": "night",
+      "sourceId": "fais-mythical-monstrosities"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral"
+      ],
+      "bucket": "rare",
+      "level": "20-42",
+      "timeRange": "night",
+      "sourceId": "fais-mythical-monstrosities"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "rare",
+      "level": "18-38",
+      "timeRange": "night",
+      "sourceId": "fais-mythical-monstrosities"
+    }
+  ],
+  "sourceMods": [
+    "fais-mythical-monstrosities"
+  ],
+  "primarySource": "fais-mythical-monstrosities",
+  "provenance": {
+    "implemented": "fais-mythical-monstrosities",
+    "nationalPokedexNumber": "fais-mythical-monstrosities",
+    "name": "fais-mythical-monstrosities",
+    "primaryType": "fais-mythical-monstrosities",
+    "secondaryType": "fais-mythical-monstrosities",
+    "maleRatio": "fais-mythical-monstrosities",
+    "height": "fais-mythical-monstrosities",
+    "weight": "fais-mythical-monstrosities",
+    "baseScale": "fais-mythical-monstrosities",
+    "hitbox": "fais-mythical-monstrosities",
+    "pokedex": "fais-mythical-monstrosities",
+    "labels": "fais-mythical-monstrosities",
+    "aspects": "fais-mythical-monstrosities",
+    "abilities": "fais-mythical-monstrosities",
+    "eggGroups": "fais-mythical-monstrosities",
+    "eggCycles": "fais-mythical-monstrosities",
+    "baseStats": "fais-mythical-monstrosities",
+    "evYield": "fais-mythical-monstrosities",
+    "baseExperienceYield": "fais-mythical-monstrosities",
+    "experienceGroup": "fais-mythical-monstrosities",
+    "catchRate": "fais-mythical-monstrosities",
+    "baseFriendship": "fais-mythical-monstrosities",
+    "shoulderMountable": "fais-mythical-monstrosities",
+    "behaviour": "fais-mythical-monstrosities",
+    "riding": "fais-mythical-monstrosities",
+    "drops": "fais-mythical-monstrosities",
+    "moves": "fais-mythical-monstrosities"
+  }
+}

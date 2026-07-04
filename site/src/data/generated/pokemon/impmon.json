@@ -1,0 +1,199 @@
+{
+  "id": "cobblemon:impmon",
+  "namespace": "cobblemon",
+  "slug": "impmon",
+  "name": "Impmon",
+  "nationalPokedexNumber": 2147,
+  "primaryType": "dark",
+  "secondaryType": "psychic",
+  "types": [
+    "dark",
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 30,
+    "special_attack": 70,
+    "special_defence": 47,
+    "speed": 60
+  },
+  "baseStatTotal": 297,
+  "abilities": [
+    "prankster",
+    "gluttony"
+  ],
+  "hiddenAbilities": [
+    "competitive"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.91,
+  "weight": 9.07,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A prank-loving Digimon who sows chaos with a grin.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 12
+      },
+      {
+        "moveId": "leer",
+        "level": 14
+      },
+      {
+        "moveId": "ember",
+        "level": 16
+      },
+      {
+        "moveId": "powdersnow",
+        "level": 18
+      },
+      {
+        "moveId": "taunt",
+        "level": 19
+      },
+      {
+        "moveId": "confusion",
+        "level": 21
+      },
+      {
+        "moveId": "snarl",
+        "level": 22
+      },
+      {
+        "moveId": "firespin",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:bakemon",
+      "targetSlug": "bakemon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:booogiemon",
+      "targetSlug": "booogiemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: sachet",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:wizarmon",
+      "targetSlug": "wizarmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: covert_cloak",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:darklizamon",
+      "targetSlug": "darklizamon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: dusk_stone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:devidramon",
+      "targetSlug": "devidramon",
+      "summary": "Nivel · Nv. 24 · De noche",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:icedevimon",
+      "targetSlug": "icedevimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: ice_stone",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "yarmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 4
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/impmon.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_spooky"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_temperate",
+        "#cobblemon:is_magical"
+      ],
+      "bucket": "rare",
+      "level": "12-32",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

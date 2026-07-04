@@ -1,0 +1,276 @@
+{
+  "id": "cobblemon:rineshell",
+  "namespace": "cobblemon",
+  "slug": "rineshell",
+  "name": "Rineshell",
+  "nationalPokedexNumber": 1027,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 40,
+    "defence": 80,
+    "special_attack": 40,
+    "special_defence": 80,
+    "speed": 70
+  },
+  "baseStatTotal": 360,
+  "abilities": [
+    "sturdy",
+    "anticipation"
+  ],
+  "hiddenAbilities": [
+    "weakarmor"
+  ],
+  "eggGroups": [
+    "monster"
+  ],
+  "catchRate": 255,
+  "eggCycles": 25,
+  "baseFriendship": 70,
+  "height": 2,
+  "weight": 100,
+  "maleRatio": 0.5,
+  "experienceGroup": "fast",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Though its metallic shell is not yet fully formed, Rineshell possesses a stubborn spirit, never backing down from a challenge. It dreams of the day its headplate will be strong enough to withstand any blow without it having to move a muscle.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "hornattack",
+        "level": 4
+      },
+      {
+        "moveId": "rapidspin",
+        "level": 8
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 12
+      },
+      {
+        "moveId": "rollout",
+        "level": 16
+      },
+      {
+        "moveId": "irondefense",
+        "level": 20
+      },
+      {
+        "moveId": "smartstrike",
+        "level": 24
+      },
+      {
+        "moveId": "takedown",
+        "level": 28
+      },
+      {
+        "moveId": "ironhead",
+        "level": 32
+      },
+      {
+        "moveId": "horndrill",
+        "level": 36
+      },
+      {
+        "moveId": "megahorn",
+        "level": 40
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "metalburst"
+      },
+      {
+        "moveId": "skullbash"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "furyattack"
+      },
+      {
+        "moveId": "hornattack"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "megahorn"
+      },
+      {
+        "moveId": "metalclaw"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "smartstrike"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "steelbeam"
+      },
+      {
+        "moveId": "stomp"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:galama",
+      "targetSlug": "galama",
+      "summary": "Nivel · Nv. 26",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/rineshell.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "uncommon",
+      "level": "10-26",
+      "timeRange": null,
+      "sourceId": "cobblemon-rlm"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "common",
+      "level": "10-26",
+      "timeRange": null,
+      "sourceId": "cobblemon-rlm"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-rlm"
+  ],
+  "primarySource": "cobblemon-rlm",
+  "provenance": {
+    "implemented": "cobblemon-rlm",
+    "name": "cobblemon-rlm",
+    "nationalPokedexNumber": "cobblemon-rlm",
+    "labels": "cobblemon-rlm",
+    "pokedex": "cobblemon-rlm",
+    "height": "cobblemon-rlm",
+    "weight": "cobblemon-rlm",
+    "features": "cobblemon-rlm",
+    "shoulderMountable": "cobblemon-rlm",
+    "shoulderEffects": "cobblemon-rlm",
+    "primaryType": "cobblemon-rlm",
+    "baseStats": "cobblemon-rlm",
+    "catchRate": "cobblemon-rlm",
+    "maleRatio": "cobblemon-rlm",
+    "baseExperienceYield": "cobblemon-rlm",
+    "experienceGroup": "cobblemon-rlm",
+    "eggCycles": "cobblemon-rlm",
+    "eggGroups": "cobblemon-rlm",
+    "baseFriendship": "cobblemon-rlm",
+    "evYield": "cobblemon-rlm",
+    "moves": "cobblemon-rlm",
+    "abilities": "cobblemon-rlm",
+    "evolutions": "cobblemon-rlm",
+    "baseScale": "cobblemon-rlm",
+    "hitbox": "cobblemon-rlm",
+    "drops": "cobblemon-rlm",
+    "behaviour": "cobblemon-rlm"
+  }
+}

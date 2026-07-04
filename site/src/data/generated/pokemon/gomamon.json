@@ -1,0 +1,220 @@
+{
+  "id": "cobblemon:gomamon",
+  "namespace": "cobblemon",
+  "slug": "gomamon",
+  "name": "Gomamon",
+  "nationalPokedexNumber": 2102,
+  "primaryType": "water",
+  "secondaryType": "ice",
+  "types": [
+    "water",
+    "ice"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 40,
+    "defence": 45,
+    "special_attack": 60,
+    "special_defence": 45,
+    "speed": 65
+  },
+  "baseStatTotal": 305,
+  "abilities": [
+    "torrent",
+    "thickfat"
+  ],
+  "hiddenAbilities": [
+    "swiftswim"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.81,
+  "weight": 8.16,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Sea Animal Digimon that commands small fish companions.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 12
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 14
+      },
+      {
+        "moveId": "watergun",
+        "level": 16
+      },
+      {
+        "moveId": "aquaring",
+        "level": 18
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 19
+      },
+      {
+        "moveId": "iceball",
+        "level": 21
+      },
+      {
+        "moveId": "aquajet",
+        "level": 22
+      },
+      {
+        "moveId": "brine",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:rukamon",
+      "targetSlug": "rukamon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:raremon",
+      "targetSlug": "raremon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: black_sludge",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gesomon",
+      "targetSlug": "gesomon",
+      "summary": "Nivel · Nv. 24 · De noche",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:seadramon",
+      "targetSlug": "seadramon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: deep_sea_tooth",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:numemon",
+      "targetSlug": "numemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: poison_barb",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "pukamon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "ice",
+        "multiplier": 0.25
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/gomamon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_cold_ocean",
+        "#cobblemon:is_frozen_oceans"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cold_ocean",
+        "#cobblemon:is_frozen_oceans"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_cold_ocean",
+        "#cobblemon:is_frozen_oceans"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

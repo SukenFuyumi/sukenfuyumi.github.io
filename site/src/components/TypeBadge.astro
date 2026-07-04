@@ -1,0 +1,7 @@
+---
+interface Props {
+  type: string;
+}
+const { type } = Astro.props;
+---
+<a href={`/type/${type}`} class="type-badge" style={`background: var(--type-${type}, var(--type-unknown))`}>{type}</a>

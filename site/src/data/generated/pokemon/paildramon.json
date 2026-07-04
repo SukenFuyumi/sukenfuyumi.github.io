@@ -1,0 +1,192 @@
+{
+  "id": "cobblemon:paildramon",
+  "namespace": "cobblemon",
+  "slug": "paildramon",
+  "name": "Paildramon",
+  "nationalPokedexNumber": 2155,
+  "primaryType": "dragon",
+  "secondaryType": "bug",
+  "types": [
+    "dragon",
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 100,
+    "defence": 95,
+    "special_attack": 100,
+    "special_defence": 85,
+    "speed": 55
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "adaptability",
+    "innerfocus"
+  ],
+  "hiddenAbilities": [
+    "ironfist"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.62,
+  "weight": 107,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A DNA Digivolution combining speed and power.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "breakingswipe",
+        "level": 44
+      },
+      {
+        "moveId": "workup",
+        "level": 47
+      },
+      {
+        "moveId": "pinmissile",
+        "level": 50
+      },
+      {
+        "moveId": "discharge",
+        "level": 54
+      },
+      {
+        "moveId": "dragonpulse",
+        "level": 57
+      },
+      {
+        "moveId": "signalbeam",
+        "level": 61
+      },
+      {
+        "moveId": "xscissor",
+        "level": 66
+      },
+      {
+        "moveId": "clangoroussoul",
+        "level": 70
+      },
+      {
+        "moveId": "firstimpression",
+        "level": 75
+      },
+      {
+        "moveId": "outrage",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "stingmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/paildramon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

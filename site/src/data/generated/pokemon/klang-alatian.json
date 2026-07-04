@@ -1,0 +1,285 @@
+{
+  "id": "cobblemon:klang#alatian",
+  "namespace": "cobblemon",
+  "slug": "klang-alatian",
+  "name": "Klang alatian",
+  "nationalPokedexNumber": 600,
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 95,
+    "defence": 80,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 70
+  },
+  "baseStatTotal": 440,
+  "abilities": [
+    "chlorophyll",
+    "motordrive"
+  ],
+  "hiddenAbilities": [
+    "propellertail"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "catchRate": 60,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 510,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 154,
+  "labels": [
+    "gen5"
+  ],
+  "aspects": [
+    "alatian"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "It uses the wind to spin its propeller to produce energy.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "aerialace",
+        "level": 0
+      },
+      {
+        "moveId": "visegrip",
+        "level": 0
+      },
+      {
+        "moveId": "leafage",
+        "level": 0
+      },
+      {
+        "moveId": "bind",
+        "level": 0
+      },
+      {
+        "moveId": "gust",
+        "level": 0
+      },
+      {
+        "moveId": "rollout",
+        "level": 12
+      },
+      {
+        "moveId": "screech",
+        "level": 16
+      },
+      {
+        "moveId": "autotomize",
+        "level": 20
+      },
+      {
+        "moveId": "rapidspin",
+        "level": 22
+      },
+      {
+        "moveId": "bulletseed",
+        "level": 24
+      },
+      {
+        "moveId": "growth",
+        "level": 28
+      },
+      {
+        "moveId": "geargrind",
+        "level": 32
+      },
+      {
+        "moveId": "lockon",
+        "level": 36
+      },
+      {
+        "moveId": "shiftgear",
+        "level": 42
+      },
+      {
+        "moveId": "woodhammer",
+        "level": 48
+      },
+      {
+        "moveId": "acrobatics",
+        "level": 54
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "leafblade"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "solarblade"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:klinkopter",
+      "targetSlug": "klinkopter",
+      "summary": "Usar da_vinci_notes",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": "klink-alatian",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/klang-alatian.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "features": "cobblemon-afp",
+    "forms": "cobblemon-afp"
+  },
+  "formOf": {
+    "slug": "klang",
+    "name": "Klang"
+  },
+  "formName": "alatian"
+}

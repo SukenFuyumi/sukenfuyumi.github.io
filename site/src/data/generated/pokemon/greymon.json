@@ -1,0 +1,209 @@
+{
+  "id": "cobblemon:greymon",
+  "namespace": "cobblemon",
+  "slug": "greymon",
+  "name": "Greymon",
+  "nationalPokedexNumber": 2008,
+  "primaryType": "fire",
+  "secondaryType": null,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 88,
+    "defence": 100,
+    "special_attack": 50,
+    "special_defence": 62,
+    "speed": 32
+  },
+  "baseStatTotal": 410,
+  "abilities": [
+    "blaze",
+    "solidrock"
+  ],
+  "hiddenAbilities": [
+    "sheerforce"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.11,
+  "weight": 107.5,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Dinosaur Digimon whose cranial skin has hardened so that it is covered in a rhinoceros beetle-like shell.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "focusenergy",
+        "level": 25
+      },
+      {
+        "moveId": "ember",
+        "level": 27
+      },
+      {
+        "moveId": "smokescreen",
+        "level": 29
+      },
+      {
+        "moveId": "hornattack",
+        "level": 31
+      },
+      {
+        "moveId": "roar",
+        "level": 33
+      },
+      {
+        "moveId": "firefang",
+        "level": 35
+      },
+      {
+        "moveId": "dragontail",
+        "level": 37
+      },
+      {
+        "moveId": "flameburst",
+        "level": 39
+      },
+      {
+        "moveId": "nobleroar",
+        "level": 41
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:metalgreymon",
+      "targetSlug": "metalgreymon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: steel_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:skullgreymon",
+      "targetSlug": "skullgreymon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: dark_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "dorumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/greymon.png",
+    "placeholderColor": "#EE8130"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_volcanic"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

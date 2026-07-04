@@ -1,0 +1,361 @@
+{
+  "id": "cobblemon:galama",
+  "namespace": "cobblemon",
+  "slug": "galama",
+  "name": "Galama",
+  "nationalPokedexNumber": 1028,
+  "primaryType": "steel",
+  "secondaryType": "normal",
+  "types": [
+    "steel",
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 75,
+    "defence": 100,
+    "special_attack": 75,
+    "special_defence": 100,
+    "speed": 80
+  },
+  "baseStatTotal": 520,
+  "abilities": [
+    "sturdy",
+    "anticipation"
+  ],
+  "hiddenAbilities": [
+    "weakarmor"
+  ],
+  "eggGroups": [
+    "monster"
+  ],
+  "catchRate": 255,
+  "eggCycles": 25,
+  "baseFriendship": 70,
+  "height": 0.25,
+  "weight": 100,
+  "maleRatio": 0.5,
+  "experienceGroup": "fast",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Often mistaken for a simple rock formation, Galama is a remarkably calm Pokémon that possesses a thick, carapace-like plate on its head. This natural helmet is nearly indestructible, allowing Galama to ignore most threats while it rests. It is so relaxed that smaller Pokémon are often seen napping in the shade provided by its metallic head-shell.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 1
+      },
+      {
+        "moveId": "rockthrow",
+        "level": 4
+      },
+      {
+        "moveId": "irondefense",
+        "level": 8
+      },
+      {
+        "moveId": "rockpolish",
+        "level": 12
+      },
+      {
+        "moveId": "headbutt",
+        "level": 16
+      },
+      {
+        "moveId": "ironhead",
+        "level": 20
+      },
+      {
+        "moveId": "bodyslam",
+        "level": 24
+      },
+      {
+        "moveId": "rockslide",
+        "level": 28
+      },
+      {
+        "moveId": "autotomize",
+        "level": 32
+      },
+      {
+        "moveId": "gyroball",
+        "level": 36
+      },
+      {
+        "moveId": "stealthrock",
+        "level": 40
+      },
+      {
+        "moveId": "heavyslam",
+        "level": 44
+      },
+      {
+        "moveId": "stoneedge",
+        "level": 48
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 52
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "rapidspin"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "wideguard"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "heavyslam"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "steelbeam"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "tackle"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "rineshell",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 4
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost",
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/galama.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "rare",
+      "level": "26-40",
+      "timeRange": null,
+      "sourceId": "cobblemon-rlm"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-60",
+      "timeRange": null,
+      "sourceId": "cobblemon-rlm"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-rlm"
+  ],
+  "primarySource": "cobblemon-rlm",
+  "provenance": {
+    "implemented": "cobblemon-rlm",
+    "name": "cobblemon-rlm",
+    "nationalPokedexNumber": "cobblemon-rlm",
+    "labels": "cobblemon-rlm",
+    "pokedex": "cobblemon-rlm",
+    "height": "cobblemon-rlm",
+    "weight": "cobblemon-rlm",
+    "features": "cobblemon-rlm",
+    "shoulderMountable": "cobblemon-rlm",
+    "shoulderEffects": "cobblemon-rlm",
+    "primaryType": "cobblemon-rlm",
+    "secondaryType": "cobblemon-rlm",
+    "baseStats": "cobblemon-rlm",
+    "catchRate": "cobblemon-rlm",
+    "maleRatio": "cobblemon-rlm",
+    "baseExperienceYield": "cobblemon-rlm",
+    "experienceGroup": "cobblemon-rlm",
+    "eggCycles": "cobblemon-rlm",
+    "eggGroups": "cobblemon-rlm",
+    "baseFriendship": "cobblemon-rlm",
+    "evYield": "cobblemon-rlm",
+    "moves": "cobblemon-rlm",
+    "abilities": "cobblemon-rlm",
+    "preEvolution": "cobblemon-rlm",
+    "evolutions": "cobblemon-rlm",
+    "baseScale": "cobblemon-rlm",
+    "hitbox": "cobblemon-rlm",
+    "drops": "cobblemon-rlm",
+    "behaviour": "cobblemon-rlm"
+  }
+}

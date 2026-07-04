@@ -1,0 +1,981 @@
+{
+  "id": "cobblemon:sugareign",
+  "namespace": "cobblemon",
+  "slug": "sugareign",
+  "name": "Sugareign",
+  "nationalPokedexNumber": 15,
+  "primaryType": "bug",
+  "secondaryType": "fairy",
+  "types": [
+    "bug",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 100,
+    "defence": 110,
+    "special_attack": 45,
+    "special_defence": 70,
+    "speed": 80
+  },
+  "baseStatTotal": 485,
+  "abilities": [
+    "mirrorarmor"
+  ],
+  "hiddenAbilities": [
+    "pixilate"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 45,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 12,
+  "weight": 570,
+  "maleRatio": 1,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 253,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [
+    "male"
+  ],
+  "forms": [
+    {
+      "name": "Female",
+      "aspects": [
+        "female"
+      ],
+      "primaryType": "bug",
+      "secondaryType": "fairy",
+      "types": [
+        "bug",
+        "fairy"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 80,
+        "attack": 45,
+        "defence": 110,
+        "special_attack": 105,
+        "special_defence": 60,
+        "speed": 105
+      },
+      "baseStatTotal": 505,
+      "abilities": [
+        "queenlymajesty"
+      ],
+      "hiddenAbilities": [
+        "pixilate"
+      ],
+      "pokedexDescription": "It is said that looking into a Sugareign's eyes can make you inclined to do its bidding. Sugareign tend to rule over small groups of Catertiller and Chivalrough although there are stories of some Sugareign ruling over entire nations of humans. Sugareign love the sweet nectar of Lactarine, and make their subjects collect copius amounts of the sweet substance for them.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "lifedew",
+            "level": 1
+          },
+          {
+            "moveId": "followme",
+            "level": 1
+          },
+          {
+            "moveId": "hypnosis",
+            "level": 1
+          },
+          {
+            "moveId": "fairywind",
+            "level": 1
+          },
+          {
+            "moveId": "bugbite",
+            "level": 10
+          },
+          {
+            "moveId": "faketears",
+            "level": 13
+          },
+          {
+            "moveId": "playrough",
+            "level": 17
+          },
+          {
+            "moveId": "silverwind",
+            "level": 21
+          },
+          {
+            "moveId": "steelwing",
+            "level": 24
+          },
+          {
+            "moveId": "craftyshield",
+            "level": 28
+          },
+          {
+            "moveId": "lunge",
+            "level": 32
+          },
+          {
+            "moveId": "return",
+            "level": 35
+          },
+          {
+            "moveId": "bugbuzz",
+            "level": 39
+          },
+          {
+            "moveId": "dazzlinggleam",
+            "level": 43
+          },
+          {
+            "moveId": "quickguard",
+            "level": 46
+          },
+          {
+            "moveId": "ironhead",
+            "level": 50
+          },
+          {
+            "moveId": "sparklyswirl",
+            "level": 54
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "powder"
+          },
+          {
+            "moveId": "stickyweb"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acrobatics"
+          },
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "airslash"
+          },
+          {
+            "moveId": "alluringvoice"
+          },
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "beatup"
+          },
+          {
+            "moveId": "bodypress"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "bugbite"
+          },
+          {
+            "moveId": "bugbuzz"
+          },
+          {
+            "moveId": "charm"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "disarmingvoice"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "echoedvoice"
+          },
+          {
+            "moveId": "encore"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "fly"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gyroball"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hurricane"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "infestation"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "leechlife"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "lunge"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "mistyterrain"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "pollenpuff"
+          },
+          {
+            "moveId": "pounce"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicnoise"
+          },
+          {
+            "moveId": "quash"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "silverwind"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "skittersmack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "steelbeam"
+          },
+          {
+            "moveId": "steelwing"
+          },
+          {
+            "moveId": "stringshot"
+          },
+          {
+            "moveId": "strugglebug"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "terrainpulse"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "thunderwave"
+          },
+          {
+            "moveId": "triattack"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "twister"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          },
+          {
+            "type": "steel",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "fighting",
+            "multiplier": 0.25
+          },
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ground",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "dragon"
+        ]
+      },
+      "evolutions": [],
+      "slug": "sugareign-female"
+    }
+  ],
+  "pokedexDescription": "It is said that looking into a Sugareign's eyes can make you inclined to do its bidding. Sugareign tend to rule over small groups of Catertiller and Chivalrough although there are stories of some Sugareign ruling over entire nations of humans. Sugareign love the sweet nectar of Lactarine, and make their subjects collect copius amounts of the sweet substance for them.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "feint",
+        "level": 1
+      },
+      {
+        "moveId": "fakeout",
+        "level": 1
+      },
+      {
+        "moveId": "victorydance",
+        "level": 1
+      },
+      {
+        "moveId": "fairywind",
+        "level": 1
+      },
+      {
+        "moveId": "bugbite",
+        "level": 10
+      },
+      {
+        "moveId": "faketears",
+        "level": 13
+      },
+      {
+        "moveId": "playrough",
+        "level": 17
+      },
+      {
+        "moveId": "silverwind",
+        "level": 21
+      },
+      {
+        "moveId": "steelwing",
+        "level": 24
+      },
+      {
+        "moveId": "craftyshield",
+        "level": 28
+      },
+      {
+        "moveId": "lunge",
+        "level": 32
+      },
+      {
+        "moveId": "return",
+        "level": 35
+      },
+      {
+        "moveId": "bugbuzz",
+        "level": 39
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 43
+      },
+      {
+        "moveId": "quickguard",
+        "level": 46
+      },
+      {
+        "moveId": "ironhead",
+        "level": 50
+      },
+      {
+        "moveId": "sparklyswirl",
+        "level": 54
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "powder"
+      },
+      {
+        "moveId": "stickyweb"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "beatup"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "mistyterrain"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "pollenpuff"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "quash"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "silverwind"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "steelbeam"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "terrainpulse"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "triattack"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "chivalrough",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/sugareign.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "common",
+      "level": "33-50",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "common",
+      "level": "33-50",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral"
+      ],
+      "bucket": "common",
+      "level": "33-50",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral"
+      ],
+      "bucket": "common",
+      "level": "33-50",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "name": "lively-mons",
+    "primaryType": "lively-mons",
+    "secondaryType": "lively-mons",
+    "maleRatio": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "pokedex": "lively-mons",
+    "labels": "lively-mons",
+    "aspects": "lively-mons",
+    "abilities": "lively-mons",
+    "eggGroups": "lively-mons",
+    "baseStats": "lively-mons",
+    "evYield": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "catchRate": "lively-mons",
+    "eggCycles": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "behaviour": "lively-mons",
+    "drops": "lively-mons",
+    "moves": "lively-mons",
+    "preEvolution": "lively-mons",
+    "evolutions": "lively-mons",
+    "forms": "lively-mons"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "id": "cobblemon:monzaemon",
+  "namespace": "cobblemon",
+  "slug": "monzaemon",
+  "name": "Monzaemon",
+  "nationalPokedexNumber": 2113,
+  "primaryType": "fairy",
+  "secondaryType": null,
+  "types": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 73,
+    "defence": 102,
+    "special_attack": 73,
+    "special_defence": 102,
+    "speed": 65
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "friendguard",
+    "cutecharm"
+  ],
+  "hiddenAbilities": [
+    "mistysurge"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.51,
+  "weight": 39.01,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A teddy bear Digimon that hides unimaginable power within.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "drainingkiss",
+        "level": 44
+      },
+      {
+        "moveId": "followme",
+        "level": 47
+      },
+      {
+        "moveId": "bodyslam",
+        "level": 50
+      },
+      {
+        "moveId": "substitute",
+        "level": 54
+      },
+      {
+        "moveId": "playrough",
+        "level": 57
+      },
+      {
+        "moveId": "mistyexplosion",
+        "level": 61
+      },
+      {
+        "moveId": "lovelykiss",
+        "level": 66
+      },
+      {
+        "moveId": "protect",
+        "level": 70
+      },
+      {
+        "moveId": "lifedew",
+        "level": 75
+      },
+      {
+        "moveId": "hyperbeam",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "numemon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/monzaemon.png",
+    "placeholderColor": "#D685AD"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:candy_cavity"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

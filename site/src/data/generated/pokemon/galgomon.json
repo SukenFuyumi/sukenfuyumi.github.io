@@ -1,0 +1,215 @@
+{
+  "id": "cobblemon:galgomon",
+  "namespace": "cobblemon",
+  "slug": "galgomon",
+  "name": "Galgomon",
+  "nationalPokedexNumber": 9003,
+  "primaryType": "steel",
+  "secondaryType": "normal",
+  "types": [
+    "steel",
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 90,
+    "defence": 40,
+    "special_attack": 55,
+    "special_defence": 40,
+    "speed": 105
+  },
+  "baseStatTotal": 400,
+  "abilities": [
+    "windrider",
+    "quickdraw"
+  ],
+  "hiddenAbilities": [
+    "skilllink"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.7,
+  "weight": 105.23,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Beast Man Digimon that evolves from Terriermon and excels as a Hunter with precise attacks and agile movements.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "metalclaw",
+        "level": 25
+      },
+      {
+        "moveId": "pound",
+        "level": 27
+      },
+      {
+        "moveId": "charm",
+        "level": 29
+      },
+      {
+        "moveId": "cometpunch",
+        "level": 31
+      },
+      {
+        "moveId": "bulletpunch",
+        "level": 33
+      },
+      {
+        "moveId": "metalsound",
+        "level": 35
+      },
+      {
+        "moveId": "mirrorshot",
+        "level": 37
+      },
+      {
+        "moveId": "block",
+        "level": 39
+      },
+      {
+        "moveId": "bulletseed",
+        "level": 41
+      },
+      {
+        "moveId": "heavyslam",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:rapidmon",
+      "targetSlug": "rapidmon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: steel_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "terriermon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 4
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost",
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/galgomon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "secondaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

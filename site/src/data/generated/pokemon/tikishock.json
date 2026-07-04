@@ -1,0 +1,351 @@
+{
+  "id": "cobblemon:tikishock",
+  "namespace": "cobblemon",
+  "slug": "tikishock",
+  "name": "Tikishock",
+  "nationalPokedexNumber": 1227,
+  "primaryType": "electric",
+  "secondaryType": "fighting",
+  "types": [
+    "electric",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 57,
+    "attack": 81,
+    "defence": 63,
+    "special_attack": 76,
+    "special_defence": 71,
+    "speed": 99
+  },
+  "baseStatTotal": 447,
+  "abilities": [
+    "static",
+    "lightningrod"
+  ],
+  "hiddenAbilities": [
+    "speedboost"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 100,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 83,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 170,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "When its body is charged with electricity, it releases it in an instant by sprinting at high speed or by throwing a powerful punch.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "nuzzle",
+        "level": 0
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 0
+      },
+      {
+        "moveId": "charge",
+        "level": 0
+      },
+      {
+        "moveId": "doubleslap",
+        "level": 0
+      },
+      {
+        "moveId": "armthrust",
+        "level": 5
+      },
+      {
+        "moveId": "spark",
+        "level": 8
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 12
+      },
+      {
+        "moveId": "rage",
+        "level": 16
+      },
+      {
+        "moveId": "machpunch",
+        "level": 20
+      },
+      {
+        "moveId": "thunderpunch",
+        "level": 24
+      },
+      {
+        "moveId": "submission",
+        "level": 28
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 32
+      },
+      {
+        "moveId": "crunch",
+        "level": 36
+      },
+      {
+        "moveId": "thunderbolt",
+        "level": 40
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "circlethrow"
+      },
+      {
+        "moveId": "iondeluge"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "quickguard"
+      },
+      {
+        "moveId": "ragingfury"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "dynamicpunch"
+      },
+      {
+        "moveId": "electroball"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "nightslash"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "poweruppunch"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "voltswitch"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:ursashock",
+      "targetSlug": "ursashock",
+      "summary": "Nivel · Amistad 160+",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "bibishock",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/tikishock.png",
+    "placeholderColor": "#F7D02C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_taiga"
+      ],
+      "bucket": "uncommon",
+      "level": "30-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_spooky"
+      ],
+      "bucket": "uncommon",
+      "level": "30-50",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "preEvolution": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "id": "cobblemon:drakoon_alatia",
+  "namespace": "cobblemon",
+  "slug": "drakoon-alatia",
+  "name": "Drakoon_alatia",
+  "nationalPokedexNumber": 1300,
+  "primaryType": "bug",
+  "secondaryType": "steel",
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "baseStats": {
+    "hp": 20,
+    "attack": 10,
+    "defence": 200,
+    "special_attack": 10,
+    "special_defence": 200,
+    "speed": 10
+  },
+  "baseStatTotal": 450,
+  "abilities": [
+    "gluttony",
+    "shedskin"
+  ],
+  "hiddenAbilities": [
+    "flashfire"
+  ],
+  "eggGroups": [
+    "bug",
+    "dragon"
+  ],
+  "catchRate": 45,
+  "eggCycles": 40,
+  "baseFriendship": 50,
+  "height": 22,
+  "weight": 1266,
+  "maleRatio": 0.5,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "In this stage it doesn't show any signs of life, the exoskeleton is so thick and hard that nothing can scratch it.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "stockpile",
+        "level": 0
+      },
+      {
+        "moveId": "swallow",
+        "level": 0
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "firstimpression"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "hornleech"
+      },
+      {
+        "moveId": "rapidspin"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:drakoceros",
+      "targetSlug": "drakoceros",
+      "summary": "Nivel · Nv. 60",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "dralyura",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 4
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/drakoon-alatia.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_lush"
+      ],
+      "bucket": "ultra-rare",
+      "level": "24-47",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "ai": "cobblemon-afp",
+    "riding": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "preEvolution": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

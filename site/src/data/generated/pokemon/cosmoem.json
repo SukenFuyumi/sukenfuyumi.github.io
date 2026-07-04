@@ -1,0 +1,150 @@
+{
+  "id": "cobblemon:cosmoem",
+  "namespace": "cobblemon",
+  "slug": "cosmoem",
+  "name": "Cosmoem",
+  "nationalPokedexNumber": 790,
+  "primaryType": "psychic",
+  "secondaryType": null,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 43,
+    "attack": 29,
+    "defence": 131,
+    "special_attack": 29,
+    "special_defence": 131,
+    "speed": 37
+  },
+  "baseStatTotal": 400,
+  "abilities": [
+    "sturdy"
+  ],
+  "hiddenAbilities": [
+    "sturdy"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 3,
+  "eggCycles": 120,
+  "baseFriendship": 0,
+  "height": 1,
+  "weight": 9999,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 140,
+  "labels": [
+    "gen7",
+    "legendary",
+    "restricted"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "As it absorbs light, Cosmoem continues to grow. Its golden shell is surprisingly solid.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "cosmicpower",
+        "level": 1
+      },
+      {
+        "moveId": "teleport",
+        "level": 1
+      },
+      {
+        "moveId": "splash",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "cosmicpower"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:solgaleo",
+      "targetSlug": "solgaleo",
+      "summary": "Nivel · Nv. 53 · De día",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:lunala",
+      "targetSlug": "lunala",
+      "summary": "Nivel · Nv. 53 · De noche",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "cosmog",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/790.png"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "mega-showdown"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "mega-showdown",
+    "hitbox": "mega-showdown",
+    "moves": "cobblemon-core",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "implemented": "mega-showdown"
+  }
+}

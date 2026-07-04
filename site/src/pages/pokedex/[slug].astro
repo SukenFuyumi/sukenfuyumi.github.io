@@ -1,0 +1,332 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import MonImage from "../../components/MonImage.astro";
+import MoveRow from "../../components/MoveRow.astro";
+import EvolutionChain from "../../components/EvolutionChain.astro";
+import PokedexSidebar from "../../components/PokedexSidebar.tsx";
+import movesData from "../../data/generated/moves.json";
+import abilitiesData from "../../data/generated/abilities.json";
+import sourcesData from "../../data/generated/sources.json";
+
+export async function getStaticPaths() {
+  const files = import.meta.glob("../../data/generated/pokemon/*.json", { eager: true });
+  return Object.values(files).map((mod: any) => {
+    const p = mod.default;
+    return { params: { slug: p.slug }, props: { p } };
+  });
+}
+
+const { p } = Astro.props as { p: any };
+const moveLookup = new Map(movesData.map((m: any) => [m.id, m]));
+const abilityLookup = new Map(abilitiesData.map((a: any) => [a.id, a]));
+const sourceLookup = new Map(sourcesData.sources.map((s: any) => [s.id, s.label]));
+
+// Value-based gradient like pokemondb's stat bars: weak stats read red, great stats read green.
+function statColor(value: number): string {
+  const pct = Math.max(0, Math.min(1, value / 180));
+  const hue = pct * 120;
+  return `hsl(${hue}, 68%, 45%)`;
+}
+
+const files = import.meta.glob("../../data/generated/pokemon/*.json", { eager: true });
+const allBySlug = new Map<string, any>();
+for (const mod of Object.values(files) as any[]) allBySlug.set(mod.default.slug, mod.default);
+
+// Walk to the root of the evolution family, then render forward from there.
+function findRoot(mon: any): any {
+  let current = mon;
+  let guard = 0;
+  while (current.evolvesFrom && allBySlug.has(current.evolvesFrom) && guard++ < 10) {
+    current = allBySlug.get(current.evolvesFrom);
+  }
+  return current;
+}
+const root = findRoot(p);
+
+const statLabels: Record<string, string> = {
+  hp: "PS",
+  attack: "Ataque",
+  defence: "Defensa",
+  special_attack: "At. Esp.",
+  special_defence: "Def. Esp.",
+  speed: "Velocidad",
+};
+const maxStat = 255;
+
+const moveCategories: { key: string; label: string }[] = [
+  { key: "levelUp", label: "Nivel" },
+  { key: "egg", label: "Huevo" },
+  { key: "tm", label: "MT" },
+  { key: "tutor", label: "Tutor" },
+  { key: "legacy", label: "Legado" },
+  { key: "other", label: "Otros" },
+];
+const nonEmptyCategories = moveCategories.filter((c) => p.moveset[c.key]?.length);
+
+const baseRecord = p.formOf ? allBySlug.get(p.formOf.slug) : null;
+const siblingForms = baseRecord ? baseRecord.forms.filter((f: any) => f.slug && f.slug !== p.slug) : [];
+---
+<Layout title={p.name} description={p.pokedexDescription ?? undefined}>
+  <div class="pdx-layout">
+    <PokedexSidebar client:load currentSlug={p.slug} />
+    <div class="pdx-main">
+  <div class="breadcrumb">
+    <a href="/pokedex">Pokédex</a> &rsaquo;
+    {p.formOf && <> <a href={`/pokedex/${p.formOf.slug}`}>{p.formOf.name}</a> &rsaquo;</>}
+    {p.name}
+  </div>
+
+  <div class="pdx-detail-grid">
+    <div class="pdx-detail-left">
+      <div class="panel detail-header stacked">
+        <div class="art">
+          <MonImage image={p.image} name={p.name} size={84} />
+        </div>
+        <div>
+          <h1 style="margin-bottom:0.15rem; font-size:1.2rem;">{p.name} {p.nationalPokedexNumber && <span style="color:var(--text-muted); font-weight:400;">#{p.nationalPokedexNumber}</span>}</h1>
+          <div style="margin-bottom:0.3rem;">
+            {p.types.map((t: string) => (
+              <a href={`/type/${t}`} class="type-badge" style={`background: var(--type-${t}); margin-right:0.3rem;`}>{t}</a>
+            ))}
+          </div>
+          <p class="pdx-description">{p.pokedexDescription}</p>
+          <div style="display:flex; flex-wrap:wrap; gap:0.3rem; margin-top:0.3rem;">
+            {p.sourceMods.map((s: string) => (
+              <span class={`pill ${s === "cobblemon-core" ? "official" : ""}`}>{sourceLookup.get(s) ?? s}</span>
+            ))}
+          </div>
+          <p class="pdx-quickfacts">
+            {p.height ? `${(p.height / 10).toFixed(2).replace(/0+$/, "").replace(/\.$/, "")} m` : "—"} ·{" "}
+            {p.weight ? `${(p.weight / 10).toFixed(2).replace(/0+$/, "").replace(/\.$/, "")} kg` : "—"} ·{" "}
+            {p.eggGroups.join(", ") || "—"} · Captura {p.catchRate ?? "—"} · Amistad {p.baseFriendship ?? "—"}
+          </p>
+        </div>
+      </div>
+
+      <div class="panel panel-abilities">
+        <h2 style="margin-top:0;">Habilidades</h2>
+        <ul class="abilities-scroll" style="list-style:none; padding:0; margin:0;">
+          {[
+            ...p.abilities.map((a: string) => ({ id: a, hidden: false })),
+            ...p.hiddenAbilities.map((a: string) => ({ id: a, hidden: true })),
+          ].map(({ id, hidden }: { id: string; hidden: boolean }) => {
+            const ab: any = abilityLookup.get(id);
+            const immunity = ab?.immuneTo ?? [];
+            return (
+              <li style="margin-bottom:0.65rem;">
+                <a href={`/abilities/${id}`} style="font-weight:700;">{ab?.name ?? id}</a>
+                {hidden && <span class="pill">oculta</span>}
+                {immunity[0] === "*" && <span class="pill override">inmune salvo a supereficaces</span>}
+                {immunity.length > 0 && immunity[0] !== "*" && immunity.map((t: string) => (
+                  <a href={`/type/${t}`} class="type-badge" style={`background:var(--type-${t}); margin-left:0.25rem;`}>inmune: {t}</a>
+                ))}
+                {(ab?.desc || ab?.shortDesc) && (
+                  <p style="font-size:0.82rem; color:var(--text-muted); margin:0.15rem 0 0;">{ab.desc || ab.shortDesc}</p>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+
+      <div class="panel panel-stats">
+        <h2 style="margin-top:0;">Estadísticas base</h2>
+        {Object.entries(p.baseStats).map(([stat, value]: [string, any]) => (
+          <div class="stat-row">
+            <span>{statLabels[stat] ?? stat}</span>
+            <strong style={`color:${statColor(value)}`}>{value}</strong>
+            <div class="stat-bar"><span style={`width:${Math.min(100, (value / maxStat) * 100)}%; background:${statColor(value)};`}></span></div>
+          </div>
+        ))}
+        <div class="stat-row"><span>Total</span><strong>{p.baseStatTotal}</strong><span></span></div>
+      </div>
+    </div>
+
+    <div class="pdx-detail-right">
+      <div class="panel panel-moves">
+        <h2 style="margin-top:0;">Movimientos</h2>
+        <div class="tabs" data-tabs>
+          {nonEmptyCategories.map((c, i) => (
+            <button type="button" data-tab-btn={c.key} class={i === 0 ? "active" : ""}>{c.label} ({p.moveset[c.key].length})</button>
+          ))}
+        </div>
+        <div class="pdx-moveset-scroll">
+          {nonEmptyCategories.map((c, i) => (
+            <div data-tab-panel={c.key} hidden={i !== 0}>
+              <table>
+                <thead>
+                  <tr>
+                    {c.key === "levelUp" && <th>Nv.</th>}
+                    <th>Movimiento</th>
+                    <th>Tipo</th>
+                    <th>Cat.</th>
+                    <th>Poder</th>
+                    <th>Prec.</th>
+                    <th>PP</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {p.moveset[c.key].map((entry: any) => (
+                    <MoveRow level={c.key === "levelUp" ? entry.level : undefined} move={moveLookup.get(entry.moveId)} moveId={entry.moveId} />
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div class="panel panel-defenses">
+        <h2 style="margin-top:0;">Defensas por tipo</h2>
+        <div class="defenses-row">
+          <div class="defenses-col">
+            <h3>Débil a</h3>
+            <div class="matchup-grid">
+              {p.matchup.weakTo.length ? p.matchup.weakTo.map((m: any) => (
+                <span class="entry"><a href={`/type/${m.type}`} class="type-badge" style={`background:var(--type-${m.type})`}>{m.type}</a><span class="mult">×{m.multiplier}</span></span>
+              )) : <span style="color:var(--text-muted);">Ninguna</span>}
+            </div>
+          </div>
+          <div class="defenses-col">
+            <h3>Resiste</h3>
+            <div class="matchup-grid">
+              {p.matchup.resists.length ? p.matchup.resists.map((m: any) => (
+                <span class="entry"><a href={`/type/${m.type}`} class="type-badge" style={`background:var(--type-${m.type})`}>{m.type}</a><span class="mult">×{m.multiplier}</span></span>
+              )) : <span style="color:var(--text-muted);">Ninguna</span>}
+            </div>
+          </div>
+          <div class="defenses-col">
+            <h3>Inmune a</h3>
+            <div class="matchup-grid">
+              {p.matchup.immuneTo.length ? p.matchup.immuneTo.map((t: string) => (
+                <a href={`/type/${t}`} class="type-badge" style={`background:var(--type-${t})`}>{t}</a>
+              )) : <span style="color:var(--text-muted);">Ninguna</span>}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {p.formOf && (
+    <div class="panel" style="margin-top:1.25rem;">
+      <h2 style="margin-top:0;">Forma de</h2>
+      <a class="mon-card" style="display:inline-block; width:130px;" href={`/pokedex/${baseRecord.slug}`}>
+        <MonImage image={baseRecord.image} name={baseRecord.name} size={72} />
+        <div class="mon-name">{baseRecord.name}</div>
+        <div class="dex-num">Ver ficha base</div>
+      </a>
+      {siblingForms.length > 0 && (
+        <>
+          <h3>Otras formas de {baseRecord.name}</h3>
+          <div class="grid">
+            {siblingForms.map((f: any) => (
+              <a class="mon-card" href={`/pokedex/${f.slug}`}>
+                <MonImage image={allBySlug.get(f.slug)?.image ?? baseRecord.image} name={f.name} size={64} />
+                <div class="mon-name">{baseRecord.name} {f.name}</div>
+              </a>
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  )}
+
+  {p.forms.length > 0 && (
+    <div class="panel" style="margin-top:1.25rem;">
+      <h2 style="margin-top:0;">Otras formas / Megas ({p.forms.length})</h2>
+      <div class="grid">
+        {p.forms.map((f: any) => (
+          <a class="mon-card" href={f.slug ? `/pokedex/${f.slug}` : "#"}>
+            <MonImage image={allBySlug.get(f.slug)?.image ?? p.image} name={f.name} size={72} />
+            <div class="mon-name">{p.name} {f.name}</div>
+            <div style="margin:0.2rem 0;">
+              {f.types.map((t: string) => <span class="type-badge" style={`background:var(--type-${t}); margin-right:0.15rem;`}>{t}</span>)}
+            </div>
+            {f.baseStatTotal && <div class="dex-num">Total: {f.baseStatTotal}</div>}
+            {f.battleOnly && <span class="pill">solo en combate</span>}
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
+
+  {(root.slug !== p.slug || root.evolutions.length > 0) && (
+    <div class="panel" style="margin-top:1.25rem;">
+      <h2 style="margin-top:0;">Cadena evolutiva</h2>
+      <EvolutionChain root={root} allBySlug={allBySlug} currentSlug={p.slug} />
+    </div>
+  )}
+
+  {p.spawnInfo.length > 0 && (
+    <div class="panel" style="margin-top:1.25rem;">
+      <h2 style="margin-top:0;">Dónde encontrarlo en el servidor</h2>
+      <table>
+        <thead><tr><th>Biomas</th><th>Rareza</th><th>Nivel</th><th>Horario</th></tr></thead>
+        <tbody>
+          {p.spawnInfo.map((s: any) => (
+            <tr>
+              <td style="font-size:0.82rem;">{s.biomes.map((b: string) => b.replace(/^#?cobblemon:|^#?minecraft:|^#?is_/, "")).join(", ") || "—"}</td>
+              <td>{s.bucket ?? "—"}</td>
+              <td>{s.level ?? "—"}</td>
+              <td>{s.timeRange ?? "cualquiera"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )}
+    </div>
+  </div>
+</Layout>
+
+<script>
+  document.querySelectorAll<HTMLElement>("[data-tabs]").forEach((tabs) => {
+    tabs.querySelectorAll<HTMLButtonElement>("[data-tab-btn]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const key = btn.dataset.tabBtn;
+        tabs.querySelectorAll("[data-tab-btn]").forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        const parent = tabs.parentElement!;
+        parent.querySelectorAll<HTMLElement>("[data-tab-panel]").forEach((panel) => {
+          panel.hidden = panel.dataset.tabPanel !== key;
+        });
+      });
+    });
+  });
+
+  // Hover tooltip for move descriptions. Built as a body-level fixed element
+  // (rather than a CSS-only ::after tooltip) so it never gets clipped by the
+  // scrollable .pdx-moveset-scroll container.
+  const moveTooltip = document.createElement("div");
+  moveTooltip.className = "move-tooltip";
+  document.body.appendChild(moveTooltip);
+
+  function positionMoveTooltip(e: MouseEvent) {
+    const pad = 14;
+    let x = e.clientX + pad;
+    let y = e.clientY + pad;
+    const rect = moveTooltip.getBoundingClientRect();
+    if (x + rect.width > window.innerWidth - 8) x = e.clientX - rect.width - pad;
+    if (y + rect.height > window.innerHeight - 8) y = e.clientY - rect.height - pad;
+    moveTooltip.style.left = `${Math.max(8, x)}px`;
+    moveTooltip.style.top = `${Math.max(8, y)}px`;
+  }
+
+  document.addEventListener("mouseover", (e) => {
+    const target = (e.target as HTMLElement).closest<HTMLElement>(".move-name[data-move-desc]");
+    if (!target) return;
+    moveTooltip.textContent = target.dataset.moveDesc ?? "";
+    moveTooltip.classList.add("visible");
+    positionMoveTooltip(e);
+  });
+  document.addEventListener("mousemove", (e) => {
+    if (moveTooltip.classList.contains("visible")) positionMoveTooltip(e);
+  });
+  document.addEventListener("mouseout", (e) => {
+    if ((e.target as HTMLElement).closest<HTMLElement>(".move-name[data-move-desc]")) {
+      moveTooltip.classList.remove("visible");
+    }
+  });
+</script>

@@ -1,0 +1,331 @@
+{
+  "id": "cobblemon:shinx#alatian",
+  "namespace": "cobblemon",
+  "slug": "shinx-alatian",
+  "name": "Shinx alatian",
+  "nationalPokedexNumber": 403,
+  "primaryType": "ground",
+  "secondaryType": "fairy",
+  "types": [
+    "ground",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 40,
+    "defence": 34,
+    "special_attack": 65,
+    "special_defence": 34,
+    "speed": 45
+  },
+  "baseStatTotal": 263,
+  "abilities": [
+    "sandstream",
+    "stamina"
+  ],
+  "hiddenAbilities": [
+    "tintedlens"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 235,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 5,
+  "weight": 95,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 53,
+  "labels": [
+    "gen4"
+  ],
+  "aspects": [
+    "alatian"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "It can manipulate the light with the lens on its tail, creating mirages.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 0
+      },
+      {
+        "moveId": "leer",
+        "level": 0
+      },
+      {
+        "moveId": "mudshot",
+        "level": 4
+      },
+      {
+        "moveId": "tailglow",
+        "level": 8
+      },
+      {
+        "moveId": "disarmingvoice",
+        "level": 12
+      },
+      {
+        "moveId": "mudslap",
+        "level": 16
+      },
+      {
+        "moveId": "roar",
+        "level": 20
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 24
+      },
+      {
+        "moveId": "scaryface",
+        "level": 28
+      },
+      {
+        "moveId": "spikes",
+        "level": 32
+      },
+      {
+        "moveId": "craftyshield",
+        "level": 36
+      },
+      {
+        "moveId": "moonblast",
+        "level": 40
+      },
+      {
+        "moveId": "solarbeam",
+        "level": 44
+      },
+      {
+        "moveId": "earthpower",
+        "level": 48
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "howl"
+      },
+      {
+        "moveId": "moonlight"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "barrier"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "poisonfang"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "slash"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "vacuumwave"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:luxio",
+      "targetSlug": "luxio-alatian",
+      "summary": "Nivel · Nv. 15 · variante alatian",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon",
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/shinx-alatian.png",
+    "placeholderColor": "#E2BF65"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-afp",
+    "cobblemon-rlm",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "features": "cobblemon-rlm",
+    "forms": "cobblemon-rlm"
+  },
+  "formOf": {
+    "slug": "shinx",
+    "name": "Shinx"
+  },
+  "formName": "alatian"
+}

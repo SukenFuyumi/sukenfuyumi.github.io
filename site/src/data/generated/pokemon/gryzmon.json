@@ -1,0 +1,191 @@
+{
+  "id": "cobblemon:gryzmon",
+  "namespace": "cobblemon",
+  "slug": "gryzmon",
+  "name": "Gryzmon",
+  "nationalPokedexNumber": 2135,
+  "primaryType": "fighting",
+  "secondaryType": null,
+  "types": [
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 88,
+    "defence": 70,
+    "special_attack": 35,
+    "special_defence": 60,
+    "speed": 62
+  },
+  "baseStatTotal": 385,
+  "abilities": [
+    "guts",
+    "quickfeet"
+  ],
+  "hiddenAbilities": [
+    "angerpoint"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.6,
+  "weight": 116.12,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A ferocious bear Digimon that bellows to cow foes.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "howl",
+        "level": 25
+      },
+      {
+        "moveId": "furyswipes",
+        "level": 27
+      },
+      {
+        "moveId": "forcepalm",
+        "level": 29
+      },
+      {
+        "moveId": "crushclaw",
+        "level": 31
+      },
+      {
+        "moveId": "lowsweep",
+        "level": 33
+      },
+      {
+        "moveId": "fakeout",
+        "level": 35
+      },
+      {
+        "moveId": "slash",
+        "level": 37
+      },
+      {
+        "moveId": "counter",
+        "level": 39
+      },
+      {
+        "moveId": "heavyslam",
+        "level": 41
+      },
+      {
+        "moveId": "rest",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:cerberumon",
+      "targetSlug": "cerberumon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: dark_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "gabumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/gryzmon.png",
+    "placeholderColor": "#C22E28"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

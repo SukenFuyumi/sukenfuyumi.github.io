@@ -1,0 +1,487 @@
+{
+  "id": "cobblemon:koffing#Volcanic",
+  "namespace": "cobblemon",
+  "slug": "koffing-volcanic",
+  "name": "Koffing Volcanic",
+  "nationalPokedexNumber": 109,
+  "primaryType": "poison",
+  "secondaryType": "fire",
+  "types": [
+    "poison",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 60,
+    "defence": 95,
+    "special_attack": 65,
+    "special_defence": 45,
+    "speed": 35
+  },
+  "baseStatTotal": 340,
+  "abilities": [
+    "levitate",
+    "neutralizinggas"
+  ],
+  "hiddenAbilities": [
+    "flamebody"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 10,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 68,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "aspects": [
+    "volcanic"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "This regional variant lives near lava lakes, feeding on it to emit sulfur and toxic gases.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "poisongas",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "ember",
+        "level": 4
+      },
+      {
+        "moveId": "smokescreen",
+        "level": 8
+      },
+      {
+        "moveId": "clearsmog",
+        "level": 12
+      },
+      {
+        "moveId": "assurance",
+        "level": 16
+      },
+      {
+        "moveId": "flamewheel",
+        "level": 20
+      },
+      {
+        "moveId": "firespin",
+        "level": 24
+      },
+      {
+        "moveId": "selfdestruct",
+        "level": 28
+      },
+      {
+        "moveId": "sludgebomb",
+        "level": 32
+      },
+      {
+        "moveId": "toxic",
+        "level": 36
+      },
+      {
+        "moveId": "lavaplume",
+        "level": 40
+      },
+      {
+        "moveId": "explosion",
+        "level": 44
+      },
+      {
+        "moveId": "flareblitz",
+        "level": 48
+      },
+      {
+        "moveId": "eruption",
+        "level": 52
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "flamecharge"
+      },
+      {
+        "moveId": "grudge"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "spitup"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "stockpile"
+      },
+      {
+        "moveId": "swallow"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "corrosivegas"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fireblast"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "firespin"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "heatcrash"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "toxicspikes"
+      },
+      {
+        "moveId": "venomdrench"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "willowisp"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "corrosivegas"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "thunderbolt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "zapcannon"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:weegma",
+      "targetSlug": "weegma",
+      "summary": "Nivel · Nv. 35",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 4
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/koffing-volcanic.png",
+    "placeholderColor": "#A33EA1"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "fanmade-form-funfair"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "features": "fanmade-form-funfair",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "fanmade-form-funfair"
+  },
+  "formOf": {
+    "slug": "koffing",
+    "name": "Koffing"
+  },
+  "formName": "Volcanic"
+}

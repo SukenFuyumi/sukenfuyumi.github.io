@@ -1,0 +1,182 @@
+{
+  "id": "cobblemon:thetismon",
+  "namespace": "cobblemon",
+  "slug": "thetismon",
+  "name": "Thetismon",
+  "nationalPokedexNumber": 2036,
+  "primaryType": "water",
+  "secondaryType": "electric",
+  "types": [
+    "water",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 116,
+    "defence": 74,
+    "special_attack": 64,
+    "special_defence": 102,
+    "speed": 72
+  },
+  "baseStatTotal": 523,
+  "abilities": [
+    "naturalcure",
+    "ironfist"
+  ],
+  "hiddenAbilities": [
+    "motordrive"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.21,
+  "weight": 69,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "An Aquatic Beast Man Digimon which has the appearance of a woman, records show that it was discovered in the deepest trenches of the Net Ocean, the birthplace of Digimon.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "teleport",
+        "level": 44
+      },
+      {
+        "moveId": "magneticflux",
+        "level": 47
+      },
+      {
+        "moveId": "brine",
+        "level": 50
+      },
+      {
+        "moveId": "thunderpunch",
+        "level": 54
+      },
+      {
+        "moveId": "brickbreak",
+        "level": 57
+      },
+      {
+        "moveId": "jetpunch",
+        "level": 61
+      },
+      {
+        "moveId": "eerieimpulse",
+        "level": 66
+      },
+      {
+        "moveId": "liquidation",
+        "level": 70
+      },
+      {
+        "moveId": "lifedew",
+        "level": 75
+      },
+      {
+        "moveId": "wavecrash",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "teslajellymon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "steel",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/thetismon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_lukewarm_ocean",
+        "#cobblemon:is_lush",
+        "#cobblemon:is_coast",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

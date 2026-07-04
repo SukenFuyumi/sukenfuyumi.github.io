@@ -1,0 +1,203 @@
+{
+  "id": "cobblemon:octmon",
+  "namespace": "cobblemon",
+  "slug": "octmon",
+  "name": "Octmon",
+  "nationalPokedexNumber": 2107,
+  "primaryType": "water",
+  "secondaryType": "rock",
+  "types": [
+    "water",
+    "rock"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 80,
+    "special_attack": 90,
+    "special_defence": 60,
+    "speed": 30
+  },
+  "baseStatTotal": 400,
+  "abilities": [
+    "suctioncups",
+    "pickup"
+  ],
+  "hiddenAbilities": [
+    "battlearmor"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.7,
+  "weight": 79.38,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A pirate-themed octopus Digimon that fires metal shells.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "watergun",
+        "level": 25
+      },
+      {
+        "moveId": "thief",
+        "level": 27
+      },
+      {
+        "moveId": "stockpile",
+        "level": 29
+      },
+      {
+        "moveId": "swallow",
+        "level": 31
+      },
+      {
+        "moveId": "spitup",
+        "level": 33
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 35
+      },
+      {
+        "moveId": "brine",
+        "level": 37
+      },
+      {
+        "moveId": "sludge",
+        "level": 39
+      },
+      {
+        "moveId": "rockpolish",
+        "level": 41
+      },
+      {
+        "moveId": "octazooka",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:marinedevimon",
+      "targetSlug": "marinedevimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: dark_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "shakomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 4
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.25
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/octmon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_ocean",
+        "#cobblemon:is_coast"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

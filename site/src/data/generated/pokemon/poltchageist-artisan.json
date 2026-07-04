@@ -1,0 +1,351 @@
+{
+  "id": "cobblemon:poltchageist#Artisan",
+  "namespace": "cobblemon",
+  "slug": "poltchageist-artisan",
+  "name": "Poltchageist Artisan",
+  "nationalPokedexNumber": 1012,
+  "primaryType": "grass",
+  "secondaryType": "ghost",
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 45,
+    "special_attack": 74,
+    "special_defence": 54,
+    "speed": 50
+  },
+  "baseStatTotal": 308,
+  "abilities": [
+    "hospitality"
+  ],
+  "hiddenAbilities": [
+    "heatproof"
+  ],
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 1,
+  "weight": 11,
+  "maleRatio": -1,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 62,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [
+    "artisan"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "It sprinkles some of its powdery body onto food and drains the life-force from those who so much as lick it.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "stunspore",
+        "level": 1
+      },
+      {
+        "moveId": "withdraw",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "absorb",
+        "level": 6
+      },
+      {
+        "moveId": "lifedew",
+        "level": 12
+      },
+      {
+        "moveId": "foulplay",
+        "level": 18
+      },
+      {
+        "moveId": "megadrain",
+        "level": 24
+      },
+      {
+        "moveId": "hex",
+        "level": 30
+      },
+      {
+        "moveId": "ragepowder",
+        "level": 36
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 42
+      },
+      {
+        "moveId": "spiritdrain",
+        "level": 46
+      },
+      {
+        "moveId": "shadowball",
+        "level": 48
+      },
+      {
+        "moveId": "memento",
+        "level": 54
+      },
+      {
+        "moveId": "leafstorm",
+        "level": 60
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "phantomforce"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "spiritdrain"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:sinistcha",
+      "targetSlug": "sinistcha",
+      "summary": "Usar masterpiece_teacup · variante matcha_authenticity=masterpiece",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/poltchageist-artisan.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core",
+    "behaviour": "cobblemon-core"
+  },
+  "formOf": {
+    "slug": "poltchageist",
+    "name": "Poltchageist"
+  },
+  "formName": "Artisan"
+}

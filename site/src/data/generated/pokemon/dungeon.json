@@ -1,0 +1,306 @@
+{
+  "id": "cobblemon:dungeon",
+  "namespace": "cobblemon",
+  "slug": "dungeon",
+  "name": "Dungeon",
+  "nationalPokedexNumber": 2012,
+  "primaryType": "ground",
+  "secondaryType": null,
+  "types": [
+    "ground"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 115,
+    "defence": 100,
+    "special_attack": 70,
+    "special_defence": 75,
+    "speed": 60
+  },
+  "baseStatTotal": 495,
+  "abilities": [
+    "arenatrap",
+    "owntempo"
+  ],
+  "hiddenAbilities": [
+    "moldbreaker"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 35,
+  "height": 11,
+  "weight": 300,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 184,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Dungeon lurk in the deepest depths of the caves, where some trainers may never step foot, the lantern hanging from their tail can be used as a lure for other Pokemon that lurk within the dark.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 1
+      },
+      {
+        "moveId": "sandtomb",
+        "level": 5
+      },
+      {
+        "moveId": "sandstorm",
+        "level": 8
+      },
+      {
+        "moveId": "mudslap",
+        "level": 12
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 14
+      },
+      {
+        "moveId": "dig",
+        "level": 17
+      },
+      {
+        "moveId": "bulldoze",
+        "level": 22
+      },
+      {
+        "moveId": "ancientpower",
+        "level": 24
+      },
+      {
+        "moveId": "earthpower",
+        "level": 26
+      },
+      {
+        "moveId": "mudshot",
+        "level": 30
+      },
+      {
+        "moveId": "rockblast",
+        "level": 34
+      },
+      {
+        "moveId": "sludgebomb",
+        "level": 37
+      },
+      {
+        "moveId": "substitute",
+        "level": 37
+      },
+      {
+        "moveId": "gigaimpact",
+        "level": 40
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 43
+      },
+      {
+        "moveId": "rocktomb",
+        "level": 50
+      },
+      {
+        "moveId": "rockslide",
+        "level": 54
+      },
+      {
+        "moveId": "bonerush",
+        "level": 57
+      },
+      {
+        "moveId": "bonemerang",
+        "level": 60
+      },
+      {
+        "moveId": "stoneedge",
+        "level": 67
+      },
+      {
+        "moveId": "stompingtantrum",
+        "level": 73
+      },
+      {
+        "moveId": "fissure",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dragonhammer"
+      },
+      {
+        "moveId": "drillrun"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "followme"
+      },
+      {
+        "moveId": "grudge"
+      },
+      {
+        "moveId": "harden"
+      },
+      {
+        "moveId": "headlongrush"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "meanlook"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "nightslash"
+      },
+      {
+        "moveId": "recover"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "throatchop"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "eevee",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/dungeon.png",
+    "placeholderColor": "#E2BF65"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_badlands"
+      ],
+      "bucket": "ultra-rare",
+      "level": "18-40",
+      "timeRange": null,
+      "sourceId": "extra-eeveelutions"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_abyss"
+      ],
+      "bucket": "rare",
+      "level": "18-40",
+      "timeRange": null,
+      "sourceId": "extra-eeveelutions"
+    }
+  ],
+  "sourceMods": [
+    "extra-eeveelutions"
+  ],
+  "primarySource": "extra-eeveelutions",
+  "provenance": {
+    "implemented": "extra-eeveelutions",
+    "name": "extra-eeveelutions",
+    "nationalPokedexNumber": "extra-eeveelutions",
+    "primaryType": "extra-eeveelutions",
+    "abilities": "extra-eeveelutions",
+    "baseStats": "extra-eeveelutions",
+    "behaviour": "extra-eeveelutions",
+    "catchRate": "extra-eeveelutions",
+    "maleRatio": "extra-eeveelutions",
+    "shoulderMountable": "extra-eeveelutions",
+    "forms": "extra-eeveelutions",
+    "baseExperienceYield": "extra-eeveelutions",
+    "experienceGroup": "extra-eeveelutions",
+    "eggCycles": "extra-eeveelutions",
+    "eggGroups": "extra-eeveelutions",
+    "moves": "extra-eeveelutions",
+    "labels": "extra-eeveelutions",
+    "pokedex": "extra-eeveelutions",
+    "preEvolution": "extra-eeveelutions",
+    "baseScale": "extra-eeveelutions",
+    "hitbox": "extra-eeveelutions",
+    "baseFriendship": "extra-eeveelutions",
+    "evYield": "extra-eeveelutions",
+    "height": "extra-eeveelutions",
+    "weight": "extra-eeveelutions"
+  }
+}

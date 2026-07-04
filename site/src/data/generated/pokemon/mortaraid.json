@@ -1,0 +1,580 @@
+{
+  "id": "cobblemon:mortaraid",
+  "namespace": "cobblemon",
+  "slug": "mortaraid",
+  "name": "Mortaraid",
+  "nationalPokedexNumber": 9,
+  "primaryType": "water",
+  "secondaryType": "rock",
+  "types": [
+    "water",
+    "rock"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 85,
+    "defence": 100,
+    "special_attack": 110,
+    "special_defence": 60,
+    "speed": 90
+  },
+  "baseStatTotal": 535,
+  "abilities": [
+    "torrent"
+  ],
+  "hiddenAbilities": [
+    "tacticalstrike"
+  ],
+  "eggGroups": [
+    "field",
+    "water_1"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 32,
+  "weight": 1600,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 241,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Mortaraid were used by humans in old wars, which dwindled their population. Mortaraid protect their young by firing rocks from its back, bombarding any agressors with boulders and highly pressurized water.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "mortarshot",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "watergun",
+        "level": 3
+      },
+      {
+        "moveId": "doublekick",
+        "level": 6
+      },
+      {
+        "moveId": "withdraw",
+        "level": 9
+      },
+      {
+        "moveId": "rockthrow",
+        "level": 9
+      },
+      {
+        "moveId": "soak",
+        "level": 12
+      },
+      {
+        "moveId": "protect",
+        "level": 12
+      },
+      {
+        "moveId": "stomp",
+        "level": 15
+      },
+      {
+        "moveId": "bide",
+        "level": 17
+      },
+      {
+        "moveId": "octazooka",
+        "level": 20
+      },
+      {
+        "moveId": "watersport",
+        "level": 22
+      },
+      {
+        "moveId": "rockblast",
+        "level": 23
+      },
+      {
+        "moveId": "takedown",
+        "level": 26
+      },
+      {
+        "moveId": "torment",
+        "level": 29
+      },
+      {
+        "moveId": "scald",
+        "level": 32
+      },
+      {
+        "moveId": "rockpolish",
+        "level": 38
+      },
+      {
+        "moveId": "earthpower",
+        "level": 39
+      },
+      {
+        "moveId": "powergem",
+        "level": 42
+      },
+      {
+        "moveId": "weatherball",
+        "level": 45
+      },
+      {
+        "moveId": "muddywater",
+        "level": 49
+      },
+      {
+        "moveId": "earthquake",
+        "level": 51
+      },
+      {
+        "moveId": "waterspout",
+        "level": 54
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "avalanche"
+      },
+      {
+        "moveId": "barrier"
+      },
+      {
+        "moveId": "bite"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "iceball"
+      },
+      {
+        "moveId": "mirrorcoat"
+      },
+      {
+        "moveId": "mudbomb"
+      },
+      {
+        "moveId": "refresh"
+      },
+      {
+        "moveId": "sludge"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "avalanche"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "chillingwater"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "doublekick"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "liquidation"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "powergem"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "waterpledge"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "yawn"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "defensecurl"
+      },
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hydropump"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "quickattack"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "tackle"
+      },
+      {
+        "moveId": "tailwhip"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "watergun"
+      },
+      {
+        "moveId": "waterpledge"
+      },
+      {
+        "moveId": "waterpulse"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "vasaddle",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 4
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.25
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/mortaraid.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_sandy"
+      ],
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "name": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "primaryType": "lively-mons",
+    "secondaryType": "lively-mons",
+    "abilities": "lively-mons",
+    "preEvolution": "lively-mons",
+    "baseStats": "lively-mons",
+    "catchRate": "lively-mons",
+    "maleRatio": "lively-mons",
+    "shoulderMountable": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "eggCycles": "lively-mons",
+    "eggGroups": "lively-mons",
+    "riding": "lively-mons",
+    "behaviour": "lively-mons",
+    "drops": "lively-mons",
+    "moves": "lively-mons",
+    "labels": "lively-mons",
+    "pokedex": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "evYield": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "aspects": "lively-mons",
+    "cannotDynamax": "lively-mons"
+  }
+}

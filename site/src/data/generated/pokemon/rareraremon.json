@@ -1,0 +1,198 @@
+{
+  "id": "cobblemon:rareraremon",
+  "namespace": "cobblemon",
+  "slug": "rareraremon",
+  "name": "Rareraremon",
+  "nationalPokedexNumber": 2127,
+  "primaryType": "poison",
+  "secondaryType": "ghost",
+  "types": [
+    "poison",
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 69,
+    "defence": 103,
+    "special_attack": 82,
+    "special_defence": 108,
+    "speed": 53
+  },
+  "baseStatTotal": 505,
+  "abilities": [
+    "stench",
+    "regenerator"
+  ],
+  "hiddenAbilities": [
+    "corrosion"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.92,
+  "weight": 169.2,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A colossal heap of cursed refuse animated by malice.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bittermalice",
+        "level": 44
+      },
+      {
+        "moveId": "stockpile",
+        "level": 47
+      },
+      {
+        "moveId": "toxic",
+        "level": 50
+      },
+      {
+        "moveId": "hex",
+        "level": 54
+      },
+      {
+        "moveId": "swallow",
+        "level": 57
+      },
+      {
+        "moveId": "sludgebomb",
+        "level": 61
+      },
+      {
+        "moveId": "infestation",
+        "level": 66
+      },
+      {
+        "moveId": "toxicspikes",
+        "level": 70
+      },
+      {
+        "moveId": "muddywater",
+        "level": 75
+      },
+      {
+        "moveId": "venoshock",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "raremon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/rareraremon.png",
+    "placeholderColor": "#A33EA1"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:toxic_caves",
+        "#cobblemon:nether"
+      ],
+      "bucket": "common",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

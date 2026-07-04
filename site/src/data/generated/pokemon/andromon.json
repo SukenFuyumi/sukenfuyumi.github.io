@@ -1,0 +1,220 @@
+{
+  "id": "cobblemon:andromon",
+  "namespace": "cobblemon",
+  "slug": "andromon",
+  "name": "Andromon",
+  "nationalPokedexNumber": 2089,
+  "primaryType": "steel",
+  "secondaryType": "electric",
+  "types": [
+    "steel",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 76,
+    "attack": 83,
+    "defence": 74,
+    "special_attack": 132,
+    "special_defence": 70,
+    "speed": 73
+  },
+  "baseStatTotal": 508,
+  "abilities": [
+    "clearbody",
+    "sharpness"
+  ],
+  "hiddenAbilities": [
+    "download"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.01,
+  "weight": 78.02,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A humanoid Machine Digimon perfected with high-level technology.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "mirrorshot",
+        "level": 44
+      },
+      {
+        "moveId": "magnetrise",
+        "level": 47
+      },
+      {
+        "moveId": "shockwave",
+        "level": 50
+      },
+      {
+        "moveId": "flash",
+        "level": 54
+      },
+      {
+        "moveId": "flashcannon",
+        "level": 57
+      },
+      {
+        "moveId": "laserfocus",
+        "level": 61
+      },
+      {
+        "moveId": "thunderbolt",
+        "level": 66
+      },
+      {
+        "moveId": "shiftgear",
+        "level": 70
+      },
+      {
+        "moveId": "discharge",
+        "level": 75
+      },
+      {
+        "moveId": "tachyoncutter",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "guardromon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 4
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "flying",
+        "multiplier": 0.25
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/andromon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "alexscaves:magnetic_caves"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_peak"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

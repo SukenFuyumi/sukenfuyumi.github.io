@@ -1,0 +1,202 @@
+{
+  "id": "cobblemon:gawappamon",
+  "namespace": "cobblemon",
+  "slug": "gawappamon",
+  "name": "Gawappamon",
+  "nationalPokedexNumber": 2065,
+  "primaryType": "water",
+  "secondaryType": "normal",
+  "types": [
+    "water",
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 40,
+    "defence": 58,
+    "special_attack": 80,
+    "special_defence": 110,
+    "speed": 45
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "dancer",
+    "soundproof"
+  ],
+  "hiddenAbilities": [
+    "punkrock"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.13,
+  "weight": 58,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A kappa-like Digimon that loves rhythm and moves in flowing steps.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "round",
+        "level": 25
+      },
+      {
+        "moveId": "sing",
+        "level": 27
+      },
+      {
+        "moveId": "bubblebeam",
+        "level": 29
+      },
+      {
+        "moveId": "doublehit",
+        "level": 31
+      },
+      {
+        "moveId": "jetpunch",
+        "level": 33
+      },
+      {
+        "moveId": "swift",
+        "level": 35
+      },
+      {
+        "moveId": "aquaring",
+        "level": 37
+      },
+      {
+        "moveId": "disarmingvoice",
+        "level": 39
+      },
+      {
+        "moveId": "amnesia",
+        "level": 41
+      },
+      {
+        "moveId": "teeterdance",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:shawujinmon",
+      "targetSlug": "shawujinmon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: water_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:etemon",
+      "targetSlug": "etemon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: black_glasses",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:monzaemon",
+      "targetSlug": "monzaemon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: love_sweet",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "kamemon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/gawappamon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_beach",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

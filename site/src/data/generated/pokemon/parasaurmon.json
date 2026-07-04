@@ -1,0 +1,195 @@
+{
+  "id": "cobblemon:parasaurmon",
+  "namespace": "cobblemon",
+  "slug": "parasaurmon",
+  "name": "Parasaurmon",
+  "nationalPokedexNumber": 2197,
+  "primaryType": "grass",
+  "secondaryType": "ground",
+  "types": [
+    "grass",
+    "ground"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 65,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 40
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "harvest",
+    "soundproof"
+  ],
+  "hiddenAbilities": [
+    "lingeringaroma"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.5,
+  "weight": 103.42,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A crested herbivore armored in living rock.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "sweetscent",
+        "level": 25
+      },
+      {
+        "moveId": "echoedvoice",
+        "level": 27
+      },
+      {
+        "moveId": "poisongas",
+        "level": 29
+      },
+      {
+        "moveId": "mudshot",
+        "level": 31
+      },
+      {
+        "moveId": "aromatherapy",
+        "level": 33
+      },
+      {
+        "moveId": "stomp",
+        "level": 35
+      },
+      {
+        "moveId": "magicalleaf",
+        "level": 37
+      },
+      {
+        "moveId": "aromaticmist",
+        "level": 39
+      },
+      {
+        "moveId": "megadrain",
+        "level": 41
+      },
+      {
+        "moveId": "strengthsap",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:toropiamon",
+      "targetSlug": "toropiamon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: black_glasses",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "pomumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/parasaurmon.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_grassland",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

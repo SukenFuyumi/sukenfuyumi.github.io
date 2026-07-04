@@ -1,0 +1,196 @@
+{
+  "id": "cobblemon:pteromon",
+  "namespace": "cobblemon",
+  "slug": "pteromon",
+  "name": "Pteromon",
+  "nationalPokedexNumber": 2074,
+  "primaryType": "flying",
+  "secondaryType": null,
+  "types": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 40,
+    "defence": 45,
+    "special_attack": 40,
+    "special_defence": 45,
+    "speed": 75
+  },
+  "baseStatTotal": 295,
+  "abilities": [
+    "keeneye",
+    "earlybird"
+  ],
+  "hiddenAbilities": [
+    "galewings"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.91,
+  "weight": 7.26,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Bird Digimon that soars using powerful wings.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 12
+      },
+      {
+        "moveId": "leer",
+        "level": 14
+      },
+      {
+        "moveId": "gust",
+        "level": 16
+      },
+      {
+        "moveId": "mirrormove",
+        "level": 18
+      },
+      {
+        "moveId": "quickattack",
+        "level": 19
+      },
+      {
+        "moveId": "assurance",
+        "level": 21
+      },
+      {
+        "moveId": "sandattack",
+        "level": 22
+      },
+      {
+        "moveId": "aerialace",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:galemon",
+      "targetSlug": "galemon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:akatorimon",
+      "targetSlug": "akatorimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: sharp_beak",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:vdramon",
+      "targetSlug": "vdramon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: dragon_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:kiwimon",
+      "targetSlug": "kiwimon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "fluffymon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/pteromon.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_sky",
+        "#cobblemon:is_mountain",
+        "alexscaves:primordial_caves"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

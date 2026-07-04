@@ -1,0 +1,192 @@
+{
+  "id": "cobblemon:wormmon",
+  "namespace": "cobblemon",
+  "slug": "wormmon",
+  "name": "Wormmon",
+  "nationalPokedexNumber": 2152,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 40,
+    "special_attack": 75,
+    "special_defence": 40,
+    "speed": 30
+  },
+  "baseStatTotal": 295,
+  "abilities": [
+    "shielddust",
+    "swarm"
+  ],
+  "hiddenAbilities": [
+    "overcoat"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.71,
+  "weight": 8.16,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A timid larva that relies on silk and tactics.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 12
+      },
+      {
+        "moveId": "stringshot",
+        "level": 14
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 16
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 18
+      },
+      {
+        "moveId": "rollout",
+        "level": 19
+      },
+      {
+        "moveId": "grasswhistle",
+        "level": 21
+      },
+      {
+        "moveId": "razorleaf",
+        "level": 22
+      },
+      {
+        "moveId": "bugbite",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:stingmon",
+      "targetSlug": "stingmon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:snimon",
+      "targetSlug": "snimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: leaf_stone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:kuwagamon",
+      "targetSlug": "kuwagamon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: bug_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:kabuterimon",
+      "targetSlug": "kabuterimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: razor_fang",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "mochimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/wormmon.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

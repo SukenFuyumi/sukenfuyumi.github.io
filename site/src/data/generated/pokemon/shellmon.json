@@ -1,0 +1,216 @@
+{
+  "id": "cobblemon:shellmon",
+  "namespace": "cobblemon",
+  "slug": "shellmon",
+  "name": "Shellmon",
+  "nationalPokedexNumber": 2105,
+  "primaryType": "water",
+  "secondaryType": "rock",
+  "types": [
+    "water",
+    "rock"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 73,
+    "defence": 90,
+    "special_attack": 72,
+    "special_defence": 75,
+    "speed": 40
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "shellarmor",
+    "sturdy"
+  ],
+  "hiddenAbilities": [
+    "stormdrain"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.7,
+  "weight": 163.75,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A massive-shelled Digimon that withstands crashing waves.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "withdraw",
+        "level": 25
+      },
+      {
+        "moveId": "bubblebeam",
+        "level": 27
+      },
+      {
+        "moveId": "rockpolish",
+        "level": 29
+      },
+      {
+        "moveId": "stomp",
+        "level": 31
+      },
+      {
+        "moveId": "whirlpool",
+        "level": 33
+      },
+      {
+        "moveId": "saltcure",
+        "level": 35
+      },
+      {
+        "moveId": "rocktomb",
+        "level": 37
+      },
+      {
+        "moveId": "protect",
+        "level": 39
+      },
+      {
+        "moveId": "rapidspin",
+        "level": 41
+      },
+      {
+        "moveId": "raindance",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:marinedevimon",
+      "targetSlug": "marinedevimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: dark_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "shakomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "grass",
+        "multiplier": 4
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.25
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/shellmon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean",
+        "#cobblemon:is_beach"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_warm_ocean",
+        "#cobblemon:is_beach"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_lukewarm_ocean",
+        "alexscaves:abyssal_chasm"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "id": "cobblemon:kamemon",
+  "namespace": "cobblemon",
+  "slug": "kamemon",
+  "name": "Kamemon",
+  "nationalPokedexNumber": 2064,
+  "primaryType": "water",
+  "secondaryType": "steel",
+  "types": [
+    "water",
+    "steel"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 70,
+    "special_attack": 60,
+    "special_defence": 40,
+    "speed": 30
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "torrent",
+    "shellarmor"
+  ],
+  "hiddenAbilities": [
+    "sturdy"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.02,
+  "weight": 56.25,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A turtle-like Digimon that hides within a sturdy shell and analyzes foes.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 12
+      },
+      {
+        "moveId": "withdraw",
+        "level": 14
+      },
+      {
+        "moveId": "bubble",
+        "level": 16
+      },
+      {
+        "moveId": "protect",
+        "level": 18
+      },
+      {
+        "moveId": "brine",
+        "level": 19
+      },
+      {
+        "moveId": "magnetbomb",
+        "level": 21
+      },
+      {
+        "moveId": "rollout",
+        "level": 22
+      },
+      {
+        "moveId": "rapidspin",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:gawappamon",
+      "targetSlug": "gawappamon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:archelomon",
+      "targetSlug": "archelomon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: deep_sea_tooth",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:guardromon",
+      "targetSlug": "guardromon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: metal_coat",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:octmon",
+      "targetSlug": "octmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: iron_sword",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:rukamon",
+      "targetSlug": "rukamon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: heart_of_the_sea",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "pukamon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "ice",
+        "multiplier": 0.25
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dragon",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/kamemon.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_swamp",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_coast",
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

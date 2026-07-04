@@ -1,0 +1,243 @@
+{
+  "id": "cobblemon:cheepcheep",
+  "namespace": "cobblemon",
+  "slug": "cheepcheep",
+  "name": "Cheep Cheep",
+  "nationalPokedexNumber": 1987,
+  "primaryType": "water",
+  "secondaryType": null,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "hp": 25,
+    "attack": 20,
+    "defence": 30,
+    "special_attack": 20,
+    "special_defence": 25,
+    "speed": 75
+  },
+  "baseStatTotal": 195,
+  "abilities": [
+    "swiftswim",
+    "waterveil"
+  ],
+  "hiddenAbilities": [],
+  "eggGroups": [
+    "water_2"
+  ],
+  "catchRate": 255,
+  "eggCycles": 10,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 30,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 55,
+  "labels": [
+    "extra",
+    "smb"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "They usually travel in groups along with Blooper's. Depending on their colour, they tend to be more aggressive.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "splash",
+        "level": 1
+      },
+      {
+        "moveId": "agility",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 8
+      },
+      {
+        "moveId": "watergun",
+        "level": 14
+      },
+      {
+        "moveId": "astonish",
+        "level": 18
+      },
+      {
+        "moveId": "swagger",
+        "level": 22
+      },
+      {
+        "moveId": "bounce",
+        "level": 30
+      },
+      {
+        "moveId": "hydropump",
+        "level": 38
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "dragonbreath"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "mist"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "waterpulse"
+      },
+      {
+        "moveId": "waterfall"
+      },
+      {
+        "moveId": "whirlpool"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "dive"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/cheepcheep.png",
+    "placeholderColor": "#6390F0"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "1-15",
+      "timeRange": null,
+      "sourceId": "game-creatures"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_freshwater",
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_ocean"
+      ],
+      "bucket": "common",
+      "level": "1-23",
+      "timeRange": null,
+      "sourceId": "game-creatures"
+    }
+  ],
+  "sourceMods": [
+    "game-creatures"
+  ],
+  "primarySource": "game-creatures",
+  "provenance": {
+    "implemented": "game-creatures",
+    "nationalPokedexNumber": "game-creatures",
+    "name": "game-creatures",
+    "primaryType": "game-creatures",
+    "maleRatio": "game-creatures",
+    "height": "game-creatures",
+    "weight": "game-creatures",
+    "pokedex": "game-creatures",
+    "labels": "game-creatures",
+    "aspects": "game-creatures",
+    "abilities": "game-creatures",
+    "eggGroups": "game-creatures",
+    "baseStats": "game-creatures",
+    "evYield": "game-creatures",
+    "baseExperienceYield": "game-creatures",
+    "experienceGroup": "game-creatures",
+    "catchRate": "game-creatures",
+    "eggCycles": "game-creatures",
+    "baseFriendship": "game-creatures",
+    "baseScale": "game-creatures",
+    "hitbox": "game-creatures",
+    "drops": "game-creatures",
+    "moves": "game-creatures",
+    "behaviour": "game-creatures"
+  }
+}

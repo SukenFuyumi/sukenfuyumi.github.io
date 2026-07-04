@@ -1,0 +1,207 @@
+{
+  "id": "cobblemon:canoweissmon",
+  "namespace": "cobblemon",
+  "slug": "canoweissmon",
+  "name": "Canoweissmon",
+  "nationalPokedexNumber": 2086,
+  "primaryType": "dragon",
+  "secondaryType": "fairy",
+  "types": [
+    "dragon",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 90,
+    "defence": 71,
+    "special_attack": 112,
+    "special_defence": 84,
+    "speed": 92
+  },
+  "baseStatTotal": 524,
+  "abilities": [
+    "serenegrace",
+    "illuminate"
+  ],
+  "hiddenAbilities": [
+    "adaptability"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.62,
+  "weight": 98.43,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A shining Ultimate form wrapped in pristine white armor.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "dragonbreath",
+        "level": 44
+      },
+      {
+        "moveId": "psybeam",
+        "level": 47
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 50
+      },
+      {
+        "moveId": "dragonclaw",
+        "level": 54
+      },
+      {
+        "moveId": "cosmicpower",
+        "level": 57
+      },
+      {
+        "moveId": "reflect",
+        "level": 61
+      },
+      {
+        "moveId": "luminacrash",
+        "level": 66
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 70
+      },
+      {
+        "moveId": "agility",
+        "level": 75
+      },
+      {
+        "moveId": "dracometeor",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "betelgammamon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/canoweissmon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_end"
+      ],
+      "bucket": "uncommon",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

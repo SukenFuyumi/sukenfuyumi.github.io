@@ -1,0 +1,317 @@
+{
+  "id": "cobblemon:Mawile",
+  "namespace": "cobblemon",
+  "slug": "cobblemon-mawile",
+  "name": "Mawile",
+  "nationalPokedexNumber": null,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {},
+  "baseStatTotal": 0,
+  "abilities": [],
+  "hiddenAbilities": [],
+  "eggGroups": [],
+  "catchRate": null,
+  "eggCycles": null,
+  "baseFriendship": null,
+  "height": null,
+  "weight": null,
+  "maleRatio": null,
+  "experienceGroup": null,
+  "baseExperienceYield": null,
+  "labels": [],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "MegaRlmPoison",
+      "aspects": [
+        "rlm",
+        "poison",
+        "mega"
+      ],
+      "primaryType": "poison",
+      "secondaryType": "fairy",
+      "types": [
+        "poison",
+        "fairy"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 95,
+        "attack": 35,
+        "defence": 85,
+        "special_attack": 105,
+        "special_defence": 80,
+        "speed": 90
+      },
+      "baseStatTotal": 490,
+      "abilities": [
+        "venomarmor",
+        "venomarmor"
+      ],
+      "hiddenAbilities": [
+        "venomarmor"
+      ],
+      "pokedexDescription": "Mega Evolution granted it the strength needed to fully control its poison. Freed from its burden, this Mawile finally reveals its true potential, displaying newfound confidence and joy. However, it remains aware that this surge of power is only temporary.",
+      "moveset": {
+        "levelUp": [],
+        "egg": [],
+        "tm": [],
+        "tutor": [],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          },
+          {
+            "type": "steel",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.25
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.25
+          },
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "dragon"
+        ]
+      },
+      "evolutions": [],
+      "slug": "cobblemon-mawile-megarlmpoison"
+    },
+    {
+      "name": "MegaRlmDragon",
+      "aspects": [
+        "rlm",
+        "dragon",
+        "mega"
+      ],
+      "primaryType": "dragon",
+      "secondaryType": "fairy",
+      "types": [
+        "dragon",
+        "fairy"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 90,
+        "attack": 90,
+        "defence": 60,
+        "special_attack": 95,
+        "special_defence": 60,
+        "speed": 85
+      },
+      "baseStatTotal": 480,
+      "abilities": [
+        "mystiforce",
+        "mystiforce"
+      ],
+      "hiddenAbilities": [
+        "mystiforce"
+      ],
+      "pokedexDescription": "Though spectacular in appearance, the two additional dragons gained through Mega Evolution are far from decorative. In this form, this Pokémon wields colossal power, launching assaults capable of sweeping away anything in its path.",
+      "moveset": {
+        "levelUp": [],
+        "egg": [],
+        "tm": [],
+        "tutor": [],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "poison",
+            "multiplier": 2
+          },
+          {
+            "type": "steel",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "dragon"
+        ]
+      },
+      "evolutions": [],
+      "slug": "cobblemon-mawile-megarlmdragon"
+    }
+  ],
+  "pokedexDescription": null,
+  "moveset": {
+    "levelUp": [],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/cobblemon-mawile.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_deep_dark"
+      ],
+      "bucket": "uncommon",
+      "level": "13-38",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "13-38",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "13-38",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "13-38",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_mountain"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "timeRange": null,
+      "sourceId": "cobblemon-rlm"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_spooky"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "timeRange": null,
+      "sourceId": "cobblemon-rlm"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_deep_dark"
+      ],
+      "bucket": "uncommon",
+      "level": "13-38",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "13-38",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-rlm"
+  ],
+  "primarySource": "cobblemon-rlm",
+  "provenance": {
+    "features": "cobblemon-rlm",
+    "forms": "cobblemon-rlm"
+  }
+}

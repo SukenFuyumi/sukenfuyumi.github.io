@@ -1,0 +1,574 @@
+{
+  "id": "cobblemon:torchflyer",
+  "namespace": "cobblemon",
+  "slug": "torchflyer",
+  "name": "Torchflyer",
+  "nationalPokedexNumber": 1062,
+  "primaryType": "grass",
+  "secondaryType": "fire",
+  "types": [
+    "grass",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 120,
+    "special_defence": 90,
+    "speed": 100
+  },
+  "baseStatTotal": 540,
+  "abilities": [
+    "harvest",
+    "flowerveil"
+  ],
+  "hiddenAbilities": [
+    "dragonsmaw"
+  ],
+  "eggGroups": [
+    "grass",
+    "dragon"
+  ],
+  "catchRate": 10,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 2,
+  "weight": 5,
+  "maleRatio": 0.5,
+  "experienceGroup": "erratic",
+  "baseExperienceYield": 270,
+  "labels": [
+    "laserdex",
+    "minecraftian",
+    "fossil"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "The seed that it lived in has fully grown, becoming part of its body. Its sprouted vine-like wings that it uses to soar through the sky, spewing flames to burn down shrubbery to make the soil more suitable for planting.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "torchsong",
+        "level": 1
+      },
+      {
+        "moveId": "hotair",
+        "level": 1
+      },
+      {
+        "moveId": "sunnyday",
+        "level": 1
+      },
+      {
+        "moveId": "morningglory",
+        "level": 1
+      },
+      {
+        "moveId": "fly",
+        "level": 1
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 1
+      },
+      {
+        "moveId": "twister",
+        "level": 1
+      },
+      {
+        "moveId": "absorb",
+        "level": 1
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 1
+      },
+      {
+        "moveId": "recycle",
+        "level": 1
+      },
+      {
+        "moveId": "withdraw",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "leechseed",
+        "level": 1
+      },
+      {
+        "moveId": "worryseed",
+        "level": 1
+      },
+      {
+        "moveId": "infestation",
+        "level": 1
+      },
+      {
+        "moveId": "ember",
+        "level": 4
+      },
+      {
+        "moveId": "growth",
+        "level": 8
+      },
+      {
+        "moveId": "firespin",
+        "level": 10
+      },
+      {
+        "moveId": "megadrain",
+        "level": 12
+      },
+      {
+        "moveId": "incinerate",
+        "level": 14
+      },
+      {
+        "moveId": "mudbomb",
+        "level": 16
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 20
+      },
+      {
+        "moveId": "naturepower",
+        "level": 24
+      },
+      {
+        "moveId": "rototiller",
+        "level": 28
+      },
+      {
+        "moveId": "scorchingsands",
+        "level": 32
+      },
+      {
+        "moveId": "flameburst",
+        "level": 34
+      },
+      {
+        "moveId": "recover",
+        "level": 36
+      },
+      {
+        "moveId": "dragonpulse",
+        "level": 38
+      },
+      {
+        "moveId": "energyball",
+        "level": 40
+      },
+      {
+        "moveId": "flamethrower",
+        "level": 44
+      },
+      {
+        "moveId": "dragoncheer",
+        "level": 50
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "appleacid"
+      },
+      {
+        "moveId": "defensecurl"
+      },
+      {
+        "moveId": "gravapple"
+      },
+      {
+        "moveId": "ingrain"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "suckerpunch"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "backpetal"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "dragonbreath"
+      },
+      {
+        "moveId": "dragoncheer"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "dragontail"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fireblast"
+      },
+      {
+        "moveId": "firespin"
+      },
+      {
+        "moveId": "flamecharge"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flareblitz"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "hotair"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "leechseed"
+      },
+      {
+        "moveId": "morningglory"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "overheat"
+      },
+      {
+        "moveId": "pollenpuff"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "powerwhip"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "temperflare"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "willowisp"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "torchlin",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/torchflyer.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_lush"
+      ],
+      "bucket": "ultra-rare",
+      "level": "56-67",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_lush"
+      ],
+      "bucket": "rare",
+      "level": "56-67",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    }
+  ],
+  "sourceMods": [
+    "lasers-fakemon-pack"
+  ],
+  "primarySource": "lasers-fakemon-pack",
+  "provenance": {
+    "implemented": "lasers-fakemon-pack",
+    "nationalPokedexNumber": "lasers-fakemon-pack",
+    "name": "lasers-fakemon-pack",
+    "primaryType": "lasers-fakemon-pack",
+    "secondaryType": "lasers-fakemon-pack",
+    "maleRatio": "lasers-fakemon-pack",
+    "height": "lasers-fakemon-pack",
+    "weight": "lasers-fakemon-pack",
+    "pokedex": "lasers-fakemon-pack",
+    "labels": "lasers-fakemon-pack",
+    "aspects": "lasers-fakemon-pack",
+    "abilities": "lasers-fakemon-pack",
+    "eggGroups": "lasers-fakemon-pack",
+    "baseStats": "lasers-fakemon-pack",
+    "evYield": "lasers-fakemon-pack",
+    "behaviour": "lasers-fakemon-pack",
+    "baseExperienceYield": "lasers-fakemon-pack",
+    "experienceGroup": "lasers-fakemon-pack",
+    "catchRate": "lasers-fakemon-pack",
+    "eggCycles": "lasers-fakemon-pack",
+    "baseFriendship": "lasers-fakemon-pack",
+    "baseScale": "lasers-fakemon-pack",
+    "hitbox": "lasers-fakemon-pack",
+    "drops": "lasers-fakemon-pack",
+    "moves": "lasers-fakemon-pack",
+    "preEvolution": "lasers-fakemon-pack",
+    "evolutions": "lasers-fakemon-pack"
+  }
+}

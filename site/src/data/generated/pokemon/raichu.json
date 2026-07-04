@@ -1,0 +1,2620 @@
+{
+  "id": "cobblemon:raichu",
+  "namespace": "cobblemon",
+  "slug": "raichu",
+  "name": "Raichu",
+  "nationalPokedexNumber": 26,
+  "primaryType": "electric",
+  "secondaryType": null,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 90,
+    "defence": 55,
+    "special_attack": 90,
+    "special_defence": 80,
+    "speed": 110
+  },
+  "baseStatTotal": 485,
+  "abilities": [
+    "static"
+  ],
+  "hiddenAbilities": [
+    "lightningrod"
+  ],
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "catchRate": 75,
+  "eggCycles": 10,
+  "baseFriendship": 50,
+  "height": 8,
+  "weight": 300,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 243,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Alola",
+      "aspects": [
+        "alolan"
+      ],
+      "primaryType": "electric",
+      "secondaryType": "psychic",
+      "types": [
+        "electric",
+        "psychic"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 60,
+        "attack": 85,
+        "defence": 50,
+        "special_attack": 95,
+        "special_defence": 85,
+        "speed": 110
+      },
+      "baseStatTotal": 485,
+      "abilities": [
+        "surgesurfer"
+      ],
+      "hiddenAbilities": [
+        "surgesurfer"
+      ],
+      "pokedexDescription": "When you rub its cheeks, a sweet fragrance comes wafting out. However, you'll also get a light shock!",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "psychic",
+            "level": 1
+          },
+          {
+            "moveId": "thundershock",
+            "level": 1
+          },
+          {
+            "moveId": "tailwhip",
+            "level": 1
+          },
+          {
+            "moveId": "quickattack",
+            "level": 1
+          },
+          {
+            "moveId": "thunderwave",
+            "level": 1
+          },
+          {
+            "moveId": "thunder",
+            "level": 1
+          },
+          {
+            "moveId": "lightscreen",
+            "level": 1
+          },
+          {
+            "moveId": "irontail",
+            "level": 1
+          },
+          {
+            "moveId": "playnice",
+            "level": 1
+          },
+          {
+            "moveId": "sweetkiss",
+            "level": 1
+          },
+          {
+            "moveId": "nuzzle",
+            "level": 1
+          },
+          {
+            "moveId": "nastyplot",
+            "level": 1
+          },
+          {
+            "moveId": "charm",
+            "level": 1
+          },
+          {
+            "moveId": "doubleteam",
+            "level": 1
+          },
+          {
+            "moveId": "electroball",
+            "level": 1
+          },
+          {
+            "moveId": "feint",
+            "level": 1
+          },
+          {
+            "moveId": "spark",
+            "level": 1
+          },
+          {
+            "moveId": "agility",
+            "level": 1
+          },
+          {
+            "moveId": "slam",
+            "level": 1
+          },
+          {
+            "moveId": "discharge",
+            "level": 1
+          },
+          {
+            "moveId": "growl",
+            "level": 1
+          },
+          {
+            "moveId": "thunderbolt",
+            "level": 5
+          },
+          {
+            "moveId": "psychicsnap",
+            "level": 5
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "bestow"
+          },
+          {
+            "moveId": "bide"
+          },
+          {
+            "moveId": "charge"
+          },
+          {
+            "moveId": "disarmingvoice"
+          },
+          {
+            "moveId": "doubleslap"
+          },
+          {
+            "moveId": "fakeout"
+          },
+          {
+            "moveId": "flail"
+          },
+          {
+            "moveId": "luckychant"
+          },
+          {
+            "moveId": "present"
+          },
+          {
+            "moveId": "tickle"
+          },
+          {
+            "moveId": "wish"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "alluringvoice"
+          },
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "charge"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "charm"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "dig"
+          },
+          {
+            "moveId": "disarmingvoice"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "echoedvoice"
+          },
+          {
+            "moveId": "eerieimpulse"
+          },
+          {
+            "moveId": "electricterrain"
+          },
+          {
+            "moveId": "electroball"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "encore"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "magicroom"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "megakick"
+          },
+          {
+            "moveId": "megapunch"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "payday"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicnoise"
+          },
+          {
+            "moveId": "psychicsnap"
+          },
+          {
+            "moveId": "psychicterrain"
+          },
+          {
+            "moveId": "psyshock"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "risingvoltage"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "speedswap"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "surf"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "thunder"
+          },
+          {
+            "moveId": "thunderpunch"
+          },
+          {
+            "moveId": "thunderwave"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "upperhand"
+          },
+          {
+            "moveId": "voltswitch"
+          },
+          {
+            "moveId": "volttackle"
+          },
+          {
+            "moveId": "wildcharge"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "magicroom"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "risingvoltage"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "thunderpunch"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "volttackle"
+          },
+          {
+            "moveId": "wildcharge"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "counter"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "defensecurl"
+          },
+          {
+            "moveId": "detect"
+          },
+          {
+            "moveId": "doublekick"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "dynamicpunch"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "futuresight"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "mimic"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "rage"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "seismictoss"
+          },
+          {
+            "moveId": "skullbash"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "submission"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "teleport"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zapcannon"
+          }
+        ],
+        "other": [
+          {
+            "moveId": "celebrate"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "extremespeed"
+          },
+          {
+            "moveId": "fly"
+          },
+          {
+            "moveId": "followme"
+          },
+          {
+            "moveId": "happyhour"
+          },
+          {
+            "moveId": "heartstamp"
+          },
+          {
+            "moveId": "holdhands"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "refresh"
+          },
+          {
+            "moveId": "sing"
+          },
+          {
+            "moveId": "sweetscent"
+          },
+          {
+            "moveId": "teeterdance"
+          },
+          {
+            "moveId": "yawn"
+          }
+        ]
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 2
+          },
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "psychic",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "raichu-alola"
+    },
+    {
+      "name": "Mega-X",
+      "aspects": [
+        "mega_x"
+      ],
+      "primaryType": "electric",
+      "secondaryType": null,
+      "types": [
+        "electric"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 60,
+        "attack": 135,
+        "defence": 95,
+        "special_attack": 90,
+        "special_defence": 95,
+        "speed": 110
+      },
+      "baseStatTotal": 585,
+      "abilities": [
+        "levitate"
+      ],
+      "hiddenAbilities": [
+        "levitate"
+      ],
+      "pokedexDescription": "It resembles an X as it flies through the air with 50 million volts of electricity sparking from its ears and forked tail.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "thundershock",
+            "level": 1
+          },
+          {
+            "moveId": "tailwhip",
+            "level": 1
+          },
+          {
+            "moveId": "quickattack",
+            "level": 1
+          },
+          {
+            "moveId": "thunderpunch",
+            "level": 1
+          },
+          {
+            "moveId": "thunderwave",
+            "level": 1
+          },
+          {
+            "moveId": "thunder",
+            "level": 1
+          },
+          {
+            "moveId": "lightscreen",
+            "level": 1
+          },
+          {
+            "moveId": "irontail",
+            "level": 1
+          },
+          {
+            "moveId": "playnice",
+            "level": 1
+          },
+          {
+            "moveId": "sweetkiss",
+            "level": 1
+          },
+          {
+            "moveId": "nuzzle",
+            "level": 1
+          },
+          {
+            "moveId": "nastyplot",
+            "level": 1
+          },
+          {
+            "moveId": "charm",
+            "level": 1
+          },
+          {
+            "moveId": "doubleteam",
+            "level": 1
+          },
+          {
+            "moveId": "electroball",
+            "level": 1
+          },
+          {
+            "moveId": "feint",
+            "level": 1
+          },
+          {
+            "moveId": "spark",
+            "level": 1
+          },
+          {
+            "moveId": "agility",
+            "level": 1
+          },
+          {
+            "moveId": "slam",
+            "level": 1
+          },
+          {
+            "moveId": "discharge",
+            "level": 1
+          },
+          {
+            "moveId": "growl",
+            "level": 1
+          },
+          {
+            "moveId": "thunderbolt",
+            "level": 5
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "bestow"
+          },
+          {
+            "moveId": "bide"
+          },
+          {
+            "moveId": "charge"
+          },
+          {
+            "moveId": "disarmingvoice"
+          },
+          {
+            "moveId": "doubleslap"
+          },
+          {
+            "moveId": "fakeout"
+          },
+          {
+            "moveId": "flail"
+          },
+          {
+            "moveId": "luckychant"
+          },
+          {
+            "moveId": "present"
+          },
+          {
+            "moveId": "tickle"
+          },
+          {
+            "moveId": "wish"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "alluringvoice"
+          },
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "charge"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "charm"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "dig"
+          },
+          {
+            "moveId": "disarmingvoice"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "echoedvoice"
+          },
+          {
+            "moveId": "eerieimpulse"
+          },
+          {
+            "moveId": "electricterrain"
+          },
+          {
+            "moveId": "electroball"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "encore"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "megakick"
+          },
+          {
+            "moveId": "megapunch"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "payday"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "risingvoltage"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "speedswap"
+          },
+          {
+            "moveId": "strength"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "surf"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "thunder"
+          },
+          {
+            "moveId": "thunderpunch"
+          },
+          {
+            "moveId": "thunderwave"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "upperhand"
+          },
+          {
+            "moveId": "voltswitch"
+          },
+          {
+            "moveId": "volttackle"
+          },
+          {
+            "moveId": "wildcharge"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "risingvoltage"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "thunderpunch"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "volttackle"
+          },
+          {
+            "moveId": "wildcharge"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "counter"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "defensecurl"
+          },
+          {
+            "moveId": "detect"
+          },
+          {
+            "moveId": "doublekick"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "dynamicpunch"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "mimic"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "rage"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "seismictoss"
+          },
+          {
+            "moveId": "skullbash"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "submission"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zapcannon"
+          }
+        ],
+        "other": [
+          {
+            "moveId": "celebrate"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "extremespeed"
+          },
+          {
+            "moveId": "fly"
+          },
+          {
+            "moveId": "followme"
+          },
+          {
+            "moveId": "happyhour"
+          },
+          {
+            "moveId": "heartstamp"
+          },
+          {
+            "moveId": "holdhands"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "refresh"
+          },
+          {
+            "moveId": "sing"
+          },
+          {
+            "moveId": "sweetscent"
+          },
+          {
+            "moveId": "teeterdance"
+          },
+          {
+            "moveId": "yawn"
+          }
+        ]
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "raichu-mega-x"
+    },
+    {
+      "name": "Mega-Y",
+      "aspects": [
+        "mega_y"
+      ],
+      "primaryType": "electric",
+      "secondaryType": null,
+      "types": [
+        "electric"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 60,
+        "attack": 100,
+        "defence": 55,
+        "special_attack": 160,
+        "special_defence": 80,
+        "speed": 130
+      },
+      "baseStatTotal": 585,
+      "abilities": [
+        "transistor"
+      ],
+      "hiddenAbilities": [
+        "transistor"
+      ],
+      "pokedexDescription": "It fires bolts of electricity from the tip of its tail and from the spiky tufts of fur growing out of its temples. This electricity forms the letter Y.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "thundershock",
+            "level": 1
+          },
+          {
+            "moveId": "tailwhip",
+            "level": 1
+          },
+          {
+            "moveId": "quickattack",
+            "level": 1
+          },
+          {
+            "moveId": "thunderpunch",
+            "level": 1
+          },
+          {
+            "moveId": "thunderwave",
+            "level": 1
+          },
+          {
+            "moveId": "thunder",
+            "level": 1
+          },
+          {
+            "moveId": "lightscreen",
+            "level": 1
+          },
+          {
+            "moveId": "irontail",
+            "level": 1
+          },
+          {
+            "moveId": "playnice",
+            "level": 1
+          },
+          {
+            "moveId": "sweetkiss",
+            "level": 1
+          },
+          {
+            "moveId": "nuzzle",
+            "level": 1
+          },
+          {
+            "moveId": "nastyplot",
+            "level": 1
+          },
+          {
+            "moveId": "charm",
+            "level": 1
+          },
+          {
+            "moveId": "doubleteam",
+            "level": 1
+          },
+          {
+            "moveId": "electroball",
+            "level": 1
+          },
+          {
+            "moveId": "feint",
+            "level": 1
+          },
+          {
+            "moveId": "spark",
+            "level": 1
+          },
+          {
+            "moveId": "agility",
+            "level": 1
+          },
+          {
+            "moveId": "slam",
+            "level": 1
+          },
+          {
+            "moveId": "discharge",
+            "level": 1
+          },
+          {
+            "moveId": "growl",
+            "level": 1
+          },
+          {
+            "moveId": "thunderbolt",
+            "level": 5
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "bestow"
+          },
+          {
+            "moveId": "bide"
+          },
+          {
+            "moveId": "charge"
+          },
+          {
+            "moveId": "disarmingvoice"
+          },
+          {
+            "moveId": "doubleslap"
+          },
+          {
+            "moveId": "fakeout"
+          },
+          {
+            "moveId": "flail"
+          },
+          {
+            "moveId": "luckychant"
+          },
+          {
+            "moveId": "present"
+          },
+          {
+            "moveId": "tickle"
+          },
+          {
+            "moveId": "wish"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "alluringvoice"
+          },
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "charge"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "charm"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "dig"
+          },
+          {
+            "moveId": "disarmingvoice"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "echoedvoice"
+          },
+          {
+            "moveId": "eerieimpulse"
+          },
+          {
+            "moveId": "electricterrain"
+          },
+          {
+            "moveId": "electroball"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "encore"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "megakick"
+          },
+          {
+            "moveId": "megapunch"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "payday"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "risingvoltage"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "speedswap"
+          },
+          {
+            "moveId": "strength"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "surf"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "thunder"
+          },
+          {
+            "moveId": "thunderpunch"
+          },
+          {
+            "moveId": "thunderwave"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "upperhand"
+          },
+          {
+            "moveId": "voltswitch"
+          },
+          {
+            "moveId": "volttackle"
+          },
+          {
+            "moveId": "wildcharge"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "babydolleyes"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "electroweb"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "risingvoltage"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rollout"
+          },
+          {
+            "moveId": "shockwave"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "thunderpunch"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "volttackle"
+          },
+          {
+            "moveId": "wildcharge"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "counter"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "defensecurl"
+          },
+          {
+            "moveId": "detect"
+          },
+          {
+            "moveId": "doublekick"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "dynamicpunch"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "mimic"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "rage"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "seismictoss"
+          },
+          {
+            "moveId": "skullbash"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "submission"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zapcannon"
+          }
+        ],
+        "other": [
+          {
+            "moveId": "celebrate"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "extremespeed"
+          },
+          {
+            "moveId": "fly"
+          },
+          {
+            "moveId": "followme"
+          },
+          {
+            "moveId": "happyhour"
+          },
+          {
+            "moveId": "heartstamp"
+          },
+          {
+            "moveId": "holdhands"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "refresh"
+          },
+          {
+            "moveId": "sing"
+          },
+          {
+            "moveId": "sweetscent"
+          },
+          {
+            "moveId": "teeterdance"
+          },
+          {
+            "moveId": "yawn"
+          }
+        ]
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "raichu-mega-y"
+    }
+  ],
+  "pokedexDescription": "This Pokémon exudes a weak electrical charge from all over its body that makes it take on a slight glow in darkness. Raichu plants its tail in the ground to discharge electricity.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "thundershock",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "quickattack",
+        "level": 1
+      },
+      {
+        "moveId": "thunderpunch",
+        "level": 1
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 1
+      },
+      {
+        "moveId": "thunder",
+        "level": 1
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 1
+      },
+      {
+        "moveId": "irontail",
+        "level": 1
+      },
+      {
+        "moveId": "playnice",
+        "level": 1
+      },
+      {
+        "moveId": "sweetkiss",
+        "level": 1
+      },
+      {
+        "moveId": "nuzzle",
+        "level": 1
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 1
+      },
+      {
+        "moveId": "charm",
+        "level": 1
+      },
+      {
+        "moveId": "doubleteam",
+        "level": 1
+      },
+      {
+        "moveId": "electroball",
+        "level": 1
+      },
+      {
+        "moveId": "feint",
+        "level": 1
+      },
+      {
+        "moveId": "spark",
+        "level": 1
+      },
+      {
+        "moveId": "agility",
+        "level": 1
+      },
+      {
+        "moveId": "slam",
+        "level": 1
+      },
+      {
+        "moveId": "discharge",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "thunderbolt",
+        "level": 5
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "bestow"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "doubleslap"
+      },
+      {
+        "moveId": "fakeout"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "luckychant"
+      },
+      {
+        "moveId": "present"
+      },
+      {
+        "moveId": "tickle"
+      },
+      {
+        "moveId": "wish"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "charge"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "eerieimpulse"
+      },
+      {
+        "moveId": "electricterrain"
+      },
+      {
+        "moveId": "electroball"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "payday"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "risingvoltage"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "speedswap"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "upperhand"
+      },
+      {
+        "moveId": "voltswitch"
+      },
+      {
+        "moveId": "volttackle"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "focuspunch"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "magnetrise"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "risingvoltage"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "volttackle"
+      },
+      {
+        "moveId": "wildcharge"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "defensecurl"
+      },
+      {
+        "moveId": "detect"
+      },
+      {
+        "moveId": "doublekick"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dynamicpunch"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "seismictoss"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "submission"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "zapcannon"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "celebrate"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "extremespeed"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "followme"
+      },
+      {
+        "moveId": "happyhour"
+      },
+      {
+        "moveId": "heartstamp"
+      },
+      {
+        "moveId": "holdhands"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "refresh"
+      },
+      {
+        "moveId": "sing"
+      },
+      {
+        "moveId": "sweetscent"
+      },
+      {
+        "moveId": "teeterdance"
+      },
+      {
+        "moveId": "yawn"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": "pikachu-world",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "uncommon",
+      "level": "27-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_beach",
+        "aether:skyroot_forest",
+        "aether:skyroot_woodland",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "uncommon",
+      "level": "27-49",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "27-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "27-49",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "uncommon",
+      "level": "27-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_beach",
+        "aether:skyroot_forest",
+        "aether:skyroot_woodland",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "uncommon",
+      "level": "27-49",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "zamega",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "features": "zamega",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "lasers-additions"
+  }
+}

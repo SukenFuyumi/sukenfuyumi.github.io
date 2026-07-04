@@ -1,0 +1,298 @@
+{
+  "id": "cobblemon:eeveeon",
+  "namespace": "cobblemon",
+  "slug": "eeveeon",
+  "name": "Eeveeon",
+  "nationalPokedexNumber": 2013,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 105,
+    "defence": 85,
+    "special_attack": 100,
+    "special_defence": 95,
+    "speed": 110
+  },
+  "baseStatTotal": 580,
+  "abilities": [
+    "adaptability",
+    "anticipation"
+  ],
+  "hiddenAbilities": [
+    "normalize"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 45,
+  "eggCycles": 35,
+  "baseFriendship": 35,
+  "height": 11,
+  "weight": 300,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 184,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "When an Eevee goes unevolved for long enough, it grows naturally on its own, gaining better stamina, and battling capabilities, Scientists jokingly called these matured Eevees, 'Eeveeon', When more of them started to appear, it became a common name for these Pokemon.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "sandattack",
+        "level": 1
+      },
+      {
+        "moveId": "lastresort",
+        "level": 1
+      },
+      {
+        "moveId": "fakeout",
+        "level": 5
+      },
+      {
+        "moveId": "feint",
+        "level": 8
+      },
+      {
+        "moveId": "bite",
+        "level": 12
+      },
+      {
+        "moveId": "taunt",
+        "level": 14
+      },
+      {
+        "moveId": "assurance",
+        "level": 17
+      },
+      {
+        "moveId": "furyswipes",
+        "level": 18
+      },
+      {
+        "moveId": "slash",
+        "level": 22
+      },
+      {
+        "moveId": "playrough",
+        "level": 24
+      },
+      {
+        "moveId": "headbutt",
+        "level": 26
+      },
+      {
+        "moveId": "stomp",
+        "level": 30
+      },
+      {
+        "moveId": "crunch",
+        "level": 34
+      },
+      {
+        "moveId": "reversal",
+        "level": 37
+      },
+      {
+        "moveId": "protect",
+        "level": 37
+      },
+      {
+        "moveId": "headsmash",
+        "level": 40
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 43
+      },
+      {
+        "moveId": "batonpass",
+        "level": 50
+      },
+      {
+        "moveId": "agility",
+        "level": 54
+      },
+      {
+        "moveId": "bounce",
+        "level": 57
+      },
+      {
+        "moveId": "healingwish",
+        "level": 60
+      },
+      {
+        "moveId": "machpunch",
+        "level": 67
+      },
+      {
+        "moveId": "facade",
+        "level": 73
+      },
+      {
+        "moveId": "hyperbeam",
+        "level": 76
+      },
+      {
+        "moveId": "gigaimpact",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bellydrum"
+      },
+      {
+        "moveId": "chipaway"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "firstimpression"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "howl"
+      },
+      {
+        "moveId": "hyperfang"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "nobleroar"
+      },
+      {
+        "moveId": "nuzzle"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "powertrip"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rage"
+      },
+      {
+        "moveId": "reflecttype"
+      },
+      {
+        "moveId": "relicsong"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "smellingsalts"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "thunderwave"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "eevee",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/eeveeon.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "ultra-rare",
+      "level": "18-40",
+      "timeRange": null,
+      "sourceId": "extra-eeveelutions"
+    }
+  ],
+  "sourceMods": [
+    "extra-eeveelutions"
+  ],
+  "primarySource": "extra-eeveelutions",
+  "provenance": {
+    "implemented": "extra-eeveelutions",
+    "name": "extra-eeveelutions",
+    "nationalPokedexNumber": "extra-eeveelutions",
+    "primaryType": "extra-eeveelutions",
+    "abilities": "extra-eeveelutions",
+    "baseStats": "extra-eeveelutions",
+    "behaviour": "extra-eeveelutions",
+    "catchRate": "extra-eeveelutions",
+    "maleRatio": "extra-eeveelutions",
+    "shoulderMountable": "extra-eeveelutions",
+    "forms": "extra-eeveelutions",
+    "baseExperienceYield": "extra-eeveelutions",
+    "experienceGroup": "extra-eeveelutions",
+    "eggCycles": "extra-eeveelutions",
+    "eggGroups": "extra-eeveelutions",
+    "moves": "extra-eeveelutions",
+    "labels": "extra-eeveelutions",
+    "pokedex": "extra-eeveelutions",
+    "preEvolution": "extra-eeveelutions",
+    "baseScale": "extra-eeveelutions",
+    "hitbox": "extra-eeveelutions",
+    "baseFriendship": "extra-eeveelutions",
+    "evYield": "extra-eeveelutions",
+    "height": "extra-eeveelutions",
+    "weight": "extra-eeveelutions"
+  }
+}

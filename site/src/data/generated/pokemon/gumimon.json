@@ -1,0 +1,170 @@
+{
+  "id": "cobblemon:gumimon",
+  "namespace": "cobblemon",
+  "slug": "gumimon",
+  "name": "Gumimon",
+  "nationalPokedexNumber": 9001,
+  "primaryType": "normal",
+  "secondaryType": null,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 20,
+    "attack": 35,
+    "defence": 40,
+    "special_attack": 30,
+    "special_defence": 45,
+    "speed": 30
+  },
+  "baseStatTotal": 200,
+  "abilities": [
+    "pickup",
+    "pickup"
+  ],
+  "hiddenAbilities": [
+    "plus"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 150,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.3,
+  "weight": 3.18,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 100,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Digimon that evolves from Zerimon, inheriting its exceedingly energetic and lively personality.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 5
+      },
+      {
+        "moveId": "bubble",
+        "level": 7
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 9
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 10
+      },
+      {
+        "moveId": "hornattack",
+        "level": 11
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:terriermon",
+      "targetSlug": "terriermon",
+      "summary": "Nivel · Nv. 12",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:hagurumon",
+      "targetSlug": "hagurumon",
+      "summary": "Nivel · Nv. 12 · attack_defence_ratio",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:jazamon",
+      "targetSlug": "jazamon",
+      "summary": "Nivel · Nv. 13",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:toyagumon",
+      "targetSlug": "toyagumon",
+      "summary": "Nivel · Nv. 12 · Amistad 2.5+",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "zerimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/gumimon.png",
+    "placeholderColor": "#A8A77A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "ultra-rare",
+      "level": "4-15",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:candy_cavity"
+      ],
+      "bucket": "uncommon",
+      "level": "4-15",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

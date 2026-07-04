@@ -1,0 +1,199 @@
+{
+  "id": "cobblemon:jazarichmon",
+  "namespace": "cobblemon",
+  "slug": "jazarichmon",
+  "name": "Jazarichmon",
+  "nationalPokedexNumber": 2192,
+  "primaryType": "steel",
+  "secondaryType": "dragon",
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 73,
+    "attack": 90,
+    "defence": 68,
+    "special_attack": 101,
+    "special_defence": 65,
+    "speed": 113
+  },
+  "baseStatTotal": 510,
+  "abilities": [
+    "levitate",
+    "stamina"
+  ],
+  "hiddenAbilities": [
+    "aerilate"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.21,
+  "weight": 157,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A brutal dragon warrior armored in steel, feared for its relentless assault.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "steelwing",
+        "level": 44
+      },
+      {
+        "moveId": "swift",
+        "level": 47
+      },
+      {
+        "moveId": "quickguard",
+        "level": 50
+      },
+      {
+        "moveId": "rapidspin",
+        "level": 54
+      },
+      {
+        "moveId": "flipturn",
+        "level": 57
+      },
+      {
+        "moveId": "terablast",
+        "level": 61
+      },
+      {
+        "moveId": "ficklebeam",
+        "level": 66
+      },
+      {
+        "moveId": "lockon",
+        "level": 70
+      },
+      {
+        "moveId": "tachyoncutter",
+        "level": 75
+      },
+      {
+        "moveId": "spinout",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "jazardmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/jazarichmon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

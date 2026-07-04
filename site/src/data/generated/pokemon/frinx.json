@@ -1,0 +1,320 @@
+{
+  "id": "cobblemon:frinx",
+  "namespace": "cobblemon",
+  "slug": "frinx",
+  "name": "Frinx",
+  "nationalPokedexNumber": 1330,
+  "primaryType": "ice",
+  "secondaryType": null,
+  "types": [
+    "ice"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 65,
+    "defence": 50,
+    "special_attack": 75,
+    "special_defence": 50,
+    "speed": 55
+  },
+  "baseStatTotal": 350,
+  "abilities": [
+    "snowcloak",
+    "keeneye"
+  ],
+  "hiddenAbilities": [
+    "slushrush"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 200,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 5,
+  "weight": 50,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 60,
+  "labels": [
+    "fakemon",
+    "impetia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Most of them are very skittish in the presence of humans, prefering to spend their time alone or with others of the same species. Their eyesight is one of the best in the world, managing to spot danger from miles away, often looking from treetops.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "peck",
+        "level": 0
+      },
+      {
+        "moveId": "powdersnow",
+        "level": 0
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 0
+      },
+      {
+        "moveId": "leer",
+        "level": 0
+      },
+      {
+        "moveId": "icywind",
+        "level": 5
+      },
+      {
+        "moveId": "confusion",
+        "level": 9
+      },
+      {
+        "moveId": "workup",
+        "level": 13
+      },
+      {
+        "moveId": "iceshard",
+        "level": 17
+      },
+      {
+        "moveId": "glare",
+        "level": 20
+      },
+      {
+        "moveId": "aurorabeam",
+        "level": 21
+      },
+      {
+        "moveId": "acrobatics",
+        "level": 25
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "auroraveil"
+      },
+      {
+        "moveId": "extremespeed"
+      },
+      {
+        "moveId": "freezedry"
+      },
+      {
+        "moveId": "phantomforce"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "avalanche"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "frostbreath"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "iciclespear"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "nightslash"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockblast"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "snowscape"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "tailslap"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "tripleaxel"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "willowisp"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "iceball"
+      },
+      {
+        "moveId": "suckerpunch"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:avalinx",
+      "targetSlug": "avalinx",
+      "summary": "Nivel · Nv. 25",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/frinx.png",
+    "placeholderColor": "#96D9D6"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_snowy"
+      ],
+      "bucket": "common",
+      "level": "1-25",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "cobblemon:lighdramon",
+  "namespace": "cobblemon",
+  "slug": "lighdramon",
+  "name": "Lighdramon",
+  "nationalPokedexNumber": 2124,
+  "primaryType": "dragon",
+  "secondaryType": "electric",
+  "types": [
+    "dragon",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 46,
+    "attack": 90,
+    "defence": 68,
+    "special_attack": 75,
+    "special_defence": 48,
+    "speed": 103
+  },
+  "baseStatTotal": 430,
+  "abilities": [
+    "lightningrod",
+    "battlearmor"
+  ],
+  "hiddenAbilities": [
+    "motordrive"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.6,
+  "weight": 74.4,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A lightning-armored beast that races across fields.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "swift",
+        "level": 25
+      },
+      {
+        "moveId": "thundershock",
+        "level": 27
+      },
+      {
+        "moveId": "dualchop",
+        "level": 29
+      },
+      {
+        "moveId": "hornattack",
+        "level": 31
+      },
+      {
+        "moveId": "roar",
+        "level": 33
+      },
+      {
+        "moveId": "thunderfang",
+        "level": 35
+      },
+      {
+        "moveId": "shockwave",
+        "level": 37
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 39
+      },
+      {
+        "moveId": "agility",
+        "level": 41
+      },
+      {
+        "moveId": "electricterrain",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:sagittarimon",
+      "targetSlug": "sagittarimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: fire_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:weregarurumon",
+      "targetSlug": "weregarurumon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: fighting_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "vmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/lighdramon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_lightning_rod",
+        "#cobblemon:is_grassland"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

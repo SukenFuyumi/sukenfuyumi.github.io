@@ -1,0 +1,191 @@
+{
+  "id": "cobblemon:dracomon",
+  "namespace": "cobblemon",
+  "slug": "dracomon",
+  "name": "Dracomon",
+  "nationalPokedexNumber": 2054,
+  "primaryType": "dragon",
+  "secondaryType": null,
+  "types": [
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 70,
+    "defence": 30,
+    "special_attack": 70,
+    "special_defence": 30,
+    "speed": 50
+  },
+  "baseStatTotal": 305,
+  "abilities": [
+    "blaze",
+    "hustle"
+  ],
+  "hiddenAbilities": [
+    "moldbreaker"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.91,
+  "weight": 9.07,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A pure-blooded Dragon Digimon said to be ancestor to many Dramon-species.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 12
+      },
+      {
+        "moveId": "growl",
+        "level": 14
+      },
+      {
+        "moveId": "ember",
+        "level": 16
+      },
+      {
+        "moveId": "twister",
+        "level": 18
+      },
+      {
+        "moveId": "odorsleuth",
+        "level": 19
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 21
+      },
+      {
+        "moveId": "dragonrage",
+        "level": 22
+      },
+      {
+        "moveId": "incinerate",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:coredramongreen",
+      "targetSlug": "coredramongreen",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:tyrannomon",
+      "targetSlug": "tyrannomon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: fire_stone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:darktyrannomon",
+      "targetSlug": "darktyrannomon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: dusk_stone",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "koromon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/dracomon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_arid",
+        "#cobblemon:is_volcanic",
+        "#cobblemon:is_thermal"
+      ],
+      "bucket": "rare",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

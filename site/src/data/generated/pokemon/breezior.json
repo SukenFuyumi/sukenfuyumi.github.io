@@ -1,0 +1,507 @@
+{
+  "id": "cobblemon:breezior",
+  "namespace": "cobblemon",
+  "slug": "breezior",
+  "name": "Breezior",
+  "nationalPokedexNumber": 1055,
+  "primaryType": "flying",
+  "secondaryType": null,
+  "types": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 100,
+    "defence": 50,
+    "special_attack": 100,
+    "special_defence": 50,
+    "speed": 140
+  },
+  "baseStatTotal": 500,
+  "abilities": [
+    "windrider",
+    "wind-charge"
+  ],
+  "hiddenAbilities": [
+    "aerilate"
+  ],
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "catchRate": 255,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 1,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 175,
+  "labels": [
+    "laserdex",
+    "minecraftian"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A distant relative of Minior. Although most of Breezior's body is made of wind, at the very center of its core is a small meteorite. It lives in Trial Chambers, and its origins are theorized to be directly linked to the Breeze.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "barrage",
+        "level": 1
+      },
+      {
+        "moveId": "starshower",
+        "level": 1
+      },
+      {
+        "moveId": "twister",
+        "level": 1
+      },
+      {
+        "moveId": "gust",
+        "level": 1
+      },
+      {
+        "moveId": "quickattack",
+        "level": 3
+      },
+      {
+        "moveId": "rapidspin",
+        "level": 8
+      },
+      {
+        "moveId": "whiparound",
+        "level": 8
+      },
+      {
+        "moveId": "confuseray",
+        "level": 10
+      },
+      {
+        "moveId": "swift",
+        "level": 15
+      },
+      {
+        "moveId": "icywind",
+        "level": 17
+      },
+      {
+        "moveId": "selfdestruct",
+        "level": 22
+      },
+      {
+        "moveId": "tailwind",
+        "level": 24
+      },
+      {
+        "moveId": "acrobatics",
+        "level": 27
+      },
+      {
+        "moveId": "starflight",
+        "level": 27
+      },
+      {
+        "moveId": "airslash",
+        "level": 29
+      },
+      {
+        "moveId": "whirlwind",
+        "level": 31
+      },
+      {
+        "moveId": "defog",
+        "level": 36
+      },
+      {
+        "moveId": "electroball",
+        "level": 39
+      },
+      {
+        "moveId": "breezeball",
+        "level": 39
+      },
+      {
+        "moveId": "raindance",
+        "level": 43
+      },
+      {
+        "moveId": "sunnyday",
+        "level": 43
+      },
+      {
+        "moveId": "snowscape",
+        "level": 43
+      },
+      {
+        "moveId": "weatherball",
+        "level": 43
+      },
+      {
+        "moveId": "typhoon",
+        "level": 45
+      },
+      {
+        "moveId": "hotair",
+        "level": 45
+      },
+      {
+        "moveId": "northwind",
+        "level": 45
+      },
+      {
+        "moveId": "hurricane",
+        "level": 50
+      },
+      {
+        "moveId": "explosion",
+        "level": 55
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "fairywind"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "cosmicpower"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "hotair"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "northwind"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "powerblast"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "razorwind"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "starshower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunder"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "triattack"
+      },
+      {
+        "moveId": "typhoon"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "whirlwind"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "triattack"
+      },
+      {
+        "moveId": "twister"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/breezior.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#minecraft:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether"
+      ],
+      "bucket": "common",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    }
+  ],
+  "sourceMods": [
+    "lasers-fakemon-pack"
+  ],
+  "primarySource": "lasers-fakemon-pack",
+  "provenance": {
+    "implemented": "lasers-fakemon-pack",
+    "nationalPokedexNumber": "lasers-fakemon-pack",
+    "name": "lasers-fakemon-pack",
+    "primaryType": "lasers-fakemon-pack",
+    "maleRatio": "lasers-fakemon-pack",
+    "height": "lasers-fakemon-pack",
+    "weight": "lasers-fakemon-pack",
+    "pokedex": "lasers-fakemon-pack",
+    "labels": "lasers-fakemon-pack",
+    "aspects": "lasers-fakemon-pack",
+    "abilities": "lasers-fakemon-pack",
+    "eggGroups": "lasers-fakemon-pack",
+    "baseStats": "lasers-fakemon-pack",
+    "evYield": "lasers-fakemon-pack",
+    "baseExperienceYield": "lasers-fakemon-pack",
+    "experienceGroup": "lasers-fakemon-pack",
+    "catchRate": "lasers-fakemon-pack",
+    "eggCycles": "lasers-fakemon-pack",
+    "baseFriendship": "lasers-fakemon-pack",
+    "baseScale": "lasers-fakemon-pack",
+    "hitbox": "lasers-fakemon-pack",
+    "behaviour": "lasers-fakemon-pack",
+    "drops": "lasers-fakemon-pack",
+    "moves": "lasers-fakemon-pack",
+    "evolutions": "lasers-fakemon-pack",
+    "battleOnly": "lasers-fakemon-pack",
+    "forms": "lasers-fakemon-pack"
+  }
+}

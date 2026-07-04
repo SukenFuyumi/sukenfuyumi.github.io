@@ -1,0 +1,328 @@
+{
+  "id": "cobblemon:forgipup",
+  "namespace": "cobblemon",
+  "slug": "forgipup",
+  "name": "Forgipup",
+  "nationalPokedexNumber": 1258,
+  "primaryType": "ghost",
+  "secondaryType": null,
+  "types": [
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 35,
+    "defence": 40,
+    "special_attack": 50,
+    "special_defence": 55,
+    "speed": 45
+  },
+  "baseStatTotal": 275,
+  "abilities": [
+    "cursedbody",
+    "frisk"
+  ],
+  "hiddenAbilities": [
+    "levitate"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "catchRate": 255,
+  "eggCycles": 15,
+  "baseFriendship": 0,
+  "height": 4,
+  "weight": 23,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 55,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It used to be a Lillipup a long time ago, but its trainer abandoned it for reasons unknown, and has now returned as a spiritual creature.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "lick",
+        "level": 0
+      },
+      {
+        "moveId": "tearfullook",
+        "level": 0
+      },
+      {
+        "moveId": "howl",
+        "level": 4
+      },
+      {
+        "moveId": "snarl",
+        "level": 8
+      },
+      {
+        "moveId": "frustration",
+        "level": 12
+      },
+      {
+        "moveId": "spite",
+        "level": 17
+      },
+      {
+        "moveId": "nightshade",
+        "level": 20
+      },
+      {
+        "moveId": "nightdaze",
+        "level": 24
+      },
+      {
+        "moveId": "curse",
+        "level": 28
+      },
+      {
+        "moveId": "pursuit",
+        "level": 32
+      },
+      {
+        "moveId": "bittermalice",
+        "level": 36
+      },
+      {
+        "moveId": "roar",
+        "level": 40
+      },
+      {
+        "moveId": "lastresort",
+        "level": 44
+      },
+      {
+        "moveId": "shadowball",
+        "level": 48
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "destinybond"
+      },
+      {
+        "moveId": "memento"
+      },
+      {
+        "moveId": "shadowbone"
+      },
+      {
+        "moveId": "yawn"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "burningjealousy"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "eerieimpulse"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailslap"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunderwave"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "willowisp"
+      },
+      {
+        "moveId": "workup"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:revendier",
+      "targetSlug": "revendier",
+      "summary": "Nivel · Nv. 16",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/forgipup.png",
+    "placeholderColor": "#735797"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_spooky"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_soul_sand"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "ai": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

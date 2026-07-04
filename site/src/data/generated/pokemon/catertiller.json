@@ -1,0 +1,203 @@
+{
+  "id": "cobblemon:catertiller",
+  "namespace": "cobblemon",
+  "slug": "catertiller",
+  "name": "Catertiller",
+  "nationalPokedexNumber": 13,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 25,
+    "attack": 25,
+    "defence": 40,
+    "special_attack": 20,
+    "special_defence": 30,
+    "speed": 40
+  },
+  "baseStatTotal": 180,
+  "abilities": [
+    "honeygather"
+  ],
+  "hiddenAbilities": [
+    "shielddust"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 255,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 80,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 36,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Catertiller are very proficient farmers, being able to plant and harvest seeds from even nutrient poor ground. They also have a knack for ranching, taking care of wild Calfresh in return for their sweet nectar. The highest quality food produced by Catertiller go to whomever they perceive as their leader.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 1
+      },
+      {
+        "moveId": "stringshot",
+        "level": 1
+      },
+      {
+        "moveId": "bugbite",
+        "level": 5
+      },
+      {
+        "moveId": "faketears",
+        "level": 12
+      },
+      {
+        "moveId": "playrough",
+        "level": 16
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "powder"
+      },
+      {
+        "moveId": "stickyweb"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:chivalrough",
+      "targetSlug": "chivalrough",
+      "summary": "Nivel · Nv. 10",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/catertiller.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "name": "lively-mons",
+    "primaryType": "lively-mons",
+    "maleRatio": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "pokedex": "lively-mons",
+    "labels": "lively-mons",
+    "aspects": "lively-mons",
+    "abilities": "lively-mons",
+    "eggGroups": "lively-mons",
+    "baseStats": "lively-mons",
+    "evYield": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "catchRate": "lively-mons",
+    "eggCycles": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "shoulderMountable": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "drops": "lively-mons",
+    "moves": "lively-mons",
+    "evolutions": "lively-mons",
+    "behaviour": "lively-mons"
+  }
+}

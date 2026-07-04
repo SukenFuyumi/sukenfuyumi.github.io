@@ -1,0 +1,196 @@
+{
+  "id": "cobblemon:wobbuffet",
+  "namespace": "cobblemon",
+  "slug": "wobbuffet",
+  "name": "Wobbuffet",
+  "nationalPokedexNumber": 202,
+  "primaryType": "psychic",
+  "secondaryType": null,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 190,
+    "attack": 33,
+    "defence": 58,
+    "special_attack": 33,
+    "special_defence": 58,
+    "speed": 33
+  },
+  "baseStatTotal": 405,
+  "abilities": [
+    "shadowtag"
+  ],
+  "hiddenAbilities": [
+    "telepathy"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 13,
+  "weight": 285,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 142,
+  "labels": [
+    "gen2"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Wobbuffet does nothing but endure attacks—it won't attack on its own. However, it won't endure an attack on its tail. When that happens, the Pokémon will try to take the foe with it using Destiny Bond.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "counter",
+        "level": 1
+      },
+      {
+        "moveId": "mirrorcoat",
+        "level": 1
+      },
+      {
+        "moveId": "safeguard",
+        "level": 1
+      },
+      {
+        "moveId": "destinybond",
+        "level": 1
+      },
+      {
+        "moveId": "splash",
+        "level": 1
+      },
+      {
+        "moveId": "charm",
+        "level": 1
+      },
+      {
+        "moveId": "encore",
+        "level": 1
+      },
+      {
+        "moveId": "amnesia",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "safeguard"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": [
+      {
+        "moveId": "tickle"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": "wynaut",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/202.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "15-41",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "rare",
+      "level": "15-41",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "rare",
+      "level": "15-41",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core"
+  }
+}

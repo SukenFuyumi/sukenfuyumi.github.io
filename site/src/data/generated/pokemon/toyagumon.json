@@ -1,0 +1,222 @@
+{
+  "id": "cobblemon:toyagumon",
+  "namespace": "cobblemon",
+  "slug": "toyagumon",
+  "name": "Toyagumon",
+  "nationalPokedexNumber": 2097,
+  "primaryType": "steel",
+  "secondaryType": "fairy",
+  "types": [
+    "steel",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 35,
+    "defence": 65,
+    "special_attack": 45,
+    "special_defence": 60,
+    "speed": 30
+  },
+  "baseStatTotal": 295,
+  "abilities": [
+    "sturdy",
+    "wimpout"
+  ],
+  "hiddenAbilities": [
+    "steelworker"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.02,
+  "weight": 14.51,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A toy-brick Dragon Digimon with a hollow body and sturdy joints.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 12
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 14
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 16
+      },
+      {
+        "moveId": "disarmingvoice",
+        "level": 18
+      },
+      {
+        "moveId": "charm",
+        "level": 19
+      },
+      {
+        "moveId": "ember",
+        "level": 21
+      },
+      {
+        "moveId": "swift",
+        "level": 22
+      },
+      {
+        "moveId": "magnetbomb",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:revolmon",
+      "targetSlug": "revolmon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:ballistamon",
+      "targetSlug": "ballistamon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: upgrade",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:mimicmon",
+      "targetSlug": "mimicmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: metal_coat",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:raremon",
+      "targetSlug": "raremon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: black_sludge",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "koromon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon",
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/toyagumon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "alexscaves:candy_cavity"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

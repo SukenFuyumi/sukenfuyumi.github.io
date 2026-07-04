@@ -1,0 +1,129 @@
+{
+  "id": "cobblemon:Mawile#MegaRlmDragon",
+  "namespace": "cobblemon",
+  "slug": "cobblemon-mawile-megarlmdragon",
+  "name": "Mawile MegaRlmDragon",
+  "nationalPokedexNumber": null,
+  "primaryType": "dragon",
+  "secondaryType": "fairy",
+  "types": [
+    "dragon",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 90,
+    "defence": 60,
+    "special_attack": 95,
+    "special_defence": 60,
+    "speed": 85
+  },
+  "baseStatTotal": 480,
+  "abilities": [
+    "mystiforce",
+    "mystiforce"
+  ],
+  "hiddenAbilities": [
+    "mystiforce"
+  ],
+  "eggGroups": [],
+  "catchRate": null,
+  "eggCycles": null,
+  "baseFriendship": null,
+  "height": null,
+  "weight": null,
+  "maleRatio": null,
+  "experienceGroup": null,
+  "baseExperienceYield": null,
+  "labels": [],
+  "aspects": [
+    "rlm",
+    "dragon",
+    "mega"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "Though spectacular in appearance, the two additional dragons gained through Mega Evolution are far from decorative. In this form, this Pokémon wields colossal power, launching assaults capable of sweeping away anything in its path.",
+  "moveset": {
+    "levelUp": [],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/cobblemon-mawile-megarlmdragon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-rlm"
+  ],
+  "primarySource": "cobblemon-rlm",
+  "provenance": {
+    "features": "cobblemon-rlm",
+    "forms": "cobblemon-rlm"
+  },
+  "formOf": {
+    "slug": "cobblemon-mawile",
+    "name": "Mawile"
+  },
+  "formName": "MegaRlmDragon"
+}

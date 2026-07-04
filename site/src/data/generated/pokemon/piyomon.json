@@ -1,0 +1,225 @@
+{
+  "id": "cobblemon:piyomon",
+  "namespace": "cobblemon",
+  "slug": "piyomon",
+  "name": "Piyomon",
+  "nationalPokedexNumber": 9019,
+  "primaryType": "flying",
+  "secondaryType": "fire",
+  "types": [
+    "flying",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 30,
+    "special_attack": 75,
+    "special_defence": 62,
+    "speed": 53
+  },
+  "baseStatTotal": 305,
+  "abilities": [
+    "blaze",
+    "earlybird"
+  ],
+  "hiddenAbilities": [
+    "bigpecks"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.91,
+  "weight": 7.26,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Chick Digimon whose wings have developed to become like arms.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 12
+      },
+      {
+        "moveId": "sandattack",
+        "level": 14
+      },
+      {
+        "moveId": "peck",
+        "level": 16
+      },
+      {
+        "moveId": "ember",
+        "level": 18
+      },
+      {
+        "moveId": "mirrormove",
+        "level": 19
+      },
+      {
+        "moveId": "workup",
+        "level": 21
+      },
+      {
+        "moveId": "aircutter",
+        "level": 22
+      },
+      {
+        "moveId": "assurance",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:birdramon",
+      "targetSlug": "birdramon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:akatorimon",
+      "targetSlug": "akatorimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: sharp_beak",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:wizarmon",
+      "targetSlug": "wizarmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: covert_cloak",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:galemon",
+      "targetSlug": "galemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: leaf_stone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:goldnumemon",
+      "targetSlug": "goldnumemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: relic_coin_sack",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "tanemon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "rock",
+        "multiplier": 4
+      },
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/piyomon.png",
+    "placeholderColor": "#A98FF3"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_hills",
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "secondaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

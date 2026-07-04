@@ -1,0 +1,207 @@
+{
+  "id": "cobblemon:gargomon",
+  "namespace": "cobblemon",
+  "slug": "gargomon",
+  "name": "Gargomon",
+  "nationalPokedexNumber": 2159,
+  "primaryType": "dragon",
+  "secondaryType": "fairy",
+  "types": [
+    "dragon",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 79,
+    "attack": 61,
+    "defence": 90,
+    "special_attack": 71,
+    "special_defence": 29,
+    "speed": 60
+  },
+  "baseStatTotal": 390,
+  "abilities": [
+    "intimidate",
+    "battlearmor"
+  ],
+  "hiddenAbilities": [
+    "justified"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.13,
+  "weight": 69,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A gun-armed brawler who charges into frays.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pursuit",
+        "level": 25
+      },
+      {
+        "moveId": "torment",
+        "level": 27
+      },
+      {
+        "moveId": "fairylock",
+        "level": 29
+      },
+      {
+        "moveId": "dazzlinggleam",
+        "level": 31
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 33
+      },
+      {
+        "moveId": "curse",
+        "level": 35
+      },
+      {
+        "moveId": "wingattack",
+        "level": 37
+      },
+      {
+        "moveId": "dualchop",
+        "level": 39
+      },
+      {
+        "moveId": "mistyterrain",
+        "level": 41
+      },
+      {
+        "moveId": "spiritbreak",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:manticoremon",
+      "targetSlug": "manticoremon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: fairy_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "terriermon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/gargomon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_end",
+        "#cobblemon:nether",
+        "#cobblemon:is_spooky",
+        "#cobblemon:is_magical"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

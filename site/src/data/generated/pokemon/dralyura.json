@@ -1,0 +1,179 @@
+{
+  "id": "cobblemon:dralyura",
+  "namespace": "cobblemon",
+  "slug": "dralyura",
+  "name": "Dralyura",
+  "nationalPokedexNumber": 1299,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 32,
+    "attack": 54,
+    "defence": 70,
+    "special_attack": 30,
+    "special_defence": 84,
+    "speed": 30
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "shedskin",
+    "gluttony"
+  ],
+  "hiddenAbilities": [
+    "flashfire"
+  ],
+  "eggGroups": [
+    "bug",
+    "dragon"
+  ],
+  "catchRate": 45,
+  "eggCycles": 40,
+  "baseFriendship": 50,
+  "height": 2,
+  "weight": 25,
+  "maleRatio": 0.5,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Despite its small size, it's not scared of anything and is always calm. Even when it suffers injuries, it doesn't look in pain at all.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "stringshot",
+        "level": 0
+      },
+      {
+        "moveId": "bite",
+        "level": 0
+      },
+      {
+        "moveId": "bide",
+        "level": 0
+      },
+      {
+        "moveId": "dragonbreath",
+        "level": 0
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "firstimpression"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "hornleech"
+      },
+      {
+        "moveId": "rapidspin"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:drakoon_alatia",
+      "targetSlug": "drakoon-alatia",
+      "summary": "Nivel · Nv. 50",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/dralyura.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_lush"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

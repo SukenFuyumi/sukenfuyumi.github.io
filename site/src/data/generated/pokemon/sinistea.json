@@ -1,0 +1,864 @@
+{
+  "id": "cobblemon:sinistea",
+  "namespace": "cobblemon",
+  "slug": "sinistea",
+  "name": "Sinistea",
+  "nationalPokedexNumber": 854,
+  "primaryType": "ghost",
+  "secondaryType": null,
+  "types": [
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 45,
+    "special_attack": 74,
+    "special_defence": 54,
+    "speed": 50
+  },
+  "baseStatTotal": 308,
+  "abilities": [
+    "weakarmor"
+  ],
+  "hiddenAbilities": [
+    "cursedbody"
+  ],
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 1,
+  "weight": 2,
+  "maleRatio": -1,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 62,
+  "labels": [
+    "gen8"
+  ],
+  "aspects": [
+    "phony"
+  ],
+  "forms": [
+    {
+      "name": "Antique",
+      "aspects": [
+        "antique"
+      ],
+      "primaryType": "ghost",
+      "secondaryType": null,
+      "types": [
+        "ghost"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "The swirl pattern in this Pokémon's body is its weakness. If it gets stirred, the swirl loses its shape, and Sinistea gets dizzy.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "astonish",
+            "level": 1
+          },
+          {
+            "moveId": "withdraw",
+            "level": 1
+          },
+          {
+            "moveId": "aromatherapy",
+            "level": 1
+          },
+          {
+            "moveId": "aromaticmist",
+            "level": 6
+          },
+          {
+            "moveId": "megadrain",
+            "level": 12
+          },
+          {
+            "moveId": "suckerpunch",
+            "level": 24
+          },
+          {
+            "moveId": "sweetscent",
+            "level": 30
+          },
+          {
+            "moveId": "gigadrain",
+            "level": 36
+          },
+          {
+            "moveId": "spiritdrain",
+            "level": 39
+          },
+          {
+            "moveId": "nastyplot",
+            "level": 42
+          },
+          {
+            "moveId": "shadowball",
+            "level": 48
+          },
+          {
+            "moveId": "memento",
+            "level": 54
+          },
+          {
+            "moveId": "shellsmash",
+            "level": 60
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "allyswitch"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "batonpass"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "hex"
+          },
+          {
+            "moveId": "imprison"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "metronome"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "nightshade"
+          },
+          {
+            "moveId": "nightlight"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "phantomforce"
+          },
+          {
+            "moveId": "poltergeist"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psyshock"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "spiritdrain"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "willowisp"
+          },
+          {
+            "moveId": "wonderroom"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "poltergeist"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "wonderroom"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "snore"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "fighting",
+          "normal"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:polteageist",
+          "targetSlug": "polteageist",
+          "summary": "Usar chipped_pot · variante tea_authenticity=antique",
+          "variant": "item_interact"
+        }
+      ],
+      "slug": "sinistea-antique"
+    }
+  ],
+  "pokedexDescription": "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "withdraw",
+        "level": 1
+      },
+      {
+        "moveId": "aromatherapy",
+        "level": 1
+      },
+      {
+        "moveId": "aromaticmist",
+        "level": 6
+      },
+      {
+        "moveId": "megadrain",
+        "level": 12
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 24
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 30
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 36
+      },
+      {
+        "moveId": "spiritdrain",
+        "level": 39
+      },
+      {
+        "moveId": "nastyplot",
+        "level": 42
+      },
+      {
+        "moveId": "shadowball",
+        "level": 48
+      },
+      {
+        "moveId": "memento",
+        "level": 54
+      },
+      {
+        "moveId": "shellsmash",
+        "level": 60
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "allyswitch"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "metronome"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "phantomforce"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spiritdrain"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "willowisp"
+      },
+      {
+        "moveId": "wonderroom"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "wonderroom"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:polteageist",
+      "targetSlug": "polteageist",
+      "summary": "Usar cracked_pot · variante tea_authenticity=phony",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/854.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_plains",
+        "#cobblemon:is_snowy",
+        "#cobblemon:is_spooky",
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_plains",
+        "#cobblemon:is_snowy",
+        "#cobblemon:is_spooky",
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_plains",
+        "#cobblemon:is_snowy",
+        "#cobblemon:is_spooky",
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_plains",
+        "#cobblemon:is_snowy",
+        "#cobblemon:is_spooky",
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_plains",
+        "#cobblemon:is_snowy",
+        "#cobblemon:is_spooky",
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_plains",
+        "#cobblemon:is_snowy",
+        "#cobblemon:is_spooky",
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_plains",
+        "#cobblemon:is_snowy",
+        "#cobblemon:is_spooky",
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral",
+        "#cobblemon:is_magical",
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_plains",
+        "#cobblemon:is_snowy",
+        "#cobblemon:is_spooky",
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "uncommon",
+      "level": "6-31",
+      "timeRange": "night",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core",
+    "behaviour": "cobblemon-core"
+  }
+}

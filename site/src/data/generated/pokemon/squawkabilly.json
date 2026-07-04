@@ -1,0 +1,1422 @@
+{
+  "id": "cobblemon:squawkabilly",
+  "namespace": "cobblemon",
+  "slug": "squawkabilly",
+  "name": "Squawkabilly",
+  "nationalPokedexNumber": 931,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 82,
+    "attack": 96,
+    "defence": 51,
+    "special_attack": 45,
+    "special_defence": 51,
+    "speed": 92
+  },
+  "baseStatTotal": 417,
+  "abilities": [
+    "intimidate",
+    "hustle"
+  ],
+  "hiddenAbilities": [
+    "guts"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "catchRate": 190,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 24,
+  "maleRatio": 0.5,
+  "experienceGroup": "erratic",
+  "baseExperienceYield": 146,
+  "labels": [
+    "gen9"
+  ],
+  "aspects": [
+    "squawkabilly-color-green"
+  ],
+  "forms": [
+    {
+      "name": "Blue",
+      "aspects": [
+        "squawkabilly-color-blue"
+      ],
+      "primaryType": "normal",
+      "secondaryType": "flying",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "The largest of their flocks can contain more than 50 individuals. They fly around towns and forests, searching for food and making a racket.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "growl",
+            "level": 1
+          },
+          {
+            "moveId": "peck",
+            "level": 1
+          },
+          {
+            "moveId": "mimic",
+            "level": 1
+          },
+          {
+            "moveId": "quickattack",
+            "level": 6
+          },
+          {
+            "moveId": "torment",
+            "level": 10
+          },
+          {
+            "moveId": "aerialace",
+            "level": 13
+          },
+          {
+            "moveId": "furyattack",
+            "level": 17
+          },
+          {
+            "moveId": "taunt",
+            "level": 20
+          },
+          {
+            "moveId": "uproar",
+            "level": 24
+          },
+          {
+            "moveId": "copycat",
+            "level": 27
+          },
+          {
+            "moveId": "fly",
+            "level": 30
+          },
+          {
+            "moveId": "facade",
+            "level": 34
+          },
+          {
+            "moveId": "swagger",
+            "level": 38
+          },
+          {
+            "moveId": "bravebird",
+            "level": 42
+          },
+          {
+            "moveId": "roost",
+            "level": 47
+          },
+          {
+            "moveId": "reversal",
+            "level": 52
+          },
+          {
+            "moveId": "nosedive",
+            "level": 57
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "finalgambit"
+          },
+          {
+            "moveId": "flatter"
+          },
+          {
+            "moveId": "partingshot"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "airslash"
+          },
+          {
+            "moveId": "bravebird"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "featherdance"
+          },
+          {
+            "moveId": "fly"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hurricane"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "nosedive"
+          },
+          {
+            "moveId": "pounce"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "torment"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "electric",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "ghost",
+          "ground"
+        ]
+      },
+      "evolutions": [],
+      "slug": "squawkabilly-blue"
+    },
+    {
+      "name": "Yellow",
+      "aspects": [
+        "squawkabilly-color-yellow"
+      ],
+      "primaryType": "normal",
+      "secondaryType": "flying",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": [
+        "intimidate",
+        "hustle"
+      ],
+      "hiddenAbilities": [
+        "sheerforce"
+      ],
+      "pokedexDescription": "These Squawkabilly are hotheaded, and their fighting style is vicious. They'll leap within reach of their foes to engage in close combat.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "growl",
+            "level": 1
+          },
+          {
+            "moveId": "peck",
+            "level": 1
+          },
+          {
+            "moveId": "mimic",
+            "level": 1
+          },
+          {
+            "moveId": "quickattack",
+            "level": 6
+          },
+          {
+            "moveId": "torment",
+            "level": 10
+          },
+          {
+            "moveId": "aerialace",
+            "level": 13
+          },
+          {
+            "moveId": "furyattack",
+            "level": 17
+          },
+          {
+            "moveId": "taunt",
+            "level": 20
+          },
+          {
+            "moveId": "uproar",
+            "level": 24
+          },
+          {
+            "moveId": "copycat",
+            "level": 27
+          },
+          {
+            "moveId": "fly",
+            "level": 30
+          },
+          {
+            "moveId": "facade",
+            "level": 34
+          },
+          {
+            "moveId": "swagger",
+            "level": 38
+          },
+          {
+            "moveId": "bravebird",
+            "level": 42
+          },
+          {
+            "moveId": "roost",
+            "level": 47
+          },
+          {
+            "moveId": "reversal",
+            "level": 52
+          },
+          {
+            "moveId": "nosedive",
+            "level": 57
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "finalgambit"
+          },
+          {
+            "moveId": "flatter"
+          },
+          {
+            "moveId": "partingshot"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "airslash"
+          },
+          {
+            "moveId": "bravebird"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "featherdance"
+          },
+          {
+            "moveId": "fly"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hurricane"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "nosedive"
+          },
+          {
+            "moveId": "pounce"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "torment"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "electric",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "ghost",
+          "ground"
+        ]
+      },
+      "evolutions": [],
+      "slug": "squawkabilly-yellow"
+    },
+    {
+      "name": "White",
+      "aspects": [
+        "squawkabilly-color-gray"
+      ],
+      "primaryType": "normal",
+      "secondaryType": "flying",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": [
+        "intimidate",
+        "hustle"
+      ],
+      "hiddenAbilities": [
+        "sheerforce"
+      ],
+      "pokedexDescription": "This Pokémon dislikes being alone. It has a strong sense of community and survives by cooperating with allies.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "growl",
+            "level": 1
+          },
+          {
+            "moveId": "peck",
+            "level": 1
+          },
+          {
+            "moveId": "mimic",
+            "level": 1
+          },
+          {
+            "moveId": "quickattack",
+            "level": 6
+          },
+          {
+            "moveId": "torment",
+            "level": 10
+          },
+          {
+            "moveId": "aerialace",
+            "level": 13
+          },
+          {
+            "moveId": "furyattack",
+            "level": 17
+          },
+          {
+            "moveId": "taunt",
+            "level": 20
+          },
+          {
+            "moveId": "uproar",
+            "level": 24
+          },
+          {
+            "moveId": "copycat",
+            "level": 27
+          },
+          {
+            "moveId": "fly",
+            "level": 30
+          },
+          {
+            "moveId": "facade",
+            "level": 34
+          },
+          {
+            "moveId": "swagger",
+            "level": 38
+          },
+          {
+            "moveId": "bravebird",
+            "level": 42
+          },
+          {
+            "moveId": "roost",
+            "level": 47
+          },
+          {
+            "moveId": "reversal",
+            "level": 52
+          },
+          {
+            "moveId": "nosedive",
+            "level": 57
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "finalgambit"
+          },
+          {
+            "moveId": "flatter"
+          },
+          {
+            "moveId": "partingshot"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "airslash"
+          },
+          {
+            "moveId": "bravebird"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "featherdance"
+          },
+          {
+            "moveId": "fly"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hurricane"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "nosedive"
+          },
+          {
+            "moveId": "pounce"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "torment"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "electric",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "ghost",
+          "ground"
+        ]
+      },
+      "evolutions": [],
+      "slug": "squawkabilly-white"
+    }
+  ],
+  "pokedexDescription": "These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "peck",
+        "level": 1
+      },
+      {
+        "moveId": "mimic",
+        "level": 1
+      },
+      {
+        "moveId": "quickattack",
+        "level": 6
+      },
+      {
+        "moveId": "torment",
+        "level": 10
+      },
+      {
+        "moveId": "aerialace",
+        "level": 13
+      },
+      {
+        "moveId": "furyattack",
+        "level": 17
+      },
+      {
+        "moveId": "taunt",
+        "level": 20
+      },
+      {
+        "moveId": "uproar",
+        "level": 24
+      },
+      {
+        "moveId": "copycat",
+        "level": 27
+      },
+      {
+        "moveId": "fly",
+        "level": 30
+      },
+      {
+        "moveId": "facade",
+        "level": 34
+      },
+      {
+        "moveId": "swagger",
+        "level": 38
+      },
+      {
+        "moveId": "bravebird",
+        "level": 42
+      },
+      {
+        "moveId": "roost",
+        "level": 47
+      },
+      {
+        "moveId": "reversal",
+        "level": 52
+      },
+      {
+        "moveId": "nosedive",
+        "level": 57
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "finalgambit"
+      },
+      {
+        "moveId": "flatter"
+      },
+      {
+        "moveId": "partingshot"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "bravebird"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost",
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/931.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_savanna",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "17-42",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "17-42",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "17-42",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "common",
+      "level": "17-42",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "17-42",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "17-42",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "17-42",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "17-42",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_savanna",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "17-42",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "17-42",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "17-42",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "common",
+      "level": "17-42",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "id": "cobblemon:picodevimon",
+  "namespace": "cobblemon",
+  "slug": "picodevimon",
+  "name": "Picodevimon",
+  "nationalPokedexNumber": 2069,
+  "primaryType": "dark",
+  "secondaryType": "flying",
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 40,
+    "defence": 50,
+    "special_attack": 65,
+    "special_defence": 30,
+    "speed": 60
+  },
+  "baseStatTotal": 295,
+  "abilities": [
+    "prankster",
+    "insomnia"
+  ],
+  "hiddenAbilities": [
+    "infiltrator"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.71,
+  "weight": 7.26,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Bat Digimon with a cunning personality that relishes pranks.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "absorb",
+        "level": 12
+      },
+      {
+        "moveId": "leer",
+        "level": 14
+      },
+      {
+        "moveId": "poisonsting",
+        "level": 16
+      },
+      {
+        "moveId": "bite",
+        "level": 18
+      },
+      {
+        "moveId": "taunt",
+        "level": 19
+      },
+      {
+        "moveId": "hypnosis",
+        "level": 21
+      },
+      {
+        "moveId": "wingattack",
+        "level": 22
+      },
+      {
+        "moveId": "assurance",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:icedevimon",
+      "targetSlug": "icedevimon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:devidramon",
+      "targetSlug": "devidramon",
+      "summary": "Nivel · Nv. 24 · De noche",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:chrysalimon",
+      "targetSlug": "chrysalimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: dusk_stone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:cyclomon",
+      "targetSlug": "cyclomon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: razor_claw",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:booogiemon",
+      "targetSlug": "booogiemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: sachet",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:bakemon",
+      "targetSlug": "bakemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: sachet",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "tanemon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ground",
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/picodevimon.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_spooky",
+        "#cobblemon:is_cave",
+        "#cobblemon:is_deep_dark",
+        "alexscaves:forlorn_hollows"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

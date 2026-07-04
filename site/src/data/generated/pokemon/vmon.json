@@ -1,0 +1,216 @@
+{
+  "id": "cobblemon:vmon",
+  "namespace": "cobblemon",
+  "slug": "vmon",
+  "name": "Vmon",
+  "nationalPokedexNumber": 2049,
+  "primaryType": "dragon",
+  "secondaryType": "fighting",
+  "types": [
+    "dragon",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 65,
+    "defence": 35,
+    "special_attack": 50,
+    "special_defence": 35,
+    "speed": 80
+  },
+  "baseStatTotal": 295,
+  "abilities": [
+    "hustle",
+    "innerfocus"
+  ],
+  "hiddenAbilities": [
+    "reckless"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.91,
+  "weight": 11.34,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Vmon is a Rookie Dragon Digimon with great potential.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 12
+      },
+      {
+        "moveId": "leer",
+        "level": 14
+      },
+      {
+        "moveId": "workup",
+        "level": 16
+      },
+      {
+        "moveId": "machpunch",
+        "level": 18
+      },
+      {
+        "moveId": "headbutt",
+        "level": 19
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 21
+      },
+      {
+        "moveId": "megapunch",
+        "level": 22
+      },
+      {
+        "moveId": "twister",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:vdramon",
+      "targetSlug": "vdramon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:fladramon",
+      "targetSlug": "fladramon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: magmarizer",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:lighdramon",
+      "targetSlug": "lighdramon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: electirizer",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:exvmon",
+      "targetSlug": "exvmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: dragon_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "chibimon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 4
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/vmon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

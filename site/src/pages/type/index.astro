@@ -1,0 +1,40 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import matrix from "../../data/generated/typeMatrix.json";
+
+const types = Object.keys(matrix).sort();
+const cellLabel = (m: number) => (m === 0 ? "0" : m === 0.5 ? "½" : m === 2 ? "2" : m === 4 ? "4" : m === 0.25 ? "¼" : "1");
+const cellClass = (m: number) => (m === 0 ? "im" : m > 1 ? "wk" : m < 1 ? "rs" : "");
+---
+<Layout title="Tabla de tipos">
+  <h1>Tabla de efectividad de tipos</h1>
+  <p>Filas = tipo atacante. Columnas = tipo defensor. Lectura: fila "fuego" vs columna "planta" = daño que Fuego hace a Planta.</p>
+  <div style="overflow-x:auto;">
+    <table class="type-matrix">
+      <thead>
+        <tr>
+          <th></th>
+          {types.map((t) => <th><a href={`/type/${t}`} class="type-badge" style={`background:var(--type-${t}); font-size:0.62rem;`}>{t.slice(0, 3)}</a></th>)}
+        </tr>
+      </thead>
+      <tbody>
+        {types.map((atk) => (
+          <tr>
+            <th><a href={`/type/${atk}`} class="type-badge" style={`background:var(--type-${atk})`}>{atk}</a></th>
+            {types.map((def) => {
+              const m = (matrix as any)[atk][def];
+              return <td class={cellClass(m)}>{cellLabel(m)}</td>;
+            })}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</Layout>
+
+<style>
+  .type-matrix td, .type-matrix th { text-align: center; padding: 0.35rem; font-size: 0.78rem; }
+  .type-matrix td.wk { background: #ffe1e1; font-weight: 700; }
+  .type-matrix td.rs { background: #e2f4e2; }
+  .type-matrix td.im { background: #333; color: #fff; font-weight: 700; }
+</style>

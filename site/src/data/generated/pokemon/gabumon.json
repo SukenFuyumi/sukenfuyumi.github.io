@@ -1,0 +1,210 @@
+{
+  "id": "cobblemon:gabumon",
+  "namespace": "cobblemon",
+  "slug": "gabumon",
+  "name": "Gabumon",
+  "nationalPokedexNumber": 2012,
+  "primaryType": "fire",
+  "secondaryType": null,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 75,
+    "special_attack": 55,
+    "special_defence": 30,
+    "speed": 30
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "blaze",
+    "overcoat"
+  ],
+  "hiddenAbilities": [
+    "intimidate"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.02,
+  "weight": 11.34,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Although it is covered by a fur pelt, it is clearly a Reptile Digimon.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 12
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 14
+      },
+      {
+        "moveId": "ember",
+        "level": 16
+      },
+      {
+        "moveId": "powdersnow",
+        "level": 18
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 19
+      },
+      {
+        "moveId": "hornattack",
+        "level": 21
+      },
+      {
+        "moveId": "scaryface",
+        "level": 22
+      },
+      {
+        "moveId": "flameburst",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:garurumon",
+      "targetSlug": "garurumon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:dolurumon",
+      "targetSlug": "dolurumon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: metal_coat",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:centalmon",
+      "targetSlug": "centalmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: upgrade",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:monochromon",
+      "targetSlug": "monochromon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: rock_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gryzmon",
+      "targetSlug": "gryzmon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: quick_claw",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "tsunomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/gabumon.png",
+    "placeholderColor": "#EE8130"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_tundra"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

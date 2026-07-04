@@ -1,0 +1,213 @@
+{
+  "id": "cobblemon:togemon",
+  "namespace": "cobblemon",
+  "slug": "togemon",
+  "name": "Togemon",
+  "nationalPokedexNumber": 2180,
+  "primaryType": "grass",
+  "secondaryType": "fighting",
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 100,
+    "defence": 60,
+    "special_attack": 60,
+    "special_defence": 50,
+    "speed": 38
+  },
+  "baseStatTotal": 393,
+  "abilities": [
+    "waterabsorb",
+    "ironbarbs"
+  ],
+  "hiddenAbilities": [
+    "dryskin"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.8,
+  "weight": 79,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A cactus pugilist bristling with spikes.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pinmissile",
+        "level": 25
+      },
+      {
+        "moveId": "growth",
+        "level": 27
+      },
+      {
+        "moveId": "counter",
+        "level": 29
+      },
+      {
+        "moveId": "brickbreak",
+        "level": 31
+      },
+      {
+        "moveId": "vinewhip",
+        "level": 33
+      },
+      {
+        "moveId": "machpunch",
+        "level": 35
+      },
+      {
+        "moveId": "ingrain",
+        "level": 37
+      },
+      {
+        "moveId": "trailblaze",
+        "level": 39
+      },
+      {
+        "moveId": "needlearm",
+        "level": 41
+      },
+      {
+        "moveId": "spikyshield",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:lilimon",
+      "targetSlug": "lilimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: fairy_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:blossomon",
+      "targetSlug": "blossomon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: grass_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "pomumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "flying",
+        "multiplier": 4
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/togemon.png",
+    "placeholderColor": "#7AC74C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

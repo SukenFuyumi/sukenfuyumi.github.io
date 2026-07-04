@@ -1,0 +1,2663 @@
+{
+  "id": "cobblemon:falinks",
+  "namespace": "cobblemon",
+  "slug": "falinks",
+  "name": "Falinks",
+  "nationalPokedexNumber": 870,
+  "primaryType": "fighting",
+  "secondaryType": null,
+  "types": [
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 100,
+    "defence": 100,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 75
+  },
+  "baseStatTotal": 470,
+  "abilities": [
+    "battlearmor",
+    "bulletproof"
+  ],
+  "hiddenAbilities": [
+    "defiant"
+  ],
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "catchRate": 45,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 30,
+  "weight": 620,
+  "maleRatio": -1,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 165,
+  "labels": [
+    "gen8"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Last-Soldier",
+      "aspects": [
+        "last_soldier"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "ghost",
+      "types": [
+        "fighting",
+        "ghost"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 75,
+        "attack": 110,
+        "defence": 60,
+        "special_attack": 40,
+        "special_defence": 100,
+        "speed": 85
+      },
+      "baseStatTotal": 470,
+      "abilities": [
+        "longreach",
+        "bulletproof"
+      ],
+      "hiddenAbilities": [
+        "justified"
+      ],
+      "pokedexDescription": "Even after losing its five troopers in battle, the Last Soldier refuses to retreat. Its fallen comrades continue to fight alongside their leader, empowering them with ghostly aura. This power allows it to face even the strongest armies without faltering.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "nightmarch",
+            "level": 1
+          },
+          {
+            "moveId": "destinybond",
+            "level": 1
+          },
+          {
+            "moveId": "limitbreak",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "protect",
+            "level": 1
+          },
+          {
+            "moveId": "focusenergy",
+            "level": 1
+          },
+          {
+            "moveId": "finalgambit",
+            "level": 1
+          },
+          {
+            "moveId": "beatup",
+            "level": 3
+          },
+          {
+            "moveId": "rocksmash",
+            "level": 6
+          },
+          {
+            "moveId": "astonish",
+            "level": 10
+          },
+          {
+            "moveId": "smartstrike",
+            "level": 13
+          },
+          {
+            "moveId": "headbutt",
+            "level": 16
+          },
+          {
+            "moveId": "bulkup",
+            "level": 20
+          },
+          {
+            "moveId": "shadowsneak",
+            "level": 23
+          },
+          {
+            "moveId": "endure",
+            "level": 26
+          },
+          {
+            "moveId": "reversal",
+            "level": 30
+          },
+          {
+            "moveId": "throatchop",
+            "level": 33
+          },
+          {
+            "moveId": "firstimpression",
+            "level": 36
+          },
+          {
+            "moveId": "laststand",
+            "level": 40
+          },
+          {
+            "moveId": "phantomforce",
+            "level": 43
+          },
+          {
+            "moveId": "irondefense",
+            "level": 46
+          },
+          {
+            "moveId": "closecombat",
+            "level": 50
+          },
+          {
+            "moveId": "lastresort",
+            "level": 53
+          },
+          {
+            "moveId": "megahorn",
+            "level": 56
+          },
+          {
+            "moveId": "comeuppance",
+            "level": 60
+          },
+          {
+            "moveId": "lastrespects",
+            "level": 66
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "armorpress"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "beatup"
+          },
+          {
+            "moveId": "bodypress"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "closecombat"
+          },
+          {
+            "moveId": "coaching"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "limitbreak"
+          },
+          {
+            "moveId": "lunge"
+          },
+          {
+            "moveId": "megahorn"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "phantomforce"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "poltergeist"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "revenge"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "smartstrike"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "upperhand"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "coaching"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "megahorn"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.25
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "fighting",
+          "normal"
+        ]
+      },
+      "evolutions": [],
+      "slug": "falinks-last-soldier"
+    },
+    {
+      "name": "Gunslinger",
+      "aspects": [
+        "gunslinger"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "steel",
+      "types": [
+        "fighting",
+        "steel"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 70,
+        "attack": 90,
+        "defence": 100,
+        "special_attack": 90,
+        "special_defence": 60,
+        "speed": 60
+      },
+      "baseStatTotal": 470,
+      "abilities": [
+        "skilllink",
+        "bulletproof"
+      ],
+      "hiddenAbilities": [
+        "bombard"
+      ],
+      "pokedexDescription": "The five individuals stack on top of each other, acting as one. Their towering position allows them to more easily aim and fire with the cannons on their heads, with less risk of friendly fire. The brass on the top of the stack commands the bottom-most trooper and directs them in the direction it wants to go.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "barrage",
+            "level": 1
+          },
+          {
+            "moveId": "workup",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "protect",
+            "level": 1
+          },
+          {
+            "moveId": "focusenergy",
+            "level": 1
+          },
+          {
+            "moveId": "gearup",
+            "level": 1
+          },
+          {
+            "moveId": "stasisroom",
+            "level": 1
+          },
+          {
+            "moveId": "stasisbeam",
+            "level": 1
+          },
+          {
+            "moveId": "rocksmash",
+            "level": 5
+          },
+          {
+            "moveId": "magnetbomb",
+            "level": 10
+          },
+          {
+            "moveId": "spikecannon",
+            "level": 15
+          },
+          {
+            "moveId": "bulkup",
+            "level": 20
+          },
+          {
+            "moveId": "endure",
+            "level": 25
+          },
+          {
+            "moveId": "flashcannon",
+            "level": 27
+          },
+          {
+            "moveId": "reversal",
+            "level": 30
+          },
+          {
+            "moveId": "rockblast",
+            "level": 33
+          },
+          {
+            "moveId": "pinmissile",
+            "level": 35
+          },
+          {
+            "moveId": "bulletbarrage",
+            "level": 37
+          },
+          {
+            "moveId": "bulletseed",
+            "level": 37
+          },
+          {
+            "moveId": "electrobullet",
+            "level": 37
+          },
+          {
+            "moveId": "holdtheline",
+            "level": 40
+          },
+          {
+            "moveId": "aurasphere",
+            "level": 43
+          },
+          {
+            "moveId": "irondefense",
+            "level": 45
+          },
+          {
+            "moveId": "armorpress",
+            "level": 45
+          },
+          {
+            "moveId": "firebomb",
+            "level": 47
+          },
+          {
+            "moveId": "superpower",
+            "level": 50
+          },
+          {
+            "moveId": "focusblast",
+            "level": 53
+          },
+          {
+            "moveId": "lockon",
+            "level": 55
+          },
+          {
+            "moveId": "zapcannon",
+            "level": 55
+          },
+          {
+            "moveId": "metalburst",
+            "level": 60
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "armorpress"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "aurasphere"
+          },
+          {
+            "moveId": "beatup"
+          },
+          {
+            "moveId": "bodypress"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "coaching"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "iciclespear"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "limitbreak"
+          },
+          {
+            "moveId": "lunge"
+          },
+          {
+            "moveId": "mudbomb"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "pinmissile"
+          },
+          {
+            "moveId": "potshot"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "revenge"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "rockblast"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "steelbeam"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "upperhand"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "workup"
+          },
+          {
+            "moveId": "zapcannon"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "coaching"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zapcannon"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fighting",
+            "multiplier": 2
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.25
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.25
+          },
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "dragon",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          },
+          {
+            "type": "normal",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "poison"
+        ]
+      },
+      "evolutions": [],
+      "slug": "falinks-gunslinger"
+    },
+    {
+      "name": "Mega-Last-Soldier",
+      "aspects": [
+        "mega_y",
+        "last_soldier"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "ghost",
+      "types": [
+        "fighting",
+        "ghost"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 75,
+        "attack": 135,
+        "defence": 100,
+        "special_attack": 55,
+        "special_defence": 120,
+        "speed": 85
+      },
+      "baseStatTotal": 570,
+      "abilities": [
+        "supremeoverlord"
+      ],
+      "hiddenAbilities": [
+        "supremeoverlord"
+      ],
+      "pokedexDescription": "Through the power of Mega Evolution, the Last Soldier becomes one with its fallen troops. Theirs souls link together to form an unstoppable force able to topple a thousand armies.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "nightmarch",
+            "level": 1
+          },
+          {
+            "moveId": "destinybond",
+            "level": 1
+          },
+          {
+            "moveId": "limitbreak",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "protect",
+            "level": 1
+          },
+          {
+            "moveId": "focusenergy",
+            "level": 1
+          },
+          {
+            "moveId": "finalgambit",
+            "level": 1
+          },
+          {
+            "moveId": "beatup",
+            "level": 3
+          },
+          {
+            "moveId": "rocksmash",
+            "level": 6
+          },
+          {
+            "moveId": "astonish",
+            "level": 10
+          },
+          {
+            "moveId": "smartstrike",
+            "level": 13
+          },
+          {
+            "moveId": "headbutt",
+            "level": 16
+          },
+          {
+            "moveId": "bulkup",
+            "level": 20
+          },
+          {
+            "moveId": "shadowsneak",
+            "level": 23
+          },
+          {
+            "moveId": "endure",
+            "level": 26
+          },
+          {
+            "moveId": "reversal",
+            "level": 30
+          },
+          {
+            "moveId": "throatchop",
+            "level": 33
+          },
+          {
+            "moveId": "firstimpression",
+            "level": 36
+          },
+          {
+            "moveId": "laststand",
+            "level": 40
+          },
+          {
+            "moveId": "phantomforce",
+            "level": 43
+          },
+          {
+            "moveId": "irondefense",
+            "level": 46
+          },
+          {
+            "moveId": "closecombat",
+            "level": 50
+          },
+          {
+            "moveId": "lastresort",
+            "level": 53
+          },
+          {
+            "moveId": "megahorn",
+            "level": 56
+          },
+          {
+            "moveId": "comeuppance",
+            "level": 60
+          },
+          {
+            "moveId": "lastrespects",
+            "level": 66
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "armorpress"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "beatup"
+          },
+          {
+            "moveId": "bodypress"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "closecombat"
+          },
+          {
+            "moveId": "coaching"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "limitbreak"
+          },
+          {
+            "moveId": "lunge"
+          },
+          {
+            "moveId": "megahorn"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "phantomforce"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "poltergeist"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "revenge"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "smartstrike"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "upperhand"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "coaching"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "megahorn"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.25
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "fighting",
+          "normal"
+        ]
+      },
+      "evolutions": [],
+      "slug": "falinks-mega-last-soldier"
+    },
+    {
+      "name": "Mega-Gunslinger",
+      "aspects": [
+        "mega_x",
+        "gunslinger"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "steel",
+      "types": [
+        "fighting",
+        "steel"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 70,
+        "attack": 130,
+        "defence": 140,
+        "special_attack": 90,
+        "special_defence": 100,
+        "speed": 40
+      },
+      "baseStatTotal": 570,
+      "abilities": [
+        "technician"
+      ],
+      "hiddenAbilities": [
+        "technician"
+      ],
+      "pokedexDescription": "Through the power of Mega Evolution, all five troops combined together to form a tank. They work in unison to pilot the machine that is their body. The brass that make up the wheels of the treads get dizzy from rotating after long journeys.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "barrage",
+            "level": 1
+          },
+          {
+            "moveId": "workup",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "protect",
+            "level": 1
+          },
+          {
+            "moveId": "focusenergy",
+            "level": 1
+          },
+          {
+            "moveId": "gearup",
+            "level": 1
+          },
+          {
+            "moveId": "stasisroom",
+            "level": 1
+          },
+          {
+            "moveId": "stasisbeam",
+            "level": 1
+          },
+          {
+            "moveId": "rocksmash",
+            "level": 5
+          },
+          {
+            "moveId": "magnetbomb",
+            "level": 10
+          },
+          {
+            "moveId": "spikecannon",
+            "level": 15
+          },
+          {
+            "moveId": "bulkup",
+            "level": 20
+          },
+          {
+            "moveId": "endure",
+            "level": 25
+          },
+          {
+            "moveId": "flashcannon",
+            "level": 27
+          },
+          {
+            "moveId": "reversal",
+            "level": 30
+          },
+          {
+            "moveId": "rockblast",
+            "level": 33
+          },
+          {
+            "moveId": "pinmissile",
+            "level": 35
+          },
+          {
+            "moveId": "bulletbarrage",
+            "level": 37
+          },
+          {
+            "moveId": "bulletseed",
+            "level": 37
+          },
+          {
+            "moveId": "electrobullet",
+            "level": 37
+          },
+          {
+            "moveId": "holdtheline",
+            "level": 40
+          },
+          {
+            "moveId": "aurasphere",
+            "level": 43
+          },
+          {
+            "moveId": "irondefense",
+            "level": 45
+          },
+          {
+            "moveId": "armorpress",
+            "level": 45
+          },
+          {
+            "moveId": "firebomb",
+            "level": 47
+          },
+          {
+            "moveId": "superpower",
+            "level": 50
+          },
+          {
+            "moveId": "focusblast",
+            "level": 53
+          },
+          {
+            "moveId": "lockon",
+            "level": 55
+          },
+          {
+            "moveId": "zapcannon",
+            "level": 55
+          },
+          {
+            "moveId": "metalburst",
+            "level": 60
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "armorpress"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "aurasphere"
+          },
+          {
+            "moveId": "beatup"
+          },
+          {
+            "moveId": "bodypress"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "coaching"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "iciclespear"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "limitbreak"
+          },
+          {
+            "moveId": "lunge"
+          },
+          {
+            "moveId": "mudbomb"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "pinmissile"
+          },
+          {
+            "moveId": "potshot"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "revenge"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "rockblast"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "steelbeam"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "upperhand"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "workup"
+          },
+          {
+            "moveId": "zapcannon"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "coaching"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zapcannon"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fighting",
+            "multiplier": 2
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.25
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.25
+          },
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "dragon",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          },
+          {
+            "type": "normal",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "poison"
+        ]
+      },
+      "evolutions": [],
+      "slug": "falinks-mega-gunslinger"
+    },
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": null,
+      "types": [
+        "fighting"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 65,
+        "attack": 135,
+        "defence": 135,
+        "special_attack": 70,
+        "special_defence": 65,
+        "speed": 100
+      },
+      "baseStatTotal": 570,
+      "abilities": [
+        "dauntlessshield"
+      ],
+      "hiddenAbilities": [
+        "dauntlessshield"
+      ],
+      "pokedexDescription": "Mega Falinks has taken on the ultimate battle formation, which can be achieved only if the troopers and brass have the strongest of bonds.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "protect",
+            "level": 1
+          },
+          {
+            "moveId": "rocksmash",
+            "level": 5
+          },
+          {
+            "moveId": "focusenergy",
+            "level": 10
+          },
+          {
+            "moveId": "headbutt",
+            "level": 15
+          },
+          {
+            "moveId": "bulkup",
+            "level": 20
+          },
+          {
+            "moveId": "endure",
+            "level": 25
+          },
+          {
+            "moveId": "reversal",
+            "level": 30
+          },
+          {
+            "moveId": "firstimpression",
+            "level": 35
+          },
+          {
+            "moveId": "noretreat",
+            "level": 40
+          },
+          {
+            "moveId": "irondefense",
+            "level": 45
+          },
+          {
+            "moveId": "closecombat",
+            "level": 50
+          },
+          {
+            "moveId": "megahorn",
+            "level": 55
+          },
+          {
+            "moveId": "counter",
+            "level": 60
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "armorpress"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "beatup"
+          },
+          {
+            "moveId": "bodypress"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "closecombat"
+          },
+          {
+            "moveId": "coaching"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lunge"
+          },
+          {
+            "moveId": "megahorn"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "revenge"
+          },
+          {
+            "moveId": "reversal"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "smartstrike"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "trailblaze"
+          },
+          {
+            "moveId": "upperhand"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "coaching"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "falseswipe"
+          },
+          {
+            "moveId": "focusenergy"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "ironhead"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "megahorn"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "snore"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "flying",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "falinks-mega"
+    }
+  ],
+  "pokedexDescription": "Five of them are troopers, and one is the brass. The brass's orders are absolute.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "protect",
+        "level": 1
+      },
+      {
+        "moveId": "rocksmash",
+        "level": 5
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 10
+      },
+      {
+        "moveId": "headbutt",
+        "level": 15
+      },
+      {
+        "moveId": "bulkup",
+        "level": 20
+      },
+      {
+        "moveId": "endure",
+        "level": 25
+      },
+      {
+        "moveId": "reversal",
+        "level": 30
+      },
+      {
+        "moveId": "firstimpression",
+        "level": 35
+      },
+      {
+        "moveId": "noretreat",
+        "level": 40
+      },
+      {
+        "moveId": "irondefense",
+        "level": 45
+      },
+      {
+        "moveId": "closecombat",
+        "level": 50
+      },
+      {
+        "moveId": "megahorn",
+        "level": 55
+      },
+      {
+        "moveId": "counter",
+        "level": 60
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "armorpress"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "beatup"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "coaching"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "focusblast"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "megahorn"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "revenge"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smartstrike"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "upperhand"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "coaching"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "falseswipe"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "megahorn"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/870.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_badlands"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#minecraft:is_nether"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#minecraft:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#minecraft:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_badlands"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#minecraft:nether/is_soul_fire"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#minecraft:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_badlands"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#minecraft:is_nether"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-fakemon-pack",
+    "zamega",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "features": "zamega",
+    "forms": "zamega"
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "id": "cobblemon:meerogue",
+  "namespace": "cobblemon",
+  "slug": "meerogue",
+  "name": "Meerogue",
+  "nationalPokedexNumber": 1279,
+  "primaryType": "ground",
+  "secondaryType": "normal",
+  "types": [
+    "ground",
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 42,
+    "attack": 65,
+    "defence": 46,
+    "special_attack": 35,
+    "special_defence": 60,
+    "speed": 75
+  },
+  "baseStatTotal": 323,
+  "abilities": [
+    "keeneye",
+    "intimidate"
+  ],
+  "hiddenAbilities": [
+    "cloudnine"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 80,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 212,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 130,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "They have an unusual attraction towards items charged with magic energy, like the rod it has found that it prefers to use as a club. It will evolve when it realizes the power it holds.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 0
+      },
+      {
+        "moveId": "growl",
+        "level": 0
+      },
+      {
+        "moveId": "pound",
+        "level": 3
+      },
+      {
+        "moveId": "mudslap",
+        "level": 7
+      },
+      {
+        "moveId": "doubleslap",
+        "level": 11
+      },
+      {
+        "moveId": "dig",
+        "level": 14
+      },
+      {
+        "moveId": "sandattack",
+        "level": 18
+      },
+      {
+        "moveId": "quickattack",
+        "level": 22
+      },
+      {
+        "moveId": "rocksmash",
+        "level": 25
+      },
+      {
+        "moveId": "headbutt",
+        "level": 28
+      },
+      {
+        "moveId": "mudshot",
+        "level": 32
+      },
+      {
+        "moveId": "boneclub",
+        "level": 36
+      },
+      {
+        "moveId": "meditate",
+        "level": 38
+      },
+      {
+        "moveId": "thrash",
+        "level": 40
+      },
+      {
+        "moveId": "revenge",
+        "level": 43
+      },
+      {
+        "moveId": "earthpower",
+        "level": 46
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "auroraveil"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "trickroom"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "bite"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "cometpunch"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "doubleslap"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "extrasensory"
+      },
+      {
+        "moveId": "extremespeed"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "feint"
+      },
+      {
+        "moveId": "feintattack"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "followme"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "howl"
+      },
+      {
+        "moveId": "karatechop"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "meanlook"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "slash"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smellingsalts"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "submission"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "sweetkiss"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "tickle"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "triattack"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:surisham",
+      "targetSlug": "surisham",
+      "summary": "Nivel · Conoce un movimiento de tipo psychic",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "katmir",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric",
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/meerogue.png",
+    "placeholderColor": "#E2BF65"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "common",
+      "level": "25-35",
+      "timeRange": "day",
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "terralith:desert_oasis"
+      ],
+      "bucket": "common",
+      "level": "25-35",
+      "timeRange": "day",
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "preEvolution": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

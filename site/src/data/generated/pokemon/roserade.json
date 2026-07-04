@@ -1,0 +1,1095 @@
+{
+  "id": "cobblemon:roserade",
+  "namespace": "cobblemon",
+  "slug": "roserade",
+  "name": "Roserade",
+  "nationalPokedexNumber": 407,
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 65,
+    "special_attack": 125,
+    "special_defence": 105,
+    "speed": 90
+  },
+  "baseStatTotal": 515,
+  "abilities": [
+    "naturalcure",
+    "poisonpoint"
+  ],
+  "hiddenAbilities": [
+    "technician"
+  ],
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "catchRate": 75,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 9,
+  "weight": 145,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 258,
+  "labels": [
+    "gen4"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Wither-Rose",
+      "aspects": [
+        "wither"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "poison",
+      "types": [
+        "dark",
+        "poison"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 60,
+        "attack": 125,
+        "defence": 95,
+        "special_attack": 50,
+        "special_defence": 80,
+        "speed": 105
+      },
+      "baseStatTotal": 515,
+      "abilities": [
+        "merciless",
+        "ironbarbs"
+      ],
+      "hiddenAbilities": [
+        "toxicdebris"
+      ],
+      "pokedexDescription": "Its petals emit a toxin so powerful it can stop a man's heart with a single touch. When it encounters another living being, it mindlessly attacks them with sharp thorns coated in these same toxins.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "bramblering",
+            "level": 1
+          },
+          {
+            "moveId": "spikyshield",
+            "level": 1
+          },
+          {
+            "moveId": "absorb",
+            "level": 1
+          },
+          {
+            "moveId": "growth",
+            "level": 1
+          },
+          {
+            "moveId": "poisonsting",
+            "level": 1
+          },
+          {
+            "moveId": "stunspore",
+            "level": 1
+          },
+          {
+            "moveId": "grasswhistle",
+            "level": 1
+          },
+          {
+            "moveId": "worryseed",
+            "level": 1
+          },
+          {
+            "moveId": "watersport",
+            "level": 1
+          },
+          {
+            "moveId": "torment",
+            "level": 1
+          },
+          {
+            "moveId": "poisonpowder",
+            "level": 1
+          },
+          {
+            "moveId": "assurance",
+            "level": 1
+          },
+          {
+            "moveId": "leechseed",
+            "level": 1
+          },
+          {
+            "moveId": "knockoff",
+            "level": 1
+          },
+          {
+            "moveId": "toxicspikes",
+            "level": 1
+          },
+          {
+            "moveId": "hex",
+            "level": 1
+          },
+          {
+            "moveId": "needlearm",
+            "level": 1
+          },
+          {
+            "moveId": "barbbarrage",
+            "level": 1
+          },
+          {
+            "moveId": "toxic",
+            "level": 1
+          },
+          {
+            "moveId": "petalblizzard",
+            "level": 1
+          },
+          {
+            "moveId": "infestation",
+            "level": 1
+          },
+          {
+            "moveId": "throatchop",
+            "level": 1
+          },
+          {
+            "moveId": "poisonjab",
+            "level": 1
+          },
+          {
+            "moveId": "potshot",
+            "level": 1
+          },
+          {
+            "moveId": "crosspoison",
+            "level": 20
+          },
+          {
+            "moveId": "darkestlariat",
+            "level": 40
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "cottonspore"
+          },
+          {
+            "moveId": "extrasensory"
+          },
+          {
+            "moveId": "grasswhistle"
+          },
+          {
+            "moveId": "lifedew"
+          },
+          {
+            "moveId": "mindreader"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "razorleaf"
+          },
+          {
+            "moveId": "sleeppowder"
+          },
+          {
+            "moveId": "synthesis"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "backpetal"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "crosspoison"
+          },
+          {
+            "moveId": "cut"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "darkestlariat"
+          },
+          {
+            "moveId": "embargo"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "furycutter"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "grassyterrain"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "leafstorm"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "morningglory"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "nightlight"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "petalblizzard"
+          },
+          {
+            "moveId": "pinmissile"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "potshot"
+          },
+          {
+            "moveId": "powerwhip"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "rainbloom"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "shadowstars"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "spikes"
+          },
+          {
+            "moveId": "spiraldrain"
+          },
+          {
+            "moveId": "spiritdrain"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "swordsdance"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "toxicspikes"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "venomdrench"
+          },
+          {
+            "moveId": "venoshock"
+          },
+          {
+            "moveId": "voidfog"
+          },
+          {
+            "moveId": "voidstep"
+          },
+          {
+            "moveId": "weatherball"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "foulplay"
+          },
+          {
+            "moveId": "furycutter"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassyglide"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "laserfocus"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "spikes"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "throatchop"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "worryseed"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ghost",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "psychic"
+        ]
+      },
+      "evolutions": [],
+      "slug": "roserade-wither-rose"
+    }
+  ],
+  "pokedexDescription": "With the movements of a dancer, it strikes with whips that are densely lined with poison thorns.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "acidspray",
+        "level": 1
+      },
+      {
+        "moveId": "poisonsting",
+        "level": 1
+      },
+      {
+        "moveId": "megadrain",
+        "level": 1
+      },
+      {
+        "moveId": "magicalleaf",
+        "level": 1
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 1
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 1
+      },
+      {
+        "moveId": "synthesis",
+        "level": 1
+      },
+      {
+        "moveId": "worryseed",
+        "level": 1
+      },
+      {
+        "moveId": "venomdrench",
+        "level": 1
+      },
+      {
+        "moveId": "grassyterrain",
+        "level": 1
+      },
+      {
+        "moveId": "leechseed",
+        "level": 1
+      },
+      {
+        "moveId": "toxicspikes",
+        "level": 1
+      },
+      {
+        "moveId": "toxic",
+        "level": 1
+      },
+      {
+        "moveId": "petalblizzard",
+        "level": 1
+      },
+      {
+        "moveId": "aromatherapy",
+        "level": 1
+      },
+      {
+        "moveId": "ingrain",
+        "level": 1
+      },
+      {
+        "moveId": "petaldance",
+        "level": 1
+      },
+      {
+        "moveId": "absorb",
+        "level": 1
+      },
+      {
+        "moveId": "growth",
+        "level": 1
+      },
+      {
+        "moveId": "stunspore",
+        "level": 1
+      },
+      {
+        "moveId": "grasswhistle",
+        "level": 1
+      },
+      {
+        "moveId": "watersport",
+        "level": 1
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "cottonspore"
+      },
+      {
+        "moveId": "extrasensory"
+      },
+      {
+        "moveId": "grasswhistle"
+      },
+      {
+        "moveId": "lifedew"
+      },
+      {
+        "moveId": "mindreader"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "razorleaf"
+      },
+      {
+        "moveId": "sleeppowder"
+      },
+      {
+        "moveId": "synthesis"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "backpetal"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "petalblizzard"
+      },
+      {
+        "moveId": "pinmissile"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "powerwhip"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shadowstars"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "starshower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "toxicspikes"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "venomdrench"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "furycutter"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "worryseed"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "nightmare"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "sweetkiss"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": "roselia",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/407.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_floral"
+      ],
+      "bucket": "common",
+      "level": "35-52",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_bumblezone:floral_meadow"
+      ],
+      "bucket": "common",
+      "level": "35-52",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "35-52",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "35-52",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_soul_sand"
+      ],
+      "bucket": "common",
+      "level": "32-52",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [],
+      "bucket": "common",
+      "level": "32-52",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_floral"
+      ],
+      "bucket": "common",
+      "level": "35-52",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "the_bumblezone:floral_meadow"
+      ],
+      "bucket": "common",
+      "level": "35-52",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-fakemon-pack",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "preEvolution": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "lasers-fakemon-pack"
+  }
+}

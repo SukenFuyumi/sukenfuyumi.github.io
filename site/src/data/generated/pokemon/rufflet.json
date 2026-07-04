@@ -1,0 +1,954 @@
+{
+  "id": "cobblemon:rufflet",
+  "namespace": "cobblemon",
+  "slug": "rufflet",
+  "name": "Rufflet",
+  "nationalPokedexNumber": 627,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 83,
+    "defence": 50,
+    "special_attack": 37,
+    "special_defence": 50,
+    "speed": 60
+  },
+  "baseStatTotal": 350,
+  "abilities": [
+    "keeneye",
+    "sheerforce"
+  ],
+  "hiddenAbilities": [
+    "hustle"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 5,
+  "weight": 105,
+  "maleRatio": 1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 70,
+  "labels": [
+    "gen5",
+    "unovan_form"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Hisui-Bias",
+      "aspects": [
+        "region-bias-hisui"
+      ],
+      "primaryType": "normal",
+      "secondaryType": "flying",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "They will challenge anything, even strong opponents, without fear. Their frequent fights help them become stronger.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "peck",
+            "level": 1
+          },
+          {
+            "moveId": "leer",
+            "level": 1
+          },
+          {
+            "moveId": "furyattack",
+            "level": 1
+          },
+          {
+            "moveId": "honeclaws",
+            "level": 6
+          },
+          {
+            "moveId": "wingattack",
+            "level": 12
+          },
+          {
+            "moveId": "tailwind",
+            "level": 18
+          },
+          {
+            "moveId": "scaryface",
+            "level": 24
+          },
+          {
+            "moveId": "aerialace",
+            "level": 30
+          },
+          {
+            "moveId": "slash",
+            "level": 36
+          },
+          {
+            "moveId": "whirlwind",
+            "level": 42
+          },
+          {
+            "moveId": "crushclaw",
+            "level": 48
+          },
+          {
+            "moveId": "airslash",
+            "level": 55
+          },
+          {
+            "moveId": "flyingkick",
+            "level": 55
+          },
+          {
+            "moveId": "defog",
+            "level": 60
+          },
+          {
+            "moveId": "thrash",
+            "level": 66
+          },
+          {
+            "moveId": "bravebird",
+            "level": 72
+          },
+          {
+            "moveId": "nosedive",
+            "level": 78
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "roost"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acrobatics"
+          },
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "airslash"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "bravebird"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "closecombat"
+          },
+          {
+            "moveId": "cut"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "featherdance"
+          },
+          {
+            "moveId": "fly"
+          },
+          {
+            "moveId": "flyingkick"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "honeclaws"
+          },
+          {
+            "moveId": "hurricane"
+          },
+          {
+            "moveId": "nosedive"
+          },
+          {
+            "moveId": "ominouswind"
+          },
+          {
+            "moveId": "pluck"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "retaliate"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "skydrop"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "steelwing"
+          },
+          {
+            "moveId": "strength"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "workup"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "aircutter"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "ominouswind"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "superpower"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "electric",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "ghost",
+          "ground"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:braviary",
+          "targetSlug": "braviary",
+          "summary": "Nivel · Nv. 54 · Bioma: evolution/regional/rufflet_unovabiome",
+          "variant": "level_up"
+        },
+        {
+          "targetKey": "cobblemon:braviary",
+          "targetSlug": "braviary-hisui",
+          "summary": "Nivel · Nv. 54 · variante hisuian",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "rufflet-hisui-bias"
+    }
+  ],
+  "pokedexDescription": "They will challenge anything, even strong opponents, without fear. Their frequent fights help them become stronger.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "peck",
+        "level": 1
+      },
+      {
+        "moveId": "leer",
+        "level": 1
+      },
+      {
+        "moveId": "furyattack",
+        "level": 1
+      },
+      {
+        "moveId": "honeclaws",
+        "level": 6
+      },
+      {
+        "moveId": "wingattack",
+        "level": 12
+      },
+      {
+        "moveId": "tailwind",
+        "level": 18
+      },
+      {
+        "moveId": "scaryface",
+        "level": 24
+      },
+      {
+        "moveId": "aerialace",
+        "level": 30
+      },
+      {
+        "moveId": "slash",
+        "level": 36
+      },
+      {
+        "moveId": "whirlwind",
+        "level": 42
+      },
+      {
+        "moveId": "crushclaw",
+        "level": 48
+      },
+      {
+        "moveId": "airslash",
+        "level": 55
+      },
+      {
+        "moveId": "flyingkick",
+        "level": 55
+      },
+      {
+        "moveId": "defog",
+        "level": 60
+      },
+      {
+        "moveId": "thrash",
+        "level": 66
+      },
+      {
+        "moveId": "bravebird",
+        "level": 72
+      },
+      {
+        "moveId": "nosedive",
+        "level": 78
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "roost"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "airslash"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bravebird"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "closecombat"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "featherdance"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "flyingkick"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "hurricane"
+      },
+      {
+        "moveId": "nosedive"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "pluck"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "skydrop"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "steelwing"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "defog"
+      },
+      {
+        "moveId": "dualwingbeat"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "ominouswind"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "roost"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailwind"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:braviary",
+      "targetSlug": "braviary",
+      "summary": "Nivel · Nv. 54",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:braviary",
+      "targetSlug": "braviary-hisui",
+      "summary": "Nivel · Nv. 54 · Bioma: evolution/regional/rufflet_hisuibiome · variante hisuian",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "electric",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost",
+      "ground"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/627.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_badlands",
+        "#cobblemon:is_hills"
+      ],
+      "bucket": "uncommon",
+      "level": "10-35",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "common",
+      "level": "10-35",
+      "timeRange": "day",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_mountain"
+      ],
+      "bucket": "uncommon",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "common",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "10-35",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "10-35",
+      "timeRange": "day",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_badlands",
+        "#cobblemon:is_hills"
+      ],
+      "bucket": "uncommon",
+      "level": "10-35",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "common",
+      "level": "10-35",
+      "timeRange": "day",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_mountain"
+      ],
+      "bucket": "uncommon",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "common",
+      "level": "10-35",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core"
+  }
+}

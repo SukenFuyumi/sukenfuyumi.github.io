@@ -1,0 +1,950 @@
+{
+  "id": "cobblemon:spritzee",
+  "namespace": "cobblemon",
+  "slug": "spritzee",
+  "name": "Spritzee",
+  "nationalPokedexNumber": 682,
+  "primaryType": "fairy",
+  "secondaryType": null,
+  "types": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 52,
+    "defence": 60,
+    "special_attack": 63,
+    "special_defence": 65,
+    "speed": 23
+  },
+  "baseStatTotal": 341,
+  "abilities": [
+    "healer",
+    "aromaveil"
+  ],
+  "hiddenAbilities": [
+    "mistysurge"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "catchRate": 200,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 2,
+  "weight": 5,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 68,
+  "labels": [
+    "gen6"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Midnight",
+      "aspects": [
+        "midnight"
+      ],
+      "primaryType": "fairy",
+      "secondaryType": "poison",
+      "types": [
+        "fairy",
+        "poison"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 68,
+        "attack": 22,
+        "defence": 50,
+        "special_attack": 83,
+        "special_defence": 75,
+        "speed": 43
+      },
+      "baseStatTotal": 341,
+      "abilities": [
+        "curiousmedicine",
+        "mistrider"
+      ],
+      "hiddenAbilities": [
+        "dubiousperfume"
+      ],
+      "pokedexDescription": "This Pokémon sprays a hypnotizing perfume from its feathers, bewildering attackers into idolizing it. They are easily mesmerized by shiny objects, and will often gather in groups around anything sparkly in order to determine whether or not its valuable.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "poisongas",
+            "level": 1
+          },
+          {
+            "moveId": "fairywind",
+            "level": 1
+          },
+          {
+            "moveId": "odorsleuth",
+            "level": 1
+          },
+          {
+            "moveId": "sweetkiss",
+            "level": 3
+          },
+          {
+            "moveId": "smog",
+            "level": 6
+          },
+          {
+            "moveId": "drainingkiss",
+            "level": 9
+          },
+          {
+            "moveId": "aromatherapy",
+            "level": 12
+          },
+          {
+            "moveId": "attract",
+            "level": 18
+          },
+          {
+            "moveId": "venoshock",
+            "level": 21
+          },
+          {
+            "moveId": "magicbeam",
+            "level": 24
+          },
+          {
+            "moveId": "wonderroom",
+            "level": 24
+          },
+          {
+            "moveId": "eeriespell",
+            "level": 27
+          },
+          {
+            "moveId": "flatter",
+            "level": 30
+          },
+          {
+            "moveId": "nastyplot",
+            "level": 33
+          },
+          {
+            "moveId": "wonderblast",
+            "level": 36
+          },
+          {
+            "moveId": "hex",
+            "level": 39
+          },
+          {
+            "moveId": "sludgebomb",
+            "level": 42
+          },
+          {
+            "moveId": "moonblast",
+            "level": 45
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "corrosivegas"
+          },
+          {
+            "moveId": "disable"
+          },
+          {
+            "moveId": "refresh"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "charm"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "disarmingvoice"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "echoedvoice"
+          },
+          {
+            "moveId": "encore"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hex"
+          },
+          {
+            "moveId": "lightpulse"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magicbeam"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "mindbend"
+          },
+          {
+            "moveId": "mistyexplosion"
+          },
+          {
+            "moveId": "mistyterrain"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicsnap"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "sludgewave"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunderbolt"
+          },
+          {
+            "moveId": "torment"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "venoshock"
+          },
+          {
+            "moveId": "voidfog"
+          },
+          {
+            "moveId": "wonderblast"
+          },
+          {
+            "moveId": "wonderroom"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "afteryou"
+          },
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "chargebeam"
+          },
+          {
+            "moveId": "corrosivegas"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "healbell"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "mistyexplosion"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "thunderbolt"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          },
+          {
+            "type": "steel",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.25
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.25
+          },
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "dragon"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:aromatisse",
+          "targetSlug": "aromatisse-midnight",
+          "summary": "Intercambio · Sosteniendo: sachet · (consume objeto sostenido) · variante midnight",
+          "variant": "trade"
+        }
+      ],
+      "slug": "spritzee-midnight"
+    }
+  ],
+  "pokedexDescription": "In the past, rather than using perfume, royal ladies carried a Spritzee that would waft a fragrance they liked.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "sweetscent",
+        "level": 1
+      },
+      {
+        "moveId": "fairywind",
+        "level": 1
+      },
+      {
+        "moveId": "odorsleuth",
+        "level": 1
+      },
+      {
+        "moveId": "sweetkiss",
+        "level": 3
+      },
+      {
+        "moveId": "echoedvoice",
+        "level": 6
+      },
+      {
+        "moveId": "drainingkiss",
+        "level": 9
+      },
+      {
+        "moveId": "aromatherapy",
+        "level": 12
+      },
+      {
+        "moveId": "attract",
+        "level": 18
+      },
+      {
+        "moveId": "flail",
+        "level": 21
+      },
+      {
+        "moveId": "mistyterrain",
+        "level": 24
+      },
+      {
+        "moveId": "psychic",
+        "level": 27
+      },
+      {
+        "moveId": "charm",
+        "level": 30
+      },
+      {
+        "moveId": "calmmind",
+        "level": 33
+      },
+      {
+        "moveId": "moonblast",
+        "level": 36
+      },
+      {
+        "moveId": "skillswap",
+        "level": 39
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "refresh"
+      },
+      {
+        "moveId": "wish"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "mistyexplosion"
+      },
+      {
+        "moveId": "mistyterrain"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunderbolt"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "trickroom"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "mistyexplosion"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "thunderbolt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:aromatisse",
+      "targetSlug": "aromatisse",
+      "summary": "Intercambio · Sosteniendo: sachet · (consume objeto sostenido)",
+      "variant": "trade"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/682.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "9-34",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_floral"
+      ],
+      "bucket": "uncommon",
+      "level": "9-34",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "9-34",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "9-34",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "9-34",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "nullscape:void_barrens",
+        "nullscape:shadowlands"
+      ],
+      "bucket": "common",
+      "level": "9-34",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_end"
+      ],
+      "bucket": "uncommon",
+      "level": "9-34",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "9-34",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#aether:is_aether",
+        "#cobblemon:is_floral"
+      ],
+      "bucket": "uncommon",
+      "level": "9-34",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-fakemon-pack",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "lasers-additions",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "forms": "lasers-fakemon-pack"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "id": "cobblemon:rockarin",
+  "namespace": "cobblemon",
+  "slug": "rockarin",
+  "name": "Rockarin",
+  "nationalPokedexNumber": 1269,
+  "primaryType": "rock",
+  "secondaryType": "normal",
+  "types": [
+    "rock",
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 35,
+    "defence": 70,
+    "special_attack": 55,
+    "special_defence": 35,
+    "speed": 25
+  },
+  "baseStatTotal": 270,
+  "abilities": [
+    "sturdy",
+    "sandforce"
+  ],
+  "hiddenAbilities": [
+    "moody"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "catchRate": 255,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 1,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 42,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Despite being made of rock, it's so light that it can float on air currents, producing a sinister sound in the process.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "round",
+        "level": 0
+      },
+      {
+        "moveId": "growl",
+        "level": 0
+      },
+      {
+        "moveId": "astonish",
+        "level": 0
+      },
+      {
+        "moveId": "rockblast",
+        "level": 0
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "stealthrock"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychicnoise"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "uproar"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "ominouswind"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:berrock",
+      "targetSlug": "berrock",
+      "summary": "Nivel · Derrotar a Rockarin x5",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 4
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/rockarin.png",
+    "placeholderColor": "#B6A136"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "1-30",
+      "timeRange": null,
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

@@ -1,0 +1,824 @@
+{
+  "id": "cobblemon:bounsweet",
+  "namespace": "cobblemon",
+  "slug": "bounsweet",
+  "name": "Bounsweet",
+  "nationalPokedexNumber": 761,
+  "primaryType": "grass",
+  "secondaryType": null,
+  "types": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 42,
+    "attack": 30,
+    "defence": 38,
+    "special_attack": 30,
+    "special_defence": 38,
+    "speed": 32
+  },
+  "baseStatTotal": 210,
+  "abilities": [
+    "leafguard",
+    "oblivious"
+  ],
+  "hiddenAbilities": [
+    "sweetveil"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "catchRate": 235,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 32,
+  "maleRatio": 0,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 42,
+  "labels": [
+    "gen7"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Ender",
+      "aspects": [
+        "ender"
+      ],
+      "primaryType": "fairy",
+      "secondaryType": "poison",
+      "types": [
+        "fairy",
+        "poison"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 42,
+        "attack": 20,
+        "defence": 38,
+        "special_attack": 40,
+        "special_defence": 38,
+        "speed": 32
+      },
+      "baseStatTotal": 210,
+      "abilities": [
+        "pastelveil",
+        "peculiarpalate"
+      ],
+      "hiddenAbilities": [
+        "ripen"
+      ],
+      "pokedexDescription": "Its body gives off a sweet yet sickly aroma, a smell akin to that of fermented fruit. If anything tries to bite into it, they will be teleported to a random location and end up stranded in the wilderness.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "teleport",
+            "level": 1
+          },
+          {
+            "moveId": "splash",
+            "level": 1
+          },
+          {
+            "moveId": "acid",
+            "level": 1
+          },
+          {
+            "moveId": "disarmingvoice",
+            "level": 1
+          },
+          {
+            "moveId": "poisonpowder",
+            "level": 4
+          },
+          {
+            "moveId": "mortalspin",
+            "level": 8
+          },
+          {
+            "moveId": "drainingkiss",
+            "level": 12
+          },
+          {
+            "moveId": "sweetkiss",
+            "level": 16
+          },
+          {
+            "moveId": "clearsmog",
+            "level": 20
+          },
+          {
+            "moveId": "flail",
+            "level": 24
+          },
+          {
+            "moveId": "teeterdance",
+            "level": 28
+          },
+          {
+            "moveId": "aromaticmist",
+            "level": 32
+          },
+          {
+            "moveId": "mistyexplosion",
+            "level": 50
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "acupressure"
+          },
+          {
+            "moveId": "aromatherapy"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "feint"
+          },
+          {
+            "moveId": "moonlight"
+          },
+          {
+            "moveId": "ragepowder"
+          },
+          {
+            "moveId": "rapidspin"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acidspray"
+          },
+          {
+            "moveId": "alluringvoice"
+          },
+          {
+            "moveId": "backpetal"
+          },
+          {
+            "moveId": "bounce"
+          },
+          {
+            "moveId": "bulletseed"
+          },
+          {
+            "moveId": "charm"
+          },
+          {
+            "moveId": "clearsmog"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "mistyexplosion"
+          },
+          {
+            "moveId": "mistyterrain"
+          },
+          {
+            "moveId": "moonblast"
+          },
+          {
+            "moveId": "moonlight"
+          },
+          {
+            "moveId": "naturepower"
+          },
+          {
+            "moveId": "nightlight"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicsnap"
+          },
+          {
+            "moveId": "psyshock"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "sludgewave"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "teleport"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "venoshock"
+          },
+          {
+            "moveId": "voidfog"
+          },
+          {
+            "moveId": "worryseed"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "bounce"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "gigadrain"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "magicalleaf"
+          },
+          {
+            "moveId": "playrough"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "seedbomb"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "worryseed"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          },
+          {
+            "type": "steel",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.25
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.25
+          },
+          {
+            "type": "dark",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "dragon"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:steenee",
+          "targetSlug": "steenee-ender",
+          "summary": "Nivel · Nv. 28 · variante ender",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "bounsweet-ender"
+    }
+  ],
+  "pokedexDescription": "It tries to resist being swallowed by a bird Pokémon by spinning the sepals on its head. It's usually a fruitless attempt.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "splash",
+        "level": 1
+      },
+      {
+        "moveId": "playnice",
+        "level": 4
+      },
+      {
+        "moveId": "rapidspin",
+        "level": 8
+      },
+      {
+        "moveId": "razorleaf",
+        "level": 12
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 16
+      },
+      {
+        "moveId": "magicalleaf",
+        "level": 20
+      },
+      {
+        "moveId": "flail",
+        "level": 24
+      },
+      {
+        "moveId": "teeterdance",
+        "level": 28
+      },
+      {
+        "moveId": "aromaticmist",
+        "level": 32
+      },
+      {
+        "moveId": "backpetal",
+        "level": 36
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "acupressure"
+      },
+      {
+        "moveId": "aromatherapy"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "feint"
+      },
+      {
+        "moveId": "grasswhistle"
+      },
+      {
+        "moveId": "synthesis"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "backpetal"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "leafstorm"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "worryseed"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "magicalleaf"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "synthesis"
+      },
+      {
+        "moveId": "worryseed"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:steenee",
+      "targetSlug": "steenee",
+      "summary": "Nivel · Nv. 18",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/761.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "1-21",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "1-21",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_end"
+      ],
+      "bucket": "common",
+      "level": "1-21",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "common",
+      "level": "1-21",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-fakemon-pack",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "forms": "lasers-fakemon-pack"
+  }
+}

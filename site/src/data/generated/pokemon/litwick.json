@@ -1,0 +1,846 @@
+{
+  "id": "cobblemon:litwick",
+  "namespace": "cobblemon",
+  "slug": "litwick",
+  "name": "Litwick",
+  "nationalPokedexNumber": 607,
+  "primaryType": "ghost",
+  "secondaryType": "fire",
+  "types": [
+    "ghost",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 30,
+    "defence": 55,
+    "special_attack": 65,
+    "special_defence": 55,
+    "speed": 20
+  },
+  "baseStatTotal": 275,
+  "abilities": [
+    "flashfire",
+    "flamebody"
+  ],
+  "hiddenAbilities": [
+    "infiltrator"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 31,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 55,
+  "labels": [
+    "gen5"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "alatian",
+      "aspects": [
+        "alatian"
+      ],
+      "primaryType": "ghost",
+      "secondaryType": "fairy",
+      "types": [
+        "ghost",
+        "fairy"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 50,
+        "attack": 30,
+        "defence": 65,
+        "special_attack": 50,
+        "special_defence": 60,
+        "speed": 20
+      },
+      "baseStatTotal": 275,
+      "abilities": [
+        "clearbody",
+        "illuminate"
+      ],
+      "hiddenAbilities": [
+        "lingeringaroma"
+      ],
+      "pokedexDescription": "The light of its flame can reveal the spirits around it.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "astonish",
+            "level": 0
+          },
+          {
+            "moveId": "smog",
+            "level": 0
+          },
+          {
+            "moveId": "fairywind",
+            "level": 4
+          },
+          {
+            "moveId": "flash",
+            "level": 8
+          },
+          {
+            "moveId": "spotlight",
+            "level": 12
+          },
+          {
+            "moveId": "hex",
+            "level": 16
+          },
+          {
+            "moveId": "willowisp",
+            "level": 20
+          },
+          {
+            "moveId": "drainingkiss",
+            "level": 24
+          },
+          {
+            "moveId": "nightshade",
+            "level": 28
+          },
+          {
+            "moveId": "clearsmog",
+            "level": 32
+          },
+          {
+            "moveId": "shadowball",
+            "level": 36
+          },
+          {
+            "moveId": "dazzlinggleam",
+            "level": 40
+          },
+          {
+            "moveId": "aromatherapy",
+            "level": 44
+          },
+          {
+            "moveId": "painsplit",
+            "level": 48
+          },
+          {
+            "moveId": "moonblast",
+            "level": 52
+          },
+          {
+            "moveId": "mistyterrain",
+            "level": 56
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "acidarmor"
+          },
+          {
+            "moveId": "haze"
+          },
+          {
+            "moveId": "memento"
+          },
+          {
+            "moveId": "mist"
+          },
+          {
+            "moveId": "powersplit"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "alluringvoice"
+          },
+          {
+            "moveId": "aurasphere"
+          },
+          {
+            "moveId": "burningjealousy"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "dazzlinggleam"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "flameburst"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hex"
+          },
+          {
+            "moveId": "incinerate"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "mistyexplosion"
+          },
+          {
+            "moveId": "mistyterrain"
+          },
+          {
+            "moveId": "nightshade"
+          },
+          {
+            "moveId": "phantomforce"
+          },
+          {
+            "moveId": "poltergeist"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "psychicterrain"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "sweetscent"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "willowisp"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "signalbeam"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "steel",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.25
+          }
+        ],
+        "immuneTo": [
+          "dragon",
+          "fighting",
+          "normal"
+        ]
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:lampent",
+          "targetSlug": "lampent-alatian",
+          "summary": "Nivel · Nv. 41 · variante alatian",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "litwick-alatian"
+    }
+  ],
+  "pokedexDescription": "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "smog",
+        "level": 1
+      },
+      {
+        "moveId": "ember",
+        "level": 4
+      },
+      {
+        "moveId": "minimize",
+        "level": 8
+      },
+      {
+        "moveId": "confuseray",
+        "level": 12
+      },
+      {
+        "moveId": "hex",
+        "level": 16
+      },
+      {
+        "moveId": "flameburst",
+        "level": 20
+      },
+      {
+        "moveId": "firespin",
+        "level": 24
+      },
+      {
+        "moveId": "nightshade",
+        "level": 28
+      },
+      {
+        "moveId": "spiritdrain",
+        "level": 30
+      },
+      {
+        "moveId": "curse",
+        "level": 32
+      },
+      {
+        "moveId": "shadowball",
+        "level": 36
+      },
+      {
+        "moveId": "nightlight",
+        "level": 38
+      },
+      {
+        "moveId": "inferno",
+        "level": 40
+      },
+      {
+        "moveId": "imprison",
+        "level": 44
+      },
+      {
+        "moveId": "painsplit",
+        "level": 48
+      },
+      {
+        "moveId": "overheat",
+        "level": 52
+      },
+      {
+        "moveId": "memento",
+        "level": 56
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "acid"
+      },
+      {
+        "moveId": "acidarmor"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "clearsmog"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "powersplit"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "burningjealousy"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fireblast"
+      },
+      {
+        "moveId": "firespin"
+      },
+      {
+        "moveId": "flamecharge"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flareblitz"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "overheat"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "spiritdrain"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "temperflare"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "trick"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "willowisp"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "burningjealousy"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "shockwave"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "trick"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:lampent",
+      "targetSlug": "lampent",
+      "summary": "Nivel · Nv. 41",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/607.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:nether/is_soul_fire"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": "night",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": "night",
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_soul_fire"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "timeRange": "night",
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "cobblemon-afp",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "secondaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "standingEyeHeight": "cobblemon-core",
+    "swimmingEyeHeight": "cobblemon-core",
+    "flyingEyeHeight": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "lightingData": "cobblemon-core",
+    "features": "cobblemon-afp",
+    "forms": "cobblemon-afp"
+  }
+}

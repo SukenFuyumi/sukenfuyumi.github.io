@@ -1,0 +1,860 @@
+{
+  "id": "cobblemon:yoshi",
+  "namespace": "cobblemon",
+  "slug": "yoshi",
+  "name": "Yoshi",
+  "nationalPokedexNumber": 999,
+  "primaryType": "dragon",
+  "secondaryType": "normal",
+  "types": [
+    "dragon",
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 110,
+    "defence": 95,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 130
+  },
+  "baseStatTotal": 555,
+  "abilities": [
+    "gluttony",
+    "runaway"
+  ],
+  "hiddenAbilities": [
+    "rattled"
+  ],
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "catchRate": 45,
+  "eggCycles": 40,
+  "baseFriendship": 100,
+  "height": 17,
+  "weight": 465,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 227,
+  "labels": [
+    "yoshi"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A loyal jurassic companion that loves eating fruit more than anything else. Often used as a mount, Yoshi tend to carry its trainer on its back and travel with high speeds. With the powerful legs they can deliver mighty kicks and even flutter in the air. Some years ago they were believed to be distant cousins to Dragonite.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "stomp",
+        "level": 1
+      },
+      {
+        "moveId": "pound",
+        "level": 1
+      },
+      {
+        "moveId": "lick",
+        "level": 1
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 1
+      },
+      {
+        "moveId": "defensecurl",
+        "level": 1
+      },
+      {
+        "moveId": "yawn",
+        "level": 1
+      },
+      {
+        "moveId": "rollout",
+        "level": 5
+      },
+      {
+        "moveId": "stuffcheeks",
+        "level": 10
+      },
+      {
+        "moveId": "bite",
+        "level": 15
+      },
+      {
+        "moveId": "stockpile",
+        "level": 20
+      },
+      {
+        "moveId": "spitup",
+        "level": 20
+      },
+      {
+        "moveId": "swallow",
+        "level": 20
+      },
+      {
+        "moveId": "breakingswipe",
+        "level": 25
+      },
+      {
+        "moveId": "charm",
+        "level": 30
+      },
+      {
+        "moveId": "eggbomb",
+        "level": 35
+      },
+      {
+        "moveId": "dragonrush",
+        "level": 40
+      },
+      {
+        "moveId": "bounce",
+        "level": 45
+      },
+      {
+        "moveId": "softboiled",
+        "level": 50
+      },
+      {
+        "moveId": "triplekick",
+        "level": 55
+      },
+      {
+        "moveId": "belch",
+        "level": 60
+      },
+      {
+        "moveId": "highjumpkick",
+        "level": 65
+      },
+      {
+        "moveId": "outrage",
+        "level": 70
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "barrage"
+      },
+      {
+        "moveId": "dragonhammer"
+      },
+      {
+        "moveId": "extremespeed"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "steamroller"
+      },
+      {
+        "moveId": "suckerpunch"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "beatup"
+      },
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "blazekick"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "breakingswipe"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "coaching"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragoncheer"
+      },
+      {
+        "moveId": "dragondance"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "dragontail"
+      },
+      {
+        "moveId": "dualchop"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "fireblast"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "firespin"
+      },
+      {
+        "moveId": "firstimpression"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flareblitz"
+      },
+      {
+        "moveId": "fling"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "headbutt"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "lowsweep"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "metronome"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychicfangs"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "razorshell"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "retaliate"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "roar"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "seismictoss"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "skyattack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "softboiled"
+      },
+      {
+        "moveId": "speedswap"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "tailslap"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "triattack"
+      },
+      {
+        "moveId": "tripleaxel"
+      },
+      {
+        "moveId": "uturn"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "whirlwind"
+      },
+      {
+        "moveId": "wildcharge"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "aerialace"
+      },
+      {
+        "moveId": "aircutter"
+      },
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "aquatail"
+      },
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "bind"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "coaching"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "drainpunch"
+      },
+      {
+        "moveId": "dualchop"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "gastroacid"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "iceball"
+      },
+      {
+        "moveId": "icefang"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "irontail"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "powershift"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "steelroller"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "thunderfang"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "tripleaxel"
+      },
+      {
+        "moveId": "wildcharge"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [],
+    "other": [
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "bubble"
+      },
+      {
+        "moveId": "flash"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": "babyyoshi",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/yoshi.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_jungle",
+        "#cobblemon:is_tropical_island"
+      ],
+      "bucket": "ultra-rare",
+      "level": "32-52",
+      "timeRange": null,
+      "sourceId": "kenji-yoshi"
+    }
+  ],
+  "sourceMods": [
+    "kenji-yoshi"
+  ],
+  "primarySource": "kenji-yoshi",
+  "provenance": {
+    "implemented": "kenji-yoshi",
+    "nationalPokedexNumber": "kenji-yoshi",
+    "name": "kenji-yoshi",
+    "primaryType": "kenji-yoshi",
+    "secondaryType": "kenji-yoshi",
+    "maleRatio": "kenji-yoshi",
+    "height": "kenji-yoshi",
+    "weight": "kenji-yoshi",
+    "pokedex": "kenji-yoshi",
+    "labels": "kenji-yoshi",
+    "aspects": "kenji-yoshi",
+    "abilities": "kenji-yoshi",
+    "eggGroups": "kenji-yoshi",
+    "baseStats": "kenji-yoshi",
+    "evYield": "kenji-yoshi",
+    "baseExperienceYield": "kenji-yoshi",
+    "experienceGroup": "kenji-yoshi",
+    "catchRate": "kenji-yoshi",
+    "eggCycles": "kenji-yoshi",
+    "baseFriendship": "kenji-yoshi",
+    "baseScale": "kenji-yoshi",
+    "hitbox": "kenji-yoshi",
+    "behaviour": "kenji-yoshi",
+    "drops": "kenji-yoshi",
+    "moves": "kenji-yoshi",
+    "preEvolution": "kenji-yoshi",
+    "evolutions": "kenji-yoshi",
+    "riding": "kenji-yoshi"
+  }
+}

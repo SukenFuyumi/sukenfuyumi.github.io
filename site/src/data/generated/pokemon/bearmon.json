@@ -1,0 +1,201 @@
+{
+  "id": "cobblemon:bearmon",
+  "namespace": "cobblemon",
+  "slug": "bearmon",
+  "name": "Bearmon",
+  "nationalPokedexNumber": 2134,
+  "primaryType": "fighting",
+  "secondaryType": null,
+  "types": [
+    "fighting"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 70,
+    "defence": 30,
+    "special_attack": 30,
+    "special_defence": 40,
+    "speed": 40
+  },
+  "baseStatTotal": 290,
+  "abilities": [
+    "guts",
+    "innerfocus"
+  ],
+  "hiddenAbilities": [
+    "ironfist"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.02,
+  "weight": 11.34,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A cub Digimon that trains tirelessly with focused strikes.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 12
+      },
+      {
+        "moveId": "growl",
+        "level": 14
+      },
+      {
+        "moveId": "fakeout",
+        "level": 16
+      },
+      {
+        "moveId": "machpunch",
+        "level": 18
+      },
+      {
+        "moveId": "workup",
+        "level": 19
+      },
+      {
+        "moveId": "karatechop",
+        "level": 21
+      },
+      {
+        "moveId": "rollout",
+        "level": 22
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:gryzmon",
+      "targetSlug": "gryzmon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:darklizamon",
+      "targetSlug": "darklizamon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: dusk_stone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:kiwimon",
+      "targetSlug": "kiwimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: sharp_beak",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:numemon",
+      "targetSlug": "numemon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: poison_barb",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "tsunomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/bearmon.png",
+    "placeholderColor": "#C22E28"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_taiga",
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "rare",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

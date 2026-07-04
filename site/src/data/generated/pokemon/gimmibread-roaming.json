@@ -1,0 +1,229 @@
+{
+  "id": "cobblemon:gimmibread#Roaming",
+  "namespace": "cobblemon",
+  "slug": "gimmibread-roaming",
+  "name": "Gimmibread Roaming",
+  "nationalPokedexNumber": 1075,
+  "primaryType": "ghost",
+  "secondaryType": "fairy",
+  "types": [
+    "ghost",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 30,
+    "defence": 25,
+    "special_attack": 75,
+    "special_defence": 45,
+    "speed": 80
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "runaway"
+  ],
+  "hiddenAbilities": [
+    "runaway"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 45,
+  "eggCycles": 50,
+  "baseFriendship": 50,
+  "height": 3,
+  "weight": 50,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [
+    "roaming"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "This Pokémon was born from passion that seeped into a cookie. It runs runs runs as fast as it can to escape from wild Pokémon who might try to eat it.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "fairywind",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "present",
+        "level": 1
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 1
+      },
+      {
+        "moveId": "babydolleyes",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "covet"
+      },
+      {
+        "moveId": "dazzlinggleam"
+      },
+      {
+        "moveId": "drainingkiss"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "wonderblast"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:gholdendough",
+      "targetSlug": "gholdendough",
+      "summary": "Nivel · properties",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.25
+      }
+    ],
+    "immuneTo": [
+      "dragon",
+      "fighting",
+      "normal"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/gimmibread-roaming.png",
+    "placeholderColor": "#735797"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "lasers-fakemon-pack"
+  ],
+  "primarySource": "lasers-fakemon-pack",
+  "provenance": {
+    "implemented": "lasers-fakemon-pack",
+    "nationalPokedexNumber": "lasers-fakemon-pack",
+    "name": "lasers-fakemon-pack",
+    "primaryType": "lasers-fakemon-pack",
+    "secondaryType": "lasers-fakemon-pack",
+    "maleRatio": "lasers-fakemon-pack",
+    "height": "lasers-fakemon-pack",
+    "weight": "lasers-fakemon-pack",
+    "pokedex": "lasers-fakemon-pack",
+    "labels": "lasers-fakemon-pack",
+    "aspects": "lasers-fakemon-pack",
+    "features": "lasers-fakemon-pack",
+    "abilities": "lasers-fakemon-pack",
+    "eggGroups": "lasers-fakemon-pack",
+    "baseStats": "lasers-fakemon-pack",
+    "evYield": "lasers-fakemon-pack",
+    "baseExperienceYield": "lasers-fakemon-pack",
+    "experienceGroup": "lasers-fakemon-pack",
+    "catchRate": "lasers-fakemon-pack",
+    "eggCycles": "lasers-fakemon-pack",
+    "baseFriendship": "lasers-fakemon-pack",
+    "baseScale": "lasers-fakemon-pack",
+    "hitbox": "lasers-fakemon-pack",
+    "behaviour": "lasers-fakemon-pack",
+    "drops": "lasers-fakemon-pack",
+    "moves": "lasers-fakemon-pack",
+    "evolutions": "lasers-fakemon-pack",
+    "forms": "lasers-fakemon-pack"
+  },
+  "formOf": {
+    "slug": "gimmibread",
+    "name": "Gimmibread"
+  },
+  "formName": "Roaming"
+}

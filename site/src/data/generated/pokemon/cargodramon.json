@@ -1,0 +1,200 @@
+{
+  "id": "cobblemon:cargodramon",
+  "namespace": "cobblemon",
+  "slug": "cargodramon",
+  "name": "Cargodramon",
+  "nationalPokedexNumber": 2191,
+  "primaryType": "steel",
+  "secondaryType": "dragon",
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 80,
+    "defence": 95,
+    "special_attack": 115,
+    "special_defence": 60,
+    "speed": 50
+  },
+  "baseStatTotal": 500,
+  "abilities": [
+    "motordrive",
+    "levitate"
+  ],
+  "hiddenAbilities": [
+    "clearbody"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.92,
+  "weight": 187,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A freighted dragon built to haul and guard.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "dragonbreath",
+        "level": 44
+      },
+      {
+        "moveId": "airslash",
+        "level": 47
+      },
+      {
+        "moveId": "autotomize",
+        "level": 50
+      },
+      {
+        "moveId": "dragonpulse",
+        "level": 54
+      },
+      {
+        "moveId": "flashcannon",
+        "level": 57
+      },
+      {
+        "moveId": "irondefense",
+        "level": 61
+      },
+      {
+        "moveId": "tailwind",
+        "level": 66
+      },
+      {
+        "moveId": "dragondarts",
+        "level": 70
+      },
+      {
+        "moveId": "hurricane",
+        "level": 75
+      },
+      {
+        "moveId": "steelbeam",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "monochromon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "poison"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/cargodramon.png",
+    "placeholderColor": "#B7B7CE"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_mountain",
+        "#cobblemon:is_sky"
+      ],
+      "bucket": "rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "riding": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "id": "cobblemon:wizarmon",
+  "namespace": "cobblemon",
+  "slug": "wizarmon",
+  "name": "Wizarmon",
+  "nationalPokedexNumber": 2150,
+  "primaryType": "psychic",
+  "secondaryType": "electric",
+  "types": [
+    "psychic",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 67,
+    "attack": 52,
+    "defence": 57,
+    "special_attack": 78,
+    "special_defence": 73,
+    "speed": 73
+  },
+  "baseStatTotal": 400,
+  "abilities": [
+    "prankster",
+    "magician"
+  ],
+  "hiddenAbilities": [
+    "magicguard"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.6,
+  "weight": 56.25,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A sage who bends arcane winds to its will.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "thundershock",
+        "level": 25
+      },
+      {
+        "moveId": "confusion",
+        "level": 27
+      },
+      {
+        "moveId": "charge",
+        "level": 29
+      },
+      {
+        "moveId": "willowisp",
+        "level": 31
+      },
+      {
+        "moveId": "confuseray",
+        "level": 33
+      },
+      {
+        "moveId": "aircutter",
+        "level": 35
+      },
+      {
+        "moveId": "calmmind",
+        "level": 37
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 39
+      },
+      {
+        "moveId": "mysticalpower",
+        "level": 41
+      },
+      {
+        "moveId": "shockwave",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:soloogarmon",
+      "targetSlug": "soloogarmon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: dusk_stone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gogmamon",
+      "targetSlug": "gogmamon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: heavy_duty_boots",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "piyomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/wizarmon.png",
+    "placeholderColor": "#F95587"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_magical",
+        "alexscaves:candy_cavity"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [],
+      "bucket": "ultra-rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [],
+      "bucket": "ultra-rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

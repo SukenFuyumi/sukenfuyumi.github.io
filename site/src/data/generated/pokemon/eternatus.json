@@ -1,0 +1,757 @@
+{
+  "id": "cobblemon:eternatus",
+  "namespace": "cobblemon",
+  "slug": "eternatus",
+  "name": "Eternatus",
+  "nationalPokedexNumber": 890,
+  "primaryType": "poison",
+  "secondaryType": "dragon",
+  "types": [
+    "poison",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 140,
+    "attack": 85,
+    "defence": 95,
+    "special_attack": 145,
+    "special_defence": 95,
+    "speed": 130
+  },
+  "baseStatTotal": 690,
+  "abilities": [
+    "pressure"
+  ],
+  "hiddenAbilities": [
+    "pressure"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 255,
+  "eggCycles": 120,
+  "baseFriendship": 0,
+  "height": 200,
+  "weight": 9500,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 345,
+  "labels": [
+    "gen8",
+    "legendary",
+    "restricted"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Eternamax",
+      "aspects": [
+        "eternamax"
+      ],
+      "primaryType": "poison",
+      "secondaryType": "dragon",
+      "types": [
+        "poison",
+        "dragon"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 255,
+        "attack": 115,
+        "defence": 250,
+        "special_attack": 125,
+        "special_defence": 250,
+        "speed": 130
+      },
+      "baseStatTotal": 1125,
+      "abilities": null,
+      "hiddenAbilities": null,
+      "pokedexDescription": "Infinite amounts of energy pour from this Pokémon’s enlarged core, warping the surrounding space-time.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "poisontail",
+            "level": 1
+          },
+          {
+            "moveId": "confuseray",
+            "level": 1
+          },
+          {
+            "moveId": "dragontail",
+            "level": 1
+          },
+          {
+            "moveId": "agility",
+            "level": 1
+          },
+          {
+            "moveId": "toxic",
+            "level": 8
+          },
+          {
+            "moveId": "venoshock",
+            "level": 16
+          },
+          {
+            "moveId": "dragondance",
+            "level": 24
+          },
+          {
+            "moveId": "crosspoison",
+            "level": 32
+          },
+          {
+            "moveId": "dragonpulse",
+            "level": 40
+          },
+          {
+            "moveId": "flamethrower",
+            "level": 48
+          },
+          {
+            "moveId": "dynamaxcannon",
+            "level": 56
+          },
+          {
+            "moveId": "cosmicpower",
+            "level": 64
+          },
+          {
+            "moveId": "recover",
+            "level": 72
+          },
+          {
+            "moveId": "hyperbeam",
+            "level": 80
+          },
+          {
+            "moveId": "eternabeam",
+            "level": 88
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "cosmicpower"
+          },
+          {
+            "moveId": "crosspoison"
+          },
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragondance"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "dragontail"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "firespin"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "fly"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "meteorbeam"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "poisontail"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          },
+          {
+            "moveId": "sludgewave"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "toxicspikes"
+          },
+          {
+            "moveId": "venomdrench"
+          },
+          {
+            "moveId": "venoshock"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "dracometeor"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "gunkshot"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "meteorbeam"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "sludgebomb"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "snore"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "dragon",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "psychic",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "grass",
+            "multiplier": 0.25
+          },
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "eternatus-eternamax"
+    }
+  ],
+  "pokedexDescription": "The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "poisontail",
+        "level": 1
+      },
+      {
+        "moveId": "confuseray",
+        "level": 1
+      },
+      {
+        "moveId": "dragontail",
+        "level": 1
+      },
+      {
+        "moveId": "agility",
+        "level": 1
+      },
+      {
+        "moveId": "toxic",
+        "level": 8
+      },
+      {
+        "moveId": "venoshock",
+        "level": 16
+      },
+      {
+        "moveId": "dragondance",
+        "level": 24
+      },
+      {
+        "moveId": "crosspoison",
+        "level": 32
+      },
+      {
+        "moveId": "dragonpulse",
+        "level": 40
+      },
+      {
+        "moveId": "flamethrower",
+        "level": 48
+      },
+      {
+        "moveId": "dynamaxcannon",
+        "level": 56
+      },
+      {
+        "moveId": "cosmicpower",
+        "level": 64
+      },
+      {
+        "moveId": "recover",
+        "level": 72
+      },
+      {
+        "moveId": "hyperbeam",
+        "level": 80
+      },
+      {
+        "moveId": "eternabeam",
+        "level": 88
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "cosmicpower"
+      },
+      {
+        "moveId": "crosspoison"
+      },
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragondance"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "dragontail"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "fireblast"
+      },
+      {
+        "moveId": "firespin"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "fly"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "poisontail"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "toxicspikes"
+      },
+      {
+        "moveId": "venomdrench"
+      },
+      {
+        "moveId": "venoshock"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "dracometeor"
+      },
+      {
+        "moveId": "dragonpulse"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "mysticalfire"
+      },
+      {
+        "moveId": "outrage"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/890.png"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "mega-showdown",
+    "cobblemon-core"
+  ],
+  "primarySource": "mega-showdown",
+  "provenance": {
+    "nationalPokedexNumber": "mega-showdown",
+    "name": "mega-showdown",
+    "primaryType": "mega-showdown",
+    "secondaryType": "mega-showdown",
+    "maleRatio": "mega-showdown",
+    "height": "mega-showdown",
+    "weight": "mega-showdown",
+    "pokedex": "mega-showdown",
+    "labels": "mega-showdown",
+    "aspects": "mega-showdown",
+    "abilities": "mega-showdown",
+    "eggGroups": "mega-showdown",
+    "riding": "mega-showdown",
+    "baseStats": "mega-showdown",
+    "evYield": "mega-showdown",
+    "baseExperienceYield": "mega-showdown",
+    "experienceGroup": "mega-showdown",
+    "catchRate": "mega-showdown",
+    "eggCycles": "mega-showdown",
+    "baseFriendship": "mega-showdown",
+    "dynamaxBlocked": "mega-showdown",
+    "baseScale": "mega-showdown",
+    "hitbox": "mega-showdown",
+    "moves": "mega-showdown",
+    "evolutions": "mega-showdown",
+    "forms": "mega-showdown"
+  }
+}

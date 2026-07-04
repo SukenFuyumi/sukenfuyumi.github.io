@@ -1,0 +1,813 @@
+{
+  "id": "cobblemon:shade",
+  "namespace": "cobblemon",
+  "slug": "shade",
+  "name": "Shade",
+  "nationalPokedexNumber": 3333,
+  "primaryType": "dark",
+  "secondaryType": "ghost",
+  "types": [
+    "dark",
+    "ghost"
+  ],
+  "baseStats": {
+    "hp": 3,
+    "attack": 33,
+    "defence": 3,
+    "special_attack": 33,
+    "special_defence": 3,
+    "speed": 33
+  },
+  "baseStatTotal": 108,
+  "abilities": [
+    "wonderguard"
+  ],
+  "hiddenAbilities": [
+    "wonderguard"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 33,
+  "eggCycles": 33,
+  "baseFriendship": 33,
+  "height": 75,
+  "weight": 10,
+  "maleRatio": 1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 333,
+  "labels": [
+    "laserdex"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Eternal",
+      "aspects": [
+        "eternal"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "ghost",
+      "types": [
+        "dark",
+        "ghost"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 3,
+        "attack": 133,
+        "defence": 33,
+        "special_attack": 133,
+        "special_defence": 33,
+        "speed": 133
+      },
+      "baseStatTotal": 468,
+      "abilities": [
+        "wonderguard"
+      ],
+      "hiddenAbilities": [
+        "wonderguard"
+      ],
+      "pokedexDescription": null,
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "splash",
+            "level": 1
+          },
+          {
+            "moveId": "tackle",
+            "level": 1
+          },
+          {
+            "moveId": "astonish",
+            "level": 1
+          },
+          {
+            "moveId": "pursuit",
+            "level": 1
+          },
+          {
+            "moveId": "confuseray",
+            "level": 1
+          },
+          {
+            "moveId": "shadowsneak",
+            "level": 1
+          },
+          {
+            "moveId": "payback",
+            "level": 1
+          },
+          {
+            "moveId": "willowisp",
+            "level": 1
+          },
+          {
+            "moveId": "assurance",
+            "level": 1
+          },
+          {
+            "moveId": "disable",
+            "level": 1
+          },
+          {
+            "moveId": "endure",
+            "level": 1
+          },
+          {
+            "moveId": "taunt",
+            "level": 1
+          },
+          {
+            "moveId": "destinybond",
+            "level": 1
+          },
+          {
+            "moveId": "darkpulse",
+            "level": 1
+          },
+          {
+            "moveId": "shadowball",
+            "level": 1
+          },
+          {
+            "moveId": "encore",
+            "level": 1
+          },
+          {
+            "moveId": "knockoff",
+            "level": 1
+          },
+          {
+            "moveId": "megapunch",
+            "level": 1
+          },
+          {
+            "moveId": "megakick",
+            "level": 1
+          },
+          {
+            "moveId": "nightlight",
+            "level": 1
+          },
+          {
+            "moveId": "suckerpunch",
+            "level": 1
+          },
+          {
+            "moveId": "phantomforce",
+            "level": 1
+          },
+          {
+            "moveId": "foulplay",
+            "level": 1
+          },
+          {
+            "moveId": "poltergeist",
+            "level": 1
+          },
+          {
+            "moveId": "spiritbreak",
+            "level": 1
+          }
+        ],
+        "egg": [],
+        "tm": [
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "cosmicpower"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "encore"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "explosion"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "firepunch"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "haze"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icepunch"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "megakick"
+          },
+          {
+            "moveId": "megapunch"
+          },
+          {
+            "moveId": "nightlight"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "phantomforce"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "poltergeist"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "selfdestruct"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "suckerpunch"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thunderpunch"
+          },
+          {
+            "moveId": "triattack"
+          },
+          {
+            "moveId": "willowisp"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "bulkup"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "firepunch"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "icepunch"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lastresort"
+          },
+          {
+            "moveId": "poisonjab"
+          },
+          {
+            "moveId": "poltergeist"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "thunderpunch"
+          },
+          {
+            "moveId": "triattack"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "fairy",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "fighting",
+          "normal",
+          "psychic"
+        ]
+      },
+      "evolutions": [],
+      "slug": "shade-eternal"
+    }
+  ],
+  "pokedexDescription": "What even is this thing?",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "splash",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "pursuit",
+        "level": 1
+      },
+      {
+        "moveId": "confuseray",
+        "level": 1
+      },
+      {
+        "moveId": "shadowsneak",
+        "level": 1
+      },
+      {
+        "moveId": "payback",
+        "level": 1
+      },
+      {
+        "moveId": "willowisp",
+        "level": 1
+      },
+      {
+        "moveId": "assurance",
+        "level": 1
+      },
+      {
+        "moveId": "disable",
+        "level": 1
+      },
+      {
+        "moveId": "endure",
+        "level": 1
+      },
+      {
+        "moveId": "taunt",
+        "level": 1
+      },
+      {
+        "moveId": "destinybond",
+        "level": 1
+      },
+      {
+        "moveId": "darkpulse",
+        "level": 1
+      },
+      {
+        "moveId": "shadowball",
+        "level": 1
+      },
+      {
+        "moveId": "encore",
+        "level": 1
+      },
+      {
+        "moveId": "knockoff",
+        "level": 1
+      },
+      {
+        "moveId": "megapunch",
+        "level": 1
+      },
+      {
+        "moveId": "megakick",
+        "level": 1
+      },
+      {
+        "moveId": "nightlight",
+        "level": 1
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 1
+      },
+      {
+        "moveId": "phantomforce",
+        "level": 1
+      },
+      {
+        "moveId": "foulplay",
+        "level": 1
+      },
+      {
+        "moveId": "poltergeist",
+        "level": 1
+      },
+      {
+        "moveId": "spiritbreak",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "cosmicpower"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "haze"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "megapunch"
+      },
+      {
+        "moveId": "nightlight"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "phantomforce"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "triattack"
+      },
+      {
+        "moveId": "willowisp"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "bulkup"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "firepunch"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icepunch"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lastresort"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "thunderpunch"
+      },
+      {
+        "moveId": "triattack"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fairy",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "fighting",
+      "normal",
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/shade.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_end"
+      ],
+      "bucket": "ultra-rare",
+      "level": "50-60",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "nullscape:void_barrens",
+        "nullscape:shadowlands"
+      ],
+      "bucket": "ultra-rare",
+      "level": "50-60",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    }
+  ],
+  "sourceMods": [
+    "lasers-fakemon-pack"
+  ],
+  "primarySource": "lasers-fakemon-pack",
+  "provenance": {
+    "implemented": "lasers-fakemon-pack",
+    "nationalPokedexNumber": "lasers-fakemon-pack",
+    "name": "lasers-fakemon-pack",
+    "primaryType": "lasers-fakemon-pack",
+    "secondaryType": "lasers-fakemon-pack",
+    "maleRatio": "lasers-fakemon-pack",
+    "height": "lasers-fakemon-pack",
+    "weight": "lasers-fakemon-pack",
+    "pokedex": "lasers-fakemon-pack",
+    "labels": "lasers-fakemon-pack",
+    "aspects": "lasers-fakemon-pack",
+    "abilities": "lasers-fakemon-pack",
+    "eggGroups": "lasers-fakemon-pack",
+    "baseStats": "lasers-fakemon-pack",
+    "evYield": "lasers-fakemon-pack",
+    "baseExperienceYield": "lasers-fakemon-pack",
+    "experienceGroup": "lasers-fakemon-pack",
+    "catchRate": "lasers-fakemon-pack",
+    "eggCycles": "lasers-fakemon-pack",
+    "baseFriendship": "lasers-fakemon-pack",
+    "baseScale": "lasers-fakemon-pack",
+    "hitbox": "lasers-fakemon-pack",
+    "behaviour": "lasers-fakemon-pack",
+    "drops": "lasers-fakemon-pack",
+    "moves": "lasers-fakemon-pack",
+    "evolutions": "lasers-fakemon-pack",
+    "battleOnly": "lasers-fakemon-pack",
+    "forms": "lasers-fakemon-pack"
+  }
+}

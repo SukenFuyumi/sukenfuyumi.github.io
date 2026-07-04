@@ -1,0 +1,204 @@
+{
+  "id": "cobblemon:fladramon",
+  "namespace": "cobblemon",
+  "slug": "fladramon",
+  "name": "Fladramon",
+  "nationalPokedexNumber": 2123,
+  "primaryType": "dragon",
+  "secondaryType": "fire",
+  "types": [
+    "dragon",
+    "fire"
+  ],
+  "baseStats": {
+    "hp": 47,
+    "attack": 72,
+    "defence": 72,
+    "special_attack": 54,
+    "special_defence": 55,
+    "speed": 95
+  },
+  "baseStatTotal": 395,
+  "abilities": [
+    "magmaarmor",
+    "battlearmor"
+  ],
+  "hiddenAbilities": [
+    "defiant"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.11,
+  "weight": 70,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "An armor-clad flame warrior that charges into battle.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "firespin",
+        "level": 25
+      },
+      {
+        "moveId": "dragonrage",
+        "level": 27
+      },
+      {
+        "moveId": "flamecharge",
+        "level": 29
+      },
+      {
+        "moveId": "quickguard",
+        "level": 31
+      },
+      {
+        "moveId": "vacuumwave",
+        "level": 33
+      },
+      {
+        "moveId": "headbutt",
+        "level": 35
+      },
+      {
+        "moveId": "workup",
+        "level": 37
+      },
+      {
+        "moveId": "breakingswipe",
+        "level": 39
+      },
+      {
+        "moveId": "firepunch",
+        "level": 41
+      },
+      {
+        "moveId": "detect",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:sagittarimon",
+      "targetSlug": "sagittarimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: fighting_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:metalgreymon",
+      "targetSlug": "metalgreymon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: metal_coat",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:omegashoutmon",
+      "targetSlug": "omegashoutmon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: sun_stone",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "vmon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.25
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/fladramon.png",
+    "placeholderColor": "#6F35FC"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_volcanic",
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "rare",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

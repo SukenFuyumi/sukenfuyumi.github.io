@@ -1,0 +1,173 @@
+{
+  "id": "cobblemon:tinywone",
+  "namespace": "cobblemon",
+  "slug": "tinywone",
+  "name": "Tinywone",
+  "nationalPokedexNumber": 1035,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 20,
+    "defence": 50,
+    "special_attack": 40,
+    "special_defence": 60,
+    "speed": 45
+  },
+  "baseStatTotal": 255,
+  "abilities": [
+    "innerfocus",
+    "steadfast"
+  ],
+  "hiddenAbilities": [
+    "adaptability"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "catchRate": 255,
+  "eggCycles": 40,
+  "baseFriendship": 40,
+  "height": 2,
+  "weight": 100,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 100,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Extremely weak, this Pokémon is aware of its potential. It meditates diligently every day, thinking about the day it will become tall and strong, finally able to be proud of its strength.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "furyswipes",
+        "level": 1
+      },
+      {
+        "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "stringshot",
+        "level": 1
+      },
+      {
+        "moveId": "confusion",
+        "level": 1
+      },
+      {
+        "moveId": "poweruppunch",
+        "level": 4
+      },
+      {
+        "moveId": "bulkup",
+        "level": 7
+      },
+      {
+        "moveId": "pinmissile",
+        "level": 10
+      },
+      {
+        "moveId": "endure",
+        "level": 13
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:wamek",
+      "targetSlug": "wamek",
+      "summary": "Nivel · Nv. 15",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/tinywone.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "uncommon",
+      "level": "30-60",
+      "timeRange": null,
+      "sourceId": "cobblemon-rlm"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-rlm"
+  ],
+  "primarySource": "cobblemon-rlm",
+  "provenance": {
+    "implemented": "cobblemon-rlm",
+    "name": "cobblemon-rlm",
+    "nationalPokedexNumber": "cobblemon-rlm",
+    "labels": "cobblemon-rlm",
+    "pokedex": "cobblemon-rlm",
+    "height": "cobblemon-rlm",
+    "weight": "cobblemon-rlm",
+    "features": "cobblemon-rlm",
+    "primaryType": "cobblemon-rlm",
+    "baseStats": "cobblemon-rlm",
+    "catchRate": "cobblemon-rlm",
+    "maleRatio": "cobblemon-rlm",
+    "baseExperienceYield": "cobblemon-rlm",
+    "experienceGroup": "cobblemon-rlm",
+    "eggCycles": "cobblemon-rlm",
+    "eggGroups": "cobblemon-rlm",
+    "baseFriendship": "cobblemon-rlm",
+    "evYield": "cobblemon-rlm",
+    "moves": "cobblemon-rlm",
+    "abilities": "cobblemon-rlm",
+    "evolutions": "cobblemon-rlm",
+    "baseScale": "cobblemon-rlm",
+    "hitbox": "cobblemon-rlm",
+    "drops": "cobblemon-rlm",
+    "behaviour": "cobblemon-rlm"
+  }
+}

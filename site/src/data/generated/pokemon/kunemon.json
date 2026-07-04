@@ -1,0 +1,210 @@
+{
+  "id": "cobblemon:kunemon",
+  "namespace": "cobblemon",
+  "slug": "kunemon",
+  "name": "Kunemon",
+  "nationalPokedexNumber": 2117,
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 45,
+    "defence": 35,
+    "special_attack": 75,
+    "special_defence": 40,
+    "speed": 45
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "swarm",
+    "static"
+  ],
+  "hiddenAbilities": [
+    "intimidate"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 0.71,
+  "weight": 8.16,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A larval Bug Digimon that paralyzes foes with silk threads.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 12
+      },
+      {
+        "moveId": "stringshot",
+        "level": 14
+      },
+      {
+        "moveId": "strugglebug",
+        "level": 16
+      },
+      {
+        "moveId": "poisonsting",
+        "level": 18
+      },
+      {
+        "moveId": "workup",
+        "level": 19
+      },
+      {
+        "moveId": "thundershock",
+        "level": 21
+      },
+      {
+        "moveId": "bugbite",
+        "level": 22
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:kuwagamon",
+      "targetSlug": "kuwagamon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:snimon",
+      "targetSlug": "snimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: bug_gem",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:flymon",
+      "targetSlug": "flymon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: honeycomb",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:kabuterimon",
+      "targetSlug": "kabuterimon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: wise_glasses",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:scumon",
+      "targetSlug": "scumon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "tokomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/kunemon.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_jungle"
+      ],
+      "bucket": "common",
+      "level": "12-32",
+      "timeRange": "night",
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

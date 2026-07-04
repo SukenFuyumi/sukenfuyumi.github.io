@@ -1,0 +1,209 @@
+{
+  "id": "cobblemon:chivalrough",
+  "namespace": "cobblemon",
+  "slug": "chivalrough",
+  "name": "Chivalrough",
+  "nationalPokedexNumber": 14,
+  "primaryType": "bug",
+  "secondaryType": null,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 90,
+    "special_attack": 35,
+    "special_defence": 80,
+    "speed": 30
+  },
+  "baseStatTotal": 335,
+  "abilities": [
+    "battlearmor"
+  ],
+  "hiddenAbilities": [
+    "shielddust"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "catchRate": 120,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 195,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 117,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "If a Catertiller gathers enough nectar, it can use specialized chemicals in its saliva to turn sugar into a tough shell, allowing it to evolve into a Chivalrough. Chivalrough use their sugary shell to protect Catertillers from harm, and will fight endlessly to ensure their safety.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "bugbite",
+        "level": 1
+      },
+      {
+        "moveId": "irondefense",
+        "level": 1
+      },
+      {
+        "moveId": "protect",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "sweetscent",
+        "level": 1
+      },
+      {
+        "moveId": "stringshot",
+        "level": 1
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "powder"
+      },
+      {
+        "moveId": "stickyweb"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "playrough"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "terablast"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:sugareign",
+      "targetSlug": "sugareign",
+      "summary": "Nivel · Nv. 30",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "catertiller",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/chivalrough.png",
+    "placeholderColor": "#A6B91A"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "common",
+      "level": "20-38",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_floral"
+      ],
+      "bucket": "common",
+      "level": "20-38",
+      "timeRange": null,
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "name": "lively-mons",
+    "primaryType": "lively-mons",
+    "maleRatio": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "pokedex": "lively-mons",
+    "labels": "lively-mons",
+    "aspects": "lively-mons",
+    "abilities": "lively-mons",
+    "eggGroups": "lively-mons",
+    "baseStats": "lively-mons",
+    "evYield": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "catchRate": "lively-mons",
+    "eggCycles": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "drops": "lively-mons",
+    "moves": "lively-mons",
+    "preEvolution": "lively-mons",
+    "evolutions": "lively-mons",
+    "behaviour": "lively-mons"
+  }
+}

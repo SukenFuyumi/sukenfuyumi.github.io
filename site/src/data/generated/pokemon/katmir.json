@@ -1,0 +1,280 @@
+{
+  "id": "cobblemon:katmir",
+  "namespace": "cobblemon",
+  "slug": "katmir",
+  "name": "Katmir",
+  "nationalPokedexNumber": 1278,
+  "primaryType": "ground",
+  "secondaryType": "normal",
+  "types": [
+    "ground",
+    "normal"
+  ],
+  "baseStats": {
+    "hp": 33,
+    "attack": 34,
+    "defence": 45,
+    "special_attack": 30,
+    "special_defence": 53,
+    "speed": 57
+  },
+  "baseStatTotal": 252,
+  "abilities": [
+    "keeneye",
+    "runaway"
+  ],
+  "hiddenAbilities": [
+    "cloudnine"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "catchRate": 190,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "height": 4,
+  "weight": 142,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 50,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "It walks for miles in harsh environments without suffering from hunger or thirst.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 0
+      },
+      {
+        "moveId": "growl",
+        "level": 0
+      },
+      {
+        "moveId": "pound",
+        "level": 3
+      },
+      {
+        "moveId": "mudslap",
+        "level": 7
+      },
+      {
+        "moveId": "doubleslap",
+        "level": 11
+      },
+      {
+        "moveId": "dig",
+        "level": 14
+      },
+      {
+        "moveId": "sandattack",
+        "level": 18
+      },
+      {
+        "moveId": "quickattack",
+        "level": 22
+      },
+      {
+        "moveId": "rocksmash",
+        "level": 25
+      },
+      {
+        "moveId": "headbutt",
+        "level": 28
+      },
+      {
+        "moveId": "mudshot",
+        "level": 32
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "auroraveil"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "trickroom"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "babydolleyes"
+      },
+      {
+        "moveId": "bite"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "cometpunch"
+      },
+      {
+        "moveId": "doubleslap"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "feint"
+      },
+      {
+        "moveId": "feintattack"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "sweetkiss"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "tickle"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:meerogue",
+      "targetSlug": "meerogue",
+      "summary": "Nivel · Nv. 35",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric",
+      "ghost"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/katmir.png",
+    "placeholderColor": "#E2BF65"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_savanna"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": "day",
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "terralith:desert_oasis"
+      ],
+      "bucket": "common",
+      "level": "6-31",
+      "timeRange": "day",
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "evolutions": "cobblemon-afp"
+  }
+}

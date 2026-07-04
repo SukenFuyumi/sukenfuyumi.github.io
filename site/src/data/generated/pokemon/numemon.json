@@ -1,0 +1,197 @@
+{
+  "id": "cobblemon:numemon",
+  "namespace": "cobblemon",
+  "slug": "numemon",
+  "name": "Numemon",
+  "nationalPokedexNumber": 2112,
+  "primaryType": "poison",
+  "secondaryType": null,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 40,
+    "defence": 65,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 40
+  },
+  "baseStatTotal": 380,
+  "abilities": [
+    "stench",
+    "stickyhold"
+  ],
+  "hiddenAbilities": [
+    "unaware"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.4,
+  "weight": 30.84,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Digimon that lurks in sewers, hurling filth at enemies.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "lick",
+        "level": 25
+      },
+      {
+        "moveId": "taunt",
+        "level": 27
+      },
+      {
+        "moveId": "poisongas",
+        "level": 29
+      },
+      {
+        "moveId": "bite",
+        "level": 31
+      },
+      {
+        "moveId": "waterpulse",
+        "level": 33
+      },
+      {
+        "moveId": "gastroacid",
+        "level": 35
+      },
+      {
+        "moveId": "sludge",
+        "level": 37
+      },
+      {
+        "moveId": "venomdrench",
+        "level": 39
+      },
+      {
+        "moveId": "snarl",
+        "level": 41
+      },
+      {
+        "moveId": "frustration",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:monzaemon",
+      "targetSlug": "monzaemon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: love_sweet",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:goldnumemon",
+      "targetSlug": "goldnumemon",
+      "summary": "Nivel · Nv. 20",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:karatukinumemon",
+      "targetSlug": "karatukinumemon",
+      "summary": "Nivel · Nv. 20",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "tyumon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "psychic",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/numemon.png",
+    "placeholderColor": "#A33EA1"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "common",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod"
+  }
+}

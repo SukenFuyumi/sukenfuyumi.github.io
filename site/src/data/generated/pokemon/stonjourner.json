@@ -1,0 +1,1386 @@
+{
+  "id": "cobblemon:stonjourner",
+  "namespace": "cobblemon",
+  "slug": "stonjourner",
+  "name": "Stonjourner",
+  "nationalPokedexNumber": 874,
+  "primaryType": "rock",
+  "secondaryType": null,
+  "types": [
+    "rock"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 125,
+    "defence": 135,
+    "special_attack": 20,
+    "special_defence": 20,
+    "speed": 70
+  },
+  "baseStatTotal": 470,
+  "abilities": [
+    "powerspot"
+  ],
+  "hiddenAbilities": [
+    "powerspot"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "catchRate": 60,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 25,
+  "weight": 5200,
+  "maleRatio": 0.5,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 165,
+  "labels": [
+    "gen8"
+  ],
+  "aspects": [],
+  "forms": [
+    {
+      "name": "Sandstone",
+      "aspects": [
+        "sandstone"
+      ],
+      "primaryType": "rock",
+      "secondaryType": "ground",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 100,
+        "attack": 20,
+        "defence": 75,
+        "special_attack": 125,
+        "special_defence": 110,
+        "speed": 40
+      },
+      "baseStatTotal": 470,
+      "abilities": [
+        "powerspot"
+      ],
+      "hiddenAbilities": [
+        "powerspot"
+      ],
+      "pokedexDescription": "This Pokémon's body is made of thick slabs of sandstone. Once every full moon, they gather around the ancient desert pyramids in a circle to summon forth a sandstorm.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "rockthrow",
+            "level": 1
+          },
+          {
+            "moveId": "mudslap",
+            "level": 1
+          },
+          {
+            "moveId": "healblock",
+            "level": 1
+          },
+          {
+            "moveId": "cosmicpower",
+            "level": 1
+          },
+          {
+            "moveId": "powerswap",
+            "level": 1
+          },
+          {
+            "moveId": "guardpress",
+            "level": 1
+          },
+          {
+            "moveId": "rockpolish",
+            "level": 6
+          },
+          {
+            "moveId": "ancientpower",
+            "level": 12
+          },
+          {
+            "moveId": "mudshot",
+            "level": 14
+          },
+          {
+            "moveId": "gravity",
+            "level": 18
+          },
+          {
+            "moveId": "mudbomb",
+            "level": 24
+          },
+          {
+            "moveId": "stealthrock",
+            "level": 30
+          },
+          {
+            "moveId": "sandtomb",
+            "level": 34
+          },
+          {
+            "moveId": "powergem",
+            "level": 36
+          },
+          {
+            "moveId": "scorchingsands",
+            "level": 42
+          },
+          {
+            "moveId": "wideguard",
+            "level": 48
+          },
+          {
+            "moveId": "trickroom",
+            "level": 52
+          },
+          {
+            "moveId": "extrasensory",
+            "level": 54
+          },
+          {
+            "moveId": "mindbend",
+            "level": 56
+          },
+          {
+            "moveId": "earthpower",
+            "level": 60
+          },
+          {
+            "moveId": "meteorbeam",
+            "level": 66
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "curse"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "block"
+          },
+          {
+            "moveId": "bodypress"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "cosmicpower"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "earthquake"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "extrasensory"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "guardpress"
+          },
+          {
+            "moveId": "hardpress"
+          },
+          {
+            "moveId": "heatcrash"
+          },
+          {
+            "moveId": "heavyslam"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "imprison"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "landslide"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "lowsweep"
+          },
+          {
+            "moveId": "megakick"
+          },
+          {
+            "moveId": "meteorbeam"
+          },
+          {
+            "moveId": "mindbend"
+          },
+          {
+            "moveId": "mudshot"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "powerblast"
+          },
+          {
+            "moveId": "powergem"
+          },
+          {
+            "moveId": "powerswap"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicnoise"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockblast"
+          },
+          {
+            "moveId": "rockpolish"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "sandtomb"
+          },
+          {
+            "moveId": "sandstorm"
+          },
+          {
+            "moveId": "scorchingsands"
+          },
+          {
+            "moveId": "selfdestruct"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "smackdown"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "stompingtantrum"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "wonderroom"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "block"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "meteorbeam"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "stompingtantrum"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "wonderroom"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "grass",
+            "multiplier": 4
+          },
+          {
+            "type": "water",
+            "multiplier": 4
+          },
+          {
+            "type": "fighting",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "steel",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "poison",
+            "multiplier": 0.25
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "normal",
+            "multiplier": 0.5
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "electric"
+        ]
+      },
+      "evolutions": [],
+      "slug": "stonjourner-sandstone"
+    },
+    {
+      "name": "Mega-Sandstone",
+      "aspects": [
+        "sandstone",
+        "mega"
+      ],
+      "primaryType": "rock",
+      "secondaryType": "ground",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 100,
+        "attack": 60,
+        "defence": 105,
+        "special_attack": 145,
+        "special_defence": 140,
+        "speed": 20
+      },
+      "baseStatTotal": 570,
+      "abilities": [
+        "powerspot"
+      ],
+      "hiddenAbilities": [
+        "powerspot"
+      ],
+      "pokedexDescription": "It stands in the middle of the desert as a monument of safety. Its body acts as shelter for wild Pokémon caught amidst raging sandstorms.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "rockthrow",
+            "level": 1
+          },
+          {
+            "moveId": "mudslap",
+            "level": 1
+          },
+          {
+            "moveId": "healblock",
+            "level": 1
+          },
+          {
+            "moveId": "cosmicpower",
+            "level": 1
+          },
+          {
+            "moveId": "powerswap",
+            "level": 1
+          },
+          {
+            "moveId": "guardpress",
+            "level": 1
+          },
+          {
+            "moveId": "rockpolish",
+            "level": 6
+          },
+          {
+            "moveId": "ancientpower",
+            "level": 12
+          },
+          {
+            "moveId": "mudshot",
+            "level": 14
+          },
+          {
+            "moveId": "gravity",
+            "level": 18
+          },
+          {
+            "moveId": "mudbomb",
+            "level": 24
+          },
+          {
+            "moveId": "stealthrock",
+            "level": 30
+          },
+          {
+            "moveId": "sandtomb",
+            "level": 34
+          },
+          {
+            "moveId": "powergem",
+            "level": 36
+          },
+          {
+            "moveId": "scorchingsands",
+            "level": 42
+          },
+          {
+            "moveId": "wideguard",
+            "level": 48
+          },
+          {
+            "moveId": "trickroom",
+            "level": 52
+          },
+          {
+            "moveId": "extrasensory",
+            "level": 54
+          },
+          {
+            "moveId": "mindbend",
+            "level": 56
+          },
+          {
+            "moveId": "earthpower",
+            "level": 60
+          },
+          {
+            "moveId": "meteorbeam",
+            "level": 66
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "curse"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "block"
+          },
+          {
+            "moveId": "bodypress"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brutalswing"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "cosmicpower"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "earthquake"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "extrasensory"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "guardpress"
+          },
+          {
+            "moveId": "hardpress"
+          },
+          {
+            "moveId": "heatcrash"
+          },
+          {
+            "moveId": "heavyslam"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "imprison"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "landslide"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "lowsweep"
+          },
+          {
+            "moveId": "megakick"
+          },
+          {
+            "moveId": "meteorbeam"
+          },
+          {
+            "moveId": "mindbend"
+          },
+          {
+            "moveId": "mudshot"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "powerblast"
+          },
+          {
+            "moveId": "powergem"
+          },
+          {
+            "moveId": "powerswap"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicnoise"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockblast"
+          },
+          {
+            "moveId": "rockpolish"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "safeguard"
+          },
+          {
+            "moveId": "sandtomb"
+          },
+          {
+            "moveId": "sandstorm"
+          },
+          {
+            "moveId": "scorchingsands"
+          },
+          {
+            "moveId": "selfdestruct"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "smackdown"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "stompingtantrum"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "wonderroom"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "block"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "gravity"
+          },
+          {
+            "moveId": "highhorsepower"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "lowkick"
+          },
+          {
+            "moveId": "meteorbeam"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "stompingtantrum"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "wonderroom"
+          }
+        ],
+        "legacy": [],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "grass",
+            "multiplier": 4
+          },
+          {
+            "type": "water",
+            "multiplier": 4
+          },
+          {
+            "type": "fighting",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "steel",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "poison",
+            "multiplier": 0.25
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "normal",
+            "multiplier": 0.5
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "electric"
+        ]
+      },
+      "evolutions": [],
+      "slug": "stonjourner-mega-sandstone"
+    }
+  ],
+  "pokedexDescription": "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "rockthrow",
+        "level": 1
+      },
+      {
+        "moveId": "block",
+        "level": 1
+      },
+      {
+        "moveId": "rockpolish",
+        "level": 6
+      },
+      {
+        "moveId": "rocktomb",
+        "level": 12
+      },
+      {
+        "moveId": "gravity",
+        "level": 18
+      },
+      {
+        "moveId": "stomp",
+        "level": 24
+      },
+      {
+        "moveId": "stealthrock",
+        "level": 30
+      },
+      {
+        "moveId": "rockslide",
+        "level": 36
+      },
+      {
+        "moveId": "bodyslam",
+        "level": 42
+      },
+      {
+        "moveId": "wideguard",
+        "level": 48
+      },
+      {
+        "moveId": "heavyslam",
+        "level": 54
+      },
+      {
+        "moveId": "stoneedge",
+        "level": 60
+      },
+      {
+        "moveId": "megakick",
+        "level": 66
+      },
+      {
+        "moveId": "guardpress",
+        "level": 72
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "curse"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brutalswing"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "guardpress"
+      },
+      {
+        "moveId": "hardpress"
+      },
+      {
+        "moveId": "heatcrash"
+      },
+      {
+        "moveId": "heavyslam"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "imprison"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "lowsweep"
+      },
+      {
+        "moveId": "megakick"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "powergem"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockblast"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "sandtomb"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "wonderroom"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "endeavor"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "highhorsepower"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "lowkick"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "wonderroom"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "sprite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/874.png"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "rare",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": "dusk",
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "cobblemon-core"
+    },
+    {
+      "biomes": [
+        "the_void"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "rare",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_desert"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": "dusk",
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "lasers-fakemon-pack"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "rare",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "uncommon",
+      "level": "22-47",
+      "timeRange": "dusk",
+      "sourceId": "digimod-spawn-together"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "common",
+      "level": "22-47",
+      "timeRange": null,
+      "sourceId": "digimod-spawn-together"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-core",
+    "lasers-fakemon-pack",
+    "lasers-additions"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "moves": "lasers-additions",
+    "evolutions": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "features": "lasers-fakemon-pack",
+    "forms": "lasers-fakemon-pack"
+  }
+}

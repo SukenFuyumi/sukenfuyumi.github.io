@@ -1,0 +1,220 @@
+{
+  "id": "cobblemon:guilmon",
+  "namespace": "cobblemon",
+  "slug": "guilmon",
+  "name": "Guilmon",
+  "nationalPokedexNumber": 2029,
+  "primaryType": "fire",
+  "secondaryType": "dark",
+  "types": [
+    "fire",
+    "dark"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 65,
+    "defence": 50,
+    "special_attack": 65,
+    "special_defence": 30,
+    "speed": 50
+  },
+  "baseStatTotal": 300,
+  "abilities": [
+    "blaze",
+    "hustle"
+  ],
+  "hiddenAbilities": [
+    "strongjaw"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 100,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.09,
+  "weight": 12.7,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 60,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A Digimon which has an appearance like a dinosaur that still retains its youth.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "scratch",
+        "level": 12
+      },
+      {
+        "moveId": "growl",
+        "level": 14
+      },
+      {
+        "moveId": "ember",
+        "level": 16
+      },
+      {
+        "moveId": "odorsleuth",
+        "level": 18
+      },
+      {
+        "moveId": "bite",
+        "level": 19
+      },
+      {
+        "moveId": "metalclaw",
+        "level": 21
+      },
+      {
+        "moveId": "smokescreen",
+        "level": 22
+      },
+      {
+        "moveId": "firefang",
+        "level": 24
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:growmon",
+      "targetSlug": "growmon",
+      "summary": "Nivel · Nv. 24",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:cyclomon",
+      "targetSlug": "cyclomon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: razor_claw",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:devidramon",
+      "targetSlug": "devidramon",
+      "summary": "Nivel · Nv. 24 · De noche",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:gargomon",
+      "targetSlug": "gargomon",
+      "summary": "Nivel · Nv. 24 · Sosteniendo: float_stone",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:fladramon",
+      "targetSlug": "fladramon",
+      "summary": "Nivel · Nv. 24 · Dimensión: the_nether",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "tokomon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/guilmon.png",
+    "placeholderColor": "#EE8130"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_nether_crimson",
+        "#cobblemon:is_volcanic",
+        "#cobblemon:is_thermal",
+        "#cobblemon:nether"
+      ],
+      "bucket": "uncommon",
+      "level": "12-32",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "id": "cobblemon:sleeblaze",
+  "namespace": "cobblemon",
+  "slug": "sleeblaze",
+  "name": "Sleeblaze",
+  "nationalPokedexNumber": 1205,
+  "primaryType": "fire",
+  "secondaryType": "psychic",
+  "types": [
+    "fire",
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 67,
+    "defence": 59,
+    "special_attack": 79,
+    "special_defence": 81,
+    "speed": 74
+  },
+  "baseStatTotal": 418,
+  "abilities": [
+    "blaze"
+  ],
+  "hiddenAbilities": [
+    "insomnia"
+  ],
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 6,
+  "weight": 217,
+  "maleRatio": 0.875,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 140,
+  "labels": [
+    "fakemon",
+    "alatia"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "Sleeblaze has a very sad demeanor, and the flames on its body aren't dangerous, but instead induce sleepiness and hallucinations.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "pound",
+        "level": 0
+      },
+      {
+        "moveId": "tailwhip",
+        "level": 0
+      },
+      {
+        "moveId": "ember",
+        "level": 0
+      },
+      {
+        "moveId": "meanlook",
+        "level": 8
+      },
+      {
+        "moveId": "confusion",
+        "level": 10
+      },
+      {
+        "moveId": "willowisp",
+        "level": 14
+      },
+      {
+        "moveId": "flameburst",
+        "level": 17
+      },
+      {
+        "moveId": "psybeam",
+        "level": 22
+      },
+      {
+        "moveId": "yawn",
+        "level": 25
+      },
+      {
+        "moveId": "memento",
+        "level": 30
+      },
+      {
+        "moveId": "lavaplume",
+        "level": 35
+      },
+      {
+        "moveId": "dreameater",
+        "level": 40
+      },
+      {
+        "moveId": "psyshock",
+        "level": 45
+      },
+      {
+        "moveId": "barrier",
+        "level": 55
+      },
+      {
+        "moveId": "mysticalfire",
+        "level": 60
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "aurasphere"
+      },
+      {
+        "moveId": "aurorabeam"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "perishsong"
+      },
+      {
+        "moveId": "wish"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "bide"
+      },
+      {
+        "moveId": "bite"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "confuseray"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "dragoncheer"
+      },
+      {
+        "moveId": "dragontail"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "faketears"
+      },
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "flamecharge"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "flashcannon"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "heatwave"
+      },
+      {
+        "moveId": "incinerate"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "nightslash"
+      },
+      {
+        "moveId": "phantomforce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "shadowsneak"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "slam"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "teleport"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "upperhand"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "willowisp"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "firepledge"
+      },
+      {
+        "moveId": "ominouswind"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:ferndred",
+      "targetSlug": "ferndred",
+      "summary": "Nivel · Nv. 37",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "flamble",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "rock",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/sleeblaze.png",
+    "placeholderColor": "#EE8130"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "timeRange": "night",
+      "sourceId": "cobblemon-afp"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_magical"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "timeRange": "night",
+      "sourceId": "cobblemon-afp"
+    }
+  ],
+  "sourceMods": [
+    "cobblemon-afp"
+  ],
+  "primarySource": "cobblemon-afp",
+  "provenance": {
+    "implemented": "cobblemon-afp",
+    "name": "cobblemon-afp",
+    "nationalPokedexNumber": "cobblemon-afp",
+    "primaryType": "cobblemon-afp",
+    "secondaryType": "cobblemon-afp",
+    "abilities": "cobblemon-afp",
+    "baseStats": "cobblemon-afp",
+    "behaviour": "cobblemon-afp",
+    "catchRate": "cobblemon-afp",
+    "maleRatio": "cobblemon-afp",
+    "shoulderMountable": "cobblemon-afp",
+    "baseExperienceYield": "cobblemon-afp",
+    "experienceGroup": "cobblemon-afp",
+    "eggCycles": "cobblemon-afp",
+    "eggGroups": "cobblemon-afp",
+    "moves": "cobblemon-afp",
+    "labels": "cobblemon-afp",
+    "pokedex": "cobblemon-afp",
+    "evolutions": "cobblemon-afp",
+    "drops": "cobblemon-afp",
+    "baseScale": "cobblemon-afp",
+    "hitbox": "cobblemon-afp",
+    "baseFriendship": "cobblemon-afp",
+    "evYield": "cobblemon-afp",
+    "height": "cobblemon-afp",
+    "weight": "cobblemon-afp",
+    "preEvolution": "cobblemon-afp"
+  }
+}

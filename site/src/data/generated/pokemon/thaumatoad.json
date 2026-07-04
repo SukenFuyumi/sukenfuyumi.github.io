@@ -1,0 +1,361 @@
+{
+  "id": "cobblemon:thaumatoad",
+  "namespace": "cobblemon",
+  "slug": "thaumatoad",
+  "name": "Thaumatoad",
+  "nationalPokedexNumber": 9081,
+  "primaryType": "fairy",
+  "secondaryType": "grass",
+  "types": [
+    "fairy",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 85,
+    "defence": 80,
+    "special_attack": 101,
+    "special_defence": 149,
+    "speed": 35
+  },
+  "baseStatTotal": 540,
+  "abilities": [
+    "thaumaturgy"
+  ],
+  "hiddenAbilities": [
+    "contrary"
+  ],
+  "eggGroups": [
+    "water_1",
+    "fairy"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 70,
+  "height": 3,
+  "weight": 25,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 60,
+  "labels": [
+    "myths"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "The swamp.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "forestscurse",
+        "level": 1
+      },
+      {
+        "moveId": "petaldance",
+        "level": 1
+      },
+      {
+        "moveId": "topsyturvy",
+        "level": 1
+      },
+      {
+        "moveId": "aromatherapy",
+        "level": 1
+      },
+      {
+        "moveId": "floralhealing",
+        "level": 4
+      },
+      {
+        "moveId": "scald",
+        "level": 4
+      },
+      {
+        "moveId": "trickroom",
+        "level": 6
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 8
+      },
+      {
+        "moveId": "bubblebeam",
+        "level": 12
+      },
+      {
+        "moveId": "mist",
+        "level": 16
+      },
+      {
+        "moveId": "drainingkiss",
+        "level": 20
+      },
+      {
+        "moveId": "magicalleaf",
+        "level": 24
+      },
+      {
+        "moveId": "moonblast",
+        "level": 28
+      },
+      {
+        "moveId": "leechseed",
+        "level": 32
+      },
+      {
+        "moveId": "calmmind",
+        "level": 36
+      },
+      {
+        "moveId": "bogomen",
+        "level": 40
+      },
+      {
+        "moveId": "strengthsap",
+        "level": 44
+      },
+      {
+        "moveId": "hex",
+        "level": 48
+      },
+      {
+        "moveId": "muddywater",
+        "level": 52
+      },
+      {
+        "moveId": "flowershield",
+        "level": 56
+      },
+      {
+        "moveId": "cosmicpower",
+        "level": 60
+      },
+      {
+        "moveId": "leafstorm",
+        "level": 63
+      },
+      {
+        "moveId": "curse",
+        "level": 67
+      },
+      {
+        "moveId": "magicpowder",
+        "level": 78
+      },
+      {
+        "moveId": "heartswap",
+        "level": 81
+      },
+      {
+        "moveId": "lashout",
+        "level": 90
+      },
+      {
+        "moveId": "punishment",
+        "level": 100
+      },
+      {
+        "moveId": "fleurcannon",
+        "level": 100
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "healpulse"
+      },
+      {
+        "moveId": "mistyterrain"
+      },
+      {
+        "moveId": "powder"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "grasswhistle"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "flipturn"
+      },
+      {
+        "moveId": "healbell"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "snore"
+      }
+    ],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "magipole",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "poison",
+        "multiplier": 4
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "water",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "dragon"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/thaumatoad.png",
+    "placeholderColor": "#D685AD"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "ultra-rare",
+      "level": "1-22",
+      "timeRange": null,
+      "sourceId": "fais-mythical-monstrosities"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "rare",
+      "level": "18-38",
+      "timeRange": null,
+      "sourceId": "fais-mythical-monstrosities"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_swamp"
+      ],
+      "bucket": "rare",
+      "level": "20-40",
+      "timeRange": "night",
+      "sourceId": "fais-mythical-monstrosities"
+    }
+  ],
+  "sourceMods": [
+    "fais-mythical-monstrosities"
+  ],
+  "primarySource": "fais-mythical-monstrosities",
+  "provenance": {
+    "implemented": "fais-mythical-monstrosities",
+    "nationalPokedexNumber": "fais-mythical-monstrosities",
+    "name": "fais-mythical-monstrosities",
+    "primaryType": "fais-mythical-monstrosities",
+    "secondaryType": "fais-mythical-monstrosities",
+    "maleRatio": "fais-mythical-monstrosities",
+    "height": "fais-mythical-monstrosities",
+    "weight": "fais-mythical-monstrosities",
+    "baseScale": "fais-mythical-monstrosities",
+    "hitbox": "fais-mythical-monstrosities",
+    "pokedex": "fais-mythical-monstrosities",
+    "labels": "fais-mythical-monstrosities",
+    "aspects": "fais-mythical-monstrosities",
+    "abilities": "fais-mythical-monstrosities",
+    "eggGroups": "fais-mythical-monstrosities",
+    "eggCycles": "fais-mythical-monstrosities",
+    "baseStats": "fais-mythical-monstrosities",
+    "evYield": "fais-mythical-monstrosities",
+    "baseExperienceYield": "fais-mythical-monstrosities",
+    "experienceGroup": "fais-mythical-monstrosities",
+    "catchRate": "fais-mythical-monstrosities",
+    "baseFriendship": "fais-mythical-monstrosities",
+    "shoulderMountable": "fais-mythical-monstrosities",
+    "behaviour": "fais-mythical-monstrosities",
+    "ai": "fais-mythical-monstrosities",
+    "drops": "fais-mythical-monstrosities",
+    "moves": "fais-mythical-monstrosities"
+  }
+}

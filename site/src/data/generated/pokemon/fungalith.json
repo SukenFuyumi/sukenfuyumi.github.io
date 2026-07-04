@@ -1,0 +1,575 @@
+{
+  "id": "cobblemon:fungalith",
+  "namespace": "cobblemon",
+  "slug": "fungalith",
+  "name": "Fungalith",
+  "nationalPokedexNumber": 69,
+  "primaryType": "ground",
+  "secondaryType": "grass",
+  "types": [
+    "ground",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 108,
+    "attack": 108,
+    "defence": 108,
+    "special_attack": 68,
+    "special_defence": 52,
+    "speed": 42
+  },
+  "baseStatTotal": 486,
+  "abilities": [
+    "sandspit",
+    "watercompaction"
+  ],
+  "hiddenAbilities": [
+    "gooey"
+  ],
+  "eggGroups": [
+    "amorphous",
+    "monster"
+  ],
+  "catchRate": 25,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 21,
+  "weight": 4600,
+  "maleRatio": 0.5,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 189,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "For most of a Fungalith's lifespan it lives entierly underground. A Fungalith only starts to surface when it reaches maturity and a mushroom grows on its head. Fungalith lure in their prey with the mushroom on their head, ambushing them from the sand.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "lick",
+        "level": 1
+      },
+      {
+        "moveId": "absorb",
+        "level": 1
+      },
+      {
+        "moveId": "ragepowder",
+        "level": 1
+      },
+      {
+        "moveId": "harden",
+        "level": 4
+      },
+      {
+        "moveId": "mudslap",
+        "level": 7
+      },
+      {
+        "moveId": "yawn",
+        "level": 10
+      },
+      {
+        "moveId": "sandtomb",
+        "level": 13
+      },
+      {
+        "moveId": "bulletseed",
+        "level": 16
+      },
+      {
+        "moveId": "leechseed",
+        "level": 18
+      },
+      {
+        "moveId": "bulldoze",
+        "level": 21
+      },
+      {
+        "moveId": "stockpile",
+        "level": 24
+      },
+      {
+        "moveId": "spitup",
+        "level": 24
+      },
+      {
+        "moveId": "swallow",
+        "level": 24
+      },
+      {
+        "moveId": "dig",
+        "level": 26
+      },
+      {
+        "moveId": "rototiller",
+        "level": 28
+      },
+      {
+        "moveId": "fungalinfection",
+        "level": 32
+      },
+      {
+        "moveId": "magnitude",
+        "level": 36
+      },
+      {
+        "moveId": "shoreup",
+        "level": 38
+      },
+      {
+        "moveId": "gigadrain",
+        "level": 40
+      },
+      {
+        "moveId": "amnesia",
+        "level": 43
+      },
+      {
+        "moveId": "doubleedge",
+        "level": 44
+      },
+      {
+        "moveId": "earthquake",
+        "level": 48
+      },
+      {
+        "moveId": "fissure",
+        "level": 52
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "flail"
+      },
+      {
+        "moveId": "growth"
+      },
+      {
+        "moveId": "ingrain"
+      },
+      {
+        "moveId": "poisonpowder"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "skullbash"
+      },
+      {
+        "moveId": "sleeppowder"
+      },
+      {
+        "moveId": "sludge"
+      },
+      {
+        "moveId": "snaptrap"
+      },
+      {
+        "moveId": "stunspore"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "alluringvoice"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "block"
+      },
+      {
+        "moveId": "bodypress"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "brickbreak"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "bulletseed"
+      },
+      {
+        "moveId": "charm"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "crunch"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "disarmingvoice"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "echoedvoice"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "encore"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "energyball"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "firefang"
+      },
+      {
+        "moveId": "firespin"
+      },
+      {
+        "moveId": "flamethrower"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "grassyglide"
+      },
+      {
+        "moveId": "grassyterrain"
+      },
+      {
+        "moveId": "gunkshot"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "heatcrash"
+      },
+      {
+        "moveId": "heavyslam"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "hypervoice"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "muddywater"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychicfangs"
+      },
+      {
+        "moveId": "quash"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "reversal"
+      },
+      {
+        "moveId": "rockblast"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "sandtomb"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "scald"
+      },
+      {
+        "moveId": "scaleshot"
+      },
+      {
+        "moveId": "scorchingsands"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "seedbomb"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "strength"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "surf"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "terrainpulse"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "uproar"
+      },
+      {
+        "moveId": "venomdrench"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "workup"
+      },
+      {
+        "moveId": "worryseed"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "flying",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "ground",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/fungalith.png",
+    "placeholderColor": "#E2BF65"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_sandy"
+      ],
+      "bucket": "rare",
+      "level": "22-47",
+      "timeRange": "night",
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_sandy"
+      ],
+      "bucket": "rare",
+      "level": "22-47",
+      "timeRange": "night",
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "minecraft:mushroom_fields"
+      ],
+      "bucket": "common",
+      "level": "22-47",
+      "timeRange": "night",
+      "sourceId": "lively-mons"
+    },
+    {
+      "biomes": [
+        "minecraft:mushroom_fields"
+      ],
+      "bucket": "common",
+      "level": "22-47",
+      "timeRange": "night",
+      "sourceId": "lively-mons"
+    }
+  ],
+  "sourceMods": [
+    "lively-mons"
+  ],
+  "primarySource": "lively-mons",
+  "provenance": {
+    "implemented": "lively-mons",
+    "name": "lively-mons",
+    "nationalPokedexNumber": "lively-mons",
+    "primaryType": "lively-mons",
+    "secondaryType": "lively-mons",
+    "labels": "lively-mons",
+    "abilities": "lively-mons",
+    "drops": "lively-mons",
+    "baseStats": "lively-mons",
+    "catchRate": "lively-mons",
+    "maleRatio": "lively-mons",
+    "shoulderMountable": "lively-mons",
+    "baseExperienceYield": "lively-mons",
+    "experienceGroup": "lively-mons",
+    "eggCycles": "lively-mons",
+    "eggGroups": "lively-mons",
+    "behaviour": "lively-mons",
+    "riding": "lively-mons",
+    "moves": "lively-mons",
+    "pokedex": "lively-mons",
+    "evolutions": "lively-mons",
+    "baseScale": "lively-mons",
+    "standingEyeHeight": "lively-mons",
+    "swimmingEyeHeight": "lively-mons",
+    "flyingEyeHeight": "lively-mons",
+    "hitbox": "lively-mons",
+    "baseFriendship": "lively-mons",
+    "evYield": "lively-mons",
+    "height": "lively-mons",
+    "weight": "lively-mons",
+    "aspects": "lively-mons",
+    "cannotDynamax": "lively-mons"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "id": "cobblemon:groundramon",
+  "namespace": "cobblemon",
+  "slug": "groundramon",
+  "name": "Groundramon",
+  "nationalPokedexNumber": 2056,
+  "primaryType": "ground",
+  "secondaryType": "dragon",
+  "types": [
+    "ground",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 93,
+    "attack": 110,
+    "defence": 100,
+    "special_attack": 77,
+    "special_defence": 85,
+    "speed": 60
+  },
+  "baseStatTotal": 525,
+  "abilities": [
+    "eartheater",
+    "sandstream"
+  ],
+  "hiddenAbilities": [
+    "armortail"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 10,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 1.91,
+  "weight": 120,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 240,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "An Earth Dragon Digimon that burrows through underground tunnels with mutated wing-like arms.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "metalclaw",
+        "level": 44
+      },
+      {
+        "moveId": "stompingtantrum",
+        "level": 47
+      },
+      {
+        "moveId": "roar",
+        "level": 50
+      },
+      {
+        "moveId": "dragonclaw",
+        "level": 54
+      },
+      {
+        "moveId": "stealthrock",
+        "level": 57
+      },
+      {
+        "moveId": "irontail",
+        "level": 61
+      },
+      {
+        "moveId": "irondefense",
+        "level": 66
+      },
+      {
+        "moveId": "bodypress",
+        "level": 70
+      },
+      {
+        "moveId": "earthquake",
+        "level": 75
+      },
+      {
+        "moveId": "zenheadbutt",
+        "level": 80
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "coredramongreen",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ice",
+        "multiplier": 4
+      },
+      {
+        "type": "dragon",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      },
+      {
+        "type": "rock",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "electric"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/groundramon.png",
+    "placeholderColor": "#E2BF65"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_cave"
+      ],
+      "bucket": "ultra-rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest",
+        "#cobblemon:is_thermal"
+      ],
+      "bucket": "ultra-rare",
+      "level": "43-80",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "drops": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

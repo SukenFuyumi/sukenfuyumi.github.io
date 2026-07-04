@@ -1,0 +1,232 @@
+{
+  "id": "cobblemon:yivpip",
+  "namespace": "cobblemon",
+  "slug": "yivpip",
+  "name": "Yivpip",
+  "nationalPokedexNumber": 6753,
+  "primaryType": "dark",
+  "secondaryType": null,
+  "types": [
+    "dark"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 75,
+    "defence": 55,
+    "special_attack": 75,
+    "special_defence": 55,
+    "speed": 57
+  },
+  "baseStatTotal": 389,
+  "abilities": [
+    "darkaura"
+  ],
+  "hiddenAbilities": [],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 3,
+  "eggCycles": 120,
+  "baseFriendship": 0,
+  "height": 35,
+  "weight": 9500,
+  "maleRatio": -1,
+  "experienceGroup": "slow",
+  "baseExperienceYield": 335,
+  "labels": [
+    "gen6",
+    "legendary",
+    "restricted"
+  ],
+  "aspects": [
+    "standard"
+  ],
+  "forms": [],
+  "pokedexDescription": null,
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "doubleteam",
+        "level": 1
+      },
+      {
+        "moveId": "gust",
+        "level": 1
+      },
+      {
+        "moveId": "taunt",
+        "level": 5
+      },
+      {
+        "moveId": "tackle",
+        "level": 8
+      },
+      {
+        "moveId": "swift",
+        "level": 12
+      },
+      {
+        "moveId": "thief",
+        "level": 16
+      },
+      {
+        "moveId": "shadowclaw",
+        "level": 20
+      },
+      {
+        "moveId": "acrobatics",
+        "level": 24
+      },
+      {
+        "moveId": "scaryface",
+        "level": 28
+      },
+      {
+        "moveId": "crunch",
+        "level": 32
+      },
+      {
+        "moveId": "uturn",
+        "level": 36
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 40
+      },
+      {
+        "moveId": "airslash",
+        "level": 44
+      },
+      {
+        "moveId": "rockslide",
+        "level": 48
+      },
+      {
+        "moveId": "phantomforce",
+        "level": 52
+      },
+      {
+        "moveId": "darkpulse",
+        "level": 56
+      },
+      {
+        "moveId": "roost",
+        "level": 60
+      },
+      {
+        "moveId": "dragonrush",
+        "level": 64
+      },
+      {
+        "moveId": "focusblast",
+        "level": 68
+      },
+      {
+        "moveId": "skyattack",
+        "level": 72
+      },
+      {
+        "moveId": "hyperbeam",
+        "level": 76
+      },
+      {
+        "moveId": "gigaimpact",
+        "level": 80
+      },
+      {
+        "moveId": "poltergeist",
+        "level": 100
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:yveltal",
+      "targetSlug": "yveltal",
+      "summary": "Usar dusk_stone · Nv. 60 · (consume objeto sostenido)",
+      "variant": "item_interact"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "fighting",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/yivpip.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_spooky"
+      ],
+      "bucket": "rare",
+      "level": "25-32",
+      "timeRange": null,
+      "sourceId": "baby-legends"
+    }
+  ],
+  "sourceMods": [
+    "baby-legends"
+  ],
+  "primarySource": "baby-legends",
+  "provenance": {
+    "nationalPokedexNumber": "baby-legends",
+    "name": "baby-legends",
+    "primaryType": "baby-legends",
+    "maleRatio": "baby-legends",
+    "height": "baby-legends",
+    "weight": "baby-legends",
+    "shoulderMountable": "baby-legends",
+    "pokedex": "baby-legends",
+    "labels": "baby-legends",
+    "aspects": "baby-legends",
+    "abilities": "baby-legends",
+    "eggGroups": "baby-legends",
+    "baseStats": "baby-legends",
+    "evYield": "baby-legends",
+    "behaviour": "baby-legends",
+    "baseExperienceYield": "baby-legends",
+    "experienceGroup": "baby-legends",
+    "catchRate": "baby-legends",
+    "eggCycles": "baby-legends",
+    "baseFriendship": "baby-legends",
+    "baseScale": "baby-legends",
+    "hitbox": "baby-legends",
+    "drops": "baby-legends",
+    "moves": "baby-legends",
+    "evolutions": "baby-legends"
+  }
+}

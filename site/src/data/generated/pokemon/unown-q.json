@@ -1,0 +1,133 @@
+{
+  "id": "cobblemon:unown#Q",
+  "namespace": "cobblemon",
+  "slug": "unown-q",
+  "name": "Unown Q",
+  "nationalPokedexNumber": 201,
+  "primaryType": "psychic",
+  "secondaryType": null,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 48,
+    "attack": 72,
+    "defence": 48,
+    "special_attack": 72,
+    "special_defence": 48,
+    "speed": 48
+  },
+  "baseStatTotal": 336,
+  "abilities": [
+    "levitate"
+  ],
+  "hiddenAbilities": [
+    "levitate"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 225,
+  "eggCycles": 40,
+  "baseFriendship": 50,
+  "height": 5,
+  "weight": 50,
+  "maleRatio": -1,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 118,
+  "labels": [
+    "gen2"
+  ],
+  "aspects": [
+    "character-q"
+  ],
+  "forms": [],
+  "battleOnly": false,
+  "pokedexDescription": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "hiddenpower",
+        "level": 1
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "psychic",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/unown-q.png",
+    "placeholderColor": "#F95587"
+  },
+  "spawnInfo": [],
+  "sourceMods": [
+    "cobblemon-core"
+  ],
+  "primarySource": "cobblemon-core",
+  "provenance": {
+    "implemented": "cobblemon-core",
+    "nationalPokedexNumber": "cobblemon-core",
+    "name": "cobblemon-core",
+    "primaryType": "cobblemon-core",
+    "maleRatio": "cobblemon-core",
+    "height": "cobblemon-core",
+    "weight": "cobblemon-core",
+    "pokedex": "cobblemon-core",
+    "labels": "cobblemon-core",
+    "aspects": "cobblemon-core",
+    "abilities": "cobblemon-core",
+    "eggGroups": "cobblemon-core",
+    "baseStats": "cobblemon-core",
+    "evYield": "cobblemon-core",
+    "baseExperienceYield": "cobblemon-core",
+    "experienceGroup": "cobblemon-core",
+    "catchRate": "cobblemon-core",
+    "eggCycles": "cobblemon-core",
+    "baseFriendship": "cobblemon-core",
+    "shoulderMountable": "cobblemon-core",
+    "baseScale": "cobblemon-core",
+    "hitbox": "cobblemon-core",
+    "behaviour": "cobblemon-core",
+    "drops": "cobblemon-core",
+    "moves": "cobblemon-core",
+    "evolutions": "cobblemon-core",
+    "forms": "cobblemon-core"
+  },
+  "formOf": {
+    "slug": "unown",
+    "name": "Unown"
+  },
+  "formName": "Q"
+}

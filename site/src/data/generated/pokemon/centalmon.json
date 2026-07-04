@@ -1,0 +1,174 @@
+{
+  "id": "cobblemon:centalmon",
+  "namespace": "cobblemon",
+  "slug": "centalmon",
+  "name": "Centalmon",
+  "nationalPokedexNumber": 2171,
+  "primaryType": "electric",
+  "secondaryType": "electric",
+  "types": [
+    "electric",
+    "electric"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 90,
+    "special_attack": 70,
+    "special_defence": 45,
+    "speed": 95
+  },
+  "baseStatTotal": 410,
+  "abilities": [
+    "limber",
+    "battlearmor"
+  ],
+  "hiddenAbilities": [
+    "motordrive"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 50,
+  "eggCycles": 30,
+  "baseFriendship": 50,
+  "height": 2.13,
+  "weight": 122,
+  "maleRatio": -1,
+  "experienceGroup": "medium_slow",
+  "baseExperienceYield": 120,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "A centaurian sentinel clad in plates.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "charge",
+        "level": 25
+      },
+      {
+        "moveId": "electroball",
+        "level": 27
+      },
+      {
+        "moveId": "magnetrise",
+        "level": 29
+      },
+      {
+        "moveId": "stomp",
+        "level": 31
+      },
+      {
+        "moveId": "spark",
+        "level": 33
+      },
+      {
+        "moveId": "eerieimpulse",
+        "level": 35
+      },
+      {
+        "moveId": "shockwave",
+        "level": 37
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 39
+      },
+      {
+        "moveId": "chargebeam",
+        "level": 41
+      },
+      {
+        "moveId": "agility",
+        "level": 42
+      }
+    ],
+    "egg": [],
+    "tm": [],
+    "tutor": [],
+    "legacy": [],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:sagittarimon",
+      "targetSlug": "sagittarimon",
+      "summary": "Nivel · Nv. 43 · Sosteniendo: fire_gem",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": "patamon",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 4
+      }
+    ],
+    "resists": [
+      {
+        "type": "electric",
+        "multiplier": 0.25
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.25
+      },
+      {
+        "type": "steel",
+        "multiplier": 0.25
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/centalmon.png",
+    "placeholderColor": "#F7D02C"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_plains"
+      ],
+      "bucket": "uncommon",
+      "level": "24-65",
+      "timeRange": null,
+      "sourceId": "digimod"
+    }
+  ],
+  "sourceMods": [
+    "digimod"
+  ],
+  "primarySource": "digimod",
+  "provenance": {
+    "implemented": "digimod",
+    "name": "digimod",
+    "nationalPokedexNumber": "digimod",
+    "primaryType": "digimod",
+    "abilities": "digimod",
+    "baseStats": "digimod",
+    "behaviour": "digimod",
+    "catchRate": "digimod",
+    "maleRatio": "digimod",
+    "shoulderMountable": "digimod",
+    "baseExperienceYield": "digimod",
+    "experienceGroup": "digimod",
+    "eggCycles": "digimod",
+    "eggGroups": "digimod",
+    "moves": "digimod",
+    "labels": "digimod",
+    "pokedex": "digimod",
+    "baseScale": "digimod",
+    "hitbox": "digimod",
+    "baseFriendship": "digimod",
+    "evYield": "digimod",
+    "height": "digimod",
+    "weight": "digimod",
+    "evolutions": "digimod",
+    "secondaryType": "digimod"
+  }
+}

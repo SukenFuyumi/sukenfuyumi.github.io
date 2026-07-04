@@ -1,0 +1,657 @@
+{
+  "id": "cobblemon:bloodsplitter",
+  "namespace": "cobblemon",
+  "slug": "bloodsplitter",
+  "name": "Bloodsplitter",
+  "nationalPokedexNumber": 9020,
+  "primaryType": "dark",
+  "secondaryType": "poison",
+  "types": [
+    "dark",
+    "poison"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 115,
+    "defence": 115,
+    "special_attack": 20,
+    "special_defence": 90,
+    "speed": 45
+  },
+  "baseStatTotal": 480,
+  "abilities": [
+    "facecollector"
+  ],
+  "hiddenAbilities": [
+    "strongjaw"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "catchRate": 20,
+  "eggCycles": 30,
+  "baseFriendship": 0,
+  "height": 70,
+  "weight": 60,
+  "maleRatio": -1,
+  "experienceGroup": "erratic",
+  "baseExperienceYield": 300,
+  "labels": [
+    "myths",
+    "bloodmoon"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "The bloodmoon has changed Ariados into something sinister.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "leechlife",
+        "level": 1
+      },
+      {
+        "moveId": "bloodmoon",
+        "level": 1
+      },
+      {
+        "moveId": "strengthsap",
+        "level": 1
+      },
+      {
+        "moveId": "bite",
+        "level": 1
+      },
+      {
+        "moveId": "poisonsting",
+        "level": 1
+      },
+      {
+        "moveId": "stringshot",
+        "level": 1
+      },
+      {
+        "moveId": "constrict",
+        "level": 1
+      },
+      {
+        "moveId": "spiderweb",
+        "level": 1
+      },
+      {
+        "moveId": "venomdrench",
+        "level": 1
+      },
+      {
+        "moveId": "swordsdance",
+        "level": 1
+      },
+      {
+        "moveId": "focusenergy",
+        "level": 1
+      },
+      {
+        "moveId": "absorb",
+        "level": 1
+      },
+      {
+        "moveId": "bugbite",
+        "level": 4
+      },
+      {
+        "moveId": "furycutter",
+        "level": 4
+      },
+      {
+        "moveId": "spite",
+        "level": 8
+      },
+      {
+        "moveId": "crunch",
+        "level": 8
+      },
+      {
+        "moveId": "hyperfang",
+        "level": 8
+      },
+      {
+        "moveId": "infestation",
+        "level": 8
+      },
+      {
+        "moveId": "nightshade",
+        "level": 12
+      },
+      {
+        "moveId": "scaryface",
+        "level": 12
+      },
+      {
+        "moveId": "suckerpunch",
+        "level": 16
+      },
+      {
+        "moveId": "poisonfang",
+        "level": 20
+      },
+      {
+        "moveId": "furyswipes",
+        "level": 23
+      },
+      {
+        "moveId": "poisonjab",
+        "level": 24
+      },
+      {
+        "moveId": "shadowsneak",
+        "level": 28
+      },
+      {
+        "moveId": "agility",
+        "level": 31
+      },
+      {
+        "moveId": "throatchop",
+        "level": 32
+      },
+      {
+        "moveId": "pinmissile",
+        "level": 35
+      },
+      {
+        "moveId": "taunt",
+        "level": 36
+      },
+      {
+        "moveId": "lashout",
+        "level": 40
+      },
+      {
+        "moveId": "psychic",
+        "level": 41
+      },
+      {
+        "moveId": "skittersmack",
+        "level": 44
+      },
+      {
+        "moveId": "feintattack",
+        "level": 48
+      },
+      {
+        "moveId": "crosspoison",
+        "level": 52
+      },
+      {
+        "moveId": "stickyweb",
+        "level": 54
+      },
+      {
+        "moveId": "phantomforce",
+        "level": 56
+      },
+      {
+        "moveId": "toxicthread",
+        "level": 59
+      },
+      {
+        "moveId": "guillotine",
+        "level": 60
+      },
+      {
+        "moveId": "fellstinger",
+        "level": 70
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "disable"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "megahorn"
+      },
+      {
+        "moveId": "nightslash"
+      },
+      {
+        "moveId": "pursuit"
+      },
+      {
+        "moveId": "ragepowder"
+      },
+      {
+        "moveId": "sonicboom"
+      },
+      {
+        "moveId": "twineedle"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "agility"
+      },
+      {
+        "moveId": "assurance"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "bugbuzz"
+      },
+      {
+        "moveId": "crosspoison"
+      },
+      {
+        "moveId": "cut"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dig"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hex"
+      },
+      {
+        "moveId": "honeclaws"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "infestation"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "lunge"
+      },
+      {
+        "moveId": "megahorn"
+      },
+      {
+        "moveId": "nightshade"
+      },
+      {
+        "moveId": "pinmissile"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "pounce"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "scaryface"
+      },
+      {
+        "moveId": "screech"
+      },
+      {
+        "moveId": "shadowclaw"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "smartstrike"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "solarbeam"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "strugglebug"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "swordsdance"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "thief"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "toxicspikes"
+      },
+      {
+        "moveId": "trailblaze"
+      },
+      {
+        "moveId": "venomdrench"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "beatup"
+      },
+      {
+        "moveId": "bounce"
+      },
+      {
+        "moveId": "bugbite"
+      },
+      {
+        "moveId": "electroweb"
+      },
+      {
+        "moveId": "focusenergy"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "gigadrain"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "lashout"
+      },
+      {
+        "moveId": "leechlife"
+      },
+      {
+        "moveId": "megahorn"
+      },
+      {
+        "moveId": "poisonjab"
+      },
+      {
+        "moveId": "poltergeist"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicfangs"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skittersmack"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "spite"
+      },
+      {
+        "moveId": "stringshot"
+      },
+      {
+        "moveId": "suckerpunch"
+      },
+      {
+        "moveId": "superpower"
+      },
+      {
+        "moveId": "throatchop"
+      },
+      {
+        "moveId": "xscissor"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "curse"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "psybeam"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "swagger"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "refresh"
+      }
+    ]
+  },
+  "evolutions": [],
+  "evolvesFrom": "ariados",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/bloodsplitter.png",
+    "placeholderColor": "#705746"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "minecraft:dark_forest",
+        "#cobblemon:is_dark_forest"
+      ],
+      "bucket": "rare",
+      "level": "30-60",
+      "timeRange": "night",
+      "sourceId": "fais-mythical-monstrosities"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_forest"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-68",
+      "timeRange": "night",
+      "sourceId": "fais-mythical-monstrosities"
+    }
+  ],
+  "sourceMods": [
+    "fais-mythical-monstrosities"
+  ],
+  "primarySource": "fais-mythical-monstrosities",
+  "provenance": {
+    "implemented": "fais-mythical-monstrosities",
+    "nationalPokedexNumber": "fais-mythical-monstrosities",
+    "name": "fais-mythical-monstrosities",
+    "primaryType": "fais-mythical-monstrosities",
+    "secondaryType": "fais-mythical-monstrosities",
+    "maleRatio": "fais-mythical-monstrosities",
+    "height": "fais-mythical-monstrosities",
+    "weight": "fais-mythical-monstrosities",
+    "baseScale": "fais-mythical-monstrosities",
+    "hitbox": "fais-mythical-monstrosities",
+    "pokedex": "fais-mythical-monstrosities",
+    "labels": "fais-mythical-monstrosities",
+    "aspects": "fais-mythical-monstrosities",
+    "abilities": "fais-mythical-monstrosities",
+    "eggGroups": "fais-mythical-monstrosities",
+    "eggCycles": "fais-mythical-monstrosities",
+    "baseStats": "fais-mythical-monstrosities",
+    "evYield": "fais-mythical-monstrosities",
+    "baseExperienceYield": "fais-mythical-monstrosities",
+    "experienceGroup": "fais-mythical-monstrosities",
+    "catchRate": "fais-mythical-monstrosities",
+    "baseFriendship": "fais-mythical-monstrosities",
+    "shoulderMountable": "fais-mythical-monstrosities",
+    "behaviour": "fais-mythical-monstrosities",
+    "ai": "fais-mythical-monstrosities",
+    "drops": "fais-mythical-monstrosities",
+    "moves": "fais-mythical-monstrosities"
+  }
+}
