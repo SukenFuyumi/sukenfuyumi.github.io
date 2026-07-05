@@ -21,6 +21,10 @@ export interface IngestResult {
   abilityOverrides: RawRecord[];
   spawnPools: RawRecord[];
   lang: Map<string, { value: string; sourceId: string; priority: number }>;
+  // The vanilla cobblemon-core lang value for a key, kept aside even after a
+  // mod overrides it in `lang` above - lets callers show a before/after diff
+  // for move/ability flavor text (see computeBalanceChanges in index.ts).
+  langCore: Map<string, string>;
   showdownBase: ShowdownBaseData;
   textures: TextureEntry[];
   models: ModelFileEntry[];
@@ -46,6 +50,7 @@ export function ingestAll(manifest: SourcesManifest, sourceRoot: string): Ingest
   const abilityOverrides: RawRecord[] = [];
   const spawnPools: RawRecord[] = [];
   const lang = new Map<string, { value: string; sourceId: string; priority: number }>();
+  const langCore = new Map<string, string>();
   const textures: TextureEntry[] = [];
   const models: ModelFileEntry[] = [];
   const posers: ModelFileEntry[] = [];
@@ -132,6 +137,7 @@ export function ingestAll(manifest: SourcesManifest, sourceRoot: string): Ingest
         const obj = JSON.parse(sanitized);
         for (const [key, value] of Object.entries(obj)) {
           if (typeof value !== "string") continue;
+          if (source.id === "cobblemon-core") langCore.set(key, value);
           const existing = lang.get(key);
           if (!existing || source.priority >= existing.priority) {
             lang.set(key, { value, sourceId: source.id, priority: source.priority });
@@ -147,5 +153,5 @@ export function ingestAll(manifest: SourcesManifest, sourceRoot: string): Ingest
     }
   }
 
-  return { species, speciesAdditions, moveOverrides, abilityOverrides, spawnPools, lang, showdownBase, textures, models, posers, animations, warnings };
+  return { species, speciesAdditions, moveOverrides, abilityOverrides, spawnPools, lang, langCore, showdownBase, textures, models, posers, animations, warnings };
 }

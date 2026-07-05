@@ -5,11 +5,22 @@ interface Props {
   moveId: string;
 }
 const { level, move, moveId } = Astro.props;
+const changesSummary = move?.balanceChanges?.length
+  ? "Cambios de balanceo:\n" +
+    move.balanceChanges
+      .map((c: any) => `${c.label}: ${c.field === "desc" ? `"${c.before}" → "${c.after}"` : `${c.before} → ${c.after}`}`)
+      .join("\n")
+  : undefined;
 ---
 <tr>
   {level !== undefined && <td>{level}</td>}
   <td>
-    <a href={`/moves/${moveId}`} class="move-name" data-move-desc={move?.desc || move?.shortDesc || undefined}>
+    <a
+      href={`/moves/${moveId}`}
+      class="move-name"
+      data-move-desc={move?.desc || move?.shortDesc || undefined}
+      data-move-changes={changesSummary}
+    >
       {move?.name ?? moveId}
     </a>
   </td>

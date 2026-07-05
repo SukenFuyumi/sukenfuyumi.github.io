@@ -18,10 +18,19 @@ interface SourceInfo {
   label: string;
 }
 
+interface SearchIndexEntry {
+  moves: string[];
+  abilities: string[];
+  hiddenAbilities: string[];
+}
+
 type SortKey = "num" | "name" | "bst";
 
 export default function PokedexTable({ sources }: { sources: SourceInfo[] }) {
   const [pokemon, setPokemon] = useState<MonListing[]>([]);
+  const [searchIndex, setSearchIndex] = useState<Record<string, SearchIndexEntry>>({});
+  const [moveNames, setMoveNames] = useState<Map<string, string>>(new Map());
+  const [abilityNames, setAbilityNames] = useState<Map<string, string>>(new Map());
   const [query, setQuery] = useState("");
   const [typeFilter, setTypeFilter] = useState("");
   const [sourceFilter, setSourceFilter] = useState("");
@@ -38,6 +47,23 @@ export default function PokedexTable({ sources }: { sources: SourceInfo[] }) {
       .catch(() => {});
   }, []);
 
+  // Lets the search box also match a move/ability name (e.g. "Levitate" or
+  // "Thunderbolt") and filter down to whoever learns/has it. Indexed per
+  // species (moves a species knows) rather than per move (species that know
+  // a move) - a single common move can have thousands of learners, but any
+  // one species only knows ~80 moves, so this stays a small fetch.
+  useEffect(() => {
+    fetch("/pokedex-search-index.json").then((r) => r.json()).then(setSearchIndex).catch(() => {});
+    fetch("/moves-index.json")
+      .then((r) => r.json())
+      .then((moves: { id: string; name: string }[]) => setMoveNames(new Map(moves.map((m) => [m.id, m.name.toLowerCase()]))))
+      .catch(() => {});
+    fetch("/abilities-index.json")
+      .then((r) => r.json())
+      .then((abilities: { id: string; name: string }[]) => setAbilityNames(new Map(abilities.map((a) => [a.id, a.name.toLowerCase()]))))
+      .catch(() => {});
+  }, []);
+
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const q = params.get("q");
@@ -49,10 +75,34 @@ export default function PokedexTable({ sources }: { sources: SourceInfo[] }) {
     return (id: string) => map.get(id) ?? id;
   }, [sources]);
 
+  const matchingMoveIds = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return null;
+    const ids = new Set<string>();
+    for (const [id, name] of moveNames) if (name.includes(q)) ids.add(id);
+    return ids;
+  }, [query, moveNames]);
+  const matchingAbilityIds = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return null;
+    const ids = new Set<string>();
+    for (const [id, name] of abilityNames) if (name.includes(q)) ids.add(id);
+    return ids;
+  }, [query, abilityNames]);
+
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     let rows = pokemon.filter((p) => {
-      if (q && !p.name.toLowerCase().includes(q)) return false;
+      if (!q) return true;
+      if (p.name.toLowerCase().includes(q)) return true;
+      const entry = searchIndex[p.slug];
+      if (entry) {
+        if (matchingMoveIds?.size && entry.moves.some((m) => matchingMoveIds.has(m))) return true;
+        if (matchingAbilityIds?.size && [...entry.abilities, ...entry.hiddenAbilities].some((a) => matchingAbilityIds.has(a))) return true;
+      }
+      return false;
+    });
+    rows = rows.filter((p) => {
       if (typeFilter && !p.types.includes(typeFilter)) return false;
       if (sourceFilter && p.primarySource !== sourceFilter) return false;
       return true;
@@ -65,7 +115,7 @@ export default function PokedexTable({ sources }: { sources: SourceInfo[] }) {
       return cmp * sortDir;
     });
     return rows;
-  }, [pokemon, query, typeFilter, sourceFilter, sortKey, sortDir]);
+  }, [pokemon, query, typeFilter, sourceFilter, sortKey, sortDir, searchIndex, matchingMoveIds, matchingAbilityIds]);
 
   const toggleSort = (key: SortKey) => {
     if (sortKey === key) setSortDir((d) => (d === 1 ? -1 : 1));
@@ -84,7 +134,7 @@ export default function PokedexTable({ sources }: { sources: SourceInfo[] }) {
           class="search-box"
           style={{ flex: "1 1 240px" }}
           type="search"
-          placeholder="Buscar por nombre..."
+          placeholder="Buscar por nombre, movimiento o habilidad..."
           value={query}
           onInput={(e) => setQuery((e.target as HTMLInputElement).value)}
         />

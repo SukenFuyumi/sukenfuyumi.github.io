@@ -19,6 +19,10 @@ export interface DisabledEntry {
 
 export interface SourcesManifest {
   sourceRoot: string;
+  // Absolute path to the folder produced by /cobbledex sprites export in-game
+  // (see cobbleDexSprites.ts) - optional since it's a machine-local path, not
+  // something every checkout of this repo will have populated.
+  spriteExportDir?: string;
   sources: SourceEntry[];
   disabled: DisabledEntry[];
   cosmeticOnly: string[];
@@ -73,6 +77,16 @@ export interface MergedSpecies {
   provenance: FieldProvenance;
 }
 
+// A single before/after diff against the vanilla Cobblemon value for one
+// field, only recorded when a mod override actually changed something a
+// player would notice (see computeBalanceChanges in index.ts).
+export interface BalanceChange {
+  field: string;
+  label: string;
+  before: string | number | boolean;
+  after: string | number | boolean;
+}
+
 export interface MoveRecord {
   id: string;
   name: string;
@@ -88,6 +102,7 @@ export interface MoveRecord {
   desc: string | null;
   sourceId: string;
   isOverride: boolean;
+  balanceChanges?: BalanceChange[];
 }
 
 export interface AbilityRecord {
@@ -99,4 +114,5 @@ export interface AbilityRecord {
   rating: number | null;
   sourceId: string;
   isOverride: boolean;
+  balanceChanges?: BalanceChange[];
 }

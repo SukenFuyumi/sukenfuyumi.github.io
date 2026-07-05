@@ -194,7 +194,7 @@ tr:hover td { background: #f8fafc; }
   color: #fff; font-weight: 800; font-size: 2.6rem;
 }
 
-.move-name[data-move-desc] { cursor: help; text-decoration-style: dotted; }
+.move-name[data-move-desc], .move-name[data-move-changes] { cursor: help; text-decoration-style: dotted; }
 .move-tooltip {
   position: fixed;
   z-index: 100;
@@ -210,6 +210,7 @@ tr:hover td { background: #f8fafc; }
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.1s ease;
+  white-space: pre-line;
 }
 .move-tooltip.visible { opacity: 1; visibility: visible; }
 

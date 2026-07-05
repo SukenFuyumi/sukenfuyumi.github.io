@@ -1,13 +1,22 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import MonImage from "../../components/MonImage.astro";
 import abilities from "../../data/generated/abilities.json";
 import sourcesData from "../../data/generated/sources.json";
+import pokedexListing from "../../data/generated/index.json";
 
 export async function getStaticPaths() {
   return abilities.map((a: any) => ({ params: { id: a.id }, props: { a } }));
 }
 const { a } = Astro.props as { a: any };
 const sourceLookup = new Map(sourcesData.sources.map((s: any) => [s.id, s.label]));
+// grantedTo only carries {slug, hidden} (see index.ts) to keep abilities.json
+// small - joined here against the species listing for name/types/image/etc.
+const speciesLookup = new Map(pokedexListing.map((p: any) => [p.slug, p]));
+const grantedToSorted = (a.grantedTo ?? [])
+  .map((g: any) => ({ ...speciesLookup.get(g.slug), ...g }))
+  .filter((g: any) => g.name)
+  .sort((x: any, y: any) => (x.nationalPokedexNumber ?? 99999) - (y.nationalPokedexNumber ?? 99999));
 ---
 <Layout title={a.name}>
   <div class="breadcrumb"><a href="/abilities">Habilidades</a> &rsaquo; {a.name}</div>
@@ -28,14 +37,56 @@ const sourceLookup = new Map(sourcesData.sources.map((s: any) => [s.id, s.label]
     )}
   </div>
 
-  {a.grantedTo?.length > 0 && (
+  {a.balanceChanges?.length > 0 && (
     <div class="panel" style="margin-top:1.25rem;">
-      <h2 style="margin-top:0;">Quién la tiene ({a.grantedTo.length})</h2>
-      <div style="display:flex; flex-wrap:wrap; gap:0.4rem;">
-        {a.grantedTo.map((g: any) => (
-          <a class="pill" href={`/pokedex/${g.slug}`}>{g.name}{g.hidden ? " (oculta)" : ""}</a>
+      <h2 style="margin-top:0;">Cambios de balanceo</h2>
+      <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:0.6rem;">
+        {a.balanceChanges.map((c: any) => (
+          <li>
+            <strong>{c.label}:</strong>
+            {c.field === "desc" ? (
+              <div style="margin-top:0.2rem;">
+                <div style="color:var(--text-muted); text-decoration:line-through;">{c.before}</div>
+                <div>{c.after}</div>
+              </div>
+            ) : (
+              <>
+                {" "}
+                <span style="color:var(--text-muted); text-decoration:line-through;">{String(c.before)}</span>
+                {" → "}
+                <span>{String(c.after)}</span>
+              </>
+            )}
+          </li>
         ))}
-      </div>
+      </ul>
+    </div>
+  )}
+
+  {grantedToSorted.length > 0 && (
+    <div class="panel" style="margin-top:1.25rem;">
+      <h2 style="margin-top:0;">Quién la tiene ({grantedToSorted.length})</h2>
+      <table>
+        <thead>
+          <tr><th>#</th><th></th><th>Nombre</th><th>Tipo</th><th></th><th>Origen</th></tr>
+        </thead>
+        <tbody>
+          {grantedToSorted.map((g: any) => (
+            <tr>
+              <td>{g.nationalPokedexNumber ?? "—"}</td>
+              <td><MonImage image={g.image} name={g.name} size={32} /></td>
+              <td><a href={`/pokedex/${g.slug}`}>{g.name}</a></td>
+              <td>
+                {g.types.map((t: string) => (
+                  <a href={`/type/${t}`} class="type-badge" style={`background:var(--type-${t}); margin-right:0.25rem;`}>{t}</a>
+                ))}
+              </td>
+              <td>{g.hidden && <span class="pill">oculta</span>}</td>
+              <td><span class="pill">{sourceLookup.get(g.primarySource) ?? g.primarySource}</span></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   )}
 </Layout>

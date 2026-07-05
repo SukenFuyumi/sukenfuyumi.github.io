@@ -37,8 +37,17 @@ function loadState(): { query: string; typeFilters: string[]; scrollTop: number 
 
 const MAX_TYPE_FILTERS = 2;
 
+interface SearchIndexEntry {
+  moves: string[];
+  abilities: string[];
+  hiddenAbilities: string[];
+}
+
 export default function PokedexSidebar({ currentSlug }: { currentSlug?: string }) {
   const [pokemon, setPokemon] = useState<MonListing[]>([]);
+  const [searchIndex, setSearchIndex] = useState<Record<string, SearchIndexEntry>>({});
+  const [moveNames, setMoveNames] = useState<Map<string, string>>(new Map());
+  const [abilityNames, setAbilityNames] = useState<Map<string, string>>(new Map());
   const initial = useRef(loadState());
   const [query, setQuery] = useState(initial.current.query);
   const [typeFilters, setTypeFilters] = useState<string[]>(initial.current.typeFilters);
@@ -62,6 +71,21 @@ export default function PokedexSidebar({ currentSlug }: { currentSlug?: string }
       .catch(() => {});
   }, []);
 
+  // Lets the sidebar search also match a move/ability name - see the matching
+  // fetches/comment in PokedexTable.tsx for why this is indexed per-species
+  // rather than per-move/ability.
+  useEffect(() => {
+    fetch("/pokedex-search-index.json").then((r) => r.json()).then(setSearchIndex).catch(() => {});
+    fetch("/moves-index.json")
+      .then((r) => r.json())
+      .then((moves: { id: string; name: string }[]) => setMoveNames(new Map(moves.map((m) => [m.id, m.name.toLowerCase()]))))
+      .catch(() => {});
+    fetch("/abilities-index.json")
+      .then((r) => r.json())
+      .then((abilities: { id: string; name: string }[]) => setAbilityNames(new Map(abilities.map((a) => [a.id, a.name.toLowerCase()]))))
+      .catch(() => {});
+  }, []);
+
   // Restore scroll position once the list has actually rendered.
   useEffect(() => {
     if (pokemon.length > 0 && listRef.current) {
@@ -77,14 +101,39 @@ export default function PokedexSidebar({ currentSlug }: { currentSlug?: string }
     sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ query, typeFilters, scrollTop: listRef.current?.scrollTop ?? 0 }));
   }
 
+  const matchingMoveIds = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return null;
+    const ids = new Set<string>();
+    for (const [id, name] of moveNames) if (name.includes(q)) ids.add(id);
+    return ids;
+  }, [query, moveNames]);
+  const matchingAbilityIds = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return null;
+    const ids = new Set<string>();
+    for (const [id, name] of abilityNames) if (name.includes(q)) ids.add(id);
+    return ids;
+  }, [query, abilityNames]);
+
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return pokemon.filter((p) => {
-      if (q && !p.name.toLowerCase().includes(q)) return false;
+      if (q) {
+        let matches = p.name.toLowerCase().includes(q);
+        if (!matches) {
+          const entry = searchIndex[p.slug];
+          if (entry) {
+            if (matchingMoveIds?.size && entry.moves.some((m) => matchingMoveIds.has(m))) matches = true;
+            else if (matchingAbilityIds?.size && [...entry.abilities, ...entry.hiddenAbilities].some((a) => matchingAbilityIds.has(a))) matches = true;
+          }
+        }
+        if (!matches) return false;
+      }
       if (typeFilters.length > 0 && !typeFilters.every((t) => p.types.includes(t))) return false;
       return true;
     });
-  }, [pokemon, query, typeFilters]);
+  }, [pokemon, query, typeFilters, searchIndex, matchingMoveIds, matchingAbilityIds]);
 
   return (
     <div class="pdx-sidebar">

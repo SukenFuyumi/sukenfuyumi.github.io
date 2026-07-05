@@ -315,9 +315,11 @@ const siblingForms = baseRecord ? baseRecord.forms.filter((f: any) => f.slug && 
   }
 
   document.addEventListener("mouseover", (e) => {
-    const target = (e.target as HTMLElement).closest<HTMLElement>(".move-name[data-move-desc]");
+    const target = (e.target as HTMLElement).closest<HTMLElement>(".move-name[data-move-desc], .move-name[data-move-changes]");
     if (!target) return;
-    moveTooltip.textContent = target.dataset.moveDesc ?? "";
+    const parts = [target.dataset.moveDesc ?? ""];
+    if (target.dataset.moveChanges) parts.push("", target.dataset.moveChanges);
+    moveTooltip.textContent = parts.join("\n").trim();
     moveTooltip.classList.add("visible");
     positionMoveTooltip(e);
   });
@@ -325,7 +327,7 @@ const siblingForms = baseRecord ? baseRecord.forms.filter((f: any) => f.slug && 
     if (moveTooltip.classList.contains("visible")) positionMoveTooltip(e);
   });
   document.addEventListener("mouseout", (e) => {
-    if ((e.target as HTMLElement).closest<HTMLElement>(".move-name[data-move-desc]")) {
+    if ((e.target as HTMLElement).closest<HTMLElement>(".move-name[data-move-desc], .move-name[data-move-changes]")) {
       moveTooltip.classList.remove("visible");
     }
   });

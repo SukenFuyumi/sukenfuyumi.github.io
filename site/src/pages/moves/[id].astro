@@ -1,18 +1,31 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import MonImage from "../../components/MonImage.astro";
 import moves from "../../data/generated/moves.json";
 import sourcesData from "../../data/generated/sources.json";
+import pokedexListing from "../../data/generated/index.json";
 
 export async function getStaticPaths() {
   return moves.map((m: any) => ({ params: { id: m.id }, props: { m } }));
 }
 const { m } = Astro.props as { m: any };
 const sourceLookup = new Map(sourcesData.sources.map((s: any) => [s.id, s.label]));
+// learnedBy only carries {slug, category} (see index.ts) to keep moves.json
+// small - joined here, at render time, against the already-deduplicated
+// species listing to get name/types/image/etc for the table below.
+const speciesLookup = new Map(pokedexListing.map((p: any) => [p.slug, p]));
 const flagLabels: Record<string, string> = {
   contact: "Contacto", protect: "Protegible", mirror: "Copiable con Espejo", sound: "Sonido",
   punch: "Puñetazo", bite: "Mordisco", bullet: "Bala", powder: "Polvo", heal: "Cura",
   snatch: "Robable", reflectable: "Reflejable", authentic: "Ignora sustituto",
 };
+const categoryLabels: Record<string, string> = {
+  levelUp: "Nivel", egg: "Huevo", tm: "MT", tutor: "Tutor", legacy: "Legado", other: "Otro",
+};
+const learnedBySorted = (m.learnedBy ?? [])
+  .map((l: any) => ({ ...speciesLookup.get(l.slug), ...l }))
+  .filter((l: any) => l.name)
+  .sort((a: any, b: any) => (a.nationalPokedexNumber ?? 99999) - (b.nationalPokedexNumber ?? 99999));
 ---
 <Layout title={m.name}>
   <div class="breadcrumb"><a href="/moves">Movimientos</a> &rsaquo; {m.name}</div>
@@ -37,14 +50,56 @@ const flagLabels: Record<string, string> = {
     )}
   </div>
 
-  {m.learnedBy?.length > 0 && (
+  {m.balanceChanges?.length > 0 && (
     <div class="panel" style="margin-top:1.25rem;">
-      <h2 style="margin-top:0;">Quién lo aprende ({m.learnedBy.length})</h2>
-      <div style="display:flex; flex-wrap:wrap; gap:0.4rem;">
-        {m.learnedBy.map((l: any) => (
-          <a class="pill" href={`/pokedex/${l.slug}`}>{l.name}</a>
+      <h2 style="margin-top:0;">Cambios de balanceo</h2>
+      <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:0.6rem;">
+        {m.balanceChanges.map((c: any) => (
+          <li>
+            <strong>{c.label}:</strong>
+            {c.field === "desc" ? (
+              <div style="margin-top:0.2rem;">
+                <div style="color:var(--text-muted); text-decoration:line-through;">{c.before}</div>
+                <div>{c.after}</div>
+              </div>
+            ) : (
+              <>
+                {" "}
+                <span style="color:var(--text-muted); text-decoration:line-through;">{String(c.before)}</span>
+                {" → "}
+                <span>{String(c.after)}</span>
+              </>
+            )}
+          </li>
         ))}
-      </div>
+      </ul>
+    </div>
+  )}
+
+  {learnedBySorted.length > 0 && (
+    <div class="panel" style="margin-top:1.25rem;">
+      <h2 style="margin-top:0;">Quién lo aprende ({learnedBySorted.length})</h2>
+      <table>
+        <thead>
+          <tr><th>#</th><th></th><th>Nombre</th><th>Tipo</th><th>Vía</th><th>Origen</th></tr>
+        </thead>
+        <tbody>
+          {learnedBySorted.map((l: any) => (
+            <tr>
+              <td>{l.nationalPokedexNumber ?? "—"}</td>
+              <td><MonImage image={l.image} name={l.name} size={32} /></td>
+              <td><a href={`/pokedex/${l.slug}`}>{l.name}</a></td>
+              <td>
+                {l.types.map((t: string) => (
+                  <a href={`/type/${t}`} class="type-badge" style={`background:var(--type-${t}); margin-right:0.25rem;`}>{t}</a>
+                ))}
+              </td>
+              <td>{categoryLabels[l.category] ?? l.category}</td>
+              <td><span class="pill">{sourceLookup.get(l.primarySource) ?? l.primarySource}</span></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   )}
 </Layout>

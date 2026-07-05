@@ -8,6 +8,7 @@ import { officialArtworkUrl, placeholderImage, type SpeciesImage } from "./image
 import { buildTextureIndex, pickTexture, TextureExtractor } from "./textures.js";
 import { buildModelIndex, pickModel } from "./modelIndex.js";
 import { ModelRenderer } from "./modelRenderer.js";
+import { CobbleDexSpriteSource } from "./cobbleDexSprites.js";
 import { buildPoserIndex, buildAnimationIndex, PoseResolver } from "./poseData.js";
 import { ZipHandleCache } from "./zipUtil.js";
 import { buildSpawnIndex } from "./spawn.js";
@@ -16,12 +17,37 @@ import { resetOutputDir, writeJson } from "./output.js";
 import { TYPE_COLORS, typeColor } from "./typeColors.js";
 import { ABILITY_TYPE_IMMUNITIES } from "./abilityEffects.js";
 import { PUBLIC_TEXTURES_DIR, PUBLIC_RENDERS_DIR, PUBLIC_DIR } from "./config.js";
-import type { MoveRecord, AbilityRecord } from "./types.js";
+import type { MoveRecord, AbilityRecord, BalanceChange } from "./types.js";
 import { writeFileSync } from "node:fs";
 import { resolve as resolvePath } from "node:path";
 
 function normalizeAbilityId(id: string): string {
   return id.replace(/^h:/, "").toLowerCase();
+}
+
+// Diffs a merged move/ability against its vanilla Cobblemon baseline, only
+// keeping fields that actually changed AND had a real vanilla value to begin
+// with - a wholly new custom move/ability (no vanilla baseline at all, e.g. a
+// fakemon-exclusive ability) is new content, not a "rebalance", so it
+// correctly produces no changes here even though isOverride is still true.
+function computeBalanceChanges(
+  base: Record<string, any>,
+  final: Record<string, any>,
+  fields: [string, string][],
+  textField?: { field: string; label: string; before: string | null; after: string | null }
+): BalanceChange[] {
+  const changes: BalanceChange[] = [];
+  for (const [field, label] of fields) {
+    const before = base[field];
+    const after = final[field];
+    if (before === undefined || before === null) continue;
+    if (before === after) continue;
+    changes.push({ field, label, before, after });
+  }
+  if (textField && textField.before && textField.after && textField.before !== textField.after) {
+    changes.push({ field: textField.field, label: textField.label, before: textField.before, after: textField.after });
+  }
+  return changes;
 }
 
 // A few packs author "name" entirely lowercase (e.g. "agumon") - title-case it
@@ -63,6 +89,22 @@ async function main() {
     // custom moves, so this works uniformly for official and custom moves.
     const langDesc = ingested.lang.get(`cobblemon.move.${id}.desc`)?.value ?? null;
     const langName = ingested.lang.get(`cobblemon.move.${id}`)?.value ?? null;
+    const finalDesc = langDesc ?? data.desc ?? null;
+    const balanceChanges = override
+      ? computeBalanceChanges(
+          base,
+          data,
+          [
+            ["type", "Tipo"],
+            ["category", "Categoría"],
+            ["basePower", "Poder"],
+            ["accuracy", "Precisión"],
+            ["pp", "PP"],
+            ["priority", "Prioridad"],
+          ],
+          { field: "desc", label: "Efecto", before: ingested.langCore.get(`cobblemon.move.${id}.desc`) ?? null, after: finalDesc }
+        )
+      : [];
     moveLookup.set(id, {
       id,
       name: langName ?? data.name ?? id,
@@ -75,9 +117,10 @@ async function main() {
       priority: data.priority ?? null,
       flags: data.flags ?? {},
       shortDesc: langDesc ?? data.shortDesc ?? null,
-      desc: langDesc ?? data.desc ?? null,
+      desc: finalDesc,
       sourceId: override?.provenance ? Object.values(override.provenance)[0] : "cobblemon-core",
       isOverride: !!override,
+      balanceChanges: balanceChanges.length > 0 ? balanceChanges : undefined,
     });
   }
   console.log(`Resolved ${moveLookup.size} moves (${mergedMoveOverrides.size} touched by a mod override).`);
@@ -94,15 +137,25 @@ async function main() {
     // (cobblemon.ability.<id>[.desc]), not in the stripped Showdown bundle.
     const langDesc = ingested.lang.get(`cobblemon.ability.${id}.desc`)?.value ?? null;
     const langName = ingested.lang.get(`cobblemon.ability.${id}`)?.value ?? null;
+    const finalDesc = langDesc ?? data.desc ?? null;
+    const balanceChanges = override
+      ? computeBalanceChanges(base, data, [["rating", "Valoración"]], {
+          field: "desc",
+          label: "Efecto",
+          before: ingested.langCore.get(`cobblemon.ability.${id}.desc`) ?? null,
+          after: finalDesc,
+        })
+      : [];
     abilityLookup.set(id, {
       id,
       name: langName ?? data.name ?? id,
       num: data.num ?? null,
       shortDesc: langDesc ?? data.shortDesc ?? null,
-      desc: langDesc ?? data.desc ?? null,
+      desc: finalDesc,
       rating: data.rating ?? null,
       sourceId: override?.provenance ? Object.values(override.provenance)[0] : "cobblemon-core",
       isOverride: !!override,
+      balanceChanges: balanceChanges.length > 0 ? balanceChanges : undefined,
     });
   }
   console.log(`Resolved ${abilityLookup.size} abilities (${mergedAbilityOverrides.size} touched by a mod override).`);
@@ -134,14 +187,29 @@ async function main() {
   const textureExtractor = new TextureExtractor(zipHandles, PUBLIC_TEXTURES_DIR);
   const modelRenderer = new ModelRenderer(zipHandles, PUBLIC_RENDERS_DIR);
   const poseResolver = new PoseResolver(zipHandles, poserIndex, animationIndex);
+  const cobbleDexSprites = new CobbleDexSpriteSource(manifest.spriteExportDir);
   let poseResolvedCount = 0;
   let poseUnresolvedCount = 0;
   console.log(`Indexed ${textureIndex.size} texture folders and ${modelIndex.size} model folders.`);
+  console.log(
+    cobbleDexSprites.available
+      ? `Using CobbleDex in-game renders from ${manifest.spriteExportDir}`
+      : `No spriteExportDir configured/found - falling back to the built-in model renderer for every species.`
+  );
 
-  // Prefer a real static 2.5D render (parsed from the actual Bedrock model +
-  // texture) so the image reads as "the Pokemon" rather than a raw UV skin.
-  // Falls back to the flat texture, and only then to a color placeholder.
+  // Prefer the actual in-game 3D render captured by CobbleDex's own
+  // `/cobbledex sprites export` (same pose Cobblemon's profile screen uses,
+  // rendered natively inside Minecraft with the real resourcepack-resolved
+  // model/texture) over this pipeline's own from-scratch Bedrock model
+  // parser - that custom renderer is kept only as a fallback for species/
+  // forms CobbleDex didn't capture (e.g. not yet re-exported after adding a
+  // new pack), not because it's preferred.
   async function resolveArt(identifier: string, aspects: string[], name: string, primaryType: string, slug: string): Promise<SpeciesImage | null> {
+    const cobbleDexPng = cobbleDexSprites.read(identifier, aspects);
+    if (cobbleDexPng) {
+      writeFileSync(resolvePath(PUBLIC_RENDERS_DIR, `${slug}.png`), cobbleDexPng);
+      return { kind: "render", url: `/renders/${slug}.png`, placeholderColor: typeColor(primaryType) };
+    }
     const model = pickModel(modelIndex, identifier, aspects);
     const texture = pickTexture(textureIndex, identifier, aspects);
     if (model && texture) {
@@ -447,29 +515,49 @@ async function main() {
   // Reverse indices: which species learn a given move / have a given ability,
   // so the move/ability detail pages can answer "who can use this" - useful
   // for a competitive-focused reference.
-  const moveLearnedBy = new Map<string, { slug: string; name: string; category: string }[]>();
-  const abilityGrantedTo = new Map<string, { slug: string; name: string; hidden: boolean }[]>();
-  for (const record of records.values()) {
+  // Only the slug is kept here - a move like Tackle or a common ability can
+  // be shared by hundreds/thousands of species, and embedding each learner's
+  // full listing (image, types, BST...) inline blew moves.json up to 100+MB
+  // (a single move's learnedBy array alone was ~200KB, times 1220 moves) and
+  // crashed the dev server. The detail pages instead join against the
+  // already-deduplicated pokedex-listing.json (written below) by slug.
+  const moveLearnedBy = new Map<string, { slug: string; category: string }[]>();
+  const abilityGrantedTo = new Map<string, { slug: string; hidden: boolean }[]>();
+  // Must include formRecords (megas, regional forms, fakemon variant forms
+  // like "Milotic Bloodmoon") alongside base species - a form's own moveset/
+  // abilities are otherwise invisible to these reverse indices even when
+  // they differ from the base species (e.g. Milotic Bloodmoon's Abyssal
+  // Elegy ability isn't on base Milotic at all).
+  for (const record of [...records.values(), ...formRecords]) {
+    const slug = record.slug;
     const addMove = (moveId: string, category: string) => {
       if (!moveLearnedBy.has(moveId)) moveLearnedBy.set(moveId, []);
-      moveLearnedBy.get(moveId)!.push({ slug: record.slug, name: record.name, category });
+      moveLearnedBy.get(moveId)!.push({ slug, category });
     };
     for (const category of ["levelUp", "egg", "tm", "tutor", "legacy", "other"] as const) {
       for (const entry of record.moveset[category]) addMove(entry.moveId, category);
     }
     for (const abilityId of record.abilities) {
       if (!abilityGrantedTo.has(abilityId)) abilityGrantedTo.set(abilityId, []);
-      abilityGrantedTo.get(abilityId)!.push({ slug: record.slug, name: record.name, hidden: false });
+      abilityGrantedTo.get(abilityId)!.push({ slug, hidden: false });
     }
     for (const abilityId of record.hiddenAbilities) {
       if (!abilityGrantedTo.has(abilityId)) abilityGrantedTo.set(abilityId, []);
-      abilityGrantedTo.get(abilityId)!.push({ slug: record.slug, name: record.name, hidden: true });
+      abilityGrantedTo.get(abilityId)!.push({ slug, hidden: true });
     }
   }
 
   // --- Write output ---
   resetOutputDir();
   const listing: any[] = [];
+  // slug -> {moves, abilities, hiddenAbilities} (ids only) for the "search by
+  // move/ability name" feature on the Pokedex table/sidebar - kept as its own
+  // small file rather than bolted onto pokedex-index.json/pokedex-sidebar.json
+  // (which are fetched far more often) or done as a move/ability -> learners
+  // reverse map (which is what blew moves.json up to 100+MB earlier - a
+  // common move can have thousands of learners, but every species only has
+  // ~80 moves, so indexing per-species instead of per-move stays small).
+  const searchIndex: Record<string, { moves: string[]; abilities: string[]; hiddenAbilities: string[] }> = {};
   for (const record of [...records.values(), ...formRecords]) {
     writeJson(`pokemon/${record.slug}.json`, record);
     listing.push({
@@ -485,9 +573,19 @@ async function main() {
       labels: record.labels,
       formOf: record.formOf ?? null,
     });
+    const moveIds = new Set<string>();
+    for (const category of ["levelUp", "egg", "tm", "tutor", "legacy", "other"] as const) {
+      for (const entry of record.moveset[category]) moveIds.add(entry.moveId);
+    }
+    searchIndex[record.slug] = {
+      moves: [...moveIds],
+      abilities: record.abilities,
+      hiddenAbilities: record.hiddenAbilities,
+    };
   }
   listing.sort((a, b) => (a.nationalPokedexNumber ?? 99999) - (b.nationalPokedexNumber ?? 99999) || a.name.localeCompare(b.name));
   writeJson("index.json", listing);
+  writeFileSync(resolvePath(PUBLIC_DIR, "pokedex-search-index.json"), JSON.stringify(searchIndex), "utf-8");
 
   // A trimmed copy served as a plain static asset (not an Astro-serialized
   // prop) so the sidebar's full ~2300-entry list is fetched once by the
@@ -544,7 +642,8 @@ async function main() {
   writeJson("warnings.json", ingested.warnings);
 
   console.log(`\nDone. ${records.size} species + ${formRecords.length} form pages written. ${allConflicts.length} field-level conflicts resolved (see conflicts.json).`);
-  console.log(`Renders: ${modelRenderer.stats.successes} succeeded, ${modelRenderer.stats.failures} fell back to texture/placeholder.`);
+  console.log(`CobbleDex renders: ${cobbleDexSprites.stats.hits} used, ${cobbleDexSprites.stats.misses} missed (fell back to the built-in renderer/texture/placeholder).`);
+  console.log(`Built-in renders: ${modelRenderer.stats.successes} succeeded, ${modelRenderer.stats.failures} fell back to texture/placeholder.`);
   console.log(`Pose offsets: ${poseResolvedCount} resolved from a poser+animation, ${poseUnresolvedCount} had none available (rendered with the model's raw bind pose instead).`);
   console.log(`Output: site/src/data/generated/`);
 }
