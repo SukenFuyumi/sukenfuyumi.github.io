@@ -41,7 +41,643 @@
     "gen1"
   ],
   "aspects": [],
-  "forms": [],
+  "forms": [
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "primaryType": "ice",
+      "secondaryType": "psychic",
+      "types": [
+        "ice",
+        "psychic"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 65,
+        "attack": 30,
+        "defence": 70,
+        "special_attack": 145,
+        "special_defence": 140,
+        "speed": 105
+      },
+      "baseStatTotal": 555,
+      "abilities": [
+        "dazzling"
+      ],
+      "hiddenAbilities": [
+        "dazzling"
+      ],
+      "pokedexDescription": "Its hair grew so long after Mega Evolution that Mega Jynx can barely walk normally, constantly using its psychic powers to float. It crafts ice structures so finely sculpted they are compared to castles - breathtaking frozen palaces where it resides, almost always alone.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "pound",
+            "level": 1
+          },
+          {
+            "moveId": "lick",
+            "level": 1
+          },
+          {
+            "moveId": "powdersnow",
+            "level": 1
+          },
+          {
+            "moveId": "doubleslap",
+            "level": 1
+          },
+          {
+            "moveId": "wakeupslap",
+            "level": 1
+          },
+          {
+            "moveId": "wringout",
+            "level": 1
+          },
+          {
+            "moveId": "heartstamp",
+            "level": 1
+          },
+          {
+            "moveId": "sweetkiss",
+            "level": 1
+          },
+          {
+            "moveId": "copycat",
+            "level": 1
+          },
+          {
+            "moveId": "psychicsnap",
+            "level": 1
+          },
+          {
+            "moveId": "chillout",
+            "level": 1
+          },
+          {
+            "moveId": "confusion",
+            "level": 12
+          },
+          {
+            "moveId": "covet",
+            "level": 16
+          },
+          {
+            "moveId": "sing",
+            "level": 20
+          },
+          {
+            "moveId": "faketears",
+            "level": 24
+          },
+          {
+            "moveId": "icepunch",
+            "level": 28
+          },
+          {
+            "moveId": "psychic",
+            "level": 34
+          },
+          {
+            "moveId": "lovelykiss",
+            "level": 40
+          },
+          {
+            "moveId": "meanlook",
+            "level": 46
+          },
+          {
+            "moveId": "perishsong",
+            "level": 52
+          },
+          {
+            "moveId": "blizzard",
+            "level": 58
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "fakeout"
+          },
+          {
+            "moveId": "heartstamp"
+          },
+          {
+            "moveId": "luckychant"
+          },
+          {
+            "moveId": "meditate"
+          },
+          {
+            "moveId": "miracleeye"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "wakeupslap"
+          },
+          {
+            "moveId": "wish"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "auroraveil"
+          },
+          {
+            "moveId": "avalanche"
+          },
+          {
+            "moveId": "blizzard"
+          },
+          {
+            "moveId": "bodyslam"
+          },
+          {
+            "moveId": "brickbreak"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "captivate"
+          },
+          {
+            "moveId": "charm"
+          },
+          {
+            "moveId": "chillout"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "deepfreeze"
+          },
+          {
+            "moveId": "drainpunch"
+          },
+          {
+            "moveId": "drainingkiss"
+          },
+          {
+            "moveId": "dreameater"
+          },
+          {
+            "moveId": "echoedvoice"
+          },
+          {
+            "moveId": "encore"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "faketears"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "frostbreath"
+          },
+          {
+            "moveId": "futuresight"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "grassknot"
+          },
+          {
+            "moveId": "hail"
+          },
+          {
+            "moveId": "headbutt"
+          },
+          {
+            "moveId": "healbell"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "hypnoblast"
+          },
+          {
+            "moveId": "icebeam"
+          },
+          {
+            "moveId": "icepunch"
+          },
+          {
+            "moveId": "iciclespear"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "magicroom"
+          },
+          {
+            "moveId": "megakick"
+          },
+          {
+            "moveId": "megapunch"
+          },
+          {
+            "moveId": "metronome"
+          },
+          {
+            "moveId": "mindbend"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "nastyplot"
+          },
+          {
+            "moveId": "payback"
+          },
+          {
+            "moveId": "poweruppunch"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicsnap"
+          },
+          {
+            "moveId": "psychicterrain"
+          },
+          {
+            "moveId": "psychocut"
+          },
+          {
+            "moveId": "psyshock"
+          },
+          {
+            "moveId": "raindance"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "thief"
+          },
+          {
+            "moveId": "torment"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "tripleaxel"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "wonderroom"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "covet"
+          },
+          {
+            "moveId": "drainpunch"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "focuspunch"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "healbell"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "icebeam"
+          },
+          {
+            "moveId": "icepunch"
+          },
+          {
+            "moveId": "icywind"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "magicroom"
+          },
+          {
+            "moveId": "mudslap"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychocut"
+          },
+          {
+            "moveId": "recycle"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "roleplay"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "skillswap"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "telekinesis"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "tripleaxel"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "waterpulse"
+          },
+          {
+            "moveId": "wonderroom"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "bide"
+          },
+          {
+            "moveId": "bubblebeam"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "counter"
+          },
+          {
+            "moveId": "curse"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "doubleedge"
+          },
+          {
+            "moveId": "dynamicpunch"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "mimic"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "nightmare"
+          },
+          {
+            "moveId": "psywave"
+          },
+          {
+            "moveId": "rage"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "seismictoss"
+          },
+          {
+            "moveId": "skullbash"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "submission"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "sweetscent"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "teleport"
+          },
+          {
+            "moveId": "thrash"
+          },
+          {
+            "moveId": "toxic"
+          },
+          {
+            "moveId": "watergun"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 2
+          },
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "fire",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          },
+          {
+            "type": "steel",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          },
+          {
+            "type": "psychic",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "jynx-mega"
+    }
+  ],
   "pokedexDescription": "Jynx walks rhythmically, swaying and shaking its hips as if it were dancing. Its motions are so bouncingly alluring, people seeing it are compelled to shake their hips without giving any thought to what they are doing.",
   "moveset": {
     "levelUp": [
@@ -711,6 +1347,7 @@
   ],
   "sourceMods": [
     "cobblemon-core",
+    "lotus-megas",
     "lasers-additions"
   ],
   "primarySource": "cobblemon-core",
@@ -741,6 +1378,8 @@
     "moves": "lasers-additions",
     "preEvolution": "cobblemon-core",
     "evolutions": "cobblemon-core",
-    "behaviour": "cobblemon-core"
+    "behaviour": "cobblemon-core",
+    "features": "lotus-megas",
+    "forms": "lotus-megas"
   }
 }

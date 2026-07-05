@@ -347,7 +347,17 @@ async function main() {
       baseExperienceYield: data.baseExperienceYield ?? null,
       labels: data.labels ?? [],
       aspects: data.aspects ?? [],
-      forms: (data.forms ?? []).map((f: any) => buildFormRecord(f, { primaryType, moveset })),
+      // Some packs (e.g. Starlight Fusion's Armarouge patch) ship "forms"
+      // that exist purely as building-block aspects for a separate, fully-
+      // defined form to combine (e.g. "Armaraeon_a"/"Armaraeon_b" stubs with
+      // only a name+aspect, versus the real "Armaraeon" form carrying both
+      // aspects together with actual stats/types/abilities/moves) - these
+      // stubs were never meant to be player-facing and don't surface in
+      // Cobblemon/CobbleDex either, so skip anything that defines literally
+      // nothing beyond its own name/aspects.
+      forms: (data.forms ?? [])
+        .filter((f: any) => f.primaryType || f.secondaryType || f.baseStats || f.abilities?.length || f.moves?.length)
+        .map((f: any) => buildFormRecord(f, { primaryType, moveset })),
       pokedexDescription,
       moveset,
       _rawEvolutions: data.evolutions ?? [], // resolved to real slugs (incl. form-aspect targets) once every form has a slug, below
@@ -425,6 +435,57 @@ async function main() {
       delete form._rawEvolutions;
     }
   }
+
+  // "Fusion" packs (e.g. Starlight Fusion) don't register a real Cobblemon
+  // evolution for their fusion results at all - the only place the fusion is
+  // documented is the flavor text, and that text isn't consistently phrased
+  // ("A fusion of Gardevoir and Sylveon, possessing...", "A fusion form of
+  // Giratina and Armarouge. Its supernatural flames...", "The Dynamax form
+  // after fusing Gardevoir and Eternatus!", or even "Necrozma appears to have
+  // fully absorbed Metagross." with no "fusion" noun at all) - so rather than
+  // matching one sentence shape, gate on a loose fusion-indicator keyword and
+  // then scan the whole description for every *known species name* that
+  // appears in it. Synthesizes a forward "evolution" edge from each component
+  // species into the fusion result, so it shows up in the evolution chain
+  // from whichever component's page a player is looking at - matches how the
+  // CobbleDex mod fix for mega-transforms (no real Evolution data either)
+  // worked out.
+  const nameToSlug = new Map<string, string>();
+  for (const record of records.values()) nameToSlug.set(record.name.toLowerCase(), record.slug);
+  const allSpeciesNamesByLengthDesc = [...nameToSlug.keys()].sort((a, b) => b.length - a.length);
+  function parseFusionComponentNames(desc: string | null): string[] {
+    if (!desc || !/\b(fusion|fusing|fused|absorb(?:ed|s)?)\b/i.test(desc)) return [];
+    const found: string[] = [];
+    for (const name of allSpeciesNamesByLengthDesc) {
+      if (new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(desc)) found.push(name);
+    }
+    return found;
+  }
+  const fusionTargets: { desc: string | null; slug: string; id: string; evolutions: any[] }[] = [
+    ...[...records.values()].map((r) => ({ desc: r.pokedexDescription, slug: r.slug, id: r.id, evolutions: r.evolutions })),
+    ...[...records.values()].flatMap((r) => r.forms.map((f: any) => ({ desc: f.pokedexDescription, slug: f.slug, id: r.id, evolutions: f.evolutions }))),
+  ];
+  const recordsBySlug = new Map([...records.values()].map((r) => [r.slug, r]));
+  let fusionEdgeCount = 0;
+  for (const target of fusionTargets) {
+    const componentNames = parseFusionComponentNames(target.desc);
+    if (componentNames.length < 2) continue;
+    const componentSlugs = componentNames.map((n) => nameToSlug.get(n)).filter((s): s is string => !!s && s !== target.slug);
+    if (componentSlugs.length < 2) continue;
+    componentSlugs.forEach((componentSlug, i) => {
+      const componentRecord = recordsBySlug.get(componentSlug);
+      if (!componentRecord) return;
+      const others = componentNames.filter((_, j) => j !== i).map((n) => displayName(n));
+      componentRecord.evolutions.push({
+        targetKey: target.id,
+        targetSlug: target.slug,
+        summary: `Fusión con ${others.join(" + ")}`,
+        variant: "fusion",
+      });
+      fusionEdgeCount++;
+    });
+  }
+  if (fusionEdgeCount > 0) console.log(`Synthesized ${fusionEdgeCount} fusion evolution edges from pokedex description text.`);
 
   // Fourth pass: reverse evolution links (evolvesFrom), keyed by the resolved
   // target *slug* rather than species key, so this covers both a plain base

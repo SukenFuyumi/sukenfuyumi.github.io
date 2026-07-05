@@ -42,7 +42,526 @@
     "fossil"
   ],
   "aspects": [],
-  "forms": [],
+  "forms": [
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "primaryType": "rock",
+      "secondaryType": "flying",
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "battleOnly": true,
+      "baseStats": {
+        "hp": 75,
+        "attack": 150,
+        "defence": 90,
+        "special_attack": 120,
+        "special_defence": 90,
+        "speed": 133
+      },
+      "baseStatTotal": 658,
+      "abilities": [
+        "protosynthesis"
+      ],
+      "hiddenAbilities": [
+        "protosynthesis"
+      ],
+      "pokedexDescription": "Mega Archeops' legs have developed monstrous strength. Researchers claim that a single stomp can easily destroy diamonds. Its body is covered in scars caused by nearly every species that shares its ecosystem, leaving scientists unable to determine exactly which predators it once faced.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "quickattack",
+            "level": 1
+          },
+          {
+            "moveId": "leer",
+            "level": 1
+          },
+          {
+            "moveId": "wingattack",
+            "level": 1
+          },
+          {
+            "moveId": "rockthrow",
+            "level": 1
+          },
+          {
+            "moveId": "doubleteam",
+            "level": 1
+          },
+          {
+            "moveId": "dragonbreath",
+            "level": 9
+          },
+          {
+            "moveId": "ancientpower",
+            "level": 12
+          },
+          {
+            "moveId": "pluck",
+            "level": 15
+          },
+          {
+            "moveId": "quickguard",
+            "level": 18
+          },
+          {
+            "moveId": "uturn",
+            "level": 21
+          },
+          {
+            "moveId": "turntail",
+            "level": 21
+          },
+          {
+            "moveId": "rockslide",
+            "level": 24
+          },
+          {
+            "moveId": "scaryface",
+            "level": 27
+          },
+          {
+            "moveId": "crunch",
+            "level": 30
+          },
+          {
+            "moveId": "agility",
+            "level": 33
+          },
+          {
+            "moveId": "tailwind",
+            "level": 36
+          },
+          {
+            "moveId": "dragonclaw",
+            "level": 41
+          },
+          {
+            "moveId": "thrash",
+            "level": 46
+          },
+          {
+            "moveId": "endeavor",
+            "level": 51
+          },
+          {
+            "moveId": "nosedive",
+            "level": 56
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "bite"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "headsmash"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "switcheroo"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acrobatics"
+          },
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "agility"
+          },
+          {
+            "moveId": "airslash"
+          },
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "aquatail"
+          },
+          {
+            "moveId": "assurance"
+          },
+          {
+            "moveId": "bounce"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "crunch"
+          },
+          {
+            "moveId": "cut"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "dig"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "dragonclaw"
+          },
+          {
+            "moveId": "dragonfang"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "dragontail"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "earthquake"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fly"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "honeclaws"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "meteorbeam"
+          },
+          {
+            "moveId": "nosedive"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "pluck"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "roar"
+          },
+          {
+            "moveId": "rockblast"
+          },
+          {
+            "moveId": "rockpolish"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "rocktomb"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "sandstorm"
+          },
+          {
+            "moveId": "scaryface"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "skyattack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "smackdown"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "steelwing"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "torment"
+          },
+          {
+            "moveId": "uturn"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "aerialace"
+          },
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "ancientpower"
+          },
+          {
+            "moveId": "aquatail"
+          },
+          {
+            "moveId": "bounce"
+          },
+          {
+            "moveId": "bulldoze"
+          },
+          {
+            "moveId": "defog"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "dualwingbeat"
+          },
+          {
+            "moveId": "earthpower"
+          },
+          {
+            "moveId": "endeavor"
+          },
+          {
+            "moveId": "gigaimpact"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "hyperbeam"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "irontail"
+          },
+          {
+            "moveId": "knockoff"
+          },
+          {
+            "moveId": "lashout"
+          },
+          {
+            "moveId": "meteorbeam"
+          },
+          {
+            "moveId": "outrage"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "rockslide"
+          },
+          {
+            "moveId": "rocksmash"
+          },
+          {
+            "moveId": "roost"
+          },
+          {
+            "moveId": "shadowclaw"
+          },
+          {
+            "moveId": "skyattack"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "stealthrock"
+          },
+          {
+            "moveId": "stoneedge"
+          },
+          {
+            "moveId": "swift"
+          },
+          {
+            "moveId": "tailwind"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "zenheadbutt"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "electric",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          },
+          {
+            "type": "steel",
+            "multiplier": 2
+          },
+          {
+            "type": "water",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "normal",
+            "multiplier": 0.5
+          },
+          {
+            "type": "poison",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "ground"
+        ]
+      },
+      "evolutions": [],
+      "slug": "archeops-mega"
+    }
+  ],
   "pokedexDescription": "It runs better than it flies. It takes off into the sky by running at a speed of 25 mph.",
   "moveset": {
     "levelUp": [
@@ -568,6 +1087,7 @@
   ],
   "sourceMods": [
     "cobblemon-core",
+    "lotus-megas",
     "lasers-additions"
   ],
   "primarySource": "cobblemon-core",
@@ -599,6 +1119,8 @@
     "riding": "cobblemon-core",
     "moves": "lasers-additions",
     "preEvolution": "cobblemon-core",
-    "evolutions": "cobblemon-core"
+    "evolutions": "cobblemon-core",
+    "features": "lotus-megas",
+    "forms": "lotus-megas"
   }
 }

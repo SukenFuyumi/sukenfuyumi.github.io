@@ -41,7 +41,839 @@
     "gen9"
   ],
   "aspects": [],
-  "forms": [],
+  "forms": [
+    {
+      "name": "Armaraeon",
+      "aspects": [
+        "armaraeon_a",
+        "armaraeon_b"
+      ],
+      "primaryType": "steel",
+      "secondaryType": "water",
+      "types": [
+        "steel",
+        "water"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 105,
+        "attack": 83,
+        "defence": 115,
+        "special_attack": 165,
+        "special_defence": 115,
+        "speed": 127
+      },
+      "baseStatTotal": 710,
+      "abilities": [
+        "spacetimeenvoy"
+      ],
+      "hiddenAbilities": [
+        "spacetimeenvoy"
+      ],
+      "pokedexDescription": "A fusion of Palkia, Dialga, and Armarouge, wielding the power of time and space!",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "psyshock",
+            "level": 1
+          },
+          {
+            "moveId": "leer",
+            "level": 1
+          },
+          {
+            "moveId": "photondive",
+            "level": 1
+          },
+          {
+            "moveId": "ember",
+            "level": 1
+          },
+          {
+            "moveId": "mysticalfire",
+            "level": 1
+          },
+          {
+            "moveId": "astonish",
+            "level": 1
+          },
+          {
+            "moveId": "wideguard",
+            "level": 1
+          },
+          {
+            "moveId": "clearsmog",
+            "level": 8
+          },
+          {
+            "moveId": "firespin",
+            "level": 12
+          },
+          {
+            "moveId": "willowisp",
+            "level": 16
+          },
+          {
+            "moveId": "nightshade",
+            "level": 20
+          },
+          {
+            "moveId": "flamecharge",
+            "level": 24
+          },
+          {
+            "moveId": "incinerate",
+            "level": 28
+          },
+          {
+            "moveId": "lavaplume",
+            "level": 32
+          },
+          {
+            "moveId": "calmmind",
+            "level": 37
+          },
+          {
+            "moveId": "allyswitch",
+            "level": 42
+          },
+          {
+            "moveId": "snipeshot",
+            "level": 43
+          },
+          {
+            "moveId": "flashcannon",
+            "level": 45
+          },
+          {
+            "moveId": "flamethrower",
+            "level": 48
+          },
+          {
+            "moveId": "roaroftime",
+            "level": 50
+          },
+          {
+            "moveId": "spacialrend",
+            "level": 50
+          },
+          {
+            "moveId": "expandingforce",
+            "level": 56
+          },
+          {
+            "moveId": "armorcannon",
+            "level": 62
+          },
+          {
+            "moveId": "condensedhydrocannon",
+            "level": 70
+          },
+          {
+            "moveId": "oblivioncannon",
+            "level": 70
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "destinybond"
+          },
+          {
+            "moveId": "disable"
+          },
+          {
+            "moveId": "spite"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acidspray"
+          },
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "aurasphere"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "firespin"
+          },
+          {
+            "moveId": "flamecharge"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "flareblitz"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "incinerate"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "meteorbeam"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "nightshade"
+          },
+          {
+            "moveId": "overheat"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicterrain"
+          },
+          {
+            "moveId": "psyshock"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "scorchingsands"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "weatherball"
+          },
+          {
+            "moveId": "willowisp"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "meteorbeam"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "scorchingsands"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "trick"
+          }
+        ],
+        "legacy": [],
+        "other": [
+          {
+            "moveId": "celebrate"
+          }
+        ]
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "electric",
+            "multiplier": 2
+          },
+          {
+            "type": "fighting",
+            "multiplier": 2
+          },
+          {
+            "type": "ground",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "ice",
+            "multiplier": 0.25
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.25
+          },
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "dragon",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "flying",
+            "multiplier": 0.5
+          },
+          {
+            "type": "normal",
+            "multiplier": 0.5
+          },
+          {
+            "type": "psychic",
+            "multiplier": 0.5
+          },
+          {
+            "type": "rock",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": [
+          "poison"
+        ]
+      },
+      "evolutions": [],
+      "slug": "armarouge-armaraeon"
+    },
+    {
+      "name": "Armartina",
+      "aspects": [
+        "armartina"
+      ],
+      "primaryType": "psychic",
+      "secondaryType": "dragon",
+      "types": [
+        "psychic",
+        "dragon"
+      ],
+      "battleOnly": false,
+      "baseStats": {
+        "hp": 133,
+        "attack": 47,
+        "defence": 105,
+        "special_attack": 155,
+        "special_defence": 105,
+        "speed": 105
+      },
+      "baseStatTotal": 650,
+      "abilities": [
+        "netherplate"
+      ],
+      "hiddenAbilities": [
+        "netherplate"
+      ],
+      "pokedexDescription": "A fusion form of Giratina and Armarouge. Its supernatural flames scorch all!",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "psyshock",
+            "level": 1
+          },
+          {
+            "moveId": "leer",
+            "level": 1
+          },
+          {
+            "moveId": "ember",
+            "level": 1
+          },
+          {
+            "moveId": "mysticalfire",
+            "level": 1
+          },
+          {
+            "moveId": "astonish",
+            "level": 1
+          },
+          {
+            "moveId": "wideguard",
+            "level": 1
+          },
+          {
+            "moveId": "clearsmog",
+            "level": 8
+          },
+          {
+            "moveId": "firespin",
+            "level": 12
+          },
+          {
+            "moveId": "willowisp",
+            "level": 16
+          },
+          {
+            "moveId": "nightshade",
+            "level": 20
+          },
+          {
+            "moveId": "flamecharge",
+            "level": 24
+          },
+          {
+            "moveId": "incinerate",
+            "level": 28
+          },
+          {
+            "moveId": "lavaplume",
+            "level": 32
+          },
+          {
+            "moveId": "calmmind",
+            "level": 37
+          },
+          {
+            "moveId": "allyswitch",
+            "level": 42
+          },
+          {
+            "moveId": "flamethrower",
+            "level": 48
+          },
+          {
+            "moveId": "decaylaser",
+            "level": 50
+          },
+          {
+            "moveId": "expandingforce",
+            "level": 56
+          },
+          {
+            "moveId": "armorcannon",
+            "level": 62
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "destinybond"
+          },
+          {
+            "moveId": "disable"
+          },
+          {
+            "moveId": "spite"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "acidspray"
+          },
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "aurasphere"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "confuseray"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "firespin"
+          },
+          {
+            "moveId": "flamecharge"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "flareblitz"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "fling"
+          },
+          {
+            "moveId": "focusblast"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "incinerate"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "meteorbeam"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "nightshade"
+          },
+          {
+            "moveId": "overheat"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "psybeam"
+          },
+          {
+            "moveId": "psychup"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "psychicterrain"
+          },
+          {
+            "moveId": "psyshock"
+          },
+          {
+            "moveId": "reflect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "scorchingsands"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "solarbeam"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "storedpower"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "takedown"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "trick"
+          },
+          {
+            "moveId": "trickroom"
+          },
+          {
+            "moveId": "weatherball"
+          },
+          {
+            "moveId": "willowisp"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "calmmind"
+          },
+          {
+            "moveId": "darkpulse"
+          },
+          {
+            "moveId": "dragonpulse"
+          },
+          {
+            "moveId": "energyball"
+          },
+          {
+            "moveId": "expandingforce"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "helpinghand"
+          },
+          {
+            "moveId": "irondefense"
+          },
+          {
+            "moveId": "meteorbeam"
+          },
+          {
+            "moveId": "mysticalfire"
+          },
+          {
+            "moveId": "psychic"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "scorchingsands"
+          },
+          {
+            "moveId": "shadowball"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "spite"
+          },
+          {
+            "moveId": "trick"
+          }
+        ],
+        "legacy": [],
+        "other": [
+          {
+            "moveId": "celebrate"
+          }
+        ]
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "bug",
+            "multiplier": 2
+          },
+          {
+            "type": "dark",
+            "multiplier": 2
+          },
+          {
+            "type": "dragon",
+            "multiplier": 2
+          },
+          {
+            "type": "fairy",
+            "multiplier": 2
+          },
+          {
+            "type": "ghost",
+            "multiplier": 2
+          },
+          {
+            "type": "ice",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "electric",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fighting",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "psychic",
+            "multiplier": 0.5
+          },
+          {
+            "type": "water",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [],
+      "slug": "armarouge-armartina"
+    }
+  ],
   "pokedexDescription": "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
   "moveset": {
     "levelUp": [
@@ -376,7 +1208,20 @@
       }
     ]
   },
-  "evolutions": [],
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:armarouge",
+      "targetSlug": "armarouge-armaraeon",
+      "summary": "Fusión con Dialga + Palkia",
+      "variant": "fusion"
+    },
+    {
+      "targetKey": "cobblemon:armarouge",
+      "targetSlug": "armarouge-armartina",
+      "summary": "Fusión con Giratina",
+      "variant": "fusion"
+    }
+  ],
   "evolvesFrom": "charcadet",
   "matchup": {
     "weakTo": [
@@ -513,11 +1358,12 @@
   ],
   "sourceMods": [
     "cobblemon-core",
+    "starlightfusion",
     "lasers-additions"
   ],
   "primarySource": "cobblemon-core",
   "provenance": {
-    "implemented": "cobblemon-core",
+    "implemented": "starlightfusion",
     "nationalPokedexNumber": "cobblemon-core",
     "name": "cobblemon-core",
     "primaryType": "cobblemon-core",
@@ -544,6 +1390,8 @@
     "moves": "lasers-additions",
     "preEvolution": "cobblemon-core",
     "evolutions": "cobblemon-core",
-    "lightingData": "cobblemon-core"
+    "lightingData": "cobblemon-core",
+    "features": "starlightfusion",
+    "forms": "starlightfusion"
   }
 }

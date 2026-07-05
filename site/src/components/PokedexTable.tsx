@@ -104,7 +104,12 @@ export default function PokedexTable({ sources }: { sources: SourceInfo[] }) {
     });
     rows = rows.filter((p) => {
       if (typeFilter && !p.types.includes(typeFilter)) return false;
-      if (sourceFilter && p.primarySource !== sourceFilter) return false;
+      // A mega/fusion/etc form's *primarySource* is whoever defined the base
+      // species file (e.g. "cobblemon-core" for Jynx), not the mod that
+      // patched in the form itself (e.g. "lotus-megas" for Jynx Mega) - that
+      // mod only shows up in sourceMods, so filter against that instead or
+      // the "Origen" dropdown would show 0 results for any forms-only pack.
+      if (sourceFilter && !p.sourceMods.includes(sourceFilter)) return false;
       return true;
     });
     rows = [...rows].sort((a, b) => {

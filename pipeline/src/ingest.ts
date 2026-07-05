@@ -39,10 +39,27 @@ export interface IngestResult {
   warnings: string[];
 }
 
+// Some packs (Starlight Fusion in particular) bake raw Minecraft §-formatting
+// codes directly into a move/ability's own "name"/"desc" field (presumably
+// so it renders colored in-game chat/tooltips) - meaningless outside a
+// Minecraft text component, so strip them everywhere at the point every
+// data file gets parsed rather than chasing every field downstream that
+// might carry a name/desc string.
+function stripMcFormatting(value: any): any {
+  if (typeof value === "string") return value.replace(/§./g, "");
+  if (Array.isArray(value)) return value.map(stripMcFormatting);
+  if (value && typeof value === "object") {
+    const out: Record<string, any> = {};
+    for (const [k, v] of Object.entries(value)) out[k] = stripMcFormatting(v);
+    return out;
+  }
+  return value;
+}
+
 function parseFile(path: string, text: string): any | null {
   try {
-    if (path.endsWith(".json")) return JSON.parse(text);
-    if (path.endsWith(".js")) return evalObjectLiteral(text);
+    if (path.endsWith(".json")) return stripMcFormatting(JSON.parse(text));
+    if (path.endsWith(".js")) return stripMcFormatting(evalObjectLiteral(text));
     return null;
   } catch {
     return undefined; // signals a parse failure distinct from "not applicable"
@@ -169,8 +186,9 @@ export function ingestAll(manifest: SourcesManifest, sourceRoot: string): Ingest
           .filter((line) => !/^\s*(#|\/\/)/.test(line))
           .join("\n");
         const obj = JSON.parse(sanitized);
-        for (const [key, value] of Object.entries(obj)) {
-          if (typeof value !== "string") continue;
+        for (const [key, rawValue] of Object.entries(obj)) {
+          if (typeof rawValue !== "string") continue;
+          const value = stripMcFormatting(rawValue) as string;
           if (source.id === "cobblemon-core") langCore.set(key, value);
           const existing = lang.get(key);
           if (!existing || source.priority >= existing.priority) {
