@@ -16,6 +16,7 @@ import { assignUniqueSlugs, takeUniqueSlug } from "./slug.js";
 import { resetOutputDir, writeJson } from "./output.js";
 import { TYPE_COLORS, typeColor } from "./typeColors.js";
 import { ABILITY_TYPE_IMMUNITIES } from "./abilityEffects.js";
+import { buildTerrainWeatherIndex } from "./terrainWeather.js";
 import { PUBLIC_TEXTURES_DIR, PUBLIC_RENDERS_DIR, PUBLIC_DIR } from "./config.js";
 import type { MoveRecord, AbilityRecord, BalanceChange } from "./types.js";
 import { writeFileSync } from "node:fs";
@@ -632,6 +633,11 @@ async function main() {
   writeJson("typeColors.json", TYPE_COLORS);
   writeJson("typeMatrix.json", buildTypeMatrix(ingested.showdownBase.typechart));
   writeJson("sources.json", { sources: manifest.sources, disabled: manifest.disabled, cosmeticOnly: manifest.cosmeticOnly });
+
+  const sourceLabelById = new Map(manifest.sources.map((s) => [s.id, s.label]));
+  const terrainWeather = buildTerrainWeatherIndex(ingested.conditionOverrides, (id) => sourceLabelById.get(id) ?? id);
+  writeJson("terrainWeather.json", terrainWeather);
+  console.log(`Resolved ${terrainWeather.length} weather/terrain effects (${terrainWeather.filter((t) => t.sourceLabel).length} from mods).`);
 
   const allConflicts: ConflictLogEntry[] = [
     ...speciesConflicts.map((c) => ({ ...c, entity: `species:${c.entity}` })),

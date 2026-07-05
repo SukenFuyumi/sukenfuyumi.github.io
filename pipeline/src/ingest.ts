@@ -19,6 +19,12 @@ export interface IngestResult {
   speciesAdditions: RawRecord[];
   moveOverrides: RawRecord[];
   abilityOverrides: RawRecord[];
+  // Showdown-style "condition" scripts (weather/terrain/volatile effects).
+  // Mods ship these under varying nested paths (data/<ns>/showdown/conditions/,
+  // data/<ns>/mega_showdown/showdown/conditions/, ...) rather than the flat
+  // data/<ns>/<kind>/ layout readDataFolder expects, so these are collected
+  // separately - see collectConditionFiles below.
+  conditionOverrides: RawRecord[];
   spawnPools: RawRecord[];
   lang: Map<string, { value: string; sourceId: string; priority: number }>;
   // The vanilla cobblemon-core lang value for a key, kept aside even after a
@@ -48,6 +54,7 @@ export function ingestAll(manifest: SourcesManifest, sourceRoot: string): Ingest
   const speciesAdditions: RawRecord[] = [];
   const moveOverrides: RawRecord[] = [];
   const abilityOverrides: RawRecord[] = [];
+  const conditionOverrides: RawRecord[] = [];
   const spawnPools: RawRecord[] = [];
   const lang = new Map<string, { value: string; sourceId: string; priority: number }>();
   const langCore = new Map<string, string>();
@@ -94,6 +101,33 @@ export function ingestAll(manifest: SourcesManifest, sourceRoot: string): Ingest
         });
       }
     };
+
+    // Weather/terrain/volatile "condition" scripts live under whatever depth
+    // a given mod nests its own "showdown" companion folder at (top-level
+    // data/<ns>/conditions/, data/<ns>/showdown/conditions/, data/<ns>/
+    // mega_showdown/showdown/conditions/, ...) - match "conditions" as a path
+    // segment anywhere, not just directly under the namespace like readDataFolder requires.
+    for (const path of listEntries(handle, (n) => /^data\/[^/]+\/.*\/conditions\/[^/]+\.js$|^data\/[^/]+\/conditions\/[^/]+\.js$/.test(n))) {
+      const text = readText(handle, path);
+      if (text == null) continue;
+      const parsed = parseFile(path, text);
+      if (parsed === undefined) {
+        warnings.push(`[${source.id}] failed to parse ${path}`);
+        continue;
+      }
+      if (parsed === null) continue;
+      const identifier = path.split("/").pop()!.replace(/\.js$/, "");
+      conditionOverrides.push({
+        sourceId: source.id,
+        sourceLabel: source.label,
+        role: source.role,
+        priority: source.priority,
+        namespace: path.split("/")[1],
+        identifier,
+        path,
+        data: parsed,
+      });
+    }
 
     collect("species", [".json"], species);
     collect("species_additions", [".json"], speciesAdditions);
@@ -153,5 +187,5 @@ export function ingestAll(manifest: SourcesManifest, sourceRoot: string): Ingest
     }
   }
 
-  return { species, speciesAdditions, moveOverrides, abilityOverrides, spawnPools, lang, langCore, showdownBase, textures, models, posers, animations, warnings };
+  return { species, speciesAdditions, moveOverrides, abilityOverrides, conditionOverrides, spawnPools, lang, langCore, showdownBase, textures, models, posers, animations, warnings };
 }

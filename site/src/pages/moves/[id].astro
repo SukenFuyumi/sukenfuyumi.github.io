@@ -4,12 +4,23 @@ import MonImage from "../../components/MonImage.astro";
 import moves from "../../data/generated/moves.json";
 import sourcesData from "../../data/generated/sources.json";
 import pokedexListing from "../../data/generated/index.json";
+import terrainWeather from "../../data/generated/terrainWeather.json";
 
 export async function getStaticPaths() {
   return moves.map((m: any) => ({ params: { id: m.id }, props: { m } }));
 }
 const { m } = Astro.props as { m: any };
 const sourceLookup = new Map(sourcesData.sources.map((s: any) => [s.id, s.label]));
+// A move that sets a weather/terrain mentions it by name in its own effect
+// text (e.g. "summons Blood Moon weather") - matching against that instead of
+// curating a per-move list means new custom weathers/terrains from any mod
+// show up here automatically. Word-boundary matched, not a bare substring
+// check - "Rain" is naively a substring of "Terrain" and would otherwise
+// false-positive on every terrain move.
+const effectText = `${m.desc ?? ""} ${m.shortDesc ?? ""}`;
+const mentionedTerrainWeather = terrainWeather.filter((tw: any) =>
+  new RegExp(`\\b${tw.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(effectText)
+);
 // learnedBy only carries {slug, category} (see index.ts) to keep moves.json
 // small - joined here, at render time, against the already-deduplicated
 // species listing to get name/types/image/etc for the table below.
@@ -49,6 +60,19 @@ const learnedBySorted = (m.learnedBy ?? [])
       </p>
     )}
   </div>
+
+  {mentionedTerrainWeather.length > 0 && (
+    <div class="panel" style="margin-top:1.25rem;">
+      <h2 style="margin-top:0;">Efecto del clima/terreno</h2>
+      {mentionedTerrainWeather.map((tw: any) => (
+        <div style="margin-bottom:0.75rem;">
+          <strong>{tw.name}</strong>
+          {tw.sourceLabel && <span class="pill" style="margin-left:0.4rem;">{tw.sourceLabel}</span>}
+          <p style="margin:0.25rem 0 0; color:var(--text-muted);">{tw.desc}</p>
+        </div>
+      ))}
+    </div>
+  )}
 
   {m.balanceChanges?.length > 0 && (
     <div class="panel" style="margin-top:1.25rem;">
