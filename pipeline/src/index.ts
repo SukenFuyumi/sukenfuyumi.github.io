@@ -285,8 +285,14 @@ async function main() {
       abilities: rawAbilities.length ? rawAbilities.filter((a) => !a.startsWith("h:")).map((a) => resolveAbilityId(normalizeAbilityId(a))) : null,
       hiddenAbilities: rawAbilities.length ? rawAbilities.filter((a) => a.startsWith("h:")).map((a) => resolveAbilityId(normalizeAbilityId(a))) : null,
       pokedexDescription: descKey ? ingested.lang.get(descKey)?.value ?? null : null,
-      // Most forms don't redefine a moveset - they inherit the parent's.
-      moveset: formData.moves ? buildMoveset(formData.moves, moveLookup) : parent.moveset,
+      // Most forms don't redefine a moveset - they inherit the parent's. An
+      // empty "moves": [] is Cobblemon's own convention for "inherit", not
+      // "learns nothing" (confirmed in vanilla Cobblemon's gimmighoul.json,
+      // whose "Roaming" form ships moves: [] on purpose) - formData.moves
+      // being a present-but-empty array is still truthy in JS, so this must
+      // check .length, not just existence, or the form's moveset silently
+      // renders as entirely empty instead of falling back to the parent's.
+      moveset: formData.moves?.length ? buildMoveset(formData.moves, moveLookup) : parent.moveset,
       matchup: computeMatchup(ingested.showdownBase.typechart, primaryType, secondaryType),
       // Some forms (e.g. Laser's Fakemon Pack's "Midnight" recolors) define
       // their own evolution line nested inside the form itself - Ralts
