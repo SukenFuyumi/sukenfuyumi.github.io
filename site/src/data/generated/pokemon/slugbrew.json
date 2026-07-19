@@ -1,0 +1,630 @@
+{
+  "id": "cobblemon:slugbrew",
+  "namespace": "cobblemon",
+  "slug": "slugbrew",
+  "name": "Slugbrew",
+  "nationalPokedexNumber": null,
+  "primaryType": "poison",
+  "secondaryType": "psychic",
+  "types": [
+    "poison",
+    "psychic"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 40,
+    "special_attack": 70,
+    "special_defence": 40,
+    "speed": 20
+  },
+  "baseStatTotal": 250,
+  "abilities": [
+    "curiousmedicine",
+    "curiousmedicine"
+  ],
+  "hiddenAbilities": [
+    "powerofalchemy"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 7,
+  "weight": 350,
+  "maleRatio": 0.5,
+  "experienceGroup": "medium_fast",
+  "baseExperienceYield": 50,
+  "labels": [
+    "gen2"
+  ],
+  "aspects": [
+    "ingredient_blaze",
+    "ingredient_breeze",
+    "ingredient_carrot",
+    "ingredient_cobweb",
+    "ingredient_fermented",
+    "ingredient_ghast",
+    "ingredient_magma",
+    "ingredient_melon",
+    "ingredient_phantom",
+    "ingredient_pufferfish",
+    "ingredient_rabbit",
+    "ingredient_slime",
+    "ingredient_spider",
+    "ingredient_stone",
+    "ingredient_sugar",
+    "ingredient_turtle"
+  ],
+  "forms": [],
+  "pokedexDescription": "Given the right ingredients, Slugbrew can evolve into 19 different forms of Brewcargo. Witches say it's like brewing a potion!",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "yawn",
+        "level": 1
+      },
+      {
+        "moveId": "acid",
+        "level": 1
+      },
+      {
+        "moveId": "confusion",
+        "level": 6
+      },
+      {
+        "moveId": "storedpower",
+        "level": 8
+      },
+      {
+        "moveId": "harden",
+        "level": 13
+      },
+      {
+        "moveId": "clearsmog",
+        "level": 20
+      },
+      {
+        "moveId": "venoshock",
+        "level": 22
+      },
+      {
+        "moveId": "psybeam",
+        "level": 27
+      },
+      {
+        "moveId": "sludgewave",
+        "level": 29
+      },
+      {
+        "moveId": "expandingforce",
+        "level": 34
+      },
+      {
+        "moveId": "amnesia",
+        "level": 36
+      },
+      {
+        "moveId": "zenheadbutt",
+        "level": 41
+      },
+      {
+        "moveId": "recover",
+        "level": 43
+      },
+      {
+        "moveId": "sludgebomb",
+        "level": 48
+      },
+      {
+        "moveId": "psychic",
+        "level": 50
+      },
+      {
+        "moveId": "toxic",
+        "level": 52
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "acidarmor"
+      },
+      {
+        "moveId": "guardswap"
+      },
+      {
+        "moveId": "hypnosis"
+      },
+      {
+        "moveId": "memento"
+      },
+      {
+        "moveId": "spitup"
+      },
+      {
+        "moveId": "stockpile"
+      },
+      {
+        "moveId": "swallow"
+      },
+      {
+        "moveId": "toxicspikes"
+      },
+      {
+        "moveId": "venomdrench"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acidspray"
+      },
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "amnesia"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "corrosivegas"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "guardswap"
+      },
+      {
+        "moveId": "hardpress"
+      },
+      {
+        "moveId": "healblock"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "mirrorcoat"
+      },
+      {
+        "moveId": "mudshot"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "naturepower"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicterrain"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "sunnyday"
+      },
+      {
+        "moveId": "takedown"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "toxic"
+      },
+      {
+        "moveId": "toxicspikes"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "venomdrench"
+      },
+      {
+        "moveId": "venoshock"
+      },
+      {
+        "moveId": "willowisp"
+      },
+      {
+        "moveId": "wonderroom"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "afteryou"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "healblock"
+      },
+      {
+        "moveId": "irondefense"
+      },
+      {
+        "moveId": "mudslap"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rocksmash"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "sludgebomb"
+      },
+      {
+        "moveId": "sludgewave"
+      },
+      {
+        "moveId": "spikes"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "venomdrench"
+      },
+      {
+        "moveId": "venoshock"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "defensecurl"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Magma ×3 · variante fire resistance",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Melon ×3 · Fermented ×3 · variante harming",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Spider ×3 · Fermented ×3 · variante harming",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Melon ×3 · variante healing",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Stone ×3 · variante infestation",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Carrot ×3 · Fermented ×3 · variante invisibility",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Carrot ×3 · variante leaping",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Rabbit ×3 · variante night vision",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Slime ×3 · variante oozing",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Spider ×3 · variante poison",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Ghast ×3 · variante regeneration",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Phantom ×3 · variante slow falling",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Sugar ×3 · Fermented ×3 · variante slowness",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Rabbit ×3 · Fermented ×3 · variante slowness",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Blaze ×3 · variante strength",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Sugar ×3 · variante swiftness",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Turtle ×3 · variante turtle master",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Pufferfish ×3 · variante water breathing",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Fermented ×3 · variante weakness",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Cobweb ×3 · variante weaving",
+      "variant": "level_up"
+    },
+    {
+      "targetKey": "cobblemon:brewcargo",
+      "targetSlug": "brewcargo",
+      "summary": "Nivel · Breeze ×3 · variante wind charging",
+      "variant": "level_up"
+    }
+  ],
+  "evolvesFrom": null,
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "dark",
+        "multiplier": 2
+      },
+      {
+        "type": "ghost",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "fighting",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "grass",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": []
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/slugbrew.png",
+    "placeholderColor": "#A33EA1"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [],
+      "bucket": "common",
+      "level": "1-25",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [],
+      "bucket": "common",
+      "level": "1-25",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [],
+      "bucket": "common",
+      "level": "1-25",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    }
+  ],
+  "sourceMods": [
+    "fanmade-form-funfair"
+  ],
+  "primarySource": "fanmade-form-funfair",
+  "provenance": {
+    "implemented": "fanmade-form-funfair",
+    "name": "fanmade-form-funfair",
+    "primaryType": "fanmade-form-funfair",
+    "secondaryType": "fanmade-form-funfair",
+    "maleRatio": "fanmade-form-funfair",
+    "height": "fanmade-form-funfair",
+    "weight": "fanmade-form-funfair",
+    "pokedex": "fanmade-form-funfair",
+    "labels": "fanmade-form-funfair",
+    "aspects": "fanmade-form-funfair",
+    "abilities": "fanmade-form-funfair",
+    "eggGroups": "fanmade-form-funfair",
+    "baseStats": "fanmade-form-funfair",
+    "evYield": "fanmade-form-funfair",
+    "baseExperienceYield": "fanmade-form-funfair",
+    "experienceGroup": "fanmade-form-funfair",
+    "catchRate": "fanmade-form-funfair",
+    "eggCycles": "fanmade-form-funfair",
+    "baseFriendship": "fanmade-form-funfair",
+    "baseScale": "fanmade-form-funfair",
+    "hitbox": "fanmade-form-funfair",
+    "behaviour": "fanmade-form-funfair",
+    "drops": "fanmade-form-funfair",
+    "moves": "fanmade-form-funfair",
+    "evolutions": "fanmade-form-funfair"
+  }
+}

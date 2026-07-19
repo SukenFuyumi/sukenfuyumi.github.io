@@ -40,7 +40,347 @@
     "gen5"
   ],
   "aspects": [],
-  "forms": [],
+  "forms": [
+    {
+      "name": "fireball",
+      "aspects": [
+        "fireball"
+      ],
+      "primaryType": "fire",
+      "secondaryType": null,
+      "types": [
+        "fire"
+      ],
+      "battleOnly": false,
+      "baseStats": null,
+      "baseStatTotal": null,
+      "abilities": [
+        "flamebody",
+        "solarpower"
+      ],
+      "hiddenAbilities": [
+        "flashfire"
+      ],
+      "pokedexDescription": "Its flame-shaped head is fueled by the gas released from its torch-like body. By freely controlling the amount of gas it emits, it can increase both the size and intensity of its flames.",
+      "moveset": {
+        "levelUp": [
+          {
+            "moveId": "confide",
+            "level": 1
+          },
+          {
+            "moveId": "ember",
+            "level": 1
+          },
+          {
+            "moveId": "defog",
+            "level": 1
+          },
+          {
+            "moveId": "taunt",
+            "level": 1
+          },
+          {
+            "moveId": "flash",
+            "level": 1
+          },
+          {
+            "moveId": "firespin",
+            "level": 12
+          },
+          {
+            "moveId": "burningjealousy",
+            "level": 16
+          },
+          {
+            "moveId": "sunnyday",
+            "level": 20
+          },
+          {
+            "moveId": "flamecharge",
+            "level": 24
+          },
+          {
+            "moveId": "uproar",
+            "level": 28
+          },
+          {
+            "moveId": "amnesia",
+            "level": 32
+          },
+          {
+            "moveId": "mirrorcoat",
+            "level": 38
+          },
+          {
+            "moveId": "flamethrower",
+            "level": 44
+          },
+          {
+            "moveId": "heatwave",
+            "level": 50
+          },
+          {
+            "moveId": "inferno",
+            "level": 56
+          }
+        ],
+        "egg": [
+          {
+            "moveId": "autotomize"
+          },
+          {
+            "moveId": "explosion"
+          },
+          {
+            "moveId": "fireblitz"
+          },
+          {
+            "moveId": "flash"
+          },
+          {
+            "moveId": "lavaplume"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "vacuumwave"
+          },
+          {
+            "moveId": "willowisp"
+          }
+        ],
+        "tm": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "burningjealousy"
+          },
+          {
+            "moveId": "endure"
+          },
+          {
+            "moveId": "explosion"
+          },
+          {
+            "moveId": "facade"
+          },
+          {
+            "moveId": "fireblast"
+          },
+          {
+            "moveId": "firespin"
+          },
+          {
+            "moveId": "flamecharge"
+          },
+          {
+            "moveId": "flamewheel"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "heatwave"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "imprison"
+          },
+          {
+            "moveId": "incinerate"
+          },
+          {
+            "moveId": "lightscreen"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "naturalgift"
+          },
+          {
+            "moveId": "protect"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "selfdestruct"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "substitute"
+          },
+          {
+            "moveId": "sunnyday"
+          },
+          {
+            "moveId": "taunt"
+          },
+          {
+            "moveId": "terablast"
+          },
+          {
+            "moveId": "uproar"
+          },
+          {
+            "moveId": "willowisp"
+          }
+        ],
+        "tutor": [
+          {
+            "moveId": "allyswitch"
+          },
+          {
+            "moveId": "firespin"
+          },
+          {
+            "moveId": "flamethrower"
+          },
+          {
+            "moveId": "flashcannon"
+          },
+          {
+            "moveId": "hypervoice"
+          },
+          {
+            "moveId": "incinerate"
+          },
+          {
+            "moveId": "magiccoat"
+          },
+          {
+            "moveId": "magnetrise"
+          },
+          {
+            "moveId": "rest"
+          },
+          {
+            "moveId": "screech"
+          },
+          {
+            "moveId": "signalbeam"
+          },
+          {
+            "moveId": "sleeptalk"
+          },
+          {
+            "moveId": "uproar"
+          }
+        ],
+        "legacy": [
+          {
+            "moveId": "attract"
+          },
+          {
+            "moveId": "confide"
+          },
+          {
+            "moveId": "doubleteam"
+          },
+          {
+            "moveId": "frustration"
+          },
+          {
+            "moveId": "hiddenpower"
+          },
+          {
+            "moveId": "return"
+          },
+          {
+            "moveId": "round"
+          },
+          {
+            "moveId": "secretpower"
+          },
+          {
+            "moveId": "snore"
+          },
+          {
+            "moveId": "swagger"
+          },
+          {
+            "moveId": "toxic"
+          }
+        ],
+        "other": []
+      },
+      "matchup": {
+        "weakTo": [
+          {
+            "type": "ground",
+            "multiplier": 2
+          },
+          {
+            "type": "rock",
+            "multiplier": 2
+          },
+          {
+            "type": "water",
+            "multiplier": 2
+          }
+        ],
+        "resists": [
+          {
+            "type": "bug",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fairy",
+            "multiplier": 0.5
+          },
+          {
+            "type": "fire",
+            "multiplier": 0.5
+          },
+          {
+            "type": "grass",
+            "multiplier": 0.5
+          },
+          {
+            "type": "ice",
+            "multiplier": 0.5
+          },
+          {
+            "type": "steel",
+            "multiplier": 0.5
+          }
+        ],
+        "immuneTo": []
+      },
+      "evolutions": [
+        {
+          "targetKey": "cobblemon:vanilluxe",
+          "targetSlug": "vanilluxe",
+          "summary": "Nivel · Nv. 47 · variante fireball",
+          "variant": "level_up"
+        }
+      ],
+      "slug": "vanillish-fireball"
+    }
+  ],
   "pokedexDescription": "Snowy mountains are this Pokémon's habitat. During an ancient ice age, they moved to southern areas.",
   "moveset": {
     "levelUp": [
@@ -331,7 +671,7 @@
       "variant": "level_up"
     }
   ],
-  "evolvesFrom": "vanillite",
+  "evolvesFrom": "vanillite-fireball",
   "matchup": {
     "weakTo": [
       {
@@ -420,6 +760,34 @@
     },
     {
       "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "common",
+      "level": "35-40",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_arid"
+      ],
+      "bucket": "uncommon",
+      "level": "35-40",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#minecraft:is_nether",
+        "#cobblemon:is_volcanic"
+      ],
+      "bucket": "common",
+      "level": "35-40",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
         "#cobblemon:is_freezing"
       ],
       "bucket": "common",
@@ -448,6 +816,7 @@
   ],
   "sourceMods": [
     "cobblemon-core",
+    "fanmade-form-funfair",
     "lasers-additions"
   ],
   "primarySource": "cobblemon-core",
@@ -480,6 +849,8 @@
     "drops": "cobblemon-core",
     "moves": "lasers-additions",
     "preEvolution": "cobblemon-core",
-    "evolutions": "cobblemon-core"
+    "evolutions": "cobblemon-core",
+    "features": "fanmade-form-funfair",
+    "forms": "fanmade-form-funfair"
   }
 }

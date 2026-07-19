@@ -1,0 +1,666 @@
+{
+  "id": "cobblemon:lunaclipse",
+  "namespace": "cobblemon",
+  "slug": "lunaclipse",
+  "name": "Lunaclipse",
+  "nationalPokedexNumber": null,
+  "primaryType": "rock",
+  "secondaryType": "dark",
+  "types": [
+    "rock",
+    "dark"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 55,
+    "defence": 85,
+    "special_attack": 125,
+    "special_defence": 105,
+    "speed": 90
+  },
+  "baseStatTotal": 560,
+  "abilities": [
+    "levitate"
+  ],
+  "hiddenAbilities": [
+    "levitate"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "catchRate": 30,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "height": 10,
+  "weight": 2450,
+  "maleRatio": -1,
+  "experienceGroup": "fast",
+  "baseExperienceYield": 260,
+  "labels": [
+    "gen3"
+  ],
+  "aspects": [],
+  "forms": [],
+  "pokedexDescription": "After the original Lunatone absorbed a Solrock, it now is able to shine as bright as an eclipsed Sun.",
+  "moveset": {
+    "levelUp": [
+      {
+        "moveId": "tackle",
+        "level": 1
+      },
+      {
+        "moveId": "harden",
+        "level": 1
+      },
+      {
+        "moveId": "confusion",
+        "level": 1
+      },
+      {
+        "moveId": "rockthrow",
+        "level": 1
+      },
+      {
+        "moveId": "psywave",
+        "level": 1
+      },
+      {
+        "moveId": "healblock",
+        "level": 1
+      },
+      {
+        "moveId": "moonblast",
+        "level": 1
+      },
+      {
+        "moveId": "moonlight",
+        "level": 1
+      },
+      {
+        "moveId": "hypnosis",
+        "level": 5
+      },
+      {
+        "moveId": "rockpolish",
+        "level": 10
+      },
+      {
+        "moveId": "rockslide",
+        "level": 15
+      },
+      {
+        "moveId": "psyshock",
+        "level": 20
+      },
+      {
+        "moveId": "cosmicpower",
+        "level": 25
+      },
+      {
+        "moveId": "psychic",
+        "level": 30
+      },
+      {
+        "moveId": "stoneedge",
+        "level": 35
+      },
+      {
+        "moveId": "snarl",
+        "level": 40
+      },
+      {
+        "moveId": "futuresight",
+        "level": 45
+      },
+      {
+        "moveId": "magicroom",
+        "level": 50
+      },
+      {
+        "moveId": "darkpulse",
+        "level": 55
+      },
+      {
+        "moveId": "explosion",
+        "level": 60
+      },
+      {
+        "moveId": "foulplay",
+        "level": 65
+      }
+    ],
+    "egg": [
+      {
+        "moveId": "lashout"
+      }
+    ],
+    "tm": [
+      {
+        "moveId": "acrobatics"
+      },
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "batonpass"
+      },
+      {
+        "moveId": "blizzard"
+      },
+      {
+        "moveId": "bodyslam"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "cosmicpower"
+      },
+      {
+        "moveId": "darkpulse"
+      },
+      {
+        "moveId": "dreameater"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "earthquake"
+      },
+      {
+        "moveId": "embargo"
+      },
+      {
+        "moveId": "endure"
+      },
+      {
+        "moveId": "explosion"
+      },
+      {
+        "moveId": "facade"
+      },
+      {
+        "moveId": "flash"
+      },
+      {
+        "moveId": "foulplay"
+      },
+      {
+        "moveId": "futuresight"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "grassknot"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "gyroball"
+      },
+      {
+        "moveId": "hail"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "knockoff"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "lightscreen"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "nastyplot"
+      },
+      {
+        "moveId": "nightslash"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "payback"
+      },
+      {
+        "moveId": "powergem"
+      },
+      {
+        "moveId": "powerswap"
+      },
+      {
+        "moveId": "powertrip"
+      },
+      {
+        "moveId": "protect"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "psychicterrain"
+      },
+      {
+        "moveId": "psyshock"
+      },
+      {
+        "moveId": "raindance"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "reflect"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockblast"
+      },
+      {
+        "moveId": "rockpolish"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rocktomb"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "safeguard"
+      },
+      {
+        "moveId": "sandtomb"
+      },
+      {
+        "moveId": "sandstorm"
+      },
+      {
+        "moveId": "selfdestruct"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "smackdown"
+      },
+      {
+        "moveId": "snarl"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "storedpower"
+      },
+      {
+        "moveId": "substitute"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "taunt"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "terablast"
+      },
+      {
+        "moveId": "torment"
+      },
+      {
+        "moveId": "trickroom"
+      },
+      {
+        "moveId": "weatherball"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "tutor": [
+      {
+        "moveId": "allyswitch"
+      },
+      {
+        "moveId": "ancientpower"
+      },
+      {
+        "moveId": "bulldoze"
+      },
+      {
+        "moveId": "calmmind"
+      },
+      {
+        "moveId": "chargebeam"
+      },
+      {
+        "moveId": "earthpower"
+      },
+      {
+        "moveId": "gigaimpact"
+      },
+      {
+        "moveId": "gravity"
+      },
+      {
+        "moveId": "helpinghand"
+      },
+      {
+        "moveId": "hyperbeam"
+      },
+      {
+        "moveId": "icebeam"
+      },
+      {
+        "moveId": "icywind"
+      },
+      {
+        "moveId": "ironhead"
+      },
+      {
+        "moveId": "laserfocus"
+      },
+      {
+        "moveId": "magiccoat"
+      },
+      {
+        "moveId": "magicroom"
+      },
+      {
+        "moveId": "meteorbeam"
+      },
+      {
+        "moveId": "painsplit"
+      },
+      {
+        "moveId": "psychic"
+      },
+      {
+        "moveId": "recycle"
+      },
+      {
+        "moveId": "rest"
+      },
+      {
+        "moveId": "rockslide"
+      },
+      {
+        "moveId": "rollout"
+      },
+      {
+        "moveId": "shadowball"
+      },
+      {
+        "moveId": "signalbeam"
+      },
+      {
+        "moveId": "skillswap"
+      },
+      {
+        "moveId": "sleeptalk"
+      },
+      {
+        "moveId": "stealthrock"
+      },
+      {
+        "moveId": "stompingtantrum"
+      },
+      {
+        "moveId": "stoneedge"
+      },
+      {
+        "moveId": "swift"
+      },
+      {
+        "moveId": "telekinesis"
+      },
+      {
+        "moveId": "zenheadbutt"
+      }
+    ],
+    "legacy": [
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "defensecurl"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": []
+  },
+  "evolutions": [],
+  "evolvesFrom": "solrock",
+  "matchup": {
+    "weakTo": [
+      {
+        "type": "fighting",
+        "multiplier": 4
+      },
+      {
+        "type": "bug",
+        "multiplier": 2
+      },
+      {
+        "type": "fairy",
+        "multiplier": 2
+      },
+      {
+        "type": "grass",
+        "multiplier": 2
+      },
+      {
+        "type": "ground",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
+        "multiplier": 2
+      },
+      {
+        "type": "water",
+        "multiplier": 2
+      }
+    ],
+    "resists": [
+      {
+        "type": "dark",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "flying",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ghost",
+        "multiplier": 0.5
+      },
+      {
+        "type": "normal",
+        "multiplier": 0.5
+      },
+      {
+        "type": "poison",
+        "multiplier": 0.5
+      }
+    ],
+    "immuneTo": [
+      "psychic"
+    ]
+  },
+  "image": {
+    "kind": "render",
+    "url": "/renders/lunaclipse.png",
+    "placeholderColor": "#B6A136"
+  },
+  "spawnInfo": [
+    {
+      "biomes": [
+        "#cobblemon:is_dripstone"
+      ],
+      "bucket": "rare",
+      "level": "21-46",
+      "timeRange": "night",
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_dripstone"
+      ],
+      "bucket": "uncommon",
+      "level": "21-46",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_mountain"
+      ],
+      "bucket": "rare",
+      "level": "21-46",
+      "timeRange": "night",
+      "sourceId": "fanmade-form-funfair"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_overworld"
+      ],
+      "bucket": "uncommon",
+      "level": "21-46",
+      "timeRange": null,
+      "sourceId": "fanmade-form-funfair"
+    }
+  ],
+  "sourceMods": [
+    "fanmade-form-funfair"
+  ],
+  "primarySource": "fanmade-form-funfair",
+  "provenance": {
+    "implemented": "fanmade-form-funfair",
+    "name": "fanmade-form-funfair",
+    "primaryType": "fanmade-form-funfair",
+    "secondaryType": "fanmade-form-funfair",
+    "maleRatio": "fanmade-form-funfair",
+    "height": "fanmade-form-funfair",
+    "weight": "fanmade-form-funfair",
+    "pokedex": "fanmade-form-funfair",
+    "labels": "fanmade-form-funfair",
+    "aspects": "fanmade-form-funfair",
+    "abilities": "fanmade-form-funfair",
+    "eggGroups": "fanmade-form-funfair",
+    "baseStats": "fanmade-form-funfair",
+    "evYield": "fanmade-form-funfair",
+    "baseExperienceYield": "fanmade-form-funfair",
+    "experienceGroup": "fanmade-form-funfair",
+    "catchRate": "fanmade-form-funfair",
+    "eggCycles": "fanmade-form-funfair",
+    "baseFriendship": "fanmade-form-funfair",
+    "baseScale": "fanmade-form-funfair",
+    "hitbox": "fanmade-form-funfair",
+    "behaviour": "fanmade-form-funfair",
+    "drops": "fanmade-form-funfair",
+    "moves": "fanmade-form-funfair",
+    "preEvolution": "fanmade-form-funfair"
+  }
+}

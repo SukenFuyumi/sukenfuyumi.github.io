@@ -22,6 +22,32 @@ function summarizeRequirement(req: any): string {
       return `Dimensión: ${(req.identifier ?? "").replace(/^minecraft:/, "")}`;
     case "held_item":
       return `Sosteniendo: ${(req.itemCondition ?? "").replace(/^minecraft:|^cobblemon:/, "")}`;
+    // Fanmade Form Funfair's brewing mechanic (v1.4.0): a species feature
+    // (e.g. "ingredient_magma") must hold a value in `range` (e.g. "3-3").
+    // These stack (one per ingredient) to pick which potion_type Brewcargo
+    // evolves into.
+    case "property_range": {
+      const feature = String(req.feature ?? "").replace(/^ingredient_/, "");
+      const range = String(req.range ?? "");
+      const [lo, hi] = range.split("-");
+      const count = lo && lo === hi ? `×${lo}` : range;
+      return `${titleCaseWord(feature)} ${count}`.trim();
+    }
+    // Needs another species present in the party (e.g. Lunatone -> Lunaclipse
+    // requires Solrock in party), v1.4.0.
+    case "party_member":
+      return `${req.contains === false ? "Sin" : "Con"} ${titleCaseWord(req.target ?? "?")} en el equipo`;
+    case "advancement":
+      return `Logro: ${String(req.requiredAdvancement ?? req.advancement ?? "").replace(/^minecraft:/, "").split("/").pop()}`;
+    case "use_move":
+      return `Usar ${req.move}${req.amount > 1 ? ` ×${req.amount}` : ""}`;
+    // A raw PokemonProperties string, e.g. "palmtea palmtea_honey=32" - surface
+    // the key=value detail after the species name.
+    case "properties": {
+      const tokens = String(req.target ?? "").trim().split(/\s+/).slice(1);
+      const detail = tokens.map((t) => t.replace("=", ": ")).join(", ");
+      return detail ? `Propiedad ${detail}` : "Propiedad especial";
+    }
     default:
       return req?.variant ?? "Requisito especial";
   }
@@ -70,7 +96,24 @@ export function summarizeEvolution(evo: any): string {
   // variants aren't independently addressable pages), but still surface the
   // aspect in the summary so that detail isn't silently dropped.
   const resultParts = String(evo.result ?? "").trim().split(/\s+/);
-  if (resultParts.length > 1) parts.push(`variante ${resultParts.slice(1).join(" ")}`);
+  if (resultParts.length > 1) {
+    // Aspect tokens come as "aspect=x", "<feature>=<value>" (e.g.
+    // "potion_type=fire_resistance", v1.4.0), a bare literal, or "<feature>=true".
+    // Show just the meaningful value so the summary reads "variante fire resistance"
+    // instead of "variante potion_type=fire_resistance".
+    const aspect = resultParts
+      .slice(1)
+      .map((tok) => {
+        if (!tok.includes("=")) return tok;
+        const [key, value] = tok.split("=");
+        if (key === "aspect") return value;
+        if (value === "true") return key;
+        return value;
+      })
+      .map((s) => s.replace(/[_-]/g, " "))
+      .join(" ");
+    parts.push(`variante ${aspect}`);
+  }
   return parts.join(" · ");
 }
 
