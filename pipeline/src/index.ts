@@ -472,8 +472,26 @@ async function main() {
     ...[...records.values()].flatMap((r) => r.forms.map((f: any) => ({ desc: f.pokedexDescription, slug: f.slug, id: r.id, evolutions: f.evolutions }))),
   ];
   const recordsBySlug = new Map([...records.values()].map((r) => [r.slug, r]));
+  // A genuine "fusion pack" result has NO real Cobblemon evolution pointing at
+  // it - synthesizing one from flavor text is the only way to surface it. But
+  // some packs (Fanmade Form Funfair's Lunaclipse/Solaclipse) DO define a real
+  // evolution and also name both celestial partners in the flavor text, where
+  // the second species is only a party-member requirement, not a fusion
+  // component ("Lunatone absorbed a Solrock" - only Lunatone becomes
+  // Lunaclipse; Solrock must merely be in the party). Scanning the text there
+  // produced bogus cross-edges (Solrock -> Lunaclipse) and duplicates of the
+  // real evolution. So if anything already evolves into a target for real,
+  // trust that and skip fusion synthesis for it entirely. Collected before the
+  // loop, so it only sees real (non-fusion) edges.
+  const realEvolutionTargetSlugs = new Set<string>();
+  for (const t of fusionTargets) {
+    for (const e of t.evolutions ?? []) {
+      if (e.variant !== "fusion" && e.targetSlug) realEvolutionTargetSlugs.add(e.targetSlug);
+    }
+  }
   let fusionEdgeCount = 0;
   for (const target of fusionTargets) {
+    if (realEvolutionTargetSlugs.has(target.slug)) continue;
     const componentNames = parseFusionComponentNames(target.desc);
     if (componentNames.length < 2) continue;
     const componentSlugs = componentNames.map((n) => nameToSlug.get(n)).filter((s): s is string => !!s && s !== target.slug);
