@@ -64,10 +64,24 @@ export function layerRecords<T extends { sourceId: string; priority: number; rol
         const existing: any[] = Array.isArray(entry.data[field]) ? entry.data[field] : [];
         const combined = [...existing];
         for (const item of value) {
-          const dedupeKey = item?.id ?? item?.name;
+          // Tag each contributed entry with the mod that introduced it, so a
+          // materialized form/evolution can name its true origin instead of
+          // inheriting the base species' whole contributor list (e.g. Leafeon
+          // Kazeran comes from Kazeran Eeveelutions, not from Cobblemon core /
+          // Xadok's Megas / Laser's Additions, which only touch base Leafeon).
+          const tagged = (item && typeof item === "object" && item.__source === undefined)
+            ? { ...item, __source: record.sourceId }
+            : item;
+          const dedupeKey = tagged?.id ?? tagged?.name;
           const idx = dedupeKey ? combined.findIndex((e) => (e?.id ?? e?.name) === dedupeKey) : -1;
-          if (idx >= 0) combined[idx] = item;
-          else combined.push(item);
+          if (idx >= 0) {
+            // A later source overwrites the entry's content, but the ORIGIN is
+            // whichever mod first introduced it - preserve the earlier __source.
+            const originSource = combined[idx]?.__source ?? tagged?.__source;
+            combined[idx] = (tagged && typeof tagged === "object") ? { ...tagged, __source: originSource } : tagged;
+          } else {
+            combined.push(tagged);
+          }
         }
         entry.data[field] = combined;
       } else {

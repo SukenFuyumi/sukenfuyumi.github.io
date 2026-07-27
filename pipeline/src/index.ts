@@ -301,6 +301,10 @@ async function main() {
       // a slug, in the pass below.
       _rawEvolutions: formData.evolutions ?? [],
       evolutions: [] as any[],
+      // Mod that introduced this form (tagged during the array-merge). Used so
+      // the form's page can name its true origin instead of the base species'
+      // full contributor list.
+      originMod: formData.__source ?? null,
     };
   }
 
@@ -374,6 +378,10 @@ async function main() {
       spawnInfo,
       sourceMods: [...entry.sources],
       primarySource: primarySource.get(key) ?? [...entry.sources][0],
+      // The single mod this Pokémon originates from. For a base species that's
+      // whichever mod ships its species file (its primarySource); the rest of
+      // sourceMods are incidental (balance patches, added mega forms, etc.).
+      originMod: primarySource.get(key) ?? [...entry.sources][0],
       provenance: entry.provenance,
     });
   }
@@ -590,6 +598,10 @@ async function main() {
         spawnInfo: [],
         sourceMods: parent.sourceMods,
         primarySource: parent.primarySource,
+        // A form's true origin is the mod that introduced its aspect (tagged in
+        // the merge), not the base species' contributor list. Falls back to the
+        // parent's origin for forms Cobblemon itself defines (regional, gmax…).
+        originMod: form.originMod ?? parent.originMod,
         provenance: parent.provenance,
         formOf: { slug: parent.slug, name: parent.name },
         formName: form.name,

@@ -90,10 +90,21 @@ const siblingForms = baseRecord ? baseRecord.forms.filter((f: any) => f.slug && 
             ))}
           </div>
           <p class="pdx-description">{p.pokedexDescription}</p>
-          <div style="display:flex; flex-wrap:wrap; gap:0.3rem; margin-top:0.3rem;">
-            {p.sourceMods.map((s: string) => (
-              <span class={`pill ${s === "cobblemon-core" ? "official" : ""}`}>{sourceLookup.get(s) ?? s}</span>
-            ))}
+          <div style="display:flex; flex-wrap:wrap; gap:0.3rem; margin-top:0.3rem; align-items:center;">
+            {(() => {
+              const origin = p.originMod ?? p.primarySource;
+              const others = p.sourceMods.filter((s: string) => s !== origin);
+              return (
+                <>
+                  <span class="pill origin" title="Mod que introduce este Pokémon">
+                    Origen: {sourceLookup.get(origin) ?? origin}
+                  </span>
+                  {others.map((s: string) => (
+                    <span class="pill muted" title="Solo lo modifica o le añade contenido (formas, balance…)">{sourceLookup.get(s) ?? s}</span>
+                  ))}
+                </>
+              );
+            })()}
           </div>
           <p class="pdx-quickfacts">
             {p.height ? `${(p.height / 10).toFixed(2).replace(/0+$/, "").replace(/\.$/, "")} m` : "—"} ·{" "}
