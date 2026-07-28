@@ -17,6 +17,7 @@ import { resetOutputDir, writeJson } from "./output.js";
 import { TYPE_COLORS, typeColor } from "./typeColors.js";
 import { ABILITY_TYPE_IMMUNITIES } from "./abilityEffects.js";
 import { buildTerrainWeatherIndex } from "./terrainWeather.js";
+import { describeSecondaryEffects, summarizeSecondaryEffects } from "./secondaryEffects.js";
 import { PUBLIC_TEXTURES_DIR, PUBLIC_RENDERS_DIR, PUBLIC_DIR } from "./config.js";
 import type { MoveRecord, AbilityRecord, BalanceChange } from "./types.js";
 import { writeFileSync } from "node:fs";
@@ -91,6 +92,10 @@ async function main() {
     const langDesc = ingested.lang.get(`cobblemon.move.${id}.desc`)?.value ?? null;
     const langName = ingested.lang.get(`cobblemon.move.${id}`)?.value ?? null;
     const finalDesc = langDesc ?? data.desc ?? null;
+    // Read off the MERGED data, so a balance patch that retunes a chance (or
+    // swaps the inflicted status) is reflected without extra handling.
+    const secondaryEffects = describeSecondaryEffects(data);
+    const secondarySummary = summarizeSecondaryEffects(secondaryEffects);
     const balanceChanges = override
       ? computeBalanceChanges(
           base,
@@ -106,6 +111,19 @@ async function main() {
           { field: "desc", label: "Efecto", before: ingested.langCore.get(`cobblemon.move.${id}.desc`) ?? null, after: finalDesc }
         )
       : [];
+    // Secondary effects live in nested objects/arrays, so the flat field-by-field
+    // comparison above can't diff them - compare their rendered summaries instead.
+    if (override) {
+      const baseSummary = summarizeSecondaryEffects(describeSecondaryEffects(base));
+      if (baseSummary !== secondarySummary) {
+        balanceChanges.push({
+          field: "secondaryEffects",
+          label: "Efecto secundario",
+          before: baseSummary ?? "ninguno",
+          after: secondarySummary ?? "ninguno",
+        });
+      }
+    }
     moveLookup.set(id, {
       id,
       name: langName ?? data.name ?? id,
@@ -119,6 +137,8 @@ async function main() {
       flags: data.flags ?? {},
       shortDesc: langDesc ?? data.shortDesc ?? null,
       desc: finalDesc,
+      secondaryEffects: secondaryEffects.length > 0 ? secondaryEffects : undefined,
+      secondarySummary: secondarySummary ?? undefined,
       sourceId: override?.provenance ? Object.values(override.provenance)[0] : "cobblemon-core",
       isOverride: !!override,
       balanceChanges: balanceChanges.length > 0 ? balanceChanges : undefined,
@@ -710,7 +730,7 @@ async function main() {
   writeFileSync(
     resolvePath(PUBLIC_DIR, "moves-index.json"),
     JSON.stringify(
-      allMoves.map((m) => ({ id: m.id, name: m.name, type: m.type, category: m.category, basePower: m.basePower, accuracy: m.accuracy, pp: m.pp, isOverride: m.isOverride }))
+      allMoves.map((m) => ({ id: m.id, name: m.name, type: m.type, category: m.category, basePower: m.basePower, accuracy: m.accuracy, pp: m.pp, isOverride: m.isOverride, secondarySummary: m.secondarySummary }))
     ),
     "utf-8"
   );

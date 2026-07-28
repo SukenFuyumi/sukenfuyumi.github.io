@@ -100,6 +100,10 @@ export interface MoveRecord {
   flags: Record<string, any>;
   shortDesc: string | null;
   desc: string | null;
+  /** Chance-based secondary effects, e.g. [{ chance: 30, effect: "envenenar" }]. */
+  secondaryEffects?: { chance: number | null; effect: string }[];
+  /** One-line render of the above, e.g. "30% envenenar". */
+  secondarySummary?: string;
   sourceId: string;
   isOverride: boolean;
   balanceChanges?: BalanceChange[];

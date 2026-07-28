@@ -9,6 +9,7 @@ interface Move {
   accuracy: number | boolean | null;
   pp: number | null;
   isOverride: boolean;
+  secondarySummary?: string;
 }
 
 export default function MoveTable() {
@@ -52,7 +53,7 @@ export default function MoveTable() {
       <p style={{ color: "var(--text-muted)", fontSize: "0.85rem" }}>{filtered.length} resultados</p>
       <table>
         <thead>
-          <tr><th>Nombre</th><th>Tipo</th><th>Cat.</th><th>Poder</th><th>Prec.</th><th>PP</th><th></th></tr>
+          <tr><th>Nombre</th><th>Tipo</th><th>Cat.</th><th>Poder</th><th>Prec.</th><th>PP</th><th>Efecto sec.</th><th></th></tr>
         </thead>
         <tbody>
           {filtered.slice(0, 500).map((m) => (
@@ -63,6 +64,7 @@ export default function MoveTable() {
               <td>{m.basePower || "—"}</td>
               <td>{m.accuracy === true ? "—" : m.accuracy}</td>
               <td>{m.pp ?? "—"}</td>
+              <td>{m.secondarySummary ? <span class="secondary-effect">{m.secondarySummary}</span> : "—"}</td>
               <td>{m.isOverride && <span class="pill override">rebalanceado</span>}</td>
             </tr>
           ))}

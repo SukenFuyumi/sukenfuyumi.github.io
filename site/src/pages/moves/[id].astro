@@ -53,6 +53,17 @@ const learnedBySorted = (m.learnedBy ?? [])
       <span><strong>PP:</strong> {m.pp ?? "—"}</span>
       <span><strong>Prioridad:</strong> {m.priority ?? 0}</span>
     </div>
+    {m.secondaryEffects?.length > 0 && (
+      <p style="margin:0.5rem 0;">
+        <strong>Efecto secundario:</strong>
+        {m.secondaryEffects.map((s: any) => (
+          <span class="secondary-effect">
+            {s.chance !== null && <span class="chance">{s.chance}%</span>}
+            {s.effect}
+          </span>
+        ))}
+      </p>
+    )}
     {(m.shortDesc || m.desc) && <p>{m.desc || m.shortDesc}</p>}
     {Object.keys(m.flags ?? {}).length > 0 && (
       <p style="font-size:0.85rem; color:var(--text-muted);">

@@ -31,9 +31,21 @@ const changesSummary = move?.balanceChanges?.length
       <td>{move.basePower || "—"}</td>
       <td>{move.accuracy === true ? "—" : move.accuracy}</td>
       <td>{move.pp ?? "—"}</td>
+      <td>
+        {move.secondaryEffects?.length ? (
+          move.secondaryEffects.map((s: any) => (
+            <div class="secondary-effect">
+              {s.chance !== null && <span class="chance">{s.chance}%</span>}
+              {s.effect}
+            </div>
+          ))
+        ) : (
+          "—"
+        )}
+      </td>
       <td>{move.isOverride && <span class="pill override">rebalanceado</span>}</td>
     </>
   ) : (
-    <td colspan="5" style="color:var(--text-muted);">Movimiento no encontrado en los datos del servidor</td>
+    <td colspan="7" style="color:var(--text-muted);">Movimiento no encontrado en los datos del servidor</td>
   )}
 </tr>

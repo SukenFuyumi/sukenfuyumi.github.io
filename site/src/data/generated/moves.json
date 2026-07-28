@@ -1022,6 +1022,13 @@
     },
     "shortDesc": "Opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats.",
     "desc": "Opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "10% -1 Def. Especial (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -2015,6 +2022,13 @@
     },
     "shortDesc": "The user attacks by spitting fluid that works to melt the target. This also harshly lowers the target's Sp. Def stat.",
     "desc": "The user attacks by spitting fluid that works to melt the target. This also harshly lowers the target's Sp. Def stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-2 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -2 Def. Especial (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -10496,8 +10510,23 @@
     },
     "shortDesc": "Riding the winds, the user attacks the target by dancing and flapping its wings. This may also boost the user's Atk stat.",
     "desc": "Riding the winds, the user attacks the target by dancing and flapping its wings. This may also boost the user's Atk stat.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "+1 Ataque (al usuario)"
+      }
+    ],
+    "secondarySummary": "50% +1 Ataque (al usuario)",
     "sourceId": "lively-mons",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "50% +1 Ataque (al usuario)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "laprise",
@@ -18286,6 +18315,13 @@
     },
     "shortDesc": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
     "desc": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -20540,6 +20576,13 @@
     },
     "shortDesc": "100% confuse target that had a stat rise this turn.",
     "desc": "100% confuse target that had a stat rise this turn.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -27132,6 +27175,13 @@
     },
     "shortDesc": "The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.",
     "desc": "The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -27162,6 +27212,13 @@
     },
     "shortDesc": "The user attacks with a prehistoric power. This may also boost all the user's stats at once.",
     "desc": "The user attacks with a prehistoric power. This may also boost all the user's stats at once.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "+1 Ataque, +1 Defensa, +1 At. Especial, +1 Def. Especial, +1 Velocidad (al usuario)"
+      }
+    ],
+    "secondarySummary": "10% +1 Ataque, +1 Defensa, +1 At. Especial, +1 Def. Especial, +1 Velocidad (al usuario)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -31135,6 +31192,13 @@
     },
     "shortDesc": "The user attacks the target with an acidic liquid created from tart apples. This also lowers the target's Sp. Def stat.",
     "desc": "The user attacks the target with an acidic liquid created from tart apples. This also lowers the target's Sp. Def stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Def. Especial (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -32283,6 +32347,13 @@
     },
     "shortDesc": "The user toys with the target and attacks it using light and fluid dance steps. This also boosts the user's Speed stat.",
     "desc": "The user toys with the target and attacks it using light and fluid dance steps. This also boosts the user's Speed stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 Velocidad (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 Velocidad (al usuario)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "learnedBy": [
@@ -38631,6 +38702,13 @@
     },
     "shortDesc": "The user attacks the target by jumping out and startling the opponent. This attack hits first and makes the target flinch, but it works only on the first turn each time the user enters battle.",
     "desc": "The user attacks the target by jumping out and startling the opponent. This attack hits first and makes the target flinch, but it works only on the first turn each time the user enters battle.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "100% retroceso",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -38651,6 +38729,12 @@
         "label": "Efecto",
         "before": "The user attacks the target by crying out in a startling fashion. This may also make the target flinch.",
         "after": "The user attacks the target by jumping out and startling the opponent. This attack hits first and makes the target flinch, but it works only on the first turn each time the user enters battle."
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "30% retroceso",
+        "after": "100% retroceso"
       }
     ],
     "learnedBy": [
@@ -46640,6 +46724,13 @@
     },
     "shortDesc": "Morpeko attacks and boosts its Speed stat with the energy stored in its cheeks. This move's type changes depending on the user's form.",
     "desc": "Morpeko attacks and boosts its Speed stat with the energy stored in its cheeks. This move's type changes depending on the user's form.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 Velocidad (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 Velocidad (al usuario)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "learnedBy": [
@@ -46672,8 +46763,23 @@
     },
     "shortDesc": "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.",
     "desc": "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "-1 Ataque (al objetivo)"
+      }
+    ],
+    "secondarySummary": "30% -1 Ataque (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "10% -1 Ataque (al objetivo)",
+        "after": "30% -1 Ataque (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "cloyster",
@@ -46950,8 +47056,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Electric Terrain and snow or hail.",
     "desc": "This attack makes use of nature's power. Its effects come from Electric Terrain and snow or hail.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Ataque (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Ataque (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% -1 Ataque (al objetivo)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -48787,6 +48908,13 @@
     },
     "shortDesc": "The user attacks by kicking up into the air and slamming its heel down upon the target. This may also confuse the target. If it misses, the user takes damage instead.",
     "desc": "The user attacks by kicking up into the air and slamming its heel down upon the target. This may also confuse the target. If it misses, the user takes damage instead.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "30% confundir",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "learnedBy": [
@@ -51895,6 +52023,13 @@
     },
     "shortDesc": "The user launches countless toxic barbs to inflict damage. This may also poison the target. This move's power is doubled if the target is already poisoned.",
     "desc": "The user launches countless toxic barbs to inflict damage. This may also poison the target. This move's power is doubled if the target is already poisoned.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "envenenar"
+      }
+    ],
+    "secondarySummary": "50% envenenar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -59595,6 +59730,13 @@
     },
     "shortDesc": "The target is bitten with viciously sharp fangs. This may also make the target flinch.",
     "desc": "The target is bitten with viciously sharp fangs. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -61590,6 +61732,13 @@
     },
     "shortDesc": "The user attacks its target with spine-chilling resentment. This may also leave the target with frostbite. This move's power is doubled if the target has a status condition.",
     "desc": "The user attacks its target with spine-chilling resentment. This may also leave the target with frostbite. This move's power is doubled if the target has a status condition.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "congelar"
+      }
+    ],
+    "secondarySummary": "30% congelar",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -61610,6 +61759,12 @@
         "label": "Efecto",
         "before": "The user attacks the target with spine-chilling resentment. This also lowers the target's Attack stat.",
         "after": "The user attacks its target with spine-chilling resentment. This may also leave the target with frostbite. This move's power is doubled if the target has a status condition."
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "100% -1 Ataque (al objetivo)",
+        "after": "30% congelar"
       }
     ],
     "learnedBy": [
@@ -62444,8 +62599,23 @@
     },
     "shortDesc": "Shoots a blast of dragon breath mixed with blue fire. This move is both Dragon and Fire type. May burn or paralyze the target.",
     "desc": "Shoots a blast of dragon breath mixed with blue fire. This move is both Dragon and Fire type. May burn or paralyze the target.",
+    "secondaryEffects": [
+      {
+        "chance": 25,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "25% efecto adicional",
     "sourceId": "starlightfusion",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "25% efecto adicional"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "gardevoir-reshievoir",
@@ -62472,6 +62642,13 @@
     },
     "shortDesc": "The user launches a kick that has a heightened chance of landing a critical hit. This may also leave the target with a burn.",
     "desc": "The user launches a kick that has a heightened chance of landing a critical hit. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "10% quemar",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "learnedBy": [
@@ -62699,6 +62876,13 @@
     },
     "shortDesc": "The user attacks the target with a burning drift. This may also leave the target with a burn.",
     "desc": "The user attacks the target with a burning drift. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "30% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -62726,6 +62910,13 @@
     },
     "shortDesc": "The user attacks with savagely cold winds that cause both body and spirit to tremble. This may also lower the Speed stats of opposing Pokémon.",
     "desc": "The user attacks with savagely cold winds that cause both body and spirit to tremble. This may also lower the Speed stats of opposing Pokémon.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "30% -1 Velocidad (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -62761,6 +62952,13 @@
     },
     "shortDesc": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.",
     "desc": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "congelar"
+      }
+    ],
+    "secondarySummary": "10% congelar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -67392,6 +67590,13 @@
     },
     "shortDesc": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn.",
     "desc": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "20% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -69138,6 +69343,13 @@
     },
     "shortDesc": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis.",
     "desc": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "30% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -74278,8 +74490,23 @@
     },
     "shortDesc": "The user attacks with a beam of electricity. This may also paralyze the target.",
     "desc": "The user attacks with a beam of electricity. This may also paralyze the target.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "30% paralizar",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% paralizar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "electrode",
@@ -74629,6 +74856,13 @@
     },
     "shortDesc": "The user surrounds itself with a great amount of electricity and charges the target. This may also leave the target with paralysis.",
     "desc": "The user surrounds itself with a great amount of electricity and charges the target. This may also leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "20% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -74667,6 +74901,13 @@
     },
     "shortDesc": "The user clubs the target with a bone. This may also make the target flinch.",
     "desc": "The user clubs the target with a bone. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -74687,6 +74928,12 @@
         "label": "PP",
         "before": 20,
         "after": 15
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "10% retroceso",
+        "after": "30% retroceso"
       }
     ],
     "learnedBy": [
@@ -75112,6 +75359,13 @@
     },
     "shortDesc": "The user bounces up high on the first turn, then drops onto the target on the next turn. This may also leave the target with paralysis.",
     "desc": "The user bounces up high on the first turn, then drops onto the target on the next turn. This may also leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "30% paralizar",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -77044,8 +77298,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Psychic Terrain and rain",
     "desc": "This attack makes use of nature's power. Its effects come from Psychic Terrain and rain",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "+1 At. Especial (al usuario)"
+      }
+    ],
+    "secondarySummary": "20% +1 At. Especial (al usuario)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% +1 At. Especial (al usuario)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -77924,6 +78193,13 @@
     },
     "shortDesc": "The user swings its tough tail wildly and attacks opposing Pokémon. This also lowers their Attack stats.",
     "desc": "The user swings its tough tail wildly and attacks opposing Pokémon. This also lowers their Attack stats.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Ataque (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Ataque (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -84314,6 +84590,13 @@
     },
     "shortDesc": "A spray of countless bubbles is jetted at the opposing Pokémon. This may also lower their Speed stat.",
     "desc": "A spray of countless bubbles is jetted at the opposing Pokémon. This may also lower their Speed stat.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "10% -1 Velocidad (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -84845,8 +85128,23 @@
     },
     "shortDesc": "A spray of bubbles is forcefully ejected at the target. This may also lower the target's Speed stat.",
     "desc": "A spray of bubbles is forcefully ejected at the target. This may also lower the target's Speed stat.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "30% -1 Velocidad (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "10% -1 Velocidad (al objetivo)",
+        "after": "30% -1 Velocidad (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "articuno",
@@ -87416,6 +87714,13 @@
     },
     "shortDesc": "The user vibrates to generate a damaging sound wave. This may also lower the target's Sp. Def stat.",
     "desc": "The user vibrates to generate a damaging sound wave. This may also lower the target's Sp. Def stat.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "10% -1 Def. Especial (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -91040,6 +91345,13 @@
     },
     "shortDesc": "The user strikes everything around it by stomping down on the ground. This lowers the Speed stats of those hit.",
     "desc": "The user strikes everything around it by stomping down on the ground. This lowers the Speed stats of those hit.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Velocidad (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -99489,6 +99801,13 @@
     },
     "shortDesc": "The user attacks with energy from jealousy. This leaves all opposing Pokémon that have had their stats boosted during the turn with a burn.",
     "desc": "The user attacks with energy from jealousy. This leaves all opposing Pokémon that have had their stats boosted during the turn with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -100489,6 +100808,13 @@
     },
     "shortDesc": "The user shoots a jolt of electricity to attack the target. This also leaves the target with paralysis.",
     "desc": "The user shoots a jolt of electricity to attack the target. This also leaves the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "100% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -112074,6 +112400,13 @@
     },
     "shortDesc": "The user attacks the target with an electric charge. The residual electricity may also boost the user's Sp. Atk stat.",
     "desc": "The user attacks the target with an electric charge. The residual electricity may also boost the user's Sp. Atk stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 At. Especial (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 At. Especial (al usuario)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -112088,6 +112421,12 @@
         "label": "Precisión",
         "before": 90,
         "after": 100
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "70% +1 At. Especial (al usuario)",
+        "after": "100% +1 At. Especial (al usuario)"
       }
     ],
     "learnedBy": [
@@ -119045,6 +119384,13 @@
     },
     "shortDesc": "The user attacks the target with sound waves of deafening chatter. This also confuses the target.",
     "desc": "The user attacks the target with sound waves of deafening chatter. This also confuses the target.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "100% confundir",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -119498,6 +119844,13 @@
     },
     "shortDesc": "The user attacks the target by showering it with water that's so cold it saps the target's power. This move's power is boosted by 50 percent in snow or hail. This also lowers the target's Attack stat.",
     "desc": "The user attacks the target by showering it with water that's so cold it saps the target's power. This move's power is boosted by 50 percent in snow or hail. This also lowers the target's Attack stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Ataque (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Ataque (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -125149,6 +125502,13 @@
     },
     "shortDesc": "The user attacks the target with a twisting drift. This may also leave the target with paralysis.",
     "desc": "The user attacks the target with a twisting drift. This may also leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "30% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": []
@@ -125413,8 +125773,23 @@
     },
     "shortDesc": "Fires a highly compressed jet of water. This move always hits and always lands a critical hit. May lower the target's Sp. Def.",
     "desc": "Fires a highly compressed jet of water. This move always hits and always lands a critical hit. May lower the target's Sp. Def.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "30% -1 Def. Especial (al objetivo)",
     "sourceId": "starlightfusion",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% -1 Def. Especial (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "armarouge-armaraeon",
@@ -131140,8 +131515,23 @@
     },
     "shortDesc": "The user fires flame-laced feathers at opposing Pokémon. This may also leave the targets with a burn.",
     "desc": "The user fires flame-laced feathers at opposing Pokémon. This may also leave the targets with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "50% quemar",
     "sourceId": "lively-mons",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "50% quemar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "solarica",
@@ -134042,6 +134432,13 @@
     },
     "shortDesc": "The target is hit with a weak telekinetic force to inflict damage. This may also confuse the target.",
     "desc": "The target is hit with a weak telekinetic force to inflict damage. This may also confuse the target.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "10% confundir",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -135190,6 +135587,13 @@
     },
     "shortDesc": "The target is attacked with long, creeping tentacles, vines, or the like. This may also lower the target's Speed stat.",
     "desc": "The target is attacked with long, creeping tentacles, vines, or the like. This may also lower the target's Speed stat.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "10% -1 Velocidad (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "learnedBy": [
@@ -144274,6 +144678,13 @@
     },
     "shortDesc": "A slashing attack with a poisonous blade that may also poison the target. This move has a heightened chance of landing a critical hit.",
     "desc": "A slashing attack with a poisonous blade that may also poison the target. This move has a heightened chance of landing a critical hit.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "envenenar"
+      }
+    ],
+    "secondarySummary": "10% envenenar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -144690,6 +145101,13 @@
     },
     "shortDesc": "The user crunches up the target with sharp fangs. This may also lower the target's Defense stat.",
     "desc": "The user crunches up the target with sharp fangs. This may also lower the target's Defense stat.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Defensa (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -147689,6 +148107,13 @@
     },
     "shortDesc": "The user slashes the target with hard and sharp claws. This may also lower the target's Defense stat.",
     "desc": "The user slashes the target with hard and sharp claws. This may also lower the target's Defense stat.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "50% -1 Defensa (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -148126,8 +148551,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Misty Terrain and sandstorms.",
     "desc": "This attack makes use of nature's power. Its effects come from Misty Terrain and sandstorms.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "+1 Defensa (al usuario)"
+      }
+    ],
+    "secondarySummary": "20% +1 Defensa (al usuario)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% +1 Defensa (al usuario)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -155438,6 +155878,13 @@
     },
     "shortDesc": "The user releases a horrible aura imbued with ill intent. This may also make the target flinch.",
     "desc": "The user releases a horrible aura imbued with ill intent. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "20% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -163652,8 +164099,23 @@
     },
     "shortDesc": "A charged strike that traps the target on hit, lowers Speed, and can hit Normal-type Pokémon.",
     "desc": "A charged strike that traps the target on hit, lowers Speed, and can hit Normal-type Pokémon.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-2 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -2 Velocidad (al objetivo)",
     "sourceId": "starlightfusion",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% -2 Velocidad (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "armarouge-armartina",
@@ -163798,8 +164260,23 @@
     },
     "shortDesc": "The user attacks by super-freezing the air around the target. This also leaves the target with frostbite.",
     "desc": "The user attacks by super-freezing the air around the target. This also leaves the target with frostbite.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "congelar"
+      }
+    ],
+    "secondarySummary": "100% congelar",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% congelar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "articuno",
@@ -174447,6 +174924,13 @@
     },
     "shortDesc": "The user lashes out at the target with ruinous claws. This may also leave the target poisoned, paralyzed, or asleep.",
     "desc": "The user lashes out at the target with ruinous claws. This may also leave the target poisoned, paralyzed, or asleep.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "50% efecto adicional",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -177029,6 +177513,13 @@
     },
     "shortDesc": "The user strikes everything around it by letting loose a flare of electricity. This may also leave those hit by the attack with paralysis.",
     "desc": "The user strikes everything around it by letting loose a flare of electricity. This may also leave those hit by the attack with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "30% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -180277,6 +180768,13 @@
     },
     "shortDesc": "The target is hit with rhythmically launched punches. This may also leave the target confused.",
     "desc": "The target is hit with rhythmically launched punches. This may also leave the target confused.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "30% confundir",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -180285,6 +180783,12 @@
         "label": "Poder",
         "before": 70,
         "after": 80
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "20% confundir",
+        "after": "30% confundir"
       }
     ],
     "learnedBy": [
@@ -180831,6 +181335,13 @@
     },
     "shortDesc": "The user uses the hex nut in its chest as an axis to spin, striking the target with its arms twice in a row. This may also make the target flinch.",
     "desc": "The user uses the hex nut in its chest as an axis to spin, striking the target with its arms twice in a row. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -196391,8 +196902,23 @@
     },
     "shortDesc": "The user lunges at the target with a blazing speed, dealing damage and recoil, raising speed by 2 stages in the sun and 1 without it. This move is both a Fire and Dragon type move.",
     "desc": "The user lunges at the target with a blazing speed, dealing damage and recoil, raising speed by 2 stages in the sun and 1 without it. This move is both a Fire and Dragon type move.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 Velocidad (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 Velocidad (al usuario)",
     "sourceId": "kazeran-eeveelutions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% +1 Velocidad (al usuario)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "flareon-kazeran",
@@ -196604,8 +197130,23 @@
     },
     "shortDesc": "The user exhales a mighty gust that inflicts damage. This may also leave the target with paralysis.",
     "desc": "The user exhales a mighty gust that inflicts damage. This may also leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "30% efecto adicional",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "30% paralizar",
+        "after": "30% efecto adicional"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "aerodactyl",
@@ -200403,8 +200944,23 @@
     },
     "shortDesc": "The target is bitten with draconic fangs. This may also make the target flinch.",
     "desc": "The target is bitten with draconic fangs. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "20% retroceso",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% retroceso"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "aerodactyl",
@@ -204338,6 +204894,13 @@
     },
     "shortDesc": "The user tackles the target while exhibiting overwhelming menace. This may also make the target flinch.",
     "desc": "The user tackles the target while exhibiting overwhelming menace. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -204346,6 +204909,12 @@
         "label": "Precisión",
         "before": 75,
         "after": 85
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "20% retroceso",
+        "after": "30% retroceso"
       }
     ],
     "learnedBy": [
@@ -213088,6 +213657,13 @@
     },
     "shortDesc": "The user plays its drum, controlling the drum's roots to attack the target. This also lowers the target's Speed stat.",
     "desc": "The user plays its drum, controlling the drum's roots to attack the target. This also lowers the target's Speed stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Velocidad (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -215772,6 +216348,13 @@
     },
     "shortDesc": "The user attacks by punching the target with full concentrated power. This also confuses the target.",
     "desc": "The user attacks by punching the target with full concentrated power. This also confuses the target.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "100% confundir",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -216771,6 +217354,13 @@
     },
     "shortDesc": "The user makes the ground under the target erupt with power. This may also lower the target's Sp. Def stat.",
     "desc": "The user makes the ground under the target erupt with power. This may also lower the target's Sp. Def stat.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "10% -1 Def. Especial (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -226355,8 +226945,23 @@
     },
     "shortDesc": "The user slashes twice with its blades. Always lands a critical hit, and each hit has a 50% chance to lower the target's Defense by one stage. This move can hit Normal-type Pokémon.",
     "desc": "The user slashes twice with its blades. Always lands a critical hit, and each hit has a 50% chance to lower the target's Defense by one stage. This move can hit Normal-type Pokémon.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "50% -1 Defensa (al objetivo)",
     "sourceId": "starlightfusion",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "50% -1 Defensa (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "ceruledge-giraruledge",
@@ -227141,6 +227746,13 @@
     },
     "shortDesc": "The user attacks with its tremendous psychic power. This also drains 3 PP from the move last used by the target.",
     "desc": "The user attacks with its tremendous psychic power. This also drains 3 PP from the move last used by the target.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -227350,8 +227962,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Electric Terrain.",
     "desc": "This attack makes use of nature's power. Its effects come from Electric Terrain.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "20% paralizar",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% paralizar"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -229741,6 +230368,13 @@
     },
     "shortDesc": "The user captures opposing Pokémon in an electric net to inflict damage. This also lowers their Speed stats.",
     "desc": "The user captures opposing Pokémon in an electric net to inflict damage. This also lowers their Speed stats.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Velocidad (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -232238,6 +232872,13 @@
     },
     "shortDesc": "The target is attacked with small flames. This may also leave the target with a burn.",
     "desc": "The target is attacked with small flames. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "10% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -249059,8 +249700,23 @@
     },
     "shortDesc": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.",
     "desc": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Def. Especial (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "10% -1 Def. Especial (al objetivo)",
+        "after": "20% -1 Def. Especial (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "abra",
@@ -254862,6 +255518,13 @@
     },
     "shortDesc": "The user slashes the target with aura-enriched wings. This also boosts the user's Speed stat. This move has a heightened chance of landing a critical hit.",
     "desc": "The user slashes the target with aura-enriched wings. This also boosts the user's Speed stat. This move has a heightened chance of landing a critical hit.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 Velocidad (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 Velocidad (al usuario)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -258157,6 +258820,13 @@
     },
     "shortDesc": "The user attacks with an odd, unseeable power. This may also make the target flinch.",
     "desc": "The user attacks with an odd, unseeable power. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "10% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -268105,6 +268775,13 @@
     },
     "shortDesc": "This attack hits first and makes the target flinch. It works only on the first turn each time the user enters battle.",
     "desc": "This attack hits first and makes the target flinch. It works only on the first turn each time the user enters battle.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "100% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -270428,8 +271105,23 @@
     },
     "shortDesc": "The user expels streams of radioactive particles from its mouth. This also lowers the opposing Pokémon's Defence stats.",
     "desc": "The user expels streams of radioactive particles from its mouth. This also lowers the opposing Pokémon's Defence stats.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Defensa (al objetivo)",
     "sourceId": "lively-mons",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% -1 Defensa (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "folly",
@@ -275540,6 +276232,13 @@
     },
     "shortDesc": "Cloaked in flames, the user attacks the target by dancing and flapping its wings. This may also boost the user's Sp. Atk stat.",
     "desc": "Cloaked in flames, the user attacks the target by dancing and flapping its wings. This may also boost the user's Sp. Atk stat.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "+1 At. Especial (al usuario)"
+      }
+    ],
+    "secondarySummary": "50% +1 At. Especial (al usuario)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -275577,6 +276276,13 @@
     },
     "shortDesc": "The user transforms its wrath into a fire-like aura to attack. This may also make opposing Pokémon flinch.",
     "desc": "The user transforms its wrath into a fire-like aura to attack. This may also make opposing Pokémon flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "20% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -275912,6 +276618,13 @@
     },
     "shortDesc": "The target is attacked with an intense blast of all- consuming fire. This may also leave the target with a burn.",
     "desc": "The target is attacked with an intense blast of all- consuming fire. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "10% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -277715,8 +278428,23 @@
     },
     "shortDesc": "The throws a flaming explosive at the target, leaving them with a burn.",
     "desc": "The throws a flaming explosive at the target, leaving them with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "100% quemar",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% quemar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "camerupt",
@@ -277819,6 +278547,17 @@
     },
     "shortDesc": "The user bites with flame-cloaked fangs. This may also make the target flinch or leave it with a burn.",
     "desc": "The user bites with flame-cloaked fangs. This may also make the target flinch or leave it with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "quemar"
+      },
+      {
+        "chance": 10,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "10% quemar · 10% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -279962,6 +280701,13 @@
     },
     "shortDesc": "The user strikes the target with a burning lash. This also lowers the target's Defense stat.",
     "desc": "The user strikes the target with a burning lash. This also lowers the target's Defense stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Defensa (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -280658,6 +281404,13 @@
     },
     "shortDesc": "The target is attacked with a fiery punch. This may also leave the target with a burn.",
     "desc": "The target is attacked with a fiery punch. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "10% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -287074,6 +287827,13 @@
     },
     "shortDesc": "Cloaking itself in flame, the user attacks the target. Then, building up momentum, the user boosts its Speed stat.",
     "desc": "Cloaking itself in flame, the user attacks the target. Then, building up momentum, the user boosts its Speed stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 Velocidad (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 Velocidad (al usuario)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -288414,6 +289174,13 @@
     },
     "shortDesc": "The user attacks by cloaking itself in fire and charging at the target. This may also leave the target with a burn.",
     "desc": "The user attacks by cloaking itself in fire and charging at the target. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "10% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -288724,6 +289491,13 @@
     },
     "shortDesc": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
     "desc": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "10% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -292804,6 +293578,13 @@
     },
     "shortDesc": "The user cloaks itself in fire and charges the target to inflict damage. This also damages the user quite a lot and may leave the target with a burn.",
     "desc": "The user cloaks itself in fire and charges the target to inflict damage. This also damages the user quite a lot and may leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "10% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -297188,8 +297969,23 @@
     },
     "shortDesc": "The user gathers all its light energy and releases it at once. This may also lower the target's Sp. Def stat.",
     "desc": "The user gathers all its light energy and releases it at once. This may also lower the target's Sp. Def stat.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Def. Especial (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "10% -1 Def. Especial (al objetivo)",
+        "after": "20% -1 Def. Especial (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "horsea",
@@ -300635,8 +301431,23 @@
     },
     "shortDesc": "The user emits a powerful flash of light to inflict damage on everything around it. This may also lower the target's accuracy.",
     "desc": "The user emits a powerful flash of light to inflict damage on everything around it. This may also lower the target's accuracy.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "-1 Precisión (al objetivo)"
+      }
+    ],
+    "secondarySummary": "10% -1 Precisión (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "10% -1 Precisión (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "electrode",
@@ -300786,8 +301597,23 @@
     },
     "shortDesc": "The user erupts in an explosion of heat and cold with 30% chance to burn or freeze the target. This move counts as both a Fire and Ice type move.",
     "desc": "The user erupts in an explosion of heat and cold with 30% chance to burn or freeze the target. This move counts as both a Fire and Ice type move.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "30% efecto adicional",
     "sourceId": "kazeran-eeveelutions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% efecto adicional"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "glaceon-kazeran",
@@ -305434,6 +306260,13 @@
     },
     "shortDesc": "The user floats in the air, and then dives at a steep angle to attack the target. This may also make the target flinch.",
     "desc": "The user floats in the air, and then dives at a steep angle to attack the target. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -305784,8 +306617,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Misty Terrain and snow or hail.",
     "desc": "This attack makes use of nature's power. Its effects come from Misty Terrain and snow or hail.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Precisión (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Precisión (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% -1 Precisión (al objetivo)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -307258,8 +308106,23 @@
     },
     "shortDesc": "The user jumps forward to kick the target it midair. This may also make the target flinch.",
     "desc": "The user jumps forward to kick the target it midair. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% retroceso"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "dodrio",
@@ -307760,6 +308623,13 @@
     },
     "shortDesc": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously. This may also make the target flinch.",
     "desc": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "20% retroceso",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -307780,6 +308650,12 @@
         "label": "Efecto",
         "before": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.",
         "after": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously. This may also make the target flinch."
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% retroceso"
       }
     ],
     "learnedBy": [
@@ -307823,6 +308699,13 @@
     },
     "shortDesc": "The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat.",
     "desc": "The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Def. Especial (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -307831,6 +308714,12 @@
         "label": "Precisión",
         "before": 70,
         "after": 85
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "10% -1 Def. Especial (al objetivo)",
+        "after": "20% -1 Def. Especial (al objetivo)"
       }
     ],
     "learnedBy": [
@@ -316101,8 +316990,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Misty Terrain and rain",
     "desc": "This attack makes use of nature's power. Its effects come from Misty Terrain and rain",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Precisión (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Precisión (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% -1 Precisión (al objetivo)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -316524,6 +317428,13 @@
     },
     "shortDesc": "The target is attacked with a shock wave. This may also leave the target with paralysis.",
     "desc": "The target is attacked with a shock wave. This may also leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "30% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -317212,6 +318123,13 @@
     },
     "shortDesc": "The user puts a forest curse on the target. This adds Grass type to the target's type. This also prevents the target from fleeing.",
     "desc": "The user puts a forest curse on the target. This adds Grass type to the target's type. This also prevents the target from fleeing.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -317220,6 +318138,12 @@
         "label": "Efecto",
         "before": "The user puts a forest curse on the target. This adds Grass type to the target's type.",
         "after": "The user puts a forest curse on the target. This adds Grass type to the target's type. This also prevents the target from fleeing."
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% efecto adicional"
       }
     ],
     "learnedBy": [
@@ -317288,8 +318212,23 @@
     },
     "shortDesc": "The user bites into the target with sharp rock-like fangs. This may also lower the target's Speed stat.",
     "desc": "The user bites into the target with sharp rock-like fangs. This may also lower the target's Speed stat.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Velocidad (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% -1 Velocidad (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "aerodactyl",
@@ -320407,6 +321346,13 @@
     },
     "shortDesc": "The turn after using this move, the user hits the target with electrically charged ice to inflict damage. This may also leave the target with paralysis.",
     "desc": "The turn after using this move, the user hits the target with electrically charged ice to inflict damage. This may also leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "30% paralizar",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -320449,6 +321395,13 @@
     },
     "shortDesc": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
     "desc": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "congelar"
+      }
+    ],
+    "secondarySummary": "10% congelar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -320678,8 +321631,23 @@
     },
     "shortDesc": "The user shoots its psychic power from its eyes to attack. This may also leave the target frozen.",
     "desc": "The user shoots its psychic power from its eyes to attack. This may also leave the target frozen.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "congelar"
+      }
+    ],
+    "secondarySummary": "20% congelar",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "10% congelar",
+        "after": "20% congelar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "akatorimon",
@@ -321021,8 +321989,23 @@
     },
     "shortDesc": "The user attacks by shooting frigid cold water at the target. This move's power is boosted by 50 percent in snow or hail. This may also leave the target with frostbite.",
     "desc": "The user attacks by shooting frigid cold water at the target. This move's power is boosted by 50 percent in snow or hail. This may also leave the target with frostbite.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "congelar"
+      }
+    ],
+    "secondarySummary": "30% congelar",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% congelar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "cloyster",
@@ -321279,8 +322262,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Grassy Terrain and sandstorms.",
     "desc": "This attack makes use of nature's power. Its effects come from Grassy Terrain and sandstorms.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "+1 Ataque (al usuario)"
+      }
+    ],
+    "secondarySummary": "20% +1 Ataque (al usuario)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% +1 Ataque (al usuario)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -333722,8 +334720,27 @@
     "flags": {},
     "shortDesc": "A Fairy-type attack that Gigantamax Hattertainer uses. This may also make targets flinch or leave them with a burn.",
     "desc": "A Fairy-type attack that Gigantamax Hattertainer uses. This may also make targets flinch or leave them with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "quemar"
+      },
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% quemar · 30% retroceso",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% quemar · 30% retroceso"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -334033,8 +335050,23 @@
     },
     "shortDesc": "The user strikes the target with antlers imbued by nature's power. This move's effects change depending on the weather.",
     "desc": "The user strikes the target with antlers imbued by nature's power. This move's effects change depending on the weather.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "20% efecto adicional",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% efecto adicional"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "typecast-grass",
@@ -335140,6 +336172,13 @@
     "flags": {},
     "shortDesc": "After obtaining Z-Power, the user, Mew, attacks the target with full force. The terrain will be charged with psychic energy.",
     "desc": "After obtaining Z-Power, the user, Mew, attacks the target with full force. The terrain will be charged with psychic energy.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": []
@@ -350569,6 +351608,13 @@
     },
     "shortDesc": "The user attacks by blowing freezing cold air at opposing Pokémon. This also lowers their Speed stats.",
     "desc": "The user attacks by blowing freezing cold air at opposing Pokémon. This also lowers their Speed stats.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Velocidad (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -354578,8 +355624,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Grassy Terrain.",
     "desc": "This attack makes use of nature's power. Its effects come from Grassy Terrain.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Def. Especial (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% -1 Def. Especial (al objetivo)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -358495,6 +359556,13 @@
     },
     "shortDesc": "The user inflicts damage by dropping an apple from high above. This also lowers the target's Defense stat.",
     "desc": "The user inflicts damage by dropping an apple from high above. This also lowers the target's Defense stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Defensa (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -364389,8 +365457,23 @@
     },
     "shortDesc": "The user attacks by slamming its fluffy body into the target. The higher the user's Defense stat, the greater the damage this move deals. This move's effects vary depending on what trim the user has.",
     "desc": "The user attacks by slamming its fluffy body into the target. The higher the user's Defense stat, the greater the damage this move deals. This move's effects vary depending on what trim the user has.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "30% efecto adicional",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% efecto adicional"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "furfrou",
@@ -366645,6 +367728,13 @@
     },
     "shortDesc": "The user shoots filthy garbage at the target to attack. This may also poison the target.",
     "desc": "The user shoots filthy garbage at the target to attack. This may also poison the target.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "envenenar"
+      }
+    ],
+    "secondarySummary": "30% envenenar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -376308,6 +377398,13 @@
     },
     "shortDesc": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.",
     "desc": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -384510,6 +385607,13 @@
     },
     "shortDesc": "The user unleashes a vicious blow after its cute act makes the target less wary. This may also make the target flinch.",
     "desc": "The user unleashes a vicious blow after its cute act makes the target less wary. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -385278,6 +386382,13 @@
     },
     "shortDesc": "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave them with a burn.",
     "desc": "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave them with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "10% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -388113,8 +389224,23 @@
     },
     "shortDesc": "The user slams its heavy body into the target at full force to inflict damage. This also damages the user quite a lot and may make the target flinch.",
     "desc": "The user slams its heavy body into the target at full force to inflict damage. This also damages the user quite a lot and may make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "20% retroceso",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% retroceso"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "djinnferno",
@@ -389806,8 +390932,31 @@
     },
     "shortDesc": "A fiery blade that strikes twice with precision, dealing damage with an increased critical rate and damage.",
     "desc": "A fiery blade that strikes twice with precision, dealing damage with an increased critical rate and damage.",
+    "secondaryEffects": [
+      {
+        "chance": 5,
+        "effect": "quemar"
+      },
+      {
+        "chance": 5,
+        "effect": "paralizar"
+      },
+      {
+        "chance": 5,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "5% quemar · 5% paralizar · 5% efecto adicional",
     "sourceId": "fais-mythical-monstrosities",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "5% quemar · 5% paralizar · 5% efecto adicional"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "chrysopierce",
@@ -411351,8 +412500,23 @@
     },
     "shortDesc": "The user fires a ball of honey at the target. The more honey is gathered, the greater the move's power. This also lowers the user's speed.",
     "desc": "The user fires a ball of honey at the target. The more honey is gathered, the greater the move's power. This also lowers the user's speed.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Velocidad (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% -1 Velocidad (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "bellsprout",
@@ -411564,8 +412728,23 @@
     },
     "shortDesc": "The user lands a devastating blow that tarnishes the target's resolve. This move deals special damage and may also lower the target's Sp. Atk stat.",
     "desc": "The user lands a devastating blow that tarnishes the target's resolve. This move deals special damage and may also lower the target's Sp. Atk stat.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 At. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 At. Especial (al objetivo)",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% -1 At. Especial (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "golisomite",
@@ -412189,8 +413368,23 @@
     },
     "shortDesc": "The user blows heated air towards the opposing Pokémon. In harsh sunlight, this move's power is boosted and it damages all opposing Pokémon. This may also leave the target with a burn.",
     "desc": "The user blows heated air towards the opposing Pokémon. In harsh sunlight, this move's power is boosted and it damages all opposing Pokémon. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "20% quemar",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% quemar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "breezior",
@@ -412705,6 +413899,13 @@
     },
     "shortDesc": "The user attacks by wrapping the target in a fierce wind. This may also confuse the target.",
     "desc": "The user attacks by wrapping the target in a fierce wind. This may also confuse the target.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "30% confundir",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -416889,6 +418090,13 @@
     },
     "shortDesc": "The user blasts the target with boiling-hot water. This move's power is not lowered in harsh sunlight but rather boosted by 50 percent. This may also leave the target with a burn.",
     "desc": "The user blasts the target with boiling-hot water. This move's power is not lowered in harsh sunlight but rather boosted by 50 percent. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "20% quemar",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -416897,6 +418105,12 @@
         "label": "Efecto",
         "before": "The user blasts the target with boiling-hot water. This move's power is not lowered in harsh sunlight but rather boosted by 50 percent.",
         "after": "The user blasts the target with boiling-hot water. This move's power is not lowered in harsh sunlight but rather boosted by 50 percent. This may also leave the target with a burn."
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% quemar"
       }
     ],
     "learnedBy": [
@@ -427400,6 +428614,13 @@
     },
     "shortDesc": "The user bites hard on the target with its sharp front fangs. This may also make the target flinch.",
     "desc": "The user bites hard on the target with its sharp front fangs. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "10% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -433578,8 +434799,23 @@
     },
     "shortDesc": "The user flash freezes the target with a mere touch, causing its skin to sear. This may also leave the target with a burn.",
     "desc": "The user flash freezes the target with a mere touch, causing its skin to sear. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "50% quemar",
     "sourceId": "lively-mons",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "50% quemar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "slacho",
@@ -433959,6 +435195,13 @@
     },
     "shortDesc": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
     "desc": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "congelar"
+      }
+    ],
+    "secondarySummary": "10% congelar",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "learnedBy": [
@@ -438339,6 +439582,13 @@
     },
     "shortDesc": "The turn after using this move, the user surrounds the target with an ultracold, freezing wind to inflict damage. This may also leave the target with a burn.",
     "desc": "The turn after using this move, the user surrounds the target with an ultracold, freezing wind to inflict damage. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "30% quemar",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -438379,6 +439629,17 @@
     },
     "shortDesc": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen.",
     "desc": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "congelar"
+      },
+      {
+        "chance": 10,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "10% congelar · 10% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -440296,6 +441557,13 @@
     },
     "shortDesc": "The target is attacked with an icy punch. This may also leave the target frozen.",
     "desc": "The target is attacked with an icy punch. This may also leave the target frozen.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "congelar"
+      }
+    ],
+    "secondarySummary": "10% congelar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -443963,6 +445231,13 @@
     },
     "shortDesc": "The user attacks by crashing large icicles onto the target. This may also make the target flinch.",
     "desc": "The user attacks by crashing large icicles onto the target. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -444616,6 +445891,13 @@
     },
     "shortDesc": "The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats.",
     "desc": "The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Velocidad (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -453591,6 +454873,13 @@
     },
     "shortDesc": "The user attacks with myriad fireballs. This may also leave the target with a burn. This move's power is doubled if the target has a status condition.",
     "desc": "The user attacks with myriad fireballs. This may also leave the target with a burn. This move's power is doubled if the target has a status condition.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "30% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -453629,6 +454918,13 @@
     },
     "shortDesc": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn.",
     "desc": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "100% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -461105,8 +462401,27 @@
     },
     "shortDesc": "The user bites with sharp metal fangs. This may also make the target flinch or lower the target's Defense stat.",
     "desc": "The user bites with sharp metal fangs. This may also make the target flinch or lower the target's Defense stat.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "-1 Defensa (al objetivo)"
+      },
+      {
+        "chance": 10,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "10% -1 Defensa (al objetivo) · 10% retroceso",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "10% -1 Defensa (al objetivo) · 10% retroceso"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "aerodactyl",
@@ -461680,6 +462995,13 @@
     },
     "shortDesc": "The user slams the target with its steel-hard head. This may also make the target flinch.",
     "desc": "The user slams the target with its steel-hard head. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -466311,6 +467633,13 @@
     },
     "shortDesc": "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat.",
     "desc": "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "30% -1 Defensa (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -486984,6 +488313,13 @@
     },
     "shortDesc": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.",
     "desc": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "30% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -489036,6 +490372,13 @@
     },
     "shortDesc": "The user attacks its target by encircling it in sharp leaves. This attack may also lower the target's accuracy.",
     "desc": "The user attacks its target by encircling it in sharp leaves. This attack may also lower the target's accuracy.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "-1 Precisión (al objetivo)"
+      }
+    ],
+    "secondarySummary": "50% -1 Precisión (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -493422,8 +494765,23 @@
     },
     "shortDesc": "The user attacks by throwing out a mass of cookies. This also lowers the user's Sp. Atk stat. May leave the target with a burn.",
     "desc": "The user attacks by throwing out a mass of cookies. This also lowers the user's Sp. Atk stat. May leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "10% quemar",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "10% quemar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "gholdendough",
@@ -493511,6 +494869,13 @@
     },
     "shortDesc": "The user licks the target with a long tongue to inflict damage. This may also leave the target with paralysis.",
     "desc": "The user licks the target with a long tongue to inflict damage. This may also leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "30% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -494393,8 +495758,23 @@
     },
     "shortDesc": "The user releases a shining aura imbued with light. This may also confuse the target.",
     "desc": "The user releases a shining aura imbued with light. This may also confuse the target.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "20% confundir",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% confundir"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "alloette",
@@ -498461,6 +499841,13 @@
     },
     "shortDesc": "The user slams into the target using a full-force blast of water. This may also lower the target's Defense stat.",
     "desc": "The user slams into the target using a full-force blast of water. This may also lower the target's Defense stat.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Defensa (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -504343,6 +505730,13 @@
     },
     "shortDesc": "The user makes a swift attack on the target's legs, which lowers the target's Speed stat.",
     "desc": "The user makes a swift attack on the target's legs, which lowers the target's Speed stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Velocidad (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -506179,6 +507573,13 @@
     },
     "shortDesc": "The user attacks by unleashing a peculiar light that even affects the mind. This also harshly lowers the target's Sp. Def stat.",
     "desc": "The user attacks by unleashing a peculiar light that even affects the mind. This also harshly lowers the target's Sp. Def stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-2 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -2 Def. Especial (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "learnedBy": [
@@ -506373,6 +507774,13 @@
     },
     "shortDesc": "The user makes a lunge at the target, attacking with full force. This also lowers the target's Attack stat.",
     "desc": "The user makes a lunge at the target, attacking with full force. This also lowers the target's Attack stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Ataque (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Ataque (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -507172,6 +508580,13 @@
     },
     "shortDesc": "The user lets loose a damaging burst of light. This may also lower the target's Sp. Def stat.",
     "desc": "The user lets loose a damaging burst of light. This may also lower the target's Sp. Def stat.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "50% -1 Def. Especial (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "learnedBy": [
@@ -507501,8 +508916,23 @@
     },
     "shortDesc": "The user shoots the target with a magical beam. This may also lower the target's Sp. Def stat.",
     "desc": "The user shoots the target with a magical beam. This may also lower the target's Sp. Def stat.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "30% -1 Def. Especial (al objetivo)",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% -1 Def. Especial (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "alloette",
@@ -516638,6 +518068,13 @@
     },
     "shortDesc": "The user attacks the target with a magical drift. This may also confuse the target.",
     "desc": "The user attacks the target with a magical drift. This may also confuse the target.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "30% confundir",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -519082,6 +520519,13 @@
     },
     "shortDesc": "The user pours toxins into the target by wrapping them in a toxic, corrosive chain. This may also leave the target badly poisoned.",
     "desc": "The user pours toxins into the target by wrapping them in a toxic, corrosive chain. This may also leave the target badly poisoned.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "envenenar gravemente"
+      }
+    ],
+    "secondarySummary": "50% envenenar gravemente",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -519340,6 +520784,13 @@
     },
     "shortDesc": "The user fires a blast of tea that it mixed. The user's HP is restored by up to half the damage taken by the target. This may also leave the target with a burn.",
     "desc": "The user fires a blast of tea that it mixed. The user's HP is restored by up to half the damage taken by the target. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "20% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -526720,6 +528171,13 @@
     },
     "shortDesc": "The target is raked with steel claws. This may also boost the user's Attack stat.",
     "desc": "The target is raked with steel claws. This may also boost the user's Attack stat.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "+1 Ataque (al usuario)"
+      }
+    ],
+    "secondarySummary": "10% +1 Ataque (al usuario)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -529576,8 +531034,23 @@
     },
     "shortDesc": "The user unleashes a storm of metallic shards, striking the target 2-5 times. This move has a chance to lower the target's Special Defense with each hit.",
     "desc": "The user unleashes a storm of metallic shards, striking the target 2-5 times. This move has a chance to lower the target's Special Defense with each hit.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "30% -1 Def. Especial (al objetivo)",
     "sourceId": "kazeran-eeveelutions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% -1 Def. Especial (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "espeon-kazeran",
@@ -531615,6 +533088,13 @@
     },
     "shortDesc": "The target is hit with a hard punch fired like a meteor. This may also boost the user's Attack stat.",
     "desc": "The target is hit with a hard punch fired like a meteor. This may also boost the user's Attack stat.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "+1 Ataque (al usuario)"
+      }
+    ],
+    "secondarySummary": "20% +1 Ataque (al usuario)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -535746,8 +537226,23 @@
     },
     "shortDesc": "The user attacks the target with mental fortitude. The higher the user's Sp. Def stat, the greater the damage this move deals. This may also confuse the target.",
     "desc": "The user attacks the target with mental fortitude. The higher the user's Sp. Def stat, the greater the damage this move deals. This may also confuse the target.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "20% confundir",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% confundir"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "abra",
@@ -538215,6 +539710,13 @@
     },
     "shortDesc": "The user lets loose a flash of energy at the target from its polished body. This may also lower the target's accuracy.",
     "desc": "The user lets loose a flash of energy at the target from its polished body. This may also lower the target's accuracy.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "-1 Precisión (al objetivo)"
+      }
+    ],
+    "secondarySummary": "30% -1 Precisión (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -539099,6 +540601,13 @@
     },
     "shortDesc": "A mist-like flurry of down envelops and damages the target. This may also lower the target's Sp. Atk stat.",
     "desc": "A mist-like flurry of down envelops and damages the target. This may also lower the target's Sp. Atk stat.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "-1 At. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "50% -1 At. Especial (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -539141,8 +540650,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Misty Terrain.",
     "desc": "This attack makes use of nature's power. Its effects come from Misty Terrain.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 At. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 At. Especial (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% -1 At. Especial (al objetivo)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -541427,6 +542951,13 @@
     },
     "shortDesc": "Borrowing the power of the moon, the user attacks the target. This may also lower the target's Sp. Atk stat.",
     "desc": "Borrowing the power of the moon, the user attacks the target. This may also lower the target's Sp. Atk stat.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "-1 At. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "30% -1 At. Especial (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -542799,8 +544330,23 @@
     },
     "shortDesc": "The user attacks the target by wrapping them with a flowering vine. This move's power is boosted by 50% and traps the target in squeezing vines for four to five turns in harsh sunlight.",
     "desc": "The user attacks the target by wrapping them with a flowering vine. This move's power is boosted by 50% and traps the target in squeezing vines for four to five turns in harsh sunlight.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% efecto adicional"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "gildenose",
@@ -543270,6 +544816,13 @@
     },
     "shortDesc": "The user performs a spin attack that can also eliminate the effects of such moves as Bind, Wrap, and Leech Seed. This also poisons opposing Pokémon.",
     "desc": "The user performs a spin attack that can also eliminate the effects of such moves as Bind, Wrap, and Leech Seed. This also poisons opposing Pokémon.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "envenenar"
+      }
+    ],
+    "secondarySummary": "100% envenenar",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "learnedBy": [
@@ -543356,6 +544909,13 @@
     },
     "shortDesc": "The user hurls giant chunks of ice at the target to inflict damage. This may also make the target flinch.",
     "desc": "The user hurls giant chunks of ice at the target to inflict damage. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -543524,6 +545084,13 @@
     },
     "shortDesc": "The user launches a hard-packed mud ball to attack. This may also lower the target's accuracy.",
     "desc": "The user launches a hard-packed mud ball to attack. This may also lower the target's accuracy.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "-1 Precisión (al objetivo)"
+      }
+    ],
+    "secondarySummary": "30% -1 Precisión (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -543967,6 +545534,13 @@
     },
     "shortDesc": "The user attacks by hurling blobs of mud at the opposing Pokémon. This also lowers the target's Speed stat.",
     "desc": "The user attacks by hurling blobs of mud at the opposing Pokémon. This also lowers the target's Speed stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Velocidad (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -546374,6 +547948,13 @@
     },
     "shortDesc": "The user hurls mud in the target's face to inflict damage and lower its accuracy.",
     "desc": "The user hurls mud in the target's face to inflict damage and lower its accuracy.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Precisión (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Precisión (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -552281,6 +553862,13 @@
     },
     "shortDesc": "The user attacks by shooting muddy water at opposing Pokémon. This may also lower their accuracy.",
     "desc": "The user attacks by shooting muddy water at opposing Pokémon. This may also lower their accuracy.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "-1 Precisión (al objetivo)"
+      }
+    ],
+    "secondarySummary": "30% -1 Precisión (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -553327,6 +554915,13 @@
     },
     "shortDesc": "The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat.",
     "desc": "The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 At. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 At. Especial (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -554781,6 +556376,13 @@
     },
     "shortDesc": "The user attacks by emitting a mysterious power. This also boosts the user's Sp. Atk stat.",
     "desc": "The user attacks by emitting a mysterious power. This also boosts the user's Sp. Atk stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 At. Especial (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 At. Especial (al usuario)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -563517,6 +565119,13 @@
     },
     "shortDesc": "The user attacks by wildly swinging its thorny arms. This may also make the target flinch.",
     "desc": "The user attacks by wildly swinging its thorny arms. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -563587,8 +565196,23 @@
     },
     "shortDesc": "Hits all adjacent foes. May lower their Special Defense.",
     "desc": "Hits all adjacent foes. May lower their Special Defense.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Def. Especial (al objetivo)",
     "sourceId": "blue-eyes-white-dragon",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% -1 Def. Especial (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "blueeyes",
@@ -563679,6 +565303,13 @@
     },
     "shortDesc": "The user looses a pitch-black shock wave at the target to inflict damage. This may also lower the target's accuracy.",
     "desc": "The user looses a pitch-black shock wave at the target to inflict damage. This may also lower the target's accuracy.",
+    "secondaryEffects": [
+      {
+        "chance": 40,
+        "effect": "-1 Precisión (al objetivo)"
+      }
+    ],
+    "secondarySummary": "40% -1 Precisión (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -566101,8 +567732,23 @@
     },
     "shortDesc": "The user damages opposing Pokémon by emitting a dark light. This may also confuse the target.",
     "desc": "The user damages opposing Pokémon by emitting a dark light. This may also confuse the target.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "10% confundir",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "10% confundir"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "clefable",
@@ -568171,8 +569817,23 @@
     },
     "shortDesc": "The user blows a freezing tempest towards the opposing Pokémon. In snow or hail, this move's power is boosted and it damages all opposing Pokémon. This may also leave the target with frostbite.",
     "desc": "The user blows a freezing tempest towards the opposing Pokémon. In snow or hail, this move's power is boosted and it damages all opposing Pokémon. This may also leave the target with frostbite.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "congelar"
+      }
+    ],
+    "secondarySummary": "20% congelar",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% congelar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "breezior",
@@ -569374,6 +571035,13 @@
     },
     "shortDesc": "The user attacks the target with a noxious drift. This may also poison the target.",
     "desc": "The user attacks the target with a noxious drift. This may also poison the target.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "envenenar"
+      }
+    ],
+    "secondarySummary": "30% envenenar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -569401,6 +571069,13 @@
     },
     "shortDesc": "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.",
     "desc": "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "100% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -569765,8 +571440,23 @@
     },
     "shortDesc": "The user stomps down on the opponent's knee. This also lowers the target's Speed stat.",
     "desc": "The user stomps down on the opponent's knee. This also lowers the target's Speed stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Velocidad (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% -1 Velocidad (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "hitmonlee",
@@ -569990,6 +571680,13 @@
     },
     "shortDesc": "The user attacks by spraying ink in the target's face. This also lowers the target's accuracy.",
     "desc": "The user attacks by spraying ink in the target's face. This also lowers the target's accuracy.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Precisión (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Precisión (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -570004,6 +571701,12 @@
         "label": "Efecto",
         "before": "The user attacks by spraying ink in the target's face. This may also lower the target's accuracy.",
         "after": "The user attacks by spraying ink in the target's face. This also lowers the target's accuracy."
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "50% -1 Precisión (al objetivo)",
+        "after": "100% -1 Precisión (al objetivo)"
       }
     ],
     "learnedBy": [
@@ -570111,8 +571814,23 @@
     },
     "shortDesc": "The user locks the target in and prevents it from fleeing. This move also lowers the target's Defense and Sp. Def every turn.",
     "desc": "The user locks the target in and prevents it from fleeing. This move also lowers the target's Defense and Sp. Def every turn.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+2 Defensa (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +2 Defensa (al usuario)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% +2 Defensa (al usuario)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "grapploct",
@@ -570574,6 +572292,13 @@
     },
     "shortDesc": "The user blasts the target with a gust of repulsive wind. This may also raise all the user's stats at once.",
     "desc": "The user blasts the target with a gust of repulsive wind. This may also raise all the user's stats at once.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "+1 Ataque, +1 Defensa, +1 At. Especial, +1 Def. Especial, +1 Velocidad (al usuario)"
+      }
+    ],
+    "secondarySummary": "10% +1 Ataque, +1 Defensa, +1 At. Especial, +1 Def. Especial, +1 Velocidad (al usuario)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -577127,8 +578852,23 @@
     },
     "shortDesc": "The user corrodes the target with acidic goo. This may also leave the target badly poisoned. This move is super effective on Steel types.",
     "desc": "The user corrodes the target with acidic goo. This may also leave the target badly poisoned. This move is super effective on Steel types.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "envenenar gravemente"
+      }
+    ],
+    "secondarySummary": "50% envenenar gravemente",
     "sourceId": "lively-mons",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "50% envenenar gravemente"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "pungudua",
@@ -580320,6 +582060,13 @@
     },
     "shortDesc": null,
     "desc": null,
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Ataque (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Ataque (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": []
@@ -580763,8 +582510,23 @@
     },
     "shortDesc": "The user reacts to the target's movement and counters with a sharp blade, making the target flinch and always resulting in a critical hit. This move fails if the target is not readying a priority move.",
     "desc": "The user reacts to the target's movement and counters with a sharp blade, making the target flinch and always resulting in a critical hit. This move fails if the target is not readying a priority move.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "100% retroceso",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% retroceso"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "sephiredge",
@@ -585553,6 +587315,13 @@
     },
     "shortDesc": "The user stirs up a violent petal blizzard to damage opposing Pokémon. This may also lower the target's Sp. Def stat.",
     "desc": "The user stirs up a violent petal blizzard to damage opposing Pokémon. This may also lower the target's Sp. Def stat.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "10% -1 Def. Especial (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -585585,6 +587354,12 @@
         "label": "Efecto",
         "before": "The user stirs up a violent petal blizzard and damages everything around it.",
         "after": "The user stirs up a violent petal blizzard to damage opposing Pokémon. This may also lower the target's Sp. Def stat."
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "10% -1 Def. Especial (al objetivo)"
       }
     ],
     "learnedBy": [
@@ -586619,8 +588394,23 @@
     },
     "shortDesc": "The user haunts the livestock around the opponent, damaging and cursing the target while also taking recoil damage. This move is super effective against Ghost types, but Ghost types are immune to the curse effect.",
     "desc": "The user haunts the livestock around the opponent, damaging and cursing the target while also taking recoil damage. This move is super effective against Ghost types, but Ghost types are immune to the curse effect.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "kazeran-eeveelutions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% efecto adicional"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "leafeon-kazeran",
@@ -587955,8 +589745,23 @@
     },
     "shortDesc": "The user spreads its luminous wings and dives at high speed. Compares Attack and Sp. Atk stats and deals damage based on whichever is higher. Raises the user's Speed.",
     "desc": "The user spreads its luminous wings and dives at high speed. Compares Attack and Sp. Atk stats and deals damage based on whichever is higher. Raises the user's Speed.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 Velocidad (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 Velocidad (al usuario)",
     "sourceId": "starlightfusion",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% +1 Velocidad (al usuario)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "armarouge-armaraeon",
@@ -588049,8 +589854,23 @@
     },
     "shortDesc": "The user jabs the target with one of its sharp legs, pinning them to the ground. The target becomes unable to flee.",
     "desc": "The user jabs the target with one of its sharp legs, pinning them to the ground. The target becomes unable to flee.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% efecto adicional"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "galvantula-ender",
@@ -589355,6 +591175,13 @@
     },
     "shortDesc": "The user attacks by playing rough with the target. This may also lower the target's Attack stat.",
     "desc": "The user attacks by playing rough with the target. This may also lower the target's Attack stat.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "-1 Ataque (al objetivo)"
+      }
+    ],
+    "secondarySummary": "10% -1 Ataque (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -593231,6 +595058,13 @@
     },
     "shortDesc": "The user bites the target with toxic fangs. This may also leave the target badly poisoned.",
     "desc": "The user bites the target with toxic fangs. This may also leave the target badly poisoned.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "envenenar gravemente"
+      }
+    ],
+    "secondarySummary": "50% envenenar gravemente",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -593837,6 +595671,13 @@
     },
     "shortDesc": "The target is stabbed with a tentacle, an arm, or the like steeped in poison. This may also poison the target.",
     "desc": "The target is stabbed with a tentacle, an arm, or the like steeped in poison. This may also poison the target.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "envenenar"
+      }
+    ],
+    "secondarySummary": "30% envenenar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -597431,6 +599272,13 @@
     },
     "shortDesc": "The user stabs the target with a poisonous stinger to inflict damage. This may also poison the target.",
     "desc": "The user stabs the target with a poisonous stinger to inflict damage. This may also poison the target.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "envenenar"
+      }
+    ],
+    "secondarySummary": "30% envenenar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -597730,6 +599578,13 @@
     },
     "shortDesc": "The user hits the target with its tail. This move has a heightened chance of landing a critical hit and may also poison the target.",
     "desc": "The user hits the target with its tail. This move has a heightened chance of landing a critical hit and may also poison the target.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "envenenar"
+      }
+    ],
+    "secondarySummary": "30% envenenar",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -597738,6 +599593,12 @@
         "label": "Poder",
         "before": 50,
         "after": 60
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "10% envenenar",
+        "after": "30% envenenar"
       }
     ],
     "learnedBy": [
@@ -600003,8 +601864,23 @@
     },
     "shortDesc": "The user puffs up its body to shoot toxic shrapnel at the target. This move badly poisons the target, but it works only on the first turn each time the user enters battle.",
     "desc": "The user puffs up its body to shoot toxic shrapnel at the target. This move badly poisons the target, but it works only on the first turn each time the user enters battle.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "envenenar gravemente"
+      }
+    ],
+    "secondarySummary": "100% envenenar gravemente",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% envenenar gravemente"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "whimsipop",
@@ -600471,6 +602347,13 @@
     },
     "shortDesc": "The user attacks by pouncing on the target. This also lowers the target's Speed stat.",
     "desc": "The user attacks by pouncing on the target. This also lowers the target's Speed stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Velocidad (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -602017,6 +603900,13 @@
     },
     "shortDesc": "The user attacks with a chilling gust of powdery snow. This may also leave opposing Pokémon frozen.",
     "desc": "The user attacks with a chilling gust of powdery snow. This may also leave opposing Pokémon frozen.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "congelar"
+      }
+    ],
+    "secondarySummary": "10% congelar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -602495,6 +604385,13 @@
     },
     "shortDesc": "The user attacks with a ray of light that sparkles as if it were made of gemstones. This may also lower the target's Sp. Atk stat.",
     "desc": "The user attacks with a ray of light that sparkles as if it were made of gemstones. This may also lower the target's Sp. Atk stat.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "-1 At. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "30% -1 At. Especial (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -602503,6 +604400,12 @@
         "label": "Efecto",
         "before": "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
         "after": "The user attacks with a ray of light that sparkles as if it were made of gemstones. This may also lower the target's Sp. Atk stat."
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% -1 At. Especial (al objetivo)"
       }
     ],
     "learnedBy": [
@@ -606404,6 +608307,13 @@
     },
     "shortDesc": "Striking opponents over and over makes the user's fists harder. Hitting a target raises the Attack stat.",
     "desc": "Striking opponents over and over makes the user's fists harder. Hitting a target raises the Attack stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 Ataque (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 Ataque (al usuario)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -617457,8 +619367,23 @@
     },
     "shortDesc": "The target is attacked with a peculiar ray. This may also confuse the target.",
     "desc": "The target is attacked with a peculiar ray. This may also confuse the target.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "20% confundir",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "10% confundir",
+        "after": "20% confundir"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "alakazam",
@@ -622245,6 +624170,13 @@
     },
     "shortDesc": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target's Sp. Def stat.",
     "desc": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target's Sp. Def stat.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "10% -1 Def. Especial (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -629077,6 +631009,13 @@
     },
     "shortDesc": "For 2 turns, the target is prevented from healing.",
     "desc": "For 2 turns, the target is prevented from healing.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "bloquear curación"
+      }
+    ],
+    "secondarySummary": "100% bloquear curación",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -629931,8 +631870,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Psychic Terrain.",
     "desc": "This attack makes use of nature's power. Its effects come from Psychic Terrain.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Def. Especial (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% -1 Def. Especial (al objetivo)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -629953,8 +631907,23 @@
     },
     "shortDesc": "A psychic draining attack that restores half the damage dealt and has a 10% chance to confuse the target.",
     "desc": "A psychic draining attack that restores half the damage dealt and has a 10% chance to confuse the target.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "10% confundir",
     "sourceId": "fais-mythical-monstrosities",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "10% confundir"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "luminimp",
@@ -633525,8 +635494,23 @@
     },
     "shortDesc": "The user employs its power to attack by wrapping its opponent in a fierce psychic wind. This may also confuse the target.",
     "desc": "The user employs its power to attack by wrapping its opponent in a fierce psychic wind. This may also confuse the target.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "30% confundir",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% confundir"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "lugia",
@@ -633612,8 +635596,23 @@
     },
     "shortDesc": "The user attacks by jumping into the air and striking with a psychic-enhanced kick. This may also confuse the target. If it misses, the user takes damage instead.",
     "desc": "The user attacks by jumping into the air and striking with a psychic-enhanced kick. This may also confuse the target. If it misses, the user takes damage instead.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "30% confundir",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% confundir"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "umbrelligant",
@@ -633691,6 +635690,13 @@
     },
     "shortDesc": "Cloaking itself in psychic energy, the user slams into the target. This also boosts the user's Defense stat.",
     "desc": "Cloaking itself in psychic energy, the user slams into the target. This also boosts the user's Defense stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 Defensa (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 Defensa (al usuario)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -636225,8 +638231,23 @@
     },
     "shortDesc": "The user attacks everything around it by igniting an explosive pumpkin. This also damages the user quite a lot and may leave the target with a burn.",
     "desc": "The user attacks everything around it by igniting an explosive pumpkin. This also damages the user quite a lot and may leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "20% quemar",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% quemar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "gourgeist",
@@ -638098,6 +640119,13 @@
     },
     "shortDesc": "The user attacks by igniting a small stone and launching it as a fiery ball at the target. This may also leave the target with a burn.",
     "desc": "The user attacks by igniting a small stone and launching it as a fiery ball at the target. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "10% quemar",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -641497,8 +643525,23 @@
     },
     "shortDesc": "User calls upon dark energy to descend from the skies, striking the foe, lowering its Defense and Special Defense.",
     "desc": "User calls upon dark energy to descend from the skies, striking the foe, lowering its Defense and Special Defense.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Defensa, -1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Defensa, -1 Def. Especial (al objetivo)",
     "sourceId": "kazeran-eeveelutions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% -1 Defensa, -1 Def. Especial (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "umbreon-kazeran",
@@ -649790,8 +651833,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from rain.",
     "desc": "This attack makes use of nature's power. Its effects come from rain.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 At. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 At. Especial (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% -1 At. Especial (al objetivo)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -649840,6 +651898,13 @@
     },
     "shortDesc": "The user performs a spin attack that can also eliminate the effects of such moves as Bind, Wrap, and Leech Seed. This also boosts the user's Speed stat.",
     "desc": "The user performs a spin attack that can also eliminate the effects of such moves as Bind, Wrap, and Leech Seed. This also boosts the user's Speed stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 Velocidad (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 Velocidad (al usuario)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "learnedBy": [
@@ -651103,6 +653168,13 @@
     },
     "shortDesc": "The user cuts the target with sharp shells to inflict damage. This may also lower the target's Defense stat.",
     "desc": "The user cuts the target with sharp shells to inflict damage. This may also lower the target's Defense stat.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "50% -1 Defensa (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -660101,8 +662173,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Psychic Terrain and sandstorms.",
     "desc": "This attack makes use of nature's power. Its effects come from Psychic Terrain and sandstorms.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "+1 At. Especial (al usuario)"
+      }
+    ],
+    "secondarySummary": "20% +1 At. Especial (al usuario)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% +1 At. Especial (al usuario)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -660123,6 +662210,13 @@
     },
     "shortDesc": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user, and may also induce sleep.",
     "desc": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user, and may also induce sleep.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "dormir"
+      }
+    ],
+    "secondarySummary": "10% dormir",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -660184,8 +662278,23 @@
     },
     "shortDesc": "The user fires off a powerful Reshiram Beam! This move is Dragon and Electric type simultaneously. This may also confuse the target.",
     "desc": "The user fires off a powerful Reshiram Beam! This move is Dragon and Electric type simultaneously. This may also confuse the target.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "30% confundir",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% confundir"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "reshiram",
@@ -691935,6 +694044,13 @@
     },
     "shortDesc": "The user attacks the target by smashing into it with incredible force. This may also confuse the target.",
     "desc": "The user attacks the target by smashing into it with incredible force. This may also confuse the target.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "20% confundir",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -694358,6 +696474,13 @@
     },
     "shortDesc": "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
     "desc": "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -700877,6 +703000,13 @@
     },
     "shortDesc": "The user attacks with a punch. This may also lower the target's Defense stat.",
     "desc": "The user attacks with a punch. This may also lower the target's Defense stat.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "50% -1 Defensa (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -708662,6 +710792,13 @@
     },
     "shortDesc": "The user hurls boulders at the target to inflict damage. This also lowers the target's Speed stat by cutting off its movement.",
     "desc": "The user hurls boulders at the target to inflict damage. This also lowers the target's Speed stat by cutting off its movement.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Velocidad (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -714172,6 +716309,13 @@
     },
     "shortDesc": "The user lashes out with a quick, spinning kick. This may also make the target flinch.",
     "desc": "The user lashes out with a quick, spinning kick. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -727260,8 +729404,23 @@
     },
     "shortDesc": "The user scorches the target with an intense flame. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user. If this move is a Physical attack, it deals special damage. If this move is a Special attack, it deals physical damage. This may also leave the target with a burn.",
     "desc": "The user scorches the target with an intense flame. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user. If this move is a Physical attack, it deals special damage. If this move is a Special attack, it deals physical damage. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "20% quemar",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% quemar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "typecast-fire",
@@ -727332,6 +729491,13 @@
     },
     "shortDesc": "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn.",
     "desc": "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "50% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -730758,6 +732924,13 @@
     },
     "shortDesc": "The user salt cures the target, inflicting damage every turn. Steel and Water types are more strongly affected by this move.",
     "desc": "The user salt cures the target, inflicting damage every turn. Steel and Water types are more strongly affected by this move.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "salazón"
+      }
+    ],
+    "secondarySummary": "100% salazón",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -731863,8 +734036,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from sandstorms.",
     "desc": "This attack makes use of nature's power. Its effects come from sandstorms.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Precisión (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Precisión (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% -1 Precisión (al objetivo)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -732973,6 +735161,13 @@
     },
     "shortDesc": "The user attacks by wrapping opposing Pokémon in fierce winds and searingly hot sand. This may also leave them with a burn.",
     "desc": "The user attacks by wrapping opposing Pokémon in fierce winds and searingly hot sand. This may also leave them with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "20% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -735768,6 +737963,13 @@
     },
     "shortDesc": "The user attacks by shooting boiling hot water at the target. This move's power is not lowered in harsh sunlight but rather boosted by 50 percent. This may also leave the target with a burn.",
     "desc": "The user attacks by shooting boiling hot water at the target. This move's power is not lowered in harsh sunlight but rather boosted by 50 percent. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "30% quemar",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -741875,6 +744077,13 @@
     },
     "shortDesc": "The user throws scorching sand at the target to attack. This move's power is boosted by 50 percent in harsh sunlight. This may also leave the target with a burn.",
     "desc": "The user throws scorching sand at the target to attack. This move's power is boosted by 50 percent in harsh sunlight. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "30% quemar",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -747128,6 +749337,13 @@
     },
     "shortDesc": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.",
     "desc": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "30% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -747193,6 +749409,13 @@
     },
     "shortDesc": "The additional effects of this attack depend upon where it was used.",
     "desc": "The additional effects of this attack depend upon where it was used.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "30% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -755565,6 +757788,13 @@
     },
     "shortDesc": "The user emits a shock wave from its body to attack the target. This may also harshly lower the target's Sp. Def stat.",
     "desc": "The user emits a shock wave from its body to attack the target. This may also harshly lower the target's Sp. Def stat.",
+    "secondaryEffects": [
+      {
+        "chance": 40,
+        "effect": "-2 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "40% -2 Def. Especial (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -758153,6 +760383,13 @@
     },
     "shortDesc": "The user attacks by hurling a shadowy blob at the target. This may also lower the target's Sp. Def stat.",
     "desc": "The user attacks by hurling a shadowy blob at the target. This may also lower the target's Sp. Def stat.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Def. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Def. Especial (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -764475,6 +766712,13 @@
     },
     "shortDesc": "The user attacks by beating the target with a bone that contains a spirit. This may also lower the target's Defense stat.",
     "desc": "The user attacks by beating the target with a bone that contains a spirit. This may also lower the target's Defense stat.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Defensa (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -769497,6 +771741,13 @@
     },
     "shortDesc": null,
     "desc": null,
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "50% -1 Defensa (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": []
@@ -769685,8 +771936,23 @@
     },
     "shortDesc": "A vicious steel bite that may reduce the target's Defense.",
     "desc": "A vicious steel bite that may reduce the target's Defense.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Defensa (al objetivo)",
     "sourceId": "blue-eyes-white-dragon",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% -1 Defensa (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "blueeyes",
@@ -769952,6 +772218,13 @@
     },
     "shortDesc": "This move is either physical or special—whichever will inflict more damage. This may also poison the target.",
     "desc": "This move is either physical or special—whichever will inflict more damage. This may also poison the target.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "envenenar"
+      }
+    ],
+    "secondarySummary": "20% envenenar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -775086,8 +777359,23 @@
     },
     "shortDesc": "The user unleashes a thundering shockwave through the ground, dealing damage and lowering the target's Speed. This move is also a ground type move that hits all adjacent foes.",
     "desc": "The user unleashes a thundering shockwave through the ground, dealing damage and lowering the target's Speed. This move is also a ground type move that hits all adjacent foes.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Velocidad (al objetivo)",
     "sourceId": "kazeran-eeveelutions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% -1 Velocidad (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "jolteon-kazeran",
@@ -775206,8 +777494,23 @@
     },
     "shortDesc": "The user shocks the target with an exposed wire. This move is super effective on Electric types, and may also leave the target with a burn.",
     "desc": "The user shocks the target with an exposed wire. This move is super effective on Electric types, and may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "30% quemar",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% quemar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "porytron",
@@ -775343,8 +777646,23 @@
     },
     "shortDesc": "The user shoots a Shulker Bullet at the target, causing them to levitate into the air for three turns. After the effect ends, the target will crash to the ground and take damage. This move inflicts Attack or Sp. Atk damage—whichever stat is higher for the user.",
     "desc": "The user shoots a Shulker Bullet at the target, causing them to levitate into the air for three turns. After the effect ends, the target will crash to the ground and take damage. This move inflicts Attack or Sp. Atk damage—whichever stat is higher for the user.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% efecto adicional"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "boxtail",
@@ -775379,8 +777697,23 @@
     },
     "shortDesc": "The user attacks with a sinister beam of light. This may also confuse the target.",
     "desc": "The user attacks with a sinister beam of light. This may also confuse the target.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "20% confundir",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "10% confundir",
+        "after": "20% confundir"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "abra",
@@ -779547,6 +781880,13 @@
     },
     "shortDesc": "The target is attacked with powdery scales blown by the wind. This may also raise all the user's stats.",
     "desc": "The target is attacked with powdery scales blown by the wind. This may also raise all the user's stats.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "+1 Ataque, +1 Defensa, +1 At. Especial, +1 Def. Especial, +1 Velocidad (al usuario)"
+      }
+    ],
+    "secondarySummary": "10% +1 Ataque, +1 Defensa, +1 At. Especial, +1 Def. Especial, +1 Velocidad (al usuario)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -780890,8 +783230,23 @@
     },
     "shortDesc": "The user sings an enchanting melody, dealing damage and causing the target to fall asleep on the next turn. This move is both a Water and Fairy type move.",
     "desc": "The user sings an enchanting melody, dealing damage and causing the target to fall asleep on the next turn. This move is both a Water and Fairy type move.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "yawn"
+      }
+    ],
+    "secondarySummary": "100% yawn",
     "sourceId": "kazeran-eeveelutions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% yawn"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "vaporeon-kazeran",
@@ -780917,6 +783272,13 @@
     },
     "shortDesc": "The user cloaks itself in fire and charges at the target. This also leaves the target with a burn.",
     "desc": "The user cloaks itself in fire and charges at the target. This also leaves the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "100% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -783911,6 +786273,13 @@
     },
     "shortDesc": "The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.",
     "desc": "The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 At. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 At. Especial (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -786971,6 +789340,12 @@
         "label": "Efecto",
         "before": "The user attacks the turn after using this move. This move has a heightened chance of landing a critical hit and may also make the target flinch.",
         "after": "The user cloaks itself in light and boosts its Attack stat on the first turn, then attacks on the next turn."
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "30% retroceso",
+        "after": "ninguno"
       }
     ],
     "learnedBy": [
@@ -806893,6 +809268,13 @@
     },
     "shortDesc": "The user hurls unsanitary sludge at the target to inflict damage. This may also poison the target.",
     "desc": "The user hurls unsanitary sludge at the target to inflict damage. This may also poison the target.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "envenenar"
+      }
+    ],
+    "secondarySummary": "30% envenenar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -807116,6 +809498,13 @@
     },
     "shortDesc": "The user hurls unsanitary sludge at the target to inflict damage. This may also poison the target.",
     "desc": "The user hurls unsanitary sludge at the target to inflict damage. This may also poison the target.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "envenenar"
+      }
+    ],
+    "secondarySummary": "30% envenenar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -810498,6 +812887,13 @@
     },
     "shortDesc": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those it hits.",
     "desc": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those it hits.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "envenenar"
+      }
+    ],
+    "secondarySummary": "10% envenenar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -814203,6 +816599,13 @@
     },
     "shortDesc": "The target is attacked with a discharge of filthy gases. This may also poison the target.",
     "desc": "The target is attacked with a discharge of filthy gases. This may also poison the target.",
+    "secondaryEffects": [
+      {
+        "chance": 40,
+        "effect": "envenenar"
+      }
+    ],
+    "secondarySummary": "40% envenenar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -814848,6 +817251,13 @@
     },
     "shortDesc": "The user yells as if it's ranting about something, which lowers the Sp. Atk stats of opposing Pokémon.",
     "desc": "The user yells as if it's ranting about something, which lowers the Sp. Atk stats of opposing Pokémon.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 At. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 At. Especial (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -819920,6 +822330,13 @@
     },
     "shortDesc": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
     "desc": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -826920,8 +829337,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from snow or hail.",
     "desc": "This attack makes use of nature's power. Its effects come from snow or hail.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "congelar"
+      }
+    ],
+    "secondarySummary": "20% congelar",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% congelar"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -832820,6 +835252,13 @@
     },
     "shortDesc": "The user attacks the target with an electrically charged tackle. This may also leave the target with paralysis.",
     "desc": "The user attacks the target with an electrically charged tackle. This may also leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "30% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -833340,6 +835779,13 @@
     },
     "shortDesc": "The user bursts into song, emitting many bubbles. Any Pokémon suffering from a burn will be cured by the touch of these bubbles.",
     "desc": "The user bursts into song, emitting many bubbles. Any Pokémon suffering from a burn will be cured by the touch of these bubbles.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "curar quemaduras"
+      }
+    ],
+    "secondarySummary": "100% curar quemaduras",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -835976,6 +838422,13 @@
     },
     "shortDesc": "The user attacks the target with so much force that it could break the target's spirit. This also lowers the target's Sp. Atk stat.",
     "desc": "The user attacks the target with so much force that it could break the target's spirit. This also lowers the target's Sp. Atk stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 At. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 At. Especial (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -836829,6 +839282,13 @@
     },
     "shortDesc": "The user attacks while simultaneously stitching the target's shadow to the ground to prevent the target from fleeing.",
     "desc": "The user attacks while simultaneously stitching the target's shadow to the ground to prevent the target from fleeing.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -840980,6 +843440,13 @@
     },
     "shortDesc": "The user charges a huge wave with electricity and hits the opposing Pokémon with the wave. This may also leave the opposing Pokémon with paralysis.",
     "desc": "The user charges a huge wave with electricity and hits the opposing Pokémon with the wave. This may also leave the opposing Pokémon with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "30% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -841423,8 +843890,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Grassy Terrain and harsh sunlight.",
     "desc": "This attack makes use of nature's power. Its effects come from Grassy Terrain and harsh sunlight.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "+1 Velocidad (al usuario)"
+      }
+    ],
+    "secondarySummary": "20% +1 Velocidad (al usuario)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% +1 Velocidad (al usuario)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -841444,6 +843926,13 @@
     },
     "shortDesc": "The user attacks by wrapping opposing Pokémon in fierce winds brimming with love and hate. This may also lower their Attack stats.",
     "desc": "The user attacks by wrapping opposing Pokémon in fierce winds brimming with love and hate. This may also lower their Attack stats.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "-1 Ataque (al objetivo)"
+      }
+    ],
+    "secondarySummary": "30% -1 Ataque (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -842662,8 +845151,23 @@
     },
     "shortDesc": "The user jumps out of its hiding place and shrieks loudly to startle the opposing team. This lowers opposing Pokémon's Speed stats, but it only works on the first turn each time the user enters battle.",
     "desc": "The user jumps out of its hiding place and shrieks loudly to startle the opposing team. This lowers opposing Pokémon's Speed stats, but it only works on the first turn each time the user enters battle.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Velocidad (al objetivo)",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% -1 Velocidad (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "gourgrenade",
@@ -842821,8 +845325,23 @@
     },
     "shortDesc": "The user attacks the target with halting beam. The target becomes locked in stasis and this move's power is boosted by 50% when Stasis Room is active.",
     "desc": "The user attacks the target with halting beam. The target becomes locked in stasis and this move's power is boosted by 50% when Stasis Room is active.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% efecto adicional"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "norstar",
@@ -843016,8 +845535,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Electric Terrain and sandstorms.",
     "desc": "This attack makes use of nature's power. Its effects come from Electric Terrain and sandstorms.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "20% paralizar",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% paralizar"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -846691,6 +849225,13 @@
     },
     "shortDesc": "The user immerses the target in superheated steam. This move's power is not lowered in harsh sunlight but rather boosted by 50 percent. This may also leave the target with a burn.",
     "desc": "The user immerses the target in superheated steam. This move's power is not lowered in harsh sunlight but rather boosted by 50 percent. This may also leave the target with a burn.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "30% quemar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -846725,8 +849266,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Misty Terrain and harsh sunlight.",
     "desc": "This attack makes use of nature's power. Its effects come from Misty Terrain and harsh sunlight.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "20% quemar",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% quemar"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -846747,6 +849303,21 @@
     },
     "shortDesc": "The user crushes its target by rolling over them with its rolled-up body. This raises the user's Speed stat, and may also make the target flinch.",
     "desc": "The user crushes its target by rolling over them with its rolled-up body. This raises the user's Speed stat, and may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      },
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      },
+      {
+        "chance": 100,
+        "effect": "+1 Velocidad (al usuario)"
+      }
+    ],
+    "secondarySummary": "30% retroceso · 30% retroceso · 100% +1 Velocidad (al usuario)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -846755,6 +849326,12 @@
         "label": "Efecto",
         "before": "The user crushes its target by rolling over the target with its rolled-up body. This may also make the target flinch.",
         "after": "The user crushes its target by rolling over them with its rolled-up body. This raises the user's Speed stat, and may also make the target flinch."
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "30% retroceso",
+        "after": "30% retroceso · 30% retroceso · 100% +1 Velocidad (al usuario)"
       }
     ],
     "learnedBy": [
@@ -850162,6 +852739,13 @@
     },
     "shortDesc": "The target is hit with wings of steel. This may also boost the user's Defense stat.",
     "desc": "The target is hit with wings of steel. This may also boost the user's Defense stat.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "+1 Defensa (al usuario)"
+      }
+    ],
+    "secondarySummary": "30% +1 Defensa (al usuario)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -850170,6 +852754,12 @@
         "label": "Poder",
         "before": 70,
         "after": 75
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "10% +1 Defensa (al usuario)",
+        "after": "30% +1 Defensa (al usuario)"
       }
     ],
     "learnedBy": [
@@ -852082,6 +854672,13 @@
     "flags": {},
     "shortDesc": "After obtaining Z-Power, the user, Alolan Raichu, attacks the target with full force. This move leaves the target with paralysis.",
     "desc": "After obtaining Z-Power, the user, Alolan Raichu, attacks the target with full force. This move leaves the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "100% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": []
@@ -852106,6 +854703,13 @@
     },
     "shortDesc": "The user attacks by stomping on the target with a big foot. This may also make the target flinch.",
     "desc": "The user attacks by stomping on the target with a big foot. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "learnedBy": [
@@ -863470,8 +866074,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Electric Terrain and rain",
     "desc": "This attack makes use of nature's power. Its effects come from Electric Terrain and rain",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "20% retroceso",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% retroceso"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -863677,6 +866296,13 @@
     },
     "shortDesc": "The user attacks the target by emitting steam. This may also confuse the target.",
     "desc": "The user attacks the target by emitting steam. This may also confuse the target.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "20% confundir",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -863709,6 +866335,13 @@
     },
     "shortDesc": "The target is slugged with a punch thrown at maximum power. This may also raise the user's Attack stat.",
     "desc": "The target is slugged with a punch thrown at maximum power. This may also raise the user's Attack stat.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "+1 Ataque (al usuario)"
+      }
+    ],
+    "secondarySummary": "30% +1 Ataque (al usuario)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -863729,6 +866362,12 @@
         "label": "Efecto",
         "before": "The target is slugged with a punch thrown at maximum power.",
         "after": "The target is slugged with a punch thrown at maximum power. This may also raise the user's Attack stat."
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% +1 Ataque (al usuario)"
       }
     ],
     "learnedBy": [
@@ -868029,6 +870668,13 @@
     },
     "shortDesc": "The user attacks by struggling against opposing Pokémon. This also lowers their Sp. Atk stats.",
     "desc": "The user attacks by struggling against opposing Pokémon. This also lowers their Sp. Atk stats.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 At. Especial (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 At. Especial (al objetivo)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -882130,8 +884776,23 @@
     },
     "shortDesc": "The user attacks the target with sugary sweets. This may also lower the target's speed.",
     "desc": "The user attacks the target with sugary sweets. This may also lower the target's speed.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "30% -1 Velocidad (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% -1 Velocidad (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "slurpuff",
@@ -882224,8 +884885,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from harsh sunlight.",
     "desc": "This attack makes use of nature's power. Its effects come from harsh sunlight.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "quemar"
+      }
+    ],
+    "secondarySummary": "20% quemar",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% quemar"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -903128,8 +905804,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Grassy Terrain and rain.",
     "desc": "This attack makes use of nature's power. Its effects come from Grassy Terrain and rain.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Velocidad (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% -1 Velocidad (al objetivo)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -919109,6 +921800,13 @@
     },
     "shortDesc": "The user sets off an explosion of sticky candy syrup, which coats the target and causes the target's Speed stat to drop each turn for three turns.",
     "desc": "The user sets off an explosion of sticky candy syrup, which coats the target and causes the target's Speed stat to drop each turn for three turns.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "bomba de jarabe"
+      }
+    ],
+    "secondarySummary": "100% bomba de jarabe",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -950721,8 +953419,23 @@
     },
     "shortDesc": "The user viciously bites the target to hold them in place. The target becomes unable to flee.",
     "desc": "The user viciously bites the target to hold them in place. The target becomes unable to flee.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% efecto adicional"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "flygon",
@@ -956795,6 +959508,13 @@
     },
     "shortDesc": "The user attacks the target's throat, and the resultant suffering prevents the target from using sound-based moves for two turns.",
     "desc": "The user attacks the target's throat, and the resultant suffering prevents the target from using sound-based moves for two turns.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -959369,6 +962089,13 @@
     },
     "shortDesc": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",
     "desc": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "30% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -962419,6 +965146,17 @@
     },
     "shortDesc": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.",
     "desc": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "paralizar"
+      },
+      {
+        "chance": 10,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "10% paralizar · 10% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -964207,6 +966945,13 @@
     },
     "shortDesc": "The target is attacked with an electrified punch. This may also leave the target with paralysis.",
     "desc": "The target is attacked with an electrified punch. This may also leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "10% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -967457,6 +970202,13 @@
     },
     "shortDesc": "The user attacks the target with a jolt of electricity. This may also leave the target with paralysis.",
     "desc": "The user attacks the target with a jolt of electricity. This may also leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "10% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -971170,6 +973922,13 @@
     },
     "shortDesc": "The user attacks the target with a strong electric blast. This may also leave the target with paralysis.",
     "desc": "The user attacks the target with a strong electric blast. This may also leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "10% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -975869,6 +978628,13 @@
     },
     "shortDesc": "The user overwhelms the target with lightning-like movement before delivering a kick. This also lowers the target's Defense stat.",
     "desc": "The user overwhelms the target with lightning-like movement before delivering a kick. This also lowers the target's Defense stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Defensa (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "learnedBy": [
@@ -976883,8 +979649,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from Psychic Terrain and snow or hail.",
     "desc": "This attack makes use of nature's power. Its effects come from Psychic Terrain and snow or hail.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "congelar"
+      }
+    ],
+    "secondarySummary": "20% congelar",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% congelar"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -976954,6 +979735,13 @@
     },
     "shortDesc": "The user blows out raging flames as if singing a song, scorching the target. This also boosts the user's Sp. Atk stat.",
     "desc": "The user blows out raging flames as if singing a song, scorching the target. This also boosts the user's Sp. Atk stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 At. Especial (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 At. Especial (al usuario)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -985368,8 +988156,23 @@
     },
     "shortDesc": "The user attacks the target by singing a toxic ballad. This may also badly poison the target.",
     "desc": "The user attacks the target by singing a toxic ballad. This may also badly poison the target.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "envenenar gravemente"
+      }
+    ],
+    "secondarySummary": "10% envenenar gravemente",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "10% envenenar gravemente"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "meloetta-lament",
@@ -986453,6 +989256,13 @@
     },
     "shortDesc": "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat.",
     "desc": "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 Velocidad (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 Velocidad (al usuario)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "learnedBy": [
@@ -989173,6 +991983,13 @@
     },
     "shortDesc": "The user strikes with a simultaneous three-beam attack. This may also burn, freeze, or paralyze the target.",
     "desc": "The user strikes with a simultaneous three-beam attack. This may also burn, freeze, or paralyze the target.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "20% efecto adicional",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "learnedBy": [
@@ -995753,6 +998570,13 @@
     },
     "shortDesc": "The user takes the target trick-or-treating. This adds Ghost type to the target's type. This also prevents the target from fleeing.",
     "desc": "The user takes the target trick-or-treating. This adds Ghost type to the target's type. This also prevents the target from fleeing.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -995761,6 +998585,12 @@
         "label": "Efecto",
         "before": "The user takes the target trick-or-treating. This adds Ghost type to the target's type.",
         "after": "The user takes the target trick-or-treating. This adds Ghost type to the target's type. This also prevents the target from fleeing."
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% efecto adicional"
       }
     ],
     "learnedBy": [
@@ -995898,6 +998728,17 @@
     },
     "shortDesc": "The user kicks, then fires three arrows. This move has a heightened chance of landing a critical hit and may also lower the target's Defense stat or make it flinch.",
     "desc": "The user kicks, then fires three arrows. This move has a heightened chance of landing a critical hit and may also lower the target's Defense stat or make it flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 15,
+        "effect": "-1 Defensa (al objetivo)"
+      },
+      {
+        "chance": 10,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "15% -1 Defensa (al objetivo) · 10% retroceso",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -995906,6 +998747,12 @@
         "label": "Poder",
         "before": 90,
         "after": 30
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "50% -1 Defensa (al objetivo) · 30% retroceso",
+        "after": "15% -1 Defensa (al objetivo) · 10% retroceso"
       }
     ],
     "learnedBy": [
@@ -996987,6 +999834,13 @@
     },
     "shortDesc": "The user lands an intense kick of tropical origins on the target. This also lowers the target's Attack stat.",
     "desc": "The user lands an intense kick of tropical origins on the target. This also lowers the target's Attack stat.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Ataque (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Ataque (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -997293,8 +1000147,23 @@
     },
     "shortDesc": "Raises the user's Sp. Atk and Speed, and removes the opponent's Reflect, Light Screen, etc.",
     "desc": "Raises the user's Sp. Atk and Speed, and removes the opponent's Reflect, Light Screen, etc.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 At. Especial, +1 Velocidad (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 At. Especial, +1 Velocidad (al usuario)",
     "sourceId": "starlightfusion",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% +1 At. Especial, +1 Velocidad (al usuario)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "gardevoir-reshievoir",
@@ -997420,6 +1000289,13 @@
     },
     "shortDesc": "The user damages the target twice in succession by jabbing it with two spikes. This may also poison the target.",
     "desc": "The user damages the target twice in succession by jabbing it with two spikes. This may also poison the target.",
+    "secondaryEffects": [
+      {
+        "chance": 50,
+        "effect": "envenenar"
+      }
+    ],
+    "secondarySummary": "50% envenenar",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -997428,6 +1000304,12 @@
         "label": "Poder",
         "before": 25,
         "after": 50
+      },
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "20% envenenar",
+        "after": "50% envenenar"
       }
     ],
     "learnedBy": [
@@ -997576,6 +1000458,13 @@
     },
     "shortDesc": "The user whips up a vicious tornado to tear at opposing Pokémon. This may also make them flinch.",
     "desc": "The user whips up a vicious tornado to tear at opposing Pokémon. This may also make them flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "20% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -1001745,6 +1004634,13 @@
     },
     "shortDesc": "The user reacts to the target's movement and strikes with the heel of its palm, making the target flinch. This move fails if the target is not readying a priority move.",
     "desc": "The user reacts to the target's movement and strikes with the heel of its palm, making the target flinch. This move fails if the target is not readying a priority move.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "100% retroceso",
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -1007503,8 +1010399,23 @@
     },
     "shortDesc": "The user attacks by grabbing the target and tripping them up, causing them to fall onto their back. This lowers the target's Speed stat, but also damages the user a little.",
     "desc": "The user attacks by grabbing the target and tripping them up, causing them to fall onto their back. This lowers the target's Speed stat, but also damages the user a little.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "-1 Velocidad (al objetivo)"
+      }
+    ],
+    "secondarySummary": "100% -1 Velocidad (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% -1 Velocidad (al objetivo)"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "machamp",
@@ -1008615,8 +1011526,23 @@
     },
     "shortDesc": "The user ensnares the target with toxic ribbons, poisoning the defender and trapping them until the user is taken down or switches out.",
     "desc": "The user ensnares the target with toxic ribbons, poisoning the defender and trapping them until the user is taken down or switches out.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "efecto adicional"
+      }
+    ],
+    "secondarySummary": "100% efecto adicional",
     "sourceId": "kazeran-eeveelutions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "100% efecto adicional"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "sylveon-kazeran",
@@ -1012453,6 +1015379,13 @@
     },
     "shortDesc": "The user electrifies itself and charges the target to inflict damage. This also damages the user quite a lot and may leave the target with paralysis.",
     "desc": "The user electrifies itself and charges the target to inflict damage. This also damages the user quite a lot and may leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "10% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -1014784,6 +1017717,13 @@
     },
     "shortDesc": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
     "desc": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "confundir"
+      }
+    ],
+    "secondarySummary": "20% confundir",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -1019744,6 +1022684,13 @@
     },
     "shortDesc": "The user charges at the target and may make it flinch.",
     "desc": "The user charges at the target and may make it flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "20% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -1024880,8 +1027827,23 @@
     },
     "shortDesc": "A blazing bolt of dragon energy. May paralyze the target.",
     "desc": "A blazing bolt of dragon energy. May paralyze the target.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "10% paralizar",
     "sourceId": "blue-eyes-white-dragon",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "10% paralizar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "blueeyes",
@@ -1024917,8 +1027879,27 @@
     },
     "shortDesc": "May burn and flinch the target.",
     "desc": "May burn and flinch the target.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "quemar"
+      },
+      {
+        "chance": 20,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% quemar · 20% retroceso",
     "sourceId": "blue-eyes-white-dragon",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% quemar · 20% retroceso"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "blueeyes",
@@ -1025013,6 +1027994,13 @@
     },
     "shortDesc": "The user attacks the target with a wicked drift. This may also incude sleep.",
     "desc": "The user attacks the target with a wicked drift. This may also incude sleep.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "dormir"
+      }
+    ],
+    "secondarySummary": "10% dormir",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -1028438,8 +1031426,23 @@
     },
     "shortDesc": "This attack makes use of nature's power. Its effects come from its surroundings.",
     "desc": "This attack makes use of nature's power. Its effects come from its surroundings.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "-1 Defensa (al objetivo)"
+      }
+    ],
+    "secondarySummary": "20% -1 Defensa (al objetivo)",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "20% -1 Defensa (al objetivo)"
+      }
+    ],
     "learnedBy": []
   },
   {
@@ -1028460,6 +1031463,13 @@
     },
     "shortDesc": "The user summons a thunderous tempest and savagely attacks with lightning and wind. This may also leave opposing Pokémon with paralysis.",
     "desc": "The user summons a thunderous tempest and savagely attacks with lightning and wind. This may also leave opposing Pokémon with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "20% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -1044396,6 +1047406,13 @@
     },
     "shortDesc": "The user attacks by firing an electric blast like a cannon. This also leaves the target with paralysis.",
     "desc": "The user attacks by firing an electric blast like a cannon. This also leaves the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "100% paralizar",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -1045364,8 +1048381,23 @@
     },
     "shortDesc": "The user launches a kick that has a heightened chance of landing a critical hit. This may also leave the target with paralysis.",
     "desc": "The user launches a kick that has a heightened chance of landing a critical hit. This may also leave the target with paralysis.",
+    "secondaryEffects": [
+      {
+        "chance": 10,
+        "effect": "paralizar"
+      }
+    ],
+    "secondarySummary": "10% paralizar",
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "10% paralizar"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "umbrelligant",
@@ -1045446,8 +1048478,23 @@
     },
     "shortDesc": "The user delivers a powerful Zekrom Kick! This move is Dragon and Electric type simultaneously. This may also make the target flinch.",
     "desc": "The user delivers a powerful Zekrom Kick! This move is Dragon and Electric type simultaneously. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "lasers-additions",
     "isOverride": true,
+    "balanceChanges": [
+      {
+        "field": "secondaryEffects",
+        "label": "Efecto secundario",
+        "before": "ninguno",
+        "after": "30% retroceso"
+      }
+    ],
     "learnedBy": [
       {
         "slug": "zekrom",
@@ -1045473,6 +1048520,13 @@
     },
     "shortDesc": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
     "desc": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 20,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "20% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -1051604,6 +1054658,13 @@
     },
     "shortDesc": "The user crashes into the target, delivering a powerful electric shock. This may also make the target flinch.",
     "desc": "The user crashes into the target, delivering a powerful electric shock. This may also make the target flinch.",
+    "secondaryEffects": [
+      {
+        "chance": 30,
+        "effect": "retroceso"
+      }
+    ],
+    "secondarySummary": "30% retroceso",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [
@@ -1051642,6 +1054703,13 @@
     },
     "shortDesc": "The user attacks the target with bursts of electricity at high speed. This move always goes first and results in a critical hit.",
     "desc": "The user attacks the target with bursts of electricity at high speed. This move always goes first and results in a critical hit.",
+    "secondaryEffects": [
+      {
+        "chance": 100,
+        "effect": "+1 Evasión (al usuario)"
+      }
+    ],
+    "secondarySummary": "100% +1 Evasión (al usuario)",
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "learnedBy": [

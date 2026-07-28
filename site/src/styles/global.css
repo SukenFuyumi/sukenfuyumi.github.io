@@ -192,6 +192,21 @@ tr:hover td { background: var(--row-hover); }
 .pill.origin { background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 700; }
 .pill.muted { background: transparent; color: var(--text-muted); border-color: var(--border); opacity: 0.85; }
 
+/* Secondary-effect chance ("30% envenenar") on move pages/tables */
+.secondary-effect {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  margin-left: 0.45rem;
+  font-size: 0.85rem;
+}
+.secondary-effect .chance {
+  font-weight: 700;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-muted); }
+
 .grid {
   display: grid;
   gap: 0.85rem;
