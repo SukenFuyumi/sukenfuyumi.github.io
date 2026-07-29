@@ -22,7 +22,16 @@ interface MoveInfo {
 
 const STAT_LABELS: Record<string, string> = { hp: "HP", atk: "ATK", def: "DEF", spa: "SPA", spd: "SPD", spe: "SPE" };
 const STAT_ORDER = ["hp", "atk", "def", "spa", "spd", "spe"];
-const STAT_BAR_MAX = 450;
+// Same scale as the standalone page: measured against what's reachable at the
+// Pokémon's own level (~4.5 per level), so early-game teams don't all render as
+// identical short stubs. Hue tracks the same ratio as the length.
+function statRatio(value: number, level: number): number {
+  const ceiling = Math.max(60, level * 4.5);
+  return Math.max(0, Math.min(1, value / ceiling));
+}
+function statColor(ratio: number): string {
+  return `hsl(${Math.round(60 + ratio * 220)} 65% 50%)`;
+}
 
 function MonArt({ image, name, size }: { image: any; name: string; size: number }) {
   if (!image) return null;
@@ -214,7 +223,9 @@ export default function TrainerModal() {
                               <th>{STAT_LABELS[k]}</th>
                               <td class="stat-num">{m.stats[k]}</td>
                               <td class="stat-bar-cell">
-                                <div class="stat-bar"><span style={{ width: `${Math.min(100, (m.stats[k] / STAT_BAR_MAX) * 100)}%` }}></span></div>
+                                <div class="stat-bar">
+                                  <span style={{ width: `${statRatio(m.stats[k], m.level) * 100}%`, background: statColor(statRatio(m.stats[k], m.level)) }}></span>
+                                </div>
                               </td>
                               <td class="stat-num dim">{m.ivs?.[k] ?? 0}</td>
                               <td class="stat-num dim">{m.evs?.[k] ?? 0}</td>

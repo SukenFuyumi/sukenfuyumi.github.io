@@ -55,14 +55,16 @@ function groupByStep(list: any[]) {
           {s.difficulty !== null && <> · Dificultad {s.difficulty}/10</>}
           {s.requiredSeries.length > 0 && <> · Requiere completar {s.requiredSeries.join(", ")}</>}
         </p>
-        {steps.map(([step, group]) => (
-          <div class="prog-step">
-            <div class="prog-step-num" title="Orden en la cadena de progresión">{step + 1}</div>
-            <div class="prog-step-cards">
-              {group.map((t: any) => <TrainerCard t={t} />)}
+        <div class="prog-chain">
+          {steps.map(([step, group]) => (
+            <div class="prog-step">
+              <div class="prog-step-num" title="Orden en la cadena de progresión">{step + 1}</div>
+              <div class="prog-step-cards">
+                {group.map((t: any) => <TrainerCard t={t} />)}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </section>
     );
   })}

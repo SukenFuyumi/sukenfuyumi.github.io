@@ -12,9 +12,21 @@ const STAT_LABELS: Record<string, string> = {
   hp: "HP", atk: "ATK", def: "DEF", spa: "SPA", spd: "SPD", spe: "SPE",
 };
 const STAT_ORDER = ["hp", "atk", "def", "spa", "spd", "spe"];
-// Bars are scaled against a fixed ceiling rather than each team's own max, so
-// the same stat length means the same number across every trainer page.
-const STAT_BAR_MAX = 450;
+// Stats scale with level, so the bars are measured against what's reachable at
+// each Pokémon's own level (~4.5 per level, i.e. ~450 at 100) instead of a flat
+// level-100 ceiling. Against a flat ceiling every early-game team rendered as
+// identical short green stubs; this way a level-16 Onix's defence still reads as
+// huge, and the ratio means the same thing at any level: "how close to the best
+// possible for this level".
+function statRatio(value: number, level: number): number {
+  const ceiling = Math.max(60, level * 4.5);
+  return Math.max(0, Math.min(1, value / ceiling));
+}
+// Colour follows that same ratio, so length and hue always agree: weak stats
+// read yellow-green, strong ones blue-violet.
+function statColor(ratio: number): string {
+  return `hsl(${Math.round(60 + ratio * 220)} 65% 50%)`;
+}
 
 const byId = new Map((trainers as any[]).map((x) => [x.id, x]));
 const requires = (t.requiredDefeats ?? []).map((id: string) => byId.get(id)).filter(Boolean);
@@ -105,7 +117,7 @@ const unlocks = (trainers as any[]).filter((x) => (x.requiredDefeats ?? []).incl
                   <td class="stat-num">{m.stats[k]}</td>
                   <td class="stat-bar-cell">
                     <div class="stat-bar">
-                      <span style={`width:${Math.min(100, (m.stats[k] / STAT_BAR_MAX) * 100)}%`}></span>
+                      <span style={`width:${statRatio(m.stats[k], m.level) * 100}%; background:${statColor(statRatio(m.stats[k], m.level))};`}></span>
                     </div>
                   </td>
                   <td class="stat-num dim">{m.ivs?.[k] ?? 0}</td>

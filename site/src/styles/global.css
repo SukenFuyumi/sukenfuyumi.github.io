@@ -209,15 +209,31 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
 
 /* ---- Progresión (trainers) ---- */
 .prog-cards { display: grid; gap: 0.7rem; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
-/* One row per progression step: the step number in a rail on the left, every
-   trainer unlocked at that point beside it. */
-.prog-step { display: flex; gap: 0.75rem; align-items: flex-start; margin-bottom: 0.7rem; }
-.prog-step-num {
-  flex-shrink: 0; width: 30px; height: 30px; border-radius: 50%;
-  background: var(--accent); color: #fff; font-weight: 800; font-size: 0.85rem;
-  display: flex; align-items: center; justify-content: center; margin-top: 0.5rem;
+
+/* A series reads left-to-right as a chain: one column per progression step, in
+   order, scrolling horizontally when the region has more steps than fit. */
+.prog-chain {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+  overflow-x: auto;
+  padding-bottom: 0.6rem;
+  scroll-snap-type: x proximity;
 }
-.prog-step-cards { flex: 1; display: grid; gap: 0.7rem; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
+.prog-step {
+  flex: 0 0 265px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  scroll-snap-align: start;
+}
+.prog-step-num {
+  width: 26px; height: 26px; border-radius: 50%;
+  background: var(--accent); color: #fff; font-weight: 800; font-size: 0.78rem;
+  display: flex; align-items: center; justify-content: center;
+}
+/* Several trainers can unlock at the same step - they stack inside the column. */
+.prog-step-cards { display: flex; flex-direction: column; gap: 0.5rem; }
 
 .trainer-card {
   display: block; background: var(--panel); border: 1px solid var(--border);
