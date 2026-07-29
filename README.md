@@ -12,6 +12,28 @@ los rebalanceos de mods como Laser's Additions.
   del servidor y escribe JSON normalizado en `site/src/data/generated/`.
 - `site/` - sitio estático en Astro que consume ese JSON.
 
+## Actualizar la sección de Progresión (entrenadores)
+
+`/progresion` sale del datapack de RCT (Radical Cobblemon Trainers) que define
+gimnasios, Alto Mando, campeones, jefes de equipos villanos y los entrenadores
+custom del servidor. Para actualizarlo:
+
+1. Copia el zip nuevo a `datapacks/`.
+2. Apunta `pipeline/sources.json` -> `trainerPack.file` a ese archivo.
+3. `cd pipeline && npm run extract`, luego `cd ../site && npm run build`.
+
+Los **level caps** no vienen en el datapack: son una mecánica del mod,
+documentada en `config/rctmod-server.toml`. El tope de un jugador es el nivel
+del Pokémon más fuerte de su **siguiente** entrenador obligatorio más
+`relativeLevelCap` (5 en este servidor), así que el pipeline lo calcula por
+entrenador. Si cambias esos valores en el server, ajústalos también en
+`trainerPack.relativeLevelCap` / `initialLevelCap`.
+
+El orden de la progresión sale de `requiredDefeats` (qué entrenador hay que
+derrotar antes), no de los nombres de archivo, y el orden de las series de
+`requiredSeries` - por eso Johto aparece antes que Hoenn aunque compartan
+dificultad.
+
 ## Actualizar la Pokedex cuando cambian los mods
 
 1. Instala/actualiza el jar o datapack en la carpeta del servidor como siempre.

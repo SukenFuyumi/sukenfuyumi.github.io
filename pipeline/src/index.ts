@@ -18,6 +18,7 @@ import { TYPE_COLORS, typeColor } from "./typeColors.js";
 import { ABILITY_TYPE_IMMUNITIES } from "./abilityEffects.js";
 import { buildTerrainWeatherIndex } from "./terrainWeather.js";
 import { describeSecondaryEffects, summarizeSecondaryEffects } from "./secondaryEffects.js";
+import { buildTrainerData } from "./trainers.js";
 import { PUBLIC_TEXTURES_DIR, PUBLIC_RENDERS_DIR, PUBLIC_DIR } from "./config.js";
 import type { MoveRecord, AbilityRecord, BalanceChange } from "./types.js";
 import { writeFileSync } from "node:fs";
@@ -747,6 +748,86 @@ async function main() {
     ),
     "utf-8"
   );
+  // --- Trainers / progression (RCT datapack) ---
+  if (manifest.trainerPack) {
+    const packPath = resolvePath(sourceRoot, manifest.trainerPack.file);
+    // Two records can share a bare identifier: the real species plus a
+    // mega-addition pack that registers its own thin entry under another
+    // namespace (e.g. rlm_megas' Mawile, which carries only form data and no
+    // base stats). Keep the fullest one, or the Cobblemon-namespaced one on a
+    // tie, so trainer teams resolve against real stats instead of a stub.
+    const speciesByIdentifier = new Map<string, any>();
+    const recordScore = (r: any) =>
+      (Object.keys(r.baseStats ?? {}).length > 0 ? 2 : 0) + (r.namespace === "cobblemon" ? 1 : 0);
+    for (const rec of records.values()) {
+      const key = rec.id.split(":")[1].toLowerCase();
+      const prev = speciesByIdentifier.get(key);
+      if (!prev || recordScore(rec) > recordScore(prev)) speciesByIdentifier.set(key, rec);
+    }
+    const formsByParent = new Map<string, any[]>();
+    for (const f of formRecords) {
+      const parent = f.formOf?.slug;
+      if (!parent) continue;
+      if (!formsByParent.has(parent)) formsByParent.set(parent, []);
+      formsByParent.get(parent)!.push(f);
+    }
+    try {
+      const { trainers, series } = buildTrainerData(
+        packPath,
+        { relativeLevelCap: manifest.trainerPack.relativeLevelCap ?? 5, includeCustom: true },
+        {
+          resolveSpecies: (species, aspects) => {
+            const rec = speciesByIdentifier.get(species);
+            if (!rec) return { slug: null, name: displayName(species), image: null };
+            if (aspects.length > 0) {
+              const forms = formsByParent.get(rec.slug) ?? [];
+              const match = forms.find((f) => {
+                const fa = (f.aspects ?? []).map((a: string) => a.toLowerCase());
+                return aspects.every((a) => fa.includes(a));
+              });
+              if (match) {
+                return {
+                  slug: match.slug,
+                  name: match.name,
+                  image: match.image,
+                  types: match.types,
+                  baseStats: match.baseStats ?? rec.baseStats,
+                };
+              }
+            }
+            return { slug: rec.slug, name: rec.name, image: rec.image, types: rec.types, baseStats: rec.baseStats };
+          },
+          resolveMove: (id) => {
+            const m = moveLookup.get(id);
+            return m ? { name: m.name, type: m.type, category: m.category } : null;
+          },
+          resolveAbility: (id) => abilityLookup.get(resolveAbilityId(normalizeAbilityId(id)))?.name ?? null,
+          resolveItem: (id) => {
+            const bare = id.replace(/^[a-z_]+:/, "");
+            return (
+              ingested.lang.get(`item.cobblemon.${bare}`)?.value ??
+              ingested.lang.get(`item.minecraft.${bare}`)?.value ??
+              null
+            );
+          },
+        }
+      );
+      writeJson("trainers.json", trainers);
+      writeJson("trainerSeries.json", series);
+      const withCap = trainers.filter((t) => t.levelCap !== null).length;
+      console.log(
+        `Resolved ${trainers.length} trainers across ${series.length} series (${withCap} with a level cap) from ${manifest.trainerPack.label}.`
+      );
+    } catch (err) {
+      console.warn(`[trainers] failed to read ${manifest.trainerPack.file}:`, (err as Error).message);
+      writeJson("trainers.json", []);
+      writeJson("trainerSeries.json", []);
+    }
+  } else {
+    writeJson("trainers.json", []);
+    writeJson("trainerSeries.json", []);
+  }
+
   writeJson("typeColors.json", TYPE_COLORS);
   writeJson("typeMatrix.json", buildTypeMatrix(ingested.showdownBase.typechart));
   writeJson("sources.json", { sources: manifest.sources, disabled: manifest.disabled, cosmeticOnly: manifest.cosmeticOnly });

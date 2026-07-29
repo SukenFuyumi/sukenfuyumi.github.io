@@ -1,0 +1,88 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import TrainerCard from "../../components/TrainerCard.astro";
+import trainers from "../../data/generated/trainers.json";
+import trainerSeries from "../../data/generated/trainerSeries.json";
+
+const all = trainers as any[];
+const series = trainerSeries as any[];
+
+// Trainers placed in a region series form the main progression; the rest are
+// either one-off bosses (villain leaders, rivals, special encounters) or the
+// server's own community trainers - grouped separately so the ordered chains
+// stay readable.
+const inSeries = new Set(all.filter((t) => t.seriesId).map((t) => t.id));
+const specials = all
+  .filter((t) => !inSeries.has(t.id) && t.roleKey !== "custom")
+  .sort((a, b) => (a.levelCap ?? 0) - (b.levelCap ?? 0));
+const community = all
+  .filter((t) => t.roleKey === "custom")
+  .sort((a, b) => (a.levelCap ?? 0) - (b.levelCap ?? 0));
+
+function groupByStep(list: any[]) {
+  const steps = new Map<number, any[]>();
+  for (const t of list) {
+    if (!steps.has(t.step)) steps.set(t.step, []);
+    steps.get(t.step)!.push(t);
+  }
+  return [...steps.entries()].sort((a, b) => a[0] - b[0]);
+}
+---
+<Layout title="Progresión" description="Equipos de líderes de gimnasio, Alto Mando, campeones y jefes de Cobbleverse, con sus level caps.">
+  <h1>Progresión</h1>
+  <div class="panel" style="margin-bottom:1.25rem;">
+    <p style="margin:0 0 0.5rem;">
+      Todos los entrenadores del servidor con su equipo completo: Pokémon, nivel, naturaleza,
+      habilidad, objeto, movimientos e IVs/EVs.
+    </p>
+    <p style="margin:0; color:var(--text-muted); font-size:0.88rem;">
+      <strong>Level cap:</strong> tu nivel máximo se calcula a partir del Pokémon más fuerte de tu
+      <em>próximo</em> entrenador obligatorio, más 5. Los Pokémon dejan de ganar experiencia al llegar
+      a ese tope, así que el número de cada tarjeta es el techo bajo el que juegas mientras ese
+      entrenador siga siendo tu objetivo.
+    </p>
+  </div>
+
+  {series.map((s) => {
+    const list = all.filter((t) => t.seriesId === s.id).sort((a, b) => a.step - b.step || (a.levelCap ?? 0) - (b.levelCap ?? 0));
+    const steps = groupByStep(list);
+    return (
+      <section style="margin-bottom:2rem;">
+        <h2 style="margin-bottom:0.25rem;">{s.title}</h2>
+        <p style="margin:0 0 0.85rem; color:var(--text-muted); font-size:0.85rem;">
+          {s.description}
+          {s.difficulty !== null && <> · Dificultad {s.difficulty}/10</>}
+          {s.requiredSeries.length > 0 && <> · Requiere completar {s.requiredSeries.join(", ")}</>}
+        </p>
+        {steps.map(([step, group]) => (
+          <div class="prog-step">
+            <div class="prog-step-num" title="Orden en la cadena de progresión">{step + 1}</div>
+            <div class="prog-step-cards">
+              {group.map((t: any) => <TrainerCard t={t} />)}
+            </div>
+          </div>
+        ))}
+      </section>
+    );
+  })}
+
+  {specials.length > 0 && (
+    <section style="margin-bottom:2rem;">
+      <h2 style="margin-bottom:0.25rem;">Jefes y encuentros especiales</h2>
+      <p style="margin:0 0 0.85rem; color:var(--text-muted); font-size:0.85rem;">
+        Líderes de equipos villanos, rivales y encuentros únicos. Ordenados por level cap.
+      </p>
+      <div class="prog-cards">{specials.map((t) => <TrainerCard t={t} />)}</div>
+    </section>
+  )}
+
+  {community.length > 0 && (
+    <section>
+      <h2 style="margin-bottom:0.25rem;">Entrenadores del servidor</h2>
+      <p style="margin:0 0 0.85rem; color:var(--text-muted); font-size:0.85rem;">
+        Entrenadores personalizados de la comunidad ({community.length}). Ordenados por level cap.
+      </p>
+      <div class="prog-cards">{community.map((t) => <TrainerCard t={t} />)}</div>
+    </section>
+  )}
+</Layout>

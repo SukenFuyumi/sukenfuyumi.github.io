@@ -207,6 +207,77 @@ tr:hover td { background: var(--row-hover); }
 }
 td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-muted); }
 
+/* ---- Progresión (trainers) ---- */
+.prog-cards { display: grid; gap: 0.7rem; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
+/* One row per progression step: the step number in a rail on the left, every
+   trainer unlocked at that point beside it. */
+.prog-step { display: flex; gap: 0.75rem; align-items: flex-start; margin-bottom: 0.7rem; }
+.prog-step-num {
+  flex-shrink: 0; width: 30px; height: 30px; border-radius: 50%;
+  background: var(--accent); color: #fff; font-weight: 800; font-size: 0.85rem;
+  display: flex; align-items: center; justify-content: center; margin-top: 0.5rem;
+}
+.prog-step-cards { flex: 1; display: grid; gap: 0.7rem; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
+
+.trainer-card {
+  display: block; background: var(--panel); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 0.7rem 0.8rem; color: var(--text);
+}
+.trainer-card:hover { border-color: var(--accent); text-decoration: none; box-shadow: 0 2px 8px var(--shadow); }
+.trainer-card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; }
+.trainer-card-name { font-weight: 700; }
+.trainer-card-role { font-size: 0.75rem; color: var(--text-muted); }
+.trainer-card-cap { text-align: center; flex-shrink: 0; line-height: 1.05; }
+.trainer-card-cap span { display: block; font-weight: 800; font-size: 1.15rem; color: var(--accent); }
+.trainer-card-cap small { font-size: 0.6rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.04em; }
+.trainer-card-team { display: flex; flex-wrap: wrap; gap: 0.15rem; margin-top: 0.5rem; }
+.trainer-card-mon { position: relative; display: inline-flex; }
+.trainer-card-mon em {
+  position: absolute; right: 0; bottom: 0; font-style: normal; font-size: 0.6rem; font-weight: 700;
+  background: var(--panel); border: 1px solid var(--border); border-radius: 4px; padding: 0 0.15rem;
+}
+
+.trainer-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; flex-wrap: wrap; }
+.levelcap-box {
+  text-align: center; border: 2px solid var(--accent); border-radius: var(--radius);
+  padding: 0.4rem 0.9rem; flex-shrink: 0;
+}
+.levelcap-num { display: block; font-size: 1.8rem; font-weight: 800; color: var(--accent); line-height: 1; }
+.levelcap-lbl { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); }
+
+.team-grid { display: grid; gap: 0.85rem; grid-template-columns: repeat(auto-fill, minmax(390px, 1fr)); margin-top: 1.25rem; }
+.team-card { display: flex; gap: 0.85rem; padding: 0.8rem; }
+.team-card-left { width: 132px; flex-shrink: 0; text-align: center; }
+.team-art { display: flex; align-items: center; justify-content: center; height: 80px; }
+.team-name { display: block; font-weight: 700; font-size: 0.9rem; margin-top: 0.2rem; }
+.team-lvl { font-size: 0.78rem; color: var(--text-muted); }
+.team-meta { display: grid; grid-template-columns: auto 1fr; gap: 0 0.35rem; margin: 0.35rem 0 0; text-align: left; font-size: 0.72rem; }
+.team-meta dt { color: var(--text-muted); }
+.team-meta dd { margin: 0; font-weight: 600; }
+.team-card-right { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+
+.stat-table { font-size: 0.74rem; }
+.stat-table th, .stat-table td { padding: 0.08rem 0.3rem; border: 0; }
+.stat-table thead th { background: transparent; color: var(--text-muted); font-size: 0.66rem; text-align: right; }
+.stat-table tbody th { color: var(--text-muted); text-align: left; font-weight: 700; width: 34px; }
+.stat-table .stat-num { text-align: right; font-variant-numeric: tabular-nums; font-weight: 700; width: 38px; }
+.stat-table .stat-num.dim { font-weight: 500; color: var(--text-muted); }
+.stat-table .stat-bar-cell { width: 100%; }
+.stat-table .stat-bar { height: 7px; }
+
+.team-moves { display: grid; grid-template-columns: 1fr 1fr; gap: 0.3rem; }
+.team-move {
+  display: block; text-align: center; padding: 0.28rem 0.3rem; border-radius: 5px;
+  font-size: 0.74rem; font-weight: 700; color: #fff; background: var(--text-muted);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.team-move:hover { text-decoration: none; filter: brightness(1.12); }
+
+@media (max-width: 560px) {
+  .team-card { flex-direction: column; }
+  .team-card-left { width: 100%; }
+}
+
 .grid {
   display: grid;
   gap: 0.85rem;

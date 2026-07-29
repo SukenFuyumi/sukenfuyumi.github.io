@@ -23,6 +23,10 @@ export interface SourcesManifest {
   // (see cobbleDexSprites.ts) - optional since it's a machine-local path, not
   // something every checkout of this repo will have populated.
   spriteExportDir?: string;
+  // RCT (Radical Cobblemon Trainers) datapack that defines the server's
+  // trainers, their teams and the progression chain between them. Read for
+  // the /progresion section; swap the file + bump this path to update.
+  trainerPack?: { file: string; label: string; relativeLevelCap?: number; initialLevelCap?: number };
   sources: SourceEntry[];
   disabled: DisabledEntry[];
   cosmeticOnly: string[];

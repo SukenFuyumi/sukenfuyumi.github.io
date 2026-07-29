@@ -1,0 +1,33 @@
+---
+import MonImage from "./MonImage.astro";
+
+interface Props {
+  t: any;
+}
+const { t } = Astro.props;
+---
+<a class="trainer-card" href={`/progresion/${t.slug}`}>
+  <div class="trainer-card-top">
+    <div>
+      <div class="trainer-card-name">{t.name}</div>
+      <div class="trainer-card-role">
+        {t.role}
+        {t.typeLabel && t.typeLabel !== t.role && <span style={t.typeColor ? `color:${t.typeColor};` : ""}> · {t.typeLabel}</span>}
+      </div>
+    </div>
+    {t.levelCap !== null && (
+      <div class="trainer-card-cap" title="Level cap mientras es tu próximo objetivo">
+        <span>{t.levelCap}</span>
+        <small>cap</small>
+      </div>
+    )}
+  </div>
+  <div class="trainer-card-team">
+    {t.team.map((m: any) => (
+      <span class="trainer-card-mon" title={`${m.displayName} Nv. ${m.level}`}>
+        <MonImage image={m.image} name={m.displayName} size={38} />
+        <em>{m.level}</em>
+      </span>
+    ))}
+  </div>
+</a>

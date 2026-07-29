@@ -1,0 +1,131 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import MonImage from "../../components/MonImage.astro";
+import trainers from "../../data/generated/trainers.json";
+
+export async function getStaticPaths() {
+  return (trainers as any[]).map((t) => ({ params: { slug: t.slug }, props: { t } }));
+}
+const { t } = Astro.props as { t: any };
+
+const STAT_LABELS: Record<string, string> = {
+  hp: "HP", atk: "ATK", def: "DEF", spa: "SPA", spd: "SPD", spe: "SPE",
+};
+const STAT_ORDER = ["hp", "atk", "def", "spa", "spd", "spe"];
+// Bars are scaled against a fixed ceiling rather than each team's own max, so
+// the same stat length means the same number across every trainer page.
+const STAT_BAR_MAX = 450;
+
+const byId = new Map((trainers as any[]).map((x) => [x.id, x]));
+const requires = (t.requiredDefeats ?? []).map((id: string) => byId.get(id)).filter(Boolean);
+const unlocks = (trainers as any[]).filter((x) => (x.requiredDefeats ?? []).includes(t.id));
+---
+<Layout title={`${t.name} · Progresión`}>
+  <div class="breadcrumb"><a href="/progresion">Progresión</a> &rsaquo; {t.name}</div>
+
+  <div class="panel">
+    <div class="trainer-head">
+      <div>
+        <h1 style="margin:0 0 0.35rem;">{t.name}</h1>
+        <div style="display:flex; gap:0.35rem; flex-wrap:wrap; align-items:center;">
+          <span class="pill origin">{t.role}</span>
+          {t.typeLabel && (
+            <span class="pill" style={t.typeColor ? `border-color:${t.typeColor}; color:${t.typeColor};` : ""}>{t.typeLabel}</span>
+          )}
+          {t.seriesLabel && <span class="pill muted">Serie {t.seriesLabel}</span>}
+        </div>
+      </div>
+      {t.levelCap !== null && (
+        <div class="levelcap-box" title="Nivel máximo al que puedes subir mientras este entrenador sea tu próximo objetivo">
+          <span class="levelcap-num">{t.levelCap}</span>
+          <span class="levelcap-lbl">Level cap</span>
+        </div>
+      )}
+    </div>
+
+    <p style="color:var(--text-muted); font-size:0.88rem; margin:0.75rem 0 0;">
+      Equipo de {t.team.length} · Pokémon más fuerte a nivel {t.teamMaxLevel}
+      {t.maxItemUses !== null && <> · usa hasta {t.maxItemUses} objetos en combate</>}
+      {t.bag?.length > 0 && <> · mochila: {t.bag.map((b: any) => `${b.name} x${b.quantity}`).join(", ")}</>}
+    </p>
+
+    {(requires.length > 0 || unlocks.length > 0) && (
+      <p style="font-size:0.85rem; margin:0.5rem 0 0;">
+        {requires.length > 0 && (
+          <>Requiere derrotar antes: {requires.map((r: any, i: number) => (
+            <>{i > 0 && ", "}<a href={`/progresion/${r.slug}`}>{r.name}</a></>
+          ))}</>
+        )}
+        {requires.length > 0 && unlocks.length > 0 && <br />}
+        {unlocks.length > 0 && (
+          <>Desbloquea: {unlocks.map((r: any, i: number) => (
+            <>{i > 0 && ", "}<a href={`/progresion/${r.slug}`}>{r.name}</a></>
+          ))}</>
+        )}
+      </p>
+    )}
+  </div>
+
+  <div class="team-grid">
+    {t.team.map((m: any) => (
+      <div class="panel team-card">
+        <div class="team-card-left">
+          <div class="team-art">
+            <MonImage image={m.image} name={m.displayName} size={76} />
+          </div>
+          {m.speciesSlug ? (
+            <a href={`/pokedex/${m.speciesSlug}`} class="team-name">{m.displayName}</a>
+          ) : (
+            <span class="team-name">{m.displayName}</span>
+          )}
+          <div class="team-lvl">Nv. {m.level}</div>
+          <div style="margin:0.25rem 0;">
+            {m.types.map((ty: string) => (
+              <a href={`/type/${ty}`} class="type-badge" style={`background:var(--type-${ty}); margin:0 0.15rem 0.15rem 0;`}>{ty}</a>
+            ))}
+          </div>
+          <dl class="team-meta">
+            {m.nature && <><dt>Naturaleza</dt><dd>{m.nature}</dd></>}
+            {m.ability && <><dt>Habilidad</dt><dd><a href={`/abilities/${m.abilityId}`}>{m.ability}</a></dd></>}
+            {m.heldItem && <><dt>Objeto</dt><dd>{m.heldItem}</dd></>}
+            {m.gimmick && <><dt>Gimmick</dt><dd>{m.gimmick}</dd></>}
+            {m.shiny && <><dt>Variocolor</dt><dd>Sí</dd></>}
+          </dl>
+        </div>
+
+        <div class="team-card-right">
+          <table class="stat-table">
+            <thead>
+              <tr><th></th><th>Total</th><th></th><th>IVs</th><th>EVs</th></tr>
+            </thead>
+            <tbody>
+              {STAT_ORDER.filter((k) => m.stats?.[k] !== undefined).map((k) => (
+                <tr>
+                  <th>{STAT_LABELS[k]}</th>
+                  <td class="stat-num">{m.stats[k]}</td>
+                  <td class="stat-bar-cell">
+                    <div class="stat-bar">
+                      <span style={`width:${Math.min(100, (m.stats[k] / STAT_BAR_MAX) * 100)}%`}></span>
+                    </div>
+                  </td>
+                  <td class="stat-num dim">{m.ivs?.[k] ?? 0}</td>
+                  <td class="stat-num dim">{m.evs?.[k] ?? 0}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+
+          <div class="team-moves">
+            {m.moves.map((mv: any) => (
+              <a
+                href={`/moves/${mv.id}`}
+                class="team-move"
+                style={mv.type ? `background:var(--type-${mv.type.toLowerCase()});` : ""}
+              >{mv.name}</a>
+            ))}
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</Layout>
