@@ -20,6 +20,8 @@ import { openZip, listEntries, readText } from "./zipUtil.js";
  * Pokemon on their *next required* trainer's team plus `relativeLevelCap`.
  * That makes the cap a property of each trainer (the ceiling you play under
  * while they're your next objective), which is what gets computed here.
+ * This server runs `relativeLevelCap: 0`, so a trainer's cap is exactly their
+ * ace's level - Brock's strongest Pokemon is level 20, so his cap is 20.
  */
 
 /**
@@ -183,7 +185,7 @@ function readJson(handle: any, name: string): any | null {
 
 export function buildTrainerData(
   zipPath: string,
-  opts: { relativeLevelCap: number; includeCustom: boolean },
+  opts: { relativeLevelCap: number; maxLevelCap: number; includeCustom: boolean },
   resolvers: TrainerResolvers
 ): { trainers: TrainerRecord[]; series: SeriesRecord[] } {
   const handle = openZip(zipPath);
@@ -292,8 +294,10 @@ export function buildTrainerData(
       typeColor: typeInfo?.color ? `#${typeInfo.color}` : null,
       teamMaxLevel,
       // The ceiling a player plays under while this trainer is their next
-      // required fight (see the module comment).
-      levelCap: teamMaxLevel > 0 ? teamMaxLevel + opts.relativeLevelCap : null,
+      // required fight (see the module comment). Clamped to the game's own
+      // level ceiling: the +relativeLevelCap bonus can't push a cap past 100,
+      // so late-game trainers (Rival Red's level-100 team) cap at 100, not 105.
+      levelCap: teamMaxLevel > 0 ? Math.min(teamMaxLevel + opts.relativeLevelCap, opts.maxLevelCap) : null,
       requiredDefeats: (mob?.requiredDefeats ?? []).flat().map(String),
       requiredNames: [],
       step: 0,

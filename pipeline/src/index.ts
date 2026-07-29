@@ -774,7 +774,11 @@ async function main() {
     try {
       const { trainers, series } = buildTrainerData(
         packPath,
-        { relativeLevelCap: manifest.trainerPack.relativeLevelCap ?? 5, includeCustom: true },
+        {
+          relativeLevelCap: manifest.trainerPack.relativeLevelCap ?? 5,
+          maxLevelCap: manifest.trainerPack.maxLevelCap ?? 100,
+          includeCustom: true,
+        },
         {
           resolveSpecies: (species, aspects) => {
             const rec = speciesByIdentifier.get(species);

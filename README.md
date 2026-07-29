@@ -25,9 +25,13 @@ custom del servidor. Para actualizarlo:
 Los **level caps** no vienen en el datapack: son una mecánica del mod,
 documentada en `config/rctmod-server.toml`. El tope de un jugador es el nivel
 del Pokémon más fuerte de su **siguiente** entrenador obligatorio más
-`relativeLevelCap` (5 en este servidor), así que el pipeline lo calcula por
-entrenador. Si cambias esos valores en el server, ajústalos también en
-`trainerPack.relativeLevelCap` / `initialLevelCap`.
+`relativeLevelCap`, y nunca pasa de `maxLevelCap` (100).
+
+En este servidor `relativeLevelCap` es **0**, así que el cap de cada entrenador
+es exactamente el nivel de su Pokémon más fuerte: el ace de Brock es nivel 20,
+por lo que su cap es 20. El pipeline lo calcula por entrenador; si cambias esos
+valores en el server, ajústalos también en `trainerPack.relativeLevelCap` /
+`initialLevelCap` / `maxLevelCap`.
 
 El orden de la progresión sale de `requiredDefeats` (qué entrenador hay que
 derrotar antes), no de los nombres de archivo, y el orden de las series de

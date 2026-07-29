@@ -26,7 +26,14 @@ export interface SourcesManifest {
   // RCT (Radical Cobblemon Trainers) datapack that defines the server's
   // trainers, their teams and the progression chain between them. Read for
   // the /progresion section; swap the file + bump this path to update.
-  trainerPack?: { file: string; label: string; relativeLevelCap?: number; initialLevelCap?: number };
+  trainerPack?: {
+    file: string;
+    label: string;
+    relativeLevelCap?: number;
+    initialLevelCap?: number;
+    /** Hard ceiling for a computed cap - the +relativeLevelCap can't exceed it. */
+    maxLevelCap?: number;
+  };
   sources: SourceEntry[];
   disabled: DisabledEntry[];
   cosmeticOnly: string[];
