@@ -6,7 +6,7 @@ interface Props {
 }
 const { t } = Astro.props;
 ---
-<a class="trainer-card" href={`/progresion/${t.slug}`}>
+<a class="trainer-card" href={`/progresion/${t.slug}`} data-trainer-slug={t.slug}>
   <div class="trainer-card-top">
     <div>
       <div class="trainer-card-name">{t.name}</div>

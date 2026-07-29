@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import TrainerCard from "../../components/TrainerCard.astro";
+import TrainerModal from "../../components/TrainerModal.tsx";
 import trainers from "../../data/generated/trainers.json";
 import trainerSeries from "../../data/generated/trainerSeries.json";
 
@@ -85,4 +86,6 @@ function groupByStep(list: any[]) {
       <div class="prog-cards">{community.map((t) => <TrainerCard t={t} />)}</div>
     </section>
   )}
+
+  <TrainerModal client:load />
 </Layout>

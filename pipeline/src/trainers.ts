@@ -90,9 +90,22 @@ export interface TrainerTeamMember {
   shiny: boolean;
   aspects: string[];
   gimmick: string | null;
+  abilityDesc: string | null;
   ivs: Record<string, number>;
   evs: Record<string, number>;
-  moves: { id: string; name: string; type: string | null; category: string | null }[];
+  // Move details are embedded (not just ids) so the trainer panel can show a
+  // move's power/accuracy/PP/description from its single fetch, without also
+  // pulling the site-wide moves index.
+  moves: {
+    id: string;
+    name: string;
+    type: string | null;
+    category: string | null;
+    basePower: number | null;
+    accuracy: number | boolean | null;
+    pp: number | null;
+    desc: string | null;
+  }[];
 }
 
 export interface TrainerRecord {
@@ -131,8 +144,18 @@ export interface TrainerResolvers {
     species: string,
     aspects: string[]
   ) => { slug: string | null; name: string; image: any | null; types?: string[]; baseStats?: Record<string, number> | null };
-  resolveMove: (id: string) => { name: string; type: string | null; category: string | null } | null;
-  resolveAbility: (id: string) => string | null;
+  resolveMove: (
+    id: string
+  ) => {
+    name: string;
+    type: string | null;
+    category: string | null;
+    basePower?: number | null;
+    accuracy?: number | boolean | null;
+    pp?: number | null;
+    desc?: string | null;
+  } | null;
+  resolveAbility: (id: string) => { name: string; desc: string | null } | null;
   /** Minecraft/Cobblemon item id -> display name, via the lang files. */
   resolveItem: (id: string) => string | null;
 }
@@ -242,6 +265,7 @@ export function buildTrainerData(
       const heldItemId = Array.isArray(m.heldItem) ? m.heldItem[0] ?? null : m.heldItem ?? null;
       const abilityId = m.ability ? String(m.ability).toLowerCase() : null;
       const level = Number(m.level) || 0;
+      const abilityInfo = abilityId ? resolvers.resolveAbility(abilityId) : null;
       return {
         species: String(m.species).toLowerCase(),
         speciesSlug: resolved.slug,
@@ -251,8 +275,9 @@ export function buildTrainerData(
         stats: computeStats(resolved.baseStats ?? null, m.ivs ?? {}, m.evs ?? {}, level, m.nature ?? null),
         level,
         nature: m.nature ? titleCase(String(m.nature)) : null,
-        ability: abilityId ? resolvers.resolveAbility(abilityId) ?? titleCase(abilityId) : null,
+        ability: abilityId ? abilityInfo?.name ?? titleCase(abilityId) : null,
         abilityId,
+        abilityDesc: abilityInfo?.desc ?? null,
         heldItemId,
         heldItem: heldItemId ? resolvers.resolveItem(heldItemId) ?? titleCase(heldItemId) : null,
         gender: m.gender ? String(m.gender).toLowerCase() : null,
@@ -268,6 +293,10 @@ export function buildTrainerData(
             name: info?.name ?? titleCase(String(mv)),
             type: info?.type ?? null,
             category: info?.category ?? null,
+            basePower: info?.basePower ?? null,
+            accuracy: info?.accuracy ?? null,
+            pp: info?.pp ?? null,
+            desc: info?.desc ?? null,
           };
         }),
       };

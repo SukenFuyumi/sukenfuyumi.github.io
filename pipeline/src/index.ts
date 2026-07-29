@@ -21,7 +21,7 @@ import { describeSecondaryEffects, summarizeSecondaryEffects } from "./secondary
 import { buildTrainerData } from "./trainers.js";
 import { PUBLIC_TEXTURES_DIR, PUBLIC_RENDERS_DIR, PUBLIC_DIR } from "./config.js";
 import type { MoveRecord, AbilityRecord, BalanceChange } from "./types.js";
-import { writeFileSync } from "node:fs";
+import { writeFileSync, mkdirSync } from "node:fs";
 import { resolve as resolvePath } from "node:path";
 
 function normalizeAbilityId(id: string): string {
@@ -803,9 +803,22 @@ async function main() {
           },
           resolveMove: (id) => {
             const m = moveLookup.get(id);
-            return m ? { name: m.name, type: m.type, category: m.category } : null;
+            return m
+              ? {
+                  name: m.name,
+                  type: m.type,
+                  category: m.category,
+                  basePower: m.basePower,
+                  accuracy: m.accuracy,
+                  pp: m.pp,
+                  desc: m.desc ?? m.shortDesc ?? null,
+                }
+              : null;
           },
-          resolveAbility: (id) => abilityLookup.get(resolveAbilityId(normalizeAbilityId(id)))?.name ?? null,
+          resolveAbility: (id) => {
+            const a = abilityLookup.get(resolveAbilityId(normalizeAbilityId(id)));
+            return a ? { name: a.name, desc: a.desc ?? a.shortDesc ?? null } : null;
+          },
           resolveItem: (id) => {
             const bare = id.replace(/^[a-z_]+:/, "");
             return (
@@ -818,6 +831,14 @@ async function main() {
       );
       writeJson("trainers.json", trainers);
       writeJson("trainerSeries.json", series);
+      // One small file per trainer so the /progresion panel can fetch just the
+      // one it's opening. Embedding all 155 teams (1.2 MB, with per-move
+      // descriptions) as a page prop would land in the index page's HTML.
+      const trainerDir = resolvePath(PUBLIC_DIR, "trainers");
+      mkdirSync(trainerDir, { recursive: true });
+      for (const t of trainers) {
+        writeFileSync(resolvePath(trainerDir, `${t.slug}.json`), JSON.stringify(t), "utf-8");
+      }
       const withCap = trainers.filter((t) => t.levelCap !== null).length;
       console.log(
         `Resolved ${trainers.length} trainers across ${series.length} series (${withCap} with a level cap) from ${manifest.trainerPack.label}.`

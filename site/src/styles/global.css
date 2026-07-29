@@ -278,6 +278,65 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
   .team-card-left { width: 100%; }
 }
 
+/* Trainer panel (overlay opened from a card, instead of navigating away) */
+.trainer-overlay {
+  position: fixed; inset: 0; z-index: 200;
+  background: rgba(0, 0, 0, 0.62);
+  display: flex; align-items: center; justify-content: center;
+  padding: 1.5rem 1rem;
+}
+.trainer-modal {
+  background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius);
+  width: min(1080px, 100%); max-height: 100%;
+  display: flex; flex-direction: column; overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+.trainer-modal-bar {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: 0.7rem 1rem; border-bottom: 1px solid var(--border);
+  background: var(--panel); flex-shrink: 0;
+}
+.trainer-modal-sub { color: var(--text-muted); font-weight: 400; }
+.trainer-modal-actions { display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0; }
+.trainer-modal-actions a { color: var(--text-muted); font-size: 1.05rem; text-decoration: none; }
+.trainer-modal-actions a:hover { color: var(--accent); }
+.trainer-modal-actions button {
+  background: transparent; border: 0; color: var(--text-muted);
+  font-size: 1.5rem; line-height: 1; cursor: pointer; padding: 0 0.2rem;
+}
+.trainer-modal-actions button:hover { color: var(--text); }
+/* The panel scrolls internally so the page behind it stays put. */
+.trainer-modal-body { padding: 1rem; overflow-y: auto; position: relative; }
+.trainer-modal-meta { margin: 0 0 0.75rem; color: var(--text-muted); font-size: 0.85rem; }
+.trainer-modal-body .team-grid { margin-top: 0; }
+
+/* Move/ability detail, revealed by clicking one inside the panel. */
+.detail-pop {
+  position: sticky; bottom: 0; margin-top: 0.85rem;
+  background: var(--panel); border: 1px solid var(--accent); border-radius: var(--radius);
+  padding: 0.7rem 0.85rem; box-shadow: 0 -4px 18px rgba(0, 0, 0, 0.35);
+}
+.detail-pop-close {
+  position: absolute; top: 0.25rem; right: 0.45rem;
+  background: transparent; border: 0; color: var(--text-muted); font-size: 1.25rem; cursor: pointer; line-height: 1;
+}
+.detail-pop-head { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; padding-right: 1.5rem; }
+.detail-pop-stats { display: flex; gap: 0.9rem; font-size: 0.8rem; }
+.detail-pop-stats span { display: flex; flex-direction: column; line-height: 1.15; font-weight: 700; }
+.detail-pop-stats em { font-style: normal; font-weight: 400; font-size: 0.68rem; color: var(--text-muted); }
+.detail-pop-desc { margin: 0.45rem 0 0.3rem; font-size: 0.85rem; }
+.detail-pop-link { font-size: 0.78rem; }
+
+/* Ability rendered as a button inside the panel (clickable like a link). */
+.linkish {
+  background: transparent; border: 0; padding: 0; cursor: pointer;
+  color: var(--accent); font: inherit; font-weight: 600; text-align: left;
+}
+.linkish:hover { text-decoration: underline; }
+/* Moves are buttons in the panel and links on the standalone page - keep both
+   looking identical. */
+button.team-move { border: 0; cursor: pointer; font-family: inherit; }
+
 .grid {
   display: grid;
   gap: 0.85rem;
