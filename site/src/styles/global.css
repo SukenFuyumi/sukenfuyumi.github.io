@@ -211,21 +211,20 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
 .prog-cards { display: grid; gap: 0.7rem; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
 
 /* A series reads left-to-right as a chain: one column per progression step, in
-   order, scrolling horizontally when the region has more steps than fit. */
+   order. Steps fill the available width and then continue on the next row, so
+   the whole region is visible at once instead of hidden behind a sideways
+   scroll. */
 .prog-chain {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
   gap: 0.7rem;
-  align-items: flex-start;
-  overflow-x: auto;
-  padding-bottom: 0.6rem;
-  scroll-snap-type: x proximity;
+  align-items: start;
 }
 .prog-step {
-  flex: 0 0 265px;
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
-  scroll-snap-align: start;
+  min-width: 0;
 }
 .prog-step-num {
   width: 26px; height: 26px; border-radius: 50%;
