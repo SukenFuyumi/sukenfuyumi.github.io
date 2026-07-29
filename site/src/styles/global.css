@@ -218,7 +218,9 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
   gap: 0.7rem;
-  align-items: start;
+  /* stretch (the default) so every card in a row ends up the same height even
+     when one has a name that wraps to two lines */
+  align-items: stretch;
 }
 .prog-step {
   display: flex;
@@ -226,13 +228,15 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
   gap: 0.4rem;
   min-width: 0;
 }
+.prog-step .trainer-card { height: 100%; }
 .prog-step-num {
   width: 26px; height: 26px; border-radius: 50%;
   background: var(--accent); color: #fff; font-weight: 800; font-size: 0.78rem;
   display: flex; align-items: center; justify-content: center;
 }
-/* Several trainers can unlock at the same step - they stack inside the column. */
-.prog-step-cards { display: flex; flex-direction: column; gap: 0.5rem; }
+/* Several trainers can unlock at the same step - they stack inside the column.
+   flex:1 lets the card fill the stretched grid cell so heights line up. */
+.prog-step-cards { display: flex; flex-direction: column; gap: 0.5rem; flex: 1; }
 
 .trainer-card {
   display: block; background: var(--panel); border: 1px solid var(--border);
@@ -245,8 +249,12 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
 .trainer-card-cap { text-align: center; flex-shrink: 0; line-height: 1.05; }
 .trainer-card-cap span { display: block; font-weight: 800; font-size: 1.15rem; color: var(--accent); }
 .trainer-card-cap small { font-size: 0.6rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.04em; }
-.trainer-card-team { display: flex; flex-wrap: wrap; gap: 0.15rem; margin-top: 0.5rem; }
-.trainer-card-mon { position: relative; display: inline-flex; }
+/* A full party of six has to fit on one line - when the sixth wrapped, those
+   cards grew a whole sprite row taller than the rest of their row. Sprites
+   shrink to fit instead of wrapping. */
+.trainer-card-team { display: flex; gap: 0.15rem; margin-top: 0.5rem; }
+.trainer-card-mon { position: relative; display: inline-flex; min-width: 0; }
+.trainer-card-mon img { max-width: 100%; height: auto; }
 .trainer-card-mon em {
   position: absolute; right: 0; bottom: 0; font-style: normal; font-size: 0.6rem; font-weight: 700;
   background: var(--panel); border: 1px solid var(--border); border-radius: 4px; padding: 0 0.15rem;

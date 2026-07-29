@@ -25,7 +25,7 @@ const { t } = Astro.props;
   <div class="trainer-card-team">
     {t.team.map((m: any) => (
       <span class="trainer-card-mon" title={`${m.displayName} Nv. ${m.level}`}>
-        <MonImage image={m.image} name={m.displayName} size={38} />
+        <MonImage image={m.image} name={m.displayName} size={34} />
         <em>{m.level}</em>
       </span>
     ))}
