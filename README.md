@@ -22,15 +22,22 @@ custom del servidor. Para actualizarlo cuando cambies los equipos:
 2. En `pipeline/sources.json`, apunta `trainerPack.file` al nombre nuevo, p. ej.
    `"file": "datapacks/COBBLEVERSE-RCT-DP-v23.zip"`. (Si el nombre del archivo
    no cambió, no hace falta tocar nada aquí.)
-3. Regenera los datos y construye el sitio. Ojo: en Windows PowerShell 5.1 `&&`
-   no existe como separador - usa `;` o una línea por comando.
+3. Regenera los datos y construye el sitio:
 
    ```powershell
    cd "D:\Minecraft server\EXTRACTOR DEX\pokedex-site\pipeline"
-   npm run extract
+   npm.cmd run extract
    cd "D:\Minecraft server\EXTRACTOR DEX\pokedex-site\site"
-   npm run build
+   npm.cmd run build
    ```
+
+   Dos cosas propias de Windows PowerShell 5.1:
+   - `&&` no existe como separador de comandos. Usa `;`, o una línea por comando.
+   - `npm` resuelve a `npm.ps1`, que la política de ejecución por defecto
+     (`Restricted`) bloquea con un `SecurityError`. **`npm.cmd`** evita el script
+     y funciona sin cambiar nada del sistema. (La alternativa es habilitar
+     scripts con `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`, pero eso
+     cambia un ajuste de seguridad y no hace falta.)
 
 4. Publica. El push a `main` dispara el deploy a GitHub Pages automáticamente.
 
