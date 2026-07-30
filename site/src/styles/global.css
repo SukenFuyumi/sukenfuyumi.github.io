@@ -81,6 +81,11 @@
 
 * { box-sizing: border-box; }
 
+/* Always reserve room for the scrollbar. Opening the trainer panel locks body
+   scrolling, which removes the scrollbar and used to widen the page by ~15px -
+   a visible sideways jump of everything behind the panel. */
+html { scrollbar-gutter: stable; }
+
 body {
   margin: 0;
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
