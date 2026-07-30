@@ -1,0 +1,14 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import TrainerEditor from "../../components/TrainerEditor.tsx";
+---
+<Layout title="Editor de equipos" noindex={true}>
+  <div class="breadcrumb"><a href="/progresion">Progresión</a> &rsaquo; Editor</div>
+  <h1 style="margin-bottom:0.3rem;">Editor de equipos</h1>
+  <p style="color:var(--text-muted); font-size:0.88rem; margin-top:0;">
+    Edita los equipos y la mochila de cualquier entrenador y exporta el datapack completo
+    listo para el servidor. Los cambios se guardan en este navegador; nada se sube ni se
+    publica hasta que tú subas el zip al servidor.
+  </p>
+  <TrainerEditor client:load />
+</Layout>

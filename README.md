@@ -76,6 +76,40 @@ derrotar antes), no de los nombres de archivo, y el orden de las series de
 `requiredSeries` - por eso Johto aparece antes que Hoenn aunque compartan
 dificultad.
 
+### Editor de equipos (`/progresion/editor`)
+
+Editor en vivo de los equipos, pensado para no tener que tocar los JSON a mano.
+No está enlazado desde ninguna página y va con `noindex`, así que solo se llega
+por URL directa, tras una clave (`PASSPHRASE` en `TrainerEditor.tsx`).
+
+**La clave solo lo oculta, no lo protege.** El sitio es estático: la comprobación
+corre en el navegador y cualquiera que lea el código fuente puede saltarla. Es
+aceptable porque el editor no escribe nada remoto - solo genera un zip que se
+descarga en el equipo de quien lo usa - y los datos que muestra ya son públicos
+en `/progresion`. Si algún día necesitas restricción real, hace falta un backend.
+
+Cómo funciona:
+
+- Edita especie (con formas), nivel, naturaleza, habilidad, objeto equipado,
+  género, los 4 movimientos, IVs/EVs, la **mochila de consumibles** y el límite
+  de objetos por combate. Los selectores salen de los índices que genera el
+  pipeline (`trainer-species-index.json`, `moves-index.json`,
+  `abilities-index.json`, `items-index.json`).
+- Los cambios se guardan solos en `localStorage` de ese navegador, así que no se
+  pierden al recargar. "Descartar todo" los borra.
+- "Exportar .zip" descarga el datapack completo: descarga
+  `public/trainer-pack.zip` (copia del original que hace el pipeline), sustituye
+  solo los `data/rctmod/trainers/<id>.json` editados y **copia el resto de
+  entradas con sus bytes comprimidos originales** (ver `src/lib/zip.ts`), así que
+  mobs, series, diálogos y loot tables quedan intactos. Los archivos sustituidos
+  se escriben sin comprimir, que cualquier lector de zip acepta.
+- Como parte del original edita el JSON crudo de cada entrenador, los campos que
+  el editor no toca (`ai`, `battleFormat`, `identity`…) sobreviven la exportación.
+
+El zip que sale se pasa al servidor igual que cualquier datapack. Si además
+quieres que la web refleje esos cambios, cópialo también a `datapacks/` y sigue
+los pasos de arriba.
+
 ## Actualizar la Pokedex cuando cambian los mods
 
 1. Instala/actualiza el jar o datapack en la carpeta del servidor como siempre.

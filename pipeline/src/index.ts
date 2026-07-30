@@ -21,7 +21,7 @@ import { describeSecondaryEffects, summarizeSecondaryEffects } from "./secondary
 import { buildTrainerData, assertTrainerPackReadable } from "./trainers.js";
 import { PUBLIC_TEXTURES_DIR, PUBLIC_RENDERS_DIR, PUBLIC_DIR } from "./config.js";
 import type { MoveRecord, AbilityRecord, BalanceChange } from "./types.js";
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, copyFileSync } from "node:fs";
 import { resolve as resolvePath } from "node:path";
 
 function normalizeAbilityId(id: string): string {
@@ -779,7 +779,7 @@ async function main() {
       formsByParent.get(parent)!.push(f);
     }
     try {
-      const { trainers, series } = buildTrainerData(
+      const { trainers, series, rawTeamFiles } = buildTrainerData(
         packPath,
         {
           relativeLevelCap: manifest.trainerPack.relativeLevelCap ?? 5,
@@ -846,10 +846,62 @@ async function main() {
       for (const t of trainers) {
         writeFileSync(resolvePath(trainerDir, `${t.slug}.json`), JSON.stringify(t), "utf-8");
       }
+      // --- Assets the /progresion/editor needs ---
+      // The editor patches each trainer's ORIGINAL RCT json (not the derived
+      // record) so an export keeps every field it doesn't touch.
+      const rawDir = resolvePath(PUBLIC_DIR, "trainer-raw");
+      mkdirSync(rawDir, { recursive: true });
+      for (const [id, raw] of Object.entries(rawTeamFiles)) {
+        writeFileSync(resolvePath(rawDir, `${id}.json`), JSON.stringify(raw), "utf-8");
+      }
+      // A copy of the datapack itself: the export rebuilds this zip in the
+      // browser, replacing only the edited trainer files and copying every
+      // other entry across untouched.
+      copyFileSync(packPath, resolvePath(PUBLIC_DIR, "trainer-pack.zip"));
+      // Item list for the held-item and bag pickers. Harvested from the lang
+      // files so it reflects this server's actual (mod-renamed) item names.
+      const itemIndex = [...ingested.lang.entries()]
+        .filter(([k]) => /^item\.(cobblemon|minecraft)\.[a-z0-9_]+$/.test(k))
+        .map(([k, v]) => {
+          const [, ns, path] = k.split(".");
+          return { id: `${ns}:${path}`, bare: path, ns, name: v.value };
+        })
+        .sort((a, b) => a.name.localeCompare(b.name));
+      writeFileSync(resolvePath(PUBLIC_DIR, "items-index.json"), JSON.stringify(itemIndex), "utf-8");
+      // Species picker for the editor. Keyed by the bare Cobblemon identifier
+      // that RCT's `species` field expects (not the site's slug), with the
+      // aspects a form needs so picking "Leafeon Kazeran" writes
+      // species: leafeon + aspects: ["kazeran"].
+      const speciesPicker: { id: string; name: string; aspects?: string[] }[] = [];
+      for (const rec of records.values()) {
+        speciesPicker.push({ id: rec.id.split(":")[1].toLowerCase(), name: rec.name });
+      }
+      for (const f of formRecords) {
+        const parentSlug = f.formOf?.slug;
+        if (!parentSlug) continue;
+        const parent = [...records.values()].find((r) => r.slug === parentSlug);
+        if (!parent || !f.aspects?.length) continue;
+        speciesPicker.push({
+          id: parent.id.split(":")[1].toLowerCase(),
+          name: f.name,
+          aspects: f.aspects.map((a: string) => a.toLowerCase()),
+        });
+      }
+      speciesPicker.sort((a, b) => a.name.localeCompare(b.name));
+      writeFileSync(resolvePath(PUBLIC_DIR, "trainer-species-index.json"), JSON.stringify(speciesPicker), "utf-8");
+
+      // Ids the editor writes back into the pack, so it can map slug -> file.
+      writeFileSync(
+        resolvePath(PUBLIC_DIR, "trainer-ids.json"),
+        JSON.stringify(trainers.map((t) => ({ id: t.id, slug: t.slug, name: t.name, role: t.role, seriesLabel: t.seriesLabel }))),
+        "utf-8"
+      );
+
       const withCap = trainers.filter((t) => t.levelCap !== null).length;
       console.log(
         `Resolved ${trainers.length} trainers across ${series.length} series (${withCap} with a level cap) from ${manifest.trainerPack.label}.`
       );
+      console.log(`Editor assets: ${Object.keys(rawTeamFiles).length} raw trainer files, ${itemIndex.length} items.`);
     } catch (err) {
       // Deliberately not swallowed into an empty list: writing [] here would
       // publish an empty Progresión page, which reads as "the data is gone"

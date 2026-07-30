@@ -1,0 +1,507 @@
+import { useEffect, useMemo, useState } from "preact/hooks";
+import { readZipEntries, rebuildZip } from "../lib/zip";
+
+/**
+ * Live editor for the server's RCT trainer teams.
+ *
+ * Everything happens in the browser: it loads each trainer's ORIGINAL RCT json,
+ * lets you edit the team and the battle bag, keeps a draft in localStorage, and
+ * exports a complete datapack zip by rebuilding /trainer-pack.zip with only the
+ * edited trainer files replaced (see lib/zip.ts). Nothing is written to the
+ * server or the site - the export is a normal file download.
+ *
+ * The passphrase only hides the tool from casual visitors: this is a static
+ * site, so the check runs client-side and is bypassable by anyone reading the
+ * source. That's acceptable because the editor can't modify anything remote,
+ * and the data it shows is already public on /progresion.
+ */
+
+const PASS_KEY = "cobbledex-editor-ok";
+const DRAFT_KEY = "cobbledex-trainer-drafts";
+/** Not a secret, just a latch - see the component doc. */
+const PASSPHRASE = "cobbleverse";
+
+const NATURES = [
+  "adamant", "bashful", "bold", "brave", "calm", "careful", "docile", "gentle", "hardy", "hasty",
+  "impish", "jolly", "lax", "lonely", "mild", "modest", "naive", "naughty", "quiet", "quirky",
+  "rash", "relaxed", "sassy", "serious", "timid",
+];
+const STATS = ["hp", "atk", "def", "spa", "spd", "spe"] as const;
+const STAT_LABELS: Record<string, string> = { hp: "HP", atk: "ATK", def: "DEF", spa: "SPA", spd: "SPD", spe: "SPE" };
+
+interface TrainerRef { id: string; slug: string; name: string; role: string; seriesLabel: string | null }
+interface Pick { id: string; name: string; aspects?: string[] }
+interface ItemPick { id: string; bare: string; ns: string; name: string }
+
+/** Combo box: free-text filter over a big list, writes back the chosen id. */
+function Picker({
+  value, options, onChange, placeholder, allowEmpty,
+}: {
+  value: string | null;
+  options: { id: string; name: string; aspects?: string[] }[];
+  onChange: (id: string, opt?: Pick) => void;
+  placeholder?: string;
+  allowEmpty?: boolean;
+}) {
+  const [q, setQ] = useState("");
+  const [open, setOpen] = useState(false);
+  const current = options.find((o) => o.id === value);
+  const matches = useMemo(() => {
+    const needle = q.trim().toLowerCase();
+    if (!needle) return options.slice(0, 60);
+    return options.filter((o) => o.name.toLowerCase().includes(needle) || o.id.includes(needle)).slice(0, 60);
+  }, [q, options]);
+
+  return (
+    <div class="ed-picker">
+      <button type="button" class="ed-picker-btn" onClick={() => { setOpen(!open); setQ(""); }}>
+        {current?.name ?? (value || placeholder || "— elegir —")}
+      </button>
+      {open && (
+        <div class="ed-picker-pop">
+          <input
+            class="ed-input"
+            autoFocus
+            placeholder="Buscar…"
+            value={q}
+            onInput={(e) => setQ((e.target as HTMLInputElement).value)}
+          />
+          <div class="ed-picker-list">
+            {allowEmpty && (
+              <button type="button" class="ed-picker-item" onClick={() => { onChange(""); setOpen(false); }}>
+                <em>(ninguno)</em>
+              </button>
+            )}
+            {matches.map((o) => (
+              <button
+                type="button"
+                class="ed-picker-item"
+                onClick={() => { onChange(o.id, o); setOpen(false); }}
+              >
+                {o.name} <span class="ed-dim">{o.id}{o.aspects?.length ? ` · ${o.aspects.join(",")}` : ""}</span>
+              </button>
+            ))}
+            {matches.length === 0 && <div class="ed-dim" style={{ padding: "0.4rem" }}>Sin resultados</div>}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function TrainerEditor() {
+  const [unlocked, setUnlocked] = useState(false);
+  const [pass, setPass] = useState("");
+  const [refs, setRefs] = useState<TrainerRef[]>([]);
+  const [species, setSpecies] = useState<Pick[]>([]);
+  const [moves, setMoves] = useState<Pick[]>([]);
+  const [abilities, setAbilities] = useState<Pick[]>([]);
+  const [items, setItems] = useState<ItemPick[]>([]);
+  const [query, setQuery] = useState("");
+  const [activeId, setActiveId] = useState<string | null>(null);
+  const [data, setData] = useState<any | null>(null);
+  const [drafts, setDrafts] = useState<Record<string, any>>({});
+  const [status, setStatus] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    if (sessionStorage.getItem(PASS_KEY) === "1") setUnlocked(true);
+    try {
+      setDrafts(JSON.parse(localStorage.getItem(DRAFT_KEY) || "{}"));
+    } catch { /* corrupt draft store - start clean */ }
+  }, []);
+
+  useEffect(() => {
+    if (!unlocked) return;
+    Promise.all([
+      fetch("/trainer-ids.json").then((r) => r.json()),
+      fetch("/trainer-species-index.json").then((r) => r.json()),
+      fetch("/moves-index.json").then((r) => r.json()),
+      fetch("/abilities-index.json").then((r) => r.json()),
+      fetch("/items-index.json").then((r) => r.json()),
+    ]).then(([t, s, m, a, i]) => {
+      setRefs(t);
+      setSpecies(s);
+      setMoves(m.map((x: any) => ({ id: x.id, name: x.name })));
+      setAbilities(a.map((x: any) => ({ id: x.id, name: x.name })));
+      setItems(i);
+    }).catch(() => setStatus("No se pudieron cargar los datos base."));
+  }, [unlocked]);
+
+  // Load a trainer: prefer the local draft over the published original.
+  useEffect(() => {
+    if (!activeId) return;
+    if (drafts[activeId]) { setData(structuredClone(drafts[activeId])); return; }
+    setData(null);
+    fetch(`/trainer-raw/${activeId}.json`)
+      .then((r) => r.json())
+      .then(setData)
+      .catch(() => setStatus(`No se pudo cargar ${activeId}.`));
+  }, [activeId]);
+
+  const persist = (next: Record<string, any>) => {
+    setDrafts(next);
+    try {
+      localStorage.setItem(DRAFT_KEY, JSON.stringify(next));
+    } catch {
+      setStatus("No se pudo guardar el borrador (almacenamiento lleno).");
+    }
+  };
+
+  /** Any edit writes straight to the draft store, so nothing is lost on reload. */
+  const mutate = (fn: (d: any) => void) => {
+    if (!data || !activeId) return;
+    const next = structuredClone(data);
+    fn(next);
+    setData(next);
+    persist({ ...drafts, [activeId]: next });
+  };
+
+  const filtered = useMemo(() => {
+    const n = query.trim().toLowerCase();
+    if (!n) return refs;
+    return refs.filter((r) => r.name.toLowerCase().includes(n) || r.id.includes(n) || (r.seriesLabel ?? "").toLowerCase().includes(n));
+  }, [query, refs]);
+
+  const draftCount = Object.keys(drafts).length;
+
+  async function exportZip() {
+    setBusy(true);
+    setStatus("Generando zip…");
+    try {
+      const res = await fetch("/trainer-pack.zip");
+      if (!res.ok) throw new Error(`no se pudo descargar el pack base (${res.status})`);
+      const entries = readZipEntries(await res.arrayBuffer());
+      const replacements: Record<string, string> = {};
+      for (const [id, json] of Object.entries(drafts)) {
+        replacements[`data/rctmod/trainers/${id}.json`] = JSON.stringify(json, null, 2);
+      }
+      const blob = rebuildZip(entries, replacements);
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `COBBLEVERSE-RCT-DP-editado-${new Date().toISOString().slice(0, 10)}.zip`;
+      a.click();
+      URL.revokeObjectURL(url);
+      setStatus(`Zip generado con ${Object.keys(drafts).length} entrenador(es) modificado(s).`);
+    } catch (err) {
+      setStatus(`Error al exportar: ${(err as Error).message}`);
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  if (!unlocked) {
+    return (
+      <div class="panel" style={{ maxWidth: "460px" }}>
+        <h2 style={{ marginTop: 0 }}>Editor privado</h2>
+        <p class="ed-dim" style={{ fontSize: "0.85rem" }}>
+          Introduce la clave para abrir el editor de equipos.
+        </p>
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            if (pass === PASSPHRASE) {
+              sessionStorage.setItem(PASS_KEY, "1");
+              // Cleared so a previous "clave incorrecta" doesn't linger in the
+              // editor's status bar after a successful unlock.
+              setStatus(null);
+              setUnlocked(true);
+            } else setStatus("Clave incorrecta.");
+          }}
+        >
+          <input
+            class="ed-input"
+            type="password"
+            value={pass}
+            onInput={(e) => setPass((e.target as HTMLInputElement).value)}
+            placeholder="Clave"
+          />
+          <button class="ed-btn primary" type="submit" style={{ marginTop: "0.6rem" }}>Entrar</button>
+        </form>
+        {status && <p style={{ color: "var(--mult-weak)", fontSize: "0.85rem" }}>{status}</p>}
+      </div>
+    );
+  }
+
+  return (
+    <div class="ed-layout">
+      <aside class="panel ed-side">
+        <input
+          class="ed-input"
+          placeholder={`Buscar entre ${refs.length} entrenadores…`}
+          value={query}
+          onInput={(e) => setQuery((e.target as HTMLInputElement).value)}
+        />
+        <div class="ed-side-list">
+          {filtered.map((r) => (
+            <button
+              type="button"
+              class={`ed-side-item ${activeId === r.id ? "active" : ""}`}
+              onClick={() => setActiveId(r.id)}
+            >
+              <span>{r.name}</span>
+              <span class="ed-dim">{r.seriesLabel ?? r.role}{drafts[r.id] ? " ✎" : ""}</span>
+            </button>
+          ))}
+        </div>
+      </aside>
+
+      <main class="ed-main">
+        <div class="panel ed-toolbar">
+          <div>
+            <strong>{draftCount}</strong> {draftCount === 1 ? "entrenador editado" : "entrenadores editados"}
+            <span class="ed-dim"> · los cambios se guardan en este navegador</span>
+          </div>
+          <div class="ed-toolbar-actions">
+            <button class="ed-btn primary" disabled={busy || draftCount === 0} onClick={exportZip}>
+              Exportar .zip para el servidor
+            </button>
+            <button
+              class="ed-btn"
+              disabled={busy || draftCount === 0}
+              onClick={() => {
+                if (!confirm(`¿Descartar los cambios de ${draftCount} entrenador(es)?`)) return;
+                persist({});
+                if (activeId) {
+                  fetch(`/trainer-raw/${activeId}.json`).then((r) => r.json()).then(setData);
+                }
+                setStatus("Borradores descartados.");
+              }}
+            >
+              Descartar todo
+            </button>
+          </div>
+        </div>
+        {status && <div class="panel ed-status">{status}</div>}
+
+        {!activeId && <div class="panel ed-dim">Elige un entrenador de la lista para editar su equipo.</div>}
+
+        {activeId && !data && <div class="panel ed-dim">Cargando…</div>}
+
+        {activeId && data && (
+          <>
+            <div class="panel">
+              <div class="ed-row">
+                <label class="ed-field">
+                  <span>Nombre</span>
+                  <input
+                    class="ed-input"
+                    value={data.name?.literal ?? ""}
+                    onInput={(e) => mutate((d) => { d.name = { literal: (e.target as HTMLInputElement).value }; })}
+                  />
+                </label>
+                <label class="ed-field" style={{ maxWidth: "180px" }}>
+                  <span>Máx. objetos en combate</span>
+                  <input
+                    class="ed-input"
+                    type="number"
+                    min="0"
+                    value={data.battleRules?.maxItemUses ?? ""}
+                    placeholder="sin límite"
+                    onInput={(e) => mutate((d) => {
+                      const v = (e.target as HTMLInputElement).value;
+                      d.battleRules = d.battleRules ?? {};
+                      if (v === "") delete d.battleRules.maxItemUses;
+                      else d.battleRules.maxItemUses = Number(v);
+                      if (Object.keys(d.battleRules).length === 0) delete d.battleRules;
+                    })}
+                  />
+                </label>
+              </div>
+
+              <h3 style={{ marginBottom: "0.3rem" }}>Objetos consumibles (mochila)</h3>
+              <p class="ed-dim" style={{ fontSize: "0.78rem", margin: "0 0 0.5rem" }}>
+                Lo que el entrenador puede usar durante el combate (pociones, revivir…).
+              </p>
+              {(data.bag ?? []).map((b: any, bi: number) => (
+                <div class="ed-row ed-bag-row">
+                  <Picker
+                    value={b.item ?? null}
+                    options={items}
+                    onChange={(id) => mutate((d) => { d.bag[bi].item = id; })}
+                  />
+                  <input
+                    class="ed-input"
+                    type="number"
+                    min="1"
+                    style={{ maxWidth: "90px" }}
+                    value={b.quantity ?? 1}
+                    onInput={(e) => mutate((d) => { d.bag[bi].quantity = Number((e.target as HTMLInputElement).value) || 1; })}
+                  />
+                  <button class="ed-btn danger" onClick={() => mutate((d) => { d.bag.splice(bi, 1); if (!d.bag.length) delete d.bag; })}>
+                    Quitar
+                  </button>
+                </div>
+              ))}
+              <button
+                class="ed-btn"
+                onClick={() => mutate((d) => { d.bag = d.bag ?? []; d.bag.push({ item: "cobblemon:potion", quantity: 1 }); })}
+              >
+                + Añadir objeto
+              </button>
+            </div>
+
+            <div class="ed-team">
+              {data.team.map((m: any, mi: number) => {
+                const evTotal = STATS.reduce((n, s) => n + (m.evs?.[s] ?? 0), 0);
+                const heldRaw = Array.isArray(m.heldItem) ? m.heldItem[0] ?? "" : m.heldItem ?? "";
+                // Held items are stored bare ("life_orb"); the picker works in
+                // full ids, so map between the two.
+                const heldFull = heldRaw ? (items.find((i) => i.bare === heldRaw)?.id ?? `cobblemon:${heldRaw}`) : "";
+                return (
+                  <div class="panel ed-mon">
+                    <div class="ed-mon-head">
+                      <strong>#{mi + 1}</strong>
+                      <button class="ed-btn danger" onClick={() => mutate((d) => { d.team.splice(mi, 1); })}>Quitar</button>
+                    </div>
+                    <div class="ed-grid2">
+                      <label class="ed-field">
+                        <span>Especie</span>
+                        <Picker
+                          value={m.species ?? null}
+                          options={species}
+                          onChange={(id, opt) => mutate((d) => {
+                            d.team[mi].species = id;
+                            if (opt?.aspects?.length) d.team[mi].aspects = opt.aspects;
+                            else delete d.team[mi].aspects;
+                          })}
+                        />
+                      </label>
+                      <label class="ed-field">
+                        <span>Nivel</span>
+                        <input
+                          class="ed-input" type="number" min="1" max="100"
+                          value={m.level ?? 1}
+                          onInput={(e) => mutate((d) => { d.team[mi].level = Math.max(1, Math.min(100, Number((e.target as HTMLInputElement).value) || 1)); })}
+                        />
+                      </label>
+                      <label class="ed-field">
+                        <span>Naturaleza</span>
+                        <select
+                          class="ed-input"
+                          value={m.nature ?? ""}
+                          onChange={(e) => mutate((d) => { d.team[mi].nature = (e.target as HTMLSelectElement).value || undefined; })}
+                        >
+                          <option value="">—</option>
+                          {NATURES.map((n) => <option value={n}>{n}</option>)}
+                        </select>
+                      </label>
+                      <label class="ed-field">
+                        <span>Habilidad</span>
+                        <Picker
+                          value={m.ability ?? null}
+                          options={abilities}
+                          allowEmpty
+                          onChange={(id) => mutate((d) => { if (id) d.team[mi].ability = id; else delete d.team[mi].ability; })}
+                        />
+                      </label>
+                      <label class="ed-field">
+                        <span>Objeto equipado</span>
+                        <Picker
+                          value={heldFull || null}
+                          options={items}
+                          allowEmpty
+                          onChange={(id) => mutate((d) => {
+                            if (!id) { delete d.team[mi].heldItem; return; }
+                            const bare = items.find((i) => i.id === id)?.bare ?? id.split(":").pop()!;
+                            // Keep whichever shape this entry already used.
+                            d.team[mi].heldItem = Array.isArray(d.team[mi].heldItem) ? [bare] : bare;
+                          })}
+                        />
+                      </label>
+                      <label class="ed-field">
+                        <span>Género</span>
+                        <select
+                          class="ed-input"
+                          value={m.gender ?? ""}
+                          onChange={(e) => mutate((d) => { const v = (e.target as HTMLSelectElement).value; if (v) d.team[mi].gender = v; else delete d.team[mi].gender; })}
+                        >
+                          <option value="">—</option>
+                          <option value="MALE">MALE</option>
+                          <option value="FEMALE">FEMALE</option>
+                          <option value="GENDERLESS">GENDERLESS</option>
+                        </select>
+                      </label>
+                    </div>
+
+                    <div class="ed-moves">
+                      {[0, 1, 2, 3].map((k) => (
+                        <label class="ed-field">
+                          <span>Mov. {k + 1}</span>
+                          <Picker
+                            value={m.moveset?.[k] ?? null}
+                            options={moves}
+                            allowEmpty
+                            onChange={(id) => mutate((d) => {
+                              d.team[mi].moveset = d.team[mi].moveset ?? [];
+                              if (id) d.team[mi].moveset[k] = id;
+                              else d.team[mi].moveset.splice(k, 1);
+                            })}
+                          />
+                        </label>
+                      ))}
+                    </div>
+
+                    <table class="ed-stats">
+                      <thead><tr><th></th>{STATS.map((s) => <th>{STAT_LABELS[s]}</th>)}</tr></thead>
+                      <tbody>
+                        <tr>
+                          <th>IVs</th>
+                          {STATS.map((s) => (
+                            <td>
+                              <input
+                                class="ed-input tiny" type="number" min="0" max="31"
+                                value={m.ivs?.[s] ?? 0}
+                                onInput={(e) => mutate((d) => {
+                                  d.team[mi].ivs = d.team[mi].ivs ?? {};
+                                  d.team[mi].ivs[s] = Math.max(0, Math.min(31, Number((e.target as HTMLInputElement).value) || 0));
+                                })}
+                              />
+                            </td>
+                          ))}
+                        </tr>
+                        <tr>
+                          <th>EVs</th>
+                          {STATS.map((s) => (
+                            <td>
+                              <input
+                                class="ed-input tiny" type="number" min="0" max="252"
+                                value={m.evs?.[s] ?? 0}
+                                onInput={(e) => mutate((d) => {
+                                  d.team[mi].evs = d.team[mi].evs ?? {};
+                                  d.team[mi].evs[s] = Math.max(0, Math.min(252, Number((e.target as HTMLInputElement).value) || 0));
+                                })}
+                              />
+                            </td>
+                          ))}
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class={`ed-evtotal ${evTotal > 510 ? "over" : ""}`}>
+                      EVs totales: {evTotal} / 510{evTotal > 510 ? " — pasa del máximo del juego" : ""}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {data.team.length < 6 && (
+              <button
+                class="ed-btn"
+                onClick={() => mutate((d) => {
+                  d.team.push({
+                    species: "pikachu", level: 50, nature: "hardy",
+                    moveset: [], ivs: { hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31 }, evs: {},
+                  });
+                })}
+              >
+                + Añadir Pokémon ({data.team.length}/6)
+              </button>
+            )}
+          </>
+        )}
+      </main>
+    </div>
+  );
+}

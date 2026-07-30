@@ -4,8 +4,10 @@ import "../styles/global.css";
 interface Props {
   title: string;
   description?: string;
+  /** Keeps a page out of search results (used by the private editor). */
+  noindex?: boolean;
 }
-const { title, description = "Pokedex del servidor Cobbleverse: oficiales, fakemon, megas y todo lo instalado." } = Astro.props;
+const { title, description = "Pokedex del servidor Cobbleverse: oficiales, fakemon, megas y todo lo instalado.", noindex = false } = Astro.props;
 ---
 <html lang="es">
   <head>
@@ -13,6 +15,7 @@ const { title, description = "Pokedex del servidor Cobbleverse: oficiales, fakem
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title} · Cobbleverse Dex</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="icon" href="/favicon.svg" />
     <meta name="color-scheme" content="light dark" />
     {/* Set the theme before first paint to avoid a light-mode flash. Uses the

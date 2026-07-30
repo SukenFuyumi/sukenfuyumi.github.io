@@ -246,7 +246,17 @@ export function buildTrainerData(
   zipPath: string,
   opts: { relativeLevelCap: number; maxLevelCap: number; includeCustom: boolean },
   resolvers: TrainerResolvers
-): { trainers: TrainerRecord[]; series: SeriesRecord[] } {
+): {
+  trainers: TrainerRecord[];
+  series: SeriesRecord[];
+  /**
+   * The untouched RCT JSON of each surfaced trainer, keyed by datapack id. The
+   * editor patches these instead of rebuilding the schema from the derived
+   * records, so fields it never edits (ai, battleFormat, identity…) survive an
+   * export unchanged.
+   */
+  rawTeamFiles: Record<string, any>;
+} {
   const handle = openZip(zipPath);
   const entries = listEntries(handle, (n) => n.startsWith("data/rctmod/") && n.endsWith(".json"));
 
@@ -271,6 +281,7 @@ export function buildTrainerData(
 
   const trainers: TrainerRecord[] = [];
   const usedSlugs = new Set<string>();
+  const rawTeamFiles: Record<string, any> = {};
 
   for (const file of teamFiles) {
     const id = idOf(file);
@@ -287,6 +298,10 @@ export function buildTrainerData(
     if (!opts.includeCustom && roleKey === "custom") continue;
     // Generic filler NPCs (camper, painter…) have no fixed team worth listing.
     if (mob && type === "normal") continue;
+
+    // Captured past the filters, so only trainers the site actually surfaces
+    // get shipped for the editor.
+    rawTeamFiles[id] = data;
 
     const team: TrainerTeamMember[] = data.team.map((m: any) => {
       const aspects: string[] = [
@@ -440,5 +455,5 @@ export function buildTrainerData(
       a.title.localeCompare(b.title)
   );
 
-  return { trainers, series };
+  return { trainers, series, rawTeamFiles };
 }

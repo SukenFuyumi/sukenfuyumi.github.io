@@ -306,6 +306,86 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
   .team-card-left { width: 100%; }
 }
 
+/* ---- Editor de equipos (/progresion/editor) ---- */
+.ed-layout { display: grid; grid-template-columns: 260px 1fr; gap: 1rem; align-items: start; }
+.ed-side { position: sticky; top: 72px; max-height: calc(100vh - 90px); display: flex; flex-direction: column; padding: 0.7rem; }
+.ed-side-list { overflow-y: auto; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.15rem; }
+.ed-side-item {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 0.05rem;
+  background: transparent; border: 0; border-radius: 6px; padding: 0.3rem 0.4rem;
+  color: var(--text); font: inherit; font-size: 0.82rem; text-align: left; cursor: pointer;
+}
+.ed-side-item:hover { background: var(--row-hover); }
+.ed-side-item.active { background: var(--active-bg); }
+.ed-main { display: flex; flex-direction: column; gap: 0.85rem; min-width: 0; }
+
+.ed-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; padding: 0.7rem 0.9rem; }
+.ed-toolbar-actions { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.ed-status { padding: 0.6rem 0.9rem; font-size: 0.85rem; }
+
+.ed-input {
+  width: 100%; padding: 0.35rem 0.5rem; border-radius: 6px;
+  border: 1px solid var(--border); background: var(--bg); color: var(--text);
+  font: inherit; font-size: 0.85rem;
+}
+.ed-input.tiny { padding: 0.15rem 0.25rem; text-align: center; font-size: 0.78rem; }
+.ed-btn {
+  border: 1px solid var(--border); background: var(--panel); color: var(--text);
+  border-radius: 6px; padding: 0.35rem 0.75rem; font: inherit; font-size: 0.85rem;
+  font-weight: 600; cursor: pointer;
+}
+.ed-btn:hover:not(:disabled) { border-color: var(--accent); }
+.ed-btn:disabled { opacity: 0.45; cursor: default; }
+.ed-btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.ed-btn.danger { color: var(--mult-weak); }
+.ed-dim { color: var(--text-muted); }
+
+.ed-row { display: flex; gap: 0.6rem; align-items: flex-end; flex-wrap: wrap; margin-bottom: 0.6rem; }
+.ed-bag-row { align-items: center; }
+.ed-field { display: flex; flex-direction: column; gap: 0.15rem; flex: 1; min-width: 130px; }
+.ed-field > span { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.03em; }
+
+.ed-team { display: grid; gap: 0.85rem; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+.ed-mon { padding: 0.75rem; }
+.ed-mon-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+.ed-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+.ed-moves { display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem; margin: 0.6rem 0; }
+.ed-stats { width: 100%; font-size: 0.78rem; }
+.ed-stats th, .ed-stats td { border: 0; padding: 0.1rem 0.15rem; text-align: center; }
+.ed-stats thead th { background: transparent; color: var(--text-muted); font-size: 0.68rem; }
+.ed-stats tbody th { color: var(--text-muted); text-align: left; }
+.ed-evtotal { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.3rem; }
+.ed-evtotal.over { color: var(--mult-weak); font-weight: 700; }
+
+/* Combo box used for species/moves/abilities/items - a plain <select> with
+   2300 options is unusable, so this filters as you type. */
+.ed-picker { position: relative; }
+.ed-picker-btn {
+  width: 100%; text-align: left; padding: 0.35rem 0.5rem; border-radius: 6px;
+  border: 1px solid var(--border); background: var(--bg); color: var(--text);
+  font: inherit; font-size: 0.85rem; cursor: pointer;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.ed-picker-btn:hover { border-color: var(--accent); }
+.ed-picker-pop {
+  position: absolute; z-index: 50; top: calc(100% + 2px); left: 0; right: 0;
+  background: var(--panel); border: 1px solid var(--accent); border-radius: 6px;
+  padding: 0.35rem; box-shadow: 0 6px 20px var(--shadow); min-width: 240px;
+}
+.ed-picker-list { max-height: 240px; overflow-y: auto; margin-top: 0.3rem; display: flex; flex-direction: column; }
+.ed-picker-item {
+  background: transparent; border: 0; border-radius: 5px; padding: 0.25rem 0.35rem;
+  color: var(--text); font: inherit; font-size: 0.82rem; text-align: left; cursor: pointer;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.ed-picker-item:hover { background: var(--row-hover); }
+
+@media (max-width: 860px) {
+  .ed-layout { grid-template-columns: 1fr; }
+  .ed-side { position: static; max-height: 320px; }
+  .ed-grid2, .ed-moves { grid-template-columns: 1fr; }
+}
+
 /* Trainer panel (overlay opened from a card, instead of navigating away) */
 .trainer-overlay {
   position: fixed; inset: 0; z-index: 200;
