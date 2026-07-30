@@ -29,8 +29,13 @@ const NATURES = [
 const STATS = ["hp", "atk", "def", "spa", "spd", "spe"] as const;
 const STAT_LABELS: Record<string, string> = { hp: "HP", atk: "ATK", def: "DEF", spa: "SPA", spd: "SPD", spe: "SPE" };
 
-interface TrainerRef { id: string; slug: string; name: string; role: string; seriesLabel: string | null }
-interface Pick { id: string; name: string; aspects?: string[]; img?: string; color?: string }
+interface TrainerRef {
+  id: string; slug: string; name: string; role: string; roleKey: string;
+  seriesId: string | null; seriesLabel: string | null; seriesRank: number; step: number; levelCap: number | null;
+}
+interface Pick { id: string; slug?: string; name: string; aspects?: string[]; img?: string; color?: string }
+/** slug -> what that Pokémon can learn, from pokedex-search-index.json. */
+interface Learnset { moves: string[]; abilities: string[]; hiddenAbilities: string[] }
 interface ItemPick { id: string; bare: string; ns: string; name: string }
 
 /**
@@ -64,7 +69,7 @@ function SpeciesThumb({ opt, size = 22 }: { opt?: Pick; size?: number }) {
 /** Combo box: free-text filter over a big list, writes back the chosen id. */
 function Picker({
   value, options, onChange, placeholder, allowEmpty, current: currentOverride, withThumbs,
-  pickerId, openId, setOpenId,
+  pickerId, openId, setOpenId, allOptions, restrictedLabel,
 }: {
   value: string | null;
   options: Pick[];
@@ -75,6 +80,14 @@ function Picker({
   current?: Pick;
   withThumbs?: boolean;
   /**
+   * The unrestricted list, when `options` has been narrowed to what a species
+   * legally learns. Kept available behind a toggle because datapacks do hand
+   * out moves outside the learnset, and the current value must stay resolvable
+   * even when it isn't legal.
+   */
+  allOptions?: Pick[];
+  restrictedLabel?: string;
+  /**
    * Which picker is open is held by the parent: with per-picker state every
    * dropdown stayed open at once and they piled on top of each other.
    */
@@ -83,14 +96,18 @@ function Picker({
   setOpenId: (id: string | null) => void;
 }) {
   const [q, setQ] = useState("");
+  const [showAll, setShowAll] = useState(false);
   const open = openId === pickerId;
   const setOpen = (v: boolean) => setOpenId(v ? pickerId : null);
-  const current = currentOverride ?? options.find((o) => o.id === value);
+  const pool = showAll && allOptions ? allOptions : options;
+  // Resolved against the full list so an out-of-learnset value still shows its
+  // proper name instead of a bare id.
+  const current = currentOverride ?? (allOptions ?? options).find((o) => o.id === value);
   const matches = useMemo(() => {
     const needle = q.trim().toLowerCase();
-    if (!needle) return options.slice(0, 60);
-    return options.filter((o) => o.name.toLowerCase().includes(needle) || o.id.includes(needle)).slice(0, 60);
-  }, [q, options]);
+    if (!needle) return pool.slice(0, 60);
+    return pool.filter((o) => o.name.toLowerCase().includes(needle) || o.id.includes(needle)).slice(0, 60);
+  }, [q, pool]);
 
   return (
     <div class="ed-picker">
@@ -127,6 +144,14 @@ function Picker({
             ))}
             {matches.length === 0 && <div class="ed-dim" style={{ padding: "0.4rem" }}>Sin resultados</div>}
           </div>
+          {allOptions && (
+            <label class="ed-picker-toggle">
+              <input type="checkbox" checked={showAll} onChange={(e) => setShowAll((e.target as HTMLInputElement).checked)} />
+              {showAll
+                ? `Mostrando los ${allOptions.length}`
+                : `Solo ${restrictedLabel ?? "los que aprende"} (${options.length})`}
+            </label>
+          )}
         </div>
       )}
     </div>
@@ -141,6 +166,7 @@ export default function TrainerEditor() {
   const [moves, setMoves] = useState<Pick[]>([]);
   const [abilities, setAbilities] = useState<Pick[]>([]);
   const [items, setItems] = useState<ItemPick[]>([]);
+  const [learnsets, setLearnsets] = useState<Record<string, Learnset> | null>(null);
   const [query, setQuery] = useState("");
   const [activeId, setActiveId] = useState<string | null>(null);
   const [data, setData] = useState<any | null>(null);
@@ -187,6 +213,12 @@ export default function TrainerEditor() {
       setAbilities(a.map((x: any) => ({ id: x.id, name: x.name })));
       setItems(i);
     }).catch(() => setStatus("No se pudieron cargar los datos base."));
+    // Learnsets are the big one (~2 MB), so they load separately and don't
+    // block the editor: until they arrive the pickers just show everything.
+    fetch("/pokedex-search-index.json")
+      .then((r) => r.json())
+      .then(setLearnsets)
+      .catch(() => { /* pickers stay unfiltered, which is safe */ });
   }, [unlocked]);
 
   // Load a trainer: prefer the local draft over the published original.
@@ -223,6 +255,26 @@ export default function TrainerEditor() {
     if (!n) return refs;
     return refs.filter((r) => r.name.toLowerCase().includes(n) || r.id.includes(n) || (r.seriesLabel ?? "").toLowerCase().includes(n));
   }, [query, refs]);
+
+  /**
+   * Trainers grouped the way the progression reads: one section per region in
+   * play order, then the one-off bosses, then the server's own trainers. Within
+   * a region they follow the progression chain (step), not the alphabet.
+   */
+  const groups = useMemo(() => {
+    const byKey = new Map<string, { label: string; rank: number; list: TrainerRef[] }>();
+    for (const r of filtered) {
+      const key = r.seriesLabel ?? (r.roleKey === "custom" ? "__custom" : "__special");
+      const label = r.seriesLabel ?? (r.roleKey === "custom" ? "Entrenadores del servidor" : "Jefes y especiales");
+      const rank = r.seriesLabel ? r.seriesRank : r.roleKey === "custom" ? 101 : 100;
+      if (!byKey.has(key)) byKey.set(key, { label, rank, list: [] });
+      byKey.get(key)!.list.push(r);
+    }
+    for (const g of byKey.values()) {
+      g.list.sort((a, b) => a.step - b.step || (a.levelCap ?? 0) - (b.levelCap ?? 0) || a.name.localeCompare(b.name));
+    }
+    return [...byKey.values()].sort((a, b) => a.rank - b.rank);
+  }, [filtered]);
 
   const draftCount = Object.keys(drafts).length;
 
@@ -295,16 +347,24 @@ export default function TrainerEditor() {
           onInput={(e) => setQuery((e.target as HTMLInputElement).value)}
         />
         <div class="ed-side-list">
-          {filtered.map((r) => (
-            <button
-              type="button"
-              class={`ed-side-item ${activeId === r.id ? "active" : ""}`}
-              onClick={() => setActiveId(r.id)}
-            >
-              <span>{r.name}</span>
-              <span class="ed-dim">{r.seriesLabel ?? r.role}{drafts[r.id] ? " ✎" : ""}</span>
-            </button>
+          {groups.map((g) => (
+            <>
+              <div class="ed-side-group">{g.label} <span class="ed-dim">({g.list.length})</span></div>
+              {g.list.map((r) => (
+                <button
+                  type="button"
+                  class={`ed-side-item ${activeId === r.id ? "active" : ""}`}
+                  onClick={() => setActiveId(r.id)}
+                >
+                  <span>{r.name}{drafts[r.id] ? " ✎" : ""}</span>
+                  <span class="ed-dim">
+                    {r.role}{r.levelCap !== null ? ` · cap ${r.levelCap}` : ""}
+                  </span>
+                </button>
+              ))}
+            </>
           ))}
+          {groups.length === 0 && <div class="ed-dim" style={{ padding: "0.5rem" }}>Sin resultados</div>}
         </div>
       </aside>
 
@@ -421,6 +481,15 @@ export default function TrainerEditor() {
                     ? heldRaw
                     : items.find((i) => i.bare === heldRaw)?.id ?? `cobblemon:${heldRaw}`;
                 const speciesOpt = findSpecies(species, m.species ?? null, m.aspects);
+                // Narrow the move/ability pickers to this Pokemon's own
+                // learnset. Falls back to the full list when the learnsets
+                // haven't loaded or the species isn't in them, so a picker is
+                // never left empty.
+                const learn = speciesOpt?.slug ? learnsets?.[speciesOpt.slug] : undefined;
+                const legalMoves = learn ? moves.filter((mv) => learn.moves.includes(mv.id)) : null;
+                const legalAbilities = learn
+                  ? abilities.filter((ab) => learn.abilities.includes(ab.id) || learn.hiddenAbilities.includes(ab.id))
+                  : null;
                 return (
                   <div class="panel ed-mon">
                     <div class="ed-mon-head">
@@ -476,7 +545,9 @@ export default function TrainerEditor() {
                         <Picker
                           pickerId={`ability-${mi}`} openId={openId} setOpenId={setOpenId}
                           value={m.ability ?? null}
-                          options={abilities}
+                          options={legalAbilities ?? abilities}
+                          allOptions={legalAbilities ? abilities : undefined}
+                          restrictedLabel="sus habilidades"
                           allowEmpty
                           onChange={(id) => mutate((d) => { if (id) d.team[mi].ability = id; else delete d.team[mi].ability; })}
                         />
@@ -523,7 +594,9 @@ export default function TrainerEditor() {
                           <Picker
                             pickerId={`move-${mi}-${k}`} openId={openId} setOpenId={setOpenId}
                             value={m.moveset?.[k] ?? null}
-                            options={moves}
+                            options={legalMoves ?? moves}
+                            allOptions={legalMoves ? moves : undefined}
+                            restrictedLabel="los que aprende"
                             allowEmpty
                             onChange={(id) => mutate((d) => {
                               d.team[mi].moveset = d.team[mi].moveset ?? [];

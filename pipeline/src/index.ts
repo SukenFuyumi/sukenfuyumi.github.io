@@ -879,7 +879,9 @@ async function main() {
       // `img` lets the editor show a sprite beside each option and on the team
       // card, so the right Pokemon can be confirmed at a glance rather than by
       // reading an identifier.
-      const speciesPicker: { id: string; name: string; aspects?: string[]; img?: string; color?: string }[] = [];
+      // `slug` keys into pokedex-search-index.json, which is how the editor
+      // narrows the move/ability pickers to what that Pokemon actually learns.
+      const speciesPicker: { id: string; slug: string; name: string; aspects?: string[]; img?: string; color?: string }[] = [];
       const pickerImage = (image: any) =>
         image && (image.kind === "sprite" || image.kind === "render" || image.kind === "texture") && image.url
           ? { img: image.url, color: image.placeholderColor }
@@ -887,6 +889,7 @@ async function main() {
       for (const rec of records.values()) {
         speciesPicker.push({
           id: rec.id.split(":")[1].toLowerCase(),
+          slug: rec.slug,
           name: rec.name,
           ...pickerImage(rec.image),
         });
@@ -898,6 +901,7 @@ async function main() {
         if (!parent || !f.aspects?.length) continue;
         speciesPicker.push({
           id: parent.id.split(":")[1].toLowerCase(),
+          slug: f.slug,
           name: f.name,
           aspects: f.aspects.map((a: string) => a.toLowerCase()),
           ...pickerImage(f.image),
@@ -906,10 +910,27 @@ async function main() {
       speciesPicker.sort((a, b) => a.name.localeCompare(b.name));
       writeFileSync(resolvePath(PUBLIC_DIR, "trainer-species-index.json"), JSON.stringify(speciesPicker), "utf-8");
 
-      // Ids the editor writes back into the pack, so it can map slug -> file.
+      // Ids the editor writes back into the pack, plus the progression fields
+      // it groups its trainer list by (region, then order within the region).
+      // `seriesRank` mirrors the requiredSeries ordering used on /progresion so
+      // both list Kanto -> Johto -> Hoenn -> Sinnoh, not alphabetically.
+      const seriesRank = new Map(series.map((s, i) => [s.id, i]));
       writeFileSync(
         resolvePath(PUBLIC_DIR, "trainer-ids.json"),
-        JSON.stringify(trainers.map((t) => ({ id: t.id, slug: t.slug, name: t.name, role: t.role, seriesLabel: t.seriesLabel }))),
+        JSON.stringify(
+          trainers.map((t) => ({
+            id: t.id,
+            slug: t.slug,
+            name: t.name,
+            role: t.role,
+            roleKey: t.roleKey,
+            seriesId: t.seriesId,
+            seriesLabel: t.seriesLabel,
+            seriesRank: t.seriesId ? seriesRank.get(t.seriesId) ?? 99 : 99,
+            step: t.step,
+            levelCap: t.levelCap,
+          }))
+        ),
         "utf-8"
       );
 
