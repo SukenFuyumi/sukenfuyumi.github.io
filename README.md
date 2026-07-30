@@ -16,11 +16,35 @@ los rebalanceos de mods como Laser's Additions.
 
 `/progresion` sale del datapack de RCT (Radical Cobblemon Trainers) que define
 gimnasios, Alto Mando, campeones, jefes de equipos villanos y los entrenadores
-custom del servidor. Para actualizarlo:
+custom del servidor. Para actualizarlo cuando cambies los equipos:
 
-1. Copia el zip nuevo a `datapacks/`.
-2. Apunta `pipeline/sources.json` -> `trainerPack.file` a ese archivo.
-3. `cd pipeline && npm run extract`, luego `cd ../site && npm run build`.
+1. Copia el zip nuevo a `EXTRACTOR DEX/datapacks/`.
+2. En `pipeline/sources.json`, apunta `trainerPack.file` al nombre nuevo, p. ej.
+   `"file": "datapacks/COBBLEVERSE-RCT-DP-v23.zip"`. (Si el nombre del archivo
+   no cambió, no hace falta tocar nada aquí.)
+3. Regenera y publica:
+
+   ```powershell
+   cd pipeline
+   npm run extract
+   cd ../site
+   npm run build
+   ```
+
+4. Sube los cambios (`git add -A`, `git commit`, `git push`): el push a `main`
+   dispara el deploy a GitHub Pages automáticamente.
+
+Al correr `extract` verás una línea de confirmación con lo que leyó, útil para
+comprobar que cogió el zip correcto:
+
+```
+Resolved 155 trainers across 4 series (155 with a level cap) from Cobbleverse RCT (Run & Bun v22)
+```
+
+Todo lo demás se recalcula solo: equipos, niveles, naturalezas, habilidades,
+objetos, movimientos, IVs/EVs, los stats totales, los level caps, el orden de la
+progresión y los archivos por entrenador de `site/public/trainers/` que carga el
+panel. Si el datapack añade entrenadores nuevos, aparecen sin tocar código.
 
 Los **level caps** no vienen en el datapack: son una mecánica del mod,
 documentada en `config/rctmod-server.toml`. El tope de un jugador es el nivel
