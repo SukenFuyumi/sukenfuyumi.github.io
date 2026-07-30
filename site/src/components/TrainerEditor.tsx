@@ -30,22 +30,53 @@ const STATS = ["hp", "atk", "def", "spa", "spd", "spe"] as const;
 const STAT_LABELS: Record<string, string> = { hp: "HP", atk: "ATK", def: "DEF", spa: "SPA", spd: "SPD", spe: "SPE" };
 
 interface TrainerRef { id: string; slug: string; name: string; role: string; seriesLabel: string | null }
-interface Pick { id: string; name: string; aspects?: string[] }
+interface Pick { id: string; name: string; aspects?: string[]; img?: string; color?: string }
 interface ItemPick { id: string; bare: string; ns: string; name: string }
+
+/**
+ * The species entry whose sprite belongs to this team slot. A species id can
+ * appear several times (base plus one row per form), so an exact aspect match
+ * wins and the plain base entry is the fallback.
+ */
+function findSpecies(options: Pick[], species: string | null, aspects?: string[]): Pick | undefined {
+  if (!species) return undefined;
+  const mine = options.filter((o) => o.id === species);
+  if (!mine.length) return undefined;
+  const want = (aspects ?? []).map((a) => a.toLowerCase()).sort().join(",");
+  return (
+    mine.find((o) => (o.aspects ?? []).map((a) => a.toLowerCase()).sort().join(",") === want) ??
+    mine.find((o) => !o.aspects?.length) ??
+    mine[0]
+  );
+}
+
+function SpeciesThumb({ opt, size = 22 }: { opt?: Pick; size?: number }) {
+  if (!opt?.img) {
+    return <span class="ed-thumb ed-thumb-empty" style={{ width: `${size}px`, height: `${size}px`, background: opt?.color ?? "var(--subtle-bg)" }} />;
+  }
+  // Loaded eagerly on purpose: these are the visual confirmation that the right
+  // Pokemon is selected, and lazy-loading left them blank until something
+  // nudged a repaint. The counts are tiny either way - six on the team cards,
+  // and the picker caps its list at 60 rows of 22px thumbs.
+  return <img class="ed-thumb" src={opt.img} alt="" width={size} height={size} />;
+}
 
 /** Combo box: free-text filter over a big list, writes back the chosen id. */
 function Picker({
-  value, options, onChange, placeholder, allowEmpty,
+  value, options, onChange, placeholder, allowEmpty, current: currentOverride, withThumbs,
 }: {
   value: string | null;
-  options: { id: string; name: string; aspects?: string[] }[];
+  options: Pick[];
   onChange: (id: string, opt?: Pick) => void;
   placeholder?: string;
   allowEmpty?: boolean;
+  /** Species need the aspect-aware match, not just the first id hit. */
+  current?: Pick;
+  withThumbs?: boolean;
 }) {
   const [q, setQ] = useState("");
   const [open, setOpen] = useState(false);
-  const current = options.find((o) => o.id === value);
+  const current = currentOverride ?? options.find((o) => o.id === value);
   const matches = useMemo(() => {
     const needle = q.trim().toLowerCase();
     if (!needle) return options.slice(0, 60);
@@ -55,7 +86,8 @@ function Picker({
   return (
     <div class="ed-picker">
       <button type="button" class="ed-picker-btn" onClick={() => { setOpen(!open); setQ(""); }}>
-        {current?.name ?? (value || placeholder || "— elegir —")}
+        {withThumbs && <SpeciesThumb opt={current} />}
+        <span class="ed-picker-label">{current?.name ?? (value || placeholder || "— elegir —")}</span>
       </button>
       {open && (
         <div class="ed-picker-pop">
@@ -78,7 +110,10 @@ function Picker({
                 class="ed-picker-item"
                 onClick={() => { onChange(o.id, o); setOpen(false); }}
               >
-                {o.name} <span class="ed-dim">{o.id}{o.aspects?.length ? ` · ${o.aspects.join(",")}` : ""}</span>
+                {withThumbs && <SpeciesThumb opt={o} />}
+                <span class="ed-picker-label">
+                  {o.name} <span class="ed-dim">{o.id}{o.aspects?.length ? ` · ${o.aspects.join(",")}` : ""}</span>
+                </span>
               </button>
             ))}
             {matches.length === 0 && <div class="ed-dim" style={{ padding: "0.4rem" }}>Sin resultados</div>}
@@ -349,10 +384,20 @@ export default function TrainerEditor() {
                 // Held items are stored bare ("life_orb"); the picker works in
                 // full ids, so map between the two.
                 const heldFull = heldRaw ? (items.find((i) => i.bare === heldRaw)?.id ?? `cobblemon:${heldRaw}`) : "";
+                const speciesOpt = findSpecies(species, m.species ?? null, m.aspects);
                 return (
                   <div class="panel ed-mon">
                     <div class="ed-mon-head">
-                      <strong>#{mi + 1}</strong>
+                      <div class="ed-mon-id">
+                        <SpeciesThumb opt={speciesOpt} size={44} />
+                        <div>
+                          <strong>#{mi + 1}</strong>{" "}
+                          <span class="ed-mon-name">{speciesOpt?.name ?? m.species ?? "—"}</span>
+                          <div class="ed-dim" style={{ fontSize: "0.7rem" }}>
+                            Nv. {m.level ?? "—"}{m.aspects?.length ? ` · ${m.aspects.join(", ")}` : ""}
+                          </div>
+                        </div>
+                      </div>
                       <button class="ed-btn danger" onClick={() => mutate((d) => { d.team.splice(mi, 1); })}>Quitar</button>
                     </div>
                     <div class="ed-grid2">
@@ -361,6 +406,8 @@ export default function TrainerEditor() {
                         <Picker
                           value={m.species ?? null}
                           options={species}
+                          current={speciesOpt}
+                          withThumbs
                           onChange={(id, opt) => mutate((d) => {
                             d.team[mi].species = id;
                             if (opt?.aspects?.length) d.team[mi].aspects = opt.aspects;

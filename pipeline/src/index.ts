@@ -872,9 +872,20 @@ async function main() {
       // that RCT's `species` field expects (not the site's slug), with the
       // aspects a form needs so picking "Leafeon Kazeran" writes
       // species: leafeon + aspects: ["kazeran"].
-      const speciesPicker: { id: string; name: string; aspects?: string[] }[] = [];
+      // `img` lets the editor show a sprite beside each option and on the team
+      // card, so the right Pokemon can be confirmed at a glance rather than by
+      // reading an identifier.
+      const speciesPicker: { id: string; name: string; aspects?: string[]; img?: string; color?: string }[] = [];
+      const pickerImage = (image: any) =>
+        image && (image.kind === "sprite" || image.kind === "render" || image.kind === "texture") && image.url
+          ? { img: image.url, color: image.placeholderColor }
+          : { color: image?.placeholderColor };
       for (const rec of records.values()) {
-        speciesPicker.push({ id: rec.id.split(":")[1].toLowerCase(), name: rec.name });
+        speciesPicker.push({
+          id: rec.id.split(":")[1].toLowerCase(),
+          name: rec.name,
+          ...pickerImage(rec.image),
+        });
       }
       for (const f of formRecords) {
         const parentSlug = f.formOf?.slug;
@@ -885,6 +896,7 @@ async function main() {
           id: parent.id.split(":")[1].toLowerCase(),
           name: f.name,
           aspects: f.aspects.map((a: string) => a.toLowerCase()),
+          ...pickerImage(f.image),
         });
       }
       speciesPicker.sort((a, b) => a.name.localeCompare(b.name));

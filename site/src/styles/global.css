@@ -347,7 +347,12 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
 
 .ed-team { display: grid; gap: 0.85rem; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
 .ed-mon { padding: 0.75rem; }
-.ed-mon-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+.ed-mon-head { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+/* Sprite + name so the selected Pokémon is confirmable at a glance. */
+.ed-mon-id { display: flex; align-items: center; gap: 0.5rem; min-width: 0; }
+.ed-mon-name { font-weight: 700; font-size: 0.9rem; }
+.ed-thumb { object-fit: contain; border-radius: 50%; background: var(--subtle-bg); flex-shrink: 0; }
+.ed-thumb-empty { display: inline-block; border-radius: 50%; opacity: 0.35; }
 .ed-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
 .ed-moves { display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem; margin: 0.6rem 0; }
 .ed-stats { width: 100%; font-size: 0.78rem; }
@@ -361,11 +366,13 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
    2300 options is unusable, so this filters as you type. */
 .ed-picker { position: relative; }
 .ed-picker-btn {
-  width: 100%; text-align: left; padding: 0.35rem 0.5rem; border-radius: 6px;
+  width: 100%; text-align: left; padding: 0.3rem 0.5rem; border-radius: 6px;
   border: 1px solid var(--border); background: var(--bg); color: var(--text);
   font: inherit; font-size: 0.85rem; cursor: pointer;
-  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  display: flex; align-items: center; gap: 0.4rem; min-width: 0;
 }
+/* The label truncates; the thumbnail beside it must not shrink. */
+.ed-picker-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 .ed-picker-btn:hover { border-color: var(--accent); }
 .ed-picker-pop {
   position: absolute; z-index: 50; top: calc(100% + 2px); left: 0; right: 0;
@@ -374,9 +381,9 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
 }
 .ed-picker-list { max-height: 240px; overflow-y: auto; margin-top: 0.3rem; display: flex; flex-direction: column; }
 .ed-picker-item {
-  background: transparent; border: 0; border-radius: 5px; padding: 0.25rem 0.35rem;
+  background: transparent; border: 0; border-radius: 5px; padding: 0.2rem 0.35rem;
   color: var(--text); font: inherit; font-size: 0.82rem; text-align: left; cursor: pointer;
-  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  display: flex; align-items: center; gap: 0.4rem; min-width: 0;
 }
 .ed-picker-item:hover { background: var(--row-hover); }
 
