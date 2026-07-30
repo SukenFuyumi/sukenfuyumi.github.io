@@ -64,6 +64,7 @@ function SpeciesThumb({ opt, size = 22 }: { opt?: Pick; size?: number }) {
 /** Combo box: free-text filter over a big list, writes back the chosen id. */
 function Picker({
   value, options, onChange, placeholder, allowEmpty, current: currentOverride, withThumbs,
+  pickerId, openId, setOpenId,
 }: {
   value: string | null;
   options: Pick[];
@@ -73,9 +74,17 @@ function Picker({
   /** Species need the aspect-aware match, not just the first id hit. */
   current?: Pick;
   withThumbs?: boolean;
+  /**
+   * Which picker is open is held by the parent: with per-picker state every
+   * dropdown stayed open at once and they piled on top of each other.
+   */
+  pickerId: string;
+  openId: string | null;
+  setOpenId: (id: string | null) => void;
 }) {
   const [q, setQ] = useState("");
-  const [open, setOpen] = useState(false);
+  const open = openId === pickerId;
+  const setOpen = (v: boolean) => setOpenId(v ? pickerId : null);
   const current = currentOverride ?? options.find((o) => o.id === value);
   const matches = useMemo(() => {
     const needle = q.trim().toLowerCase();
@@ -138,6 +147,23 @@ export default function TrainerEditor() {
   const [drafts, setDrafts] = useState<Record<string, any>>({});
   const [status, setStatus] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const [openId, setOpenId] = useState<string | null>(null);
+
+  // Clicking anywhere outside the open dropdown dismisses it, so it never
+  // lingers over the fields underneath.
+  useEffect(() => {
+    if (!openId) return;
+    const onDown = (e: MouseEvent) => {
+      if (!(e.target as HTMLElement).closest(".ed-picker")) setOpenId(null);
+    };
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setOpenId(null); };
+    document.addEventListener("mousedown", onDown);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onDown);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [openId]);
 
   useEffect(() => {
     if (sessionStorage.getItem(PASS_KEY) === "1") setUnlocked(true);
@@ -352,6 +378,7 @@ export default function TrainerEditor() {
               {(data.bag ?? []).map((b: any, bi: number) => (
                 <div class="ed-row ed-bag-row">
                   <Picker
+                    pickerId={`bag-${bi}`} openId={openId} setOpenId={setOpenId}
                     value={b.item ?? null}
                     options={items}
                     onChange={(id) => mutate((d) => { d.bag[bi].item = id; })}
@@ -383,7 +410,16 @@ export default function TrainerEditor() {
                 const heldRaw = Array.isArray(m.heldItem) ? m.heldItem[0] ?? "" : m.heldItem ?? "";
                 // Held items are stored bare ("life_orb"); the picker works in
                 // full ids, so map between the two.
-                const heldFull = heldRaw ? (items.find((i) => i.bare === heldRaw)?.id ?? `cobblemon:${heldRaw}`) : "";
+                // heldItem is stored either bare ("life_orb", the Cobblemon
+                // convention) or fully qualified ("mega_showdown:heracronite"
+                // for mod items). The picker works in full ids, so map both
+                // shapes rather than blindly prefixing - that produced
+                // "cobblemon:mega_showdown:heracronite".
+                const heldFull = !heldRaw
+                  ? ""
+                  : heldRaw.includes(":")
+                    ? heldRaw
+                    : items.find((i) => i.bare === heldRaw)?.id ?? `cobblemon:${heldRaw}`;
                 const speciesOpt = findSpecies(species, m.species ?? null, m.aspects);
                 return (
                   <div class="panel ed-mon">
@@ -404,6 +440,7 @@ export default function TrainerEditor() {
                       <label class="ed-field">
                         <span>Especie</span>
                         <Picker
+                          pickerId={`species-${mi}`} openId={openId} setOpenId={setOpenId}
                           value={m.species ?? null}
                           options={species}
                           current={speciesOpt}
@@ -437,6 +474,7 @@ export default function TrainerEditor() {
                       <label class="ed-field">
                         <span>Habilidad</span>
                         <Picker
+                          pickerId={`ability-${mi}`} openId={openId} setOpenId={setOpenId}
                           value={m.ability ?? null}
                           options={abilities}
                           allowEmpty
@@ -446,14 +484,20 @@ export default function TrainerEditor() {
                       <label class="ed-field">
                         <span>Objeto equipado</span>
                         <Picker
+                          pickerId={`held-${mi}`} openId={openId} setOpenId={setOpenId}
                           value={heldFull || null}
                           options={items}
                           allowEmpty
                           onChange={(id) => mutate((d) => {
                             if (!id) { delete d.team[mi].heldItem; return; }
-                            const bare = items.find((i) => i.id === id)?.bare ?? id.split(":").pop()!;
+                            const opt = items.find((i) => i.id === id);
+                            // Cobblemon items are written bare (the datapack's
+                            // convention); anything from a mod keeps its
+                            // namespace, or the mega stones would be saved as a
+                            // bare name the game can't resolve.
+                            const written = !opt || opt.ns === "cobblemon" ? (opt?.bare ?? id.split(":").pop()!) : opt.id;
                             // Keep whichever shape this entry already used.
-                            d.team[mi].heldItem = Array.isArray(d.team[mi].heldItem) ? [bare] : bare;
+                            d.team[mi].heldItem = Array.isArray(d.team[mi].heldItem) ? [written] : written;
                           })}
                         />
                       </label>
@@ -477,6 +521,7 @@ export default function TrainerEditor() {
                         <label class="ed-field">
                           <span>Mov. {k + 1}</span>
                           <Picker
+                            pickerId={`move-${mi}-${k}`} openId={openId} setOpenId={setOpenId}
                             value={m.moveset?.[k] ?? null}
                             options={moves}
                             allowEmpty

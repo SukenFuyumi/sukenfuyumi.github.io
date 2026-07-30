@@ -860,8 +860,12 @@ async function main() {
       copyFileSync(packPath, resolvePath(PUBLIC_DIR, "trainer-pack.zip"));
       // Item list for the held-item and bag pickers. Harvested from the lang
       // files so it reflects this server's actual (mod-renamed) item names.
+      // Every namespace counts, not just cobblemon/minecraft: trainers hold
+      // mega stones from mega_showdown and zamega, and restricting the scan
+      // left 31 of them missing from the picker (shown as a raw id, unpickable).
+      // `item.name.*` / `item.desc.*` are lang scaffolding, not real items.
       const itemIndex = [...ingested.lang.entries()]
-        .filter(([k]) => /^item\.(cobblemon|minecraft)\.[a-z0-9_]+$/.test(k))
+        .filter(([k]) => /^item\.[a-z0-9_]+\.[a-z0-9_]+$/.test(k) && !/^item\.(name|desc|decs1)\./.test(k))
         .map(([k, v]) => {
           const [, ns, path] = k.split(".");
           return { id: `${ns}:${path}`, bare: path, ns, name: v.value };
