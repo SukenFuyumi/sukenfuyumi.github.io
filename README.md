@@ -22,17 +22,24 @@ custom del servidor. Para actualizarlo cuando cambies los equipos:
 2. En `pipeline/sources.json`, apunta `trainerPack.file` al nombre nuevo, p. ej.
    `"file": "datapacks/COBBLEVERSE-RCT-DP-v23.zip"`. (Si el nombre del archivo
    no cambió, no hace falta tocar nada aquí.)
-3. Regenera y publica:
+3. Regenera los datos y construye el sitio. Ojo: en Windows PowerShell 5.1 `&&`
+   no existe como separador - usa `;` o una línea por comando.
 
    ```powershell
-   cd pipeline
+   cd "D:\Minecraft server\EXTRACTOR DEX\pokedex-site\pipeline"
    npm run extract
-   cd ../site
+   cd "D:\Minecraft server\EXTRACTOR DEX\pokedex-site\site"
    npm run build
    ```
 
-4. Sube los cambios (`git add -A`, `git commit`, `git push`): el push a `main`
-   dispara el deploy a GitHub Pages automáticamente.
+4. Publica. El push a `main` dispara el deploy a GitHub Pages automáticamente.
+
+   ```powershell
+   cd "D:\Minecraft server\EXTRACTOR DEX\pokedex-site"
+   git add -A
+   git commit -m "Update trainer datapack"
+   git push
+   ```
 
 Al correr `extract` verás una línea de confirmación con lo que leyó, útil para
 comprobar que cogió el zip correcto:
