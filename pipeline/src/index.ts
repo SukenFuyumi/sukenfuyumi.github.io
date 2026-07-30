@@ -18,7 +18,7 @@ import { TYPE_COLORS, typeColor } from "./typeColors.js";
 import { ABILITY_TYPE_IMMUNITIES } from "./abilityEffects.js";
 import { buildTerrainWeatherIndex } from "./terrainWeather.js";
 import { describeSecondaryEffects, summarizeSecondaryEffects } from "./secondaryEffects.js";
-import { buildTrainerData } from "./trainers.js";
+import { buildTrainerData, assertTrainerPackReadable } from "./trainers.js";
 import { PUBLIC_TEXTURES_DIR, PUBLIC_RENDERS_DIR, PUBLIC_DIR } from "./config.js";
 import type { MoveRecord, AbilityRecord, BalanceChange } from "./types.js";
 import { writeFileSync, mkdirSync } from "node:fs";
@@ -65,6 +65,13 @@ async function main() {
   const { manifest, sourceRoot } = loadManifest();
   console.log(`Source root: ${sourceRoot}`);
   console.log(`Sources: ${manifest.sources.length} active, ${manifest.disabled.length} disabled, ${manifest.cosmeticOnly.length} cosmetic-only (untouched)`);
+
+  // Checked here, before any output is written, so an unreadable trainer pack
+  // aborts the run with the previous data still on disk (see the function's
+  // comment - resetOutputDir() below deletes the generated folder).
+  if (manifest.trainerPack) {
+    assertTrainerPackReadable(resolvePath(sourceRoot, manifest.trainerPack.file), manifest.trainerPack.file);
+  }
 
   const ingested = ingestAll(manifest, sourceRoot);
   console.log(
@@ -844,11 +851,18 @@ async function main() {
         `Resolved ${trainers.length} trainers across ${series.length} series (${withCap} with a level cap) from ${manifest.trainerPack.label}.`
       );
     } catch (err) {
-      console.warn(`[trainers] failed to read ${manifest.trainerPack.file}:`, (err as Error).message);
-      writeJson("trainers.json", []);
-      writeJson("trainerSeries.json", []);
+      // Deliberately not swallowed into an empty list: writing [] here would
+      // publish an empty Progresión page, which reads as "the data is gone"
+      // rather than "the build failed". The pack was already validated above,
+      // so reaching this means something unexpected - surface it.
+      throw new Error(
+        `Falló el procesado del datapack de entrenadores (${manifest.trainerPack.file}): ${(err as Error).message}`
+      );
     }
   } else {
+    // No trainer pack configured at all - an explicit opt-out, so an empty
+    // section is the honest result. Logged so it isn't mistaken for data loss.
+    console.warn("[trainers] sources.json no define trainerPack: la sección de Progresión quedará vacía.");
     writeJson("trainers.json", []);
     writeJson("trainerSeries.json", []);
   }

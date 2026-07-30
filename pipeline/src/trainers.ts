@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import { openZip, listEntries, readText } from "./zipUtil.js";
 
 /**
@@ -203,6 +204,41 @@ function readJson(handle: any, name: string): any | null {
     return JSON.parse(txt);
   } catch {
     return null;
+  }
+}
+
+/**
+ * Fails loudly if the configured trainer datapack can't be used.
+ *
+ * Called before the pipeline writes anything, because `resetOutputDir()` wipes
+ * the generated folder: a failure discovered later would leave the progression
+ * data deleted rather than merely stale, and `npm run build` would happily
+ * publish an empty Progresión page. Aborting up front leaves the previous
+ * output untouched, so a typo in `trainerPack.file` costs a re-run instead of
+ * the whole section.
+ */
+export function assertTrainerPackReadable(zipPath: string, configuredPath: string): void {
+  const fail = (reason: string) => {
+    throw new Error(
+      `No se pudo leer el datapack de entrenadores.\n` +
+        `  configurado: ${configuredPath}\n` +
+        `  ruta:        ${zipPath}\n` +
+        `  motivo:      ${reason}\n` +
+        `Revisa sources.json -> trainerPack.file, o copia el zip a datapacks/.\n` +
+        `La extracción se detiene para no dejar la sección de Progresión vacía.`
+    );
+  };
+  if (!existsSync(zipPath)) fail("el archivo no existe");
+  let handle;
+  try {
+    handle = openZip(zipPath);
+  } catch (err) {
+    fail(`no se pudo abrir el zip (${(err as Error).message})`);
+    return;
+  }
+  const teamFiles = listEntries(handle!, (n) => /^data\/rctmod\/trainers\/[^/]+\.json$/.test(n));
+  if (teamFiles.length === 0) {
+    fail("el zip no contiene data/rctmod/trainers/*.json (¿es el datapack de RCT correcto?)");
   }
 }
 
