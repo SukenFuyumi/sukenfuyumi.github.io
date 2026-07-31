@@ -1506,11 +1506,22 @@
   "spawnInfo": [
     {
       "biomes": [
+        "#cobblemon:is_badlands",
         "#cobblemon:is_hills"
       ],
       "bucket": "uncommon",
-      "level": "29-45",
-      "timeRange": null,
+      "level": "25-49",
+      "timeRange": "day",
+      "sourceId": "mega-showdown"
+    },
+    {
+      "biomes": [
+        "#cobblemon:is_badlands",
+        "#cobblemon:is_hills"
+      ],
+      "bucket": "uncommon",
+      "level": "25-49",
+      "timeRange": "night",
       "sourceId": "mega-showdown"
     }
   ],

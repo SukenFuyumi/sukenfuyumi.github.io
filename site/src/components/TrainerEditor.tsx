@@ -26,6 +26,18 @@ const NATURES = [
   "impish", "jolly", "lax", "lonely", "mild", "modest", "naive", "naughty", "quiet", "quirky",
   "rash", "relaxed", "sassy", "serious", "timid",
 ];
+/**
+ * Battle formats RCT understands. The datapack only uses the two Gen 9 ones
+ * (146 singles / 9 doubles), which are the meaningful choice - the older gens
+ * are offered because the field accepts them and a pack may want an older
+ * ruleset.
+ */
+const BATTLE_FORMATS = [
+  { id: "GEN_9_SINGLES", label: "Individual (Gen 9)" },
+  { id: "GEN_9_DOUBLES", label: "Dobles (Gen 9)" },
+  { id: "GEN_8_SINGLES", label: "Individual (Gen 8)" },
+  { id: "GEN_8_DOUBLES", label: "Dobles (Gen 8)" },
+];
 const STATS = ["hp", "atk", "def", "spa", "spd", "spe"] as const;
 const STAT_LABELS: Record<string, string> = { hp: "HP", atk: "ATK", def: "DEF", spa: "SPA", spd: "SPD", spe: "SPE" };
 
@@ -411,6 +423,21 @@ export default function TrainerEditor() {
                     value={data.name?.literal ?? ""}
                     onInput={(e) => mutate((d) => { d.name = { literal: (e.target as HTMLInputElement).value }; })}
                   />
+                </label>
+                <label class="ed-field" style={{ maxWidth: "190px" }}>
+                  <span>Formato de combate</span>
+                  <select
+                    class="ed-input"
+                    value={data.battleFormat ?? ""}
+                    onChange={(e) => mutate((d) => {
+                      const v = (e.target as HTMLSelectElement).value;
+                      if (v) d.battleFormat = v;
+                      else delete d.battleFormat;
+                    })}
+                  >
+                    <option value="">— sin definir —</option>
+                    {BATTLE_FORMATS.map((f) => <option value={f.id}>{f.label}</option>)}
+                  </select>
                 </label>
                 <label class="ed-field" style={{ maxWidth: "180px" }}>
                   <span>Máx. objetos en combate</span>

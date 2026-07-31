@@ -370,17 +370,17 @@
     {
       "biomes": [
         "#cobblemon:is_forest",
-        "#cobblemon:is_jungle",
         "#cobblemon:is_taiga"
       ],
       "bucket": "common",
-      "level": "4-25",
+      "level": "2-27",
       "timeRange": null,
       "sourceId": "mega-showdown"
     }
   ],
   "sourceMods": [
     "cobblemon-core",
+    "mega-showdown",
     "lasers-additions"
   ],
   "primarySource": "cobblemon-core",
@@ -404,11 +404,12 @@
     "catchRate": "cobblemon-core",
     "eggCycles": "cobblemon-core",
     "baseFriendship": "cobblemon-core",
-    "baseScale": "cobblemon-core",
-    "hitbox": "cobblemon-core",
+    "baseScale": "mega-showdown",
+    "hitbox": "mega-showdown",
     "drops": "cobblemon-core",
     "moves": "lasers-additions",
     "evolutions": "cobblemon-core",
-    "behaviour": "cobblemon-core"
+    "behaviour": "mega-showdown",
+    "implemented": "mega-showdown"
   }
 }

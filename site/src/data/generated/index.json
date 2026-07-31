@@ -3142,8 +3142,8 @@
       "flying"
     ],
     "abilities": [
-      "prankster",
-      "prankster"
+      "magicbounce",
+      "magicbounce"
     ],
     "baseStatTotal": 583,
     "image": {
@@ -5208,7 +5208,7 @@
       "grass"
     ],
     "abilities": [
-      "triage"
+      "innardsout"
     ],
     "baseStatTotal": 590,
     "image": {
@@ -8127,8 +8127,8 @@
       "water"
     ],
     "abilities": [
-      "purepower",
-      "purepower"
+      "hugepower",
+      "hugepower"
     ],
     "baseStatTotal": 620,
     "image": {
@@ -8366,9 +8366,10 @@
       "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png"
     },
     "sourceMods": [
+      "mega-showdown",
       "cobblemon-core"
     ],
-    "primarySource": "cobblemon-core",
+    "primarySource": "mega-showdown",
     "labels": [
       "gen1"
     ],
@@ -8392,9 +8393,10 @@
       "placeholderColor": "#A6B91A"
     },
     "sourceMods": [
+      "mega-showdown",
       "cobblemon-core"
     ],
-    "primarySource": "cobblemon-core",
+    "primarySource": "mega-showdown",
     "labels": [
       "gen1"
     ],
@@ -13575,8 +13577,8 @@
       "steel"
     ],
     "abilities": [
-      "toughclaws",
-      "toughclaws"
+      "stalwart",
+      "stalwart"
     ],
     "baseStatTotal": 565,
     "image": {
@@ -16642,7 +16644,7 @@
     }
   },
   {
-    "slug": "mawile",
+    "slug": "cobblemon-mawile",
     "name": "Mawile",
     "nationalPokedexNumber": 303,
     "types": [
@@ -16659,18 +16661,19 @@
       "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png"
     },
     "sourceMods": [
-      "cobblemon-core",
       "cobblemon-rlm",
-      "lasers-additions"
+      "mega-showdown",
+      "lasers-additions",
+      "cobblemon-core"
     ],
-    "primarySource": "cobblemon-core",
+    "primarySource": "mega-showdown",
     "labels": [
       "gen3"
     ],
     "formOf": null
   },
   {
-    "slug": "mawile-dragon",
+    "slug": "cobblemon-mawile-dragon",
     "name": "Mawile dragon",
     "nationalPokedexNumber": 303,
     "types": [
@@ -16684,25 +16687,26 @@
     "baseStatTotal": 380,
     "image": {
       "kind": "render",
-      "url": "/renders/mawile-dragon.png",
+      "url": "/renders/cobblemon-mawile-dragon.png",
       "placeholderColor": "#6F35FC"
     },
     "sourceMods": [
-      "cobblemon-core",
       "cobblemon-rlm",
-      "lasers-additions"
+      "mega-showdown",
+      "lasers-additions",
+      "cobblemon-core"
     ],
-    "primarySource": "cobblemon-core",
+    "primarySource": "mega-showdown",
     "labels": [
       "gen3"
     ],
     "formOf": {
-      "slug": "mawile",
+      "slug": "cobblemon-mawile",
       "name": "Mawile"
     }
   },
   {
-    "slug": "mawile-mega",
+    "slug": "cobblemon-mawile-mega",
     "name": "Mawile Mega",
     "nationalPokedexNumber": 303,
     "types": [
@@ -16715,25 +16719,26 @@
     "baseStatTotal": 480,
     "image": {
       "kind": "render",
-      "url": "/renders/mawile-mega.png",
+      "url": "/renders/cobblemon-mawile-mega.png",
       "placeholderColor": "#B7B7CE"
     },
     "sourceMods": [
-      "cobblemon-core",
       "cobblemon-rlm",
-      "lasers-additions"
+      "mega-showdown",
+      "lasers-additions",
+      "cobblemon-core"
     ],
-    "primarySource": "cobblemon-core",
+    "primarySource": "mega-showdown",
     "labels": [
       "gen3"
     ],
     "formOf": {
-      "slug": "mawile",
+      "slug": "cobblemon-mawile",
       "name": "Mawile"
     }
   },
   {
-    "slug": "mawile-poison",
+    "slug": "cobblemon-mawile-poison",
     "name": "Mawile poison",
     "nationalPokedexNumber": 303,
     "types": [
@@ -16747,20 +16752,21 @@
     "baseStatTotal": 380,
     "image": {
       "kind": "render",
-      "url": "/renders/mawile-poison.png",
+      "url": "/renders/cobblemon-mawile-poison.png",
       "placeholderColor": "#A33EA1"
     },
     "sourceMods": [
-      "cobblemon-core",
       "cobblemon-rlm",
-      "lasers-additions"
+      "mega-showdown",
+      "lasers-additions",
+      "cobblemon-core"
     ],
-    "primarySource": "cobblemon-core",
+    "primarySource": "mega-showdown",
     "labels": [
       "gen3"
     ],
     "formOf": {
-      "slug": "mawile",
+      "slug": "cobblemon-mawile",
       "name": "Mawile"
     }
   },
@@ -18730,9 +18736,10 @@
       "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png"
     },
     "sourceMods": [
+      "mega-showdown",
       "cobblemon-core"
     ],
-    "primarySource": "cobblemon-core",
+    "primarySource": "mega-showdown",
     "labels": [
       "gen3"
     ],
@@ -18755,9 +18762,10 @@
       "placeholderColor": "#735797"
     },
     "sourceMods": [
+      "mega-showdown",
       "cobblemon-core"
     ],
-    "primarySource": "cobblemon-core",
+    "primarySource": "mega-showdown",
     "labels": [
       "gen3"
     ],
@@ -21584,6 +21592,7 @@
     },
     "sourceMods": [
       "cobblemon-core",
+      "mega-showdown",
       "lasers-additions"
     ],
     "primarySource": "cobblemon-core",
@@ -27763,8 +27772,8 @@
       "ground"
     ],
     "abilities": [
-      "sandrush",
-      "sandrush"
+      "piercingdrill",
+      "piercingdrill"
     ],
     "baseStatTotal": 608,
     "image": {
@@ -29070,11 +29079,12 @@
       "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/555.png"
     },
     "sourceMods": [
-      "cobblemon-core",
       "lasers-fakemon-pack",
-      "lasers-additions"
+      "mega-showdown",
+      "lasers-additions",
+      "cobblemon-core"
     ],
-    "primarySource": "cobblemon-core",
+    "primarySource": "mega-showdown",
     "labels": [
       "gen5",
       "unovan_form"
@@ -29098,11 +29108,12 @@
       "placeholderColor": "#96D9D6"
     },
     "sourceMods": [
-      "cobblemon-core",
       "lasers-fakemon-pack",
-      "lasers-additions"
+      "mega-showdown",
+      "lasers-additions",
+      "cobblemon-core"
     ],
-    "primarySource": "cobblemon-core",
+    "primarySource": "mega-showdown",
     "labels": [
       "gen5",
       "unovan_form"
@@ -29130,11 +29141,12 @@
       "placeholderColor": "#96D9D6"
     },
     "sourceMods": [
-      "cobblemon-core",
       "lasers-fakemon-pack",
-      "lasers-additions"
+      "mega-showdown",
+      "lasers-additions",
+      "cobblemon-core"
     ],
-    "primarySource": "cobblemon-core",
+    "primarySource": "mega-showdown",
     "labels": [
       "gen5",
       "unovan_form"
@@ -29162,11 +29174,12 @@
       "placeholderColor": "#EE8130"
     },
     "sourceMods": [
-      "cobblemon-core",
       "lasers-fakemon-pack",
-      "lasers-additions"
+      "mega-showdown",
+      "lasers-additions",
+      "cobblemon-core"
     ],
-    "primarySource": "cobblemon-core",
+    "primarySource": "mega-showdown",
     "labels": [
       "gen5",
       "unovan_form"
@@ -29194,11 +29207,12 @@
       "placeholderColor": "#EE8130"
     },
     "sourceMods": [
-      "cobblemon-core",
       "lasers-fakemon-pack",
-      "lasers-additions"
+      "mega-showdown",
+      "lasers-additions",
+      "cobblemon-core"
     ],
-    "primarySource": "cobblemon-core",
+    "primarySource": "mega-showdown",
     "labels": [
       "gen5",
       "unovan_form"
@@ -31792,8 +31806,8 @@
       "ghost"
     ],
     "abilities": [
-      "magicguard",
-      "magicguard"
+      "infiltrator",
+      "infiltrator"
     ],
     "baseStatTotal": 620,
     "image": {
@@ -32513,8 +32527,8 @@
       "ground"
     ],
     "abilities": [
-      "adaptability",
-      "adaptability"
+      "unseenfist",
+      "unseenfist"
     ],
     "baseStatTotal": 583,
     "image": {
@@ -34961,7 +34975,7 @@
       "grass"
     ],
     "abilities": [
-      "regenerator"
+      "fairyaura"
     ],
     "baseStatTotal": 920,
     "image": {
@@ -35051,7 +35065,7 @@
       "fairy"
     ],
     "abilities": [
-      "regenerator"
+      "fairyaura"
     ],
     "baseStatTotal": 651,
     "image": {
@@ -35961,8 +35975,8 @@
       "psychic"
     ],
     "abilities": [
-      "psychicsurge",
-      "psychicsurge"
+      "trace",
+      "trace"
     ],
     "baseStatTotal": 566,
     "image": {
@@ -36895,7 +36909,7 @@
       "flying"
     ],
     "abilities": [
-      "stamina"
+      "noguard"
     ],
     "baseStatTotal": 600,
     "image": {
@@ -39057,8 +39071,8 @@
       "fighting"
     ],
     "abilities": [
-      "icescales",
-      "icescales"
+      "ironfist",
+      "ironfist"
     ],
     "baseStatTotal": 578,
     "image": {
@@ -41456,8 +41470,8 @@
       "normal"
     ],
     "abilities": [
-      "adaptability",
-      "adaptability"
+      "berserk",
+      "berserk"
     ],
     "baseStatTotal": 585,
     "image": {
@@ -48398,8 +48412,8 @@
       "grass"
     ],
     "abilities": [
-      "contrary",
-      "contrary"
+      "spicyspray",
+      "spicyspray"
     ],
     "baseStatTotal": 586,
     "image": {
@@ -48952,7 +48966,7 @@
       "rock"
     ],
     "abilities": [
-      "levitate"
+      "adaptability"
     ],
     "baseStatTotal": 625,
     "image": {
@@ -65353,7 +65367,7 @@
     "formOf": null
   },
   {
-    "slug": "cobblemon-mawile",
+    "slug": "mawile",
     "name": "Mawile",
     "nationalPokedexNumber": null,
     "types": [
@@ -65363,7 +65377,7 @@
     "baseStatTotal": 0,
     "image": {
       "kind": "render",
-      "url": "/renders/cobblemon-mawile.png",
+      "url": "/renders/mawile.png",
       "placeholderColor": "#A8A77A"
     },
     "sourceMods": [
@@ -65374,7 +65388,7 @@
     "formOf": null
   },
   {
-    "slug": "cobblemon-mawile-megarlmdragon",
+    "slug": "mawile-megarlmdragon",
     "name": "Mawile MegaRlmDragon",
     "nationalPokedexNumber": null,
     "types": [
@@ -65388,7 +65402,7 @@
     "baseStatTotal": 480,
     "image": {
       "kind": "render",
-      "url": "/renders/cobblemon-mawile-megarlmdragon.png",
+      "url": "/renders/mawile-megarlmdragon.png",
       "placeholderColor": "#6F35FC"
     },
     "sourceMods": [
@@ -65397,12 +65411,12 @@
     "primarySource": "cobblemon-rlm",
     "labels": [],
     "formOf": {
-      "slug": "cobblemon-mawile",
+      "slug": "mawile",
       "name": "Mawile"
     }
   },
   {
-    "slug": "cobblemon-mawile-megarlmpoison",
+    "slug": "mawile-megarlmpoison",
     "name": "Mawile MegaRlmPoison",
     "nationalPokedexNumber": null,
     "types": [
@@ -65416,7 +65430,7 @@
     "baseStatTotal": 490,
     "image": {
       "kind": "render",
-      "url": "/renders/cobblemon-mawile-megarlmpoison.png",
+      "url": "/renders/mawile-megarlmpoison.png",
       "placeholderColor": "#A33EA1"
     },
     "sourceMods": [
@@ -65425,7 +65439,7 @@
     "primarySource": "cobblemon-rlm",
     "labels": [],
     "formOf": {
-      "slug": "cobblemon-mawile",
+      "slug": "mawile",
       "name": "Mawile"
     }
   },

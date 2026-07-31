@@ -396,6 +396,9 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
 }
 .ed-picker-item:hover { background: var(--row-hover); }
 /* "only what it learns" / "show everything" switch at the foot of a picker. */
+/* Doubles is a real difference in how a fight plays, so it gets flagged. */
+.ed-doubles { color: var(--accent); }
+
 .ed-picker-toggle {
   display: flex; align-items: center; gap: 0.35rem; cursor: pointer;
   margin-top: 0.35rem; padding-top: 0.35rem; border-top: 1px solid var(--border);

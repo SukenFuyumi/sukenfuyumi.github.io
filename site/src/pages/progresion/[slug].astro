@@ -56,6 +56,7 @@ const unlocks = (trainers as any[]).filter((x) => (x.requiredDefeats ?? []).incl
     </div>
 
     <p style="color:var(--text-muted); font-size:0.88rem; margin:0.75rem 0 0;">
+      {t.isDoubles && <><strong class="ed-doubles">Combate dobles</strong> · </>}
       Equipo de {t.team.length} · Pokémon más fuerte a nivel {t.teamMaxLevel}
       {t.maxItemUses !== null && <> · usa hasta {t.maxItemUses} objetos en combate</>}
       {t.bag?.length > 0 && <> · mochila: {t.bag.map((b: any) => `${b.name} x${b.quantity}`).join(", ")}</>}

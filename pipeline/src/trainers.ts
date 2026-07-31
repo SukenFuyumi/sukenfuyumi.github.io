@@ -128,6 +128,9 @@ export interface TrainerRecord {
   team: TrainerTeamMember[];
   bag: { item: string; name: string; quantity: number }[];
   maxItemUses: number | null;
+  /** e.g. GEN_9_SINGLES / GEN_9_DOUBLES - worth surfacing, a doubles gym plays differently. */
+  battleFormat: string | null;
+  isDoubles: boolean;
 }
 
 export interface SeriesRecord {
@@ -388,6 +391,8 @@ export function buildTrainerData(
         quantity: b.quantity ?? 1,
       })),
       maxItemUses: data.battleRules?.maxItemUses ?? null,
+      battleFormat: data.battleFormat ?? null,
+      isDoubles: /DOUBLES/i.test(String(data.battleFormat ?? "")),
     });
   }
 

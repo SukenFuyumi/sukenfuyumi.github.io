@@ -172,6 +172,8 @@ export default function TrainerModal() {
           {t && (
             <>
               <p class="trainer-modal-meta">
+                {t.isDoubles && <strong class="ed-doubles">Combate dobles</strong>}
+                {t.isDoubles && " · "}
                 Equipo de {t.team.length} · Pokémon más fuerte a nivel {t.teamMaxLevel}
                 {t.maxItemUses !== null && <> · usa hasta {t.maxItemUses} objetos</>}
                 {t.bag?.length > 0 && <> · mochila: {t.bag.map((b: any) => `${b.name} x${b.quantity}`).join(", ")}</>}

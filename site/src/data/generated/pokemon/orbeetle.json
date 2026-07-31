@@ -822,10 +822,11 @@
   "spawnInfo": [
     {
       "biomes": [
-        "#cobblemon:is_temperate"
+        "#cobblemon:is_forest",
+        "#cobblemon:is_plains"
       ],
-      "bucket": "rare",
-      "level": "27-39",
+      "bucket": "common",
+      "level": "30-49",
       "timeRange": null,
       "sourceId": "mega-showdown"
     }
@@ -864,6 +865,7 @@
     "preEvolution": "cobblemon-core",
     "evolutions": "cobblemon-core",
     "forms": "cobblemon-core",
-    "behaviour": "cobblemon-core"
+    "behaviour": "mega-showdown",
+    "implemented": "mega-showdown"
   }
 }

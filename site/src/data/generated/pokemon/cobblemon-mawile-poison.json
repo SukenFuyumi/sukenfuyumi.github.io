@@ -1,29 +1,30 @@
 {
-  "id": "cobblemon:mawile#Mega",
+  "id": "cobblemon:mawile#poison",
   "namespace": "cobblemon",
-  "slug": "mawile-mega",
-  "name": "Mawile Mega",
+  "slug": "cobblemon-mawile-poison",
+  "name": "Mawile poison",
   "nationalPokedexNumber": 303,
-  "primaryType": "steel",
+  "primaryType": "poison",
   "secondaryType": "fairy",
   "types": [
-    "steel",
+    "poison",
     "fairy"
   ],
   "baseStats": {
-    "hp": 50,
-    "attack": 105,
-    "defence": 125,
-    "special_attack": 55,
-    "special_defence": 95,
+    "hp": 95,
+    "attack": 20,
+    "defence": 55,
+    "special_attack": 85,
+    "special_defence": 75,
     "speed": 50
   },
-  "baseStatTotal": 480,
+  "baseStatTotal": 380,
   "abilities": [
-    "hugepower"
+    "gooey",
+    "poisonheal"
   ],
   "hiddenAbilities": [
-    "hugepower"
+    "venomarmor"
   ],
   "eggGroups": [
     "field",
@@ -41,11 +42,12 @@
     "gen3"
   ],
   "aspects": [
-    "mega"
+    "rlm",
+    "poison"
   ],
   "forms": [],
-  "battleOnly": true,
-  "pokedexDescription": "It has an extremely vicious disposition. It grips prey in its two sets of jaws and tears them apart with raw power.",
+  "battleOnly": false,
+  "pokedexDescription": "This form of Mawile was poisoned while it was still a Mawile’s pre-evolution. Since then, a toxic aura constantly seeps from its pigtail-like jaw, discouraging anyone from approaching. To suppress this curse, it channels its mystical powers. Though this helps restrain the poison, the effort drains a great deal of its energy.",
   "moveset": {
     "levelUp": [
       {
@@ -53,7 +55,7 @@
         "level": 1
       },
       {
-        "moveId": "visegrip",
+        "moveId": "acid",
         "level": 1
       },
       {
@@ -69,7 +71,7 @@
         "level": 4
       },
       {
-        "moveId": "batonpass",
+        "moveId": "headbutt",
         "level": 8
       },
       {
@@ -77,19 +79,7 @@
         "level": 12
       },
       {
-        "moveId": "ironfang",
-        "level": 12
-      },
-      {
-        "moveId": "stockpile",
-        "level": 16
-      },
-      {
-        "moveId": "swallow",
-        "level": 16
-      },
-      {
-        "moveId": "spitup",
+        "moveId": "venoshock",
         "level": 16
       },
       {
@@ -97,7 +87,7 @@
         "level": 20
       },
       {
-        "moveId": "irondefense",
+        "moveId": "acidarmor",
         "level": 24
       },
       {
@@ -105,23 +95,31 @@
         "level": 28
       },
       {
-        "moveId": "sweetscent",
+        "moveId": "poisongas",
         "level": 32
       },
       {
-        "moveId": "ironhead",
+        "moveId": "shadowball",
         "level": 36
       },
       {
-        "moveId": "taunt",
+        "moveId": "thunderwave",
+        "level": 38
+      },
+      {
+        "moveId": "sludgebomb",
         "level": 40
       },
       {
-        "moveId": "faketears",
+        "moveId": "toxic",
+        "level": 42
+      },
+      {
+        "moveId": "calmmind",
         "level": 44
       },
       {
-        "moveId": "playrough",
+        "moveId": "moonblast",
         "level": 48
       }
     ],
@@ -262,9 +260,6 @@
       },
       {
         "moveId": "irondefense"
-      },
-      {
-        "moveId": "ironfang"
       },
       {
         "moveId": "ironhead"
@@ -570,17 +565,25 @@
   "matchup": {
     "weakTo": [
       {
-        "type": "fire",
+        "type": "ground",
         "multiplier": 2
       },
       {
-        "type": "ground",
+        "type": "psychic",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
         "multiplier": 2
       }
     ],
     "resists": [
       {
         "type": "bug",
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
         "multiplier": 0.25
       },
       {
@@ -592,81 +595,61 @@
         "multiplier": 0.5
       },
       {
-        "type": "flying",
-        "multiplier": 0.5
-      },
-      {
         "type": "grass",
-        "multiplier": 0.5
-      },
-      {
-        "type": "ice",
-        "multiplier": 0.5
-      },
-      {
-        "type": "normal",
-        "multiplier": 0.5
-      },
-      {
-        "type": "psychic",
-        "multiplier": 0.5
-      },
-      {
-        "type": "rock",
         "multiplier": 0.5
       }
     ],
     "immuneTo": [
-      "dragon",
-      "poison"
+      "dragon"
     ]
   },
   "image": {
     "kind": "render",
-    "url": "/renders/mawile-mega.png",
-    "placeholderColor": "#B7B7CE"
+    "url": "/renders/cobblemon-mawile-poison.png",
+    "placeholderColor": "#A33EA1"
   },
   "spawnInfo": [],
   "sourceMods": [
-    "cobblemon-core",
     "cobblemon-rlm",
-    "lasers-additions"
+    "mega-showdown",
+    "lasers-additions",
+    "cobblemon-core"
   ],
-  "primarySource": "cobblemon-core",
-  "originMod": "cobblemon-core",
+  "primarySource": "mega-showdown",
+  "originMod": "cobblemon-rlm",
   "provenance": {
-    "implemented": "cobblemon-core",
-    "nationalPokedexNumber": "cobblemon-core",
-    "name": "cobblemon-core",
-    "primaryType": "cobblemon-core",
-    "secondaryType": "cobblemon-core",
-    "maleRatio": "cobblemon-core",
-    "height": "cobblemon-core",
-    "weight": "cobblemon-core",
-    "pokedex": "cobblemon-core",
-    "labels": "cobblemon-core",
-    "aspects": "cobblemon-core",
-    "abilities": "cobblemon-core",
-    "eggGroups": "cobblemon-core",
-    "baseStats": "cobblemon-core",
-    "evYield": "cobblemon-core",
-    "baseExperienceYield": "cobblemon-core",
-    "experienceGroup": "cobblemon-core",
-    "catchRate": "cobblemon-core",
-    "eggCycles": "cobblemon-core",
-    "baseFriendship": "cobblemon-core",
-    "baseScale": "cobblemon-core",
-    "hitbox": "cobblemon-core",
-    "behaviour": "cobblemon-core",
-    "drops": "cobblemon-core",
+    "features": "cobblemon-rlm",
+    "forms": "mega-showdown",
+    "implemented": "mega-showdown",
+    "nationalPokedexNumber": "mega-showdown",
+    "name": "mega-showdown",
+    "primaryType": "mega-showdown",
+    "secondaryType": "mega-showdown",
+    "maleRatio": "mega-showdown",
+    "height": "mega-showdown",
+    "weight": "mega-showdown",
+    "pokedex": "mega-showdown",
+    "labels": "mega-showdown",
+    "aspects": "mega-showdown",
+    "abilities": "mega-showdown",
+    "eggGroups": "mega-showdown",
+    "baseStats": "mega-showdown",
+    "evYield": "mega-showdown",
+    "baseExperienceYield": "mega-showdown",
+    "experienceGroup": "mega-showdown",
+    "catchRate": "mega-showdown",
+    "eggCycles": "mega-showdown",
+    "baseFriendship": "mega-showdown",
+    "baseScale": "mega-showdown",
+    "hitbox": "mega-showdown",
+    "behaviour": "mega-showdown",
+    "drops": "mega-showdown",
     "moves": "lasers-additions",
-    "evolutions": "cobblemon-core",
-    "forms": "cobblemon-rlm",
-    "features": "cobblemon-rlm"
+    "evolutions": "mega-showdown"
   },
   "formOf": {
-    "slug": "mawile",
+    "slug": "cobblemon-mawile",
     "name": "Mawile"
   },
-  "formName": "Mega"
+  "formName": "poison"
 }

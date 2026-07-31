@@ -426,19 +426,34 @@
   "spawnInfo": [
     {
       "biomes": [
-        "biomesoplenty:maple_woods"
+        "#cobblemon:is_forest",
+        "#cobblemon:is_desert"
       ],
-      "bucket": "rare",
-      "level": "45-65",
+      "bucket": "common",
+      "level": "20-46",
       "timeRange": null,
       "sourceId": "mega-showdown"
     },
     {
       "biomes": [
-        "#cobblemon:is_forest"
+        "#cobblemon:is_overworld"
       ],
-      "bucket": "rare",
-      "level": "28-45",
+      "bucket": "common",
+      "level": "20-46",
+      "timeRange": null,
+      "sourceId": "mega-showdown"
+    },
+    {
+      "biomes": [
+        "biomesoplenty:aspen_glade",
+        "biomesoplenty:dryland",
+        "biomesoplenty:jacaranda_glade",
+        "biomesoplenty:maple_woods",
+        "biomesoplenty:wasteland",
+        "biomesoplenty:wasteland_steppe"
+      ],
+      "bucket": "common",
+      "level": "20-46",
       "timeRange": null,
       "sourceId": "mega-showdown"
     }

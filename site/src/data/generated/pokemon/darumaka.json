@@ -830,13 +830,19 @@
     },
     {
       "biomes": [
-        "minecraft:frozen_peaks",
-        "minecraft:ice_spikes",
-        "#cobblemon:is_freezing",
-        "#cobblemon:is_cold"
+        "#cobblemon:is_freezing"
       ],
       "bucket": "uncommon",
-      "level": "25-45",
+      "level": "7-32",
+      "timeRange": null,
+      "sourceId": "mega-showdown"
+    },
+    {
+      "biomes": [
+        "#cobblemon:nether/is_frozen"
+      ],
+      "bucket": "common",
+      "level": "7-32",
       "timeRange": null,
       "sourceId": "mega-showdown"
     },
