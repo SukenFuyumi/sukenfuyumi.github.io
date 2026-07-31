@@ -10890,6 +10890,7 @@
     "sourceMods": [
       "cobblemon-core",
       "cobblemon-rlm",
+      "rlm-mega-battlefix",
       "lasers-additions"
     ],
     "primarySource": "cobblemon-core",
@@ -10918,6 +10919,40 @@
     "sourceMods": [
       "cobblemon-core",
       "cobblemon-rlm",
+      "rlm-mega-battlefix",
+      "lasers-additions"
+    ],
+    "primarySource": "cobblemon-core",
+    "labels": [
+      "gen2"
+    ],
+    "formOf": {
+      "slug": "ampharos",
+      "name": "Ampharos"
+    }
+  },
+  {
+    "slug": "ampharos-megarlm",
+    "name": "Ampharos MegaRlm",
+    "nationalPokedexNumber": 181,
+    "types": [
+      "electric",
+      "fire"
+    ],
+    "abilities": [
+      "shadowtag",
+      "shadowtag"
+    ],
+    "baseStatTotal": 620,
+    "image": {
+      "kind": "render",
+      "url": "/renders/ampharos-megarlm.png",
+      "placeholderColor": "#F7D02C"
+    },
+    "sourceMods": [
+      "cobblemon-core",
+      "cobblemon-rlm",
+      "rlm-mega-battlefix",
       "lasers-additions"
     ],
     "primarySource": "cobblemon-core",
@@ -10950,6 +10985,7 @@
     "sourceMods": [
       "cobblemon-core",
       "cobblemon-rlm",
+      "rlm-mega-battlefix",
       "lasers-additions"
     ],
     "primarySource": "cobblemon-core",
@@ -16644,7 +16680,7 @@
     }
   },
   {
-    "slug": "cobblemon-mawile",
+    "slug": "mawile",
     "name": "Mawile",
     "nationalPokedexNumber": 303,
     "types": [
@@ -16662,6 +16698,7 @@
     },
     "sourceMods": [
       "cobblemon-rlm",
+      "rlm-mega-battlefix",
       "mega-showdown",
       "lasers-additions",
       "cobblemon-core"
@@ -16673,7 +16710,7 @@
     "formOf": null
   },
   {
-    "slug": "cobblemon-mawile-dragon",
+    "slug": "mawile-dragon",
     "name": "Mawile dragon",
     "nationalPokedexNumber": 303,
     "types": [
@@ -16687,11 +16724,12 @@
     "baseStatTotal": 380,
     "image": {
       "kind": "render",
-      "url": "/renders/cobblemon-mawile-dragon.png",
+      "url": "/renders/mawile-dragon.png",
       "placeholderColor": "#6F35FC"
     },
     "sourceMods": [
       "cobblemon-rlm",
+      "rlm-mega-battlefix",
       "mega-showdown",
       "lasers-additions",
       "cobblemon-core"
@@ -16701,12 +16739,12 @@
       "gen3"
     ],
     "formOf": {
-      "slug": "cobblemon-mawile",
+      "slug": "mawile",
       "name": "Mawile"
     }
   },
   {
-    "slug": "cobblemon-mawile-mega",
+    "slug": "mawile-mega",
     "name": "Mawile Mega",
     "nationalPokedexNumber": 303,
     "types": [
@@ -16719,11 +16757,12 @@
     "baseStatTotal": 480,
     "image": {
       "kind": "render",
-      "url": "/renders/cobblemon-mawile-mega.png",
+      "url": "/renders/mawile-mega.png",
       "placeholderColor": "#B7B7CE"
     },
     "sourceMods": [
       "cobblemon-rlm",
+      "rlm-mega-battlefix",
       "mega-showdown",
       "lasers-additions",
       "cobblemon-core"
@@ -16733,12 +16772,80 @@
       "gen3"
     ],
     "formOf": {
-      "slug": "cobblemon-mawile",
+      "slug": "mawile",
       "name": "Mawile"
     }
   },
   {
-    "slug": "cobblemon-mawile-poison",
+    "slug": "mawile-megarlmdragon",
+    "name": "Mawile MegaRlmDragon",
+    "nationalPokedexNumber": 303,
+    "types": [
+      "dragon",
+      "fairy"
+    ],
+    "abilities": [
+      "mystiforce",
+      "mystiforce"
+    ],
+    "baseStatTotal": 480,
+    "image": {
+      "kind": "render",
+      "url": "/renders/mawile-megarlmdragon.png",
+      "placeholderColor": "#6F35FC"
+    },
+    "sourceMods": [
+      "cobblemon-rlm",
+      "rlm-mega-battlefix",
+      "mega-showdown",
+      "lasers-additions",
+      "cobblemon-core"
+    ],
+    "primarySource": "mega-showdown",
+    "labels": [
+      "gen3"
+    ],
+    "formOf": {
+      "slug": "mawile",
+      "name": "Mawile"
+    }
+  },
+  {
+    "slug": "mawile-megarlmpoison",
+    "name": "Mawile MegaRlmPoison",
+    "nationalPokedexNumber": 303,
+    "types": [
+      "poison",
+      "fairy"
+    ],
+    "abilities": [
+      "venomarmor",
+      "venomarmor"
+    ],
+    "baseStatTotal": 490,
+    "image": {
+      "kind": "render",
+      "url": "/renders/mawile-megarlmpoison.png",
+      "placeholderColor": "#A33EA1"
+    },
+    "sourceMods": [
+      "cobblemon-rlm",
+      "rlm-mega-battlefix",
+      "mega-showdown",
+      "lasers-additions",
+      "cobblemon-core"
+    ],
+    "primarySource": "mega-showdown",
+    "labels": [
+      "gen3"
+    ],
+    "formOf": {
+      "slug": "mawile",
+      "name": "Mawile"
+    }
+  },
+  {
+    "slug": "mawile-poison",
     "name": "Mawile poison",
     "nationalPokedexNumber": 303,
     "types": [
@@ -16752,11 +16859,12 @@
     "baseStatTotal": 380,
     "image": {
       "kind": "render",
-      "url": "/renders/cobblemon-mawile-poison.png",
+      "url": "/renders/mawile-poison.png",
       "placeholderColor": "#A33EA1"
     },
     "sourceMods": [
       "cobblemon-rlm",
+      "rlm-mega-battlefix",
       "mega-showdown",
       "lasers-additions",
       "cobblemon-core"
@@ -16766,7 +16874,7 @@
       "gen3"
     ],
     "formOf": {
-      "slug": "cobblemon-mawile",
+      "slug": "mawile",
       "name": "Mawile"
     }
   },
@@ -51227,13 +51335,45 @@
       "placeholderColor": "#EE8130"
     },
     "sourceMods": [
-      "cobblemon-rlm"
+      "cobblemon-rlm",
+      "rlm-mega-battlefix"
     ],
     "primarySource": "cobblemon-rlm",
     "labels": [
       "custom"
     ],
     "formOf": null
+  },
+  {
+    "slug": "flammiko-mega",
+    "name": "Flammiko Mega",
+    "nationalPokedexNumber": 1026,
+    "types": [
+      "fire",
+      "electric"
+    ],
+    "abilities": [
+      "simple",
+      "simple"
+    ],
+    "baseStatTotal": 585,
+    "image": {
+      "kind": "render",
+      "url": "/renders/flammiko-mega.png",
+      "placeholderColor": "#EE8130"
+    },
+    "sourceMods": [
+      "cobblemon-rlm",
+      "rlm-mega-battlefix"
+    ],
+    "primarySource": "cobblemon-rlm",
+    "labels": [
+      "custom"
+    ],
+    "formOf": {
+      "slug": "flammiko",
+      "name": "Flammiko"
+    }
   },
   {
     "slug": "tuligant",
@@ -52214,13 +52354,45 @@
       "placeholderColor": "#A6B91A"
     },
     "sourceMods": [
-      "cobblemon-rlm"
+      "cobblemon-rlm",
+      "rlm-mega-battlefix"
     ],
     "primarySource": "cobblemon-rlm",
     "labels": [
       "custom"
     ],
     "formOf": null
+  },
+  {
+    "slug": "wamek-mega",
+    "name": "Wamek Mega",
+    "nationalPokedexNumber": 1035,
+    "types": [
+      "bug",
+      "dragon"
+    ],
+    "abilities": [
+      "dragonlate",
+      "dragonlate"
+    ],
+    "baseStatTotal": 628,
+    "image": {
+      "kind": "render",
+      "url": "/renders/wamek-mega.png",
+      "placeholderColor": "#A6B91A"
+    },
+    "sourceMods": [
+      "cobblemon-rlm",
+      "rlm-mega-battlefix"
+    ],
+    "primarySource": "cobblemon-rlm",
+    "labels": [
+      "custom"
+    ],
+    "formOf": {
+      "slug": "wamek",
+      "name": "Wamek"
+    }
   },
   {
     "slug": "norstar",
@@ -64585,55 +64757,6 @@
     "formOf": null
   },
   {
-    "slug": "cobblemon-ampharos",
-    "name": "Ampharos",
-    "nationalPokedexNumber": null,
-    "types": [
-      "normal"
-    ],
-    "abilities": [],
-    "baseStatTotal": 0,
-    "image": {
-      "kind": "render",
-      "url": "/renders/cobblemon-ampharos.png",
-      "placeholderColor": "#A8A77A"
-    },
-    "sourceMods": [
-      "cobblemon-rlm"
-    ],
-    "primarySource": "cobblemon-rlm",
-    "labels": [],
-    "formOf": null
-  },
-  {
-    "slug": "cobblemon-ampharos-megarlm",
-    "name": "Ampharos MegaRlm",
-    "nationalPokedexNumber": null,
-    "types": [
-      "electric",
-      "fire"
-    ],
-    "abilities": [
-      "shadowtag",
-      "shadowtag"
-    ],
-    "baseStatTotal": 620,
-    "image": {
-      "kind": "render",
-      "url": "/renders/cobblemon-ampharos-megarlm.png",
-      "placeholderColor": "#F7D02C"
-    },
-    "sourceMods": [
-      "cobblemon-rlm"
-    ],
-    "primarySource": "cobblemon-rlm",
-    "labels": [],
-    "formOf": {
-      "slug": "cobblemon-ampharos",
-      "name": "Ampharos"
-    }
-  },
-  {
     "slug": "brewcargo",
     "name": "Brewcargo",
     "nationalPokedexNumber": null,
@@ -65238,55 +65361,6 @@
     }
   },
   {
-    "slug": "cobblemon-flammiko",
-    "name": "Flammiko",
-    "nationalPokedexNumber": null,
-    "types": [
-      "normal"
-    ],
-    "abilities": [],
-    "baseStatTotal": 0,
-    "image": {
-      "kind": "render",
-      "url": "/renders/cobblemon-flammiko.png",
-      "placeholderColor": "#A8A77A"
-    },
-    "sourceMods": [
-      "cobblemon-rlm"
-    ],
-    "primarySource": "cobblemon-rlm",
-    "labels": [],
-    "formOf": null
-  },
-  {
-    "slug": "cobblemon-flammiko-mega",
-    "name": "Flammiko Mega",
-    "nationalPokedexNumber": null,
-    "types": [
-      "fire",
-      "electric"
-    ],
-    "abilities": [
-      "simple",
-      "simple"
-    ],
-    "baseStatTotal": 585,
-    "image": {
-      "kind": "render",
-      "url": "/renders/cobblemon-flammiko-mega.png",
-      "placeholderColor": "#EE8130"
-    },
-    "sourceMods": [
-      "cobblemon-rlm"
-    ],
-    "primarySource": "cobblemon-rlm",
-    "labels": [],
-    "formOf": {
-      "slug": "cobblemon-flammiko",
-      "name": "Flammiko"
-    }
-  },
-  {
     "slug": "fruitigeist",
     "name": "Fruitigeist",
     "nationalPokedexNumber": null,
@@ -65365,83 +65439,6 @@
       "gen3"
     ],
     "formOf": null
-  },
-  {
-    "slug": "mawile",
-    "name": "Mawile",
-    "nationalPokedexNumber": null,
-    "types": [
-      "normal"
-    ],
-    "abilities": [],
-    "baseStatTotal": 0,
-    "image": {
-      "kind": "render",
-      "url": "/renders/mawile.png",
-      "placeholderColor": "#A8A77A"
-    },
-    "sourceMods": [
-      "cobblemon-rlm"
-    ],
-    "primarySource": "cobblemon-rlm",
-    "labels": [],
-    "formOf": null
-  },
-  {
-    "slug": "mawile-megarlmdragon",
-    "name": "Mawile MegaRlmDragon",
-    "nationalPokedexNumber": null,
-    "types": [
-      "dragon",
-      "fairy"
-    ],
-    "abilities": [
-      "mystiforce",
-      "mystiforce"
-    ],
-    "baseStatTotal": 480,
-    "image": {
-      "kind": "render",
-      "url": "/renders/mawile-megarlmdragon.png",
-      "placeholderColor": "#6F35FC"
-    },
-    "sourceMods": [
-      "cobblemon-rlm"
-    ],
-    "primarySource": "cobblemon-rlm",
-    "labels": [],
-    "formOf": {
-      "slug": "mawile",
-      "name": "Mawile"
-    }
-  },
-  {
-    "slug": "mawile-megarlmpoison",
-    "name": "Mawile MegaRlmPoison",
-    "nationalPokedexNumber": null,
-    "types": [
-      "poison",
-      "fairy"
-    ],
-    "abilities": [
-      "venomarmor",
-      "venomarmor"
-    ],
-    "baseStatTotal": 490,
-    "image": {
-      "kind": "render",
-      "url": "/renders/mawile-megarlmpoison.png",
-      "placeholderColor": "#A33EA1"
-    },
-    "sourceMods": [
-      "cobblemon-rlm"
-    ],
-    "primarySource": "cobblemon-rlm",
-    "labels": [],
-    "formOf": {
-      "slug": "mawile",
-      "name": "Mawile"
-    }
   },
   {
     "slug": "mushabebe",
@@ -66161,55 +66158,6 @@
       "gen3"
     ],
     "formOf": null
-  },
-  {
-    "slug": "cobblemon-wamek",
-    "name": "Wamek",
-    "nationalPokedexNumber": null,
-    "types": [
-      "normal"
-    ],
-    "abilities": [],
-    "baseStatTotal": 0,
-    "image": {
-      "kind": "render",
-      "url": "/renders/cobblemon-wamek.png",
-      "placeholderColor": "#A8A77A"
-    },
-    "sourceMods": [
-      "cobblemon-rlm"
-    ],
-    "primarySource": "cobblemon-rlm",
-    "labels": [],
-    "formOf": null
-  },
-  {
-    "slug": "cobblemon-wamek-mega",
-    "name": "Wamek Mega",
-    "nationalPokedexNumber": null,
-    "types": [
-      "bug",
-      "dragon"
-    ],
-    "abilities": [
-      "dragonlate",
-      "dragonlate"
-    ],
-    "baseStatTotal": 628,
-    "image": {
-      "kind": "render",
-      "url": "/renders/cobblemon-wamek-mega.png",
-      "placeholderColor": "#A6B91A"
-    },
-    "sourceMods": [
-      "cobblemon-rlm"
-    ],
-    "primarySource": "cobblemon-rlm",
-    "labels": [],
-    "formOf": {
-      "slug": "cobblemon-wamek",
-      "name": "Wamek"
-    }
   },
   {
     "slug": "weegma",

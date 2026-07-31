@@ -1,29 +1,30 @@
 {
-  "id": "cobblemon:mawile#Mega",
+  "id": "cobblemon:mawile#dragon",
   "namespace": "cobblemon",
-  "slug": "cobblemon-mawile-mega",
-  "name": "Mawile Mega",
+  "slug": "mawile-dragon",
+  "name": "Mawile dragon",
   "nationalPokedexNumber": 303,
-  "primaryType": "steel",
+  "primaryType": "dragon",
   "secondaryType": "fairy",
   "types": [
-    "steel",
+    "dragon",
     "fairy"
   ],
   "baseStats": {
-    "hp": 50,
-    "attack": 105,
-    "defence": 125,
-    "special_attack": 55,
-    "special_defence": 95,
+    "hp": 90,
+    "attack": 70,
+    "defence": 45,
+    "special_attack": 80,
+    "special_defence": 45,
     "speed": 50
   },
-  "baseStatTotal": 480,
+  "baseStatTotal": 380,
   "abilities": [
-    "hugepower"
+    "intimidate",
+    "strongjaw"
   ],
   "hiddenAbilities": [
-    "hugepower"
+    "mystiforce"
   ],
   "eggGroups": [
     "field",
@@ -41,15 +42,16 @@
     "gen3"
   ],
   "aspects": [
-    "mega"
+    "rlm",
+    "dragon"
   ],
   "forms": [],
-  "battleOnly": true,
-  "pokedexDescription": "It has an extremely vicious disposition. It grips prey in its two sets of jaws and tears them apart with raw power.",
+  "battleOnly": false,
+  "pokedexDescription": "Through rigorous training, this Mawile no longer bears a simple jaw behind its head, but a true dragon capable of unleashing devastating attacks. Its overwhelming strength gives it a proud and unyielding temperament.",
   "moveset": {
     "levelUp": [
       {
-        "moveId": "astonish",
+        "moveId": "tackle",
         "level": 1
       },
       {
@@ -73,23 +75,19 @@
         "level": 8
       },
       {
+        "moveId": "falseswipe",
+        "level": 10
+      },
+      {
         "moveId": "bite",
         "level": 12
       },
       {
-        "moveId": "ironfang",
-        "level": 12
+        "moveId": "firefang",
+        "level": 14
       },
       {
-        "moveId": "stockpile",
-        "level": 16
-      },
-      {
-        "moveId": "swallow",
-        "level": 16
-      },
-      {
-        "moveId": "spitup",
+        "moveId": "dragonrage",
         "level": 16
       },
       {
@@ -105,12 +103,16 @@
         "level": 28
       },
       {
-        "moveId": "sweetscent",
+        "moveId": "spiritbreak",
         "level": 32
       },
       {
         "moveId": "ironhead",
         "level": 36
+      },
+      {
+        "moveId": "flamethrower",
+        "level": 38
       },
       {
         "moveId": "taunt",
@@ -123,20 +125,23 @@
       {
         "moveId": "playrough",
         "level": 48
+      },
+      {
+        "moveId": "dracometeor",
+        "level": 48
+      },
+      {
+        "moveId": "dragondance",
+        "level": 50
+      },
+      {
+        "moveId": "fireblast",
+        "level": 55
       }
     ],
     "egg": [
       {
         "moveId": "ancientpower"
-      },
-      {
-        "moveId": "captivate"
-      },
-      {
-        "moveId": "metalburst"
-      },
-      {
-        "moveId": "poisonfang"
       },
       {
         "moveId": "poweruppunch"
@@ -149,9 +154,6 @@
       },
       {
         "moveId": "slam"
-      },
-      {
-        "moveId": "tickle"
       }
     ],
     "tm": [
@@ -172,9 +174,6 @@
       },
       {
         "moveId": "brutalswing"
-      },
-      {
-        "moveId": "captivate"
       },
       {
         "moveId": "chargebeam"
@@ -262,9 +261,6 @@
       },
       {
         "moveId": "irondefense"
-      },
-      {
-        "moveId": "ironfang"
       },
       {
         "moveId": "ironhead"
@@ -506,93 +502,49 @@
         "moveId": "thunderpunch"
       }
     ],
-    "legacy": [
-      {
-        "moveId": "attract"
-      },
-      {
-        "moveId": "confide"
-      },
-      {
-        "moveId": "counter"
-      },
-      {
-        "moveId": "doubleteam"
-      },
-      {
-        "moveId": "doubleedge"
-      },
-      {
-        "moveId": "dynamicpunch"
-      },
-      {
-        "moveId": "frustration"
-      },
-      {
-        "moveId": "hiddenpower"
-      },
-      {
-        "moveId": "mimic"
-      },
-      {
-        "moveId": "naturalgift"
-      },
-      {
-        "moveId": "psychup"
-      },
-      {
-        "moveId": "return"
-      },
-      {
-        "moveId": "round"
-      },
-      {
-        "moveId": "secretpower"
-      },
-      {
-        "moveId": "snore"
-      },
-      {
-        "moveId": "swagger"
-      },
-      {
-        "moveId": "toxic"
-      }
-    ],
-    "other": [
-      {
-        "moveId": "sing"
-      }
-    ]
+    "legacy": [],
+    "other": []
   },
   "evolutions": [],
   "evolvesFrom": null,
   "matchup": {
     "weakTo": [
       {
-        "type": "fire",
+        "type": "fairy",
         "multiplier": 2
       },
       {
-        "type": "ground",
+        "type": "ice",
+        "multiplier": 2
+      },
+      {
+        "type": "poison",
+        "multiplier": 2
+      },
+      {
+        "type": "steel",
         "multiplier": 2
       }
     ],
     "resists": [
       {
         "type": "bug",
-        "multiplier": 0.25
+        "multiplier": 0.5
       },
       {
         "type": "dark",
         "multiplier": 0.5
       },
       {
-        "type": "fairy",
+        "type": "electric",
         "multiplier": 0.5
       },
       {
-        "type": "flying",
+        "type": "fighting",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
         "multiplier": 0.5
       },
       {
@@ -600,43 +552,31 @@
         "multiplier": 0.5
       },
       {
-        "type": "ice",
-        "multiplier": 0.5
-      },
-      {
-        "type": "normal",
-        "multiplier": 0.5
-      },
-      {
-        "type": "psychic",
-        "multiplier": 0.5
-      },
-      {
-        "type": "rock",
+        "type": "water",
         "multiplier": 0.5
       }
     ],
     "immuneTo": [
-      "dragon",
-      "poison"
+      "dragon"
     ]
   },
   "image": {
     "kind": "render",
-    "url": "/renders/cobblemon-mawile-mega.png",
-    "placeholderColor": "#B7B7CE"
+    "url": "/renders/mawile-dragon.png",
+    "placeholderColor": "#6F35FC"
   },
   "spawnInfo": [],
   "sourceMods": [
     "cobblemon-rlm",
+    "rlm-mega-battlefix",
     "mega-showdown",
     "lasers-additions",
     "cobblemon-core"
   ],
   "primarySource": "mega-showdown",
-  "originMod": "mega-showdown",
+  "originMod": "cobblemon-rlm",
   "provenance": {
-    "features": "cobblemon-rlm",
+    "features": "rlm-mega-battlefix",
     "forms": "mega-showdown",
     "implemented": "mega-showdown",
     "nationalPokedexNumber": "mega-showdown",
@@ -666,8 +606,8 @@
     "evolutions": "mega-showdown"
   },
   "formOf": {
-    "slug": "cobblemon-mawile",
+    "slug": "mawile",
     "name": "Mawile"
   },
-  "formName": "Mega"
+  "formName": "dragon"
 }

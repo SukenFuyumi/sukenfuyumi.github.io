@@ -1,30 +1,30 @@
 {
-  "id": "cobblemon:mawile#dragon",
+  "id": "cobblemon:mawile#poison",
   "namespace": "cobblemon",
-  "slug": "cobblemon-mawile-dragon",
-  "name": "Mawile dragon",
+  "slug": "mawile-poison",
+  "name": "Mawile poison",
   "nationalPokedexNumber": 303,
-  "primaryType": "dragon",
+  "primaryType": "poison",
   "secondaryType": "fairy",
   "types": [
-    "dragon",
+    "poison",
     "fairy"
   ],
   "baseStats": {
-    "hp": 90,
-    "attack": 70,
-    "defence": 45,
-    "special_attack": 80,
-    "special_defence": 45,
+    "hp": 95,
+    "attack": 20,
+    "defence": 55,
+    "special_attack": 85,
+    "special_defence": 75,
     "speed": 50
   },
   "baseStatTotal": 380,
   "abilities": [
-    "intimidate",
-    "strongjaw"
+    "gooey",
+    "poisonheal"
   ],
   "hiddenAbilities": [
-    "mystiforce"
+    "venomarmor"
   ],
   "eggGroups": [
     "field",
@@ -43,19 +43,19 @@
   ],
   "aspects": [
     "rlm",
-    "dragon"
+    "poison"
   ],
   "forms": [],
   "battleOnly": false,
-  "pokedexDescription": "Through rigorous training, this Mawile no longer bears a simple jaw behind its head, but a true dragon capable of unleashing devastating attacks. Its overwhelming strength gives it a proud and unyielding temperament.",
+  "pokedexDescription": "This form of Mawile was poisoned while it was still a Mawile’s pre-evolution. Since then, a toxic aura constantly seeps from its pigtail-like jaw, discouraging anyone from approaching. To suppress this curse, it channels its mystical powers. Though this helps restrain the poison, the effort drains a great deal of its energy.",
   "moveset": {
     "levelUp": [
       {
-        "moveId": "tackle",
+        "moveId": "astonish",
         "level": 1
       },
       {
-        "moveId": "visegrip",
+        "moveId": "acid",
         "level": 1
       },
       {
@@ -71,23 +71,15 @@
         "level": 4
       },
       {
-        "moveId": "batonpass",
+        "moveId": "headbutt",
         "level": 8
-      },
-      {
-        "moveId": "falseswipe",
-        "level": 10
       },
       {
         "moveId": "bite",
         "level": 12
       },
       {
-        "moveId": "firefang",
-        "level": 14
-      },
-      {
-        "moveId": "dragonrage",
+        "moveId": "venoshock",
         "level": 16
       },
       {
@@ -95,7 +87,7 @@
         "level": 20
       },
       {
-        "moveId": "irondefense",
+        "moveId": "acidarmor",
         "level": 24
       },
       {
@@ -103,45 +95,46 @@
         "level": 28
       },
       {
-        "moveId": "spiritbreak",
+        "moveId": "poisongas",
         "level": 32
       },
       {
-        "moveId": "ironhead",
+        "moveId": "shadowball",
         "level": 36
       },
       {
-        "moveId": "flamethrower",
+        "moveId": "thunderwave",
         "level": 38
       },
       {
-        "moveId": "taunt",
+        "moveId": "sludgebomb",
         "level": 40
       },
       {
-        "moveId": "faketears",
+        "moveId": "toxic",
+        "level": 42
+      },
+      {
+        "moveId": "calmmind",
         "level": 44
       },
       {
-        "moveId": "playrough",
+        "moveId": "moonblast",
         "level": 48
-      },
-      {
-        "moveId": "dracometeor",
-        "level": 48
-      },
-      {
-        "moveId": "dragondance",
-        "level": 50
-      },
-      {
-        "moveId": "fireblast",
-        "level": 55
       }
     ],
     "egg": [
       {
         "moveId": "ancientpower"
+      },
+      {
+        "moveId": "captivate"
+      },
+      {
+        "moveId": "metalburst"
+      },
+      {
+        "moveId": "poisonfang"
       },
       {
         "moveId": "poweruppunch"
@@ -154,6 +147,9 @@
       },
       {
         "moveId": "slam"
+      },
+      {
+        "moveId": "tickle"
       }
     ],
     "tm": [
@@ -174,6 +170,9 @@
       },
       {
         "moveId": "brutalswing"
+      },
+      {
+        "moveId": "captivate"
       },
       {
         "moveId": "chargebeam"
@@ -502,23 +501,75 @@
         "moveId": "thunderpunch"
       }
     ],
-    "legacy": [],
-    "other": []
+    "legacy": [
+      {
+        "moveId": "attract"
+      },
+      {
+        "moveId": "confide"
+      },
+      {
+        "moveId": "counter"
+      },
+      {
+        "moveId": "doubleteam"
+      },
+      {
+        "moveId": "doubleedge"
+      },
+      {
+        "moveId": "dynamicpunch"
+      },
+      {
+        "moveId": "frustration"
+      },
+      {
+        "moveId": "hiddenpower"
+      },
+      {
+        "moveId": "mimic"
+      },
+      {
+        "moveId": "naturalgift"
+      },
+      {
+        "moveId": "psychup"
+      },
+      {
+        "moveId": "return"
+      },
+      {
+        "moveId": "round"
+      },
+      {
+        "moveId": "secretpower"
+      },
+      {
+        "moveId": "snore"
+      },
+      {
+        "moveId": "swagger"
+      },
+      {
+        "moveId": "toxic"
+      }
+    ],
+    "other": [
+      {
+        "moveId": "sing"
+      }
+    ]
   },
   "evolutions": [],
   "evolvesFrom": null,
   "matchup": {
     "weakTo": [
       {
-        "type": "fairy",
+        "type": "ground",
         "multiplier": 2
       },
       {
-        "type": "ice",
-        "multiplier": 2
-      },
-      {
-        "type": "poison",
+        "type": "psychic",
         "multiplier": 2
       },
       {
@@ -529,30 +580,22 @@
     "resists": [
       {
         "type": "bug",
-        "multiplier": 0.5
+        "multiplier": 0.25
+      },
+      {
+        "type": "fighting",
+        "multiplier": 0.25
       },
       {
         "type": "dark",
         "multiplier": 0.5
       },
       {
-        "type": "electric",
-        "multiplier": 0.5
-      },
-      {
-        "type": "fighting",
-        "multiplier": 0.5
-      },
-      {
-        "type": "fire",
+        "type": "fairy",
         "multiplier": 0.5
       },
       {
         "type": "grass",
-        "multiplier": 0.5
-      },
-      {
-        "type": "water",
         "multiplier": 0.5
       }
     ],
@@ -562,12 +605,13 @@
   },
   "image": {
     "kind": "render",
-    "url": "/renders/cobblemon-mawile-dragon.png",
-    "placeholderColor": "#6F35FC"
+    "url": "/renders/mawile-poison.png",
+    "placeholderColor": "#A33EA1"
   },
   "spawnInfo": [],
   "sourceMods": [
     "cobblemon-rlm",
+    "rlm-mega-battlefix",
     "mega-showdown",
     "lasers-additions",
     "cobblemon-core"
@@ -575,7 +619,7 @@
   "primarySource": "mega-showdown",
   "originMod": "cobblemon-rlm",
   "provenance": {
-    "features": "cobblemon-rlm",
+    "features": "rlm-mega-battlefix",
     "forms": "mega-showdown",
     "implemented": "mega-showdown",
     "nationalPokedexNumber": "mega-showdown",
@@ -605,8 +649,8 @@
     "evolutions": "mega-showdown"
   },
   "formOf": {
-    "slug": "cobblemon-mawile",
+    "slug": "mawile",
     "name": "Mawile"
   },
-  "formName": "dragon"
+  "formName": "poison"
 }

@@ -1,29 +1,30 @@
 {
-  "id": "cobblemon:ampharos#Mega",
+  "id": "cobblemon:ampharos#MegaRlm",
   "namespace": "cobblemon",
-  "slug": "ampharos-mega",
-  "name": "Ampharos Mega",
+  "slug": "ampharos-megarlm",
+  "name": "Ampharos MegaRlm",
   "nationalPokedexNumber": 181,
   "primaryType": "electric",
-  "secondaryType": "dragon",
+  "secondaryType": "fire",
   "types": [
     "electric",
-    "dragon"
+    "fire"
   ],
   "baseStats": {
-    "hp": 90,
-    "attack": 95,
-    "defence": 105,
-    "special_attack": 165,
-    "special_defence": 110,
-    "speed": 45
+    "hp": 80,
+    "attack": 60,
+    "defence": 120,
+    "special_attack": 140,
+    "special_defence": 120,
+    "speed": 100
   },
-  "baseStatTotal": 610,
+  "baseStatTotal": 620,
   "abilities": [
-    "moldbreaker"
+    "shadowtag",
+    "shadowtag"
   ],
   "hiddenAbilities": [
-    "moldbreaker"
+    "shadowtag"
   ],
   "eggGroups": [
     "monster",
@@ -41,23 +42,28 @@
     "gen2"
   ],
   "aspects": [
+    "rlm",
     "mega"
   ],
   "forms": [],
   "battleOnly": true,
-  "pokedexDescription": "Massive amounts of energy intensely stimulated Ampharos's cells, apparently awakening its long-sleeping dragon's blood.",
+  "pokedexDescription": "When it Mega Evolves, the spiritual energy within it spirals out of control. In this state, its presence alone is enough to make the bravest tremble.",
   "moveset": {
     "levelUp": [
       {
-        "moveId": "firepunch",
-        "level": 1
-      },
-      {
-        "moveId": "tackle",
-        "level": 1
-      },
-      {
         "moveId": "growl",
+        "level": 1
+      },
+      {
+        "moveId": "thunderwave",
+        "level": 1
+      },
+      {
+        "moveId": "astonish",
+        "level": 1
+      },
+      {
+        "moveId": "shadowball",
         "level": 1
       },
       {
@@ -65,7 +71,75 @@
         "level": 1
       },
       {
-        "moveId": "thunderwave",
+        "moveId": "willowisp",
+        "level": 1
+      },
+      {
+        "moveId": "charge",
+        "level": 1
+      },
+      {
+        "moveId": "hex",
+        "level": 1
+      },
+      {
+        "moveId": "takedown",
+        "level": 1
+      },
+      {
+        "moveId": "electroball",
+        "level": 1
+      },
+      {
+        "moveId": "shadowsneak",
+        "level": 1
+      },
+      {
+        "moveId": "confuseray",
+        "level": 1
+      },
+      {
+        "moveId": "powergem",
+        "level": 1
+      },
+      {
+        "moveId": "discharge",
+        "level": 1
+      },
+      {
+        "moveId": "lightscreen",
+        "level": 1
+      },
+      {
+        "moveId": "signalbeam",
+        "level": 1
+      },
+      {
+        "moveId": "thunder",
+        "level": 1
+      },
+      {
+        "moveId": "dragonpulse",
+        "level": 1
+      },
+      {
+        "moveId": "firepunch",
+        "level": 1
+      },
+      {
+        "moveId": "iondeluge",
+        "level": 1
+      },
+      {
+        "moveId": "magneticflux",
+        "level": 1
+      },
+      {
+        "moveId": "roar",
+        "level": 1
+      },
+      {
+        "moveId": "tackle",
         "level": 1
       },
       {
@@ -77,16 +151,12 @@
         "level": 1
       },
       {
-        "moveId": "magneticflux",
-        "level": 1
+        "moveId": "quickattack",
+        "level": 4
       },
       {
-        "moveId": "iondeluge",
-        "level": 1
-      },
-      {
-        "moveId": "dragonpulse",
-        "level": 1
+        "moveId": "shadowclaw",
+        "level": 10
       },
       {
         "moveId": "cottonspore",
@@ -94,42 +164,78 @@
       },
       {
         "moveId": "charge",
-        "level": 16
-      },
-      {
-        "moveId": "takedown",
-        "level": 20
+        "level": 15
       },
       {
         "moveId": "electroball",
+        "level": 22
+      },
+      {
+        "moveId": "wildcharge",
         "level": 25
       },
       {
-        "moveId": "confuseray",
+        "moveId": "powergem",
         "level": 29
+      },
+      {
+        "moveId": "shadowclaw",
+        "level": 30
+      },
+      {
+        "moveId": "discharge",
+        "level": 32
       },
       {
         "moveId": "powergem",
         "level": 35
       },
       {
+        "moveId": "shadowball",
+        "level": 35
+      },
+      {
+        "moveId": "protect",
+        "level": 36
+      },
+      {
+        "moveId": "shadowsneak",
+        "level": 38
+      },
+      {
         "moveId": "discharge",
         "level": 40
       },
       {
-        "moveId": "paraboliccharge",
-        "level": 43
+        "moveId": "voltswitch",
+        "level": 40
+      },
+      {
+        "moveId": "knockoff",
+        "level": 42
+      },
+      {
+        "moveId": "destinybond",
+        "level": 45
       },
       {
         "moveId": "cottonguard",
         "level": 46
       },
       {
+        "moveId": "thunder",
+        "level": 46
+      },
+      {
+        "moveId": "shadowball",
+        "level": 47
+      },
+      {
         "moveId": "dazzlinggleam",
         "level": 51
       },
       {
-        "moveId": "nightlight",
+        "moveId": "signalbeam",
         "level": 51
       },
       {
@@ -141,8 +247,8 @@
         "level": 62
       },
       {
-        "moveId": "flashbang",
-        "level": 68
+        "moveId": "dragonpulse",
+        "level": 65
       }
     ],
     "egg": [
@@ -169,9 +275,6 @@
       },
       {
         "moveId": "sandattack"
-      },
-      {
-        "moveId": "tailglow"
       }
     ],
     "tm": [
@@ -183,9 +286,6 @@
       },
       {
         "moveId": "bodyslam"
-      },
-      {
-        "moveId": "boltbeam"
       },
       {
         "moveId": "breakingswipe"
@@ -216,9 +316,6 @@
       },
       {
         "moveId": "doubleedge"
-      },
-      {
-        "moveId": "dracometeor"
       },
       {
         "moveId": "dragoncheer"
@@ -569,26 +666,34 @@
   "matchup": {
     "weakTo": [
       {
-        "type": "dragon",
-        "multiplier": 2
-      },
-      {
-        "type": "fairy",
-        "multiplier": 2
-      },
-      {
         "type": "ground",
+        "multiplier": 4
+      },
+      {
+        "type": "rock",
         "multiplier": 2
       },
       {
-        "type": "ice",
+        "type": "water",
         "multiplier": 2
       }
     ],
     "resists": [
       {
-        "type": "electric",
+        "type": "steel",
         "multiplier": 0.25
+      },
+      {
+        "type": "bug",
+        "multiplier": 0.5
+      },
+      {
+        "type": "electric",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fairy",
+        "multiplier": 0.5
       },
       {
         "type": "fire",
@@ -603,11 +708,7 @@
         "multiplier": 0.5
       },
       {
-        "type": "steel",
-        "multiplier": 0.5
-      },
-      {
-        "type": "water",
+        "type": "ice",
         "multiplier": 0.5
       }
     ],
@@ -615,7 +716,7 @@
   },
   "image": {
     "kind": "render",
-    "url": "/renders/ampharos-mega.png",
+    "url": "/renders/ampharos-megarlm.png",
     "placeholderColor": "#F7D02C"
   },
   "spawnInfo": [],
@@ -626,7 +727,7 @@
     "lasers-additions"
   ],
   "primarySource": "cobblemon-core",
-  "originMod": "cobblemon-core",
+  "originMod": "cobblemon-rlm",
   "provenance": {
     "implemented": "cobblemon-core",
     "nationalPokedexNumber": "cobblemon-core",
@@ -662,5 +763,5 @@
     "slug": "ampharos",
     "name": "Ampharos"
   },
-  "formName": "Mega"
+  "formName": "MegaRlm"
 }

@@ -124,10 +124,19 @@ export function mergeSpecies(species: RawRecord[], speciesAdditions: RawRecord[]
     everDefinedBy.get(key)!.add(record.sourceId);
   }
 
+  // Cobblemon resolves species identifiers case-insensitively, so packs get
+  // away with targeting "cobblemon:Mawile". Matching that exactly would spawn a
+  // phantom species holding only the added forms, next to the real lowercase
+  // one - which is what happened to Mawile, Ampharos, Flammiko and Wamek with
+  // Cobblemon RLM's mega additions. Route through the real key when one exists.
+  const baseKeyByLower = new Map<string, string>();
+  for (const key of baseByKey.keys()) baseKeyByLower.set(key.toLowerCase(), key);
+
   // species_additions target an existing species by fully-qualified id (or bare id, defaulting to same namespace as the file).
   const additionsAsPseudoSpecies: RawRecord[] = speciesAdditions.map((r) => {
     const target: string = r.data?.target ?? `${r.namespace}:${r.identifier}`;
-    const key = target.includes(":") ? target : `${r.namespace}:${target}`;
+    const rawKey = target.includes(":") ? target : `${r.namespace}:${target}`;
+    const key = baseKeyByLower.get(rawKey.toLowerCase()) ?? rawKey;
     return { ...r, identifier: key.split(":")[1], namespace: key.split(":")[0] };
   });
 
