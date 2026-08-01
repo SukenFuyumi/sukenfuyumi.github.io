@@ -76,6 +76,15 @@
       "priority": 16
     },
     {
+      "id": "spammegas",
+      "label": "SpaM Megas (Trainer Items)",
+      "file": "spammegas-1.0.0.jar",
+      "kind": "jar",
+      "role": "content",
+      "priority": 19,
+      "notes": "Server-side mod that registers a real item for each mega that Xadok's/Lotus/Laser's only ship as a component-tagged vanilla stack, so trainers can actually hold them. Contributes no species - it exists in the pipeline for its 76 items, read from its own spammegas_items.json manifest since it ships no per-item lang keys."
+    },
+    {
       "id": "rlm-mega-battlefix",
       "label": "Cobblemon RLM",
       "file": "datapacks/RLM-Mega-BattleFix.zip",
