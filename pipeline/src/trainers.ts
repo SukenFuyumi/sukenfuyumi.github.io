@@ -90,7 +90,10 @@ export interface TrainerTeamMember {
   gender: string | null;
   shiny: boolean;
   aspects: string[];
-  gimmick: string | null;
+  /** gimmicks.tera - the type this Pokemon terastallizes into, if any. */
+  teraType: string | null;
+  /** gimmicks.mega - whether it mega evolves. Can be set alongside a tera type. */
+  mega: boolean;
   abilityDesc: string | null;
   ivs: Record<string, number>;
   evs: Record<string, number>;
@@ -131,6 +134,10 @@ export interface TrainerRecord {
   /** e.g. GEN_9_SINGLES / GEN_9_DOUBLES - worth surfacing, a doubles gym plays differently. */
   battleFormat: string | null;
   isDoubles: boolean;
+  /** ai.data.canTera - without this the per-Pokemon tera gimmicks never fire. */
+  canTera: boolean;
+  /** ai.data.teraTarget - species the AI picks to terastallize; first match on the team. */
+  teraTarget: string | null;
 }
 
 export interface SeriesRecord {
@@ -312,9 +319,11 @@ export function buildTrainerData(
         ...(m.form ? [String(m.form)] : []),
         ...(m.variant ? [String(m.variant)] : []),
       ].map((a) => String(a).toLowerCase());
-      const gimmick = m.gimmicks && typeof m.gimmicks === "object"
-        ? Object.keys(m.gimmicks).filter((k) => m.gimmicks[k])[0] ?? null
-        : null;
+      // gimmicks is a map, and tera + mega genuinely co-occur in this pack
+      // (e.g. a Charizard that megas *and* teras into steel), so they can't be
+      // collapsed into one label.
+      const gimmicks = m.gimmicks && typeof m.gimmicks === "object" ? m.gimmicks : {};
+      const teraType = gimmicks.tera ? String(gimmicks.tera).toLowerCase() : null;
       const resolved = resolvers.resolveSpecies(String(m.species).toLowerCase(), aspects);
       const heldItemId = Array.isArray(m.heldItem) ? m.heldItem[0] ?? null : m.heldItem ?? null;
       const abilityId = m.ability ? String(m.ability).toLowerCase() : null;
@@ -337,7 +346,8 @@ export function buildTrainerData(
         gender: m.gender ? String(m.gender).toLowerCase() : null,
         shiny: !!m.shiny,
         aspects,
-        gimmick,
+        teraType,
+        mega: !!gimmicks.mega,
         ivs: m.ivs ?? {},
         evs: m.evs ?? {},
         moves: (m.moveset ?? []).map((mv: string) => {
@@ -393,6 +403,8 @@ export function buildTrainerData(
       maxItemUses: data.battleRules?.maxItemUses ?? null,
       battleFormat: data.battleFormat ?? null,
       isDoubles: /DOUBLES/i.test(String(data.battleFormat ?? "")),
+      canTera: !!data.ai?.data?.canTera,
+      teraTarget: data.ai?.data?.teraTarget ? String(data.ai.data.teraTarget).toLowerCase() : null,
     });
   }
 

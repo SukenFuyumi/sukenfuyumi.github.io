@@ -38,6 +38,10 @@ const BATTLE_FORMATS = [
   { id: "GEN_8_SINGLES", label: "Individual (Gen 8)" },
   { id: "GEN_8_DOUBLES", label: "Dobles (Gen 8)" },
 ];
+const TERA_TYPES = [
+  "normal", "fire", "water", "electric", "grass", "ice", "fighting", "poison", "ground",
+  "flying", "psychic", "bug", "rock", "ghost", "dragon", "dark", "steel", "fairy",
+];
 const STATS = ["hp", "atk", "def", "spa", "spd", "spe"] as const;
 const STAT_LABELS: Record<string, string> = { hp: "HP", atk: "ATK", def: "DEF", spa: "SPA", spd: "SPD", spe: "SPE" };
 
@@ -65,6 +69,22 @@ function findSpecies(options: Pick[], species: string | null, aspects?: string[]
     mine.find((o) => !o.aspects?.length) ??
     mine[0]
   );
+}
+
+/**
+ * Writes one key of a team member's `gimmicks` map, dropping the key (and the
+ * map once it's empty) when cleared. Tera and mega co-occur, so this can't just
+ * overwrite the whole object.
+ */
+function setGimmick(member: any, key: "tera" | "mega", value: string | true | null) {
+  if (value === null) {
+    if (!member.gimmicks) return;
+    delete member.gimmicks[key];
+    if (Object.keys(member.gimmicks).length === 0) delete member.gimmicks;
+    return;
+  }
+  member.gimmicks = member.gimmicks ?? {};
+  member.gimmicks[key] = value;
 }
 
 function SpeciesThumb({ opt, size = 22 }: { opt?: Pick; size?: number }) {
@@ -458,6 +478,49 @@ export default function TrainerEditor() {
                 </label>
               </div>
 
+              {/* ai.data gates the per-Pokemon tera gimmicks: without canTera
+                  the AI never terastallizes, however many tera types the team
+                  declares. Kept next to each other so that's obvious. */}
+              <div class="ed-row">
+                <label class="ed-field ed-check" style={{ maxWidth: "230px" }}>
+                  <input
+                    type="checkbox"
+                    checked={!!data.ai?.data?.canTera}
+                    onChange={(e) => mutate((d) => {
+                      const on = (e.target as HTMLInputElement).checked;
+                      d.ai = d.ai ?? { type: "rb" };
+                      d.ai.data = d.ai.data ?? {};
+                      if (on) d.ai.data.canTera = true;
+                      else { delete d.ai.data.canTera; delete d.ai.data.teraTarget; }
+                      if (Object.keys(d.ai.data).length === 0) delete d.ai.data;
+                    })}
+                  />
+                  <span>Puede teracristalizar</span>
+                </label>
+                <label class="ed-field" style={{ maxWidth: "260px", opacity: data.ai?.data?.canTera ? 1 : 0.45 }}>
+                  <span>Objetivo de Tera (opcional)</span>
+                  {/* Limited to this trainer's own team: teraTarget names a
+                      member, and the AI takes the first one that matches. */}
+                  <select
+                    class="ed-input"
+                    disabled={!data.ai?.data?.canTera}
+                    value={data.ai?.data?.teraTarget ?? ""}
+                    onChange={(e) => mutate((d) => {
+                      const v = (e.target as HTMLSelectElement).value;
+                      d.ai = d.ai ?? { type: "rb" };
+                      d.ai.data = d.ai.data ?? {};
+                      if (v) d.ai.data.teraTarget = v;
+                      else delete d.ai.data.teraTarget;
+                    })}
+                  >
+                    <option value="">— el primero que pueda —</option>
+                    {[...new Set((data.team ?? []).map((m: any) => String(m.species ?? "").toLowerCase()).filter(Boolean))].map((s) => (
+                      <option value={s as string}>{s}</option>
+                    ))}
+                  </select>
+                </label>
+              </div>
+
               <h3 style={{ marginBottom: "0.3rem" }}>Objetos consumibles (mochila)</h3>
               <p class="ed-dim" style={{ fontSize: "0.78rem", margin: "0 0 0.5rem" }}>
                 Lo que el entrenador puede usar durante el combate (pociones, revivir…).
@@ -611,6 +674,30 @@ export default function TrainerEditor() {
                           <option value="FEMALE">FEMALE</option>
                           <option value="GENDERLESS">GENDERLESS</option>
                         </select>
+                      </label>
+                      <label class="ed-field" style={{ maxWidth: "170px" }}>
+                        <span>Teracristal</span>
+                        <select
+                          class="ed-input"
+                          value={m.gimmicks?.tera ?? ""}
+                          onChange={(e) => mutate((d) => {
+                            const v = (e.target as HTMLSelectElement).value;
+                            setGimmick(d.team[mi], "tera", v || null);
+                          })}
+                        >
+                          <option value="">— no teracristaliza —</option>
+                          {TERA_TYPES.map((ty) => <option value={ty}>{ty}</option>)}
+                        </select>
+                      </label>
+                      <label class="ed-field ed-check" style={{ maxWidth: "150px" }}>
+                        <input
+                          type="checkbox"
+                          checked={!!m.gimmicks?.mega}
+                          onChange={(e) => mutate((d) => {
+                            setGimmick(d.team[mi], "mega", (e.target as HTMLInputElement).checked || null);
+                          })}
+                        />
+                        <span>Mega evoluciona</span>
                       </label>
                     </div>
 

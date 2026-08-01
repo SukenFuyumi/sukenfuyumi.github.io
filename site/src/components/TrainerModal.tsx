@@ -175,6 +175,7 @@ export default function TrainerModal() {
                 {t.isDoubles && <strong class="ed-doubles">Combate dobles</strong>}
                 {t.isDoubles && " · "}
                 Equipo de {t.team.length} · Pokémon más fuerte a nivel {t.teamMaxLevel}
+                {t.canTera && <> · <strong class="ed-doubles">Teracristaliza</strong>{t.teraTarget && <> ({t.teraTarget})</>}</>}
                 {t.maxItemUses !== null && <> · usa hasta {t.maxItemUses} objetos</>}
                 {t.bag?.length > 0 && <> · mochila: {t.bag.map((b: any) => `${b.name} x${b.quantity}`).join(", ")}</>}
                 {t.requiredNames?.length > 0 && <> · requiere derrotar antes a {t.requiredNames.join(", ")}</>}
@@ -212,7 +213,13 @@ export default function TrainerModal() {
                           </>
                         )}
                         {m.heldItem && <><dt>Objeto</dt><dd>{m.heldItem}</dd></>}
-                        {m.gimmick && <><dt>Gimmick</dt><dd>{m.gimmick}</dd></>}
+                        {m.teraType && (
+                          <>
+                            <dt>Teracristal</dt>
+                            <dd><span class="type-badge" style={{ background: `var(--type-${m.teraType})` }}>{m.teraType}</span></dd>
+                          </>
+                        )}
+                        {m.mega && <><dt>Mega</dt><dd>Sí</dd></>}
                         {m.shiny && <><dt>Variocolor</dt><dd>Sí</dd></>}
                       </dl>
                     </div>

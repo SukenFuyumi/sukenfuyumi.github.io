@@ -353,6 +353,11 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
 .ed-bag-row { align-items: center; }
 .ed-field { display: flex; flex-direction: column; gap: 0.15rem; flex: 1; min-width: 130px; }
 .ed-field > span { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.03em; }
+/* Checkbox fields sit on one line instead of label-above-control, and align
+   with the bottom of the inputs beside them rather than their labels. */
+.ed-check { flex-direction: row; align-items: center; gap: 0.4rem; align-self: flex-end; padding-bottom: 0.35rem; }
+.ed-check > input { width: 15px; height: 15px; accent-color: var(--accent); cursor: pointer; }
+.ed-check > span { text-transform: none; letter-spacing: 0; font-size: 0.78rem; color: var(--text); }
 
 .ed-team { display: grid; gap: 0.85rem; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
 .ed-mon { padding: 0.75rem; }
