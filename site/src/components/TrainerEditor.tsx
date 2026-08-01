@@ -407,6 +407,11 @@ export default function TrainerEditor() {
             <span class="ed-dim"> · los cambios se guardan en este navegador</span>
           </div>
           <div class="ed-toolbar-actions">
+            {/* The vocabulary this editor validates against, for building teams
+                outside it (by hand or with another model). */}
+            <a class="ed-btn" href="/rct-dataset.md" download title="Reglas, esquema y todos los ids válidos de este servidor">
+              Dataset RCT
+            </a>
             <button class="ed-btn primary" disabled={busy || draftCount === 0} onClick={exportZip}>
               Exportar .zip para el servidor
             </button>

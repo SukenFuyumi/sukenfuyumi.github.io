@@ -19,6 +19,7 @@ import { ABILITY_TYPE_IMMUNITIES } from "./abilityEffects.js";
 import { buildTerrainWeatherIndex } from "./terrainWeather.js";
 import { describeSecondaryEffects, summarizeSecondaryEffects } from "./secondaryEffects.js";
 import { buildTrainerData, assertTrainerPackReadable } from "./trainers.js";
+import { buildRctDataset } from "./rctDataset.js";
 import { PUBLIC_TEXTURES_DIR, PUBLIC_RENDERS_DIR, PUBLIC_DIR } from "./config.js";
 import type { MoveRecord, AbilityRecord, BalanceChange } from "./types.js";
 import { writeFileSync, mkdirSync, copyFileSync } from "node:fs";
@@ -933,6 +934,29 @@ async function main() {
       }
       speciesPicker.sort((a, b) => a.name.localeCompare(b.name));
       writeFileSync(resolvePath(PUBLIC_DIR, "trainer-species-index.json"), JSON.stringify(speciesPicker), "utf-8");
+
+      // A standalone reference for writing team files by hand (or by another
+      // model) against this server's content, so ids can be looked up instead
+      // of guessed - the failure mode is silent, and v23 of the pack shipped an
+      // `indeedee-f` that Cobblemon has no species for.
+      const statsBySlug = new Map(
+        [...records.values(), ...formRecords].map((r) => [r.slug, { types: r.types, baseStats: r.baseStats }])
+      );
+      const dataset = buildRctDataset({
+        packName: manifest.trainerPack!.file.split("/").pop()!,
+        sources: manifest.sources,
+        zips: zipHandles,
+        speciesPicker,
+        learnsets: searchIndex,
+        statsBySlug,
+        items: itemIndex,
+      });
+      writeFileSync(resolvePath(PUBLIC_DIR, "rct-dataset.json"), JSON.stringify(dataset.json), "utf-8");
+      writeFileSync(resolvePath(PUBLIC_DIR, "rct-dataset.md"), dataset.markdown, "utf-8");
+      console.log(
+        `RCT dataset: ${dataset.json.counts.species} especies, ${dataset.json.counts.moves} movimientos, ` +
+          `${dataset.json.counts.abilities} habilidades, ${dataset.json.counts.items} objetos, ${dataset.json.counts.megaStones} piedras mega.`
+      );
 
       // Ids the editor writes back into the pack, plus the progression fields
       // it groups its trainer list by (region, then order within the region).
