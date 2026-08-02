@@ -1,5 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import { categoryKey, categoryLabel } from "../../lib/moveCategory";
 import MonImage from "../../components/MonImage.astro";
 import moves from "../../data/generated/moves.json";
 import sourcesData from "../../data/generated/sources.json";
@@ -47,7 +48,11 @@ const learnedBySorted = (m.learnedBy ?? [])
     </h1>
     <div style="display:flex; gap:1.5rem; flex-wrap:wrap; margin-bottom:0.75rem;">
       {m.type && <a href={`/type/${m.type.toLowerCase()}`} class="type-badge" style={`background:var(--type-${m.type.toLowerCase()})`}>{m.type}</a>}
-      <span><strong>Categoría:</strong> {m.category}</span>
+      {m.category && (
+        <span class="move-cat" data-cat={categoryKey(m.category)}>
+          <span>{categoryLabel(m.category)}</span>
+        </span>
+      )}
       <span><strong>Poder:</strong> {m.basePower || "—"}</span>
       <span><strong>Precisión:</strong> {m.accuracy === true ? "—" : m.accuracy}</span>
       <span><strong>PP:</strong> {m.pp ?? "—"}</span>

@@ -1,5 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import { categoryKey, categoryLabel } from "../../lib/moveCategory";
 import MonImage from "../../components/MonImage.astro";
 import trainers from "../../data/generated/trainers.json";
 
@@ -138,7 +139,10 @@ const unlocks = (trainers as any[]).filter((x) => (x.requiredDefeats ?? []).incl
                 href={`/moves/${mv.id}`}
                 class="team-move"
                 style={mv.type ? `background:var(--type-${mv.type.toLowerCase()});` : ""}
-              >{mv.name}</a>
+              >
+                {mv.category && <i class="move-cat-dot" data-cat={categoryKey(mv.category)} title={categoryLabel(mv.category)} />}
+                {mv.name}
+              </a>
             ))}
           </div>
         </div>

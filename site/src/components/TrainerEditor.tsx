@@ -49,7 +49,7 @@ interface TrainerRef {
   id: string; slug: string; name: string; role: string; roleKey: string;
   seriesId: string | null; seriesLabel: string | null; seriesRank: number; step: number; levelCap: number | null;
 }
-interface Pick { id: string; slug?: string; name: string; aspects?: string[]; img?: string; color?: string }
+interface Pick { id: string; slug?: string; name: string; aspects?: string[]; img?: string; color?: string; types?: string[] }
 /** slug -> what that Pokémon can learn, from pokedex-search-index.json. */
 interface Learnset { moves: string[]; abilities: string[]; hiddenAbilities: string[] }
 interface ItemPick { id: string; bare: string; ns: string; name: string }
@@ -172,6 +172,11 @@ function Picker({
                 <span class="ed-picker-label">
                   {o.name} <span class="ed-dim">{o.id}{o.aspects?.length ? ` · ${o.aspects.join(",")}` : ""}</span>
                 </span>
+                {o.types?.length && (
+                  <span class="ed-picker-types">
+                    {o.types.map((t) => <span class="type-badge" style={{ background: `var(--type-${t})` }}>{t}</span>)}
+                  </span>
+                )}
               </button>
             ))}
             {matches.length === 0 && <div class="ed-dim" style={{ padding: "0.4rem" }}>Sin resultados</div>}
@@ -595,6 +600,14 @@ export default function TrainerEditor() {
                           <span class="ed-mon-name">{speciesOpt?.name ?? m.species ?? "—"}</span>
                           <div class="ed-dim" style={{ fontSize: "0.7rem" }}>
                             Nv. {m.level ?? "—"}{m.aspects?.length ? ` · ${m.aspects.join(", ")}` : ""}
+                          </div>
+                          {/* Types are the fastest check that the picked form is
+                              the intended one - a wrong aspect usually shows up
+                              here before anywhere else. */}
+                          <div class="ed-mon-types">
+                            {(speciesOpt?.types ?? []).map((t) => (
+                              <span class="type-badge" style={{ background: `var(--type-${t})` }}>{t}</span>
+                            ))}
                           </div>
                         </div>
                       </div>

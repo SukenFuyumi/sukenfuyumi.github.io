@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "preact/hooks";
+import { categoryKey, categoryLabel } from "../lib/moveCategory";
 
 interface Move {
   id: string;
@@ -60,7 +61,11 @@ export default function MoveTable() {
             <tr>
               <td><a href={`/moves/${m.id}`}>{m.name}</a></td>
               <td>{m.type && <a href={`/type/${m.type.toLowerCase()}`} class="type-badge" style={{ background: `var(--type-${m.type.toLowerCase()})` }}>{m.type}</a>}</td>
-              <td>{m.category}</td>
+              <td>{m.category && (
+                <span class="move-cat icon-only" data-cat={categoryKey(m.category)!} title={categoryLabel(m.category)}>
+                  <span>{categoryLabel(m.category)}</span>
+                </span>
+              )}</td>
               <td>{m.basePower || "—"}</td>
               <td>{m.accuracy === true ? "—" : m.accuracy}</td>
               <td>{m.pp ?? "—"}</td>

@@ -906,7 +906,7 @@ async function main() {
       // reading an identifier.
       // `slug` keys into pokedex-search-index.json, which is how the editor
       // narrows the move/ability pickers to what that Pokemon actually learns.
-      const speciesPicker: { id: string; slug: string; name: string; aspects?: string[]; img?: string; color?: string }[] = [];
+      const speciesPicker: { id: string; slug: string; name: string; aspects?: string[]; img?: string; color?: string; types?: string[] }[] = [];
       const pickerImage = (image: any) =>
         image && (image.kind === "sprite" || image.kind === "render" || image.kind === "texture") && image.url
           ? { img: image.url, color: image.placeholderColor }
@@ -916,6 +916,7 @@ async function main() {
           id: rec.id.split(":")[1].toLowerCase(),
           slug: rec.slug,
           name: rec.name,
+          types: rec.types,
           ...pickerImage(rec.image),
         });
       }
@@ -929,6 +930,7 @@ async function main() {
           slug: f.slug,
           name: f.name,
           aspects: f.aspects.map((a: string) => a.toLowerCase()),
+          types: f.types,
           ...pickerImage(f.image),
         });
       }

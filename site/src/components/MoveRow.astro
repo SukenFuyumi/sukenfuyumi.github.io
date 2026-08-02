@@ -1,4 +1,5 @@
 ---
+import { categoryKey, categoryLabel } from "../lib/moveCategory";
 interface Props {
   level?: number;
   move: any | null;
@@ -27,7 +28,11 @@ const changesSummary = move?.balanceChanges?.length
   {move ? (
     <>
       <td><a href={`/type/${move.type?.toLowerCase()}`} class="type-badge" style={`background: var(--type-${move.type?.toLowerCase()})`}>{move.type}</a></td>
-      <td>{move.category}</td>
+      <td>{move.category && (
+        <span class="move-cat icon-only" data-cat={categoryKey(move.category)} title={categoryLabel(move.category)}>
+          <span>{categoryLabel(move.category)}</span>
+        </span>
+      )}</td>
       <td>{move.basePower || "—"}</td>
       <td>{move.accuracy === true ? "—" : move.accuracy}</td>
       <td>{move.pp ?? "—"}</td>

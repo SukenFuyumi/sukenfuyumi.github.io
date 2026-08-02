@@ -180,6 +180,89 @@ tr:hover td { background: var(--row-hover); }
   white-space: nowrap;
 }
 
+/* Move damage category, as the classic coloured badge. The glyph is drawn here
+   as a data-URI mask rather than an <img> so the same markup - a span with a
+   data-cat - works from both Astro pages and the Preact panels, with no shared
+   component and no extra request. Uses `mask` so the glyph takes currentColor
+   and stays legible on both themes. */
+.move-cat {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.1rem 0.5rem 0.1rem 0.35rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  color: #fff;
+}
+.move-cat::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  flex: none;
+  background: currentColor;
+  -webkit-mask: var(--cat-glyph) center / contain no-repeat;
+  mask: var(--cat-glyph) center / contain no-repeat;
+}
+/* The glyph is keyed off data-cat alone, so both the full badge and the bare
+   dot on a team chip pick it up from the same place. */
+/* Physical: an impact burst. */
+[data-cat="physical"] {
+  --cat-glyph: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1.5l2.6 6.1 6.1-2.6-2.6 6.1 6.1 2.6-6.1 2.6 2.6 6.1-6.1-2.6L12 22.5l-2.6-6.1-6.1 2.6 2.6-6.1L-.2 13.7l6.1-2.6-2.6-6.1 6.1 2.6z"/></svg>');
+}
+/* Special: radiating waves. */
+[data-cat="special"] {
+  --cat-glyph: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.4"/><path d="M12 4.2a7.8 7.8 0 017.8 7.8 7.8 7.8 0 01-7.8 7.8A7.8 7.8 0 014.2 12 7.8 7.8 0 0112 4.2zm0 2a5.8 5.8 0 100 11.6 5.8 5.8 0 000-11.6z"/><path d="M12 0a12 12 0 0112 12 12 12 0 01-12 12A12 12 0 010 12 12 12 0 0112 0zm0 2a10 10 0 100 20 10 10 0 000-20z"/></svg>');
+}
+/* Status: a ring, the "no direct damage" marker. */
+[data-cat="status"] {
+  --cat-glyph: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1.6A10.4 10.4 0 1012 22.4 10.4 10.4 0 0012 1.6zm0 3.1a7.3 7.3 0 110 14.6 7.3 7.3 0 010-14.6z"/><circle cx="12" cy="12" r="3.1"/></svg>');
+}
+.move-cat[data-cat="physical"] { background: #c1432c; }
+.move-cat[data-cat="special"] { background: #2f6fa8; }
+.move-cat[data-cat="status"] { background: #6b6f7a; }
+/* Bare glyph, for the move chips on a team card. Those already carry the move's
+   type as their background colour, so a second coloured badge would fight it -
+   the glyph rides on a translucent disc instead. */
+.move-cat-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  flex: none;
+  margin-right: 0.28rem;
+  vertical-align: -0.12em;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.28);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+  position: relative;
+}
+.move-cat-dot::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #fff;
+  -webkit-mask: var(--cat-glyph) center / contain no-repeat;
+  mask: var(--cat-glyph) center / contain no-repeat;
+}
+
+/* Icon-only, for the dense move tables. This is also how the games show it, and
+   it is narrower than the plain text label was - the moveset column had already
+   been pushing those pages into a horizontal scroll. The label is kept for
+   screen readers and as the tooltip. */
+.move-cat.icon-only { padding: 0.2rem; gap: 0; }
+.move-cat.icon-only > span {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  display: block;
+}
+
 .pill {
   display: inline-block;
   padding: 0.1rem 0.55rem;
@@ -365,6 +448,12 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
 /* Sprite + name so the selected Pokémon is confirmable at a glance. */
 .ed-mon-id { display: flex; align-items: center; gap: 0.5rem; min-width: 0; }
 .ed-mon-name { font-weight: 700; font-size: 0.9rem; }
+.ed-mon-types { display: flex; gap: 0.2rem; margin-top: 0.2rem; }
+.ed-mon-types .type-badge { padding: 0.05rem 0.4rem; font-size: 0.6rem; }
+/* Sits at the end of a picker row, so a form can be told apart by its typing
+   without opening it. Shrinks to nothing before the name is truncated. */
+.ed-picker-types { display: flex; gap: 0.2rem; margin-left: auto; flex: none; }
+.ed-picker-types .type-badge { padding: 0.05rem 0.35rem; font-size: 0.58rem; }
 .ed-thumb { object-fit: contain; border-radius: 50%; background: var(--subtle-bg); flex-shrink: 0; }
 .ed-thumb-empty { display: inline-block; border-radius: 50%; opacity: 0.35; }
 .ed-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
@@ -683,7 +772,10 @@ button.team-move { border: 0; cursor: pointer; font-family: inherit; }
 .pdx-sidebar-more { font-size: 0.72rem; color: var(--text-muted); padding: 0.5rem 0.4rem; }
 
 @media (max-width: 900px) {
-  .pdx-layout { flex-direction: column; }
+  /* Stacking makes the cross axis horizontal, where flex-start sizes children
+     to their content instead of the screen - the moveset table was making this
+     column 822px wide on a 375px phone and scrolling the whole page. */
+  .pdx-layout { flex-direction: column; align-items: stretch; }
   .pdx-sidebar { width: 100%; position: static; max-height: 420px; }
 }
 
@@ -729,6 +821,10 @@ button.team-move { border: 0; cursor: pointer; font-family: inherit; }
   gap: 0.6rem;
   height: 100%;
   min-height: 0;
+  /* Grid children default to min-width:auto, so the moveset table's natural
+     width was pushing this column past its track and scrolling the whole page
+     sideways. Zero lets the track win and the table scroll inside instead. */
+  min-width: 0;
 }
 .pdx-detail-left .detail-header.stacked,
 .panel-stats,
@@ -752,6 +848,9 @@ button.team-move { border: 0; cursor: pointer; font-family: inherit; }
   flex: 1;
   min-height: 0;
   overflow-y: auto;
+  /* The moveset table is wider than the column on narrow viewports; it scrolls
+     within its own box rather than taking the page with it. */
+  overflow-x: auto;
 }
 
 .defenses-row { display: flex; gap: 1.25rem; flex-wrap: wrap; }
@@ -760,8 +859,12 @@ button.team-move { border: 0; cursor: pointer; font-family: inherit; }
 
 @media (max-width: 800px) {
   .pdx-detail-grid { grid-template-columns: 1fr; height: auto; min-height: 0; }
-  .pdx-detail-left, .pdx-detail-right { height: auto; overflow: visible; }
-  .panel-abilities, .panel-moves { flex: none; }
-  .panel-abilities .abilities-scroll, .pdx-moveset-scroll { max-height: none; overflow-y: visible; flex: none; }
+  /* `overflow: visible` here also reset overflow-x, so on a phone the moveset
+     table dragged the whole page sideways - 854px wide on a 375px screen. The
+     column stays visible vertically (panels shouldn't clip) while the table
+     keeps its own horizontal scroll. */
+  .pdx-detail-left, .pdx-detail-right { height: auto; overflow: visible; min-width: 0; }
+  .panel-abilities, .panel-moves { flex: none; overflow: hidden; }
+  .panel-abilities .abilities-scroll, .pdx-moveset-scroll { max-height: none; overflow-y: visible; overflow-x: auto; flex: none; }
   .defenses-row { flex-direction: column; gap: 0.6rem; }
 }

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "preact/hooks";
+import { categoryKey, categoryLabel } from "../lib/moveCategory";
 
 /**
  * Opens a trainer's team in an overlay panel instead of navigating away, and
@@ -64,7 +65,11 @@ function DetailPopover({ detail, onClose }: { detail: any; onClose: () => void }
         {isMove && m.type && (
           <span class="type-badge" style={{ background: `var(--type-${m.type.toLowerCase()})` }}>{m.type}</span>
         )}
-        {isMove && m.category && <span class="pill muted">{m.category}</span>}
+        {isMove && m.category && (
+          <span class="move-cat" data-cat={categoryKey(m.category)!}>
+            <span>{categoryLabel(m.category)}</span>
+          </span>
+        )}
         {isMove && (
           <span class="detail-pop-stats">
             <span><em>Poder</em>{m.basePower || "—"}</span>
@@ -248,7 +253,10 @@ export default function TrainerModal({ version }: { version?: string }) {
                             class="team-move"
                             style={mv.type ? { background: `var(--type-${mv.type.toLowerCase()})` } : undefined}
                             onClick={(e) => { e.stopPropagation(); setDetail({ kind: "move", data: mv }); }}
-                          >{mv.name}</button>
+                          >
+                            {mv.category && <i class="move-cat-dot" data-cat={categoryKey(mv.category)!} title={categoryLabel(mv.category)} />}
+                            {mv.name}
+                          </button>
                         ))}
                       </div>
                     </div>
