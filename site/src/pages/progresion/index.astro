@@ -4,6 +4,14 @@ import TrainerCard from "../../components/TrainerCard.astro";
 import TrainerModal from "../../components/TrainerModal.tsx";
 import trainers from "../../data/generated/trainers.json";
 import trainerSeries from "../../data/generated/trainerSeries.json";
+import { createHash } from "node:crypto";
+
+// The panel fetches /trainers/<slug>.json, a static path that never changes,
+// and GitHub Pages serves it with max-age=600 - so after updating the pack the
+// cards showed the new team while the panel kept serving a cached old one for
+// ten minutes. Stamping the request with a hash of the team data busts that
+// exactly when the data changes, and never when it hasn't.
+const teamsVersion = createHash("sha1").update(JSON.stringify(trainers)).digest("hex").slice(0, 8);
 
 const all = trainers as any[];
 const series = trainerSeries as any[];
@@ -89,5 +97,5 @@ function groupByStep(list: any[]) {
     </section>
   )}
 
-  <TrainerModal client:load />
+  <TrainerModal client:load version={teamsVersion} />
 </Layout>

@@ -82,7 +82,7 @@ function DetailPopover({ detail, onClose }: { detail: any; onClose: () => void }
   );
 }
 
-export default function TrainerModal() {
+export default function TrainerModal({ version }: { version?: string }) {
   const [slug, setSlug] = useState<string | null>(null);
   const [trainer, setTrainer] = useState<any | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -109,7 +109,7 @@ export default function TrainerModal() {
     setTrainer(null);
     setError(null);
     setDetail(null);
-    fetch(`/trainers/${slug}.json`)
+    fetch(`/trainers/${slug}.json${version ? `?v=${version}` : ""}`)
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
       .then(setTrainer)
       .catch(() => setError("No se pudo cargar este entrenador."));
