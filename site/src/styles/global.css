@@ -126,6 +126,21 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
 }
 .site-header nav a:hover { color: #fff; text-decoration: none; }
+/* On a very narrow phone the brand, nav and theme toggle no longer fit on one
+   56px row, and the toggle was pushed off-screen - which scrolled every page
+   sideways, not just one. The bar wraps and grows instead. */
+@media (max-width: 440px) {
+  .site-header { padding: 0 0.75rem; }
+  .site-header .bar {
+    height: auto;
+    min-height: 56px;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.9rem;
+    padding: 0.5rem 0;
+  }
+  .site-header nav { gap: 0.75rem; }
+  .site-header nav a { font-size: 0.86rem; }
+}
 
 .theme-toggle {
   margin-left: auto;
@@ -167,6 +182,25 @@ table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
 th, td { padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--border); text-align: left; }
 th { background: var(--th-bg); font-weight: 700; white-space: nowrap; }
 tr:hover td { background: var(--row-hover); }
+
+/* Below the breakpoint a table can't shrink past its columns' natural width -
+   several pages (moves, abilities, the pokedex list and their detail pages)
+   were 200-250px wider than a phone screen and dragged the page sideways.
+   Making the table a block box lets it scroll inside its own bounds; the rows
+   still lay out as a table via the anonymous table box the browser generates.
+   Applied to every table so pages added later inherit it. */
+@media (max-width: 800px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    /* The scroll box fills the column; the rows inside keep their real width. */
+    width: 100%;
+    max-width: 100%;
+  }
+  /* Cells stop wrapping to one word per line, which is what made these tables
+     tall and unreadable rather than merely wide. */
+  td { white-space: nowrap; }
+}
 
 .type-badge {
   display: inline-block;
@@ -296,7 +330,7 @@ tr:hover td { background: var(--row-hover); }
 td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-muted); }
 
 /* ---- Progresión (trainers) ---- */
-.prog-cards { display: grid; gap: 0.7rem; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
+.prog-cards { display: grid; gap: 0.7rem; grid-template-columns: repeat(auto-fill, minmax(min(270px, 100%), 1fr)); }
 
 /* A series reads left-to-right as a chain: one column per progression step, in
    order. Steps fill the available width and then continue on the next row, so
@@ -304,7 +338,7 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
    scroll. */
 .prog-chain {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(245px, 100%), 1fr));
   gap: 0.7rem;
   /* stretch (the default) so every card in a row ends up the same height even
      when one has a name that wraps to two lines */
@@ -356,15 +390,29 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
 .levelcap-num { display: block; font-size: 1.8rem; font-weight: 800; color: var(--accent); line-height: 1; }
 .levelcap-lbl { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); }
 
-.team-grid { display: grid; gap: 0.85rem; grid-template-columns: repeat(auto-fill, minmax(390px, 1fr)); margin-top: 1.25rem; }
+/* min() so the 390px track floor can't exceed the screen - on a 375px phone
+   every card was 390px wide and pushed the page sideways. */
+.team-grid { display: grid; gap: 0.85rem; grid-template-columns: repeat(auto-fill, minmax(min(390px, 100%), 1fr)); margin-top: 1.25rem; }
 .team-card { display: flex; gap: 0.85rem; padding: 0.8rem; }
 .team-card-left { width: 132px; flex-shrink: 0; text-align: center; }
 .team-art { display: flex; align-items: center; justify-content: center; height: 80px; }
 .team-name { display: block; font-weight: 700; font-size: 0.9rem; margin-top: 0.2rem; }
 .team-lvl { font-size: 0.78rem; color: var(--text-muted); }
-.team-meta { display: grid; grid-template-columns: auto 1fr; gap: 0 0.35rem; margin: 0.35rem 0 0; text-align: left; font-size: 0.72rem; }
-.team-meta dt { color: var(--text-muted); }
-.team-meta dd { margin: 0; font-weight: 600; }
+/* Label above value rather than beside it. Side by side left the value ~72px,
+   so anything the length of "Sweet Dreams" or "Heavy-Duty Boots" broke across
+   two lines while its label stayed top-aligned on the first - it read as a
+   layout glitch. Stacked, the value gets the column's full width and the
+   longest ability and item names in the pack fit on one line. */
+.team-meta { display: grid; grid-template-columns: 1fr; margin: 0.4rem 0 0; text-align: left; font-size: 0.72rem; }
+.team-meta dt {
+  color: var(--text-muted);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  line-height: 1.35;
+}
+.team-meta dd { margin: 0 0 0.28rem; font-weight: 600; line-height: 1.25; }
+.team-meta dd:last-child { margin-bottom: 0; }
 .team-card-right { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 0.5rem; }
 
 .stat-table { font-size: 0.74rem; }
@@ -442,7 +490,7 @@ td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-mut
 .ed-check > input { width: 15px; height: 15px; accent-color: var(--accent); cursor: pointer; }
 .ed-check > span { text-transform: none; letter-spacing: 0; font-size: 0.78rem; color: var(--text); }
 
-.ed-team { display: grid; gap: 0.85rem; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+.ed-team { display: grid; gap: 0.85rem; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); }
 .ed-mon { padding: 0.75rem; }
 .ed-mon-head { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
 /* Sprite + name so the selected Pokémon is confirmable at a glance. */
@@ -666,6 +714,15 @@ button.team-move { border: 0; cursor: pointer; font-family: inherit; }
 }
 .tabs button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
 
+/* The two matchup panels sat in a hard 1fr 1fr grid set inline, which no media
+   query could override - on a narrow phone each column was too small for a type
+   badge and the pair overflowed. They stack instead once there isn't room. */
+.matchup-pair {
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+  margin-bottom: 1.25rem;
+}
 .matchup-grid { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .matchup-grid .entry { display: flex; align-items: center; gap: 0.3rem; }
 .matchup-grid .mult { font-size: 0.75rem; color: var(--text-muted); }

@@ -18,7 +18,7 @@ const defensive = allTypes.map((atk) => ({ type: atk, mult: (matrix as any)[atk]
   <div class="breadcrumb"><a href="/type">Tipos</a> &rsaquo; {type}</div>
   <h1><span class="type-badge" style={`background:var(--type-${type}); font-size:1rem;`}>{type}</span></h1>
 
-  <div class="grid" style="grid-template-columns:1fr 1fr; margin-bottom:1.25rem;">
+  <div class="matchup-pair">
     <div class="panel">
       <h2 style="margin-top:0;">Movimientos de tipo {type} contra...</h2>
       {offensive.length ? offensive.map((e) => (

@@ -759,6 +759,48 @@ async function main() {
   // --- Trainers / progression (RCT datapack) ---
   if (manifest.trainerPack) {
     const packPath = resolvePath(sourceRoot, manifest.trainerPack.file);
+    // Every item on the server, harvested from the lang files so it reflects
+    // this server's actual (mod-renamed) names. Every namespace counts, not
+    // just cobblemon/minecraft: trainers hold mega stones from mega_showdown,
+    // zamega and spammegas, and restricting the scan left 31 of them missing
+    // from the editor's picker (shown as a raw id, unpickable).
+    // `item.name.*` / `item.desc.*` are lang scaffolding, not real items.
+    const itemIndex = [...ingested.lang.entries()]
+      .filter(([k]) => /^item\.[a-z0-9_]+\.[a-z0-9_]+$/.test(k) && !/^item\.(name|desc|decs1)\./.test(k))
+      .map(([k, v]) => {
+        const [, ns, path] = k.split(".");
+        return { id: `${ns}:${path}`, bare: path, ns, name: v.value };
+      });
+    // SpaM Megas registers a real item for each mega that Xadok's, Lotus and
+    // Laser's only ship as a component-tagged vanilla stack - which trainers
+    // can't hold, since RCT resolves heldItem through the item registry. It
+    // has no per-item lang keys (it reuses the source pack's translated name
+    // at runtime), so the lang scan above finds none of its 76 items.
+    const spamJar = manifest.sources.find((s) => s.id === "spammegas");
+    if (spamJar) {
+      const spamManifest = readText(openZip(resolvePath(sourceRoot, spamJar.file)), "spammegas_items.json");
+      for (const entry of spamManifest ? (JSON.parse(spamManifest) as any[]) : []) {
+        itemIndex.push({
+          id: `spammegas:${entry.path}`,
+          bare: entry.path,
+          ns: "spammegas",
+          // name_translate points at the *source* pack's lang key, which is
+          // already in the lang map; name_fallback is the mod's own baked-in
+          // English, and some entries carry only one of the two.
+          name:
+            ingested.lang.get(entry.name_translate)?.value ??
+            entry.name_fallback ??
+            entry.path.replace(/_/g, " ").replace(/\b\w/g, (c: string) => c.toUpperCase()),
+        });
+      }
+    }
+    // Held items were resolved against cobblemon/minecraft lang keys only, so
+    // every modded one rendered as its raw id - "Spammegas:Typhlonite",
+    // "Mega Showdown:Blastoisinite". Looked up by full id first, then by bare
+    // name, since the pack writes Cobblemon's items without a namespace.
+    const itemNameById = new Map(itemIndex.map((i) => [i.id, i.name]));
+    const itemNameByBare = new Map<string, string>();
+    for (const i of itemIndex) if (!itemNameByBare.has(i.bare)) itemNameByBare.set(i.bare, i.name);
     // Two records can share a bare identifier: the real species plus a
     // mega-addition pack that registers its own thin entry under another
     // namespace (e.g. rlm_megas' Mawile, which carries only form data and no
@@ -828,12 +870,8 @@ async function main() {
             return a ? { name: a.name, desc: a.desc ?? a.shortDesc ?? null } : null;
           },
           resolveItem: (id) => {
-            const bare = id.replace(/^[a-z_]+:/, "");
-            return (
-              ingested.lang.get(`item.cobblemon.${bare}`)?.value ??
-              ingested.lang.get(`item.minecraft.${bare}`)?.value ??
-              null
-            );
+            const bare = id.replace(/^[a-z0-9_]+:/, "");
+            return itemNameById.get(id) ?? itemNameByBare.get(bare) ?? null;
           },
         }
       );
@@ -859,42 +897,8 @@ async function main() {
       // browser, replacing only the edited trainer files and copying every
       // other entry across untouched.
       copyFileSync(packPath, resolvePath(PUBLIC_DIR, "trainer-pack.zip"));
-      // Item list for the held-item and bag pickers. Harvested from the lang
-      // files so it reflects this server's actual (mod-renamed) item names.
-      // Every namespace counts, not just cobblemon/minecraft: trainers hold
-      // mega stones from mega_showdown and zamega, and restricting the scan
-      // left 31 of them missing from the picker (shown as a raw id, unpickable).
-      // `item.name.*` / `item.desc.*` are lang scaffolding, not real items.
-      const itemIndex = [...ingested.lang.entries()]
-        .filter(([k]) => /^item\.[a-z0-9_]+\.[a-z0-9_]+$/.test(k) && !/^item\.(name|desc|decs1)\./.test(k))
-        .map(([k, v]) => {
-          const [, ns, path] = k.split(".");
-          return { id: `${ns}:${path}`, bare: path, ns, name: v.value };
-        });
-      // SpaM Megas registers a real item for each mega that Xadok's, Lotus and
-      // Laser's only ship as a component-tagged vanilla stack - which trainers
-      // can't hold, since RCT resolves heldItem through the item registry. It
-      // has no per-item lang keys (it reuses the source pack's translated name
-      // at runtime), so the lang scan above finds none of its 76 items and the
-      // picker couldn't offer them. Its own manifest lists them instead.
-      const spamJar = manifest.sources.find((s) => s.id === "spammegas");
-      if (spamJar) {
-        const manifest = readText(openZip(resolvePath(sourceRoot, spamJar.file)), "spammegas_items.json");
-        for (const entry of manifest ? (JSON.parse(manifest) as any[]) : []) {
-          itemIndex.push({
-            id: `spammegas:${entry.path}`,
-            bare: entry.path,
-            ns: "spammegas",
-            // name_translate points at the *source* pack's lang key, which is
-            // already in the lang map; name_fallback is the mod's own baked-in
-            // English, and some entries carry only one of the two.
-            name:
-              ingested.lang.get(entry.name_translate)?.value ??
-              entry.name_fallback ??
-              entry.path.replace(/_/g, " ").replace(/\b\w/g, (c: string) => c.toUpperCase()),
-          });
-        }
-      }
+      // Same list the held-item resolver above uses, now sorted for the
+      // editor's held-item and bag pickers.
       itemIndex.sort((a, b) => a.name.localeCompare(b.name));
       writeFileSync(resolvePath(PUBLIC_DIR, "items-index.json"), JSON.stringify(itemIndex), "utf-8");
       // Species picker for the editor. Keyed by the bare Cobblemon identifier
