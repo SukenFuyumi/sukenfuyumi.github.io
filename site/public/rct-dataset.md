@@ -22,12 +22,23 @@ El archivo `rct-dataset.json` que acompaña a este documento trae las listas com
 - ability: id en minúsculas y sin espacios ('roughskin', no 'Rough Skin'). Debe estar en abilities o hiddenAbilities de esa especie.
 - moveset: máximo 4, ids en minúsculas y sin espacios ('closecombat', no 'Close Combat'). Deben estar en la lista moves de esa especie.
 - heldItem: usa el campo 'write' del objeto en items. Los de cobblemon van sin namespace ('life_orb'); los de mods lo conservan ('mega_showdown:lucarionite'). Acepta string o array de un elemento.
+- bag[].item: OJO, convención distinta a heldItem. Aquí SIEMPRE va el id completo con namespace, incluso los de cobblemon: usa el campo 'id' del objeto, no 'write' ('cobblemon:full_restore').
+- battleRules.maxItemUses debe acompañar a bag: es cuántos objetos puede gastar la IA. Sin él la mochila no se usa.
+- Campos opcionales poco frecuentes: 'shiny' (bool) en un miembro, e 'identity' a nivel de entrenador. 'form' y 'variant' son formas antiguas de escribir aspects; para equipos nuevos usa aspects.
 - gimmicks.mega solo funciona si el Pokémon sostiene la piedra correspondiente: comprueba la pareja en megaStones.
 - gimmicks.tera necesita ADEMÁS que el entrenador tenga ai.data.canTera = true; sin eso la IA nunca teracristaliza.
 - ai.data.teraTarget es opcional y nombra a un miembro del propio equipo (por su id de species); la IA teracristaliza el primero que coincida.
 - ivs/evs: claves hp, atk, def, spa, spd, spe. IVs 0-31; EVs 0-252 y como mucho 510 en total.
 - level: 1-100. El level cap que ve el jugador es el nivel más alto del equipo, así que subirlo cambia la progresión.
 - battleFormat: GEN_9_DOUBLES hace el combate de dobles; el equipo necesita al menos 2 Pokémon.
+
+## Lo que esto NO garantiza
+
+- Este dataset es vocabulario, no un validador: que un id exista aquí no impide escribirlo en el sitio equivocado. Pasa el resultado por `npm run validate-trainers <zip>` antes de subirlo.
+- La lista de movimientos por especie es su learnset. Cobblemon SÍ permite a un entrenador llevar movimientos fuera del learnset (el pack oficial lo hace en varios sitios), así que salirse es un aviso, no un error.
+- No se comprueba el equilibrio ni la progresión: un equipo puede ser válido y aun así romper el level cap de la región, ya que el cap es el nivel más alto del equipo.
+- Un entrenador nuevo necesita ADEMÁS su archivo en data/rctmod/mobs/trainers/**, y estar encadenado por requiredDefeats, o no aparece en el mundo. Esto solo cubre el archivo de equipo.
+- Refleja los mods instalados el día que se generó. Si actualizas un mod o activas un pack, vuelve a generarlo.
 
 ## Estructura de un archivo de entrenador
 
@@ -82,6 +93,7 @@ El archivo `rct-dataset.json` que acompaña a este documento trae las listas com
         "hp": 252
       },
       "heldItem": "eviolite",
+      "shiny": false,
       "gimmicks": {
         "tera": "rock"
       }

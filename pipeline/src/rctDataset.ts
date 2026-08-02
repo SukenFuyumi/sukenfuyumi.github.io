@@ -135,6 +135,7 @@ export function buildRctDataset(opts: {
     generatedAt: new Date().toISOString().slice(0, 10),
     trainerPack: packName,
     rules: RULES,
+    limits: LIMITS,
     schema: SCHEMA,
     enums: { natures: NATURES, teraTypes: TERA_TYPES, battleFormats: BATTLE_FORMATS, genders: GENDERS, aiTypes: ["rb"] },
     counts: {
@@ -160,6 +161,9 @@ const RULES = [
   "ability: id en minúsculas y sin espacios ('roughskin', no 'Rough Skin'). Debe estar en abilities o hiddenAbilities de esa especie.",
   "moveset: máximo 4, ids en minúsculas y sin espacios ('closecombat', no 'Close Combat'). Deben estar en la lista moves de esa especie.",
   "heldItem: usa el campo 'write' del objeto en items. Los de cobblemon van sin namespace ('life_orb'); los de mods lo conservan ('mega_showdown:lucarionite'). Acepta string o array de un elemento.",
+  "bag[].item: OJO, convención distinta a heldItem. Aquí SIEMPRE va el id completo con namespace, incluso los de cobblemon: usa el campo 'id' del objeto, no 'write' ('cobblemon:full_restore').",
+  "battleRules.maxItemUses debe acompañar a bag: es cuántos objetos puede gastar la IA. Sin él la mochila no se usa.",
+  "Campos opcionales poco frecuentes: 'shiny' (bool) en un miembro, e 'identity' a nivel de entrenador. 'form' y 'variant' son formas antiguas de escribir aspects; para equipos nuevos usa aspects.",
   "gimmicks.mega solo funciona si el Pokémon sostiene la piedra correspondiente: comprueba la pareja en megaStones.",
   "gimmicks.tera necesita ADEMÁS que el entrenador tenga ai.data.canTera = true; sin eso la IA nunca teracristaliza.",
   "ai.data.teraTarget es opcional y nombra a un miembro del propio equipo (por su id de species); la IA teracristaliza el primero que coincida.",
@@ -186,10 +190,24 @@ const SCHEMA = {
       ivs: { hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31 },
       evs: { atk: 252, hp: 252 },
       heldItem: "eviolite",
+      shiny: false,
       gimmicks: { tera: "rock" },
     },
   ],
 };
+
+/**
+ * What the dataset does NOT cover, stated up front so it isn't mistaken for a
+ * guarantee. Everything here is a real way a team file can be wrong while every
+ * id in it is valid.
+ */
+const LIMITS = [
+  "Este dataset es vocabulario, no un validador: que un id exista aquí no impide escribirlo en el sitio equivocado. Pasa el resultado por `npm run validate-trainers <zip>` antes de subirlo.",
+  "La lista de movimientos por especie es su learnset. Cobblemon SÍ permite a un entrenador llevar movimientos fuera del learnset (el pack oficial lo hace en varios sitios), así que salirse es un aviso, no un error.",
+  "No se comprueba el equilibrio ni la progresión: un equipo puede ser válido y aun así romper el level cap de la región, ya que el cap es el nivel más alto del equipo.",
+  "Un entrenador nuevo necesita ADEMÁS su archivo en data/rctmod/mobs/trainers/**, y estar encadenado por requiredDefeats, o no aparece en el mundo. Esto solo cubre el archivo de equipo.",
+  "Refleja los mods instalados el día que se generó. Si actualizas un mod o activas un pack, vuelve a generarlo.",
+];
 
 function renderMarkdown(json: any, megaStones: MegaStone[]): string {
   const L: string[] = [];
@@ -209,6 +227,10 @@ function renderMarkdown(json: any, megaStones: MegaStone[]): string {
   L.push("## Reglas");
   L.push("");
   for (const r of json.rules) L.push(`- ${r}`);
+  L.push("");
+  L.push("## Lo que esto NO garantiza");
+  L.push("");
+  for (const r of json.limits) L.push(`- ${r}`);
   L.push("");
   L.push("## Estructura de un archivo de entrenador");
   L.push("");
