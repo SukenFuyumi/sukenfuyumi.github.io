@@ -1,7 +1,7 @@
 # Dataset RCT — Cobbleverse SpaM Edition
 
-Generado el 2026-08-01 a partir del contenido realmente instalado en el servidor.
-Pack de entrenadores de referencia: `COBBLEVERSE-RCT-DP-v22-RUNANDBUN.zip`.
+Generado el 2026-08-02 a partir del contenido realmente instalado en el servidor.
+Pack de entrenadores de referencia: `COBBLEVERSE-RCT-DP-v23-JOHTO-DOBLES.zip`.
 
 **Todo identificador listado aquí resuelve en el servidor. Cualquier otro falla**, casi siempre en silencio: el Pokémon desaparece del equipo o el objeto se ignora, sin error visible.
 
