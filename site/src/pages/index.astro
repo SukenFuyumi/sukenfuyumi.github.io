@@ -2,10 +2,10 @@
 import Layout from "../layouts/Layout.astro";
 import listing from "../data/generated/index.json";
 import sourcesData from "../data/generated/sources.json";
+import TypeFilterGrid from "../components/TypeFilterGrid.tsx";
 
 const officialCount = listing.filter((p: any) => p.primarySource === "cobblemon-core").length;
 const customCount = listing.length - officialCount;
-const types = ["normal","fire","water","electric","grass","ice","fighting","poison","ground","flying","psychic","bug","rock","ghost","dragon","dark","steel","fairy"];
 const packCount = sourcesData.sources.length;
 ---
 <Layout title="Inicio">
@@ -45,11 +45,11 @@ const packCount = sourcesData.sources.length;
   </div>
 
   <h2>Por tipo</h2>
-  <div style="display:flex; flex-wrap:wrap; gap:0.5rem;">
-    {types.map((t) => (
-      <a class="type-badge" href={`/type/${t}`} style={`background: var(--type-${t})`}>{t}</a>
-    ))}
-  </div>
+  <p style="color:var(--text-muted); font-size:0.9rem; margin:-0.4rem 0 0.6rem;">
+    Filtra por un tipo, o combina dos para encontrar un tipo doble concreto.
+    ¿Buscas la tabla de efectividades? <a href="/type">Ábrela aquí</a>.
+  </p>
+  <TypeFilterGrid client:load />
 
   <h2>Por origen</h2>
   <p><a href="/packs">Ver los {packCount} mods/datapacks activos y sus créditos &rarr;</a></p>

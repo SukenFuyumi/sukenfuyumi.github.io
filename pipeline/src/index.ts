@@ -720,7 +720,7 @@ async function main() {
   // every single detail page's HTML (which was ballooning each page to ~1MB).
   writeFileSync(
     resolvePath(PUBLIC_DIR, "pokedex-sidebar.json"),
-    JSON.stringify(listing.map((l) => ({ slug: l.slug, name: l.name, types: l.types, image: l.image }))),
+    JSON.stringify(listing.map((l) => ({ slug: l.slug, name: l.name, dex: l.nationalPokedexNumber, types: l.types, image: l.image }))),
     "utf-8"
   );
   // Same idea for the /pokedex table and team builder - both need the fuller
