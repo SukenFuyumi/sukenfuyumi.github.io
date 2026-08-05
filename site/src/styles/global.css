@@ -865,10 +865,16 @@ button.team-move { border: 0; cursor: pointer; font-family: inherit; }
   display: grid;
   grid-template-columns: minmax(280px, 360px) 1fr;
   gap: 1.25rem;
-  align-items: stretch;
+  /* Columns are sized to their own content and top-aligned, not stretched to a
+     shared height. Stretching coupled the two: making the left column tall
+     enough to show every ability also stretched the right column, which let
+     the moveset drive the grid and lose its scroll. Independent, each keeps its
+     own behaviour. */
+  align-items: start;
   margin-top: 1.25rem;
-  height: calc(100vh - 170px);
-  min-height: 600px;
+  /* A floor, so a Pokémon with little to show still fills the screen; taller
+     content grows the grid rather than spilling past it. */
+  min-height: max(600px, calc(100vh - 170px));
 }
 .pdx-detail-grid .panel { padding: 1rem; }
 .pdx-detail-left .stat-row { margin: 0.14rem 0; }
@@ -876,38 +882,31 @@ button.team-move { border: 0; cursor: pointer; font-family: inherit; }
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
-  height: 100%;
-  min-height: 0;
   /* Grid children default to min-width:auto, so the moveset table's natural
      width was pushing this column past its track and scrolling the whole page
      sideways. Zero lets the track win and the table scroll inside instead. */
   min-width: 0;
 }
-.pdx-detail-left .detail-header.stacked,
-.panel-stats,
-.panel-defenses {
-  flex-shrink: 0;
+/* Abilities are only ever a handful, so this panel sizes to its content and
+   shows them all - no inner scrollbar. */
+.panel-abilities {
+  display: flex;
+  flex-direction: column;
 }
-.panel-abilities, .panel-moves {
-  flex: 1;
-  min-height: 0;
+.panel-moves {
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
-/* Floors so these never collapse to just their heading on short viewports -
-   if the column truly can't fit, it grows past the grid's height instead
-   (a brief page scroll) rather than silently hiding rows. */
-.panel-abilities { min-height: 130px; }
-.panel-moves { min-height: 180px; }
-.panel-abilities .abilities-scroll,
+/* The moveset is the one long list, so it keeps a scroll - but bounded by the
+   viewport directly rather than by the column, so it stays compact no matter
+   how tall the abilities column beside it grows. */
 .pdx-moveset-scroll {
-  flex: 1;
-  min-height: 0;
   overflow-y: auto;
-  /* The moveset table is wider than the column on narrow viewports; it scrolls
-     within its own box rather than taking the page with it. */
+  /* Also scrolls sideways: the table is wider than the column on narrow
+     viewports and would otherwise drag the page with it. */
   overflow-x: auto;
+  max-height: calc(100vh - 230px);
 }
 
 .defenses-row { display: flex; gap: 1.25rem; flex-wrap: wrap; }
