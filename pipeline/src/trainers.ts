@@ -95,6 +95,7 @@ export interface TrainerTeamMember {
   /** gimmicks.mega - whether it mega evolves. Can be set alongside a tera type. */
   mega: boolean;
   abilityDesc: string | null;
+  abilityMechanics: string[] | null;
   ivs: Record<string, number>;
   evs: Record<string, number>;
   // Move details are embedded (not just ids) so the trainer panel can show a
@@ -168,7 +169,7 @@ export interface TrainerResolvers {
     desc?: string | null;
     mechanics?: string[] | null;
   } | null;
-  resolveAbility: (id: string) => { name: string; desc: string | null } | null;
+  resolveAbility: (id: string) => { name: string; desc: string | null; mechanics?: string[] | null } | null;
   /** Minecraft/Cobblemon item id -> display name, via the lang files. */
   resolveItem: (id: string) => string | null;
 }
@@ -343,6 +344,7 @@ export function buildTrainerData(
         ability: abilityId ? abilityInfo?.name ?? titleCase(abilityId) : null,
         abilityId,
         abilityDesc: abilityInfo?.desc ?? null,
+        abilityMechanics: abilityInfo?.mechanics ?? null,
         heldItemId,
         heldItem: heldItemId ? resolvers.resolveItem(heldItemId) ?? titleCase(heldItemId) : null,
         gender: m.gender ? String(m.gender).toLowerCase() : null,

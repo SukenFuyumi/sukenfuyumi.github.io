@@ -130,6 +130,9 @@ export interface AbilityRecord {
   shortDesc: string | null;
   desc: string | null;
   rating: number | null;
+  /** Stat-multiplier effects read from the ability's code, e.g.
+   *  ["Multiplica su Ataque ×1.5 con un problema de estado"]. */
+  mechanics?: string[];
   sourceId: string;
   isOverride: boolean;
   balanceChanges?: BalanceChange[];

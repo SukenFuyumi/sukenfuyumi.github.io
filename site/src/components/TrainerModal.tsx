@@ -81,9 +81,9 @@ function DetailPopover({ detail, onClose }: { detail: any; onClose: () => void }
         {!isMove && <span class="pill muted">Habilidad</span>}
       </div>
       <p class="detail-pop-desc">{isMove ? m.desc ?? "Sin descripción." : detail.data.desc ?? "Sin descripción."}</p>
-      {isMove && m.mechanics && m.mechanics.length > 0 && (
+      {((isMove && m.mechanics) || (!isMove && detail.data.mechanics))?.length > 0 && (
         <ul class="detail-pop-mechanics">
-          {m.mechanics.map((mech) => <li>{mech}</li>)}
+          {(isMove ? m.mechanics! : detail.data.mechanics).map((mech: string) => <li>{mech}</li>)}
         </ul>
       )}
       <a class="detail-pop-link" href={isMove ? `/moves/${m.id}` : `/abilities/${detail.data.id}`}>
@@ -217,7 +217,7 @@ export default function TrainerModal({ version }: { version?: string }) {
                                 class="linkish"
                                 onClick={(e) => {
                                   e.stopPropagation();
-                                  setDetail({ kind: "ability", data: { id: m.abilityId, name: m.ability, desc: m.abilityDesc } });
+                                  setDetail({ kind: "ability", data: { id: m.abilityId, name: m.ability, desc: m.abilityDesc, mechanics: m.abilityMechanics } });
                                 }}
                               >{m.ability}</button>
                             </dd>

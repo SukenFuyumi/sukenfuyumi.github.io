@@ -1627,6 +1627,10 @@
     "shortDesc": "Powers up Fire-type moves when the Pokémon's HP is low.",
     "desc": "Powers up Fire-type moves when the Pokémon's HP is low.",
     "rating": 2,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con ataques de tipo fire",
+      "Multiplica su At. Especial ×1.5 con ataques de tipo fire"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -2192,6 +2196,13 @@
     "shortDesc": "Blessed by cosmic power, this Pokémon has all of its stats doubled.",
     "desc": "Blessed by cosmic power, this Pokémon has all of its stats doubled.",
     "rating": 5,
+    "mechanics": [
+      "Multiplica su Ataque ×2 (en ciertas condiciones)",
+      "Multiplica su At. Especial ×2 (en ciertas condiciones)",
+      "Multiplica su Defensa ×2 (en ciertas condiciones)",
+      "Multiplica su Def. Especial ×2 (en ciertas condiciones)",
+      "Multiplica su Velocidad ×2 (en ciertas condiciones)"
+    ],
     "sourceId": "fais-mythical-monstrosities",
     "isOverride": true,
     "grantedTo": [
@@ -2304,6 +2315,9 @@
     "shortDesc": "Boosts the Pokémon's Speed stat in harsh sunlight.",
     "desc": "Boosts the Pokémon's Speed stat in harsh sunlight.",
     "rating": 3,
+    "mechanics": [
+      "Multiplica su Velocidad ×2 con sol intenso"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -3512,6 +3526,10 @@
     "shortDesc": "In Blood Moon weather, this Pokémon restores 1/16 max HP each turn and Dark-type moves are boosted by 30%.",
     "desc": "In Blood Moon weather, this Pokémon restores 1/16 max HP each turn and Dark-type moves are boosted by 30%.",
     "rating": 4,
+    "mechanics": [
+      "Multiplica su Ataque ×1.3 (en ciertas condiciones)",
+      "Multiplica su At. Especial ×1.3 (en ciertas condiciones)"
+    ],
     "sourceId": "fais-mythical-monstrosities",
     "isOverride": true,
     "grantedTo": [
@@ -3595,6 +3613,10 @@
     "shortDesc": "This Pokémon's moves do 50% more damage if there is weather on the field.",
     "desc": "This Pokémon's moves do 50% more damage if there is weather on the field.",
     "rating": 4,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con sol intenso",
+      "Multiplica su At. Especial ×1.5 con sol intenso"
+    ],
     "sourceId": "lively-mons",
     "isOverride": true,
     "grantedTo": [
@@ -4268,6 +4290,12 @@
     "shortDesc": "Powers up Dark-type moves. Also halves damage taken from Dark-type moves.",
     "desc": "Powers up Dark-type moves. Also halves damage taken from Dark-type moves.",
     "rating": 3.5,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con ataques de tipo dark",
+      "Multiplica su At. Especial ×1.5 con ataques de tipo dark",
+      "Reduce a ×0.5 el Ataque de quien lo golpea con ataques de tipo dark",
+      "Reduce a ×0.5 el At. Especial de quien lo golpea con ataques de tipo dark"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "grantedTo": [
@@ -4442,6 +4470,10 @@
     "shortDesc": "Halves the Pokémon's Attack and Sp. Atk stats when its HP drops to half or less.",
     "desc": "Halves the Pokémon's Attack and Sp. Atk stats when its HP drops to half or less.",
     "rating": -1,
+    "mechanics": [
+      "Multiplica su Ataque ×0.5 con la vida baja",
+      "Multiplica su At. Especial ×0.5 con la vida baja"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -4906,6 +4938,10 @@
     "shortDesc": "Powers up Dragon-type moves.",
     "desc": "Powers up Dragon-type moves.",
     "rating": 3.5,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con ataques de tipo dragon",
+      "Multiplica su At. Especial ×1.5 con ataques de tipo dragon"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -6652,6 +6688,10 @@
     "shortDesc": "Boosts the Sp. Atk and Sp. Def stats of the Pokémon and its allies in harsh sunlight.",
     "desc": "Boosts the Sp. Atk and Sp. Def stats of the Pokémon and its allies in harsh sunlight.",
     "rating": 1,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con sol intenso",
+      "Multiplica su At. Especial ×1.5 con sol intenso"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -7407,6 +7447,11 @@
     "shortDesc": "Halves the damage from physical moves.",
     "desc": "Halves the damage from physical moves.",
     "rating": 4,
+    "mechanics": [
+      "Multiplica su Ataque ×2 (en ciertas condiciones)",
+      "Multiplica su At. Especial ×2 (en ciertas condiciones)",
+      "Multiplica su Defensa ×2"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "grantedTo": [
@@ -8022,6 +8067,9 @@
     "shortDesc": "Boosts the Pokémon's Attack stat but only allows the use of the first selected move.",
     "desc": "Boosts the Pokémon's Attack stat but only allows the use of the first selected move.",
     "rating": 4.5,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 (en ciertas condiciones)"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -8097,6 +8145,9 @@
     "shortDesc": "Boosts the Pokémon's Defense stat on Grassy Terrain.",
     "desc": "Boosts the Pokémon's Defense stat on Grassy Terrain.",
     "rating": 0.5,
+    "mechanics": [
+      "Multiplica su Defensa ×1.5 en campo de Hierba"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -8215,6 +8266,9 @@
     "shortDesc": "Boosts the Pokémon's Speed stat when Gravity is active.",
     "desc": "Boosts the Pokémon's Speed stat when Gravity is active.",
     "rating": 3.5,
+    "mechanics": [
+      "Multiplica su Velocidad ×0.75 (en ciertas condiciones)"
+    ],
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
     "grantedTo": [],
@@ -8364,6 +8418,9 @@
     "shortDesc": "It's so gutsy that having a status condition boosts the Pokémon's Attack stat.",
     "desc": "It's so gutsy that having a status condition boosts the Pokémon's Attack stat.",
     "rating": 3.5,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con un problema de estado"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -8835,6 +8892,10 @@
     "shortDesc": "The Pokémon's heatproof body halves the damage taken from Fire-type moves.",
     "desc": "The Pokémon's heatproof body halves the damage taken from Fire-type moves.",
     "rating": 2,
+    "mechanics": [
+      "Reduce a ×0.5 el Ataque de quien lo golpea con ataques de tipo fire",
+      "Reduce a ×0.5 el At. Especial de quien lo golpea con ataques de tipo fire"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "grantedTo": [
@@ -8904,6 +8965,9 @@
     "shortDesc": "Doubles the Pokémon's weight, making them too heavy to trip. This also decreases the user's Speed slightly.",
     "desc": "Doubles the Pokémon's weight, making them too heavy to trip. This also decreases the user's Speed slightly.",
     "rating": 0,
+    "mechanics": [
+      "Multiplica su Velocidad ×0.5"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -9207,6 +9271,9 @@
     "shortDesc": "Doubles the Pokémon's Attack stat.",
     "desc": "Doubles the Pokémon's Attack stat.",
     "rating": 5,
+    "mechanics": [
+      "Multiplica su Ataque ×2"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -9337,6 +9404,10 @@
     "shortDesc": "Boosts the Pokémon's Attack and Sp. Atk stats but lowers its accuracy.",
     "desc": "Boosts the Pokémon's Attack and Sp. Atk stats but lowers its accuracy.",
     "rating": 3.5,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5",
+      "Multiplica su At. Especial ×1.5"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -9538,6 +9609,9 @@
     "shortDesc": "Cures the Pokémon's status conditions and boosts Sp. Def in rain.",
     "desc": "Cures the Pokémon's status conditions and boosts Sp. Def in rain.",
     "rating": 1.5,
+    "mechanics": [
+      "Multiplica su Def. Especial ×1.25 (en ciertas condiciones)"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -10861,6 +10935,12 @@
     "shortDesc": "Powers up Psychic-type moves. Also halves damage taken from Psychic-type moves.",
     "desc": "Powers up Psychic-type moves. Also halves damage taken from Psychic-type moves.",
     "rating": 3.5,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con ataques de tipo psychic",
+      "Multiplica su At. Especial ×1.5 con ataques de tipo psychic",
+      "Reduce a ×0.5 el Ataque de quien lo golpea con ataques de tipo psychic",
+      "Reduce a ×0.5 el At. Especial de quien lo golpea con ataques de tipo psychic"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "grantedTo": [
@@ -11616,6 +11696,10 @@
     "shortDesc": "The Pokémon's keen eyes prevent its accuracy from being lowered. This also reduces damage taken from light moves.",
     "desc": "The Pokémon's keen eyes prevent its accuracy from being lowered. This also reduces damage taken from light moves.",
     "rating": 0.5,
+    "mechanics": [
+      "Reduce a ×0.8 el Ataque de quien lo golpea (en ciertas condiciones)",
+      "Reduce a ×0.8 el At. Especial de quien lo golpea (en ciertas condiciones)"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -11974,6 +12058,11 @@
     "shortDesc": "Prevents status conditions, boosts the user's Defense, and reduces damage taken from Fire-type moves in harsh sunlight.",
     "desc": "Prevents status conditions, boosts the user's Defense, and reduces damage taken from Fire-type moves in harsh sunlight.",
     "rating": 0.5,
+    "mechanics": [
+      "Multiplica su Defensa ×1.25 con sol intenso",
+      "Reduce a ×0.5 el Ataque de quien lo golpea con ataques de tipo fire",
+      "Reduce a ×0.5 el At. Especial de quien lo golpea con ataques de tipo fire"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -13009,6 +13098,9 @@
     "shortDesc": "Halves the Pokémon's weight. This also increase the user's Speed slightly.",
     "desc": "Halves the Pokémon's weight. This also increase the user's Speed slightly.",
     "rating": 1,
+    "mechanics": [
+      "Multiplica su Velocidad ×1.5"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -14233,6 +14325,10 @@
     "shortDesc": "Summons rain on entry. In rain, Attack and Sp. Atk are 1.5x.",
     "desc": "Summons rain on entry. In rain, Attack and Sp. Atk are 1.5x.",
     "rating": 3,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con lluvia",
+      "Multiplica su At. Especial ×1.5 con lluvia"
+    ],
     "sourceId": "cobblemon-rlm",
     "isOverride": true,
     "grantedTo": [
@@ -14254,6 +14350,9 @@
     "shortDesc": "The Pokémon's marvelous scales boost its Defense stat if it has a status condition.",
     "desc": "The Pokémon's marvelous scales boost its Defense stat if it has a status condition.",
     "rating": 2.5,
+    "mechanics": [
+      "Multiplica su Defensa ×1.5 con un problema de estado"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -14483,6 +14582,9 @@
     "shortDesc": "Raises the user's Sp. Atk but prevents the use of status moves.",
     "desc": "Raises the user's Sp. Atk but prevents the use of status moves.",
     "rating": 3.5,
+    "mechanics": [
+      "Multiplica su At. Especial ×1.5"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "grantedTo": [
@@ -14603,6 +14705,12 @@
     "shortDesc": "Boosts the Defense and Sp. Def stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
     "desc": "Boosts the Defense and Sp. Def stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
     "rating": 0,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 si un aliado tiene la misma habilidad",
+      "Multiplica su At. Especial ×1.5 si un aliado tiene la misma habilidad",
+      "Multiplica su Defensa ×1.5 si un aliado tiene la misma habilidad",
+      "Multiplica su Def. Especial ×1.5 si un aliado tiene la misma habilidad"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -14726,6 +14834,9 @@
     "shortDesc": "Doubles the Pokémon's Speed stat on Misty Terrain.",
     "desc": "Doubles the Pokémon's Speed stat on Misty Terrain.",
     "rating": 3,
+    "mechanics": [
+      "Multiplica su Velocidad ×2 en campo de Niebla"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "grantedTo": [
@@ -15599,6 +15710,9 @@
     "shortDesc": "The Pokémon’s Special Attack stat is doubled.",
     "desc": "The Pokémon’s Special Attack stat is doubled.",
     "rating": 5,
+    "mechanics": [
+      "Multiplica su At. Especial ×2"
+    ],
     "sourceId": "cobblemon-rlm",
     "isOverride": true,
     "grantedTo": [
@@ -15786,6 +15900,9 @@
     "shortDesc": "The power of Netherblaze Edge lowers the Defense of all other Pokémon. Also boosts the power of Fire-type moves.",
     "desc": "The power of Netherblaze Edge lowers the Defense of all other Pokémon. Also boosts the power of Fire-type moves.",
     "rating": 4.5,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con ataques de tipo fire"
+    ],
     "sourceId": "starlightfusion",
     "isOverride": true,
     "grantedTo": [
@@ -15807,6 +15924,9 @@
     "shortDesc": "Netherplate lowers the Sp. Def of other Pokémon, and powers up Fire-type moves.",
     "desc": "Netherplate lowers the Sp. Def of other Pokémon, and powers up Fire-type moves.",
     "rating": 4.5,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con ataques de tipo fire"
+    ],
     "sourceId": "starlightfusion",
     "isOverride": true,
     "grantedTo": [
@@ -16602,6 +16722,10 @@
     "shortDesc": "Powers up Grass-type moves when the Pokémon's HP is low.",
     "desc": "Powers up Grass-type moves when the Pokémon's HP is low.",
     "rating": 2,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con ataques de tipo grass",
+      "Multiplica su At. Especial ×1.5 con ataques de tipo grass"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -17058,6 +17182,9 @@
     "shortDesc": "Doubles the Pokémon's Sp. Atk stat.",
     "desc": "Doubles the Pokémon's Sp. Atk stat.",
     "rating": 5,
+    "mechanics": [
+      "Multiplica su At. Especial ×2"
+    ],
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
     "grantedTo": [
@@ -17186,6 +17313,10 @@
     "shortDesc": "Protective spores surround the user, which halves damage taken from Bug-, Fairy-, and Poison-type moves.",
     "desc": "Protective spores surround the user, which halves damage taken from Bug-, Fairy-, and Poison-type moves.",
     "rating": 4,
+    "mechanics": [
+      "Reduce a ×0.5 el Ataque de quien lo golpea con ataques de tipo bug",
+      "Reduce a ×0.5 el At. Especial de quien lo golpea con ataques de tipo bug"
+    ],
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
     "grantedTo": [
@@ -17506,6 +17637,12 @@
     "shortDesc": "Boosts the Attack and Sp. Atk stats of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
     "desc": "Boosts the Attack and Sp. Atk stats of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
     "rating": 0,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 si un aliado tiene la misma habilidad",
+      "Multiplica su At. Especial ×1.5 si un aliado tiene la misma habilidad",
+      "Multiplica su Defensa ×1.5 si un aliado tiene la misma habilidad",
+      "Multiplica su Def. Especial ×1.5 si un aliado tiene la misma habilidad"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -18983,6 +19120,9 @@
     "shortDesc": "Using its pure power, the Pokémon doubles its Attack stat.",
     "desc": "Using its pure power, the Pokémon doubles its Attack stat.",
     "rating": 5,
+    "mechanics": [
+      "Multiplica su Ataque ×2"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -19016,6 +19156,10 @@
     "shortDesc": "The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.",
     "desc": "The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.",
     "rating": 4,
+    "mechanics": [
+      "Reduce a ×0.5 el Ataque de quien lo golpea con ataques de tipo ghost",
+      "Reduce a ×0.5 el At. Especial de quien lo golpea con ataques de tipo ghost"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -19220,6 +19364,9 @@
     "shortDesc": "Boosts the Speed stat if the Pokémon has a status condition.",
     "desc": "Boosts the Speed stat if the Pokémon has a status condition.",
     "rating": 2.5,
+    "mechanics": [
+      "Multiplica su Velocidad ×1.5 con un problema de estado"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -20050,6 +20197,9 @@
     "shortDesc": "It's so resilient that having a status condition boosts the Pokémon's Sp. Atk stat.",
     "desc": "It's so resilient that having a status condition boosts the Pokémon's Sp. Atk stat.",
     "rating": 3.5,
+    "mechanics": [
+      "Multiplica su At. Especial ×1.5 con un problema de estado"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "grantedTo": [
@@ -20558,6 +20708,12 @@
     "shortDesc": "Powers up Rock-type moves. Also halves damage taken from Rock-type moves.",
     "desc": "Powers up Rock-type moves. Also halves damage taken from Rock-type moves.",
     "rating": 3.5,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con ataques de tipo rock",
+      "Multiplica su At. Especial ×1.5 con ataques de tipo rock",
+      "Reduce a ×0.5 el Ataque de quien lo golpea con ataques de tipo rock",
+      "Reduce a ×0.5 el At. Especial de quien lo golpea con ataques de tipo rock"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -21050,6 +21206,11 @@
     "shortDesc": "Prevents status conditions and boosts the user's Defense in sandstorms.",
     "desc": "Prevents status conditions and boosts the user's Defense in sandstorms.",
     "rating": 3.5,
+    "mechanics": [
+      "Multiplica su Defensa ×1.25 con tormenta de arena",
+      "Reduce a ×0.5 el Ataque de quien lo golpea con ataques de tipo water",
+      "Reduce a ×0.5 el At. Especial de quien lo golpea con ataques de tipo water"
+    ],
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
     "grantedTo": [
@@ -21119,6 +21280,9 @@
     "shortDesc": "Boosts the Pokémon's Speed stat in a sandstorm.",
     "desc": "Boosts the Pokémon's Speed stat in a sandstorm.",
     "rating": 3,
+    "mechanics": [
+      "Multiplica su Velocidad ×2 con tormenta de arena"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -23096,6 +23260,9 @@
     "shortDesc": "Boosts the Pokémon's Speed stat in snow.",
     "desc": "Boosts the Pokémon's Speed stat in snow.",
     "rating": 3,
+    "mechanics": [
+      "Multiplica su Velocidad ×2 con granizo"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -23428,6 +23595,11 @@
     "shortDesc": "Prevents status conditions, boosts the user's Sp. Def, and reduces damage taken from Fire-type moves in snow or hail.",
     "desc": "Prevents status conditions, boosts the user's Sp. Def, and reduces damage taken from Fire-type moves in snow or hail.",
     "rating": 3.5,
+    "mechanics": [
+      "Multiplica su Def. Especial ×1.25 con nieve",
+      "Reduce a ×0.5 el Ataque de quien lo golpea con ataques de tipo fire",
+      "Reduce a ×0.5 el At. Especial de quien lo golpea con ataques de tipo fire"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "grantedTo": [
@@ -23558,6 +23730,9 @@
     "shortDesc": "In harsh sunlight, the Pokémon's Sp. Atk stat is boosted, but its HP decreases every turn.",
     "desc": "In harsh sunlight, the Pokémon's Sp. Atk stat is boosted, but its HP decreases every turn.",
     "rating": 2,
+    "mechanics": [
+      "Multiplica su At. Especial ×1.5 con sol intenso"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -24163,6 +24338,10 @@
     "shortDesc": "Doubles the damage dealt to a target that has just switched into battle.",
     "desc": "Doubles the damage dealt to a target that has just switched into battle.",
     "rating": 4.5,
+    "mechanics": [
+      "Multiplica su Ataque ×2 (en ciertas condiciones)",
+      "Multiplica su At. Especial ×2 (en ciertas condiciones)"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -24894,6 +25073,12 @@
     "shortDesc": "Powers up Steel-type moves. Also halves damage taken from Steel-type moves.",
     "desc": "Powers up Steel-type moves. Also halves damage taken from Steel-type moves.",
     "rating": 3.5,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con ataques de tipo steel",
+      "Multiplica su At. Especial ×1.5 con ataques de tipo steel",
+      "Reduce a ×0.5 el Ataque de quien lo golpea con ataques de tipo steel",
+      "Reduce a ×0.5 el At. Especial de quien lo golpea con ataques de tipo steel"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "balanceChanges": [
@@ -25994,6 +26179,9 @@
     "shortDesc": "Doubles the Pokémon's Speed stat on Electric Terrain.",
     "desc": "Doubles the Pokémon's Speed stat on Electric Terrain.",
     "rating": 3,
+    "mechanics": [
+      "Multiplica su Velocidad ×2 en campo Eléctrico"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -26108,6 +26296,10 @@
     "shortDesc": "Powers up Bug-type moves when the Pokémon's HP is low.",
     "desc": "Powers up Bug-type moves when the Pokémon's HP is low.",
     "rating": 2,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con ataques de tipo bug",
+      "Multiplica su At. Especial ×1.5 con ataques de tipo bug"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -26497,6 +26689,9 @@
     "shortDesc": "Boosts the Pokémon's Speed stat in rain.",
     "desc": "Boosts the Pokémon's Speed stat in rain.",
     "rating": 3,
+    "mechanics": [
+      "Multiplica su Velocidad ×2 con lluvia"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -27491,6 +27686,10 @@
     "shortDesc": "The Pokémon anticipates and dodges the attacks of its allies.",
     "desc": "The Pokémon anticipates and dodges the attacks of its allies.",
     "rating": 0,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 si un aliado tiene la misma habilidad",
+      "Multiplica su At. Especial ×1.5 si un aliado tiene la misma habilidad"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "grantedTo": [
@@ -27848,6 +28047,10 @@
     "shortDesc": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves.",
     "desc": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves.",
     "rating": 3.5,
+    "mechanics": [
+      "Reduce a ×0.5 el Ataque de quien lo golpea con ataques de tipo ice",
+      "Reduce a ×0.5 el At. Especial de quien lo golpea con ataques de tipo ice"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "grantedTo": [
@@ -28188,6 +28391,10 @@
     "shortDesc": "Powers up Water-type moves when the Pokémon's HP is low.",
     "desc": "Powers up Water-type moves when the Pokémon's HP is low.",
     "rating": 2,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con ataques de tipo water",
+      "Multiplica su At. Especial ×1.5 con ataques de tipo water"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -28695,6 +28902,10 @@
     "shortDesc": "Powers up Electric-type moves.",
     "desc": "Powers up Electric-type moves.",
     "rating": 3.5,
+    "mechanics": [
+      "Multiplica su Ataque ×1.300048828125 con ataques de tipo electric",
+      "Multiplica su At. Especial ×1.300048828125 con ataques de tipo electric"
+    ],
     "sourceId": "cobblemon-core",
     "isOverride": false,
     "grantedTo": [
@@ -28840,6 +29051,12 @@
     "shortDesc": "The Pokémon is turbocharged with electricity, which powers up Electric-type moves and halves the damage taken from Electric-type moves. When hit by an electric type move, its speed stat is boosted.",
     "desc": "The Pokémon is turbocharged with electricity, which powers up Electric-type moves and halves the damage taken from Electric-type moves. When hit by an electric type move, its speed stat is boosted.",
     "rating": 3.5,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con ataques de tipo electric",
+      "Multiplica su At. Especial ×1.5 con ataques de tipo electric",
+      "Reduce a ×0.5 el Ataque de quien lo golpea con ataques de tipo electric",
+      "Reduce a ×0.5 el At. Especial de quien lo golpea con ataques de tipo electric"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "grantedTo": [
@@ -29233,6 +29450,10 @@
     "shortDesc": "If the Pokémon uses moves that make direct contact, it can attack the target even if the target protects itself.",
     "desc": "If the Pokémon uses moves that make direct contact, it can attack the target even if the target protects itself.",
     "rating": 2,
+    "mechanics": [
+      "Multiplica su Ataque ×0.5 (en ciertas condiciones)",
+      "Multiplica su At. Especial ×0.5 (en ciertas condiciones)"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "grantedTo": [
@@ -29290,6 +29511,9 @@
     "shortDesc": "The Pokémon's Special Def stat is doubled and has a 50% chance to badly poison on contact.",
     "desc": "The Pokémon's Special Def stat is doubled and has a 50% chance to badly poison on contact.",
     "rating": 5,
+    "mechanics": [
+      "Multiplica su Def. Especial ×1.5"
+    ],
     "sourceId": "cobblemon-rlm",
     "isOverride": true,
     "grantedTo": [
@@ -29553,6 +29777,9 @@
     "shortDesc": "Boosts the Pokémon's Speed stat in void fog.",
     "desc": "Boosts the Pokémon's Speed stat in void fog.",
     "rating": 3,
+    "mechanics": [
+      "Multiplica su Velocidad ×2 (en ciertas condiciones)"
+    ],
     "sourceId": "lasers-fakemon-pack",
     "isOverride": true,
     "grantedTo": [
@@ -29925,6 +30152,12 @@
     "shortDesc": "Lowers the power of Fire-type moves that hit the Pokémon and prevents it from being burned.",
     "desc": "Lowers the power of Fire-type moves that hit the Pokémon and prevents it from being burned.",
     "rating": 4.5,
+    "mechanics": [
+      "Multiplica su Ataque ×1.5 con ataques de tipo water",
+      "Multiplica su At. Especial ×1.5 con ataques de tipo water",
+      "Reduce a ×0.5 el Ataque de quien lo golpea con ataques de tipo fire",
+      "Reduce a ×0.5 el At. Especial de quien lo golpea con ataques de tipo fire"
+    ],
     "sourceId": "lasers-additions",
     "isOverride": true,
     "grantedTo": [

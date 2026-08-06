@@ -19,6 +19,7 @@ import { ABILITY_TYPE_IMMUNITIES } from "./abilityEffects.js";
 import { buildTerrainWeatherIndex } from "./terrainWeather.js";
 import { describeSecondaryEffects, summarizeSecondaryEffects } from "./secondaryEffects.js";
 import { deriveMoveMechanics } from "./moveMechanics.js";
+import { deriveAbilityMechanics } from "./abilityMechanics.js";
 import { buildTrainerData, assertTrainerPackReadable } from "./trainers.js";
 import { buildRctDataset } from "./rctDataset.js";
 import { PUBLIC_TEXTURES_DIR, PUBLIC_RENDERS_DIR, PUBLIC_DIR } from "./config.js";
@@ -171,6 +172,9 @@ async function main() {
     const langDesc = ingested.lang.get(`cobblemon.ability.${id}.desc`)?.value ?? null;
     const langName = ingested.lang.get(`cobblemon.ability.${id}`)?.value ?? null;
     const finalDesc = langDesc ?? data.desc ?? null;
+    // The callbacks survive as real functions in `data`, so their source can be
+    // read for the stat multipliers the description often omits.
+    const abilityMechanics = deriveAbilityMechanics(data);
     const balanceChanges = override
       ? computeBalanceChanges(base, data, [["rating", "Valoración"]], {
           field: "desc",
@@ -186,6 +190,7 @@ async function main() {
       shortDesc: langDesc ?? data.shortDesc ?? null,
       desc: finalDesc,
       rating: data.rating ?? null,
+      mechanics: abilityMechanics.length > 0 ? abilityMechanics : undefined,
       sourceId: override?.provenance ? Object.values(override.provenance)[0] : "cobblemon-core",
       isOverride: !!override,
       balanceChanges: balanceChanges.length > 0 ? balanceChanges : undefined,
@@ -871,7 +876,7 @@ async function main() {
           },
           resolveAbility: (id) => {
             const a = abilityLookup.get(resolveAbilityId(normalizeAbilityId(id)));
-            return a ? { name: a.name, desc: a.desc ?? a.shortDesc ?? null } : null;
+            return a ? { name: a.name, desc: a.desc ?? a.shortDesc ?? null, mechanics: a.mechanics ?? null } : null;
           },
           resolveItem: (id) => {
             const bare = id.replace(/^[a-z0-9_]+:/, "");

@@ -35,6 +35,15 @@ const grantedToSorted = (a.grantedTo ?? [])
       {a.isOverride && <span class="pill override">modificada por {sourceLookup.get(a.sourceId) ?? a.sourceId}</span>}
     </h1>
     <p>{a.desc || a.shortDesc || "Sin descripción disponible."}</p>
+    {a.mechanics?.length > 0 && (
+      <div class="move-mechanics">
+        <strong>Efectos sobre las características</strong>
+        <span class="move-mechanics-note">leídos del código de la habilidad</span>
+        <ul>
+          {a.mechanics.map((mech: string) => <li>{mech}</li>)}
+        </ul>
+      </div>
+    )}
     {a.immuneTo?.[0] === "*" && <p><span class="pill override">Inmune a cualquier movimiento que no sea supereficaz</span></p>}
     {a.immuneTo?.length > 0 && a.immuneTo[0] !== "*" && (
       <p>
