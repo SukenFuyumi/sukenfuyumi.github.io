@@ -19,6 +19,7 @@ interface MoveInfo {
   accuracy: number | boolean | null;
   pp: number | null;
   desc: string | null;
+  mechanics?: string[] | null;
 }
 
 const STAT_LABELS: Record<string, string> = { hp: "HP", atk: "ATK", def: "DEF", spa: "SPA", spd: "SPD", spe: "SPE" };
@@ -80,6 +81,11 @@ function DetailPopover({ detail, onClose }: { detail: any; onClose: () => void }
         {!isMove && <span class="pill muted">Habilidad</span>}
       </div>
       <p class="detail-pop-desc">{isMove ? m.desc ?? "Sin descripción." : detail.data.desc ?? "Sin descripción."}</p>
+      {isMove && m.mechanics && m.mechanics.length > 0 && (
+        <ul class="detail-pop-mechanics">
+          {m.mechanics.map((mech) => <li>{mech}</li>)}
+        </ul>
+      )}
       <a class="detail-pop-link" href={isMove ? `/moves/${m.id}` : `/abilities/${detail.data.id}`}>
         Ver ficha completa →
       </a>

@@ -37,16 +37,16 @@ const changesSummary = move?.balanceChanges?.length
       <td>{move.accuracy === true ? "—" : move.accuracy}</td>
       <td>{move.pp ?? "—"}</td>
       <td>
-        {move.secondaryEffects?.length ? (
-          move.secondaryEffects.map((s: any) => (
-            <div class="secondary-effect">
-              {s.chance !== null && <span class="chance">{s.chance}%</span>}
-              {s.effect}
-            </div>
-          ))
-        ) : (
-          "—"
-        )}
+        {move.secondaryEffects?.map((s: any) => (
+          <div class="secondary-effect">
+            {s.chance !== null && <span class="chance">{s.chance}%</span>}
+            {s.effect}
+          </div>
+        ))}
+        {move.mechanics?.map((mech: string) => (
+          <div class="move-mechanics-inline">{mech}</div>
+        ))}
+        {!move.secondaryEffects?.length && !move.mechanics?.length && "—"}
       </td>
       <td>{move.isOverride && <span class="pill override">rebalanceado</span>}</td>
     </>

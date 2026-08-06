@@ -329,6 +329,32 @@ tr:hover td { background: var(--row-hover); }
 }
 td .secondary-effect { margin-left: 0; font-size: 0.78rem; color: var(--text-muted); }
 
+/* Guaranteed mechanics read from the move's code. In tables they sit in the
+   effect cell as a quiet extra line under any chance-based effect; a left rule
+   keeps them visually distinct without a heading in the cramped column. */
+.move-mechanics-inline {
+  display: block;
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  border-left: 2px solid var(--accent);
+  padding-left: 0.4rem;
+  margin-top: 0.15rem;
+}
+/* On the move detail page it gets a proper labelled list. */
+.move-mechanics { margin: 0.6rem 0; }
+.move-mechanics > strong { font-size: 0.9rem; }
+.move-mechanics-note { font-size: 0.75rem; color: var(--text-muted); margin-left: 0.4rem; }
+.move-mechanics ul { margin: 0.35rem 0 0; padding-left: 1.1rem; }
+.move-mechanics li { margin: 0.15rem 0; }
+/* And a compact list inside the trainer panel's move popover. */
+.detail-pop-mechanics {
+  margin: 0.1rem 0 0.4rem;
+  padding-left: 1rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+.detail-pop-mechanics li { margin: 0.12rem 0; }
+
 /* ---- Progresión (trainers) ---- */
 .prog-cards { display: grid; gap: 0.7rem; grid-template-columns: repeat(auto-fill, minmax(min(270px, 100%), 1fr)); }
 

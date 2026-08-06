@@ -70,6 +70,15 @@ const learnedBySorted = (m.learnedBy ?? [])
       </p>
     )}
     {(m.shortDesc || m.desc) && <p>{m.desc || m.shortDesc}</p>}
+    {m.mechanics?.length > 0 && (
+      <div class="move-mechanics">
+        <strong>Efectos garantizados</strong>
+        <span class="move-mechanics-note">leídos del código del movimiento</span>
+        <ul>
+          {m.mechanics.map((mech: string) => <li>{mech}</li>)}
+        </ul>
+      </div>
+    )}
     {Object.keys(m.flags ?? {}).length > 0 && (
       <p style="font-size:0.85rem; color:var(--text-muted);">
         {Object.keys(m.flags).map((f) => flagLabels[f] ?? f).join(" · ")}

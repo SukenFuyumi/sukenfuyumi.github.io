@@ -109,6 +109,7 @@ export interface TrainerTeamMember {
     accuracy: number | boolean | null;
     pp: number | null;
     desc: string | null;
+    mechanics: string[] | null;
   }[];
 }
 
@@ -165,6 +166,7 @@ export interface TrainerResolvers {
     accuracy?: number | boolean | null;
     pp?: number | null;
     desc?: string | null;
+    mechanics?: string[] | null;
   } | null;
   resolveAbility: (id: string) => { name: string; desc: string | null } | null;
   /** Minecraft/Cobblemon item id -> display name, via the lang files. */
@@ -361,6 +363,7 @@ export function buildTrainerData(
             accuracy: info?.accuracy ?? null,
             pp: info?.pp ?? null,
             desc: info?.desc ?? null,
+            mechanics: info?.mechanics ?? null,
           };
         }),
       };

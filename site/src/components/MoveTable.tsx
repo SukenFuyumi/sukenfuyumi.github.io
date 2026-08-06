@@ -11,6 +11,7 @@ interface Move {
   pp: number | null;
   isOverride: boolean;
   secondarySummary?: string;
+  mechanicsSummary?: string;
 }
 
 export default function MoveTable() {
@@ -69,7 +70,11 @@ export default function MoveTable() {
               <td>{m.basePower || "—"}</td>
               <td>{m.accuracy === true ? "—" : m.accuracy}</td>
               <td>{m.pp ?? "—"}</td>
-              <td>{m.secondarySummary ? <span class="secondary-effect">{m.secondarySummary}</span> : "—"}</td>
+              <td>
+                {m.secondarySummary && <span class="secondary-effect">{m.secondarySummary}</span>}
+                {m.mechanicsSummary && <span class="move-mechanics-inline">{m.mechanicsSummary}</span>}
+                {!m.secondarySummary && !m.mechanicsSummary && "—"}
+              </td>
               <td>{m.isOverride && <span class="pill override">rebalanceado</span>}</td>
             </tr>
           ))}

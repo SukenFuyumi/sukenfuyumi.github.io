@@ -18,6 +18,7 @@ import { TYPE_COLORS, typeColor } from "./typeColors.js";
 import { ABILITY_TYPE_IMMUNITIES } from "./abilityEffects.js";
 import { buildTerrainWeatherIndex } from "./terrainWeather.js";
 import { describeSecondaryEffects, summarizeSecondaryEffects } from "./secondaryEffects.js";
+import { deriveMoveMechanics } from "./moveMechanics.js";
 import { buildTrainerData, assertTrainerPackReadable } from "./trainers.js";
 import { buildRctDataset } from "./rctDataset.js";
 import { PUBLIC_TEXTURES_DIR, PUBLIC_RENDERS_DIR, PUBLIC_DIR } from "./config.js";
@@ -105,6 +106,7 @@ async function main() {
     // swaps the inflicted status) is reflected without extra handling.
     const secondaryEffects = describeSecondaryEffects(data);
     const secondarySummary = summarizeSecondaryEffects(secondaryEffects);
+    const mechanics = deriveMoveMechanics(data);
     const balanceChanges = override
       ? computeBalanceChanges(
           base,
@@ -148,6 +150,7 @@ async function main() {
       desc: finalDesc,
       secondaryEffects: secondaryEffects.length > 0 ? secondaryEffects : undefined,
       secondarySummary: secondarySummary ?? undefined,
+      mechanics: mechanics.length > 0 ? mechanics : undefined,
       sourceId: override?.provenance ? Object.values(override.provenance)[0] : "cobblemon-core",
       isOverride: !!override,
       balanceChanges: balanceChanges.length > 0 ? balanceChanges : undefined,
@@ -739,7 +742,7 @@ async function main() {
   writeFileSync(
     resolvePath(PUBLIC_DIR, "moves-index.json"),
     JSON.stringify(
-      allMoves.map((m) => ({ id: m.id, name: m.name, type: m.type, category: m.category, basePower: m.basePower, accuracy: m.accuracy, pp: m.pp, isOverride: m.isOverride, secondarySummary: m.secondarySummary }))
+      allMoves.map((m) => ({ id: m.id, name: m.name, type: m.type, category: m.category, basePower: m.basePower, accuracy: m.accuracy, pp: m.pp, isOverride: m.isOverride, secondarySummary: m.secondarySummary, mechanicsSummary: m.mechanics?.join(" · ") }))
     ),
     "utf-8"
   );
@@ -862,6 +865,7 @@ async function main() {
                   accuracy: m.accuracy,
                   pp: m.pp,
                   desc: m.desc ?? m.shortDesc ?? null,
+                  mechanics: m.mechanics ?? null,
                 }
               : null;
           },

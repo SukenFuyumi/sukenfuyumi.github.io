@@ -115,6 +115,9 @@ export interface MoveRecord {
   secondaryEffects?: { chance: number | null; effect: string }[];
   /** One-line render of the above, e.g. "30% envenenar". */
   secondarySummary?: string;
+  /** Guaranteed mechanical effects read from the move's code, e.g.
+   *  ["+2 Ataque (al usuario)", "Recupera el 50% del daño causado"]. */
+  mechanics?: string[];
   sourceId: string;
   isOverride: boolean;
   balanceChanges?: BalanceChange[];
