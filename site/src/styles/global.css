@@ -980,3 +980,39 @@ button.team-move { border: 0; cursor: pointer; font-family: inherit; }
   .panel-abilities .abilities-scroll, .pdx-moveset-scroll { max-height: none; overflow-y: visible; overflow-x: auto; flex: none; }
   .defenses-row { flex-direction: column; gap: 0.6rem; }
 }
+
+/* ---- Team builder: whole-team defensive coverage ---- */
+.team-analysis { margin-top: 1.25rem; }
+.ta-note { color: var(--text-muted); font-size: 0.85rem; margin: 0 0 0.9rem; }
+.ta-shared {
+  background: var(--pill-override-bg, rgba(220,80,80,0.12));
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 1rem;
+}
+.ta-shared > strong { display: block; margin-bottom: 0.4rem; }
+.ta-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); }
+.ta-h { font-size: 0.9rem; margin: 0 0 0.5rem; padding-bottom: 0.25rem; border-bottom: 2px solid var(--border); }
+.ta-h-weak { border-color: #d15a5a; }
+.ta-h-resist { border-color: #4caf6a; }
+.ta-h-immune { border-color: #8a8f99; }
+.ta-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.ta-chip { display: inline-flex; align-items: center; gap: 0.3rem; }
+/* Count badge: how many members fall in this bucket for the type. */
+.ta-chip b {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.8rem;
+  min-width: 1.1rem;
+  height: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  color: #fff;
+}
+.ta-weak { background: #d15a5a; }
+.ta-resist { background: #4caf6a; }
+.ta-immune { background: #8a8f99; }
+.ta-none { color: var(--text-muted); font-size: 0.85rem; margin: 0; }
+.ta-legend { color: var(--text-muted); font-size: 0.78rem; margin: 0.9rem 0 0; }

@@ -29,7 +29,22 @@ function displaySlotImg(p: MonListing) {
   return <img src={p.image.url ?? ""} alt={p.name} style={{ width: 56, height: 56, objectFit: "contain", imageRendering: p.image.kind === "texture" ? "pixelated" : "auto" }} />;
 }
 
-export default function TeamBuilder() {
+type Matrix = Record<string, Record<string, number>>;
+
+const TYPE_LABELS: Record<string, string> = {
+  normal: "Normal", fire: "Fuego", water: "Agua", electric: "Eléctrico", grass: "Planta",
+  ice: "Hielo", fighting: "Lucha", poison: "Veneno", ground: "Tierra", flying: "Volador",
+  psychic: "Psíquico", bug: "Bicho", rock: "Roca", ghost: "Fantasma", dragon: "Dragón",
+  dark: "Siniestro", steel: "Acero", fairy: "Hada", stellar: "Astral",
+};
+
+/** How a set of defending types takes an attack of `atk`: product of each
+ *  defending type's multiplier, so dual types fold to 0 / .25 / .5 / 1 / 2 / 4. */
+function multiplierAgainst(matrix: Matrix, atk: string, defTypes: string[]): number {
+  return defTypes.reduce((mult, d) => mult * (matrix[atk]?.[d] ?? 1), 1);
+}
+
+export default function TeamBuilder({ matrix }: { matrix: Matrix }) {
   const [pokemon, setPokemon] = useState<MonListing[]>([]);
   const [team, setTeam] = useState<(MonListing | null)[]>(Array(SLOT_COUNT).fill(null));
   const [pickerSlot, setPickerSlot] = useState<number | null>(null);
@@ -89,6 +104,33 @@ export default function TeamBuilder() {
     return pokemon.filter((p) => p.name.toLowerCase().includes(q)).slice(0, 60);
   }, [pokemon, query]);
 
+  // Defensive coverage of the whole team: per attacking type, which members are
+  // weak (×2/×4), which resist (×0.25/×0.5), which are immune (×0). Purely by
+  // typing - the builder doesn't track abilities, so ability immunities like
+  // Levitate aren't factored, same as any standard team-weakness chart.
+  const analysis = useMemo(() => {
+    const members = team.filter((p): p is MonListing => p !== null);
+    if (!members.length) return null;
+    const rows = Object.keys(matrix).map((atk) => {
+      let weak = 0, resist = 0, immune = 0;
+      for (const p of members) {
+        const mult = multiplierAgainst(matrix, atk, p.types);
+        if (mult === 0) immune++;
+        else if (mult > 1) weak++;
+        else if (mult < 1) resist++;
+      }
+      return { type: atk, weak, resist, immune };
+    });
+    return {
+      count: members.length,
+      weaknesses: rows.filter((r) => r.weak > 0).sort((a, b) => b.weak - a.weak),
+      resistances: rows.filter((r) => r.resist > 0).sort((a, b) => b.resist - a.resist),
+      immunities: rows.filter((r) => r.immune > 0).sort((a, b) => b.immune - a.immune),
+      // A shared weakness (2+ members hit hard by one type) is the actionable bit.
+      shared: rows.filter((r) => r.weak >= 2).sort((a, b) => b.weak - a.weak),
+    };
+  }, [team, matrix]);
+
   async function exportImage(mode: "copy" | "download") {
     if (!cardRef.current) return;
     setStatus("Generando imagen...");
@@ -135,6 +177,11 @@ export default function TeamBuilder() {
         {status && <span style={{ alignSelf: "center", fontSize: "0.85rem", color: "var(--text-muted)" }}>{status}</span>}
       </div>
 
+      {/* The card is a fixed 4-wide layout so the exported PNG stays consistent;
+          on a phone it's ~10px wider than the screen, so it scrolls inside this
+          wrapper instead of dragging the whole page sideways. The ref stays on
+          the card itself, so the export is unaffected. */}
+      <div style={{ overflowX: "auto", maxWidth: "100%" }}>
       <div
         ref={cardRef}
         style={{
@@ -143,6 +190,7 @@ export default function TeamBuilder() {
           borderRadius: "14px",
           padding: "1.5rem",
           maxWidth: "820px",
+          minWidth: "360px",
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "0.6rem", borderBottom: "1px solid #2a2d36", paddingBottom: "0.85rem", marginBottom: "1.1rem" }}>
@@ -233,6 +281,73 @@ export default function TeamBuilder() {
           <span style={{ color: "#6b7280" }}>{today}</span>
         </div>
       </div>
+      </div>
+
+      {analysis && (
+        <div class="panel team-analysis">
+          <h2 style={{ marginTop: 0 }}>Cobertura defensiva del equipo</h2>
+          <p class="ta-note">
+            Según el tipo de los {analysis.count} Pokémon del equipo (no considera habilidades como Levitación).
+          </p>
+
+          {analysis.shared.length > 0 && (
+            <div class="ta-shared">
+              <strong>⚠ Debilidades compartidas</strong>
+              <div class="ta-chips">
+                {analysis.shared.map((r) => (
+                  <span class="ta-chip">
+                    <span class="type-badge" style={{ background: `var(--type-${r.type})` }}>{TYPE_LABELS[r.type] ?? r.type}</span>
+                    <b class="ta-weak">{r.weak}</b>
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div class="ta-grid">
+            <div>
+              <h3 class="ta-h ta-h-weak">Debilidades</h3>
+              {analysis.weaknesses.length ? (
+                <div class="ta-chips">
+                  {analysis.weaknesses.map((r) => (
+                    <span class="ta-chip">
+                      <span class="type-badge" style={{ background: `var(--type-${r.type})` }}>{TYPE_LABELS[r.type] ?? r.type}</span>
+                      <b class="ta-weak">{r.weak}</b>
+                    </span>
+                  ))}
+                </div>
+              ) : <p class="ta-none">Ninguna.</p>}
+            </div>
+            <div>
+              <h3 class="ta-h ta-h-resist">Resistencias</h3>
+              {analysis.resistances.length ? (
+                <div class="ta-chips">
+                  {analysis.resistances.map((r) => (
+                    <span class="ta-chip">
+                      <span class="type-badge" style={{ background: `var(--type-${r.type})` }}>{TYPE_LABELS[r.type] ?? r.type}</span>
+                      <b class="ta-resist">{r.resist}</b>
+                    </span>
+                  ))}
+                </div>
+              ) : <p class="ta-none">Ninguna.</p>}
+            </div>
+            <div>
+              <h3 class="ta-h ta-h-immune">Inmunidades</h3>
+              {analysis.immunities.length ? (
+                <div class="ta-chips">
+                  {analysis.immunities.map((r) => (
+                    <span class="ta-chip">
+                      <span class="type-badge" style={{ background: `var(--type-${r.type})` }}>{TYPE_LABELS[r.type] ?? r.type}</span>
+                      <b class="ta-immune">{r.immune}</b>
+                    </span>
+                  ))}
+                </div>
+              ) : <p class="ta-none">Ninguna.</p>}
+            </div>
+          </div>
+          <p class="ta-legend">El número es cuántos miembros del equipo son débiles / resisten / son inmunes a ese tipo.</p>
+        </div>
+      )}
 
       {pickerSlot !== null && (
         <div
@@ -255,7 +370,7 @@ export default function TeamBuilder() {
                   type="button"
                   onClick={() => pick(p)}
                   style={{ display: "flex", alignItems: "center", gap: "0.6rem", background: "none", border: "none", padding: "0.4rem", cursor: "pointer", textAlign: "left", borderRadius: "6px", width: "100%" }}
-                  onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.background = "#f4f6f8")}
+                  onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.background = "var(--row-hover)")}
                   onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.background = "none")}
                 >
                   {p.image.kind === "placeholder" ? (
@@ -283,7 +398,9 @@ function btnStyle(primary: boolean) {
     padding: "0.5rem 1rem",
     borderRadius: "999px",
     border: primary ? "none" : "1px solid var(--border)",
-    background: primary ? "var(--accent)" : "#fff",
+    // The secondary button was hardcoded white, which read as a bright chip in
+    // dark mode. Both sides now use theme variables.
+    background: primary ? "var(--accent)" : "var(--subtle-bg)",
     color: primary ? "#fff" : "var(--text)",
     fontWeight: 600,
     fontSize: "0.85rem",

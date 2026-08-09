@@ -5,6 +5,9 @@ import matrix from "../../data/generated/typeMatrix.json";
 const types = Object.keys(matrix).sort();
 const cellLabel = (m: number) => (m === 0 ? "0" : m === 0.5 ? "½" : m === 2 ? "2" : m === 4 ? "4" : m === 0.25 ? "¼" : "1");
 const cellClass = (m: number) => (m === 0 ? "im" : m > 1 ? "wk" : m < 1 ? "rs" : "");
+// steel and stellar both start "ste"; disambiguate the column headers.
+const ABBR: Record<string, string> = { steel: "STE", stellar: "STL" };
+const abbr = (t: string) => ABBR[t] ?? t.slice(0, 3).toUpperCase();
 ---
 <Layout title="Tabla de tipos">
   <h1>Tabla de efectividad de tipos</h1>
@@ -14,7 +17,7 @@ const cellClass = (m: number) => (m === 0 ? "im" : m > 1 ? "wk" : m < 1 ? "rs" :
       <thead>
         <tr>
           <th></th>
-          {types.map((t) => <th><a href={`/type/${t}`} class="type-badge" style={`background:var(--type-${t}); font-size:0.62rem;`}>{t.slice(0, 3)}</a></th>)}
+          {types.map((t) => <th><a href={`/type/${t}`} class="type-badge" style={`background:var(--type-${t}); font-size:0.62rem;`} title={t}>{abbr(t)}</a></th>)}
         </tr>
       </thead>
       <tbody>
@@ -34,7 +37,11 @@ const cellClass = (m: number) => (m === 0 ? "im" : m > 1 ? "wk" : m < 1 ? "rs" :
 
 <style>
   .type-matrix td, .type-matrix th { text-align: center; padding: 0.35rem; font-size: 0.78rem; }
-  .type-matrix td.wk { background: #ffe1e1; font-weight: 700; }
-  .type-matrix td.rs { background: #e2f4e2; }
-  .type-matrix td.im { background: #333; color: #fff; font-weight: 700; }
+  /* Dark text is set explicitly on the coloured cells: the pastel backgrounds
+     are fixed and light, so in dark mode the inherited near-white text vanished
+     on them - only the neutral "1" and immune "0" cells were readable. Dark
+     text reads on the pastels in both themes. */
+  .type-matrix td.wk { background: #f6c6c6; color: #3a0d0d; font-weight: 700; }
+  .type-matrix td.rs { background: #bfe6c1; color: #0d3212; font-weight: 700; }
+  .type-matrix td.im { background: #4a4a4a; color: #fff; font-weight: 700; }
 </style>
