@@ -1011,6 +1011,8 @@ button.team-move { border: 0; cursor: pointer; font-family: inherit; }
   border-radius: 999px;
   color: #fff;
 }
+/* The count reveals its members on hover (native title tooltip). */
+.ta-count { cursor: help; }
 .ta-weak { background: #d15a5a; }
 .ta-resist { background: #4caf6a; }
 .ta-immune { background: #8a8f99; }

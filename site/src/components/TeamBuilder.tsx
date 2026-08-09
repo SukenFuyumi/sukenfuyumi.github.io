@@ -18,6 +18,11 @@ function isCustom(p: MonListing): boolean {
   return p.formOf !== null || p.primarySource !== "cobblemon-core";
 }
 
+/** Same display name the team card uses, e.g. "Budabon (Hisuian)". */
+function shortName(p: MonListing): string {
+  return p.formOf ? `${p.formOf.name} (${p.name.replace(`${p.formOf.name} `, "")})` : p.name;
+}
+
 function displaySlotImg(p: MonListing) {
   if (p.image.kind === "placeholder") {
     return (
@@ -112,14 +117,17 @@ export default function TeamBuilder({ matrix }: { matrix: Matrix }) {
     const members = team.filter((p): p is MonListing => p !== null);
     if (!members.length) return null;
     const rows = Object.keys(matrix).map((atk) => {
-      let weak = 0, resist = 0, immune = 0;
+      // Names are kept per bucket so hovering a count can list exactly which
+      // team members it refers to. ×4 members are flagged so the tooltip can
+      // call out a double weakness.
+      const weakMons: string[] = [], resistMons: string[] = [], immuneMons: string[] = [];
       for (const p of members) {
         const mult = multiplierAgainst(matrix, atk, p.types);
-        if (mult === 0) immune++;
-        else if (mult > 1) weak++;
-        else if (mult < 1) resist++;
+        if (mult === 0) immuneMons.push(shortName(p));
+        else if (mult > 1) weakMons.push(mult >= 4 ? `${shortName(p)} (×4)` : shortName(p));
+        else if (mult < 1) resistMons.push(mult <= 0.25 ? `${shortName(p)} (×¼)` : shortName(p));
       }
-      return { type: atk, weak, resist, immune };
+      return { type: atk, weak: weakMons.length, resist: resistMons.length, immune: immuneMons.length, weakMons, resistMons, immuneMons };
     });
     return {
       count: members.length,
@@ -297,7 +305,7 @@ export default function TeamBuilder({ matrix }: { matrix: Matrix }) {
                 {analysis.shared.map((r) => (
                   <span class="ta-chip">
                     <span class="type-badge" style={{ background: `var(--type-${r.type})` }}>{TYPE_LABELS[r.type] ?? r.type}</span>
-                    <b class="ta-weak">{r.weak}</b>
+                    <b class="ta-weak ta-count" title={r.weakMons.join(", ")}>{r.weak}</b>
                   </span>
                 ))}
               </div>
@@ -312,7 +320,7 @@ export default function TeamBuilder({ matrix }: { matrix: Matrix }) {
                   {analysis.weaknesses.map((r) => (
                     <span class="ta-chip">
                       <span class="type-badge" style={{ background: `var(--type-${r.type})` }}>{TYPE_LABELS[r.type] ?? r.type}</span>
-                      <b class="ta-weak">{r.weak}</b>
+                      <b class="ta-weak ta-count" title={r.weakMons.join(", ")}>{r.weak}</b>
                     </span>
                   ))}
                 </div>
@@ -325,7 +333,7 @@ export default function TeamBuilder({ matrix }: { matrix: Matrix }) {
                   {analysis.resistances.map((r) => (
                     <span class="ta-chip">
                       <span class="type-badge" style={{ background: `var(--type-${r.type})` }}>{TYPE_LABELS[r.type] ?? r.type}</span>
-                      <b class="ta-resist">{r.resist}</b>
+                      <b class="ta-resist ta-count" title={r.resistMons.join(", ")}>{r.resist}</b>
                     </span>
                   ))}
                 </div>
@@ -338,14 +346,14 @@ export default function TeamBuilder({ matrix }: { matrix: Matrix }) {
                   {analysis.immunities.map((r) => (
                     <span class="ta-chip">
                       <span class="type-badge" style={{ background: `var(--type-${r.type})` }}>{TYPE_LABELS[r.type] ?? r.type}</span>
-                      <b class="ta-immune">{r.immune}</b>
+                      <b class="ta-immune ta-count" title={r.immuneMons.join(", ")}>{r.immune}</b>
                     </span>
                   ))}
                 </div>
               ) : <p class="ta-none">Ninguna.</p>}
             </div>
           </div>
-          <p class="ta-legend">El número es cuántos miembros del equipo son débiles / resisten / son inmunes a ese tipo.</p>
+          <p class="ta-legend">El número es cuántos miembros del equipo son débiles / resisten / son inmunes a ese tipo. Pasa el cursor por encima para ver cuáles.</p>
         </div>
       )}
 
